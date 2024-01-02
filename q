@@ -1,0 +1,1 @@
+sudo kill -9 `cat /home/yen0224/NTUST/PID_FILE_NAME`

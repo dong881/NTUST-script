@@ -1,0 +1,32 @@
+#!/bin/bash
+
+L2_PATH="/home/yen0224/new/small_cell_integration/l2"
+LOG_PATH="/home/yen0224/NTUST/LOG"
+CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
+CU_LOG_FILE="$LOG_PATH/1-CU_STUB.log"
+RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
+RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
+ODU_PATH="$L2_PATH/bin/odu/odu"
+ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
+PNF_PATH="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
+PNF_CONF="/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf"
+PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
+PID_FILE="$LOG_PATH/PID_FILE_NAME"
+
+echo "RUN OSC CU_STUB"
+sudo stdbuf -oL $CU_STUB_PATH 2>&1 | ts &>$CU_LOG_FILE &
+
+echo "RUN OSC RIC_STUB"
+sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
+
+echo "RUN OSC DU"
+sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
+sleep 2
+ODU_PID=$(pgrep -o odu)
+echo $ODU_PID > $PID_FILE
+
+echo "RUN OAI PNF"
+sudo stdbuf -oL $PNF_PATH -O $PNF_CONF --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &>$PNF_LOG_FILE &
+sleep 2
+PNF_PID=$(pgrep -o -f "$PNF_PATH")
+echo $PNF_PID >> $PID_FILE

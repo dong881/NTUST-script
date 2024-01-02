@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "RUN OSC DU"
+
+sudo stdbuf -oL /home/yen0224/new/small_cell_integration/l2/bin/odu/odu 2>&1 | ts &>/home/yen0224/NTUST/LOG/3-OSC_DU.log

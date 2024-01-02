@@ -1,0 +1,13 @@
+#!/bin/bash
+sudo echo "Build OSC DU"
+
+cd /home/yen0224/new/small_cell_integration/l2/build/odu
+#clean
+make clean_odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make clean_cu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make clean_ric MACHINE=BIT64 MODE=FDD NFAPI=YES
+
+#compile
+make odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES

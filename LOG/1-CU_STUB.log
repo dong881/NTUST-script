@@ -1,0 +1,13 @@
+ 一  03 00:15:15 
+ 一  03 00:15:15 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3743
+ 一  03 00:15:15 
+ 一  03 00:15:15 INFO   -->  CU_STUB : Starting CU_STUB
+ 一  03 00:15:15 
+ 一  03 00:15:15 DEBUG  -->  CU_STUB : Reading CU configurations
+ 一  03 00:15:15 
+ 一  03 00:15:15 DEBUG  -->  EGTP : Initializing
+ 一  03 00:15:15 INFO  -->  EGTP : Configuration successful
+ 一  03 00:15:15 INFO  -->  EGTP : Received open server request
+ 一  03 00:15:15 INFO  -->  EGTP : Socket[4] is open
+ 一  03 00:15:15 
+ 一  03 00:15:15 DEBUG  -->  SCTP : Initializing

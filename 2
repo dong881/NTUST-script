@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "RUN OSC RIC_STUB"
+
+sudo stdbuf -oL /home/yen0224/new/small_cell_integration/l2/bin/ric_stub/ric_stub 2>&1 | ts &> /home/yen0224/NTUST/LOG/2-RIC_STUB.log

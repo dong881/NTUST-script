@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd /home/yen0224/NTUST/openairinterface5g/cmake_targets/ran_build/build
+
+# 定義路徑變數
+NFAPI_TRACE_LEVEL=info
+LD_LIBRARY_PATH=.
+CONF_PATH=../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+LOG_PATH=/home/yen0224/NTUST/LOG/nfapi-fixes
+
+# 執行指令碼
+sudo stdbuf -oL ./nr-softmodem -O $CONF_PATH/oaiL1.nfapi.usrpb210.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa 2>&1 | ts &> $LOG_PATH/PNF.log

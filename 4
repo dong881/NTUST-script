@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "RUN OAI PNF"
+
+sudo stdbuf -oL /home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem -O /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &> /home/yen0224/NTUST/LOG/4-OAI_PNF.log

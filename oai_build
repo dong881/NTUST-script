@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo echo "Build OAI DU"
+
+cd /home/yen0224/openairinterface5g/cmake_targets
+
+#compile
+./build_oai -I -c -C
+./build_oai -w USRP --gNB
+

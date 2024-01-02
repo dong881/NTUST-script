@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo echo "RUN OSC CU_STUB"
+sudo stdbuf -oL /home/yen0224/new/small_cell_integration/l2/bin/cu_stub/cu_stub 2>&1 | ts &>/home/yen0224/NTUST/LOG/1-CU_STUB.log
