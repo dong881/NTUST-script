@@ -1,5 +1,18 @@
 #!/bin/bash
 
+sudo echo "Build OSC DU"
+
+cd /home/yen0224/new/small_cell_integration/l2/build/odu
+#clean
+make clean_odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make clean_cu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make clean_ric MACHINE=BIT64 MODE=FDD NFAPI=YES
+
+#compile
+make odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+
 L2_PATH="/home/yen0224/new/small_cell_integration/l2"
 LOG_PATH="/home/yen0224/NTUST/LOG"
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
@@ -12,6 +25,8 @@ PNF_PATH="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-soft
 PNF_CONF="/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf"
 PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
+
+cd ~
 
 echo "RUN OSC CU_STUB"
 sudo stdbuf -oL $CU_STUB_PATH 2>&1 | ts &>$CU_LOG_FILE &
