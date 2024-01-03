@@ -1,6 +1,9 @@
 #!/bin/bash
 
-#!/bin/bash
+echo "Ensure that the previous execution has been closed."
+echo "If you see 'kill: (xxxPIDxxx): No such process,' it means the previous execution has been closed."
+/home/yen0224/NTUST/q
+
 echo "***** Assigning IP addresses *****"
 INTERFACE=$(ip route | grep default | sed -e "s/^.*dev.//" -e "s/.proto.*//")
 INTERFACE="$(echo -e "${INTERFACE}" | tr -d '[:space:]')"
@@ -83,7 +86,7 @@ echo -n " " >> $PID_FILE
 echo "RUN OAI PNF"
 sudo stdbuf -oL $PNF_PATH -O $PNF_CONF --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &>$PNF_LOG_FILE &
 sleep 5
-PNF_PID=$(pgrep -o nr-softmodem)
-# $(pgrep -o -f "$PNF_PATH")
+PNF_PID=$(pgrep -o -f "$PNF_PATH")
+# $(pgrep -o nr-softmodem)
 echo $PNF_PID
 echo -n $PNF_PID >> $PID_FILE
