@@ -1,236 +1,235 @@
- 一  03 15:44:38 
- 一  03 15:44:38 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3743
- 一  03 15:44:38 
- 一  03 15:44:38 INFO   -->  CU_STUB : Starting CU_STUB
- 一  03 15:44:38 
- 一  03 15:44:38 DEBUG  -->  CU_STUB : Reading CU configurations
- 一  03 15:44:38 
- 一  03 15:44:38 DEBUG  -->  EGTP : Initializing
- 一  03 15:44:38 INFO  -->  EGTP : Configuration successful
- 一  03 15:44:38 INFO  -->  EGTP : Received open server request
- 一  03 15:44:38 INFO  -->  EGTP : Socket[4] is open
- 一  03 15:44:38 
- 一  03 15:44:38 DEBUG  -->  SCTP : Initializing
- 一  03 15:44:41 INFO  -->  SCTP : Connecting
- 一  03 15:44:41 INFO  -->  SCTP : Connection established
- 一  03 15:44:41 INFO  -->  F1AP : Received F1AP message buffer
- 一  03 15:44:41 DEBUG  -->  F1AP : Received flat buffer to be decoded : 
- 一  03 15:44:41 0 1 0 ffffff80 ffffffd9 0 0 5 0 4e 0 2 0 1 0 2a 0 2 0 1 0 2d 40 d 5 0 4f 52 41 4e 20 4f 41 4d 20 44 55 0 2c 0 ffffff80 ffffffa6 0 0 0 2b 0 ffffff80 ffffff9f 48 0 13 fffffff1 ffffff84 0 0 0 0 10 0 1 0 0 1 8 13 fffffff1 ffffff84 0 0 0 ffffff83 40 c 0 1 40 20 2 3 4 40 ffffffa0 6 7 8 1 0 5 fffffff3 70 0 0 0 0 40 6 ffffff87 ffffffe0 0 0 0 0 7 0 ffffffe0 7 10 11 33 ffffffd4 1 2 0 0 3 0 0 c 58 7c 3 28 ffffffa3 40 61 31 1a 40 0 ffffff80 0 0 ffffff80 0 0 0 f 7f 0 0 20 28 12 10 0 3 0 0 0 26 ffffffce 19 62 ffffffbb 0 36 4 2 0 f 11 0 ffffff82 d 18 8 50 50 ffffff9b ffffff88 ffffff82 ffffffc1 0 0 0 ffffff9e ffffffae 70 ffffffcb 16 ffffffa0 ffffff80 52 48 a 67 ffffffcc 79 fffffff8 0 27 18 ffffff88 51 50 ffffff8c 25 40 ffffff80 ffffffec 4 16 3 ffffffe0 8 5e 0 0 ffffffab 0 a ffffff80 0 0 0 ffffffc7 0 3 f 5 0 
- 一  03 15:44:41 <F1AP-PDU>
- 一  03 15:44:41     <initiatingMessage>
- 一  03 15:44:41         <procedureCode>1</procedureCode>
- 一  03 15:44:41         <criticality><reject/></criticality>
- 一  03 15:44:41         <value>
- 一  03 15:44:41             <F1SetupRequest>
- 一  03 15:44:41                 <protocolIEs>
- 一  03 15:44:41                     <F1SetupRequestIEs>
- 一  03 15:44:41                         <id>78</id>
- 一  03 15:44:41                         <criticality><reject/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <TransactionID>1</TransactionID>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupRequestIEs>
- 一  03 15:44:41                     <F1SetupRequestIEs>
- 一  03 15:44:41                         <id>42</id>
- 一  03 15:44:41                         <criticality><reject/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <GNB-DU-ID>1</GNB-DU-ID>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupRequestIEs>
- 一  03 15:44:41                     <F1SetupRequestIEs>
- 一  03 15:44:41                         <id>45</id>
- 一  03 15:44:41                         <criticality><ignore/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <GNB-DU-Name>ORAN OAM DU</GNB-DU-Name>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupRequestIEs>
- 一  03 15:44:41                     <F1SetupRequestIEs>
- 一  03 15:44:41                         <id>44</id>
- 一  03 15:44:41                         <criticality><reject/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <GNB-DU-Served-Cells-List>
- 一  03 15:44:41                                 <ProtocolIE-SingleContainer>
- 一  03 15:44:41                                     <id>43</id>
- 一  03 15:44:41                                     <criticality><reject/></criticality>
- 一  03 15:44:41                                     <value>
- 一  03 15:44:41                                         <GNB-DU-Served-Cells-Item>
- 一  03 15:44:41                                             <served-Cell-Information>
- 一  03 15:44:41                                                 <nRCGI>
- 一  03 15:44:41                                                     <pLMN-Identity>13 F1 84</pLMN-Identity>
- 一  03 15:44:41                                                     <nRCellIdentity>
- 一  03 15:44:41                                                         000000000000000000000000000000000001
- 一  03 15:44:41                                                     </nRCellIdentity>
- 一  03 15:44:41                                                 </nRCGI>
- 一  03 15:44:41                                                 <nRPCI>1</nRPCI>
- 一  03 15:44:41                                                 <fiveGS-TAC>00 00 01</fiveGS-TAC>
- 一  03 15:44:41                                                 <servedPLMNs>
- 一  03 15:44:41                                                     <ServedPLMNs-Item>
- 一  03 15:44:41                                                         <pLMN-Identity>13 F1 84</pLMN-Identity>
- 一  03 15:44:41                                                         <iE-Extensions>
- 一  03 15:44:41                                                             <ServedPLMNs-ItemExtIEs>
- 一  03 15:44:41                                                                 <id>131</id>
- 一  03 15:44:41                                                                 <criticality><ignore/></criticality>
- 一  03 15:44:41                                                                 <extensionValue>
- 一  03 15:44:41                                                                     <SliceSupportList>
- 一  03 15:44:41                                                                         <SliceSupportItem>
- 一  03 15:44:41                                                                             <sNSSAI>
- 一  03 15:44:41                                                                                 <sST>01</sST>
- 一  03 15:44:41                                                                                 <sD>02 03 04</sD>
- 一  03 15:44:41                                                                             </sNSSAI>
- 一  03 15:44:41                                                                         </SliceSupportItem>
- 一  03 15:44:41                                                                         <SliceSupportItem>
- 一  03 15:44:41                                                                             <sNSSAI>
- 一  03 15:44:41                                                                                 <sST>05</sST>
- 一  03 15:44:41                                                                                 <sD>06 07 08</sD>
- 一  03 15:44:41                                                                             </sNSSAI>
- 一  03 15:44:41                                                                         </SliceSupportItem>
- 一  03 15:44:41                                                                     </SliceSupportList>
- 一  03 15:44:41                                                                 </extensionValue>
- 一  03 15:44:41                                                             </ServedPLMNs-ItemExtIEs>
- 一  03 15:44:41                                                         </iE-Extensions>
- 一  03 15:44:41                                                     </ServedPLMNs-Item>
- 一  03 15:44:41                                                 </servedPLMNs>
- 一  03 15:44:41                                                 <nR-Mode-Info>
- 一  03 15:44:41                                                     <fDD>
- 一  03 15:44:41                                                         <uL-NRFreqInfo>
- 一  03 15:44:41                                                             <nRARFCN>390000</nRARFCN>
- 一  03 15:44:41                                                             <freqBandListNr>
- 一  03 15:44:41                                                                 <FreqBandNrItem>
- 一  03 15:44:41                                                                     <freqBandIndicatorNr>1</freqBandIndicatorNr>
- 一  03 15:44:41                                                                     <supportedSULBandList>
- 一  03 15:44:41                                                                     </supportedSULBandList>
- 一  03 15:44:41                                                                 </FreqBandNrItem>
- 一  03 15:44:41                                                             </freqBandListNr>
- 一  03 15:44:41                                                         </uL-NRFreqInfo>
- 一  03 15:44:41                                                         <dL-NRFreqInfo>
- 一  03 15:44:41                                                             <nRARFCN>428000</nRARFCN>
- 一  03 15:44:41                                                             <freqBandListNr>
- 一  03 15:44:41                                                                 <FreqBandNrItem>
- 一  03 15:44:41                                                                     <freqBandIndicatorNr>1</freqBandIndicatorNr>
- 一  03 15:44:41                                                                     <supportedSULBandList>
- 一  03 15:44:41                                                                     </supportedSULBandList>
- 一  03 15:44:41                                                                 </FreqBandNrItem>
- 一  03 15:44:41                                                             </freqBandListNr>
- 一  03 15:44:41                                                         </dL-NRFreqInfo>
- 一  03 15:44:41                                                         <uL-Transmission-Bandwidth>
- 一  03 15:44:41                                                             <nRSCS><scs15/></nRSCS>
- 一  03 15:44:41                                                             <nRNRB><nrb106/></nRNRB>
- 一  03 15:44:41                                                         </uL-Transmission-Bandwidth>
- 一  03 15:44:41                                                         <dL-Transmission-Bandwidth>
- 一  03 15:44:41                                                             <nRSCS><scs15/></nRSCS>
- 一  03 15:44:41                                                             <nRNRB><nrb106/></nRNRB>
- 一  03 15:44:41                                                         </dL-Transmission-Bandwidth>
- 一  03 15:44:41                                                     </fDD>
- 一  03 15:44:41                                                 </nR-Mode-Info>
- 一  03 15:44:41                                                 <measurementTimingConfiguration>10 11 33 D4 01 02 00</measurementTimingConfiguration>
- 一  03 15:44:41                                             </served-Cell-Information>
- 一  03 15:44:41                                             <gNB-DU-System-Information>
- 一  03 15:44:41                                                 <mIB-message>00 00 0C</mIB-message>
- 一  03 15:44:41                                                 <sIB1-message>
- 一  03 15:44:41                                                     7C 03 28 A3 40 61 31 1A 40 00 80 00 00 80 00 00 
- 一  03 15:44:41                                                     00 0F 7F 00 00 20 28 12 10 00 03 00 00 00 26 CE 
- 一  03 15:44:41                                                     19 62 BB 00 36 04 02 00 0F 11 00 82 0D 18 08 50 
- 一  03 15:44:41                                                     50 9B 88 82 C1 00 00 00 9E AE 70 CB 16 A0 80 52 
- 一  03 15:44:41                                                     48 0A 67 CC 79 F8 00 27 18 88 51 50 8C 25 40 80 
- 一  03 15:44:41                                                     EC 04 16 03 E0 08 5E 00
- 一  03 15:44:41                                                 </sIB1-message>
- 一  03 15:44:41                                             </gNB-DU-System-Information>
- 一  03 15:44:41                                         </GNB-DU-Served-Cells-Item>
- 一  03 15:44:41                                     </value>
- 一  03 15:44:41                                 </ProtocolIE-SingleContainer>
- 一  03 15:44:41                             </GNB-DU-Served-Cells-List>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupRequestIEs>
- 一  03 15:44:41                     <F1SetupRequestIEs>
- 一  03 15:44:41                         <id>171</id>
- 一  03 15:44:41                         <criticality><reject/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <RRC-Version>
- 一  03 15:44:41                                 <latest-RRC-Version>
- 一  03 15:44:41                                     000
- 一  03 15:44:41                                 </latest-RRC-Version>
- 一  03 15:44:41                                 <iE-Extensions>
- 一  03 15:44:41                                     <RRC-Version-ExtIEs>
- 一  03 15:44:41                                         <id>199</id>
- 一  03 15:44:41                                         <criticality><reject/></criticality>
- 一  03 15:44:41                                         <extensionValue>
- 一  03 15:44:41                                             <Latest-RRC-Version-Enhanced>0F 05 00</Latest-RRC-Version-Enhanced>
- 一  03 15:44:41                                         </extensionValue>
- 一  03 15:44:41                                     </RRC-Version-ExtIEs>
- 一  03 15:44:41                                 </iE-Extensions>
- 一  03 15:44:41                             </RRC-Version>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupRequestIEs>
- 一  03 15:44:41                 </protocolIEs>
- 一  03 15:44:41             </F1SetupRequest>
- 一  03 15:44:41         </value>
- 一  03 15:44:41     </initiatingMessage>
- 一  03 15:44:41 </F1AP-PDU>
- 一  03 15:44:41 
- 一  03 15:44:41 INFO  -->  F1AP : F1 setup request received
- 一  03 15:44:41 INFO  -->  F1AP : Building F1 Setup Response
- 一  03 15:44:41 <F1AP-PDU>
- 一  03 15:44:41     <successfulOutcome>
- 一  03 15:44:41         <procedureCode>1</procedureCode>
- 一  03 15:44:41         <criticality><reject/></criticality>
- 一  03 15:44:41         <value>
- 一  03 15:44:41             <F1SetupResponse>
- 一  03 15:44:41                 <protocolIEs>
- 一  03 15:44:41                     <F1SetupResponseIEs>
- 一  03 15:44:41                         <id>78</id>
- 一  03 15:44:41                         <criticality><reject/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <TransactionID>1</TransactionID>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupResponseIEs>
- 一  03 15:44:41                     <F1SetupResponseIEs>
- 一  03 15:44:41                         <id>3</id>
- 一  03 15:44:41                         <criticality><reject/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <Cells-to-be-Activated-List>
- 一  03 15:44:41                                 <ProtocolIE-SingleContainer>
- 一  03 15:44:41                                     <id>4</id>
- 一  03 15:44:41                                     <criticality><ignore/></criticality>
- 一  03 15:44:41                                     <value>
- 一  03 15:44:41                                         <Cells-to-be-Activated-List-Item>
- 一  03 15:44:41                                             <nRCGI>
- 一  03 15:44:41                                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
- 一  03 15:44:41                                                 <nRCellIdentity>
- 一  03 15:44:41                                                     000000000000000000000000000000000001
- 一  03 15:44:41                                                 </nRCellIdentity>
- 一  03 15:44:41                                             </nRCGI>
- 一  03 15:44:41                                         </Cells-to-be-Activated-List-Item>
- 一  03 15:44:41                                     </value>
- 一  03 15:44:41                                 </ProtocolIE-SingleContainer>
- 一  03 15:44:41                             </Cells-to-be-Activated-List>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupResponseIEs>
- 一  03 15:44:41                     <F1SetupResponseIEs>
- 一  03 15:44:41                         <id>170</id>
- 一  03 15:44:41                         <criticality><reject/></criticality>
- 一  03 15:44:41                         <value>
- 一  03 15:44:41                             <RRC-Version>
- 一  03 15:44:41                                 <latest-RRC-Version>
- 一  03 15:44:41                                     000
- 一  03 15:44:41                                 </latest-RRC-Version>
- 一  03 15:44:41                                 <iE-Extensions>
- 一  03 15:44:41                                     <RRC-Version-ExtIEs>
- 一  03 15:44:41                                         <id>199</id>
- 一  03 15:44:41                                         <criticality><reject/></criticality>
- 一  03 15:44:41                                         <extensionValue>
- 一  03 15:44:41                                             <Latest-RRC-Version-Enhanced>00 05 0F</Latest-RRC-Version-Enhanced>
- 一  03 15:44:41                                         </extensionValue>
- 一  03 15:44:41                                     </RRC-Version-ExtIEs>
- 一  03 15:44:41                                 </iE-Extensions>
- 一  03 15:44:41                             </RRC-Version>
- 一  03 15:44:41                         </value>
- 一  03 15:44:41                     </F1SetupResponseIEs>
- 一  03 15:44:41                 </protocolIEs>
- 一  03 15:44:41             </F1SetupResponse>
- 一  03 15:44:41         </value>
- 一  03 15:44:41     </successfulOutcome>
- 一  03 15:44:41 </F1AP-PDU>
- 一  03 15:44:41 
- 一  03 15:44:41 DEBUG  -->  F1AP : Created APER encoded buffer for F1SetupResponse
- 一  03 15:44:44 40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
- 一  03 15:44:44 INFO  -->  SCTP : Shutdown Event notification received
+ 一  03 20:21:11 
+ 一  03 20:21:11 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3743
+ 一  03 20:21:11 
+ 一  03 20:21:11 INFO   -->  CU_STUB : Starting CU_STUB
+ 一  03 20:21:11 
+ 一  03 20:21:11 DEBUG  -->  CU_STUB : Reading CU configurations
+ 一  03 20:21:11 
+ 一  03 20:21:11 DEBUG  -->  EGTP : Initializing
+ 一  03 20:21:11 INFO  -->  EGTP : Configuration successful
+ 一  03 20:21:11 INFO  -->  EGTP : Received open server request
+ 一  03 20:21:11 INFO  -->  EGTP : Socket[4] is open
+ 一  03 20:21:11 
+ 一  03 20:21:11 DEBUG  -->  SCTP : Initializing
+ 一  03 20:21:15 INFO  -->  SCTP : Connecting
+ 一  03 20:21:15 INFO  -->  SCTP : Connection established
+ 一  03 20:21:15 INFO  -->  F1AP : Received F1AP message buffer
+ 一  03 20:21:15 DEBUG  -->  F1AP : Received flat buffer to be decoded : 
+ 一  03 20:21:15 0 1 0 ffffff80 ffffffd9 0 0 5 0 4e 0 2 0 1 0 2a 0 2 0 1 0 2d 40 d 5 0 4f 52 41 4e 20 4f 41 4d 20 44 55 0 2c 0 ffffff80 ffffffa6 0 0 0 2b 0 ffffff80 ffffff9f 48 0 13 fffffff1 ffffff84 0 0 0 0 10 0 1 0 0 1 8 13 fffffff1 ffffff84 0 0 0 ffffff83 40 c 0 1 40 20 2 3 4 40 ffffffa0 6 7 8 1 0 5 fffffff3 70 0 0 0 0 40 6 ffffff87 ffffffe0 0 0 0 0 7 0 ffffffe0 7 10 11 33 ffffffd4 1 2 0 0 3 0 0 c 58 7c 3 28 ffffffa3 40 61 31 1a 40 0 ffffff80 0 0 ffffff80 0 0 0 f 7f 0 0 20 28 12 10 0 3 0 0 0 26 ffffffce 19 62 ffffffbb 0 36 4 2 0 f 11 0 ffffff82 d 18 8 50 50 ffffff9b ffffff88 ffffff82 ffffffc1 0 0 0 ffffff9e ffffffae 70 ffffffcb 16 ffffffa0 ffffff80 52 48 a 67 ffffffcc 79 fffffff8 0 27 18 ffffff88 51 50 ffffff8c 25 40 ffffff80 ffffffec 4 16 3 ffffffe0 8 5e 0 0 ffffffab 0 a ffffff80 0 0 0 ffffffc7 0 3 f 5 0 
+ 一  03 20:21:15 <F1AP-PDU>
+ 一  03 20:21:15     <initiatingMessage>
+ 一  03 20:21:15         <procedureCode>1</procedureCode>
+ 一  03 20:21:15         <criticality><reject/></criticality>
+ 一  03 20:21:15         <value>
+ 一  03 20:21:15             <F1SetupRequest>
+ 一  03 20:21:15                 <protocolIEs>
+ 一  03 20:21:15                     <F1SetupRequestIEs>
+ 一  03 20:21:15                         <id>78</id>
+ 一  03 20:21:15                         <criticality><reject/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <TransactionID>1</TransactionID>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupRequestIEs>
+ 一  03 20:21:15                     <F1SetupRequestIEs>
+ 一  03 20:21:15                         <id>42</id>
+ 一  03 20:21:15                         <criticality><reject/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <GNB-DU-ID>1</GNB-DU-ID>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupRequestIEs>
+ 一  03 20:21:15                     <F1SetupRequestIEs>
+ 一  03 20:21:15                         <id>45</id>
+ 一  03 20:21:15                         <criticality><ignore/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <GNB-DU-Name>ORAN OAM DU</GNB-DU-Name>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupRequestIEs>
+ 一  03 20:21:15                     <F1SetupRequestIEs>
+ 一  03 20:21:15                         <id>44</id>
+ 一  03 20:21:15                         <criticality><reject/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <GNB-DU-Served-Cells-List>
+ 一  03 20:21:15                                 <ProtocolIE-SingleContainer>
+ 一  03 20:21:15                                     <id>43</id>
+ 一  03 20:21:15                                     <criticality><reject/></criticality>
+ 一  03 20:21:15                                     <value>
+ 一  03 20:21:15                                         <GNB-DU-Served-Cells-Item>
+ 一  03 20:21:15                                             <served-Cell-Information>
+ 一  03 20:21:15                                                 <nRCGI>
+ 一  03 20:21:15                                                     <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 一  03 20:21:15                                                     <nRCellIdentity>
+ 一  03 20:21:15                                                         000000000000000000000000000000000001
+ 一  03 20:21:15                                                     </nRCellIdentity>
+ 一  03 20:21:15                                                 </nRCGI>
+ 一  03 20:21:15                                                 <nRPCI>1</nRPCI>
+ 一  03 20:21:15                                                 <fiveGS-TAC>00 00 01</fiveGS-TAC>
+ 一  03 20:21:15                                                 <servedPLMNs>
+ 一  03 20:21:15                                                     <ServedPLMNs-Item>
+ 一  03 20:21:15                                                         <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 一  03 20:21:15                                                         <iE-Extensions>
+ 一  03 20:21:15                                                             <ServedPLMNs-ItemExtIEs>
+ 一  03 20:21:15                                                                 <id>131</id>
+ 一  03 20:21:15                                                                 <criticality><ignore/></criticality>
+ 一  03 20:21:15                                                                 <extensionValue>
+ 一  03 20:21:15                                                                     <SliceSupportList>
+ 一  03 20:21:15                                                                         <SliceSupportItem>
+ 一  03 20:21:15                                                                             <sNSSAI>
+ 一  03 20:21:15                                                                                 <sST>01</sST>
+ 一  03 20:21:15                                                                                 <sD>02 03 04</sD>
+ 一  03 20:21:15                                                                             </sNSSAI>
+ 一  03 20:21:15                                                                         </SliceSupportItem>
+ 一  03 20:21:15                                                                         <SliceSupportItem>
+ 一  03 20:21:15                                                                             <sNSSAI>
+ 一  03 20:21:15                                                                                 <sST>05</sST>
+ 一  03 20:21:15                                                                                 <sD>06 07 08</sD>
+ 一  03 20:21:15                                                                             </sNSSAI>
+ 一  03 20:21:15                                                                         </SliceSupportItem>
+ 一  03 20:21:15                                                                     </SliceSupportList>
+ 一  03 20:21:15                                                                 </extensionValue>
+ 一  03 20:21:15                                                             </ServedPLMNs-ItemExtIEs>
+ 一  03 20:21:15                                                         </iE-Extensions>
+ 一  03 20:21:15                                                     </ServedPLMNs-Item>
+ 一  03 20:21:15                                                 </servedPLMNs>
+ 一  03 20:21:15                                                 <nR-Mode-Info>
+ 一  03 20:21:15                                                     <fDD>
+ 一  03 20:21:15                                                         <uL-NRFreqInfo>
+ 一  03 20:21:15                                                             <nRARFCN>390000</nRARFCN>
+ 一  03 20:21:15                                                             <freqBandListNr>
+ 一  03 20:21:15                                                                 <FreqBandNrItem>
+ 一  03 20:21:15                                                                     <freqBandIndicatorNr>1</freqBandIndicatorNr>
+ 一  03 20:21:15                                                                     <supportedSULBandList>
+ 一  03 20:21:15                                                                     </supportedSULBandList>
+ 一  03 20:21:15                                                                 </FreqBandNrItem>
+ 一  03 20:21:15                                                             </freqBandListNr>
+ 一  03 20:21:15                                                         </uL-NRFreqInfo>
+ 一  03 20:21:15                                                         <dL-NRFreqInfo>
+ 一  03 20:21:15                                                             <nRARFCN>428000</nRARFCN>
+ 一  03 20:21:15                                                             <freqBandListNr>
+ 一  03 20:21:15                                                                 <FreqBandNrItem>
+ 一  03 20:21:15                                                                     <freqBandIndicatorNr>1</freqBandIndicatorNr>
+ 一  03 20:21:15                                                                     <supportedSULBandList>
+ 一  03 20:21:15                                                                     </supportedSULBandList>
+ 一  03 20:21:15                                                                 </FreqBandNrItem>
+ 一  03 20:21:15                                                             </freqBandListNr>
+ 一  03 20:21:15                                                         </dL-NRFreqInfo>
+ 一  03 20:21:15                                                         <uL-Transmission-Bandwidth>
+ 一  03 20:21:15                                                             <nRSCS><scs15/></nRSCS>
+ 一  03 20:21:15                                                             <nRNRB><nrb106/></nRNRB>
+ 一  03 20:21:15                                                         </uL-Transmission-Bandwidth>
+ 一  03 20:21:15                                                         <dL-Transmission-Bandwidth>
+ 一  03 20:21:15                                                             <nRSCS><scs15/></nRSCS>
+ 一  03 20:21:15                                                             <nRNRB><nrb106/></nRNRB>
+ 一  03 20:21:15                                                         </dL-Transmission-Bandwidth>
+ 一  03 20:21:15                                                     </fDD>
+ 一  03 20:21:15                                                 </nR-Mode-Info>
+ 一  03 20:21:15                                                 <measurementTimingConfiguration>10 11 33 D4 01 02 00</measurementTimingConfiguration>
+ 一  03 20:21:15                                             </served-Cell-Information>
+ 一  03 20:21:15                                             <gNB-DU-System-Information>
+ 一  03 20:21:15                                                 <mIB-message>00 00 0C</mIB-message>
+ 一  03 20:21:15                                                 <sIB1-message>
+ 一  03 20:21:15                                                     7C 03 28 A3 40 61 31 1A 40 00 80 00 00 80 00 00 
+ 一  03 20:21:15                                                     00 0F 7F 00 00 20 28 12 10 00 03 00 00 00 26 CE 
+ 一  03 20:21:15                                                     19 62 BB 00 36 04 02 00 0F 11 00 82 0D 18 08 50 
+ 一  03 20:21:15                                                     50 9B 88 82 C1 00 00 00 9E AE 70 CB 16 A0 80 52 
+ 一  03 20:21:15                                                     48 0A 67 CC 79 F8 00 27 18 88 51 50 8C 25 40 80 
+ 一  03 20:21:15                                                     EC 04 16 03 E0 08 5E 00
+ 一  03 20:21:15                                                 </sIB1-message>
+ 一  03 20:21:15                                             </gNB-DU-System-Information>
+ 一  03 20:21:15                                         </GNB-DU-Served-Cells-Item>
+ 一  03 20:21:15                                     </value>
+ 一  03 20:21:15                                 </ProtocolIE-SingleContainer>
+ 一  03 20:21:15                             </GNB-DU-Served-Cells-List>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupRequestIEs>
+ 一  03 20:21:15                     <F1SetupRequestIEs>
+ 一  03 20:21:15                         <id>171</id>
+ 一  03 20:21:15                         <criticality><reject/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <RRC-Version>
+ 一  03 20:21:15                                 <latest-RRC-Version>
+ 一  03 20:21:15                                     000
+ 一  03 20:21:15                                 </latest-RRC-Version>
+ 一  03 20:21:15                                 <iE-Extensions>
+ 一  03 20:21:15                                     <RRC-Version-ExtIEs>
+ 一  03 20:21:15                                         <id>199</id>
+ 一  03 20:21:15                                         <criticality><reject/></criticality>
+ 一  03 20:21:15                                         <extensionValue>
+ 一  03 20:21:15                                             <Latest-RRC-Version-Enhanced>0F 05 00</Latest-RRC-Version-Enhanced>
+ 一  03 20:21:15                                         </extensionValue>
+ 一  03 20:21:15                                     </RRC-Version-ExtIEs>
+ 一  03 20:21:15                                 </iE-Extensions>
+ 一  03 20:21:15                             </RRC-Version>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupRequestIEs>
+ 一  03 20:21:15                 </protocolIEs>
+ 一  03 20:21:15             </F1SetupRequest>
+ 一  03 20:21:15         </value>
+ 一  03 20:21:15     </initiatingMessage>
+ 一  03 20:21:15 </F1AP-PDU>
+ 一  03 20:21:15 
+ 一  03 20:21:15 INFO  -->  F1AP : F1 setup request received
+ 一  03 20:21:15 INFO  -->  F1AP : Building F1 Setup Response
+ 一  03 20:21:15 <F1AP-PDU>
+ 一  03 20:21:15     <successfulOutcome>
+ 一  03 20:21:15         <procedureCode>1</procedureCode>
+ 一  03 20:21:15         <criticality><reject/></criticality>
+ 一  03 20:21:15         <value>
+ 一  03 20:21:15             <F1SetupResponse>
+ 一  03 20:21:15                 <protocolIEs>
+ 一  03 20:21:15                     <F1SetupResponseIEs>
+ 一  03 20:21:15                         <id>78</id>
+ 一  03 20:21:15                         <criticality><reject/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <TransactionID>1</TransactionID>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupResponseIEs>
+ 一  03 20:21:15                     <F1SetupResponseIEs>
+ 一  03 20:21:15                         <id>3</id>
+ 一  03 20:21:15                         <criticality><reject/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <Cells-to-be-Activated-List>
+ 一  03 20:21:15                                 <ProtocolIE-SingleContainer>
+ 一  03 20:21:15                                     <id>4</id>
+ 一  03 20:21:15                                     <criticality><ignore/></criticality>
+ 一  03 20:21:15                                     <value>
+ 一  03 20:21:15                                         <Cells-to-be-Activated-List-Item>
+ 一  03 20:21:15                                             <nRCGI>
+ 一  03 20:21:15                                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 一  03 20:21:15                                                 <nRCellIdentity>
+ 一  03 20:21:15                                                     000000000000000000000000000000000001
+ 一  03 20:21:15                                                 </nRCellIdentity>
+ 一  03 20:21:15                                             </nRCGI>
+ 一  03 20:21:15                                         </Cells-to-be-Activated-List-Item>
+ 一  03 20:21:15                                     </value>
+ 一  03 20:21:15                                 </ProtocolIE-SingleContainer>
+ 一  03 20:21:15                             </Cells-to-be-Activated-List>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupResponseIEs>
+ 一  03 20:21:15                     <F1SetupResponseIEs>
+ 一  03 20:21:15                         <id>170</id>
+ 一  03 20:21:15                         <criticality><reject/></criticality>
+ 一  03 20:21:15                         <value>
+ 一  03 20:21:15                             <RRC-Version>
+ 一  03 20:21:15                                 <latest-RRC-Version>
+ 一  03 20:21:15                                     000
+ 一  03 20:21:15                                 </latest-RRC-Version>
+ 一  03 20:21:15                                 <iE-Extensions>
+ 一  03 20:21:15                                     <RRC-Version-ExtIEs>
+ 一  03 20:21:15                                         <id>199</id>
+ 一  03 20:21:15                                         <criticality><reject/></criticality>
+ 一  03 20:21:15                                         <extensionValue>
+ 一  03 20:21:15                                             <Latest-RRC-Version-Enhanced>00 05 0F</Latest-RRC-Version-Enhanced>
+ 一  03 20:21:15                                         </extensionValue>
+ 一  03 20:21:15                                     </RRC-Version-ExtIEs>
+ 一  03 20:21:15                                 </iE-Extensions>
+ 一  03 20:21:15                             </RRC-Version>
+ 一  03 20:21:15                         </value>
+ 一  03 20:21:15                     </F1SetupResponseIEs>
+ 一  03 20:21:15                 </protocolIEs>
+ 一  03 20:21:15             </F1SetupResponse>
+ 一  03 20:21:15         </value>
+ 一  03 20:21:15     </successfulOutcome>
+ 一  03 20:21:15 </F1AP-PDU>
+ 一  03 20:21:15 
+ 一  03 20:21:15 DEBUG  -->  F1AP : Created APER encoded buffer for F1SetupResponse
+ 一  03 20:21:29 40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
