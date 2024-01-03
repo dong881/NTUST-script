@@ -30,21 +30,32 @@ cd ~
 
 echo "RUN OSC CU_STUB"
 sudo stdbuf -oL $CU_STUB_PATH 2>&1 | ts &>$CU_LOG_FILE &
+sleep 2
+CU_PID=$(pgrep -o cu_stub)
+echo $CU_PID
+echo -n $CU_PID > $PID_FILE
+echo -n " " >> $PID_FILE
 
 echo "RUN OSC RIC_STUB"
 sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
+sleep 2
+RIC_PID=$(pgrep -o ric_stub)
+echo $RIC_PID
+echo -n $RIC_PID >> $PID_FILE
+echo -n " " >> $PID_FILE
 
 echo "RUN OSC DU"
 sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
-sleep 3
+sleep 5
 ODU_PID=$(pgrep -o odu)
 echo $ODU_PID
-echo -n $ODU_PID > $PID_FILE
+echo -n $ODU_PID >> $PID_FILE
 echo -n " " >> $PID_FILE
 
 echo "RUN OAI PNF"
 sudo stdbuf -oL $PNF_PATH -O $PNF_CONF --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &>$PNF_LOG_FILE &
-sleep 3
-PNF_PID=$(pgrep -o -f "$PNF_PATH")
+sleep 5
+PNF_PID=$(pgrep -o nr-softmodem)
+# $(pgrep -o -f "$PNF_PATH")
 echo $PNF_PID
 echo -n $PNF_PID >> $PID_FILE
