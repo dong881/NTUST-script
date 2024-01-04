@@ -1,194 +1,209 @@
- 一  03 22:05:41 CMDLINE: "/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "PNF" 
- 一  03 22:05:41 [CONFIG] get parameters from libconfig /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf
- 一  03 22:05:41 [CONFIG] function config_libconfig_init returned 0
- 一  03 22:05:41 [CONFIG] config module libconfig loaded
- 一  03 22:05:41 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 一  03 22:05:41 [CONFIG] debug flags: 0x00000000
- 一  03 22:05:41 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 一  03 22:05:41 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
- 一  03 22:05:41 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
- 一  03 22:05:41 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  03 22:05:41 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  03 22:05:41 log init done
- 一  03 22:05:41 [HW]   # /dev/cpu_dma_latency set to 2 us
- 一  03 22:05:41 [0mReading in command-line options
- 一  03 22:05:41 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
- 一  03 22:05:41 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 一  03 22:05:41 [ENB_APP]   nfapi running mode: PNF
- 一  03 22:05:41 [0m[GNB_APP]   Getting GNBSParams
- 一  03 22:05:41 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  03 22:05:41 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  03 22:05:41 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  03 22:05:41 [CONFIG] parallel_conf is set to 0
- 一  03 22:05:41 [CONFIG] worker_conf is set to 1
- 一  03 22:05:41 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
- 一  03 22:05:41 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 一  03 22:05:41 configuring for RAU/RRU
- 一  03 22:05:42 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 一  03 22:05:42 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 一  03 22:05:42 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 一  03 22:05:42 [OPT]   OPT disabled
- 一  03 22:05:42 [0m[HW]   Version: Branch: develop Abrev. Hash: f3242c7dd9 Date: Wed Jan 3 20:24:25 2024 +0800
- 一  03 22:05:42 [0m[NR_PHY]   RC.gNB = 0x55d1b6bb8240
- 一  03 22:05:42 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
- 一  03 22:05:42 [PHY]   L1_RX_THREAD_CORE -1 (16)
- 一  03 22:05:42 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
- 一  03 22:05:42 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
- 一  03 22:05:42 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
- 一  03 22:05:42 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
- 一  03 22:05:42 [0mconfigure_nr_nfapi_pnf() PNF
- 一  03 22:05:42 
- 一  03 22:05:42 
- 一  03 22:05:42 
- 一  03 22:05:42 
- 一  03 22:05:42 
- 一  03 22:05:42 [ENB_APP]   nfapi running mode: PNF
- 一  03 22:05:42 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
- 一  03 22:05:42 Initializing northbound interface for L1
- 一  03 22:05:42 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 一  03 22:05:42 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 一  03 22:05:42 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x55d1b6bbb510
- 一  03 22:05:42 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 一  03 22:05:42 [0m
- 一  03 22:05:42  Read NR message unpack:  00  00  01  00  00  00  00  00 
- 一  03 22:05:42 [PNF] pnf param request
- 一  03 22:05:42 
- 一  03 22:05:42  Read NR message unpack:  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
- 一  03 22:05:42 [PNF] pnf config request
- 一  03 22:05:42 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
- 一  03 22:05:42 [PNF] Sent pnf_config_resp
- 一  03 22:05:42 
- 一  03 22:05:42  Read NR message unpack:  00  00  01  04  00  00  00  00 
- 一  03 22:05:42 Received NFAPI_PNF_START_REQUEST
- 一  03 22:05:42 [PNF] Sent NFAPI_PNF_START_RESP
- 一  03 22:05:42 
- 一  03 22:05:42  Read NR message unpack:  00  01  00  00  00  00  00  00 
- 一  03 22:05:42 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
- 一  03 22:05:42 TAG value :2
- 一  03 22:05:42 RUNNING pack_param_response
- 一  03 22:05:42 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
- 一  03 22:05:42 [PNF] param request .. exit
- 一  03 22:05:42 
- 一  03 22:05:42  Read NR message unpack:  00  01  00  02  00  e9  00  00  21  10  01  00  04  00  00  00  14  10  02  00  04  00  00  a7  60  10  05  00  02  00  02  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  00  c1  30  10  0a  00  02  00  02  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  00  00  00  00  10  12  00  01  00  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : The ppReadPackedMsg value is: 1309792424
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1001
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1002
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1005
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1006
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1007
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x100a
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x100c
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x100d
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x100e
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1010
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1012
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1013
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1014
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1029
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1015
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1017
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1018
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x101b
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x101d
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x101f
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1020
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1021
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1022
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x1023
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x0100
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x0102
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x011f
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x0120
- 一  03 22:05:42 
- 一  03 22:05:42 NTUST test : TAG value: 0x011e
- 一  03 22:05:42 [PNF] vnf p7 127.0.0.1:50611
- 一  03 22:05:42 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
- 一  03 22:05:42 
- 一  03 22:05:42 Timing window tag: 286
- 一  03 22:05:42 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
- 一  03 22:05:42 timing info mode:3
- 一  03 22:05:42 timing info period provided value:10
- 一  03 22:05:42 nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:20
- 一  03 22:05:42 [PNF] CONFIG_REQUEST[num_tlv:33] TLVs processed:6
- 一  03 22:05:42 [PNF] Simulating PHY CONFIG
- 一  03 22:05:42 DL frequency 42848000: band 0, UL frequency 49456000
- 一  03 22:05:42 
- 一  03 22:05:42 Assertion (current_band != 0) failed!
- 一  03 22:05:42 In get_band() /home/yen0224/openairinterface5g/common/utils/nr/nr_common.c:223
- 一  03 22:05:42 Can't find EUTRA band for frequency 42848000 and duplex_spacing 6608000
- 一  03 22:05:42 
- 一  03 22:05:42 Exiting execution
- 一  03 22:05:42 /home/yen0224/openairinterface5g/common/utils/nr/nr_common.c:223 get_band() Exiting OAI softmodem: _Assert_Exit_
+ 一  04 18:41:54 CMDLINE: "/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "PNF" 
+ 一  04 18:41:54 [CONFIG] get parameters from libconfig /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf
+ 一  04 18:41:54 [CONFIG] function config_libconfig_init returned 0
+ 一  04 18:41:54 [CONFIG] config module libconfig loaded
+ 一  04 18:41:54 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 一  04 18:41:54 [CONFIG] debug flags: 0x00000000
+ 一  04 18:41:54 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 一  04 18:41:54 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
+ 一  04 18:41:54 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+ 一  04 18:41:54 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  04 18:41:54 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  04 18:41:54 log init done
+ 一  04 18:41:54 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 一  04 18:41:54 [0mReading in command-line options
+ 一  04 18:41:54 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
+ 一  04 18:41:54 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 一  04 18:41:54 [ENB_APP]   nfapi running mode: PNF
+ 一  04 18:41:54 [0m[GNB_APP]   Getting GNBSParams
+ 一  04 18:41:54 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  04 18:41:54 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  04 18:41:54 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  04 18:41:54 [CONFIG] parallel_conf is set to 0
+ 一  04 18:41:54 [CONFIG] worker_conf is set to 1
+ 一  04 18:41:54 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+ 一  04 18:41:54 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 一  04 18:41:54 configuring for RAU/RRU
+ 一  04 18:41:55 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 一  04 18:41:55 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 一  04 18:41:55 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 一  04 18:41:55 [OPT]   OPT disabled
+ 一  04 18:41:55 [0m[HW]   Version: Branch: develop Abrev. Hash: d4f1ec1f46 Date: Wed Jan 3 22:21:49 2024 +0800
+ 一  04 18:41:55 [0m[NR_PHY]   RC.gNB = 0x5591e3ce9240
+ 一  04 18:41:55 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
+ 一  04 18:41:55 [PHY]   L1_RX_THREAD_CORE -1 (16)
+ 一  04 18:41:55 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+ 一  04 18:41:55 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+ 一  04 18:41:55 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+ 一  04 18:41:55 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+ 一  04 18:41:55 [0mconfigure_nr_nfapi_pnf() PNF
+ 一  04 18:41:55 
+ 一  04 18:41:55 
+ 一  04 18:41:55 
+ 一  04 18:41:55 
+ 一  04 18:41:55 
+ 一  04 18:41:55 [ENB_APP]   nfapi running mode: PNF
+ 一  04 18:41:55 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
+ 一  04 18:41:55 Initializing northbound interface for L1
+ 一  04 18:41:55 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 一  04 18:41:55 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  04 18:41:55 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5591e3cec510
+ 一  04 18:41:55 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 一  04 18:41:55 [0m
+ 一  04 18:41:55  Read NR message unpack:  00  00  01  00  00  00  00  00 
+ 一  04 18:41:55 [PNF] pnf param request
+ 一  04 18:41:55 
+ 一  04 18:41:55  Read NR message unpack:  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
+ 一  04 18:41:55 [PNF] pnf config request
+ 一  04 18:41:55 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+ 一  04 18:41:55 [PNF] Sent pnf_config_resp
+ 一  04 18:41:55 
+ 一  04 18:41:55  Read NR message unpack:  00  00  01  04  00  00  00  00 
+ 一  04 18:41:55 Received NFAPI_PNF_START_REQUEST
+ 一  04 18:41:55 [PNF] Sent NFAPI_PNF_START_RESP
+ 一  04 18:41:55 
+ 一  04 18:41:55  Read NR message unpack:  00  01  00  00  00  00  00  00 
+ 一  04 18:41:55 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+ 一  04 18:41:55 TAG value :2
+ 一  04 18:41:55 RUNNING pack_param_response
+ 一  04 18:41:55 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+ 一  04 18:41:55 [PNF] param request .. exit
+ 一  04 18:41:55 
+ 一  04 18:41:55  Read NR message unpack:  00  01  00  02  00  e9  00  00  21  10  01  00  04  00  00  00  14  10  02  00  04  00  20  f5  80  10  05  00  02  00  02  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  1a  b3  f0  10  0a  00  02  00  02  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  01  00  00  00  10  12  00  01  01  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : The ppReadPackedMsg value is: 2043476136
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1001
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1002
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1005
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1006
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1007
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x100a
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x100c
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x100d
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x100e
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1010
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1012
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1013
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1014
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1029
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1015
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1017
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1018
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x101b
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x101d
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x101f
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1020
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1021
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1022
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x1023
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x0100
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x0102
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x011f
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x0120
+ 一  04 18:41:55 
+ 一  04 18:41:55 NTUST test : TAG value: 0x011e
+ 一  04 18:41:55 [PNF] vnf p7 127.0.0.1:50611
+ 一  04 18:41:55 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+ 一  04 18:41:55 
+ 一  04 18:41:55 Timing window tag: 286
+ 一  04 18:41:55 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+ 一  04 18:41:55 timing info mode:3
+ 一  04 18:41:55 timing info period provided value:10
+ 一  04 18:41:55 nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:20
+ 一  04 18:41:55 [PNF] CONFIG_REQUEST[num_tlv:33] TLVs processed:6
+ 一  04 18:41:55 [PNF] Simulating PHY CONFIG
+ 一  04 18:41:55 
+ 一  04 18:41:55 [NTUST] match table:(0)! dl_freq_khz:2160000
+ 一  04 18:41:55 [NTUST] current_offset_khz:4294777296
+ 一  04 18:41:55 [NTUST] delta_duplex_khz:4294557296
+ 一  04 18:41:55 [NTUST] ul_min:1920000
+ 一  04 18:41:55 [NTUST] dl_min:2110000
+ 一  04 18:41:55 [NTUST] match table:(27)! dl_freq_khz:2160000
+ 一  04 18:41:55 [NTUST] current_offset_khz:4294777296
+ 一  04 18:41:55 [NTUST] delta_duplex_khz:4294557296
+ 一  04 18:41:55 [NTUST] ul_min:1920000
+ 一  04 18:41:55 [NTUST] dl_min:2110000
+ 一  04 18:41:55 [NTUST] match table:(28)! dl_freq_khz:2160000
+ 一  04 18:41:55 [NTUST] current_offset_khz:4294567296
+ 一  04 18:41:55 [NTUST] delta_duplex_khz:4294557296
+ 一  04 18:41:55 [NTUST] ul_min:1710000
+ 一  04 18:41:55 [NTUST] dl_min:2110000DL frequency 2160000000: band 0, UL frequency 1750000000
+ 一  04 18:41:55 
+ 一  04 18:41:55 Assertion (current_band != 0) failed!
+ 一  04 18:41:55 In get_band() /home/yen0224/openairinterface5g/common/utils/nr/nr_common.c:232
+ 一  04 18:41:55 Can't find EUTRA band for frequency 2160000000 and duplex_spacing 3884967296
+ 一  04 18:41:55 
+ 一  04 18:41:55 Exiting execution
+ 一  04 18:41:55 /home/yen0224/openairinterface5g/common/utils/nr/nr_common.c:232 get_band() Exiting OAI softmodem: _Assert_Exit_
