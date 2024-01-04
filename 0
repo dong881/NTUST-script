@@ -86,7 +86,7 @@ echo -n " " >> $PID_FILE
 echo "RUN OAI PNF"
 sudo stdbuf -oL $PNF_PATH -O $PNF_CONF --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &>$PNF_LOG_FILE &
 sleep 5
-PNF_PID=$(pgrep -o -f "$PNF_PATH")
-# $(pgrep -o nr-softmodem)
+PNF_PID=$(pgrep -o nr-softmodem)
+# $(pgrep -o -f "$PNF_PATH")
 echo $PNF_PID
 echo -n $PNF_PID >> $PID_FILE
