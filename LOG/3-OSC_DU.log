@@ -1,1231 +1,1232 @@
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3743
- 一  05 14:34:07 
- 一  05 14:34:07 Set priority 99
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
- 一  05 14:34:07 
- 一  05 14:34:07 Set priority 99
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
- 一  05 14:34:07 
- 一  05 14:34:07 Set priority 99
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
- 一  05 14:34:07 
- 一  05 14:34:07 Set priority 98
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
- 一  05 14:34:07 
- 一  05 14:34:07 Set priority 98
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
- 一  05 14:34:07 
- 一  05 14:34:07 
- 一  05 14:34:07 date: 01/05/2024 time: 14:34:07
- 一  05 14:34:07 
- 一  05 14:34:07 mtss(posix): sw error:  ent: 001  inst: 000  proc id: 000 
- 一  05 14:34:07 file: /home/yen0224/new/small_cell_integration/l2/src/mt/ss_task.c line: 2455 errcode: 00446 errcls: ERRCLS_INT_PAR
- 一  05 14:34:07 errval: 00000  errdesc: Can not set exclusive affinity for the core
- 一  05 14:34:07 
- 一  05 14:34:07 
- 一  05 14:34:07 Set priority 99
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
- 一  05 14:34:07 
- 一  05 14:34:07 Set priority 99
- 一  05 14:34:07 
- 一  05 14:34:07 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
- 一  05 14:34:07 
- 一  05 14:34:07 INFO   -->  DU_APP : DU APP created and registered    to 1 sys task
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  EGTP : Initializing
- 一  05 14:34:07 INFO   -->  DU_APP : EGTP created and registered     to 2 sys task
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG  -->  SCTP : Initializing
- 一  05 14:34:07 INFO   -->  DU_APP : SCTP TAPA task created and registered to 6 sys task
- 一  05 14:34:07 INFO   -->  DU_APP : RLC UL TAPA task created and registered to    4 sys task
- 一  05 14:34:07 INFO   -->  DU_APP : SCH TAPA task created and registered to          5 sys task
- 一  05 14:34:07 INFO   -->  DU_APP : PHY stub slot indication TAPA task created and registered to 7 sys task
- 一  05 14:34:07 DEBUG   --> In function: readVnfCfg
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 INFO    --> [NFAPI] DU_APP: readVnfCfg() Completed
- 一  05 14:34:07 
- 一  05 14:34:07 ******************FINISH VNF_CFG_REQ **************************
- 一  05 14:34:07 
- 一  05 14:34:07 <MIB>
- 一  05 14:34:07     <systemFrameNumber>
- 一  05 14:34:07         000000
- 一  05 14:34:07     </systemFrameNumber>
- 一  05 14:34:07     <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
- 一  05 14:34:07     <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
- 一  05 14:34:07     <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
- 一  05 14:34:07     <pdcch-ConfigSIB1>
- 一  05 14:34:07         <controlResourceSetZero>0</controlResourceSetZero>
- 一  05 14:34:07         <searchSpaceZero>0</searchSpaceZero>
- 一  05 14:34:07     </pdcch-ConfigSIB1>
- 一  05 14:34:07     <cellBarred><notBarred/></cellBarred>
- 一  05 14:34:07     <intraFreqReselection><notAllowed/></intraFreqReselection>
- 一  05 14:34:07     <spare>
- 一  05 14:34:07         0
- 一  05 14:34:07     </spare>
- 一  05 14:34:07 </MIB>
- 一  05 14:34:07 
- 一  05 14:34:07 encbufSize:3
- 一  05 14:34:07 0	0	c	
- 一  05 14:34:07 <BCCH-DL-SCH-Message>
- 一  05 14:34:07     <message>
- 一  05 14:34:07         <c1>
- 一  05 14:34:07             <systemInformationBlockType1>
- 一  05 14:34:07                 <cellSelectionInfo>
- 一  05 14:34:07                     <q-RxLevMin>-50</q-RxLevMin>
- 一  05 14:34:07                     <q-RxLevMinSUL>-50</q-RxLevMinSUL>
- 一  05 14:34:07                     <q-QualMin>-30</q-QualMin>
- 一  05 14:34:07                 </cellSelectionInfo>
- 一  05 14:34:07                 <cellAccessRelatedInfo>
- 一  05 14:34:07                     <plmn-IdentityList>
- 一  05 14:34:07                         <PLMN-IdentityInfo>
- 一  05 14:34:07                             <plmn-IdentityList>
- 一  05 14:34:07                                 <PLMN-IdentitY>
- 一  05 14:34:07                                     <mcc>
- 一  05 14:34:07                                         <MCC-MNC-Digit>3</MCC-MNC-Digit>
- 一  05 14:34:07                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
- 一  05 14:34:07                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
- 一  05 14:34:07                                     </mcc>
- 一  05 14:34:07                                     <mnc>
- 一  05 14:34:07                                         <MCC-MNC-Digit>4</MCC-MNC-Digit>
- 一  05 14:34:07                                         <MCC-MNC-Digit>8</MCC-MNC-Digit>
- 一  05 14:34:07                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 一  05 14:34:07                                     </mnc>
- 一  05 14:34:07                                 </PLMN-IdentitY>
- 一  05 14:34:07                             </plmn-IdentityList>
- 一  05 14:34:07                             <trackingAreaCode>
- 一  05 14:34:07                                 000000010000000000000000
- 一  05 14:34:07                             </trackingAreaCode>
- 一  05 14:34:07                             <ranac>1</ranac>
- 一  05 14:34:07                             <cellIdentity>
- 一  05 14:34:07                                 000000000000000000000000000000000001
- 一  05 14:34:07                             </cellIdentity>
- 一  05 14:34:07                             <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
- 一  05 14:34:07                         </PLMN-IdentityInfo>
- 一  05 14:34:07                     </plmn-IdentityList>
- 一  05 14:34:07                 </cellAccessRelatedInfo>
- 一  05 14:34:07                 <connEstFailureControl>
- 一  05 14:34:07                     <connEstFailCount><n3/></connEstFailCount>
- 一  05 14:34:07                     <connEstFailOffsetValidity><s900/></connEstFailOffsetValidity>
- 一  05 14:34:07                     <connEstFailOffset>15</connEstFailOffset>
- 一  05 14:34:07                 </connEstFailureControl>
- 一  05 14:34:07                 <si-SchedulingInfo>
- 一  05 14:34:07                     <schedulingInfoList>
- 一  05 14:34:07                         <SchedulingInfo>
- 一  05 14:34:07                             <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
- 一  05 14:34:07                             <si-Periodicity><rf8/></si-Periodicity>
- 一  05 14:34:07                             <sib-MappingInfo>
- 一  05 14:34:07                                 <SIB-TypeInfo>
- 一  05 14:34:07                                     <type><sibType2/></type>
- 一  05 14:34:07                                     <valueTag>10</valueTag>
- 一  05 14:34:07                                 </SIB-TypeInfo>
- 一  05 14:34:07                             </sib-MappingInfo>
- 一  05 14:34:07                         </SchedulingInfo>
- 一  05 14:34:07                     </schedulingInfoList>
- 一  05 14:34:07                     <si-WindowLength><s5/></si-WindowLength>
- 一  05 14:34:07                 </si-SchedulingInfo>
- 一  05 14:34:07                 <servingCellConfigCommon>
- 一  05 14:34:07                     <downlinkConfigCommon>
- 一  05 14:34:07                         <frequencyInfoDL>
- 一  05 14:34:07                             <frequencyBandList>
- 一  05 14:34:07                                 <NR-MultiBandInfo>
- 一  05 14:34:07                                     <freqBandIndicatorNR>66</freqBandIndicatorNR>
- 一  05 14:34:07                                 </NR-MultiBandInfo>
- 一  05 14:34:07                             </frequencyBandList>
- 一  05 14:34:07                             <offsetToPointA>24</offsetToPointA>
- 一  05 14:34:07                             <scs-SpecificCarrierList>
- 一  05 14:34:07                                 <SCS-SpecificCarrier>
- 一  05 14:34:07                                     <offsetToCarrier>0</offsetToCarrier>
- 一  05 14:34:07                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  05 14:34:07                                     <carrierBandwidth>20</carrierBandwidth>
- 一  05 14:34:07                                 </SCS-SpecificCarrier>
- 一  05 14:34:07                             </scs-SpecificCarrierList>
- 一  05 14:34:07                         </frequencyInfoDL>
- 一  05 14:34:07                         <initialDownlinkBWP>
- 一  05 14:34:07                             <genericParameters>
- 一  05 14:34:07                                 <locationAndBandwidth>28875</locationAndBandwidth>
- 一  05 14:34:07                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  05 14:34:07                             </genericParameters>
- 一  05 14:34:07                             <pdcch-ConfigCommon>
- 一  05 14:34:07                                 <setup>
- 一  05 14:34:07                                     <controlResourceSetZero>0</controlResourceSetZero>
- 一  05 14:34:07                                     <searchSpaceZero>0</searchSpaceZero>
- 一  05 14:34:07                                     <commonSearchSpaceList>
- 一  05 14:34:07                                         <SearchSpace>
- 一  05 14:34:07                                             <searchSpaceId>1</searchSpaceId>
- 一  05 14:34:07                                             <controlResourceSetId>0</controlResourceSetId>
- 一  05 14:34:07                                             <monitoringSlotPeriodicityAndOffset>
- 一  05 14:34:07                                                 <sl1></sl1>
- 一  05 14:34:07                                             </monitoringSlotPeriodicityAndOffset>
- 一  05 14:34:07                                             <monitoringSymbolsWithinSlot>
- 一  05 14:34:07                                                 10000000000000
- 一  05 14:34:07                                             </monitoringSymbolsWithinSlot>
- 一  05 14:34:07                                             <nrofCandidates>
- 一  05 14:34:07                                                 <aggregationLevel1><n8/></aggregationLevel1>
- 一  05 14:34:07                                                 <aggregationLevel2><n4/></aggregationLevel2>
- 一  05 14:34:07                                                 <aggregationLevel4><n2/></aggregationLevel4>
- 一  05 14:34:07                                                 <aggregationLevel8><n1/></aggregationLevel8>
- 一  05 14:34:07                                                 <aggregationLevel16><n0/></aggregationLevel16>
- 一  05 14:34:07                                             </nrofCandidates>
- 一  05 14:34:07                                         </SearchSpace>
- 一  05 14:34:07                                     </commonSearchSpaceList>
- 一  05 14:34:07                                     <searchSpaceSIB1>1</searchSpaceSIB1>
- 一  05 14:34:07                                     <pagingSearchSpace>1</pagingSearchSpace>
- 一  05 14:34:07                                     <ra-SearchSpace>1</ra-SearchSpace>
- 一  05 14:34:07                                 </setup>
- 一  05 14:34:07                             </pdcch-ConfigCommon>
- 一  05 14:34:07                             <pdsch-ConfigCommon>
- 一  05 14:34:07                                 <setup>
- 一  05 14:34:07                                     <pdsch-TimeDomainAllocationList>
- 一  05 14:34:07                                         <PDSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                             <k0>0</k0>
- 一  05 14:34:07                                             <mappingType><typeA/></mappingType>
- 一  05 14:34:07                                             <startSymbolAndLength>66</startSymbolAndLength>
- 一  05 14:34:07                                         </PDSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                         <PDSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                             <k0>1</k0>
- 一  05 14:34:07                                             <mappingType><typeA/></mappingType>
- 一  05 14:34:07                                             <startSymbolAndLength>66</startSymbolAndLength>
- 一  05 14:34:07                                         </PDSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                     </pdsch-TimeDomainAllocationList>
- 一  05 14:34:07                                 </setup>
- 一  05 14:34:07                             </pdsch-ConfigCommon>
- 一  05 14:34:07                         </initialDownlinkBWP>
- 一  05 14:34:07                         <bcch-Config>
- 一  05 14:34:07                             <modificationPeriodCoeff><n16/></modificationPeriodCoeff>
- 一  05 14:34:07                         </bcch-Config>
- 一  05 14:34:07                         <pcch-Config>
- 一  05 14:34:07                             <defaultPagingCycle><rf256/></defaultPagingCycle>
- 一  05 14:34:07                             <nAndPagingFrameOffset>
- 一  05 14:34:07                                 <oneT></oneT>
- 一  05 14:34:07                             </nAndPagingFrameOffset>
- 一  05 14:34:07                             <ns><one/></ns>
- 一  05 14:34:07                             <firstPDCCH-MonitoringOccasionOfPO>
- 一  05 14:34:07                                 <sCS30KHZoneT-SCS15KHZhalfT>
- 一  05 14:34:07                                     <INTEGER>44</INTEGER>
- 一  05 14:34:07                                 </sCS30KHZoneT-SCS15KHZhalfT>
- 一  05 14:34:07                             </firstPDCCH-MonitoringOccasionOfPO>
- 一  05 14:34:07                         </pcch-Config>
- 一  05 14:34:07                     </downlinkConfigCommon>
- 一  05 14:34:07                     <uplinkConfigCommon>
- 一  05 14:34:07                         <frequencyInfoUL>
- 一  05 14:34:07                             <scs-SpecificCarrierList>
- 一  05 14:34:07                                 <SCS-SpecificCarrier>
- 一  05 14:34:07                                     <offsetToCarrier>0</offsetToCarrier>
- 一  05 14:34:07                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  05 14:34:07                                     <carrierBandwidth>20</carrierBandwidth>
- 一  05 14:34:07                                 </SCS-SpecificCarrier>
- 一  05 14:34:07                             </scs-SpecificCarrierList>
- 一  05 14:34:07                             <p-Max>23</p-Max>
- 一  05 14:34:07                         </frequencyInfoUL>
- 一  05 14:34:07                         <initialUplinkBWP>
- 一  05 14:34:07                             <genericParameters>
- 一  05 14:34:07                                 <locationAndBandwidth>28875</locationAndBandwidth>
- 一  05 14:34:07                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  05 14:34:07                             </genericParameters>
- 一  05 14:34:07                             <rach-ConfigCommon>
- 一  05 14:34:07                                 <setup>
- 一  05 14:34:07                                     <rach-ConfigGeneric>
- 一  05 14:34:07                                         <prach-ConfigurationIndex>16</prach-ConfigurationIndex>
- 一  05 14:34:07                                         <msg1-FDM><one/></msg1-FDM>
- 一  05 14:34:07                                         <msg1-FrequencyStart>82</msg1-FrequencyStart>
- 一  05 14:34:07                                         <zeroCorrelationZoneConfig>4</zeroCorrelationZoneConfig>
- 一  05 14:34:07                                         <preambleReceivedTargetPower>-74</preambleReceivedTargetPower>
- 一  05 14:34:07                                         <preambleTransMax><n200/></preambleTransMax>
- 一  05 14:34:07                                         <powerRampingStep><dB2/></powerRampingStep>
- 一  05 14:34:07                                         <ra-ResponseWindow><sl10/></ra-ResponseWindow>
- 一  05 14:34:07                                     </rach-ConfigGeneric>
- 一  05 14:34:07                                     <totalNumberOfRA-Preambles>63</totalNumberOfRA-Preambles>
- 一  05 14:34:07                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
- 一  05 14:34:07                                         <one><n8/></one>
- 一  05 14:34:07                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
- 一  05 14:34:07                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
- 一  05 14:34:07                                     <rsrp-ThresholdSSB>31</rsrp-ThresholdSSB>
- 一  05 14:34:07                                     <prach-RootSequenceIndex>
- 一  05 14:34:07                                         <l139>0</l139>
- 一  05 14:34:07                                     </prach-RootSequenceIndex>
- 一  05 14:34:07                                     <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
- 一  05 14:34:07                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
- 一  05 14:34:07                                 </setup>
- 一  05 14:34:07                             </rach-ConfigCommon>
- 一  05 14:34:07                             <pusch-ConfigCommon>
- 一  05 14:34:07                                 <setup>
- 一  05 14:34:07                                     <pusch-TimeDomainAllocationList>
- 一  05 14:34:07                                         <PUSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                             <k2>4</k2>
- 一  05 14:34:07                                             <mappingType><typeA/></mappingType>
- 一  05 14:34:07                                             <startSymbolAndLength>66</startSymbolAndLength>
- 一  05 14:34:07                                         </PUSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                         <PUSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                             <k2>5</k2>
- 一  05 14:34:07                                             <mappingType><typeA/></mappingType>
- 一  05 14:34:07                                             <startSymbolAndLength>66</startSymbolAndLength>
- 一  05 14:34:07                                         </PUSCH-TimeDomainResourceAllocation>
- 一  05 14:34:07                                     </pusch-TimeDomainAllocationList>
- 一  05 14:34:07                                     <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
- 一  05 14:34:07                                     <p0-NominalWithGrant>-70</p0-NominalWithGrant>
- 一  05 14:34:07                                 </setup>
- 一  05 14:34:07                             </pusch-ConfigCommon>
- 一  05 14:34:07                             <pucch-ConfigCommon>
- 一  05 14:34:07                                 <setup>
- 一  05 14:34:07                                     <pucch-ResourceCommon>0</pucch-ResourceCommon>
- 一  05 14:34:07                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
- 一  05 14:34:07                                     <p0-nominal>-74</p0-nominal>
- 一  05 14:34:07                                 </setup>
- 一  05 14:34:07                             </pucch-ConfigCommon>
- 一  05 14:34:07                         </initialUplinkBWP>
- 一  05 14:34:07                         <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
- 一  05 14:34:07                     </uplinkConfigCommon>
- 一  05 14:34:07                     <ssb-PositionsInBurst>
- 一  05 14:34:07                         <inOneGroup>
- 一  05 14:34:07                             11000000
- 一  05 14:34:07                         </inOneGroup>
- 一  05 14:34:07                     </ssb-PositionsInBurst>
- 一  05 14:34:07                     <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
- 一  05 14:34:07                     <tdd-UL-DL-ConfigurationCommon>
- 一  05 14:34:07                         <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
- 一  05 14:34:07                         <pattern1>
- 一  05 14:34:07                             <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
- 一  05 14:34:07                             <nrofDownlinkSlots>7</nrofDownlinkSlots>
- 一  05 14:34:07                             <nrofDownlinkSymbols>12</nrofDownlinkSymbols>
- 一  05 14:34:07                             <nrofUplinkSlots>2</nrofUplinkSlots>
- 一  05 14:34:07                             <nrofUplinkSymbols>1</nrofUplinkSymbols>
- 一  05 14:34:07                         </pattern1>
- 一  05 14:34:07                     </tdd-UL-DL-ConfigurationCommon>
- 一  05 14:34:07                     <ss-PBCH-BlockPower>0</ss-PBCH-BlockPower>
- 一  05 14:34:07                 </servingCellConfigCommon>
- 一  05 14:34:07             </systemInformationBlockType1>
- 一  05 14:34:07         </c1>
- 一  05 14:34:07     </message>
- 一  05 14:34:07 </BCCH-DL-SCH-Message>
- 一  05 14:34:07 
- 一  05 14:34:07 encbufSize: 88
- 一  05 14:34:07 7c	3	28	ffffffa3	40	61	31	1a	40	0	ffffff80	0	0	ffffff80	0	0	0	f	7f	0	0	20	28	12	10	ffffff82	3	0	0	4	26	ffffffce	19	66	ffffffbb	0	36	4	2	0	f	11	0	ffffff82	d	18	8	50	50	ffffff9b	ffffff88	ffffff82	ffffffc1	0	0	10	ffffff9e	ffffffae	70	ffffffcb	36	ffffffa0	ffffff80	52	48	a	67	ffffffcc	79	fffffff8	1	27	18	ffffff88	51	50	ffffff8c	25	40	ffffff80	ffffffec	4	16	3	ffffffe0	8	5e	0	
- 一  05 14:34:07 
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer<BCCH-BCH-Message>
- 一  05 14:34:07     <message>
- 一  05 14:34:07         <mib>
- 一  05 14:34:07             <systemFrameNumber>
- 一  05 14:34:07                 000000
- 一  05 14:34:07             </systemFrameNumber>
- 一  05 14:34:07             <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
- 一  05 14:34:07             <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
- 一  05 14:34:07             <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
- 一  05 14:34:07             <pdcch-ConfigSIB1>
- 一  05 14:34:07                 <controlResourceSetZero>0</controlResourceSetZero>
- 一  05 14:34:07                 <searchSpaceZero>0</searchSpaceZero>
- 一  05 14:34:07             </pdcch-ConfigSIB1>
- 一  05 14:34:07             <cellBarred><notBarred/></cellBarred>
- 一  05 14:34:07             <intraFreqReselection><notAllowed/></intraFreqReselection>
- 一  05 14:34:07             <spare>
- 一  05 14:34:07                 0
- 一  05 14:34:07             </spare>
- 一  05 14:34:07         </mib>
- 一  05 14:34:07     </message>
- 一  05 14:34:07 </BCCH-BCH-Message>
- 一  05 14:34:07 
- 一  05 14:34:07 encbufSize:3
- 一  05 14:34:07 0	0	6	
- 一  05 14:34:07 
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 ****** Received initial VNF configs at DU APP ******
- 一  05 14:34:07 
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 DEBUG  -->  DU_APP : MAC VNF config sent
- 一  05 14:34:07 ****** Received initial configs at DU APP ******
- 一  05 14:34:07 
- 一  05 14:34:07 INFO   -->  [NFAPI] case EVENT_MAC_VNF_CONFIG_REQ
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
- 一  05 14:34:07 INFO  -->  [NFAPI] : Calling MacProcVnfCfgReq
- 一  05 14:34:07 INFO  -->  LWR_MAC : phyState :  0 in msgType : 6
- 一  05 14:34:07 INFO  -->  NFAPI : pnfState :  0
- 一  05 14:34:07 INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
- 一  05 14:34:07 [NFAPI] VNF Interface --> nfapi_nr_vnf_start()
- 一  05 14:34:07 
- 一  05 14:34:07 [NFAPI] VNF Interface --> Starting P5 VNF connection on port 62324
- 一  05 14:34:07 
- 一  05 14:34:07 [NFAPI] VNF Interface --> P5 socket created... 4
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(1)
- 一  05 14:34:07 [NFAPI] VNF Interface --> VNF Setting the SCTP_INITMSG
- 一  05 14:34:07 
- 一  05 14:34:07 [NFAPI] VNF Interface --> IPV4 binding to port 62324
- 一  05 14:34:07 
- 一  05 14:34:07 [NFAPI] VNF Interface --> bind succeeded..4.
- 一  05 14:34:07 
- 一  05 14:34:07 INFO    --> RLC_DL : Starting SNSSAI Throughput timer
- 一  05 14:34:07 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(186)
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
- 一  05 14:34:07 [NFAPI] VNF Interface --> listen succeeded...
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(189)
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186 
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
- 一  05 14:34:07 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(1)
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
- 一  05 14:34:07 INFO    --> RLC_DL : Starting UE Throughput timer
- 一  05 14:34:07 INFO    --> RLC_DL : Starting SNSSAI Throughput timer
- 一  05 14:34:07 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(189)
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
- 一  05 14:34:07 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(186)
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1 
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189 
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 186 
- 一  05 14:34:07 DEBUG   -->  DU_APP : MAC Gen Cfg Req sent
- 一  05 14:34:07 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
- 一  05 14:34:07 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
- 一  05 14:34:07 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
- 一  05 14:34:07 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1 
- 一  05 14:34:07 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
- 一  05 14:34:07 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
- 一  05 14:34:07 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
- 一  05 14:34:07 DEBUG   -->  DU_APP : Completed sending Configs
- 一  05 14:34:07 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 1 to bind MAC sap
- 一  05 14:34:07 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
- 一  05 14:34:07 DEBUG  -->  MAC : SAP Not yet bound
- 一  05 14:34:07 DEBUG  -->  RLC UL : RlcLiRguBndCfm(suId(0), status(1)
- 一  05 14:34:07 DEBUG   -->  DU_APP : BIND OF RLC DL TO MAC (RGU) SAP SUCCESSFUL
- 一  05 14:34:07 DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
- 一  05 14:34:07 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 0 to bind MAC sap
- 一  05 14:34:07 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
- 一  05 14:34:07 DEBUG   -->  DU_APP : BIND OF RLC UL TO MAC (RGU) SAP SUCCESSFUL
- 一  05 14:34:07 DEBUG   -->  DU_APP : MAC Sch Cfg sent
- 一  05 14:34:07 INFO  -->  MAC : Received Scheduler gen config at MAC
- 一  05 14:34:07 INFO   -->  SCH : Received scheduler gen config
- 一  05 14:34:07 DEBUG  -->  SCH : Entered SchInstCfg()
- 一  05 14:34:07 INFO   -->  SCH : Scheduler gen config done
- 一  05 14:34:07 DEBUG  -->  MAC : Sending Scheduler config confirm to DU APP
- 一  05 14:34:07 DEBUG   -->  DU_APP : Received SCH CFG CFM at DU APP
- 一  05 14:34:07 INFO   -->  DU_APP : Configuring all Layer is complete
- 一  05 14:34:07 CmInetSctpConnectx() Failed : error(115), port(0x9648),		   sockFd->fd(5)
- 一  05 14:34:07 
- 一  05 14:34:07 INFO   -->  SCTP : Polling started at DU
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [462]
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  SCTP : Assoc change notification receivedINFO   -->  Event : COMMUNICATION UP
- 一  05 14:34:07 DEBUG   -->  SCTP : Forwarding received message to duApp
- 一  05 14:34:07 CmInetSctpConnectx() Failed : error(115), port(0x8e45),		   sockFd->fd(6)
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  DU_APP : Sending EGTP config request
- 一  05 14:34:07 DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [464]
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  SCTP : Assoc change notification received
- 一  05 14:34:07 INFO   -->  F1AP : Building F1 Setup Request
- 一  05 14:34:07 INFO   -->  Event : COMMUNICATION UP
- 一  05 14:34:07 DEBUG   -->  EGTP : EGTP configuration successful
- 一  05 14:34:07 DEBUG   -->  SCTP : Forwarding received message to duApp<MeasurementTimingConfigurationRrc>
- 一  05 14:34:07     <criticalExtensions>
- 一  05 14:34:07         <c1>
- 一  05 14:34:07             <measTimingConf>
- 一  05 14:34:07                 <measTiming>
- 一  05 14:34:07                     <MeasTiming>
- 一  05 14:34:07                         <frequencyAndTiming>
- 一  05 14:34:07                             <carrierFreq>630432</carrierFreq>
- 一  05 14:34:07                             <ssbSubcarrierSpacing><kHz30/></ssbSubcarrierSpacing>
- 一  05 14:34:07                             <ssb-MeasurementTimingConfiguration>
- 一  05 14:34:07                                 <periodicityAndOffset>
- 一  05 14:34:07                                     <sf20>0</sf20>
- 一  05 14:34:07                                 </periodicityAndOffset>
- 一  05 14:34:07                                 <duration><sf5/></duration>
- 一  05 14:34:07                             </ssb-MeasurementTimingConfiguration>
- 一  05 14:34:07                         </frequencyAndTiming>
- 一  05 14:34:07                     </MeasTiming>
- 一  05 14:34:07                 </measTiming>
- 一  05 14:34:07             </measTimingConf>
- 一  05 14:34:07         </c1>
- 一  05 14:34:07     </criticalExtensions>
- 一  05 14:34:07 </MeasurementTimingConfigurationRrc>
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  F1AP : Created APER encoded buffer for Measurement Timing Configuration 
- 一  05 14:34:07 101133ffffffd4520<F1AP-PDU>
- 一  05 14:34:07     <initiatingMessage>
- 一  05 14:34:07         <procedureCode>1</procedureCode>
- 一  05 14:34:07         <criticality><reject/></criticality>
- 一  05 14:34:07         <value>
- 一  05 14:34:07             <F1SetupRequest>
- 一  05 14:34:07                 <protocolIEs>
- 一  05 14:34:07                     <F1SetupRequestIEs>
- 一  05 14:34:07                         <id>78</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <TransactionID>1</TransactionID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupRequestIEs>
- 一  05 14:34:07                     <F1SetupRequestIEs>
- 一  05 14:34:07                         <id>42</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <GNB-DU-ID>1</GNB-DU-ID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupRequestIEs>
- 一  05 14:34:07                     <F1SetupRequestIEs>
- 一  05 14:34:07                         <id>45</id>
- 一  05 14:34:07                         <criticality><ignore/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <GNB-DU-Name>ORAN OAM DU</GNB-DU-Name>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupRequestIEs>
- 一  05 14:34:07                     <F1SetupRequestIEs>
- 一  05 14:34:07                         <id>44</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <GNB-DU-Served-Cells-List>
- 一  05 14:34:07                                 <ProtocolIE-SingleContainer>
- 一  05 14:34:07                                     <id>43</id>
- 一  05 14:34:07                                     <criticality><reject/></criticality>
- 一  05 14:34:07                                     <value>
- 一  05 14:34:07                                         <GNB-DU-Served-Cells-Item>
- 一  05 14:34:07                                             <served-Cell-Information>
- 一  05 14:34:07                                                 <nRCGI>
- 一  05 14:34:07                                                     <pLMN-Identity>13 F1 84</pLMN-Identity>
- 一  05 14:34:07                                                     <nRCellIdentity>
- 一  05 14:34:07                                                         000000000000000000000000000000000001
- 一  05 14:34:07                                                     </nRCellIdentity>
- 一  05 14:34:07                                                 </nRCGI>
- 一  05 14:34:07                                                 <nRPCI>1</nRPCI>
- 一  05 14:34:07                                                 <fiveGS-TAC>00 00 01</fiveGS-TAC>
- 一  05 14:34:07                                                 <servedPLMNs>
- 一  05 14:34:07                                                     <ServedPLMNs-Item>
- 一  05 14:34:07                                                         <pLMN-Identity>13 F1 84</pLMN-Identity>
- 一  05 14:34:07                                                         <iE-Extensions>
- 一  05 14:34:07                                                             <ServedPLMNs-ItemExtIEs>
- 一  05 14:34:07                                                                 <id>131</id>
- 一  05 14:34:07                                                                 <criticality><ignore/></criticality>
- 一  05 14:34:07                                                                 <extensionValue>
- 一  05 14:34:07                                                                     <SliceSupportList>
- 一  05 14:34:07                                                                         <SliceSupportItem>
- 一  05 14:34:07                                                                             <sNSSAI>
- 一  05 14:34:07                                                                                 <sST>01</sST>
- 一  05 14:34:07                                                                                 <sD>02 03 04</sD>
- 一  05 14:34:07                                                                             </sNSSAI>
- 一  05 14:34:07                                                                         </SliceSupportItem>
- 一  05 14:34:07                                                                         <SliceSupportItem>
- 一  05 14:34:07                                                                             <sNSSAI>
- 一  05 14:34:07                                                                                 <sST>05</sST>
- 一  05 14:34:07                                                                                 <sD>06 07 08</sD>
- 一  05 14:34:07                                                                             </sNSSAI>
- 一  05 14:34:07                                                                         </SliceSupportItem>
- 一  05 14:34:07                                                                     </SliceSupportList>
- 一  05 14:34:07                                                                 </extensionValue>
- 一  05 14:34:07                                                             </ServedPLMNs-ItemExtIEs>
- 一  05 14:34:07                                                         </iE-Extensions>
- 一  05 14:34:07                                                     </ServedPLMNs-Item>
- 一  05 14:34:07                                                 </servedPLMNs>
- 一  05 14:34:07                                                 <nR-Mode-Info>
- 一  05 14:34:07                                                     <fDD>
- 一  05 14:34:07                                                         <uL-NRFreqInfo>
- 一  05 14:34:07                                                             <nRARFCN>352000</nRARFCN>
- 一  05 14:34:07                                                             <freqBandListNr>
- 一  05 14:34:07                                                                 <FreqBandNrItem>
- 一  05 14:34:07                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
- 一  05 14:34:07                                                                     <supportedSULBandList>
- 一  05 14:34:07                                                                     </supportedSULBandList>
- 一  05 14:34:07                                                                 </FreqBandNrItem>
- 一  05 14:34:07                                                             </freqBandListNr>
- 一  05 14:34:07                                                         </uL-NRFreqInfo>
- 一  05 14:34:07                                                         <dL-NRFreqInfo>
- 一  05 14:34:07                                                             <nRARFCN>432000</nRARFCN>
- 一  05 14:34:07                                                             <freqBandListNr>
- 一  05 14:34:07                                                                 <FreqBandNrItem>
- 一  05 14:34:07                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
- 一  05 14:34:07                                                                     <supportedSULBandList>
- 一  05 14:34:07                                                                     </supportedSULBandList>
- 一  05 14:34:07                                                                 </FreqBandNrItem>
- 一  05 14:34:07                                                             </freqBandListNr>
- 一  05 14:34:07                                                         </dL-NRFreqInfo>
- 一  05 14:34:07                                                         <uL-Transmission-Bandwidth>
- 一  05 14:34:07                                                             <nRSCS><scs30/></nRSCS>
- 一  05 14:34:07                                                             <nRNRB><nrb106/></nRNRB>
- 一  05 14:34:07                                                         </uL-Transmission-Bandwidth>
- 一  05 14:34:07                                                         <dL-Transmission-Bandwidth>
- 一  05 14:34:07                                                             <nRSCS><scs30/></nRSCS>
- 一  05 14:34:07                                                             <nRNRB><nrb106/></nRNRB>
- 一  05 14:34:07                                                         </dL-Transmission-Bandwidth>
- 一  05 14:34:07                                                     </fDD>
- 一  05 14:34:07                                                 </nR-Mode-Info>
- 一  05 14:34:07                                                 <measurementTimingConfiguration>10 11 33 D4 05 02 00</measurementTimingConfiguration>
- 一  05 14:34:07                                             </served-Cell-Information>
- 一  05 14:34:07                                             <gNB-DU-System-Information>
- 一  05 14:34:07                                                 <mIB-message>00 00 0C</mIB-message>
- 一  05 14:34:07                                                 <sIB1-message>
- 一  05 14:34:07                                                     7C 03 28 A3 40 61 31 1A 40 00 80 00 00 80 00 00 
- 一  05 14:34:07                                                     00 0F 7F 00 00 20 28 12 10 82 03 00 00 04 26 CE 
- 一  05 14:34:07                                                     19 66 BB 00 36 04 02 00 0F 11 00 82 0D 18 08 50 
- 一  05 14:34:07                                                     50 9B 88 82 C1 00 00 10 9E AE 70 CB 36 A0 80 52 
- 一  05 14:34:07                                                     48 0A 67 CC 79 F8 01 27 18 88 51 50 8C 25 40 80 
- 一  05 14:34:07                                                     EC 04 16 03 E0 08 5E 00
- 一  05 14:34:07                                                 </sIB1-message>
- 一  05 14:34:07                                             </gNB-DU-System-Information>
- 一  05 14:34:07                                         </GNB-DU-Served-Cells-Item>
- 一  05 14:34:07                                     </value>
- 一  05 14:34:07                                 </ProtocolIE-SingleContainer>
- 一  05 14:34:07                             </GNB-DU-Served-Cells-List>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupRequestIEs>
- 一  05 14:34:07                     <F1SetupRequestIEs>
- 一  05 14:34:07                         <id>171</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <RRC-Version>
- 一  05 14:34:07                                 <latest-RRC-Version>
- 一  05 14:34:07                                     000
- 一  05 14:34:07                                 </latest-RRC-Version>
- 一  05 14:34:07                                 <iE-Extensions>
- 一  05 14:34:07                                     <RRC-Version-ExtIEs>
- 一  05 14:34:07                                         <id>199</id>
- 一  05 14:34:07                                         <criticality><reject/></criticality>
- 一  05 14:34:07                                         <extensionValue>
- 一  05 14:34:07                                             <Latest-RRC-Version-Enhanced>0F 05 00</Latest-RRC-Version-Enhanced>
- 一  05 14:34:07                                         </extensionValue>
- 一  05 14:34:07                                     </RRC-Version-ExtIEs>
- 一  05 14:34:07                                 </iE-Extensions>
- 一  05 14:34:07                             </RRC-Version>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupRequestIEs>
- 一  05 14:34:07                 </protocolIEs>
- 一  05 14:34:07             </F1SetupRequest>
- 一  05 14:34:07         </value>
- 一  05 14:34:07     </initiatingMessage>
- 一  05 14:34:07 </F1AP-PDU>
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  F1AP : Created APER encoded buffer for F1SetupRequest
- 一  05 14:34:07 010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48013fffffff1ffffff8400001001001813fffffff1ffffff84000ffffff8340c01402023440ffffffa06781055f000410406ffffff97ffffff8000410274ffffffe07101133ffffffd45200300c587c328ffffffa34061311a400ffffff8000ffffff80000f7f0020281210ffffff82300426ffffffce1966ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc10010ffffff9effffffae70ffffffcb36ffffffa0ffffff805248a67ffffffcc79fffffff812718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f50
- 一  05 14:34:07 DEBUG  --> SCTP : sending the message to CU
- 一  05 14:34:07 DEBUG   -->  DU_APP : EGTP configuraton complete
- 一  05 14:34:07 DEBUG   -->  DU_APP : Sending EGTP server open request
- 一  05 14:34:07 DEBUG  -->  EGTP : Received EGTP open server request
- 一  05 14:34:07 DEBUG   -->  EGTP : Socket [7] is open
- 一  05 14:34:07 DEBUG   -->  EGTP : Starting Socket Polling
- 一  05 14:34:07 DEBUG   -->  DU_APP : EGTP server opened successfully
- 一  05 14:34:07 DEBUG   -->  SCTP : Forwarding received message to duApp
- 一  05 14:34:07 INFO  -->  F1AP : Received F1AP message buffer
- 一  05 14:34:07 DEBUG   -->  F1AP : Received flat buffer to be decoded : 40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
- 一  05 14:34:07 <F1AP-PDU>
- 一  05 14:34:07     <successfulOutcome>
- 一  05 14:34:07         <procedureCode>1</procedureCode>
- 一  05 14:34:07         <criticality><reject/></criticality>
- 一  05 14:34:07         <value>
- 一  05 14:34:07             <F1SetupResponse>
- 一  05 14:34:07                 <protocolIEs>
- 一  05 14:34:07                     <F1SetupResponseIEs>
- 一  05 14:34:07                         <id>78</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <TransactionID>1</TransactionID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupResponseIEs>
- 一  05 14:34:07                     <F1SetupResponseIEs>
- 一  05 14:34:07                         <id>3</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <Cells-to-be-Activated-List>
- 一  05 14:34:07                                 <ProtocolIE-SingleContainer>
- 一  05 14:34:07                                     <id>4</id>
- 一  05 14:34:07                                     <criticality><ignore/></criticality>
- 一  05 14:34:07                                     <value>
- 一  05 14:34:07                                         <Cells-to-be-Activated-List-Item>
- 一  05 14:34:07                                             <nRCGI>
- 一  05 14:34:07                                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
- 一  05 14:34:07                                                 <nRCellIdentity>
- 一  05 14:34:07                                                     000000000000000000000000000000000001
- 一  05 14:34:07                                                 </nRCellIdentity>
- 一  05 14:34:07                                             </nRCGI>
- 一  05 14:34:07                                         </Cells-to-be-Activated-List-Item>
- 一  05 14:34:07                                     </value>
- 一  05 14:34:07                                 </ProtocolIE-SingleContainer>
- 一  05 14:34:07                             </Cells-to-be-Activated-List>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupResponseIEs>
- 一  05 14:34:07                     <F1SetupResponseIEs>
- 一  05 14:34:07                         <id>170</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <RRC-Version>
- 一  05 14:34:07                                 <latest-RRC-Version>
- 一  05 14:34:07                                     000
- 一  05 14:34:07                                 </latest-RRC-Version>
- 一  05 14:34:07                                 <iE-Extensions>
- 一  05 14:34:07                                     <RRC-Version-ExtIEs>
- 一  05 14:34:07                                         <id>199</id>
- 一  05 14:34:07                                         <criticality><reject/></criticality>
- 一  05 14:34:07                                         <extensionValue>
- 一  05 14:34:07                                             <Latest-RRC-Version-Enhanced>00 05 0F</Latest-RRC-Version-Enhanced>
- 一  05 14:34:07                                         </extensionValue>
- 一  05 14:34:07                                     </RRC-Version-ExtIEs>
- 一  05 14:34:07                                 </iE-Extensions>
- 一  05 14:34:07                             </RRC-Version>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </F1SetupResponseIEs>
- 一  05 14:34:07                 </protocolIEs>
- 一  05 14:34:07             </F1SetupResponse>
- 一  05 14:34:07         </value>
- 一  05 14:34:07     </successfulOutcome>
- 一  05 14:34:07 </F1AP-PDU>
- 一  05 14:34:07 
- 一  05 14:34:07 INFO   -->  F1AP : F1 Setup Response received
- 一  05 14:34:07 [DU UTILS] --> Gen Buffer
- 一  05 14:34:07 DEBUG  -->  DU-APP : MAC CELL config sent
- 一  05 14:34:07 INFO   -->  DU_APP : F1 Setup Response received
- 一  05 14:34:07 INFO   -->  E2AP : Building E2 Setup Request
- 一  05 14:34:07 <E2SM-KPM-RANfunction-Description>
- 一  05 14:34:07     <ranFunction-Name>
- 一  05 14:34:07         <ranFunction-ShortName>ORAN-E2SM-KPM</ranFunction-ShortName>
- 一  05 14:34:07         <ranFunction-E2SM-OID>1.3.6.1.4.1.53148.1.2.2.2</ranFunction-E2SM-OID>
- 一  05 14:34:07         <ranFunction-Description>KPM Monitor</ranFunction-Description>
- 一  05 14:34:07     </ranFunction-Name>
- 一  05 14:34:07     <ric-EventTriggerStyle-List>
- 一  05 14:34:07         <RIC-EventTriggerStyle-Item>
- 一  05 14:34:07             <ric-EventTriggerStyle-Type>1</ric-EventTriggerStyle-Type>
- 一  05 14:34:07             <ric-EventTriggerStyle-Name>Periodic Report</ric-EventTriggerStyle-Name>
- 一  05 14:34:07             <ric-EventTriggerFormat-Type>1</ric-EventTriggerFormat-Type>
- 一  05 14:34:07         </RIC-EventTriggerStyle-Item>
- 一  05 14:34:07     </ric-EventTriggerStyle-List>
- 一  05 14:34:07     <ric-ReportStyle-List>
- 一  05 14:34:07         <RIC-ReportStyle-Item>
- 一  05 14:34:07             <ric-ReportStyle-Type>1</ric-ReportStyle-Type>
- 一  05 14:34:07             <ric-ReportStyle-Name>E2 Node Measurement</ric-ReportStyle-Name>
- 一  05 14:34:07             <ric-ActionFormat-Type>1</ric-ActionFormat-Type>
- 一  05 14:34:07             <measInfo-Action-List>
- 一  05 14:34:07                 <MeasurementInfo-Action-Item>
- 一  05 14:34:07                     <measName>RRU.PrbTotDl</measName>
- 一  05 14:34:07                     <measID>1</measID>
- 一  05 14:34:07                 </MeasurementInfo-Action-Item>
- 一  05 14:34:07                 <MeasurementInfo-Action-Item>
- 一  05 14:34:07                     <measName>RRU.PrbTotUl</measName>
- 一  05 14:34:07                     <measID>2</measID>
- 一  05 14:34:07                 </MeasurementInfo-Action-Item>
- 一  05 14:34:07             </measInfo-Action-List>
- 一  05 14:34:07             <ric-IndicationHeaderFormat-Type>1</ric-IndicationHeaderFormat-Type>
- 一  05 14:34:07             <ric-IndicationMessageFormat-Type>1</ric-IndicationMessageFormat-Type>
- 一  05 14:34:07         </RIC-ReportStyle-Item>
- 一  05 14:34:07     </ric-ReportStyle-List>
- 一  05 14:34:07 </E2SM-KPM-RANfunction-Description>
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  F1AP : Created APER encoded buffer for RAN function definition 
- 一  05 14:34:07 60304f52414e2d4532
- 一  05 14:34:07 INFO  -->  SCH : Cell init completed for cellId:1534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f7455
- 一  05 14:34:07 INFO  -->  MAC : Received SCH CELL config confirm at MAC
- 一  05 14:34:07 [NTUST] schCellCfgCfm->rsp = 0
- 一  05 14:34:07 [NTUST] pnf_state_lock->flag = 0
- 一  05 14:34:07 [Small Cell] The NFAPI flag is set to YES and waiting for PNF connection ...
- 一  05 14:34:07 6c0011111<E2AP-PDU>
- 一  05 14:34:07     <initiatingMessage>
- 一  05 14:34:07         <procedureCode>1</procedureCode>
- 一  05 14:34:07         <criticality><reject/></criticality>
- 一  05 14:34:07         <value>
- 一  05 14:34:07             <E2setupRequest>
- 一  05 14:34:07                 <protocolIEs>
- 一  05 14:34:07                     <E2setupRequestIEs>
- 一  05 14:34:07                         <id>49</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <TransactionID>0</TransactionID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupRequestIEs>
- 一  05 14:34:07                     <E2setupRequestIEs>
- 一  05 14:34:07                         <id>3</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <GlobalE2node-ID>
- 一  05 14:34:07                                 <gNB>
- 一  05 14:34:07                                     <global-gNB-ID>
- 一  05 14:34:07                                         <plmn-id>13 F1 84</plmn-id>
- 一  05 14:34:07                                         <gnb-id>
- 一  05 14:34:07                                             <gnb-ID>
- 一  05 14:34:07                                                 00000000000000000000000000000001
- 一  05 14:34:07                                             </gnb-ID>
- 一  05 14:34:07                                         </gnb-id>
- 一  05 14:34:07                                     </global-gNB-ID>
- 一  05 14:34:07                                     <gNB-DU-ID>1</gNB-DU-ID>
- 一  05 14:34:07                                 </gNB>
- 一  05 14:34:07                             </GlobalE2node-ID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupRequestIEs>
- 一  05 14:34:07                     <E2setupRequestIEs>
- 一  05 14:34:07                         <id>10</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <RANfunctions-List>
- 一  05 14:34:07                                 <ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                                     <id>8</id>
- 一  05 14:34:07                                     <criticality><ignore/></criticality>
- 一  05 14:34:07                                     <value>
- 一  05 14:34:07                                         <RANfunction-Item>
- 一  05 14:34:07                                             <ranFunctionID>1</ranFunctionID>
- 一  05 14:34:07                                             <ranFunctionDefinition>
- 一  05 14:34:07                                                 60 30 4F 52 41 4E 2D 45 32 53 4D 2D 4B 50 4D 00 
- 一  05 14:34:07                                                 00 18 31 2E 33 2E 36 2E 31 2E 34 2E 31 2E 35 33 
- 一  05 14:34:07                                                 31 34 38 2E 31 2E 32 2E 32 2E 32 05 00 4B 50 4D 
- 一  05 14:34:07                                                 20 4D 6F 6E 69 74 6F 72 00 01 01 07 00 50 65 72 
- 一  05 14:34:07                                                 69 6F 64 69 63 20 52 65 70 6F 72 74 01 01 00 01 
- 一  05 14:34:07                                                 01 09 00 45 32 20 4E 6F 64 65 20 4D 65 61 73 75 
- 一  05 14:34:07                                                 72 65 6D 65 6E 74 01 01 00 01 41 60 52 52 55 2E 
- 一  05 14:34:07                                                 50 72 62 54 6F 74 44 6C 00 00 00 41 60 52 52 55 
- 一  05 14:34:07                                                 2E 50 72 62 54 6F 74 55 6C 00 00 01 01 01 01 01
- 一  05 14:34:07                                             </ranFunctionDefinition>
- 一  05 14:34:07                                             <ranFunctionRevision>0</ranFunctionRevision>
- 一  05 14:34:07                                             <ranFunctionOID>1.3.6.1.4.1.53148.1.2.2.2</ranFunctionOID>
- 一  05 14:34:07                                         </RANfunction-Item>
- 一  05 14:34:07                                     </value>
- 一  05 14:34:07                                 </ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                             </RANfunctions-List>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupRequestIEs>
- 一  05 14:34:07                     <E2setupRequestIEs>
- 一  05 14:34:07                         <id>50</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <E2nodeComponentConfigAddition-List>
- 一  05 14:34:07                                 <ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                                     <id>51</id>
- 一  05 14:34:07                                     <criticality><reject/></criticality>
- 一  05 14:34:07                                     <value>
- 一  05 14:34:07                                         <E2nodeComponentConfigAddition-Item>
- 一  05 14:34:07                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
- 一  05 14:34:07                                             <e2nodeComponentID>
- 一  05 14:34:07                                                 <e2nodeComponentInterfaceTypeF1>
- 一  05 14:34:07                                                     <gNB-DU-ID>1</gNB-DU-ID>
- 一  05 14:34:07                                                 </e2nodeComponentInterfaceTypeF1>
- 一  05 14:34:07                                             </e2nodeComponentID>
- 一  05 14:34:07                                             <e2nodeComponentConfiguration>
- 一  05 14:34:07                                                 <e2nodeComponentRequestPart>
- 一  05 14:34:07                                                     00 01 00 80 D9 00 00 05 00 4E 00 02 00 01 00 2A 
- 一  05 14:34:07                                                     00 02 00 01 00 2D 40 0D 05 00 4F 52 41 4E 20 4F 
- 一  05 14:34:07                                                     41 4D 20 44 55 00 2C 00 80 A6 00 00 00 2B 00 80 
- 一  05 14:34:07                                                     9F 48 00 13 F1 84 00 00 00 00 10 00 01 00 00 01 
- 一  05 14:34:07                                                     08 13 F1 84 00 00 00 83 40 0C 00 01 40 20 02 03 
- 一  05 14:34:07                                                     04 40 A0 06 07 08 01 00 05 5F 00 00 00 41 00 40 
- 一  05 14:34:07                                                     06 97 80 00 00 41 00 27 04 E0 07 10 11 33 D4 05 
- 一  05 14:34:07                                                     02 00 00 03 00 00 0C 58 7C 03 28 A3 40 61 31 1A 
- 一  05 14:34:07                                                     40 00 80 00 00 80 00 00 00 0F 7F 00 00 20 28 12 
- 一  05 14:34:07                                                     10 82 03 00 00 04 26 CE 19 66 BB 00 36 04 02 00 
- 一  05 14:34:07                                                     0F 11 00 82 0D 18 08 50 50 9B 88 82 C1 00 00 10 
- 一  05 14:34:07                                                     9E AE 70 CB 36 A0 80 52 48 0A 67 CC 79 F8 01 27 
- 一  05 14:34:07                                                     18 88 51 50 8C 25 40 80 EC 04 16 03 E0 08 5E 00 
- 一  05 14:34:07                                                     00 AB 00 0A 80 00 00 00 C7 00 03 0F 05 00
- 一  05 14:34:07                                                 </e2nodeComponentRequestPart>
- 一  05 14:34:07                                                 <e2nodeComponentResponsePart>
- 一  05 14:34:07                                                     40 01 00 2A 00 00 03 00 4E 00 02 00 01 00 03 00 
- 一  05 14:34:07                                                     0F 00 00 00 04 40 09 00 13 F1 84 00 00 00 00 10 
- 一  05 14:34:07                                                     00 AA 00 0A 80 00 00 00 C7 00 03 00 05 0F
- 一  05 14:34:07                                                 </e2nodeComponentResponsePart>
- 一  05 14:34:07                                             </e2nodeComponentConfiguration>
- 一  05 14:34:07                                         </E2nodeComponentConfigAddition-Item>
- 一  05 14:34:07                                     </value>
- 一  05 14:34:07                                 </ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                             </E2nodeComponentConfigAddition-List>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupRequestIEs>
- 一  05 14:34:07                 </protocolIEs>
- 一  05 14:34:07             </E2setupRequest>
- 一  05 14:34:07         </value>
- 一  05 14:34:07     </initiatingMessage>
- 一  05 14:34:07 </E2AP-PDU>
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  E2AP : Created APER encoded buffer for E2SetupRequest
- 一  05 14:34:07 010ffffff81fffffff50040310200030b213fffffff1ffffff84500001010a0ffffff80ffffffb900840ffffff80ffffffb3001ffffff80ffffff9060304f52414e2d4532534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111000018312e332e362e312e342e312e35333134382e312e322e322e320320ffffff811a000330ffffff811319ffffff8010ffffff80ffffffde010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48013fffffff1ffffff8400001001001813fffffff1ffffff84000ffffff8340c01402023440ffffffa06781055f000410406ffffff97ffffff8000410274ffffffe07101133ffffffd45200300c587c328ffffffa34061311a400ffffff8000ffffff80000f7f0020281210ffffff82300426ffffffce1966ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc10010ffffff9effffffae70ffffffcb36ffffffa0ffffff805248a67ffffffcc79fffffff812718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f502e40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
- 一  05 14:34:07 DEBUG  -->  SCTP : sending the message to ric
- 一  05 14:34:07 DEBUG   -->  SCTP : Forwarding received message to duApp
- 一  05 14:34:07 DEBUG   -->  E2AP : Received E2AP message buffer
- 一  05 14:34:07 DEBUG   -->  E2AP : Received flat buffer to be decoded : 20103000403102000407013fffffff1ffffff840010090a006405001000340a000350419ffffff8010
- 一  05 14:34:07 <E2AP-PDU>
- 一  05 14:34:07     <successfulOutcome>
- 一  05 14:34:07         <procedureCode>1</procedureCode>
- 一  05 14:34:07         <criticality><reject/></criticality>
- 一  05 14:34:07         <value>
- 一  05 14:34:07             <E2setupResponse>
- 一  05 14:34:07                 <protocolIEs>
- 一  05 14:34:07                     <E2setupResponseIEs>
- 一  05 14:34:07                         <id>49</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <TransactionID>0</TransactionID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupResponseIEs>
- 一  05 14:34:07                     <E2setupResponseIEs>
- 一  05 14:34:07                         <id>4</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <GlobalRIC-ID>
- 一  05 14:34:07                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
- 一  05 14:34:07                                 <ric-ID>
- 一  05 14:34:07                                     00000000000000000001
- 一  05 14:34:07                                 </ric-ID>
- 一  05 14:34:07                             </GlobalRIC-ID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupResponseIEs>
- 一  05 14:34:07                     <E2setupResponseIEs>
- 一  05 14:34:07                         <id>9</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <RANfunctionsID-List>
- 一  05 14:34:07                                 <ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                                     <id>6</id>
- 一  05 14:34:07                                     <criticality><ignore/></criticality>
- 一  05 14:34:07                                     <value>
- 一  05 14:34:07                                         <RANfunctionID-Item>
- 一  05 14:34:07                                             <ranFunctionID>1</ranFunctionID>
- 一  05 14:34:07                                             <ranFunctionRevision>0</ranFunctionRevision>
- 一  05 14:34:07                                         </RANfunctionID-Item>
- 一  05 14:34:07                                     </value>
- 一  05 14:34:07                                 </ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                             </RANfunctionsID-List>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupResponseIEs>
- 一  05 14:34:07                     <E2setupResponseIEs>
- 一  05 14:34:07                         <id>52</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <E2nodeComponentConfigAdditionAck-List>
- 一  05 14:34:07                                 <ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                                     <id>53</id>
- 一  05 14:34:07                                     <criticality><reject/></criticality>
- 一  05 14:34:07                                     <value>
- 一  05 14:34:07                                         <E2nodeComponentConfigAdditionAck-Item>
- 一  05 14:34:07                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
- 一  05 14:34:07                                             <e2nodeComponentID>
- 一  05 14:34:07                                                 <e2nodeComponentInterfaceTypeF1>
- 一  05 14:34:07                                                     <gNB-DU-ID>1</gNB-DU-ID>
- 一  05 14:34:07                                                 </e2nodeComponentInterfaceTypeF1>
- 一  05 14:34:07                                             </e2nodeComponentID>
- 一  05 14:34:07                                             <e2nodeComponentConfigurationAck>
- 一  05 14:34:07                                                 <updateOutcome><success/></updateOutcome>
- 一  05 14:34:07                                             </e2nodeComponentConfigurationAck>
- 一  05 14:34:07                                         </E2nodeComponentConfigAdditionAck-Item>
- 一  05 14:34:07                                     </value>
- 一  05 14:34:07                                 </ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                             </E2nodeComponentConfigAdditionAck-List>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2setupResponseIEs>
- 一  05 14:34:07                 </protocolIEs>
- 一  05 14:34:07             </E2setupResponse>
- 一  05 14:34:07         </value>
- 一  05 14:34:07     </successfulOutcome>
- 一  05 14:34:07 </E2AP-PDU>
- 一  05 14:34:07 
- 一  05 14:34:07 INFO   -->  E2AP : E2 Setup Response received
- 一  05 14:34:07 ERROR  -->  E2AP : Invalid IE received in E2SetupRsp:9
- 一  05 14:34:07 INFO   -->  E2AP : Building E2 Node config update
- 一  05 14:34:07 <E2AP-PDU>
- 一  05 14:34:07     <initiatingMessage>
- 一  05 14:34:07         <procedureCode>10</procedureCode>
- 一  05 14:34:07         <criticality><reject/></criticality>
- 一  05 14:34:07         <value>
- 一  05 14:34:07             <E2nodeConfigurationUpdate>
- 一  05 14:34:07                 <protocolIEs>
- 一  05 14:34:07                     <E2nodeConfigurationUpdate-IEs>
- 一  05 14:34:07                         <id>49</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <TransactionID>1</TransactionID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </E2nodeConfigurationUpdate-IEs>
- 一  05 14:34:07                 </protocolIEs>
- 一  05 14:34:07             </E2nodeConfigurationUpdate>
- 一  05 14:34:07         </value>
- 一  05 14:34:07     </initiatingMessage>
- 一  05 14:34:07 </E2AP-PDU>
- 一  05 14:34:07 
- 一  05 14:34:07 DEBUG   -->  E2AP : Created APER encoded buffer for E2nodeConfigurationUpdate
- 一  05 14:34:07 0a090010310201
- 一  05 14:34:07 DEBUG   -->  SCTP : Forwarding received message to duApp
- 一  05 14:34:07 DEBUG  -->  SCTP : sending the message to ric
- 一  05 14:34:07 DEBUG   -->  E2AP : Received E2AP message buffer
- 一  05 14:34:07 DEBUG   -->  E2AP : Received flat buffer to be decoded : 0804a00301d050010105020101e0340383ffffffe70013402a4000260110010ffffffb05252552e507262546f74446c00ffffffb05252552e507262546f74556c0063
- 一  05 14:34:07 <E2AP-PDU>
- 一  05 14:34:07     <initiatingMessage>
- 一  05 14:34:07         <procedureCode>8</procedureCode>
- 一  05 14:34:07         <criticality><reject/></criticality>
- 一  05 14:34:07         <value>
- 一  05 14:34:07             <RICsubscriptionRequest>
- 一  05 14:34:07                 <protocolIEs>
- 一  05 14:34:07                     <RICsubscriptionRequest-IEs>
- 一  05 14:34:07                         <id>29</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <RICrequestID>
- 一  05 14:34:07                                 <ricRequestorID>1</ricRequestorID>
- 一  05 14:34:07                                 <ricInstanceID>1</ricInstanceID>
- 一  05 14:34:07                             </RICrequestID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </RICsubscriptionRequest-IEs>
- 一  05 14:34:07                     <RICsubscriptionRequest-IEs>
- 一  05 14:34:07                         <id>5</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <RANfunctionID>1</RANfunctionID>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </RICsubscriptionRequest-IEs>
- 一  05 14:34:07                     <RICsubscriptionRequest-IEs>
- 一  05 14:34:07                         <id>30</id>
- 一  05 14:34:07                         <criticality><reject/></criticality>
- 一  05 14:34:07                         <value>
- 一  05 14:34:07                             <RICsubscriptionDetails>
- 一  05 14:34:07                                 <ricEventTriggerDefinition>08 03 E7</ricEventTriggerDefinition>
- 一  05 14:34:07                                 <ricAction-ToBeSetup-List>
- 一  05 14:34:07                                     <ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                                         <id>19</id>
- 一  05 14:34:07                                         <criticality><ignore/></criticality>
- 一  05 14:34:07                                         <value>
- 一  05 14:34:07                                             <RICaction-ToBeSetup-Item>
- 一  05 14:34:07                                                 <ricActionID>0</ricActionID>
- 一  05 14:34:07                                                 <ricActionType><report/></ricActionType>
- 一  05 14:34:07                                                 <ricActionDefinition>
- 一  05 14:34:07                                                     00 01 01 00 00 01 00 B0 52 52 55 2E 50 72 62 54 
- 一  05 14:34:07                                                     6F 74 44 6C 00 00 B0 52 52 55 2E 50 72 62 54 6F 
- 一  05 14:34:07                                                     74 55 6C 00 00 63
- 一  05 14:34:07                                                 </ricActionDefinition>
- 一  05 14:34:07                                             </RICaction-ToBeSetup-Item>
- 一  05 14:34:07                                         </value>
- 一  05 14:34:07                                     </ProtocolIE-SingleContainerE2>
- 一  05 14:34:07                                 </ricAction-ToBeSetup-List>
- 一  05 14:34:07                             </RICsubscriptionDetails>
- 一  05 14:34:07                         </value>
- 一  05 14:34:07                     </RICsubscriptionRequest-IEs>
- 一  05 14:34:07                 </protocolIEs>
- 一  05 14:34:07             </RICsubscriptionRequest>
- 一  05 14:34:07         </value>
- 一  05 14:34:07     </initiatingMessage>
- 一  05 14:34:07 </E2AP-PDU>
- 一  05 14:34:07 
- 一  05 14:34:07 INFO   -->  E2AP : RIC Subscription request received
- 一  05 14:34:07 <E2SM-KPM-EventTriggerDefinition>
- 一  05 14:34:07     <eventDefinition-formats>
- 一  05 14:34:07         <eventDefinition-Format1>
- 一  05 14:34:07             <reportingPeriod>1000</reportingPeriod>
- 一  05 14:34:07         </eventDefinition-Format1>
- 一  05 14:34:07     </eventDefinition-formats>
- 一  05 14:34:07 </E2SM-KPM-EventTriggerDefinition>
- 一  05 14:34:07 
- 一  05 14:34:07 <E2SM-KPM-ActionDefinition>
- 一  05 14:34:07     <ric-Style-Type>1</ric-Style-Type>
- 一  05 14:34:07     <actionDefinition-formats>
- 一  05 14:34:07         <actionDefinition-Format1>
- 一  05 14:34:07             <measInfoList>
- 一  05 14:34:07                 <MeasurementInfoItem>
- 一  05 14:34:07                     <measType>
- 一  05 14:34:07                         <measName>RRU.PrbTotDl</measName>
- 一  05 14:34:07                     </measType>
- 一  05 14:34:07                     <labelInfoList>
- 一  05 14:34:07                     </labelInfoList>
- 一  05 14:34:07                 </MeasurementInfoItem>
- 一  05 14:34:07                 <MeasurementInfoItem>
- 一  05 14:34:07                     <measType>
- 一  05 14:34:07                         <measName>RRU.PrbTotUl</measName>
- 一  05 14:34:07                     </measType>
- 一  05 14:34:07                     <labelInfoList>
- 一  05 14:34:07                     </labelInfoList>
- 一  05 14:34:07                 </MeasurementInfoItem>
- 一  05 14:34:07             </measInfoList>
- 一  05 14:34:07             <granulPeriod>100</granulPeriod>
- 一  05 14:34:07         </actionDefinition-Format1>
- 一  05 14:34:07     </actionDefinition-formats>
- 一  05 14:34:07 </E2SM-KPM-ActionDefinition>
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI] VNF Interface --> Accepting connection from PNF...
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI] VNF Interface --> PNF connection (fd:8) accepted from 127.0.0.1:59385 
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI] VNF Interface --> MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f5958001120
- 一  05 14:34:13 
- 一  05 14:34:13 [INFO]   --> [VNF_Interface] 1 in nfapi_nr_vnf_start
- 一  05 14:34:13 INFO   --> [VNF] pnf connection indication idx:0
- 一  05 14:34:13 
- 一  05 14:34:13  MESSAGE SENT: 
- 一  05 14:34:13  00  00  01  00  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI] VNF Interface --> VNF Association ID = 467
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI] VNF Interface --> VNF Receiver window size = 106488
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI] VNF Interface --> VNF In Streams = 5
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI] VNF Interface --> VNF Out Streams = 5
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
- 一  05 14:34:13 messageHeader.message_id = 257
- 一  05 14:34:13 
- 一  05 14:34:13  Read NR message unpack:  00  00  01  01  00  46  00  00  00  02  10  00  00  21  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  10  01  00  15  00  01  00  00  00  02  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] pnf param response idx:0 error:0
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] (PHY:0) phy_config_idx:0
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] (PHY:0) (RF0) 0
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] (PHY:0) (RF1) 0
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> Hard coded num phy rf to 2
- 一  05 14:34:13 
- 一  05 14:34:13  MESSAGE SENT: 
- 一  05 14:34:13  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
- 一  05 14:34:13 messageHeader.message_id = 259
- 一  05 14:34:13 
- 一  05 14:34:13  Read NR message unpack:  00  00  01  03  00  01  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:1]]
- 一  05 14:34:13 
- 一  05 14:34:13  MESSAGE SENT: 
- 一  05 14:34:13  00  00  01  04  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
- 一  05 14:34:13 messageHeader.message_id = 261
- 一  05 14:34:13 
- 一  05 14:34:13  Read NR message unpack:  00  00  01  05  00  04  00  00  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] pnf start response idx:0 config:0x55d0f5872f00 user_data:0x7f5a3319e010 p7_vnf[config:0x55d0f5872db0 thread_started:0]
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
- 一  05 14:34:13 
- 一  05 14:34:13  MESSAGE SENT: 
- 一  05 14:34:13  00  01  00  00  00  00  00  00 
- 一  05 14:34:13 Calling sched_setscheduler(79)
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
- 一  05 14:34:13 messageHeader.message_id = 1
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Received PARAM_RESPONSE
- 一  05 14:34:13  Read NR message unpack:  00  01  00  01  01  fa  00  00  00  3e  00  01  00  02  00  00  00  00  00  02  00  02  00  00  00  00  00  03  00  01  00  00  00  00  00  04  00  01  00  00  00  00  00  05  00  02  00  00  00  00  00  06  00  01  00  00  00  00  00  07  00  02  00  00  00  00  00  08  00  02  00  00  00  00  00  09  00  01  00  00  00  00  00  0a  00  02  00  00  00  00  00  0b  00  01  00  00  00  00  00  0c  00  01  00  00  00  00  00  0d  00  01  00  00  00  00  00  0e  00  01  00  00  00  00  00  0f  00  01  00  00  00  00  00  10  00  01  00  00  00  00  00  11  00  01  00  00  00  00  00  12  00  01  00  00  00  00  00  13  00  01  00  00  00  00  00  14  00  01  00  00  00  00  00  15  00  01  00  00  00  00  00  16  00  01  00  00  00  00  00  17  00  01  00  00  00  00  00  19  00  01  00  00  00  00  00  1b  00  01  00  00  00  00  00  1d  00  01  00  00  00  00  00  1e  00  01  00  00  00  00  00  1f  00  01  00  00  00  00  00  20  00  01  00  00  00  00  00  21  00  01  00  00  00  00  00  22  00  01  00  00  00  00  00  23  00  01  00  00  00  00  00  24  00  01  00  00  00  00  00  25  00  01  00  00  00  00  00  26  00  01  00  00  00  00  00  27  00  01  00  00  00  00  00  28  00  01  00  00  00  00  00  29  00  01  00  00  00  00  00  2a  00  01  00  00  00  00  00  2b  00  01  00  00  00  00  00  2c  00  01  00  00  00  00  00  2d  00  01  00  00  00  00  00  2e  00  01  00  00  00  00  00  2f  00  01  00  00  00  00  00  30  00  01  00  00  00  00  00  31  00  01  00  00  00  00  00  32  00  01  00  00  00  00  00  33  00  01  00  00  00  00  00  34  00  01  00  00  00  00  00  35  00  01  00  00  00  00  00  36  00  01  00  00  00  00  01  00  00  04  00  00  00  00  01  01  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  02  00  02  00  00  00  00  01  03  00  04  7f  00  00  02  01  04  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  05  00  02  5a  c3  00  00  01  1e  00  01  00  00  00  00  01  1f  00  01  00  00  00  00  01  20  00  01  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13  Read message unpack_param_response:  00  3e  00  01  00  02  00  00  00  00  00  02  00  02  00  00  00  00  00  03  00  01  00  00  00  00  00  04  00  01  00  00  00  00  00  05  00  02  00  00  00  00  00  06  00  01  00  00  00  00  00  07  00  02  00  00  00  00  00  08  00  02  00  00  00  00  00  09  00  01  00  00  00  00  00  0a  00  02  00  00  00  00  00  0b  00  01  00  00  00  00  00  0c  00  01  00  00  00  00  00  0d  00  01  00  00  00  00  00  0e  00  01  00  00  00  00  00  0f  00  01  00  00  00  00  00  10  00  01  00  00  00  00  00  11  00  01  00  00  00  00  00  12  00  01  00  00  00  00  00  13  00  01  00  00  00  00  00  14  00  01  00  00  00  00  00  15  00  01  00  00  00  00  00  16  00  01  00  00  00  00  00  17  00  01  00  00  00  00  00  19  00  01  00  00  00  00  00  1b  00  01  00  00  00  00  00  1d  00  01  00  00  00  00  00  1e  00  01  00  00  00  00  00  1f  00  01  00  00  00  00  00  20  00  01  00  00  00  00  00  21  00  01  00  00  00  00  00  22  00  01  00  00  00  00  00  23  00  01  00  00  00  00  00  24  00  01  00  00  00  00  00  25  00  01  00  00  00  00  00  26  00  01  00  00  00  00  00  27  00  01  00  00  00  00  00  28  00  01  00  00  00  00  00  29  00  01  00  00  00  00  00  2a  00  01  00  00  00  00  00  2b  00  01  00  00  00  00  00  2c  00  01  00  00  00  00  00  2d  00  01  00  00  00  00  00  2e  00  01  00  00  00  00  00  2f  00  01  00  00  00  00  00  30  00  01  00  00  00  00  00  31  00  01  00  00  00  00  00  32  00  01  00  00  00  00  00  33  00  01  00  00  00  00  00  34  00  01  00  00  00  00  00  35  00  01  00  00  00  00  00  36  00  01  00  00  00  00  01  00  00  04  00  00  00  00  01  01  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  02  00  02  00  00  00  00  01  03  00  04  7f  00  00  02  01  04  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  05  00  02  5a  c3  00  00  01  1e  00  01  00  00  00  00  01  1f  00  01  00  00  00  00  01  20  00  01  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
- 一  05 14:34:13 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
- 一  05 14:34:13 [NFAPI VNF]  ->  PNF P7 Port: 23235
- 一  05 14:34:13 [NFAPI VNF]  ->  Invoke the nr_param_resp
- 一  05 14:34:13 [NFAPI VNF]  ->  The PNF has been running, set FALG to 0
- 一  05 14:34:13 [NFAPI VNF]  ->  The PNF has been running, set FALG to 1
- 一  05 14:34:13 INFO  -->  LWR_MAC : phyState :  0 in msgType : 2
- 一  05 14:34:13 INFO  -->  NFAPI : pnfState :  0
- 一  05 14:34:13 lwr_mac_procConfigReqEvt
- 一  05 14:34:13 
- 一  05 14:34:13 INFO  -->  LWR_MAC: Received EVENT[2] at STATE[0]
- 一  05 14:34:13 DEBUG  -->  LWR_MAC: MIB PDU 600
- 一  05 14:34:13 123
- 一  05 14:34:13 [DEBUG] -> intgr_fapi_config being called
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] 0.1 pnf p7 127.0.0.2:23235 timing 30 10 0 10
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Send NFAPI_CONFIG_REQUEST
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Local_port:46021
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Local_addr:127.0.0.1
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> 
- 一  05 14:34:13 [VNF]Timing window tag : 286 Timing window:30
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI P5]  ->  Number of TLVs in ORAN_OAI: 24
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1001 with value 20 and length 4
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1002 with value 2160000 and length 4
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1005 with value 2 and length 2
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1006 with value 20 and length 4
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1007 with value 1760000 and length 4
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x100a with value 2 and length 2
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x100c with value 1 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x100d with value 0 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x100e with value 0 and length 4
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1010 with value 1 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1012 with value 1 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1013 with value 0 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1014 with value 1 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1029 with value 16 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1015 with value 0 and length 2
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1017 with value 0 and length 2
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1018 with value 4 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x101b with value 1 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x101d with value 24 and length 2
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x101f with value 2 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1020 with value 0 and length 1
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1021 with value 1536 and length 4
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1022 with value 1 and length 4
- 一  05 14:34:13 [NFAPI P5]  ->  TAG 0x1023 with value 0 and length 1
- 一  05 14:34:13 [NTUST]p7_vnf_address_ipv4: 127.0.0.1
- 一  05 14:34:13 
- 一  05 14:34:13 [NTUST]p7_vnf_port: 50611
- 一  05 14:34:13 
- 一  05 14:34:13  MESSAGE SENT: 
- 一  05 14:34:13  00  01  00  02  00  e9  00  00  21  10  01  00  04  00  00  00  14  10  02  00  04  00  20  f5  80  10  05  00  02  00  02  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  1a  db  00  10  0a  00  02  00  02  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  01  00  00  00  10  12  00  01  01  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
- 一  05 14:34:13 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:6
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Creating VNF NFAPI P7 start thread vnf_nr_p7_thread_start
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> vnf_nr_p7_start_thread()
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI P7] ->  Initialising VNF P7 port:50611
- 一  05 14:34:13 [NFAPI P7] ->  VNF P7 socket created...
- 一  05 14:34:13 [NFAPI P7] ->  VNF P7 setsockopt succeeded...
- 一  05 14:34:13 [NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
- 一  05 14:34:13 [NFAPI P7] ->  VNF P7 bind succeeded...
- 一  05 14:34:13 [DEBUG]	vnf_p7->terminate 0
- 一  05 14:34:13 [DEBUG]	Slot indication: 0
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
- 一  05 14:34:13 messageHeader.message_id = 3
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  -> Received CONFIG_RESPONSE
- 一  05 14:34:13 
- 一  05 14:34:13  Read NR message unpack:  00  01  00  03  00  05  00  00  00  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 INFO  -->  Func : intgr_lwr_mac_procConfigRspEvt 
- 一  05 14:34:13 
- 一  05 14:34:13 INFO  -->  LWR_MAC : phyState :  0 in msgType : 3
- 一  05 14:34:13 INFO  -->  NFAPI : pnfState :  0
- 一  05 14:34:13 INFO  -->  LWR_MAC: Received EVENT[3] at STATE[0]
- 一  05 14:34:13 DEBUG  -->  LWR_MAC: PHY has moved to Configured state 
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Received NFAPI_CONFIG_RESP idx:0 phy_id:1
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Calling oai_enb_init()
- 一  05 14:34:13 
- 一  05 14:34:13  MESSAGE SENT: 
- 一  05 14:34:13  00  01  00  04  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
- 一  05 14:34:13 messageHeader.message_id = 269
- 一  05 14:34:13 
- 一  05 14:34:13  Read NR message unpack:  00  01  01  0d  00  04  00  00  00  00  00  00 
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] Received NFAPI_START_RESP idx:0 phy_id:1
- 一  05 14:34:13 
- 一  05 14:34:13 nfapi_vnf_p7_add_pnf(config:0x55d0f5872db0 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:23235)
- 一  05 14:34:13 
- 一  05 14:34:13 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
- 一  05 14:34:13 176695892090 [W] 3548374784: vnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
- 一  05 14:34:13 176695892092 [W] 3548374784: vnf_nr_read_dispatch_message: Disconnected socket
- 一  05 14:34:13 
- 一  05 14:34:13 INFO   --> [VNF] pnf disconnection indication idx:0
- 一  05 14:35:53 [DEBUG]	Slot indication: 0
- 一  05 14:37:33 [DEBUG]	Slot indication: 0
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3743
+ 一  05 17:22:50 
+ 一  05 17:22:50 Set priority 99
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+ 一  05 17:22:50 
+ 一  05 17:22:50 Set priority 99
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+ 一  05 17:22:50 
+ 一  05 17:22:50 Set priority 99
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+ 一  05 17:22:50 
+ 一  05 17:22:50 Set priority 98
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+ 一  05 17:22:50 
+ 一  05 17:22:50 Set priority 98
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+ 一  05 17:22:50 
+ 一  05 17:22:50 
+ 一  05 17:22:50 date: 01/05/2024 time: 17:22:50
+ 一  05 17:22:50 
+ 一  05 17:22:50 mtss(posix): sw error:  ent: 001  inst: 000  proc id: 000 
+ 一  05 17:22:50 file: /home/yen0224/new/small_cell_integration/l2/src/mt/ss_task.c line: 2455 errcode: 00446 errcls: ERRCLS_INT_PAR
+ 一  05 17:22:50 errval: 00000  errdesc: Can not set exclusive affinity for the core
+ 一  05 17:22:50 
+ 一  05 17:22:50 
+ 一  05 17:22:50 Set priority 99
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+ 一  05 17:22:50 
+ 一  05 17:22:50 Set priority 99
+ 一  05 17:22:50 
+ 一  05 17:22:50 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+ 一  05 17:22:50 
+ 一  05 17:22:50 INFO   -->  DU_APP : DU APP created and registered    to 1 sys task
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  EGTP : Initializing
+ 一  05 17:22:50 INFO   -->  DU_APP : EGTP created and registered     to 2 sys task
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG  -->  SCTP : Initializing
+ 一  05 17:22:50 INFO   -->  DU_APP : SCTP TAPA task created and registered to 6 sys task
+ 一  05 17:22:50 INFO   -->  DU_APP : RLC UL TAPA task created and registered to    4 sys task
+ 一  05 17:22:50 INFO   -->  DU_APP : SCH TAPA task created and registered to          5 sys task
+ 一  05 17:22:50 INFO   -->  DU_APP : PHY stub slot indication TAPA task created and registered to 7 sys task
+ 一  05 17:22:50 DEBUG   --> In function: readVnfCfg
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 INFO    --> [NFAPI] DU_APP: readVnfCfg() Completed
+ 一  05 17:22:50 
+ 一  05 17:22:50 ******************FINISH VNF_CFG_REQ **************************
+ 一  05 17:22:50 
+ 一  05 17:22:50 <MIB>
+ 一  05 17:22:50     <systemFrameNumber>
+ 一  05 17:22:50         000000
+ 一  05 17:22:50     </systemFrameNumber>
+ 一  05 17:22:50     <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+ 一  05 17:22:50     <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+ 一  05 17:22:50     <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+ 一  05 17:22:50     <pdcch-ConfigSIB1>
+ 一  05 17:22:50         <controlResourceSetZero>0</controlResourceSetZero>
+ 一  05 17:22:50         <searchSpaceZero>0</searchSpaceZero>
+ 一  05 17:22:50     </pdcch-ConfigSIB1>
+ 一  05 17:22:50     <cellBarred><notBarred/></cellBarred>
+ 一  05 17:22:50     <intraFreqReselection><notAllowed/></intraFreqReselection>
+ 一  05 17:22:50     <spare>
+ 一  05 17:22:50         0
+ 一  05 17:22:50     </spare>
+ 一  05 17:22:50 </MIB>
+ 一  05 17:22:50 
+ 一  05 17:22:50 encbufSize:3
+ 一  05 17:22:50 0	0	c	
+ 一  05 17:22:50 <BCCH-DL-SCH-Message>
+ 一  05 17:22:50     <message>
+ 一  05 17:22:50         <c1>
+ 一  05 17:22:50             <systemInformationBlockType1>
+ 一  05 17:22:50                 <cellSelectionInfo>
+ 一  05 17:22:50                     <q-RxLevMin>-50</q-RxLevMin>
+ 一  05 17:22:50                     <q-RxLevMinSUL>-50</q-RxLevMinSUL>
+ 一  05 17:22:50                     <q-QualMin>-30</q-QualMin>
+ 一  05 17:22:50                 </cellSelectionInfo>
+ 一  05 17:22:50                 <cellAccessRelatedInfo>
+ 一  05 17:22:50                     <plmn-IdentityList>
+ 一  05 17:22:50                         <PLMN-IdentityInfo>
+ 一  05 17:22:50                             <plmn-IdentityList>
+ 一  05 17:22:50                                 <PLMN-IdentitY>
+ 一  05 17:22:50                                     <mcc>
+ 一  05 17:22:50                                         <MCC-MNC-Digit>3</MCC-MNC-Digit>
+ 一  05 17:22:50                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
+ 一  05 17:22:50                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
+ 一  05 17:22:50                                     </mcc>
+ 一  05 17:22:50                                     <mnc>
+ 一  05 17:22:50                                         <MCC-MNC-Digit>4</MCC-MNC-Digit>
+ 一  05 17:22:50                                         <MCC-MNC-Digit>8</MCC-MNC-Digit>
+ 一  05 17:22:50                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
+ 一  05 17:22:50                                     </mnc>
+ 一  05 17:22:50                                 </PLMN-IdentitY>
+ 一  05 17:22:50                             </plmn-IdentityList>
+ 一  05 17:22:50                             <trackingAreaCode>
+ 一  05 17:22:50                                 000000010000000000000000
+ 一  05 17:22:50                             </trackingAreaCode>
+ 一  05 17:22:50                             <ranac>1</ranac>
+ 一  05 17:22:50                             <cellIdentity>
+ 一  05 17:22:50                                 000000000000000000000000000000000001
+ 一  05 17:22:50                             </cellIdentity>
+ 一  05 17:22:50                             <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+ 一  05 17:22:50                         </PLMN-IdentityInfo>
+ 一  05 17:22:50                     </plmn-IdentityList>
+ 一  05 17:22:50                 </cellAccessRelatedInfo>
+ 一  05 17:22:50                 <connEstFailureControl>
+ 一  05 17:22:50                     <connEstFailCount><n3/></connEstFailCount>
+ 一  05 17:22:50                     <connEstFailOffsetValidity><s900/></connEstFailOffsetValidity>
+ 一  05 17:22:50                     <connEstFailOffset>15</connEstFailOffset>
+ 一  05 17:22:50                 </connEstFailureControl>
+ 一  05 17:22:50                 <si-SchedulingInfo>
+ 一  05 17:22:50                     <schedulingInfoList>
+ 一  05 17:22:50                         <SchedulingInfo>
+ 一  05 17:22:50                             <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
+ 一  05 17:22:50                             <si-Periodicity><rf8/></si-Periodicity>
+ 一  05 17:22:50                             <sib-MappingInfo>
+ 一  05 17:22:50                                 <SIB-TypeInfo>
+ 一  05 17:22:50                                     <type><sibType2/></type>
+ 一  05 17:22:50                                     <valueTag>10</valueTag>
+ 一  05 17:22:50                                 </SIB-TypeInfo>
+ 一  05 17:22:50                             </sib-MappingInfo>
+ 一  05 17:22:50                         </SchedulingInfo>
+ 一  05 17:22:50                     </schedulingInfoList>
+ 一  05 17:22:50                     <si-WindowLength><s5/></si-WindowLength>
+ 一  05 17:22:50                 </si-SchedulingInfo>
+ 一  05 17:22:50                 <servingCellConfigCommon>
+ 一  05 17:22:50                     <downlinkConfigCommon>
+ 一  05 17:22:50                         <frequencyInfoDL>
+ 一  05 17:22:50                             <frequencyBandList>
+ 一  05 17:22:50                                 <NR-MultiBandInfo>
+ 一  05 17:22:50                                     <freqBandIndicatorNR>66</freqBandIndicatorNR>
+ 一  05 17:22:50                                 </NR-MultiBandInfo>
+ 一  05 17:22:50                             </frequencyBandList>
+ 一  05 17:22:50                             <offsetToPointA>24</offsetToPointA>
+ 一  05 17:22:50                             <scs-SpecificCarrierList>
+ 一  05 17:22:50                                 <SCS-SpecificCarrier>
+ 一  05 17:22:50                                     <offsetToCarrier>0</offsetToCarrier>
+ 一  05 17:22:50                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 一  05 17:22:50                                     <carrierBandwidth>20</carrierBandwidth>
+ 一  05 17:22:50                                 </SCS-SpecificCarrier>
+ 一  05 17:22:50                             </scs-SpecificCarrierList>
+ 一  05 17:22:50                         </frequencyInfoDL>
+ 一  05 17:22:50                         <initialDownlinkBWP>
+ 一  05 17:22:50                             <genericParameters>
+ 一  05 17:22:50                                 <locationAndBandwidth>28875</locationAndBandwidth>
+ 一  05 17:22:50                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 一  05 17:22:50                             </genericParameters>
+ 一  05 17:22:50                             <pdcch-ConfigCommon>
+ 一  05 17:22:50                                 <setup>
+ 一  05 17:22:50                                     <controlResourceSetZero>0</controlResourceSetZero>
+ 一  05 17:22:50                                     <searchSpaceZero>0</searchSpaceZero>
+ 一  05 17:22:50                                     <commonSearchSpaceList>
+ 一  05 17:22:50                                         <SearchSpace>
+ 一  05 17:22:50                                             <searchSpaceId>1</searchSpaceId>
+ 一  05 17:22:50                                             <controlResourceSetId>0</controlResourceSetId>
+ 一  05 17:22:50                                             <monitoringSlotPeriodicityAndOffset>
+ 一  05 17:22:50                                                 <sl1></sl1>
+ 一  05 17:22:50                                             </monitoringSlotPeriodicityAndOffset>
+ 一  05 17:22:50                                             <monitoringSymbolsWithinSlot>
+ 一  05 17:22:50                                                 10000000000000
+ 一  05 17:22:50                                             </monitoringSymbolsWithinSlot>
+ 一  05 17:22:50                                             <nrofCandidates>
+ 一  05 17:22:50                                                 <aggregationLevel1><n8/></aggregationLevel1>
+ 一  05 17:22:50                                                 <aggregationLevel2><n4/></aggregationLevel2>
+ 一  05 17:22:50                                                 <aggregationLevel4><n2/></aggregationLevel4>
+ 一  05 17:22:50                                                 <aggregationLevel8><n1/></aggregationLevel8>
+ 一  05 17:22:50                                                 <aggregationLevel16><n0/></aggregationLevel16>
+ 一  05 17:22:50                                             </nrofCandidates>
+ 一  05 17:22:50                                         </SearchSpace>
+ 一  05 17:22:50                                     </commonSearchSpaceList>
+ 一  05 17:22:50                                     <searchSpaceSIB1>1</searchSpaceSIB1>
+ 一  05 17:22:50                                     <pagingSearchSpace>1</pagingSearchSpace>
+ 一  05 17:22:50                                     <ra-SearchSpace>1</ra-SearchSpace>
+ 一  05 17:22:50                                 </setup>
+ 一  05 17:22:50                             </pdcch-ConfigCommon>
+ 一  05 17:22:50                             <pdsch-ConfigCommon>
+ 一  05 17:22:50                                 <setup>
+ 一  05 17:22:50                                     <pdsch-TimeDomainAllocationList>
+ 一  05 17:22:50                                         <PDSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                             <k0>0</k0>
+ 一  05 17:22:50                                             <mappingType><typeA/></mappingType>
+ 一  05 17:22:50                                             <startSymbolAndLength>66</startSymbolAndLength>
+ 一  05 17:22:50                                         </PDSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                         <PDSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                             <k0>1</k0>
+ 一  05 17:22:50                                             <mappingType><typeA/></mappingType>
+ 一  05 17:22:50                                             <startSymbolAndLength>66</startSymbolAndLength>
+ 一  05 17:22:50                                         </PDSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                     </pdsch-TimeDomainAllocationList>
+ 一  05 17:22:50                                 </setup>
+ 一  05 17:22:50                             </pdsch-ConfigCommon>
+ 一  05 17:22:50                         </initialDownlinkBWP>
+ 一  05 17:22:50                         <bcch-Config>
+ 一  05 17:22:50                             <modificationPeriodCoeff><n16/></modificationPeriodCoeff>
+ 一  05 17:22:50                         </bcch-Config>
+ 一  05 17:22:50                         <pcch-Config>
+ 一  05 17:22:50                             <defaultPagingCycle><rf256/></defaultPagingCycle>
+ 一  05 17:22:50                             <nAndPagingFrameOffset>
+ 一  05 17:22:50                                 <oneT></oneT>
+ 一  05 17:22:50                             </nAndPagingFrameOffset>
+ 一  05 17:22:50                             <ns><one/></ns>
+ 一  05 17:22:50                             <firstPDCCH-MonitoringOccasionOfPO>
+ 一  05 17:22:50                                 <sCS30KHZoneT-SCS15KHZhalfT>
+ 一  05 17:22:50                                     <INTEGER>44</INTEGER>
+ 一  05 17:22:50                                 </sCS30KHZoneT-SCS15KHZhalfT>
+ 一  05 17:22:50                             </firstPDCCH-MonitoringOccasionOfPO>
+ 一  05 17:22:50                         </pcch-Config>
+ 一  05 17:22:50                     </downlinkConfigCommon>
+ 一  05 17:22:50                     <uplinkConfigCommon>
+ 一  05 17:22:50                         <frequencyInfoUL>
+ 一  05 17:22:50                             <scs-SpecificCarrierList>
+ 一  05 17:22:50                                 <SCS-SpecificCarrier>
+ 一  05 17:22:50                                     <offsetToCarrier>0</offsetToCarrier>
+ 一  05 17:22:50                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 一  05 17:22:50                                     <carrierBandwidth>20</carrierBandwidth>
+ 一  05 17:22:50                                 </SCS-SpecificCarrier>
+ 一  05 17:22:50                             </scs-SpecificCarrierList>
+ 一  05 17:22:50                             <p-Max>23</p-Max>
+ 一  05 17:22:50                         </frequencyInfoUL>
+ 一  05 17:22:50                         <initialUplinkBWP>
+ 一  05 17:22:50                             <genericParameters>
+ 一  05 17:22:50                                 <locationAndBandwidth>28875</locationAndBandwidth>
+ 一  05 17:22:50                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 一  05 17:22:50                             </genericParameters>
+ 一  05 17:22:50                             <rach-ConfigCommon>
+ 一  05 17:22:50                                 <setup>
+ 一  05 17:22:50                                     <rach-ConfigGeneric>
+ 一  05 17:22:50                                         <prach-ConfigurationIndex>16</prach-ConfigurationIndex>
+ 一  05 17:22:50                                         <msg1-FDM><one/></msg1-FDM>
+ 一  05 17:22:50                                         <msg1-FrequencyStart>82</msg1-FrequencyStart>
+ 一  05 17:22:50                                         <zeroCorrelationZoneConfig>4</zeroCorrelationZoneConfig>
+ 一  05 17:22:50                                         <preambleReceivedTargetPower>-74</preambleReceivedTargetPower>
+ 一  05 17:22:50                                         <preambleTransMax><n200/></preambleTransMax>
+ 一  05 17:22:50                                         <powerRampingStep><dB2/></powerRampingStep>
+ 一  05 17:22:50                                         <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+ 一  05 17:22:50                                     </rach-ConfigGeneric>
+ 一  05 17:22:50                                     <totalNumberOfRA-Preambles>63</totalNumberOfRA-Preambles>
+ 一  05 17:22:50                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 一  05 17:22:50                                         <one><n8/></one>
+ 一  05 17:22:50                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 一  05 17:22:50                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+ 一  05 17:22:50                                     <rsrp-ThresholdSSB>31</rsrp-ThresholdSSB>
+ 一  05 17:22:50                                     <prach-RootSequenceIndex>
+ 一  05 17:22:50                                         <l139>0</l139>
+ 一  05 17:22:50                                     </prach-RootSequenceIndex>
+ 一  05 17:22:50                                     <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
+ 一  05 17:22:50                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+ 一  05 17:22:50                                 </setup>
+ 一  05 17:22:50                             </rach-ConfigCommon>
+ 一  05 17:22:50                             <pusch-ConfigCommon>
+ 一  05 17:22:50                                 <setup>
+ 一  05 17:22:50                                     <pusch-TimeDomainAllocationList>
+ 一  05 17:22:50                                         <PUSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                             <k2>4</k2>
+ 一  05 17:22:50                                             <mappingType><typeA/></mappingType>
+ 一  05 17:22:50                                             <startSymbolAndLength>66</startSymbolAndLength>
+ 一  05 17:22:50                                         </PUSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                         <PUSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                             <k2>5</k2>
+ 一  05 17:22:50                                             <mappingType><typeA/></mappingType>
+ 一  05 17:22:50                                             <startSymbolAndLength>66</startSymbolAndLength>
+ 一  05 17:22:50                                         </PUSCH-TimeDomainResourceAllocation>
+ 一  05 17:22:50                                     </pusch-TimeDomainAllocationList>
+ 一  05 17:22:50                                     <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
+ 一  05 17:22:50                                     <p0-NominalWithGrant>-70</p0-NominalWithGrant>
+ 一  05 17:22:50                                 </setup>
+ 一  05 17:22:50                             </pusch-ConfigCommon>
+ 一  05 17:22:50                             <pucch-ConfigCommon>
+ 一  05 17:22:50                                 <setup>
+ 一  05 17:22:50                                     <pucch-ResourceCommon>0</pucch-ResourceCommon>
+ 一  05 17:22:50                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
+ 一  05 17:22:50                                     <p0-nominal>-74</p0-nominal>
+ 一  05 17:22:50                                 </setup>
+ 一  05 17:22:50                             </pucch-ConfigCommon>
+ 一  05 17:22:50                         </initialUplinkBWP>
+ 一  05 17:22:50                         <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+ 一  05 17:22:50                     </uplinkConfigCommon>
+ 一  05 17:22:50                     <ssb-PositionsInBurst>
+ 一  05 17:22:50                         <inOneGroup>
+ 一  05 17:22:50                             11000000
+ 一  05 17:22:50                         </inOneGroup>
+ 一  05 17:22:50                     </ssb-PositionsInBurst>
+ 一  05 17:22:50                     <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
+ 一  05 17:22:50                     <tdd-UL-DL-ConfigurationCommon>
+ 一  05 17:22:50                         <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
+ 一  05 17:22:50                         <pattern1>
+ 一  05 17:22:50                             <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
+ 一  05 17:22:50                             <nrofDownlinkSlots>7</nrofDownlinkSlots>
+ 一  05 17:22:50                             <nrofDownlinkSymbols>12</nrofDownlinkSymbols>
+ 一  05 17:22:50                             <nrofUplinkSlots>2</nrofUplinkSlots>
+ 一  05 17:22:50                             <nrofUplinkSymbols>1</nrofUplinkSymbols>
+ 一  05 17:22:50                         </pattern1>
+ 一  05 17:22:50                     </tdd-UL-DL-ConfigurationCommon>
+ 一  05 17:22:50                     <ss-PBCH-BlockPower>0</ss-PBCH-BlockPower>
+ 一  05 17:22:50                 </servingCellConfigCommon>
+ 一  05 17:22:50             </systemInformationBlockType1>
+ 一  05 17:22:50         </c1>
+ 一  05 17:22:50     </message>
+ 一  05 17:22:50 </BCCH-DL-SCH-Message>
+ 一  05 17:22:50 
+ 一  05 17:22:50 encbufSize: 88
+ 一  05 17:22:50 7c	3	28	ffffffa3	40	61	31	1a	40	0	ffffff80	0	0	ffffff80	0	0	0	f	7f	0	0	20	28	12	10	ffffff82	3	0	0	4	26	ffffffce	19	66	ffffffbb	0	36	4	2	0	f	11	0	ffffff82	d	18	8	50	50	ffffff9b	ffffff88	ffffff82	ffffffc1	0	0	10	ffffff9e	ffffffae	70	ffffffcb	36	ffffffa0	ffffff80	52	48	a	67	ffffffcc	79	fffffff8	1	27	18	ffffff88	51	50	ffffff8c	25	40	ffffff80	ffffffec	4	16	3	ffffffe0	8	5e	0	
+ 一  05 17:22:50 
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer<BCCH-BCH-Message>
+ 一  05 17:22:50     <message>
+ 一  05 17:22:50         <mib>
+ 一  05 17:22:50             <systemFrameNumber>
+ 一  05 17:22:50                 000000
+ 一  05 17:22:50             </systemFrameNumber>
+ 一  05 17:22:50             <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+ 一  05 17:22:50             <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+ 一  05 17:22:50             <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+ 一  05 17:22:50             <pdcch-ConfigSIB1>
+ 一  05 17:22:50                 <controlResourceSetZero>0</controlResourceSetZero>
+ 一  05 17:22:50                 <searchSpaceZero>0</searchSpaceZero>
+ 一  05 17:22:50             </pdcch-ConfigSIB1>
+ 一  05 17:22:50             <cellBarred><notBarred/></cellBarred>
+ 一  05 17:22:50             <intraFreqReselection><notAllowed/></intraFreqReselection>
+ 一  05 17:22:50             <spare>
+ 一  05 17:22:50                 0
+ 一  05 17:22:50             </spare>
+ 一  05 17:22:50         </mib>
+ 一  05 17:22:50     </message>
+ 一  05 17:22:50 </BCCH-BCH-Message>
+ 一  05 17:22:50 
+ 一  05 17:22:50 encbufSize:3
+ 一  05 17:22:50 0	0	6	
+ 一  05 17:22:50 
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 ****** Received initial VNF configs at DU APP ******
+ 一  05 17:22:50 
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 DEBUG  -->  DU_APP : MAC VNF config sent
+ 一  05 17:22:50 ****** Received initial configs at DU APP ******
+ 一  05 17:22:50 
+ 一  05 17:22:50 INFO   -->  [NFAPI] case EVENT_MAC_VNF_CONFIG_REQ
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
+ 一  05 17:22:50 INFO  -->  [NFAPI] : Calling MacProcVnfCfgReq
+ 一  05 17:22:50 INFO  -->  LWR_MAC : phyState :  0 in msgType : 6
+ 一  05 17:22:50 INFO  -->  NFAPI : pnfState :  0
+ 一  05 17:22:50 INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
+ 一  05 17:22:50 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(1)
+ 一  05 17:22:50 [NFAPI] VNF Interface --> nfapi_nr_vnf_start()
+ 一  05 17:22:50 
+ 一  05 17:22:50 [NFAPI] VNF Interface --> Starting P5 VNF connection on port 62324
+ 一  05 17:22:50 
+ 一  05 17:22:50 INFO    --> RLC_DL : Starting SNSSAI Throughput timer
+ 一  05 17:22:50 [NFAPI] VNF Interface --> P5 socket created... 4
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(186)
+ 一  05 17:22:50 [NFAPI] VNF Interface --> VNF Setting the SCTP_INITMSG
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(189)
+ 一  05 17:22:50 [NFAPI] VNF Interface --> IPV4 binding to port 62324
+ 一  05 17:22:50 
+ 一  05 17:22:50 [NFAPI] VNF Interface --> bind succeeded..4.
+ 一  05 17:22:50 
+ 一  05 17:22:50 [NFAPI] VNF Interface --> listen succeeded...
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
+ 一  05 17:22:50 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(1)
+ 一  05 17:22:50 INFO    --> RLC_DL : Starting UE Throughput timer
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
+ 一  05 17:22:50 INFO    --> RLC_DL : Starting SNSSAI Throughput timer
+ 一  05 17:22:50 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(189)
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+ 一  05 17:22:50 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(186)
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 186 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : MAC Gen Cfg Req sent
+ 一  05 17:22:50 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+ 一  05 17:22:50 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+ 一  05 17:22:50 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+ 一  05 17:22:50 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1 
+ 一  05 17:22:50 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+ 一  05 17:22:50 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : Completed sending Configs
+ 一  05 17:22:50 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 1 to bind MAC sap
+ 一  05 17:22:50 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+ 一  05 17:22:50 DEBUG  -->  MAC : SAP Not yet bound
+ 一  05 17:22:50 DEBUG  -->  RLC UL : RlcLiRguBndCfm(suId(0), status(1)
+ 一  05 17:22:50 DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
+ 一  05 17:22:50 DEBUG   -->  DU_APP : BIND OF RLC DL TO MAC (RGU) SAP SUCCESSFUL
+ 一  05 17:22:50 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 0 to bind MAC sap
+ 一  05 17:22:50 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+ 一  05 17:22:50 DEBUG   -->  DU_APP : BIND OF RLC UL TO MAC (RGU) SAP SUCCESSFUL
+ 一  05 17:22:50 DEBUG   -->  DU_APP : MAC Sch Cfg sent
+ 一  05 17:22:50 INFO  -->  MAC : Received Scheduler gen config at MAC
+ 一  05 17:22:50 INFO   -->  SCH : Received scheduler gen config
+ 一  05 17:22:50 DEBUG  -->  SCH : Entered SchInstCfg()
+ 一  05 17:22:50 INFO   -->  SCH : Scheduler gen config done
+ 一  05 17:22:50 DEBUG  -->  MAC : Sending Scheduler config confirm to DU APP
+ 一  05 17:22:50 DEBUG   -->  DU_APP : Received SCH CFG CFM at DU APP
+ 一  05 17:22:50 INFO   -->  DU_APP : Configuring all Layer is complete
+ 一  05 17:22:50 CmInetSctpConnectx() Failed : error(115), port(0x9648),		   sockFd->fd(5)
+ 一  05 17:22:50 
+ 一  05 17:22:50 INFO   -->  SCTP : Polling started at DU
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [492]
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  SCTP : Assoc change notification receivedINFO   -->  Event : COMMUNICATION UP
+ 一  05 17:22:50 DEBUG   -->  SCTP : Forwarding received message to duApp
+ 一  05 17:22:50 CmInetSctpConnectx() Failed : error(115), port(0x8e45),		   sockFd->fd(6)
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  DU_APP : Sending EGTP config request
+ 一  05 17:22:50 DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [494]
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  SCTP : Assoc change notification received
+ 一  05 17:22:50 INFO   -->  F1AP : Building F1 Setup Request
+ 一  05 17:22:50 INFO   -->  Event : COMMUNICATION UP
+ 一  05 17:22:50 DEBUG   -->  EGTP : EGTP configuration successful
+ 一  05 17:22:50 DEBUG   -->  SCTP : Forwarding received message to duApp<MeasurementTimingConfigurationRrc>
+ 一  05 17:22:50     <criticalExtensions>
+ 一  05 17:22:50         <c1>
+ 一  05 17:22:50             <measTimingConf>
+ 一  05 17:22:50                 <measTiming>
+ 一  05 17:22:50                     <MeasTiming>
+ 一  05 17:22:50                         <frequencyAndTiming>
+ 一  05 17:22:50                             <carrierFreq>630432</carrierFreq>
+ 一  05 17:22:50                             <ssbSubcarrierSpacing><kHz30/></ssbSubcarrierSpacing>
+ 一  05 17:22:50                             <ssb-MeasurementTimingConfiguration>
+ 一  05 17:22:50                                 <periodicityAndOffset>
+ 一  05 17:22:50                                     <sf20>0</sf20>
+ 一  05 17:22:50                                 </periodicityAndOffset>
+ 一  05 17:22:50                                 <duration><sf5/></duration>
+ 一  05 17:22:50                             </ssb-MeasurementTimingConfiguration>
+ 一  05 17:22:50                         </frequencyAndTiming>
+ 一  05 17:22:50                     </MeasTiming>
+ 一  05 17:22:50                 </measTiming>
+ 一  05 17:22:50             </measTimingConf>
+ 一  05 17:22:50         </c1>
+ 一  05 17:22:50     </criticalExtensions>
+ 一  05 17:22:50 </MeasurementTimingConfigurationRrc>
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  F1AP : Created APER encoded buffer for Measurement Timing Configuration 
+ 一  05 17:22:50 101133ffffffd4520<F1AP-PDU>
+ 一  05 17:22:50     <initiatingMessage>
+ 一  05 17:22:50         <procedureCode>1</procedureCode>
+ 一  05 17:22:50         <criticality><reject/></criticality>
+ 一  05 17:22:50         <value>
+ 一  05 17:22:50             <F1SetupRequest>
+ 一  05 17:22:50                 <protocolIEs>
+ 一  05 17:22:50                     <F1SetupRequestIEs>
+ 一  05 17:22:50                         <id>78</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <TransactionID>1</TransactionID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupRequestIEs>
+ 一  05 17:22:50                     <F1SetupRequestIEs>
+ 一  05 17:22:50                         <id>42</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <GNB-DU-ID>1</GNB-DU-ID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupRequestIEs>
+ 一  05 17:22:50                     <F1SetupRequestIEs>
+ 一  05 17:22:50                         <id>45</id>
+ 一  05 17:22:50                         <criticality><ignore/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <GNB-DU-Name>ORAN OAM DU</GNB-DU-Name>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupRequestIEs>
+ 一  05 17:22:50                     <F1SetupRequestIEs>
+ 一  05 17:22:50                         <id>44</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <GNB-DU-Served-Cells-List>
+ 一  05 17:22:50                                 <ProtocolIE-SingleContainer>
+ 一  05 17:22:50                                     <id>43</id>
+ 一  05 17:22:50                                     <criticality><reject/></criticality>
+ 一  05 17:22:50                                     <value>
+ 一  05 17:22:50                                         <GNB-DU-Served-Cells-Item>
+ 一  05 17:22:50                                             <served-Cell-Information>
+ 一  05 17:22:50                                                 <nRCGI>
+ 一  05 17:22:50                                                     <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 一  05 17:22:50                                                     <nRCellIdentity>
+ 一  05 17:22:50                                                         000000000000000000000000000000000001
+ 一  05 17:22:50                                                     </nRCellIdentity>
+ 一  05 17:22:50                                                 </nRCGI>
+ 一  05 17:22:50                                                 <nRPCI>1</nRPCI>
+ 一  05 17:22:50                                                 <fiveGS-TAC>00 00 01</fiveGS-TAC>
+ 一  05 17:22:50                                                 <servedPLMNs>
+ 一  05 17:22:50                                                     <ServedPLMNs-Item>
+ 一  05 17:22:50                                                         <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 一  05 17:22:50                                                         <iE-Extensions>
+ 一  05 17:22:50                                                             <ServedPLMNs-ItemExtIEs>
+ 一  05 17:22:50                                                                 <id>131</id>
+ 一  05 17:22:50                                                                 <criticality><ignore/></criticality>
+ 一  05 17:22:50                                                                 <extensionValue>
+ 一  05 17:22:50                                                                     <SliceSupportList>
+ 一  05 17:22:50                                                                         <SliceSupportItem>
+ 一  05 17:22:50                                                                             <sNSSAI>
+ 一  05 17:22:50                                                                                 <sST>01</sST>
+ 一  05 17:22:50                                                                                 <sD>02 03 04</sD>
+ 一  05 17:22:50                                                                             </sNSSAI>
+ 一  05 17:22:50                                                                         </SliceSupportItem>
+ 一  05 17:22:50                                                                         <SliceSupportItem>
+ 一  05 17:22:50                                                                             <sNSSAI>
+ 一  05 17:22:50                                                                                 <sST>05</sST>
+ 一  05 17:22:50                                                                                 <sD>06 07 08</sD>
+ 一  05 17:22:50                                                                             </sNSSAI>
+ 一  05 17:22:50                                                                         </SliceSupportItem>
+ 一  05 17:22:50                                                                     </SliceSupportList>
+ 一  05 17:22:50                                                                 </extensionValue>
+ 一  05 17:22:50                                                             </ServedPLMNs-ItemExtIEs>
+ 一  05 17:22:50                                                         </iE-Extensions>
+ 一  05 17:22:50                                                     </ServedPLMNs-Item>
+ 一  05 17:22:50                                                 </servedPLMNs>
+ 一  05 17:22:50                                                 <nR-Mode-Info>
+ 一  05 17:22:50                                                     <fDD>
+ 一  05 17:22:50                                                         <uL-NRFreqInfo>
+ 一  05 17:22:50                                                             <nRARFCN>352000</nRARFCN>
+ 一  05 17:22:50                                                             <freqBandListNr>
+ 一  05 17:22:50                                                                 <FreqBandNrItem>
+ 一  05 17:22:50                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
+ 一  05 17:22:50                                                                     <supportedSULBandList>
+ 一  05 17:22:50                                                                     </supportedSULBandList>
+ 一  05 17:22:50                                                                 </FreqBandNrItem>
+ 一  05 17:22:50                                                             </freqBandListNr>
+ 一  05 17:22:50                                                         </uL-NRFreqInfo>
+ 一  05 17:22:50                                                         <dL-NRFreqInfo>
+ 一  05 17:22:50                                                             <nRARFCN>432000</nRARFCN>
+ 一  05 17:22:50                                                             <freqBandListNr>
+ 一  05 17:22:50                                                                 <FreqBandNrItem>
+ 一  05 17:22:50                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
+ 一  05 17:22:50                                                                     <supportedSULBandList>
+ 一  05 17:22:50                                                                     </supportedSULBandList>
+ 一  05 17:22:50                                                                 </FreqBandNrItem>
+ 一  05 17:22:50                                                             </freqBandListNr>
+ 一  05 17:22:50                                                         </dL-NRFreqInfo>
+ 一  05 17:22:50                                                         <uL-Transmission-Bandwidth>
+ 一  05 17:22:50                                                             <nRSCS><scs30/></nRSCS>
+ 一  05 17:22:50                                                             <nRNRB><nrb106/></nRNRB>
+ 一  05 17:22:50                                                         </uL-Transmission-Bandwidth>
+ 一  05 17:22:50                                                         <dL-Transmission-Bandwidth>
+ 一  05 17:22:50                                                             <nRSCS><scs30/></nRSCS>
+ 一  05 17:22:50                                                             <nRNRB><nrb106/></nRNRB>
+ 一  05 17:22:50                                                         </dL-Transmission-Bandwidth>
+ 一  05 17:22:50                                                     </fDD>
+ 一  05 17:22:50                                                 </nR-Mode-Info>
+ 一  05 17:22:50                                                 <measurementTimingConfiguration>10 11 33 D4 05 02 00</measurementTimingConfiguration>
+ 一  05 17:22:50                                             </served-Cell-Information>
+ 一  05 17:22:50                                             <gNB-DU-System-Information>
+ 一  05 17:22:50                                                 <mIB-message>00 00 0C</mIB-message>
+ 一  05 17:22:50                                                 <sIB1-message>
+ 一  05 17:22:50                                                     7C 03 28 A3 40 61 31 1A 40 00 80 00 00 80 00 00 
+ 一  05 17:22:50                                                     00 0F 7F 00 00 20 28 12 10 82 03 00 00 04 26 CE 
+ 一  05 17:22:50                                                     19 66 BB 00 36 04 02 00 0F 11 00 82 0D 18 08 50 
+ 一  05 17:22:50                                                     50 9B 88 82 C1 00 00 10 9E AE 70 CB 36 A0 80 52 
+ 一  05 17:22:50                                                     48 0A 67 CC 79 F8 01 27 18 88 51 50 8C 25 40 80 
+ 一  05 17:22:50                                                     EC 04 16 03 E0 08 5E 00
+ 一  05 17:22:50                                                 </sIB1-message>
+ 一  05 17:22:50                                             </gNB-DU-System-Information>
+ 一  05 17:22:50                                         </GNB-DU-Served-Cells-Item>
+ 一  05 17:22:50                                     </value>
+ 一  05 17:22:50                                 </ProtocolIE-SingleContainer>
+ 一  05 17:22:50                             </GNB-DU-Served-Cells-List>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupRequestIEs>
+ 一  05 17:22:50                     <F1SetupRequestIEs>
+ 一  05 17:22:50                         <id>171</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <RRC-Version>
+ 一  05 17:22:50                                 <latest-RRC-Version>
+ 一  05 17:22:50                                     000
+ 一  05 17:22:50                                 </latest-RRC-Version>
+ 一  05 17:22:50                                 <iE-Extensions>
+ 一  05 17:22:50                                     <RRC-Version-ExtIEs>
+ 一  05 17:22:50                                         <id>199</id>
+ 一  05 17:22:50                                         <criticality><reject/></criticality>
+ 一  05 17:22:50                                         <extensionValue>
+ 一  05 17:22:50                                             <Latest-RRC-Version-Enhanced>0F 05 00</Latest-RRC-Version-Enhanced>
+ 一  05 17:22:50                                         </extensionValue>
+ 一  05 17:22:50                                     </RRC-Version-ExtIEs>
+ 一  05 17:22:50                                 </iE-Extensions>
+ 一  05 17:22:50                             </RRC-Version>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupRequestIEs>
+ 一  05 17:22:50                 </protocolIEs>
+ 一  05 17:22:50             </F1SetupRequest>
+ 一  05 17:22:50         </value>
+ 一  05 17:22:50     </initiatingMessage>
+ 一  05 17:22:50 </F1AP-PDU>
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  F1AP : Created APER encoded buffer for F1SetupRequest
+ 一  05 17:22:50 010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48013fffffff1ffffff8400001001001813fffffff1ffffff84000ffffff8340c01402023440ffffffa06781055f000410406ffffff97ffffff8000410274ffffffe07101133ffffffd45200300c587c328ffffffa34061311a400ffffff8000ffffff80000f7f0020281210ffffff82300426ffffffce1966ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc10010ffffff9effffffae70ffffffcb36ffffffa0ffffff805248a67ffffffcc79fffffff812718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f50
+ 一  05 17:22:50 DEBUG  --> SCTP : sending the message to CU
+ 一  05 17:22:50 DEBUG   -->  DU_APP : EGTP configuraton complete
+ 一  05 17:22:50 DEBUG   -->  DU_APP : Sending EGTP server open request
+ 一  05 17:22:50 DEBUG  -->  EGTP : Received EGTP open server request
+ 一  05 17:22:50 DEBUG   -->  EGTP : Socket [7] is open
+ 一  05 17:22:50 DEBUG   -->  EGTP : Starting Socket Polling
+ 一  05 17:22:50 DEBUG   -->  DU_APP : EGTP server opened successfully
+ 一  05 17:22:50 DEBUG   -->  SCTP : Forwarding received message to duApp
+ 一  05 17:22:50 INFO  -->  F1AP : Received F1AP message buffer
+ 一  05 17:22:50 DEBUG   -->  F1AP : Received flat buffer to be decoded : 40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
+ 一  05 17:22:50 <F1AP-PDU>
+ 一  05 17:22:50     <successfulOutcome>
+ 一  05 17:22:50         <procedureCode>1</procedureCode>
+ 一  05 17:22:50         <criticality><reject/></criticality>
+ 一  05 17:22:50         <value>
+ 一  05 17:22:50             <F1SetupResponse>
+ 一  05 17:22:50                 <protocolIEs>
+ 一  05 17:22:50                     <F1SetupResponseIEs>
+ 一  05 17:22:50                         <id>78</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <TransactionID>1</TransactionID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupResponseIEs>
+ 一  05 17:22:50                     <F1SetupResponseIEs>
+ 一  05 17:22:50                         <id>3</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <Cells-to-be-Activated-List>
+ 一  05 17:22:50                                 <ProtocolIE-SingleContainer>
+ 一  05 17:22:50                                     <id>4</id>
+ 一  05 17:22:50                                     <criticality><ignore/></criticality>
+ 一  05 17:22:50                                     <value>
+ 一  05 17:22:50                                         <Cells-to-be-Activated-List-Item>
+ 一  05 17:22:50                                             <nRCGI>
+ 一  05 17:22:50                                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 一  05 17:22:50                                                 <nRCellIdentity>
+ 一  05 17:22:50                                                     000000000000000000000000000000000001
+ 一  05 17:22:50                                                 </nRCellIdentity>
+ 一  05 17:22:50                                             </nRCGI>
+ 一  05 17:22:50                                         </Cells-to-be-Activated-List-Item>
+ 一  05 17:22:50                                     </value>
+ 一  05 17:22:50                                 </ProtocolIE-SingleContainer>
+ 一  05 17:22:50                             </Cells-to-be-Activated-List>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupResponseIEs>
+ 一  05 17:22:50                     <F1SetupResponseIEs>
+ 一  05 17:22:50                         <id>170</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <RRC-Version>
+ 一  05 17:22:50                                 <latest-RRC-Version>
+ 一  05 17:22:50                                     000
+ 一  05 17:22:50                                 </latest-RRC-Version>
+ 一  05 17:22:50                                 <iE-Extensions>
+ 一  05 17:22:50                                     <RRC-Version-ExtIEs>
+ 一  05 17:22:50                                         <id>199</id>
+ 一  05 17:22:50                                         <criticality><reject/></criticality>
+ 一  05 17:22:50                                         <extensionValue>
+ 一  05 17:22:50                                             <Latest-RRC-Version-Enhanced>00 05 0F</Latest-RRC-Version-Enhanced>
+ 一  05 17:22:50                                         </extensionValue>
+ 一  05 17:22:50                                     </RRC-Version-ExtIEs>
+ 一  05 17:22:50                                 </iE-Extensions>
+ 一  05 17:22:50                             </RRC-Version>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </F1SetupResponseIEs>
+ 一  05 17:22:50                 </protocolIEs>
+ 一  05 17:22:50             </F1SetupResponse>
+ 一  05 17:22:50         </value>
+ 一  05 17:22:50     </successfulOutcome>
+ 一  05 17:22:50 </F1AP-PDU>
+ 一  05 17:22:50 
+ 一  05 17:22:50 INFO   -->  F1AP : F1 Setup Response received
+ 一  05 17:22:50 [DU UTILS] --> Gen Buffer
+ 一  05 17:22:50 DEBUG  -->  DU-APP : MAC CELL config sent
+ 一  05 17:22:50 INFO   -->  DU_APP : F1 Setup Response received
+ 一  05 17:22:50 INFO   -->  E2AP : Building E2 Setup Request
+ 一  05 17:22:50 <E2SM-KPM-RANfunction-Description>
+ 一  05 17:22:50     <ranFunction-Name>
+ 一  05 17:22:50         <ranFunction-ShortName>ORAN-E2SM-KPM</ranFunction-ShortName>
+ 一  05 17:22:50         <ranFunction-E2SM-OID>1.3.6.1.4.1.53148.1.2.2.2</ranFunction-E2SM-OID>
+ 一  05 17:22:50         <ranFunction-Description>KPM Monitor</ranFunction-Description>
+ 一  05 17:22:50     </ranFunction-Name>
+ 一  05 17:22:50     <ric-EventTriggerStyle-List>
+ 一  05 17:22:50         <RIC-EventTriggerStyle-Item>
+ 一  05 17:22:50             <ric-EventTriggerStyle-Type>1</ric-EventTriggerStyle-Type>
+ 一  05 17:22:50             <ric-EventTriggerStyle-Name>Periodic Report</ric-EventTriggerStyle-Name>
+ 一  05 17:22:50             <ric-EventTriggerFormat-Type>1</ric-EventTriggerFormat-Type>
+ 一  05 17:22:50         </RIC-EventTriggerStyle-Item>
+ 一  05 17:22:50     </ric-EventTriggerStyle-List>
+ 一  05 17:22:50     <ric-ReportStyle-List>
+ 一  05 17:22:50         <RIC-ReportStyle-Item>
+ 一  05 17:22:50             <ric-ReportStyle-Type>1</ric-ReportStyle-Type>
+ 一  05 17:22:50             <ric-ReportStyle-Name>E2 Node Measurement</ric-ReportStyle-Name>
+ 一  05 17:22:50             <ric-ActionFormat-Type>1</ric-ActionFormat-Type>
+ 一  05 17:22:50             <measInfo-Action-List>
+ 一  05 17:22:50                 <MeasurementInfo-Action-Item>
+ 一  05 17:22:50                     <measName>RRU.PrbTotDl</measName>
+ 一  05 17:22:50                     <measID>1</measID>
+ 一  05 17:22:50                 </MeasurementInfo-Action-Item>
+ 一  05 17:22:50                 <MeasurementInfo-Action-Item>
+ 一  05 17:22:50                     <measName>RRU.PrbTotUl</measName>
+ 一  05 17:22:50                     <measID>2</measID>
+ 一  05 17:22:50                 </MeasurementInfo-Action-Item>
+ 一  05 17:22:50             </measInfo-Action-List>
+ 一  05 17:22:50             <ric-IndicationHeaderFormat-Type>1</ric-IndicationHeaderFormat-Type>
+ 一  05 17:22:50             <ric-IndicationMessageFormat-Type>1</ric-IndicationMessageFormat-Type>
+ 一  05 17:22:50         </RIC-ReportStyle-Item>
+ 一  05 17:22:50     </ric-ReportStyle-List>
+ 一  05 17:22:50 </E2SM-KPM-RANfunction-Description>
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  F1AP : Created APER encoded buffer for RAN function definition 
+ 一  05 17:22:50 60304f52414e2d4532534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d65
+ 一  05 17:22:50 INFO  -->  SCH : Cell init completed for cellId:161737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111<E2AP-PDU>
+ 一  05 17:22:50     <initiatingMessage>
+ 一  05 17:22:50         <procedureCode>1</procedureCode>
+ 一  05 17:22:50         <criticality><reject/></criticality>
+ 一  05 17:22:50         <value>
+ 一  05 17:22:50             <E2setupRequest>
+ 一  05 17:22:50                 <protocolIEs>
+ 一  05 17:22:50                     <E2setupRequestIEs>
+ 一  05 17:22:50 INFO  -->  MAC : Received SCH CELL config confirm at MAC
+ 一  05 17:22:50                         <id>49</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <TransactionID>0</TransactionID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupRequestIEs>
+ 一  05 17:22:50                     <E2setupRequestIEs>
+ 一  05 17:22:50                         <id
+ 一  05 17:22:50 [NTUST] schCellCfgCfm->rsp = 0
+ 一  05 17:22:50 [NTUST] pnf_state_lock->flag = 0
+ 一  05 17:22:50 [Small Cell] The NFAPI flag is set to YES and waiting for PNF connection ...
+ 一  05 17:22:50 >3</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <GlobalE2node-ID>
+ 一  05 17:22:50                                 <gNB>
+ 一  05 17:22:50                                     <global-gNB-ID>
+ 一  05 17:22:50                                         <plmn-id>13 F1 84</plmn-id>
+ 一  05 17:22:50                                         <gnb-id>
+ 一  05 17:22:50                                             <gnb-ID>
+ 一  05 17:22:50                                                 00000000000000000000000000000001
+ 一  05 17:22:50                                             </gnb-ID>
+ 一  05 17:22:50                                         </gnb-id>
+ 一  05 17:22:50                                     </global-gNB-ID>
+ 一  05 17:22:50                                     <gNB-DU-ID>1</gNB-DU-ID>
+ 一  05 17:22:50                                 </gNB>
+ 一  05 17:22:50                             </GlobalE2node-ID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupRequestIEs>
+ 一  05 17:22:50                     <E2setupRequestIEs>
+ 一  05 17:22:50                         <id>10</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <RANfunctions-List>
+ 一  05 17:22:50                                 <ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                                     <id>8</id>
+ 一  05 17:22:50                                     <criticality><ignore/></criticality>
+ 一  05 17:22:50                                     <value>
+ 一  05 17:22:50                                         <RANfunction-Item>
+ 一  05 17:22:50                                             <ranFunctionID>1</ranFunctionID>
+ 一  05 17:22:50                                             <ranFunctionDefinition>
+ 一  05 17:22:50                                                 60 30 4F 52 41 4E 2D 45 32 53 4D 2D 4B 50 4D 00 
+ 一  05 17:22:50                                                 00 18 31 2E 33 2E 36 2E 31 2E 34 2E 31 2E 35 33 
+ 一  05 17:22:50                                                 31 34 38 2E 31 2E 32 2E 32 2E 32 05 00 4B 50 4D 
+ 一  05 17:22:50                                                 20 4D 6F 6E 69 74 6F 72 00 01 01 07 00 50 65 72 
+ 一  05 17:22:50                                                 69 6F 64 69 63 20 52 65 70 6F 72 74 01 01 00 01 
+ 一  05 17:22:50                                                 01 09 00 45 32 20 4E 6F 64 65 20 4D 65 61 73 75 
+ 一  05 17:22:50                                                 72 65 6D 65 6E 74 01 01 00 01 41 60 52 52 55 2E 
+ 一  05 17:22:50                                                 50 72 62 54 6F 74 44 6C 00 00 00 41 60 52 52 55 
+ 一  05 17:22:50                                                 2E 50 72 62 54 6F 74 55 6C 00 00 01 01 01 01 01
+ 一  05 17:22:50                                             </ranFunctionDefinition>
+ 一  05 17:22:50                                             <ranFunctionRevision>0</ranFunctionRevision>
+ 一  05 17:22:50                                             <ranFunctionOID>1.3.6.1.4.1.53148.1.2.2.2</ranFunctionOID>
+ 一  05 17:22:50                                         </RANfunction-Item>
+ 一  05 17:22:50                                     </value>
+ 一  05 17:22:50                                 </ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                             </RANfunctions-List>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupRequestIEs>
+ 一  05 17:22:50                     <E2setupRequestIEs>
+ 一  05 17:22:50                         <id>50</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <E2nodeComponentConfigAddition-List>
+ 一  05 17:22:50                                 <ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                                     <id>51</id>
+ 一  05 17:22:50                                     <criticality><reject/></criticality>
+ 一  05 17:22:50                                     <value>
+ 一  05 17:22:50                                         <E2nodeComponentConfigAddition-Item>
+ 一  05 17:22:50                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+ 一  05 17:22:50                                             <e2nodeComponentID>
+ 一  05 17:22:50                                                 <e2nodeComponentInterfaceTypeF1>
+ 一  05 17:22:50                                                     <gNB-DU-ID>1</gNB-DU-ID>
+ 一  05 17:22:50                                                 </e2nodeComponentInterfaceTypeF1>
+ 一  05 17:22:50                                             </e2nodeComponentID>
+ 一  05 17:22:50                                             <e2nodeComponentConfiguration>
+ 一  05 17:22:50                                                 <e2nodeComponentRequestPart>
+ 一  05 17:22:50                                                     00 01 00 80 D9 00 00 05 00 4E 00 02 00 01 00 2A 
+ 一  05 17:22:50                                                     00 02 00 01 00 2D 40 0D 05 00 4F 52 41 4E 20 4F 
+ 一  05 17:22:50                                                     41 4D 20 44 55 00 2C 00 80 A6 00 00 00 2B 00 80 
+ 一  05 17:22:50                                                     9F 48 00 13 F1 84 00 00 00 00 10 00 01 00 00 01 
+ 一  05 17:22:50                                                     08 13 F1 84 00 00 00 83 40 0C 00 01 40 20 02 03 
+ 一  05 17:22:50                                                     04 40 A0 06 07 08 01 00 05 5F 00 00 00 41 00 40 
+ 一  05 17:22:50                                                     06 97 80 00 00 41 00 27 04 E0 07 10 11 33 D4 05 
+ 一  05 17:22:50                                                     02 00 00 03 00 00 0C 58 7C 03 28 A3 40 61 31 1A 
+ 一  05 17:22:50                                                     40 00 80 00 00 80 00 00 00 0F 7F 00 00 20 28 12 
+ 一  05 17:22:50                                                     10 82 03 00 00 04 26 CE 19 66 BB 00 36 04 02 00 
+ 一  05 17:22:50                                                     0F 11 00 82 0D 18 08 50 50 9B 88 82 C1 00 00 10 
+ 一  05 17:22:50                                                     9E AE 70 CB 36 A0 80 52 48 0A 67 CC 79 F8 01 27 
+ 一  05 17:22:50                                                     18 88 51 50 8C 25 40 80 EC 04 16 03 E0 08 5E 00 
+ 一  05 17:22:50                                                     00 AB 00 0A 80 00 00 00 C7 00 03 0F 05 00
+ 一  05 17:22:50                                                 </e2nodeComponentRequestPart>
+ 一  05 17:22:50                                                 <e2nodeComponentResponsePart>
+ 一  05 17:22:50                                                     40 01 00 2A 00 00 03 00 4E 00 02 00 01 00 03 00 
+ 一  05 17:22:50                                                     0F 00 00 00 04 40 09 00 13 F1 84 00 00 00 00 10 
+ 一  05 17:22:50                                                     00 AA 00 0A 80 00 00 00 C7 00 03 00 05 0F
+ 一  05 17:22:50                                                 </e2nodeComponentResponsePart>
+ 一  05 17:22:50                                             </e2nodeComponentConfiguration>
+ 一  05 17:22:50                                         </E2nodeComponentConfigAddition-Item>
+ 一  05 17:22:50                                     </value>
+ 一  05 17:22:50                                 </ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                             </E2nodeComponentConfigAddition-List>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupRequestIEs>
+ 一  05 17:22:50                 </protocolIEs>
+ 一  05 17:22:50             </E2setupRequest>
+ 一  05 17:22:50         </value>
+ 一  05 17:22:50     </initiatingMessage>
+ 一  05 17:22:50 </E2AP-PDU>
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  E2AP : Created APER encoded buffer for E2SetupRequest
+ 一  05 17:22:50 010ffffff81fffffff50040310200030b213fffffff1ffffff84500001010a0ffffff80ffffffb900840ffffff80ffffffb3001ffffff80ffffff9060304f52414e2d4532534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111000018312e332e362e312e342e312e35333134382e312e322e322e320320ffffff811a000330ffffff811319ffffff8010ffffff80ffffffde010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48013fffffff1ffffff8400001001001813fffffff1ffffff84000ffffff8340c01402023440ffffffa06781055f000410406ffffff97ffffff8000410274ffffffe07101133ffffffd45200300c587c328ffffffa34061311a400ffffff8000ffffff80000f7f0020281210ffffff82300426ffffffce1966ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc10010ffffff9effffffae70ffffffcb36ffffffa0ffffff805248a67ffffffcc79fffffff812718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f502e40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
+ 一  05 17:22:50 DEBUG  -->  SCTP : sending the message to ric
+ 一  05 17:22:50 DEBUG   -->  SCTP : Forwarding received message to duApp
+ 一  05 17:22:50 DEBUG   -->  E2AP : Received E2AP message buffer
+ 一  05 17:22:50 DEBUG   -->  E2AP : Received flat buffer to be decoded : 20103000403102000407013fffffff1ffffff840010090a006405001000340a000350419ffffff8010
+ 一  05 17:22:50 <E2AP-PDU>
+ 一  05 17:22:50     <successfulOutcome>
+ 一  05 17:22:50         <procedureCode>1</procedureCode>
+ 一  05 17:22:50         <criticality><reject/></criticality>
+ 一  05 17:22:50         <value>
+ 一  05 17:22:50             <E2setupResponse>
+ 一  05 17:22:50                 <protocolIEs>
+ 一  05 17:22:50                     <E2setupResponseIEs>
+ 一  05 17:22:50                         <id>49</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <TransactionID>0</TransactionID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupResponseIEs>
+ 一  05 17:22:50                     <E2setupResponseIEs>
+ 一  05 17:22:50                         <id>4</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <GlobalRIC-ID>
+ 一  05 17:22:50                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 一  05 17:22:50                                 <ric-ID>
+ 一  05 17:22:50                                     00000000000000000001
+ 一  05 17:22:50                                 </ric-ID>
+ 一  05 17:22:50                             </GlobalRIC-ID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupResponseIEs>
+ 一  05 17:22:50                     <E2setupResponseIEs>
+ 一  05 17:22:50                         <id>9</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <RANfunctionsID-List>
+ 一  05 17:22:50                                 <ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                                     <id>6</id>
+ 一  05 17:22:50                                     <criticality><ignore/></criticality>
+ 一  05 17:22:50                                     <value>
+ 一  05 17:22:50                                         <RANfunctionID-Item>
+ 一  05 17:22:50                                             <ranFunctionID>1</ranFunctionID>
+ 一  05 17:22:50                                             <ranFunctionRevision>0</ranFunctionRevision>
+ 一  05 17:22:50                                         </RANfunctionID-Item>
+ 一  05 17:22:50                                     </value>
+ 一  05 17:22:50                                 </ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                             </RANfunctionsID-List>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupResponseIEs>
+ 一  05 17:22:50                     <E2setupResponseIEs>
+ 一  05 17:22:50                         <id>52</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <E2nodeComponentConfigAdditionAck-List>
+ 一  05 17:22:50                                 <ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                                     <id>53</id>
+ 一  05 17:22:50                                     <criticality><reject/></criticality>
+ 一  05 17:22:50                                     <value>
+ 一  05 17:22:50                                         <E2nodeComponentConfigAdditionAck-Item>
+ 一  05 17:22:50                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+ 一  05 17:22:50                                             <e2nodeComponentID>
+ 一  05 17:22:50                                                 <e2nodeComponentInterfaceTypeF1>
+ 一  05 17:22:50                                                     <gNB-DU-ID>1</gNB-DU-ID>
+ 一  05 17:22:50                                                 </e2nodeComponentInterfaceTypeF1>
+ 一  05 17:22:50                                             </e2nodeComponentID>
+ 一  05 17:22:50                                             <e2nodeComponentConfigurationAck>
+ 一  05 17:22:50                                                 <updateOutcome><success/></updateOutcome>
+ 一  05 17:22:50                                             </e2nodeComponentConfigurationAck>
+ 一  05 17:22:50                                         </E2nodeComponentConfigAdditionAck-Item>
+ 一  05 17:22:50                                     </value>
+ 一  05 17:22:50                                 </ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                             </E2nodeComponentConfigAdditionAck-List>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2setupResponseIEs>
+ 一  05 17:22:50                 </protocolIEs>
+ 一  05 17:22:50             </E2setupResponse>
+ 一  05 17:22:50         </value>
+ 一  05 17:22:50     </successfulOutcome>
+ 一  05 17:22:50 </E2AP-PDU>
+ 一  05 17:22:50 
+ 一  05 17:22:50 INFO   -->  E2AP : E2 Setup Response received
+ 一  05 17:22:50 ERROR  -->  E2AP : Invalid IE received in E2SetupRsp:9
+ 一  05 17:22:50 INFO   -->  E2AP : Building E2 Node config update
+ 一  05 17:22:50 <E2AP-PDU>
+ 一  05 17:22:50     <initiatingMessage>
+ 一  05 17:22:50         <procedureCode>10</procedureCode>
+ 一  05 17:22:50         <criticality><reject/></criticality>
+ 一  05 17:22:50         <value>
+ 一  05 17:22:50             <E2nodeConfigurationUpdate>
+ 一  05 17:22:50                 <protocolIEs>
+ 一  05 17:22:50                     <E2nodeConfigurationUpdate-IEs>
+ 一  05 17:22:50                         <id>49</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <TransactionID>1</TransactionID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </E2nodeConfigurationUpdate-IEs>
+ 一  05 17:22:50                 </protocolIEs>
+ 一  05 17:22:50             </E2nodeConfigurationUpdate>
+ 一  05 17:22:50         </value>
+ 一  05 17:22:50     </initiatingMessage>
+ 一  05 17:22:50 </E2AP-PDU>
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  E2AP : Created APER encoded buffer for E2nodeConfigurationUpdate
+ 一  05 17:22:50 
+ 一  05 17:22:50 DEBUG   -->  SCTP : Forwarding received message to duApp0a090010310201
+ 一  05 17:22:50 DEBUG  -->  SCTP : sending the message to ric
+ 一  05 17:22:50 DEBUG   -->  E2AP : Received E2AP message buffer
+ 一  05 17:22:50 DEBUG   -->  E2AP : Received flat buffer to be decoded : 0804a00301d050010105020101e0340383ffffffe70013402a4000260110010ffffffb05252552e507262546f74446c00ffffffb05252552e507262546f74556c0063
+ 一  05 17:22:50 <E2AP-PDU>
+ 一  05 17:22:50     <initiatingMessage>
+ 一  05 17:22:50         <procedureCode>8</procedureCode>
+ 一  05 17:22:50         <criticality><reject/></criticality>
+ 一  05 17:22:50         <value>
+ 一  05 17:22:50             <RICsubscriptionRequest>
+ 一  05 17:22:50                 <protocolIEs>
+ 一  05 17:22:50                     <RICsubscriptionRequest-IEs>
+ 一  05 17:22:50                         <id>29</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <RICrequestID>
+ 一  05 17:22:50                                 <ricRequestorID>1</ricRequestorID>
+ 一  05 17:22:50                                 <ricInstanceID>1</ricInstanceID>
+ 一  05 17:22:50                             </RICrequestID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </RICsubscriptionRequest-IEs>
+ 一  05 17:22:50                     <RICsubscriptionRequest-IEs>
+ 一  05 17:22:50                         <id>5</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <RANfunctionID>1</RANfunctionID>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </RICsubscriptionRequest-IEs>
+ 一  05 17:22:50                     <RICsubscriptionRequest-IEs>
+ 一  05 17:22:50                         <id>30</id>
+ 一  05 17:22:50                         <criticality><reject/></criticality>
+ 一  05 17:22:50                         <value>
+ 一  05 17:22:50                             <RICsubscriptionDetails>
+ 一  05 17:22:50                                 <ricEventTriggerDefinition>08 03 E7</ricEventTriggerDefinition>
+ 一  05 17:22:50                                 <ricAction-ToBeSetup-List>
+ 一  05 17:22:50                                     <ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                                         <id>19</id>
+ 一  05 17:22:50                                         <criticality><ignore/></criticality>
+ 一  05 17:22:50                                         <value>
+ 一  05 17:22:50                                             <RICaction-ToBeSetup-Item>
+ 一  05 17:22:50                                                 <ricActionID>0</ricActionID>
+ 一  05 17:22:50                                                 <ricActionType><report/></ricActionType>
+ 一  05 17:22:50                                                 <ricActionDefinition>
+ 一  05 17:22:50                                                     00 01 01 00 00 01 00 B0 52 52 55 2E 50 72 62 54 
+ 一  05 17:22:50                                                     6F 74 44 6C 00 00 B0 52 52 55 2E 50 72 62 54 6F 
+ 一  05 17:22:50                                                     74 55 6C 00 00 63
+ 一  05 17:22:50                                                 </ricActionDefinition>
+ 一  05 17:22:50                                             </RICaction-ToBeSetup-Item>
+ 一  05 17:22:50                                         </value>
+ 一  05 17:22:50                                     </ProtocolIE-SingleContainerE2>
+ 一  05 17:22:50                                 </ricAction-ToBeSetup-List>
+ 一  05 17:22:50                             </RICsubscriptionDetails>
+ 一  05 17:22:50                         </value>
+ 一  05 17:22:50                     </RICsubscriptionRequest-IEs>
+ 一  05 17:22:50                 </protocolIEs>
+ 一  05 17:22:50             </RICsubscriptionRequest>
+ 一  05 17:22:50         </value>
+ 一  05 17:22:50     </initiatingMessage>
+ 一  05 17:22:50 </E2AP-PDU>
+ 一  05 17:22:50 
+ 一  05 17:22:50 INFO   -->  E2AP : RIC Subscription request received
+ 一  05 17:22:50 <E2SM-KPM-EventTriggerDefinition>
+ 一  05 17:22:50     <eventDefinition-formats>
+ 一  05 17:22:50         <eventDefinition-Format1>
+ 一  05 17:22:50             <reportingPeriod>1000</reportingPeriod>
+ 一  05 17:22:50         </eventDefinition-Format1>
+ 一  05 17:22:50     </eventDefinition-formats>
+ 一  05 17:22:50 </E2SM-KPM-EventTriggerDefinition>
+ 一  05 17:22:50 
+ 一  05 17:22:50 <E2SM-KPM-ActionDefinition>
+ 一  05 17:22:50     <ric-Style-Type>1</ric-Style-Type>
+ 一  05 17:22:50     <actionDefinition-formats>
+ 一  05 17:22:50         <actionDefinition-Format1>
+ 一  05 17:22:50             <measInfoList>
+ 一  05 17:22:50                 <MeasurementInfoItem>
+ 一  05 17:22:50                     <measType>
+ 一  05 17:22:50                         <measName>RRU.PrbTotDl</measName>
+ 一  05 17:22:50                     </measType>
+ 一  05 17:22:50                     <labelInfoList>
+ 一  05 17:22:50                     </labelInfoList>
+ 一  05 17:22:50                 </MeasurementInfoItem>
+ 一  05 17:22:50                 <MeasurementInfoItem>
+ 一  05 17:22:50                     <measType>
+ 一  05 17:22:50                         <measName>RRU.PrbTotUl</measName>
+ 一  05 17:22:50                     </measType>
+ 一  05 17:22:50                     <labelInfoList>
+ 一  05 17:22:50                     </labelInfoList>
+ 一  05 17:22:50                 </MeasurementInfoItem>
+ 一  05 17:22:50             </measInfoList>
+ 一  05 17:22:50             <granulPeriod>100</granulPeriod>
+ 一  05 17:22:50         </actionDefinition-Format1>
+ 一  05 17:22:50     </actionDefinition-formats>
+ 一  05 17:22:50 </E2SM-KPM-ActionDefinition>
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI] VNF Interface --> Accepting connection from PNF...
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI] VNF Interface --> PNF connection (fd:8) accepted from 127.0.0.1:37097 
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI] VNF Interface --> MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f4a18001120
+ 一  05 17:22:56 
+ 一  05 17:22:56 [INFO]   --> [VNF_Interface] 1 in nfapi_nr_vnf_start
+ 一  05 17:22:56 INFO   --> [VNF] pnf connection indication idx:0
+ 一  05 17:22:56 
+ 一  05 17:22:56  MESSAGE SENT: 
+ 一  05 17:22:56  00  00  01  00  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI] VNF Interface --> VNF Association ID = 497
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI] VNF Interface --> VNF Receiver window size = 106488
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI] VNF Interface --> VNF In Streams = 5
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI] VNF Interface --> VNF Out Streams = 5
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+ 一  05 17:22:56 messageHeader.message_id = 257
+ 一  05 17:22:56 
+ 一  05 17:22:56  Read NR message unpack:  00  00  01  01  00  46  00  00  00  02  10  00  00  21  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  10  01  00  15  00  01  00  00  00  02  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] pnf param response idx:0 error:0
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] (PHY:0) phy_config_idx:0
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] (PHY:0) (RF0) 0
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] (PHY:0) (RF1) 0
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> Hard coded num phy rf to 2
+ 一  05 17:22:56 
+ 一  05 17:22:56  MESSAGE SENT: 
+ 一  05 17:22:56  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+ 一  05 17:22:56 messageHeader.message_id = 259
+ 一  05 17:22:56 
+ 一  05 17:22:56  Read NR message unpack:  00  00  01  03  00  01  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:1]]
+ 一  05 17:22:56 
+ 一  05 17:22:56  MESSAGE SENT: 
+ 一  05 17:22:56  00  00  01  04  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+ 一  05 17:22:56 messageHeader.message_id = 261
+ 一  05 17:22:56 
+ 一  05 17:22:56  Read NR message unpack:  00  00  01  05  00  04  00  00  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] pnf start response idx:0 config:0x55fd2a4bfd40 user_data:0x7f4ab0ba2010 p7_vnf[config:0x55fd2a4bfbf0 thread_started:0]
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
+ 一  05 17:22:56 
+ 一  05 17:22:56  MESSAGE SENT: 
+ 一  05 17:22:56  00  01  00  00  00  00  00  00 
+ 一  05 17:22:56 Calling sched_setscheduler(79)
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+ 一  05 17:22:56 messageHeader.message_id = 1
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  Received PARAM_RESPONSE
+ 一  05 17:22:56  Read NR message unpack:  00  01  00  01  01  fa  00  00  00  3e  00  01  00  02  00  00  00  00  00  02  00  02  00  00  00  00  00  03  00  01  00  00  00  00  00  04  00  01  00  00  00  00  00  05  00  02  00  00  00  00  00  06  00  01  00  00  00  00  00  07  00  02  00  00  00  00  00  08  00  02  00  00  00  00  00  09  00  01  00  00  00  00  00  0a  00  02  00  00  00  00  00  0b  00  01  00  00  00  00  00  0c  00  01  00  00  00  00  00  0d  00  01  00  00  00  00  00  0e  00  01  00  00  00  00  00  0f  00  01  00  00  00  00  00  10  00  01  00  00  00  00  00  11  00  01  00  00  00  00  00  12  00  01  00  00  00  00  00  13  00  01  00  00  00  00  00  14  00  01  00  00  00  00  00  15  00  01  00  00  00  00  00  16  00  01  00  00  00  00  00  17  00  01  00  00  00  00  00  19  00  01  00  00  00  00  00  1b  00  01  00  00  00  00  00  1d  00  01  00  00  00  00  00  1e  00  01  00  00  00  00  00  1f  00  01  00  00  00  00  00  20  00  01  00  00  00  00  00  21  00  01  00  00  00  00  00  22  00  01  00  00  00  00  00  23  00  01  00  00  00  00  00  24  00  01  00  00  00  00  00  25  00  01  00  00  00  00  00  26  00  01  00  00  00  00  00  27  00  01  00  00  00  00  00  28  00  01  00  00  00  00  00  29  00  01  00  00  00  00  00  2a  00  01  00  00  00  00  00  2b  00  01  00  00  00  00  00  2c  00  01  00  00  00  00  00  2d  00  01  00  00  00  00  00  2e  00  01  00  00  00  00  00  2f  00  01  00  00  00  00  00  30  00  01  00  00  00  00  00  31  00  01  00  00  00  00  00  32  00  01  00  00  00  00  00  33  00  01  00  00  00  00  00  34  00  01  00  00  00  00  00  35  00  01  00  00  00  00  00  36  00  01  00  00  00  00  01  00  00  04  00  00  00  00  01  01  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  02  00  02  00  00  00  00  01  03  00  04  7f  00  00  02  01  04  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  05  00  02  5a  c3  00  00  01  1e  00  01  00  00  00  00  01  1f  00  01  00  00  00  00  01  20  00  01  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56  Read message unpack_param_response:  00  3e  00  01  00  02  00  00  00  00  00  02  00  02  00  00  00  00  00  03  00  01  00  00  00  00  00  04  00  01  00  00  00  00  00  05  00  02  00  00  00  00  00  06  00  01  00  00  00  00  00  07  00  02  00  00  00  00  00  08  00  02  00  00  00  00  00  09  00  01  00  00  00  00  00  0a  00  02  00  00  00  00  00  0b  00  01  00  00  00  00  00  0c  00  01  00  00  00  00  00  0d  00  01  00  00  00  00  00  0e  00  01  00  00  00  00  00  0f  00  01  00  00  00  00  00  10  00  01  00  00  00  00  00  11  00  01  00  00  00  00  00  12  00  01  00  00  00  00  00  13  00  01  00  00  00  00  00  14  00  01  00  00  00  00  00  15  00  01  00  00  00  00  00  16  00  01  00  00  00  00  00  17  00  01  00  00  00  00  00  19  00  01  00  00  00  00  00  1b  00  01  00  00  00  00  00  1d  00  01  00  00  00  00  00  1e  00  01  00  00  00  00  00  1f  00  01  00  00  00  00  00  20  00  01  00  00  00  00  00  21  00  01  00  00  00  00  00  22  00  01  00  00  00  00  00  23  00  01  00  00  00  00  00  24  00  01  00  00  00  00  00  25  00  01  00  00  00  00  00  26  00  01  00  00  00  00  00  27  00  01  00  00  00  00  00  28  00  01  00  00  00  00  00  29  00  01  00  00  00  00  00  2a  00  01  00  00  00  00  00  2b  00  01  00  00  00  00  00  2c  00  01  00  00  00  00  00  2d  00  01  00  00  00  00  00  2e  00  01  00  00  00  00  00  2f  00  01  00  00  00  00  00  30  00  01  00  00  00  00  00  31  00  01  00  00  00  00  00  32  00  01  00  00  00  00  00  33  00  01  00  00  00  00  00  34  00  01  00  00  00  00  00  35  00  01  00  00  00  00  00  36  00  01  00  00  00  00  01  00  00  04  00  00  00  00  01  01  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  02  00  02  00  00  00  00  01  03  00  04  7f  00  00  02  01  04  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  05  00  02  5a  c3  00  00  01  1e  00  01  00  00  00  00  01  1f  00  01  00  00  00  00  01  20  00  01  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
+ 一  05 17:22:56 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
+ 一  05 17:22:56 [NFAPI VNF]  ->  PNF P7 Port: 23235
+ 一  05 17:22:56 [NFAPI VNF]  ->  Invoke the nr_param_resp
+ 一  05 17:22:56 [NFAPI VNF]  ->  The PNF has been running, set FALG to 0
+ 一  05 17:22:56 [NFAPI VNF]  ->  The PNF has been running, set FALG to 1
+ 一  05 17:22:56 INFO  -->  LWR_MAC : phyState :  0 in msgType : 2
+ 一  05 17:22:56 INFO  -->  NFAPI : pnfState :  0
+ 一  05 17:22:56 lwr_mac_procConfigReqEvt
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO  -->  LWR_MAC: Received EVENT[2] at STATE[0]
+ 一  05 17:22:56 DEBUG  -->  LWR_MAC: MIB PDU 600
+ 一  05 17:22:56 123
+ 一  05 17:22:56 [DEBUG] -> intgr_fapi_config being called
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] 0.1 pnf p7 127.0.0.2:23235 timing 30 10 0 10
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Send NFAPI_CONFIG_REQUEST
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Local_port:46021
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Local_addr:127.0.0.1
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> 
+ 一  05 17:22:56 [VNF]Timing window tag : 286 Timing window:30
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI P5]  ->  Number of TLVs in ORAN_OAI: 26
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1001 with value 20 and length 4
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1002 with value 2160000 and length 4
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1004 with value 106 and length 2
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1005 with value 2 and length 2
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1006 with value 20 and length 4
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1007 with value 1760000 and length 4
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1009 with value 106 and length 2
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x100a with value 2 and length 2
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x100c with value 1 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x100d with value 0 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x100e with value 0 and length 4
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1010 with value 1 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1012 with value 1 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1013 with value 0 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1014 with value 1 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1029 with value 16 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1015 with value 0 and length 2
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1017 with value 0 and length 2
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1018 with value 4 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x101b with value 1 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x101d with value 24 and length 2
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x101f with value 2 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1020 with value 0 and length 1
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1021 with value 1536 and length 4
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1022 with value 1 and length 4
+ 一  05 17:22:56 [NFAPI P5]  ->  TAG 0x1023 with value 0 and length 1
+ 一  05 17:22:56 [NTUST]p7_vnf_address_ipv4: 127.0.0.1
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NTUST]p7_vnf_port: 50611
+ 一  05 17:22:56 
+ 一  05 17:22:56  MESSAGE SENT: 
+ 一  05 17:22:56  00  01  00  02  00  f9  00  00  23  10  01  00  04  00  00  00  14  10  02  00  04  00  20  f5  80  10  04  00  02  00  6a  00  00  10  05  00  02  00  02  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  1a  db  00  10  09  00  02  00  6a  00  00  10  0a  00  02  00  02  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  01  00  00  00  10  12  00  01  01  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
+ 一  05 17:22:56 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:6
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Creating VNF NFAPI P7 start thread vnf_nr_p7_thread_start
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> vnf_nr_p7_start_thread()
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI P7] ->  Initialising VNF P7 port:50611
+ 一  05 17:22:56 [NFAPI P7] ->  VNF P7 socket created...
+ 一  05 17:22:56 [NFAPI P7] ->  VNF P7 setsockopt succeeded...
+ 一  05 17:22:56 [NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
+ 一  05 17:22:56 [NFAPI P7] ->  VNF P7 bind succeeded...
+ 一  05 17:22:56 [DEBUG]	vnf_p7->terminate 0
+ 一  05 17:22:56 [DEBUG]	Slot indication: 0
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+ 一  05 17:22:56 messageHeader.message_id = 3
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  -> Received CONFIG_RESPONSE
+ 一  05 17:22:56 
+ 一  05 17:22:56  Read NR message unpack:  00  01  00  03  00  05  00  00  00  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO  -->  Func : intgr_lwr_mac_procConfigRspEvt 
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO  -->  LWR_MAC : phyState :  0 in msgType : 3
+ 一  05 17:22:56 INFO  -->  NFAPI : pnfState :  0
+ 一  05 17:22:56 INFO  -->  LWR_MAC: Received EVENT[3] at STATE[0]
+ 一  05 17:22:56 DEBUG  -->  LWR_MAC: PHY has moved to Configured state 
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Received NFAPI_CONFIG_RESP idx:0 phy_id:1
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Calling oai_enb_init()
+ 一  05 17:22:56 
+ 一  05 17:22:56  MESSAGE SENT: 
+ 一  05 17:22:56  00  01  00  04  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+ 一  05 17:22:56 messageHeader.message_id = 269
+ 一  05 17:22:56 
+ 一  05 17:22:56  Read NR message unpack:  00  01  01  0d  00  04  00  00  00  00  00  00 
+ 一  05 17:22:56 
+ 一  05 17:22:56 INFO   --> [VNF] Received NFAPI_START_RESP idx:0 phy_id:1
+ 一  05 17:22:56 
+ 一  05 17:22:56 nfapi_vnf_p7_add_pnf(config:0x55fd2a4bfbf0 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:23235)
+ 一  05 17:23:01 
+ 一  05 17:23:01 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+ 一  05 17:23:01 186824082698 [W] 1563813632: vnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+ 一  05 17:23:01 186824082701 [W] 1563813632: vnf_nr_read_dispatch_message: Disconnected socket
+ 一  05 17:23:01 
+ 一  05 17:23:01 INFO   --> [VNF] pnf disconnection indication idx:0
+ 一  05 17:24:36 [DEBUG]	Slot indication: 0
