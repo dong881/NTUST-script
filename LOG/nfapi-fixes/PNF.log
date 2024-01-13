@@ -1,518 +1,149 @@
- 一  13 15:14:36 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
- 一  13 15:14:36 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
- 一  13 15:14:36 [CONFIG] function config_libconfig_init returned 0
- 一  13 15:14:36 [CONFIG] config module libconfig loaded
- 一  13 15:14:36 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 一  13 15:14:36 [CONFIG] debug flags: 0x00000000
- 一  13 15:14:36 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 一  13 15:14:36 [LIBCONFIG] log_config: 53/53 parameters successfully set, (51 to default value)
- 一  13 15:14:36 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
- 一  13 15:14:36 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  13 15:14:36 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  13 15:14:36 log init done
- 一  13 15:14:36 [HW]   # /dev/cpu_dma_latency set to 2 us
- 一  13 15:14:36 [0mReading in command-line options
- 一  13 15:14:36 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
- 一  13 15:14:36 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 一  13 15:14:36 [ENB_APP]   nfapi running mode: PNF
- 一  13 15:14:36 [0m[GNB_APP]   Getting GNBSParams
- 一  13 15:14:36 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
- 一  13 15:14:36 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
- 一  13 15:14:36 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
- 一  13 15:14:36 [CONFIG] parallel_conf is set to 2
- 一  13 15:14:36 [CONFIG] worker_conf is set to 1
- 一  13 15:14:36 Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
- 一  13 15:14:36 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 一  13 15:14:36 configuring for RAU/RRU
- 一  13 15:14:37 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 一  13 15:14:37 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 一  13 15:14:37 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 一  13 15:14:37 [OPT]   OPT disabled
- 一  13 15:14:37 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: e403c9f308 Date: Thu Nov 23 13:53:45 2023 +0100
- 一  13 15:14:37 [0m[NR_PHY]   RC.gNB = 0x55d1621c6930
- 一  13 15:14:37 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
- 一  13 15:14:37 [PHY]   L1_RX_THREAD_CORE -1 (16)
- 一  13 15:14:37 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
- 一  13 15:14:37 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
- 一  13 15:14:37 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
- 一  13 15:14:37 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
- 一  13 15:14:37 [0mconfigure_nr_nfapi_pnf() PNF
- 一  13 15:14:37 
- 一  13 15:14:37 
- 一  13 15:14:37 
- 一  13 15:14:37 
- 一  13 15:14:37 
- 一  13 15:14:37 [ENB_APP]   nfapi running mode: PNF
- 一  13 15:14:37 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.2:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.2:50011 rx:50010]
- 一  13 15:14:37 Initializing northbound interface for L1
- 一  13 15:14:37 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 一  13 15:14:37 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 一  13 15:14:37 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x55d1621c9c00
- 一  13 15:14:37 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 一  13 15:14:37 [0m[LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
- 一  13 15:14:37 870319250903 [E] 2230257408: pnf_connect: After connect (address:127.0.0.2 port:50001) errno: 111
- 一  13 15:14:37 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
- 一  13 15:14:37 START MAIN THREADS
- 一  13 15:14:37 RC.nb_nr_L1_inst:1
- 一  13 15:14:37 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
- 一  13 15:14:37 [PHY]   Initializing gNB 0 single_thread_flag:1
- 一  13 15:14:37 [0m[PHY]   Initializing gNB 0
- 一  13 15:14:37 [0m[PHY]   Registering with MAC interface module (before 0x55d1621c9c00)
- 一  13 15:14:37 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 一  13 15:14:37 [0m[PHY]   Registering with MAC interface module (after 0x55d1621c9c00)
- 一  13 15:14:37 [0m[PHY]   Setting indication lists
- 一  13 15:14:37 [0m[PHY]   [nr-gnb.c] gNB structure allocated
- 一  13 15:14:37 [0mwait_gNBs()
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:39 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:41 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:42 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:44 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:45 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:47 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:50 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:51 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:52 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:53 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:54 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:56 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  13 15:14:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:05 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
+ 一  13 15:33:05 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+ 一  13 15:33:05 [CONFIG] function config_libconfig_init returned 0
+ 一  13 15:33:05 [CONFIG] config module libconfig loaded
+ 一  13 15:33:05 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 一  13 15:33:05 [CONFIG] debug flags: 0x00000000
+ 一  13 15:33:05 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 一  13 15:33:05 [LIBCONFIG] log_config: 53/53 parameters successfully set, (51 to default value)
+ 一  13 15:33:05 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+ 一  13 15:33:05 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  13 15:33:05 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  13 15:33:05 log init done
+ 一  13 15:33:05 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 一  13 15:33:05 [0mReading in command-line options
+ 一  13 15:33:05 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
+ 一  13 15:33:05 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 一  13 15:33:05 [ENB_APP]   nfapi running mode: PNF
+ 一  13 15:33:05 [0m[GNB_APP]   Getting GNBSParams
+ 一  13 15:33:05 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
+ 一  13 15:33:05 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+ 一  13 15:33:05 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+ 一  13 15:33:05 [CONFIG] parallel_conf is set to 2
+ 一  13 15:33:05 [CONFIG] worker_conf is set to 1
+ 一  13 15:33:05 Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
+ 一  13 15:33:05 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 一  13 15:33:05 configuring for RAU/RRU
+ 一  13 15:33:06 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 一  13 15:33:06 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 一  13 15:33:06 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 一  13 15:33:06 [OPT]   OPT disabled
+ 一  13 15:33:06 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: e403c9f308 Date: Thu Nov 23 13:53:45 2023 +0100
+ 一  13 15:33:06 [0m[NR_PHY]   RC.gNB = 0x5617ffb16930
+ 一  13 15:33:06 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
+ 一  13 15:33:06 [PHY]   L1_RX_THREAD_CORE -1 (16)
+ 一  13 15:33:06 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+ 一  13 15:33:06 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+ 一  13 15:33:06 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+ 一  13 15:33:06 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+ 一  13 15:33:06 [0mconfigure_nr_nfapi_pnf() PNF
+ 一  13 15:33:06 
+ 一  13 15:33:06 
+ 一  13 15:33:06 
+ 一  13 15:33:06 
+ 一  13 15:33:06 
+ 一  13 15:33:06 [ENB_APP]   nfapi running mode: PNF
+ 一  13 15:33:06 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.2:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.2:50011 rx:50010]
+ 一  13 15:33:06 Initializing northbound interface for L1
+ 一  13 15:33:06 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 一  13 15:33:06 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  13 15:33:06 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5617ffb19c00
+ 一  13 15:33:06 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 一  13 15:33:06 [0m[LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+ 一  13 15:33:06 871428408153 [E]  341165824: pnf_connect: After connect (address:127.0.0.2 port:50001) errno: 111
+ 一  13 15:33:06 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 一  13 15:33:06 START MAIN THREADS
+ 一  13 15:33:06 RC.nb_nr_L1_inst:1
+ 一  13 15:33:06 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+ 一  13 15:33:06 [PHY]   Initializing gNB 0 single_thread_flag:1
+ 一  13 15:33:06 [0m[PHY]   Initializing gNB 0
+ 一  13 15:33:06 [0m[PHY]   Registering with MAC interface module (before 0x5617ffb19c00)
+ 一  13 15:33:06 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  13 15:33:06 [0m[PHY]   Registering with MAC interface module (after 0x5617ffb19c00)
+ 一  13 15:33:06 [0m[PHY]   Setting indication lists
+ 一  13 15:33:06 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+ 一  13 15:33:06 [0mwait_gNBs()
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:06 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:08 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:08 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:08 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  13 15:33:08 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
