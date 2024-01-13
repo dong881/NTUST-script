@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Common path
+Target_PATH="/home/yen0224/NTUST/nfapi-fixes"
+LOG_PATH="$Target_PATH/LOG"
+OAI_PATH="/home/yen0224/NTUST/openairinterface5g/cmake_targets"
+
+# 進入目錄
+cd "$OAI_PATH"
+
+# 第一個腳本
+sudo ./build_oai -c --ninja --nrUE --gNB
+
+# 進入目錄
+cd "$OAI_PATH/ran_build/build"
+
+# 定義路徑變數
+NFAPI_TRACE_LEVEL=debug
+LD_LIBRARY_PATH=.
+CONF_PATH=../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+
+# Common part of nrsoftmodem_command
+common_cmd="./nr-softmodem"
+
+# Second script
+pnf_cmd="$common_cmd -O $CONF_PATH/oaiL1.nfapi.usrpb210.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
+
+# Third script
+vnf_cmd="$common_cmd -O $CONF_PATH/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --sa"
+sudo stdbuf -oL $vnf_cmd 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
+
+# 等待3秒後執行關閉腳本
+sleep 3
+bash "$Target_PATH/exit"
+
+echo "The script automatically closes after 3 seconds..."
