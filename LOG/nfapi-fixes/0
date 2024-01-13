@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/yen0224/NTUST/openairinterface5g/cmake_targets
+
+sudo ./build_oai -c --ninja --nrUE --gNB
