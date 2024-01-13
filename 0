@@ -32,8 +32,8 @@ export PATH
 echo  "O-RAN NIC Setting Complete!"
 
 sudo echo "Build OSC DU..."
-
-cd /home/yen0224/new/small_cell_integration/l2/build/odu
+# NTUST/mwnl-odu-at-oai-based-on-scf/l2
+cd /home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2/build/odu
 #clean
 make clean_odu MACHINE=BIT64 MODE=FDD NFAPI=YES
 make clean_cu MACHINE=BIT64 MODE=FDD NFAPI=YES
@@ -44,7 +44,7 @@ make odu MACHINE=BIT64 MODE=FDD NFAPI=YES
 make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
 make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
 
-L2_PATH="/home/yen0224/new/small_cell_integration/l2"
+L2_PATH="/home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2"
 LOG_PATH="/home/yen0224/NTUST/LOG"
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
 CU_LOG_FILE="$LOG_PATH/1-CU_STUB.log"
