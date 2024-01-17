@@ -1,447 +1,447 @@
- 一  17 14:57:00 CMDLINE: "/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "PNF" 
- 一  17 14:57:00 [CONFIG] get parameters from libconfig /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf
- 一  17 14:57:00 [CONFIG] function config_libconfig_init returned 0
- 一  17 14:57:00 [CONFIG] config module libconfig loaded
- 一  17 14:57:00 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 一  17 14:57:00 [CONFIG] debug flags: 0x00000000
- 一  17 14:57:00 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 一  17 14:57:00 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
- 一  17 14:57:00 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
- 一  17 14:57:00 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  17 14:57:00 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  17 14:57:00 log init done
- 一  17 14:57:00 [HW]   # /dev/cpu_dma_latency set to 2 us
- 一  17 14:57:00 [0mReading in command-line options
- 一  17 14:57:00 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
- 一  17 14:57:00 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 一  17 14:57:00 [ENB_APP]   nfapi running mode: PNF
- 一  17 14:57:00 [0m[GNB_APP]   Getting GNBSParams
- 一  17 14:57:00 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  17 14:57:00 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  17 14:57:00 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  17 14:57:00 [CONFIG] parallel_conf is set to 0
- 一  17 14:57:00 [CONFIG] worker_conf is set to 1
- 一  17 14:57:00 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
- 一  17 14:57:00 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 一  17 14:57:00 configuring for RAU/RRU
- 一  17 14:57:01 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 一  17 14:57:01 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 一  17 14:57:01 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 一  17 14:57:01 [OPT]   OPT disabled
- 一  17 14:57:01 [0m[HW]   Version: Branch: develop Abrev. Hash: 411bb2dd1f Date: Fri Jan 5 17:33:55 2024 +0800
- 一  17 14:57:01 [0m[NR_PHY]   RC.gNB = 0x562eeeef6240
- 一  17 14:57:01 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
- 一  17 14:57:01 [PHY]   L1_RX_THREAD_CORE -1 (16)
- 一  17 14:57:01 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
- 一  17 14:57:01 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
- 一  17 14:57:01 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
- 一  17 14:57:01 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
- 一  17 14:57:01 [0mconfigure_nr_nfapi_pnf() PNF
- 一  17 14:57:01 
- 一  17 14:57:01 
- 一  17 14:57:01 
- 一  17 14:57:01 
- 一  17 14:57:01 
- 一  17 14:57:01 [ENB_APP]   nfapi running mode: PNF
- 一  17 14:57:01 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
- 一  17 14:57:01 Initializing northbound interface for L1
- 一  17 14:57:01 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 一  17 14:57:01 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 一  17 14:57:01 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x562eeeef9510
- 一  17 14:57:01 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 一  17 14:57:01 [0m
- 一  17 14:57:01  Read NR message unpack:  00  00  01  00  00  00  00  00 
- 一  17 14:57:01 [PNF] pnf param request
- 一  17 14:57:01 
- 一  17 14:57:01  Read NR message unpack:  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
- 一  17 14:57:01 [PNF] pnf config request
- 一  17 14:57:01 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
- 一  17 14:57:01 [PNF] Sent pnf_config_resp
- 一  17 14:57:01 
- 一  17 14:57:01  Read NR message unpack:  00  00  01  04  00  00  00  00 
- 一  17 14:57:01 Received NFAPI_PNF_START_REQUEST
- 一  17 14:57:01 [PNF] Sent NFAPI_PNF_START_RESP
- 一  17 14:57:01 
- 一  17 14:57:01  Read NR message unpack:  00  01  00  00  00  00  00  00 
- 一  17 14:57:01 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
- 一  17 14:57:01 TAG value :2
- 一  17 14:57:01 RUNNING pack_param_response
- 一  17 14:57:01 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
- 一  17 14:57:01 [PNF] param request .. exit
- 一  17 14:57:01 
- 一  17 14:57:01  Read NR message unpack:  00  01  00  02  00  f9  00  00  23  10  01  00  04  00  00  00  14  10  02  00  04  00  20  f5  80  10  04  00  02  00  6a  00  00  10  05  00  02  00  01  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  1a  db  00  10  09  00  02  00  6a  00  00  10  0a  00  02  00  01  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  01  00  00  00  10  12  00  01  01  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : The ppReadPackedMsg value is: 735500456
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1001
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1002
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1004
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1005
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1006
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1007
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1009
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x100a
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x100c
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x100d
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x100e
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1010
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1012
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1013
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1014
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1029
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1015
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1017
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1018
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x101b
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x101d
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x101f
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1020
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1021
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1022
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x1023
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x0100
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x0102
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x011f
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x0120
- 一  17 14:57:01 
- 一  17 14:57:01 NTUST test : TAG value: 0x011e
- 一  17 14:57:01 [PNF] vnf p7 127.0.0.1:50611
- 一  17 14:57:01 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
- 一  17 14:57:01 
- 一  17 14:57:01 Timing window tag: 286
- 一  17 14:57:01 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
- 一  17 14:57:01 timing info mode:3
- 一  17 14:57:01 timing info period provided value:10
- 一  17 14:57:01 nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:20
- 一  17 14:57:01 [PNF] CONFIG_REQUEST[num_tlv:35] TLVs processed:6
- 一  17 14:57:01 [PNF] Simulating PHY CONFIG
- 一  17 14:57:01 
- 一  17 14:57:01 [NTUST] match table:(27)! dl_freq_khz:2179080
- 一  17 14:57:01 [NTUST] current_offset_khz:4294777296
- 一  17 14:57:01 [NTUST] delta_duplex_khz:4294567296
- 一  17 14:57:01 [NTUST] ul_min:1920000
- 一  17 14:57:01 [NTUST] dl_min:2110000
- 一  17 14:57:01 
- 一  17 14:57:01 [NTUST] match table:(28)! dl_freq_khz:2179080
- 一  17 14:57:01 [NTUST] current_offset_khz:4294567296
- 一  17 14:57:01 [NTUST] delta_duplex_khz:4294567296
- 一  17 14:57:01 [NTUST] ul_min:1710000
- 一  17 14:57:01 [NTUST] dl_min:2110000
- 一  17 14:57:01 
- 一  17 14:57:01 [NTUST] center_frequency_khz:2155000
- 一  17 14:57:01 [NTUST] center_freq_diff_khz:24080
- 一  17 14:57:01 DL frequency 2179080000: band 66, UL frequency 1779080000
- 一  17 14:57:01 [PHY]   DL frequency 2179080000 Hz, UL frequency 1779080000 Hz: band 66, uldl offset -400000000 Hz
- 一  17 14:57:01 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 1,DL freq 2179080000, UL freq 1779080000)
- 一  17 14:57:01 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 一  17 14:57:01 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
- 一  17 14:57:01 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
- 一  17 14:57:01 START MAIN THREADS
- 一  17 14:57:01 RC.nb_nr_L1_inst:1
- 一  17 14:57:01 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
- 一  17 14:57:01 [PHY]   Initializing gNB 0 single_thread_flag:1
- 一  17 14:57:01 [0m[PHY]   Initializing gNB 0
- 一  17 14:57:01 [0m[PHY]   Registering with MAC interface module (before 0x562eeeef9510)
- 一  17 14:57:01 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 一  17 14:57:01 [0m[PHY]   Registering with MAC interface module (after 0x562eeeef9510)
- 一  17 14:57:01 [0m[PHY]   Setting indication lists
- 一  17 14:57:01 [0m[PHY]   [nr-gnb.c] gNB structure allocated
- 一  17 14:57:01 [0mwait_gNBs()
- 一  17 14:57:01 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 一  17 14:57:01 [PHY]   gNB 0 configured
- 一  17 14:57:01 [0m[PHY]   fp->scs=30000
- 一  17 14:57:01 [0m[PHY]   fp->ofdm_symbol_size=1536
- 一  17 14:57:01 [0m[PHY]   fp->nb_prefix_samples0=132
- 一  17 14:57:01 [0m[PHY]   fp->nb_prefix_samples=108
- 一  17 14:57:01 [0m[PHY]   fp->slots_per_subframe=2
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_subframe_wCP=43008
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_frame_wCP=430080
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_subframe=46080
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_frame=460800
- 一  17 14:57:01 [0m[PHY]   fp->dl_CarrierFreq=2179080000
- 一  17 14:57:01 [0m[PHY]   fp->ul_CarrierFreq=1779080000
- 一  17 14:57:01 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
- 一  17 14:57:01 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
- 一  17 14:57:01 
- 一  17 14:57:01  Read NR message unpack:  00  01  00  04  00  00  00  00 
- 一  17 14:57:01 [PNF] Received NFAPI_START_REQ phy_id:1
- 一  17 14:57:01 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
- 一  17 14:57:01 subframe_buffer_size configured using phy_info->timing_window:30
- 一  17 14:57:01 [PNF] Sending PNF_START_RESP
- 一  17 14:57:01 Sending NFAPI_START_RESPONSE config:0x562eeeef7290 phy_id:1
- 一  17 14:57:01 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 一  17 14:57:01 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 一  17 14:57:01 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 一  17 14:57:01 [0mCalling sched_setscheduler(79)
- 一  17 14:57:01 gNB L1 are configured
- 一  17 14:57:01 About to Init RU threads RC.nb_RU:1
- 一  17 14:57:01 Initializing RU threads
- 一  17 14:57:01 configuring RU from file
- 一  17 14:57:01 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (35 to default value)
- 一  17 14:57:01 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  17 14:57:01 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (19 to default value)
- 一  17 14:57:01 Set RU mask to 1
- 一  17 14:57:01 Creating RC.ru[0]:0x562eeeeffda0
- 一  17 14:57:01 [PHY]   RU GPIO control set as 'generic'
- 一  17 14:57:01 [0m[PHY]   Setting clock source to internal
- 一  17 14:57:01 [0m[PHY]   Setting time source to internal
- 一  17 14:57:01 [0mSetting function for RU 0 to gNodeB_3GPP
- 一  17 14:57:01 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
- 一  17 14:57:01 [RU 0] Setting half-slot parallelization to 1
- 一  17 14:57:01 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 24
- 一  17 14:57:01 [0m[1;31m[PHY]   DJP - delete code above this /home/yen0224/openairinterface5g/executables/nr-ru.c:1820
- 一  17 14:57:01 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
- 一  17 14:57:01 [0mconfiguring ru_id 0 (start_rf 0x562eeac289d0)
- 一  17 14:57:01 [PHY]   Starting ru_thread 0
- 一  17 14:57:01 [0m[PHY]   Initializing RU proc 0 (,synch_to_ext_device),
- 一  17 14:57:01 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
- 一  17 14:57:01 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 2
- 一  17 14:57:01 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 一  17 14:57:01 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
- 一  17 14:57:01 [0m[PHY]   fp->scs=30000
- 一  17 14:57:01 [0m[PHY]   fp->ofdm_symbol_size=1536
- 一  17 14:57:01 [0m[PHY]   fp->nb_prefix_samples0=132
- 一  17 14:57:01 [0m[PHY]   fp->nb_prefix_samples=108
- 一  17 14:57:01 [0m[PHY]   fp->slots_per_subframe=2
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_subframe_wCP=43008
- 一  17 14:57:01 [0m[PHY]   RU Thread pool size 2
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_frame_wCP=430080
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_subframe=46080
- 一  17 14:57:01 [0m[PHY]   fp->samples_per_frame=460800
- 一  17 14:57:01 [0m[PHY]   RU thread-pool core string -1,-1
- 一  17 14:57:01 [0m[PHY]   fp->dl_CarrierFreq=2179080000
- 一  17 14:57:01 [0m[PHY]   fp->ul_CarrierFreq=1779080000
- 一  17 14:57:01 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
- 一  17 14:57:01 [0mcreate a thread for core -1
- 一  17 14:57:01 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
- 一  17 14:57:01 [0m[PHY]   Channel 0: setting tx_gain offset 90, rx_gain offset 125, tx_freq 2179080000 Hz, rx_freq 1779080000 Hz, tune_offset 0 Hz, sample_rate 46080000 Hz
- 一  17 14:57:01 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
- 一  17 14:57:01 [0m[PHY]   [INIT] common.txdata[0] = 0x7f182a2fc040 (1844480 bytes,sf_extension 320)
- 一  17 14:57:01 [0m[PHY]   [INIT] common.txdata[0] = 0x7f182a2fc540 
- 一  17 14:57:01 [0m[PHY]   nb_tx 1
- 一  17 14:57:01 [0m[PHY]   rxdata_7_5kHz[0] 0x7f182a084040 for RU 0
- 一  17 14:57:01 [0mcreate a thread for core -1
- 一  17 14:57:01 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
- 一  17 14:57:01 [0m[PHY]   [INIT] common.txdata_BF= 0x7f181c000b00 (8 bytes)
- 一  17 14:57:01 [0m[PHY]   txdataF_BF[0] 0x7f18296b3040 for RU 0
- 一  17 14:57:01 [0m[PHY]   rxdataF[0] 0x7f182965e040 for RU 0
- 一  17 14:57:01 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
- 一  17 14:57:01 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
- 一  17 14:57:01 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
- 一  17 14:57:01 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
- 一  17 14:57:01 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
- 一  17 14:57:01 [LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
- 一  17 14:57:01 shlib_path liboai_device.so
- 一  17 14:57:01 [LOADER] library liboai_device.so successfully loaded
- 一  17 14:57:01 [HW]   openair0_cfg[0].sdr_addrs == '(null)'
- 一  17 14:57:01 [0m[HW]   openair0_cfg[0].clock_source == '0' (internal = 0, external = 1)
- 一  17 14:57:01 [0m[HW]   UHD version 4.3.0.HEAD-0-g2c96e57f (4.3.0)
- 一  17 14:57:01 [0m[INFO] [UHD] linux; GNU C++ version 9.4.0; Boost_107100; DPDK_20.5; UHD_4.3.0.HEAD-0-g2c96e57f
- 一  17 14:57:01 [HW]   Found USRP b200
- 一  17 14:57:01 [0m[INFO] [B200] Detected Device: B210
- 一  17 14:57:01 [INFO] [B200] Operating over USB 3.
- 一  17 14:57:01 [INFO] [B200] Initialize CODEC control...
- 一  17 14:57:02 [INFO] [B200] Initialize Radio control...
- 一  17 14:57:02 [INFO] [B200] Performing register loopback test... 
- 一  17 14:57:02 [INFO] [B200] Register loopback test passed
- 一  17 14:57:02 [INFO] [B200] Performing register loopback test... 
- 一  17 14:57:02 [INFO] [B200] Register loopback test passed
- 一  17 14:57:02 [INFO] [B200] Asking for clock rate 30.720000 MHz... 
- 一  17 14:57:02 [INFO] [B200] Actually got clock rate 30.720000 MHz.
- 一  17 14:57:02 [HW]   Setting clock source to internal
- 一  17 14:57:02 [0m[HW]   Setting time source to internal
- 一  17 14:57:02 [0m-- Using calibration table: calib_table_b210_38
- 一  17 14:57:02 [INFO] [B200] Asking for clock rate 46.080000 MHz... 
- 一  17 14:57:02 [INFO] [B200] Actually got clock rate 46.080000 MHz.
- 一  17 14:57:04 [HW]   cal 0: freq 3500000000.000000, offset 44.000000, diff 1720920000.000000
- 一  17 14:57:04 [0m[HW]   cal 1: freq 2660000000.000000, offset 49.800000, diff 880920000.000000
- 一  17 14:57:04 [0m[HW]   cal 2: freq 2300000000.000000, offset 51.000000, diff 520920000.000000
- 一  17 14:57:04 [0m[HW]   cal 3: freq 1880000000.000000, offset 53.000000, diff 100920000.000000
- 一  17 14:57:04 [0m[HW]   cal 4: freq 816000000.000000, offset 57.000000, diff 963080000.000000
- 一  17 14:57:04 [0m[HW]   RX Gain 0 125.000000 (53.000000) => 72.000000 (max 76.000000)
- 一  17 14:57:04 [0m[HW]   USRP TX_GAIN:-0.25 gain_range:89.75 tx_gain:90.00
- 一  17 14:57:04 [0m[HW]   Actual master clock: 46.080000MHz...
- 一  17 14:57:04 [0m[HW]   Actual clock source internal...
- 一  17 14:57:04 [0m[HW]   Actual time source internal...
- 一  17 14:57:04 [0m[HW]   setting rx channel 0
- 一  17 14:57:04 [0m[HW]   RF board max packet size 1916, size for 100µs jitter 4608 
- 一  17 14:57:04 [0m[HW]   rx_max_num_samps 1916
- 一  17 14:57:04 [0m[HW]   RX Channel 0
- 一  17 14:57:04 [0m[HW]     Actual RX sample rate: 46.080000MSps...
- 一  17 14:57:04 [0m[HW]     Actual RX frequency: 1.779080GHz...
- 一  17 14:57:04 [0m[HW]     Actual RX gain: 72.000000...
- 一  17 14:57:04 [0m[HW]     Actual RX bandwidth: 40.000000M...
- 一  17 14:57:04 [0m[HW]     Actual RX antenna: RX2...
- 一  17 14:57:04 [0m[HW]   TX Channel 0
- 一  17 14:57:04 [0m[HW]     Actual TX sample rate: 46.080000MSps...
- 一  17 14:57:04 [0m[HW]     Actual TX frequency: 2.179080GHz...
- 一  17 14:57:04 [0m[HW]     Actual TX gain: 0.000000...
- 一  17 14:57:04 [0m[HW]     Actual TX bandwidth: 40.000000M...
- 一  17 14:57:04 [0m[HW]     Actual TX antenna: TX/RX...
- 一  17 14:57:04 [0m[HW]     Actual TX packet size: 1916
- 一  17 14:57:04 [0mUsing Device: Single USRP:
- 一  17 14:57:04   Device: B-Series Device
- 一  17 14:57:04   Mboard 0: B210
- 一  17 14:57:04   RX Channel: 0
- 一  17 14:57:04     RX DSP: 0
- 一  17 14:57:04     RX Dboard: A
- 一  17 14:57:04     RX Subdev: FE-RX2
- 一  17 14:57:04   RX Channel: 1
- 一  17 14:57:04     RX DSP: 1
- 一  17 14:57:04     RX Dboard: A
- 一  17 14:57:04     RX Subdev: FE-RX1
- 一  17 14:57:04   TX Channel: 0
- 一  17 14:57:04     TX DSP: 0
- 一  17 14:57:04     TX Dboard: A
- 一  17 14:57:04     TX Subdev: FE-TX2
- 一  17 14:57:04   TX Channel: 1
- 一  17 14:57:04     TX DSP: 1
- 一  17 14:57:04     TX Dboard: A
- 一  17 14:57:04     TX Subdev: FE-TX1
- 一  17 14:57:04 
- 一  17 14:57:04 [HW]   Device timestamp: 1.168294...
- 一  17 14:57:04 [0m[HW]   [RAU] has loaded USRP B200 device.
- 一  17 14:57:04 [0msetup_RU_buffers: frame_parms = 0x7f182acc0010
- 一  17 14:57:04 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
- 一  17 14:57:04 [0mwaiting for sync (ru_thread,-1/0x562eeb7c50b4,0x562eed0611a0,0x562eed0603e0)
- 一  17 14:57:06 [PNF] waiting for OAI to be configured (eNB/RU)
- 一  17 14:57:06 [PNF] OAI eNB/RU configured
- 一  17 14:57:06 [PNF] About to call init_eNB_afterRU()
- 一  17 14:57:06 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
- 一  17 14:57:06 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7f182bd6f010
- 一  17 14:57:06 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
- 一  17 14:57:06 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
- 一  17 14:57:06 shlib_path libdfts.so
- 一  17 14:57:06 [LOADER] library libdfts.so successfully loaded
- 一  17 14:57:06 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
- 一  17 14:57:06 shlib_path libldpc.so
- 一  17 14:57:06 [LOADER] library libldpc.so successfully loaded
- 一  17 14:57:06 [PHY]   Initialise nr transport
- 一  17 14:57:06 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
- 一  17 14:57:06 [0m[PHY]   gNB->num_RU:1
- 一  17 14:57:06 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0mcreate a thread for core -1
- 一  17 14:57:06 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 50
- 一  17 14:57:06 [0m[PHY]   Creating thread for TX reordering and dispatching to RU
- 一  17 14:57:06 [0m[UTIL]   Creating thread thread_tx_reorder with affinity -1 and priority 97
- 一  17 14:57:06 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
- 一  17 14:57:06 [0mwaiting for sync (L1_stats_thread,-1/0x562eeb7c50b4,0x562eed0611a0,0x562eed0603e0)
- 一  17 14:57:06 NFAPI: got sync (main?)
- 一  17 14:57:06 wait RUs
- 一  17 14:57:06 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
- 一  17 14:57:06 [0m[PHY]   RUs configured
- 一  17 14:57:06 [0mALL RUs READY!
- 一  17 14:57:06 RC.nb_RU:1
- 一  17 14:57:06 ALL RUs ready - init gNBs
- 一  17 14:57:06 NFAPI mode - DO NOT call init_gNB_afterRU()
- 一  17 14:57:06 ALL RUs ready - ALL gNBs ready
- 一  17 14:57:06 Sending sync to all threads
- 一  17 14:57:06 Entering ITTI signals handler
- 一  17 14:57:06 TYPE <CTRL-C> TO TERMINATE
- 一  17 14:57:06 got sync (L1_stats_thread)
- 一  17 14:57:06 got sync (ru_thread)
- 一  17 14:57:07 [HW]   current pps at 4.000000, starting streaming at 5.000000
- 一  17 14:57:07 [0m[PHY]   RU 0 rf device ready
- 一  17 14:57:07 [0m[PHY]   RU 0 RF started opp_enabled 0
- 一  17 14:57:07 [0msleep...
- 一  17 14:57:07 sleep...
- 一  17 14:57:07 sleep...
- 一  17 14:57:07 sleep...
- 一  17 14:57:07 sleep...
- 一  17 14:57:08 sleep...
- 一  17 14:57:08 sleep...
- 一  17 14:57:08 sleep...
- 一  17 14:57:08 sleep...
- 一  17 14:57:08 [PHY]   tx_reorder_thread started
- 一  17 14:57:11 [0m[PNF] waiting for OAI to be started
- 一  17 14:57:11 [PNF] Sending PNF_START_RESP
- 一  17 14:57:11 Sending NFAPI_START_RESPONSE config:0x562eeeef7290 phy_id:1
- 一  17 14:57:11 [PNF] Sending first P7 slot indication
- 一  17 14:57:11 [PNF] Sent first P7 slot ind
+ 一  17 23:24:16 CMDLINE: "/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "PNF" 
+ 一  17 23:24:16 [CONFIG] get parameters from libconfig /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf
+ 一  17 23:24:16 [CONFIG] function config_libconfig_init returned 0
+ 一  17 23:24:16 [CONFIG] config module libconfig loaded
+ 一  17 23:24:16 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 一  17 23:24:16 [CONFIG] debug flags: 0x00000000
+ 一  17 23:24:16 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 一  17 23:24:16 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
+ 一  17 23:24:16 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+ 一  17 23:24:16 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  17 23:24:16 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  17 23:24:16 log init done
+ 一  17 23:24:16 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 一  17 23:24:16 [0mReading in command-line options
+ 一  17 23:24:16 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
+ 一  17 23:24:16 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 一  17 23:24:16 [ENB_APP]   nfapi running mode: PNF
+ 一  17 23:24:16 [0m[GNB_APP]   Getting GNBSParams
+ 一  17 23:24:16 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  17 23:24:16 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  17 23:24:16 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  17 23:24:16 [CONFIG] parallel_conf is set to 0
+ 一  17 23:24:16 [CONFIG] worker_conf is set to 1
+ 一  17 23:24:16 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+ 一  17 23:24:16 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 一  17 23:24:16 configuring for RAU/RRU
+ 一  17 23:24:17 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 一  17 23:24:17 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 一  17 23:24:17 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 一  17 23:24:17 [OPT]   OPT disabled
+ 一  17 23:24:17 [0m[HW]   Version: Branch: develop Abrev. Hash: b52a2069ad Date: Wed Jan 17 22:57:36 2024 +0800
+ 一  17 23:24:17 [0m[NR_PHY]   RC.gNB = 0x556c1e422240
+ 一  17 23:24:17 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
+ 一  17 23:24:17 [PHY]   L1_RX_THREAD_CORE -1 (16)
+ 一  17 23:24:17 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+ 一  17 23:24:17 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+ 一  17 23:24:17 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+ 一  17 23:24:17 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+ 一  17 23:24:17 [0mconfigure_nr_nfapi_pnf() PNF
+ 一  17 23:24:17 
+ 一  17 23:24:17 
+ 一  17 23:24:17 
+ 一  17 23:24:17 
+ 一  17 23:24:17 
+ 一  17 23:24:17 [ENB_APP]   nfapi running mode: PNF
+ 一  17 23:24:17 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
+ 一  17 23:24:17 Initializing northbound interface for L1
+ 一  17 23:24:17 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 一  17 23:24:17 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  17 23:24:17 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x556c1e425510
+ 一  17 23:24:17 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 一  17 23:24:17 [0m
+ 一  17 23:24:17  Read NR message unpack:  00  00  01  00  00  00  00  00 
+ 一  17 23:24:17 [PNF] pnf param request
+ 一  17 23:24:17 
+ 一  17 23:24:17  Read NR message unpack:  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
+ 一  17 23:24:17 [PNF] pnf config request
+ 一  17 23:24:17 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+ 一  17 23:24:17 [PNF] Sent pnf_config_resp
+ 一  17 23:24:17 
+ 一  17 23:24:17  Read NR message unpack:  00  00  01  04  00  00  00  00 
+ 一  17 23:24:17 Received NFAPI_PNF_START_REQUEST
+ 一  17 23:24:17 [PNF] Sent NFAPI_PNF_START_RESP
+ 一  17 23:24:17 
+ 一  17 23:24:17  Read NR message unpack:  00  01  00  00  00  00  00  00 
+ 一  17 23:24:17 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+ 一  17 23:24:17 TAG value :2
+ 一  17 23:24:17 RUNNING pack_param_response
+ 一  17 23:24:17 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+ 一  17 23:24:17 [PNF] param request .. exit
+ 一  17 23:24:17 
+ 一  17 23:24:17  Read NR message unpack:  00  01  00  02  00  f9  00  00  23  10  01  00  04  00  00  00  14  10  02  00  04  00  20  f5  80  10  04  00  02  00  6a  00  00  10  05  00  02  00  01  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  1a  db  00  10  09  00  02  00  6a  00  00  10  0a  00  02  00  01  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  01  00  00  00  10  12  00  01  01  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : The ppReadPackedMsg value is: 1434093736
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1001
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1002
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1004
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1005
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1006
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1007
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1009
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x100a
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x100c
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x100d
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x100e
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1010
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1012
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1013
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1014
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1029
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1015
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1017
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1018
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x101b
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x101d
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x101f
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1020
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1021
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1022
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x1023
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x0100
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x0102
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x011f
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x0120
+ 一  17 23:24:17 
+ 一  17 23:24:17 NTUST test : TAG value: 0x011e
+ 一  17 23:24:17 [PNF] vnf p7 127.0.0.1:50611
+ 一  17 23:24:17 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+ 一  17 23:24:17 
+ 一  17 23:24:17 Timing window tag: 286
+ 一  17 23:24:17 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+ 一  17 23:24:17 timing info mode:3
+ 一  17 23:24:17 timing info period provided value:10
+ 一  17 23:24:17 nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:20
+ 一  17 23:24:17 [PNF] CONFIG_REQUEST[num_tlv:35] TLVs processed:6
+ 一  17 23:24:17 [PNF] Simulating PHY CONFIG
+ 一  17 23:24:17 
+ 一  17 23:24:17 [NTUST] match table:(27)! dl_freq_khz:2179080
+ 一  17 23:24:17 [NTUST] current_offset_khz:4294777296
+ 一  17 23:24:17 [NTUST] delta_duplex_khz:4294567296
+ 一  17 23:24:17 [NTUST] ul_min:1920000
+ 一  17 23:24:17 [NTUST] dl_min:2110000
+ 一  17 23:24:17 
+ 一  17 23:24:17 [NTUST] match table:(28)! dl_freq_khz:2179080
+ 一  17 23:24:17 [NTUST] current_offset_khz:4294567296
+ 一  17 23:24:17 [NTUST] delta_duplex_khz:4294567296
+ 一  17 23:24:17 [NTUST] ul_min:1710000
+ 一  17 23:24:17 [NTUST] dl_min:2110000
+ 一  17 23:24:17 
+ 一  17 23:24:17 [NTUST] center_frequency_khz:2155000
+ 一  17 23:24:17 [NTUST] center_freq_diff_khz:24080
+ 一  17 23:24:17 DL frequency 2179080000: band 66, UL frequency 1779080000
+ 一  17 23:24:17 [PHY]   DL frequency 2179080000 Hz, UL frequency 1779080000 Hz: band 66, uldl offset -400000000 Hz
+ 一  17 23:24:17 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 1,DL freq 2179080000, UL freq 1779080000)
+ 一  17 23:24:17 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 一  17 23:24:17 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
+ 一  17 23:24:17 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 一  17 23:24:17 START MAIN THREADS
+ 一  17 23:24:17 RC.nb_nr_L1_inst:1
+ 一  17 23:24:17 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+ 一  17 23:24:17 [PHY]   Initializing gNB 0 single_thread_flag:1
+ 一  17 23:24:17 [0m[PHY]   Initializing gNB 0
+ 一  17 23:24:17 [0m[PHY]   Registering with MAC interface module (before 0x556c1e425510)
+ 一  17 23:24:17 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  17 23:24:17 [0m[PHY]   Registering with MAC interface module (after 0x556c1e425510)
+ 一  17 23:24:17 [0m[PHY]   gNB 0 configured
+ 一  17 23:24:17 [0m[PHY]   Setting indication lists
+ 一  17 23:24:17 [0m[PHY]   fp->scs=30000
+ 一  17 23:24:17 [0m[PHY]   fp->ofdm_symbol_size=1536
+ 一  17 23:24:17 [0m[PHY]   fp->nb_prefix_samples0=132
+ 一  17 23:24:17 [0m[PHY]   fp->nb_prefix_samples=108
+ 一  17 23:24:17 [0m[PHY]   fp->slots_per_subframe=2
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_subframe_wCP=43008
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_frame_wCP=430080
+ 一  17 23:24:17 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_subframe=46080
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_frame=460800
+ 一  17 23:24:17 [0m[PHY]   fp->dl_CarrierFreq=2179080000
+ 一  17 23:24:17 [0m[PHY]   fp->ul_CarrierFreq=1779080000
+ 一  17 23:24:17 [0mwait_gNBs()
+ 一  17 23:24:17 [PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
+ 一  17 23:24:17 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 一  17 23:24:17 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+ 一  17 23:24:17 
+ 一  17 23:24:17  Read NR message unpack:  00  01  00  04  00  00  00  00 
+ 一  17 23:24:17 [PNF] Received NFAPI_START_REQ phy_id:1
+ 一  17 23:24:17 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
+ 一  17 23:24:17 subframe_buffer_size configured using phy_info->timing_window:30
+ 一  17 23:24:17 [PNF] Sending PNF_START_RESP
+ 一  17 23:24:17 Sending NFAPI_START_RESPONSE config:0x556c1e423290 phy_id:1
+ 一  17 23:24:17 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 一  17 23:24:17 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  17 23:24:17 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 一  17 23:24:17 [0mCalling sched_setscheduler(79)
+ 一  17 23:24:17 gNB L1 are configured
+ 一  17 23:24:17 About to Init RU threads RC.nb_RU:1
+ 一  17 23:24:17 Initializing RU threads
+ 一  17 23:24:17 configuring RU from file
+ 一  17 23:24:17 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (35 to default value)
+ 一  17 23:24:17 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  17 23:24:17 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (19 to default value)
+ 一  17 23:24:17 Set RU mask to 1
+ 一  17 23:24:17 Creating RC.ru[0]:0x556c1e42bda0
+ 一  17 23:24:17 [PHY]   RU GPIO control set as 'generic'
+ 一  17 23:24:17 [0m[PHY]   Setting clock source to internal
+ 一  17 23:24:17 [0m[PHY]   Setting time source to internal
+ 一  17 23:24:17 [0mSetting function for RU 0 to gNodeB_3GPP
+ 一  17 23:24:17 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
+ 一  17 23:24:17 [RU 0] Setting half-slot parallelization to 1
+ 一  17 23:24:17 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 24
+ 一  17 23:24:17 [0m[1;31m[PHY]   DJP - delete code above this /home/yen0224/openairinterface5g/executables/nr-ru.c:1820
+ 一  17 23:24:17 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+ 一  17 23:24:17 [0mconfiguring ru_id 0 (start_rf 0x556c19fba9d0)
+ 一  17 23:24:17 [PHY]   Starting ru_thread 0
+ 一  17 23:24:17 [0m[PHY]   Initializing RU proc 0 (,synch_to_ext_device),
+ 一  17 23:24:17 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+ 一  17 23:24:17 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 3
+ 一  17 23:24:17 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 一  17 23:24:17 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
+ 一  17 23:24:17 [0m[PHY]   fp->scs=30000
+ 一  17 23:24:17 [0m[PHY]   fp->ofdm_symbol_size=1536
+ 一  17 23:24:17 [0m[PHY]   fp->nb_prefix_samples0=132
+ 一  17 23:24:17 [0m[PHY]   fp->nb_prefix_samples=108
+ 一  17 23:24:17 [0m[PHY]   RU Thread pool size 2
+ 一  17 23:24:17 [0m[PHY]   fp->slots_per_subframe=2
+ 一  17 23:24:17 [0m[PHY]   RU thread-pool core string -1,-1
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_subframe_wCP=43008
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_frame_wCP=430080
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_subframe=46080
+ 一  17 23:24:17 [0m[PHY]   fp->samples_per_frame=460800
+ 一  17 23:24:17 [0mcreate a thread for core -1
+ 一  17 23:24:17 [PHY]   fp->dl_CarrierFreq=2179080000
+ 一  17 23:24:17 [0m[PHY]   fp->ul_CarrierFreq=1779080000
+ 一  17 23:24:17 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+ 一  17 23:24:17 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+ 一  17 23:24:17 [0m[PHY]   Channel 0: setting tx_gain offset 90, rx_gain offset 125, tx_freq 2179080000 Hz, rx_freq 1779080000 Hz, tune_offset 0 Hz, sample_rate 46080000 Hz
+ 一  17 23:24:17 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+ 一  17 23:24:17 [0m[PHY]   [INIT] common.txdata[0] = 0x7ffb54538040 (1844480 bytes,sf_extension 320)
+ 一  17 23:24:17 [0m[PHY]   [INIT] common.txdata[0] = 0x7ffb54538540 
+ 一  17 23:24:17 [0m[PHY]   nb_tx 1
+ 一  17 23:24:17 [0mcreate a thread for core -1
+ 一  17 23:24:17 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+ 一  17 23:24:17 [0m[PHY]   rxdata_7_5kHz[0] 0x7ffb542c0040 for RU 0
+ 一  17 23:24:17 [0m[PHY]   [INIT] common.txdata_BF= 0x7ffb48000b00 (8 bytes)
+ 一  17 23:24:17 [0m[PHY]   txdataF_BF[0] 0x7ffb540f0040 for RU 0
+ 一  17 23:24:17 [0m[PHY]   rxdataF[0] 0x7ffb5409b040 for RU 0
+ 一  17 23:24:17 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
+ 一  17 23:24:17 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+ 一  17 23:24:17 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+ 一  17 23:24:17 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+ 一  17 23:24:17 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+ 一  17 23:24:17 [LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
+ 一  17 23:24:17 shlib_path liboai_device.so
+ 一  17 23:24:17 [LOADER] library liboai_device.so successfully loaded
+ 一  17 23:24:17 [HW]   openair0_cfg[0].sdr_addrs == '(null)'
+ 一  17 23:24:17 [0m[HW]   openair0_cfg[0].clock_source == '0' (internal = 0, external = 1)
+ 一  17 23:24:17 [0m[HW]   UHD version 4.3.0.HEAD-0-g2c96e57f (4.3.0)
+ 一  17 23:24:17 [0m[INFO] [UHD] linux; GNU C++ version 9.4.0; Boost_107100; DPDK_20.5; UHD_4.3.0.HEAD-0-g2c96e57f
+ 一  17 23:24:17 [HW]   Found USRP b200
+ 一  17 23:24:17 [0m[INFO] [B200] Detected Device: B210
+ 一  17 23:24:17 [INFO] [B200] Operating over USB 3.
+ 一  17 23:24:17 [INFO] [B200] Initialize CODEC control...
+ 一  17 23:24:17 [INFO] [B200] Initialize Radio control...
+ 一  17 23:24:17 [INFO] [B200] Performing register loopback test... 
+ 一  17 23:24:17 [INFO] [B200] Register loopback test passed
+ 一  17 23:24:17 [INFO] [B200] Performing register loopback test... 
+ 一  17 23:24:17 [INFO] [B200] Register loopback test passed
+ 一  17 23:24:17 [INFO] [B200] Asking for clock rate 30.720000 MHz... 
+ 一  17 23:24:17 [INFO] [B200] Actually got clock rate 30.720000 MHz.
+ 一  17 23:24:18 [HW]   Setting clock source to internal
+ 一  17 23:24:18 [0m[HW]   Setting time source to internal
+ 一  17 23:24:18 [0m-- Using calibration table: calib_table_b210_38
+ 一  17 23:24:18 [INFO] [B200] Asking for clock rate 46.080000 MHz... 
+ 一  17 23:24:18 [INFO] [B200] Actually got clock rate 46.080000 MHz.
+ 一  17 23:24:18 [WARNING] [CORES] Timer loopback test failed!
+ 一  17 23:24:18 [WARNING] [CORES] Expecting clock rate: 46.08 MHz
+ 一  17 23:24:18 Approximate clock rate: 0 MHz
+ 一  17 23:24:18 
+ 一  17 23:24:19 [HW]   cal 0: freq 3500000000.000000, offset 44.000000, diff 1720920000.000000
+ 一  17 23:24:19 [0m[HW]   cal 1: freq 2660000000.000000, offset 49.800000, diff 880920000.000000
+ 一  17 23:24:19 [0m[HW]   cal 2: freq 2300000000.000000, offset 51.000000, diff 520920000.000000
+ 一  17 23:24:19 [0m[HW]   cal 3: freq 1880000000.000000, offset 53.000000, diff 100920000.000000
+ 一  17 23:24:19 [0m[HW]   cal 4: freq 816000000.000000, offset 57.000000, diff 963080000.000000
+ 一  17 23:24:19 [0m[HW]   RX Gain 0 125.000000 (53.000000) => 72.000000 (max 76.000000)
+ 一  17 23:24:19 [0m[HW]   USRP TX_GAIN:-0.25 gain_range:89.75 tx_gain:90.00
+ 一  17 23:24:19 [0m[HW]   Actual master clock: 46.080000MHz...
+ 一  17 23:24:19 [0m[HW]   Actual clock source internal...
+ 一  17 23:24:19 [0m[HW]   Actual time source internal...
+ 一  17 23:24:19 [0m[HW]   setting rx channel 0
+ 一  17 23:24:19 [0m[HW]   RF board max packet size 1916, size for 100µs jitter 4608 
+ 一  17 23:24:19 [0m[HW]   rx_max_num_samps 1916
+ 一  17 23:24:19 [0m[HW]   RX Channel 0
+ 一  17 23:24:19 [0m[HW]     Actual RX sample rate: 46.080000MSps...
+ 一  17 23:24:19 [0m[HW]     Actual RX frequency: 1.779080GHz...
+ 一  17 23:24:19 [0m[HW]     Actual RX gain: 72.000000...
+ 一  17 23:24:19 [0m[HW]     Actual RX bandwidth: 40.000000M...
+ 一  17 23:24:19 [0m[HW]     Actual RX antenna: RX2...
+ 一  17 23:24:19 [0m[HW]   TX Channel 0
+ 一  17 23:24:19 [0m[HW]     Actual TX sample rate: 46.080000MSps...
+ 一  17 23:24:19 [0m[HW]     Actual TX frequency: 2.179080GHz...
+ 一  17 23:24:19 [0m[HW]     Actual TX gain: 0.000000...
+ 一  17 23:24:19 [0m[HW]     Actual TX bandwidth: 40.000000M...
+ 一  17 23:24:19 [0m[HW]     Actual TX antenna: TX/RX...
+ 一  17 23:24:19 [0m[HW]     Actual TX packet size: 1916
+ 一  17 23:24:19 [0mUsing Device: Single USRP:
+ 一  17 23:24:19   Device: B-Series Device
+ 一  17 23:24:19   Mboard 0: B210
+ 一  17 23:24:19   RX Channel: 0
+ 一  17 23:24:19     RX DSP: 0
+ 一  17 23:24:19     RX Dboard: A
+ 一  17 23:24:19     RX Subdev: FE-RX2
+ 一  17 23:24:19   RX Channel: 1
+ 一  17 23:24:19     RX DSP: 1
+ 一  17 23:24:19     RX Dboard: A
+ 一  17 23:24:19     RX Subdev: FE-RX1
+ 一  17 23:24:19   TX Channel: 0
+ 一  17 23:24:19     TX DSP: 0
+ 一  17 23:24:19     TX Dboard: A
+ 一  17 23:24:19     TX Subdev: FE-TX2
+ 一  17 23:24:19   TX Channel: 1
+ 一  17 23:24:19     TX DSP: 1
+ 一  17 23:24:19     TX Dboard: A
+ 一  17 23:24:19     TX Subdev: FE-TX1
+ 一  17 23:24:19 
+ 一  17 23:24:19 [HW]   Device timestamp: 1.167563...
+ 一  17 23:24:19 [0m[HW]   [RAU] has loaded USRP B200 device.
+ 一  17 23:24:19 [0msetup_RU_buffers: frame_parms = 0x7ffb546fb010
+ 一  17 23:24:19 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
+ 一  17 23:24:19 [0mwaiting for sync (ru_thread,-1/0x556c1ab540b4,0x556c1c3f01a0,0x556c1c3ef3e0)
+ 一  17 23:24:22 [PNF] waiting for OAI to be configured (eNB/RU)
+ 一  17 23:24:22 [PNF] OAI eNB/RU configured
+ 一  17 23:24:22 [PNF] About to call init_eNB_afterRU()
+ 一  17 23:24:22 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+ 一  17 23:24:22 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7ffb557aa010
+ 一  17 23:24:22 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+ 一  17 23:24:22 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+ 一  17 23:24:22 shlib_path libdfts.so
+ 一  17 23:24:22 [LOADER] library libdfts.so successfully loaded
+ 一  17 23:24:22 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+ 一  17 23:24:22 shlib_path libldpc.so
+ 一  17 23:24:22 [LOADER] library libldpc.so successfully loaded
+ 一  17 23:24:22 [PHY]   Initialise nr transport
+ 一  17 23:24:22 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
+ 一  17 23:24:22 [0m[PHY]   gNB->num_RU:1
+ 一  17 23:24:22 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0mcreate a thread for core -1
+ 一  17 23:24:22 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 50
+ 一  17 23:24:22 [0m[PHY]   Creating thread for TX reordering and dispatching to RU
+ 一  17 23:24:22 [0m[UTIL]   Creating thread thread_tx_reorder with affinity -1 and priority 97
+ 一  17 23:24:22 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+ 一  17 23:24:22 [0mwaiting for sync (L1_stats_thread,-1/0x556c1ab540b4,0x556c1c3f01a0,0x556c1c3ef3e0)
+ 一  17 23:24:22 NFAPI: got sync (main?)
+ 一  17 23:24:22 wait RUs
+ 一  17 23:24:22 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+ 一  17 23:24:22 [0m[PHY]   RUs configured
+ 一  17 23:24:22 [0mALL RUs READY!
+ 一  17 23:24:22 RC.nb_RU:1
+ 一  17 23:24:22 ALL RUs ready - init gNBs
+ 一  17 23:24:22 NFAPI mode - DO NOT call init_gNB_afterRU()
+ 一  17 23:24:22 ALL RUs ready - ALL gNBs ready
+ 一  17 23:24:22 Sending sync to all threads
+ 一  17 23:24:22 Entering ITTI signals handler
+ 一  17 23:24:22 TYPE <CTRL-C> TO TERMINATE
+ 一  17 23:24:22 got sync (L1_stats_thread)
+ 一  17 23:24:22 got sync (ru_thread)
+ 一  17 23:24:22 [HW]   current pps at 4.000000, starting streaming at 5.000000
+ 一  17 23:24:22 [0m[PHY]   RU 0 rf device ready
+ 一  17 23:24:22 [0m[PHY]   RU 0 RF started opp_enabled 0
+ 一  17 23:24:22 [0msleep...
+ 一  17 23:24:22 sleep...
+ 一  17 23:24:22 sleep...
+ 一  17 23:24:22 sleep...
+ 一  17 23:24:22 sleep...
+ 一  17 23:24:23 sleep...
+ 一  17 23:24:23 sleep...
+ 一  17 23:24:23 sleep...
+ 一  17 23:24:23 sleep...
+ 一  17 23:24:23 [PHY]   tx_reorder_thread started
+ 一  17 23:24:23 [0m
