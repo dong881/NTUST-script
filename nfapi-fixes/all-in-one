@@ -3,7 +3,7 @@
 # Common path
 Target_PATH="/home/yen0224/NTUST/nfapi-fixes"
 LOG_PATH="$Target_PATH/LOG"
-OAI_PATH="/home/yen0224/NTUST/openairinterface5g/cmake_targets"
+OAI_PATH="$Target_PATH/openairinterface5g/cmake_targets"
 
 # 進入目錄
 cd "$OAI_PATH"
