@@ -1,0 +1,14 @@
+#!/bin/bash
+sudo echo "Build OAI DU"
+
+cd /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets
+
+#compile
+./build_oai --gNB --nrUE -w SIMU
+
+# sync up the format of F1AP
+./f1ap_codec_mod.sh
+
+# compile the part of RAN
+cd ~/bmwlab_tony_cu_du/oai_cu/cmake_targets
+./build_oai --gNB
