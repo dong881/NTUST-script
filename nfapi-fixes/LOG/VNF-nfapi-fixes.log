@@ -1,696 +1,232 @@
- 一  29 10:41:12 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf" "--nfapi" "VNF" "--sa" 
- 一  29 10:41:12 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
- 一  29 10:41:12 [CONFIG] function config_libconfig_init returned 0
- 一  29 10:41:12 [CONFIG] config module libconfig loaded
- 一  29 10:41:12 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 一  29 10:41:12 [CONFIG] debug flags: 0x00000000
- 一  29 10:41:12 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 一  29 10:41:12 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
- 一  29 10:41:12 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
- 一  29 10:41:12 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  29 10:41:12 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  29 10:41:12 log init done
- 一  29 10:41:12 [HW]   # /dev/cpu_dma_latency set to 2 us
- 一  29 10:41:12 [0mReading in command-line options
- 一  29 10:41:12 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
- 一  29 10:41:12 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 一  29 10:41:12 [ENB_APP]   nfapi running mode: VNF
- 一  29 10:41:12 [0m[GNB_APP]   Getting GNBSParams
- 一  29 10:41:12 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:12 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:12 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:12 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:12 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:12 [CONFIG] parallel_conf is set to 2
- 一  29 10:41:12 [CONFIG] worker_conf is set to 1
- 一  29 10:41:12 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
- 一  29 10:41:12 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 一  29 10:41:12 configuring for RAU/RRU
- 一  29 10:41:13 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 一  29 10:41:13 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 一  29 10:41:13 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 一  29 10:41:13 [OPT]   OPT disabled
- 一  29 10:41:13 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: e9081061c2 Date: Wed Jan 17 11:43:56 2024 +0800
- 一  29 10:41:13 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [PHY]   create_gNB_tasks() Task ready initialize structures
- 一  29 10:41:13 [0m
- 一  29 10:41:13 [NTUST] Task ready initialize structures[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 
- 一  29 10:41:13 [NR_PHY]   RC.gNB = 0x55e0c9960ba0
- 一  29 10:41:13 [0m[NTUST] Finish RCconfig_verify()[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [NR_PHY]   PRB blacklist 
- 一  29 10:41:13 [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
- 一  29 10:41:13 [0m[LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [PHY]   No L1s configuration found[0m
- 一  29 10:41:13 [NTUST] Finish RCconfig_NR_L1()[LIBCONFIG] list prs_config not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [PHY]   No prs_config configuration found..!!
- 一  29 10:41:13 [0m
- 一  29 10:41:13 [NTUST] RC.nb_nr_macrlc_inst:1[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
- 一  29 10:41:13 [0m[GNB_APP]   minTXRXTIME 2
- 一  29 10:41:13 [0m[GNB_APP]   SIB1 TDA 1
- 一  29 10:41:13 [0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
- 一  29 10:41:13 [0m[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
- 一  29 10:41:13 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -118
- 一  29 10:41:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 一  29 10:41:13 [0m[RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
- 一  29 10:41:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 一  29 10:41:13 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 一  29 10:41:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 一  29 10:41:13 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 一  29 10:41:13 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
- 一  29 10:41:13 [0m[UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
- 一  29 10:41:13 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [PHY]   Installing callbacks for IF_Module - UL_indication
- 一  29 10:41:13 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x55e0c997f1a0
- 一  29 10:41:13 [0m[NR_MAC]   Configuring common parameters from NR ServingCellConfig
- 一  29 10:41:13 [0m[NR_MAC]   config_common() dl_BandwidthP:40
- 一  29 10:41:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 一  29 10:41:13 [0m[NR_MAC]   config_common() dl_BandwidthP:40
- 一  29 10:41:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 一  29 10:41:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 一  29 10:41:13 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 一  29 10:41:13 [0m[NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
- 一  29 10:41:13 [0m[NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
- 一  29 10:41:13 [0m[NR_MAC]   Setting TDD configuration period to 6
- 一  29 10:41:13 [0m[NR_MAC]   TDD has been properly configurated
- 一  29 10:41:13 [0m[NR_MAC]   PUSCH Target 200, PUCCH Target 150, PUCCH Failure 10, PUSCH Failure 10
- 一  29 10:41:13 [0m**************** vnf_port:50001
- 一  29 10:41:13 [ENB_APP]   nfapi running mode: VNF
- 一  29 10:41:13 [0m**************** RETURNED FROM configure_nr_nfapi_vnf() vnf_port:50001
- 一  29 10:41:13 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [93m[GNB_APP]   no slices transported via F1 Setup Request!
- 一  29 10:41:13 [0m[NR_RRC]   SIB1 freq: offsetToPointA 86
- 一  29 10:41:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 一  29 10:41:13 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 一  29 10:41:13 [0m[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-Eurecom-5GNRBox, TAC 1 MCC/MNC/length 208/95/2 cellID 1
- 一  29 10:41:13 [0m[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
- 一  29 10:41:13 [0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
- 一  29 10:41:13 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
- 一  29 10:41:13 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 NRRRC 0: Southbound Transport local_mac
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [GNB_APP]   SDAP layer is disabled
- 一  29 10:41:13 [0m[GNB_APP]   Data Radio Bearer count 1
- 一  29 10:41:13 [0m[NR_RRC]   do_SIB23_NR, size 9 
- 一  29 10:41:13  [0m[LIBCONFIG] security: 4/4 parameters successfully set, (2 to default value)
- 一  29 10:41:13 [93m[RRC]   no preferred ciphering algorithm set in configuration file, applying default parameters (no security)
- 一  29 10:41:13 [0m[93m[RRC]   no preferred integrity algorithm set in configuration file, applying default parameters (nia2)
- 一  29 10:41:13 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [PDCP]   pdcp init,usegtp 
- 一  29 10:41:13 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 一  29 10:41:13 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 一  29 10:41:13 [GNB_APP]   default drx 0
- 一  29 10:41:13 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
- 一  29 10:41:13 [0m[UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
- 一  29 10:41:13 [0m[ITTI]   Created Posix thread TASK_SCTP
- 一  29 10:41:13 [0m[X2AP]   X2AP is disabled.
- 一  29 10:41:13 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 一  29 10:41:13 [UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
- 一  29 10:41:13 [0m[NGAP]   Starting NGAP layer
- 一  29 10:41:13 [0m[ITTI]   Created Posix thread TASK_NGAP
- 一  29 10:41:13 [0m[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
- 一  29 10:41:13 [0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
- 一  29 10:41:13 [0m[NGAP]   [gNB 0] check the amf registration state
- 一  29 10:41:13 [0m[ITTI]   Created Posix thread TASK_GNB_APP
- 一  29 10:41:13 [0m[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
- 一  29 10:41:13 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 一  29 10:41:13 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 一  29 10:41:13 [ITTI]   Created Posix thread TASK_RRC_GNB
- 一  29 10:41:13 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
- 一  29 10:41:13 [GTPU]   Configuring GTPu
- 一  29 10:41:13 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 10:41:13 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 一  29 10:41:13 [GTPU]   SA mode 
- 一  29 10:41:13 [0m[GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
- 一  29 10:41:13 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
- 一  29 10:41:13 [0m[GTPU]   Created gtpu instance id: 101
- 一  29 10:41:13 [0m[NR_RRC]   Entering main loop of NR_RRC message task
- 一  29 10:41:13 [0m[UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
- 一  29 10:41:13 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-Eurecom-5GNRBox) on assoc_id -1
- 一  29 10:41:13 [0m[RRC]   Accepting DU 3584 (gNB-Eurecom-5GNRBox), sending F1 Setup Response
- 一  29 10:41:13 [0m[MAC]   received F1 Setup Response from CU (null)
- 一  29 10:41:13 [0m[RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-5GNRBox (assoc_id -1)
- 一  29 10:41:13 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
- 一  29 10:41:13 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
- 一  29 10:41:13 START MAIN THREADS
- 一  29 10:41:13 RC.nb_nr_L1_inst:0
- 一  29 10:41:13 wait_gNBs()
- 一  29 10:41:13 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
- 一  29 10:41:13 gNB L1 are configured
- 一  29 10:41:13 About to Init RU threads RC.nb_RU:0
- 一  29 10:41:13 Entering ITTI signals handler
- 一  29 10:41:13 TYPE <CTRL-C> TO TERMINATE
- 一  29 10:41:15 [PHY]   Installing callbacks for IF_Module - UL_indication
- 一  29 10:41:15 [0mCalling sched_setscheduler(79)
- 一  29 10:41:15 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:103
- 一  29 10:41:23 [NR_MAC]   Frame.Slot 128.0
- 一  29 10:41:23 
- 一  29 10:41:26 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:41:26 
- 一  29 10:41:28 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:41:28 
- 一  29 10:41:31 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:41:31 
- 一  29 10:41:33 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:41:33 
- 一  29 10:41:36 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:41:36 
- 一  29 10:41:39 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:41:39 
- 一  29 10:41:41 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:41:41 
- 一  29 10:41:44 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:41:44 
- 一  29 10:41:46 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:41:46 
- 一  29 10:41:49 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:41:49 
- 一  29 10:41:51 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:41:51 
- 一  29 10:41:54 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:41:54 
- 一  29 10:41:57 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:41:57 
- 一  29 10:41:59 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:41:59 
- 一  29 10:42:02 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:42:02 
- 一  29 10:42:04 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:42:04 
- 一  29 10:42:07 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:42:07 
- 一  29 10:42:09 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:42:09 
- 一  29 10:42:12 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:42:12 
- 一  29 10:42:15 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:42:15 
- 一  29 10:42:17 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:42:17 
- 一  29 10:42:20 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:42:20 
- 一  29 10:42:22 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:42:22 
- 一  29 10:42:25 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:42:25 
- 一  29 10:42:27 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:42:27 
- 一  29 10:42:30 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:42:30 
- 一  29 10:42:33 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:42:33 
- 一  29 10:42:35 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:42:35 
- 一  29 10:42:38 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:42:38 
- 一  29 10:42:40 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:42:40 
- 一  29 10:42:43 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:42:43 
- 一  29 10:42:45 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:42:45 
- 一  29 10:42:48 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:42:48 
- 一  29 10:42:51 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:42:51 
- 一  29 10:42:53 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:42:53 
- 一  29 10:42:56 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:42:56 
- 一  29 10:42:58 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:42:58 
- 一  29 10:43:01 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:43:01 
- 一  29 10:43:03 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:43:03 
- 一  29 10:43:06 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:43:06 
- 一  29 10:43:09 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:43:09 
- 一  29 10:43:11 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:43:11 
- 一  29 10:43:14 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:43:14 
- 一  29 10:43:16 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:43:16 
- 一  29 10:43:19 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:43:19 
- 一  29 10:43:21 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:43:21 
- 一  29 10:43:24 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:43:24 
- 一  29 10:43:27 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:43:27 
- 一  29 10:43:29 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:43:29 
- 一  29 10:43:32 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:43:32 
- 一  29 10:43:34 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:43:34 
- 一  29 10:43:37 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:43:37 
- 一  29 10:43:39 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:43:39 
- 一  29 10:43:42 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:43:42 
- 一  29 10:43:44 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:43:44 
- 一  29 10:43:47 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:43:47 
- 一  29 10:43:50 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:43:50 
- 一  29 10:43:52 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:43:52 
- 一  29 10:43:55 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:43:55 
- 一  29 10:43:57 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:43:57 
- 一  29 10:44:00 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:44:00 
- 一  29 10:44:02 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:44:02 
- 一  29 10:44:05 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:44:05 
- 一  29 10:44:08 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:44:08 
- 一  29 10:44:10 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:44:10 
- 一  29 10:44:13 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:44:13 
- 一  29 10:44:15 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:44:15 
- 一  29 10:44:18 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:44:18 
- 一  29 10:44:20 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:44:20 
- 一  29 10:44:23 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:44:23 
- 一  29 10:44:26 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:44:26 
- 一  29 10:44:28 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:44:28 
- 一  29 10:44:31 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:44:31 
- 一  29 10:44:33 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:44:33 
- 一  29 10:44:36 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:44:36 
- 一  29 10:44:38 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:44:38 
- 一  29 10:44:41 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:44:41 
- 一  29 10:44:44 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:44:44 
- 一  29 10:44:46 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:44:46 
- 一  29 10:44:49 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:44:49 
- 一  29 10:44:51 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:44:51 
- 一  29 10:44:54 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:44:54 
- 一  29 10:44:56 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:44:56 
- 一  29 10:44:59 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:44:59 
- 一  29 10:45:02 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:45:02 
- 一  29 10:45:04 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:45:04 
- 一  29 10:45:07 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:45:07 
- 一  29 10:45:09 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:45:09 
- 一  29 10:45:12 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:45:12 
- 一  29 10:45:14 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:45:14 
- 一  29 10:45:17 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:45:17 
- 一  29 10:45:20 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:45:20 
- 一  29 10:45:22 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:45:22 
- 一  29 10:45:25 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:45:25 
- 一  29 10:45:27 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:45:27 
- 一  29 10:45:30 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:45:30 
- 一  29 10:45:32 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:45:32 
- 一  29 10:45:35 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:45:35 
- 一  29 10:45:38 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:45:38 
- 一  29 10:45:40 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:45:40 
- 一  29 10:45:43 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:45:43 
- 一  29 10:45:45 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:45:45 
- 一  29 10:45:48 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:45:48 
- 一  29 10:45:50 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:45:50 
- 一  29 10:45:53 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:45:53 
- 一  29 10:45:56 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:45:56 
- 一  29 10:45:58 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:45:58 
- 一  29 10:46:01 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:46:01 
- 一  29 10:46:03 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:46:03 
- 一  29 10:46:06 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:46:06 
- 一  29 10:46:08 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:46:08 
- 一  29 10:46:11 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:46:11 
- 一  29 10:46:14 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:46:14 
- 一  29 10:46:16 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:46:16 
- 一  29 10:46:19 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:46:19 
- 一  29 10:46:21 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:46:21 
- 一  29 10:46:24 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:46:24 
- 一  29 10:46:26 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:46:26 
- 一  29 10:46:29 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:46:29 
- 一  29 10:46:32 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:46:32 
- 一  29 10:46:34 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:46:34 
- 一  29 10:46:37 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:46:37 
- 一  29 10:46:39 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:46:39 
- 一  29 10:46:42 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:46:42 
- 一  29 10:46:44 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:46:44 
- 一  29 10:46:47 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:46:47 
- 一  29 10:46:50 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:46:50 
- 一  29 10:46:52 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:46:52 
- 一  29 10:46:54 [0m[1;31m[SCTP]   SCTP_ASSOC_CHANGE to SCTP_CANT_STR_ASSOC
- 一  29 10:46:54 [0m[1;31m[SCTP]   sctp_recvmsg (fd 100, len -1 ): Connection timed out:110
- 一  29 10:46:54 [0m[93m[NGAP]   Received unsuccessful result for SCTP association (3), instance 0, cnx_id 1
- 一  29 10:46:54 [0m[GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 0
- 一  29 10:46:55 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:46:55 
- 一  29 10:46:57 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:46:57 
- 一  29 10:47:00 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:47:00 
- 一  29 10:47:02 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:47:02 
- 一  29 10:47:05 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:47:05 
- 一  29 10:47:08 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:47:08 
- 一  29 10:47:10 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:47:10 
- 一  29 10:47:13 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:47:13 
- 一  29 10:47:15 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:47:15 
- 一  29 10:47:18 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:47:18 
- 一  29 10:47:20 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:47:20 
- 一  29 10:47:23 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:47:23 
- 一  29 10:47:26 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:47:26 
- 一  29 10:47:28 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:47:28 
- 一  29 10:47:31 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:47:31 
- 一  29 10:47:33 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:47:33 
- 一  29 10:47:36 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:47:36 
- 一  29 10:47:38 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:47:38 
- 一  29 10:47:41 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:47:41 
- 一  29 10:47:44 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:47:44 
- 一  29 10:47:46 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:47:46 
- 一  29 10:47:49 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:47:49 
- 一  29 10:47:51 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:47:51 
- 一  29 10:47:54 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:47:54 
- 一  29 10:47:56 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:47:56 
- 一  29 10:47:59 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:47:59 
- 一  29 10:48:02 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:48:02 
- 一  29 10:48:04 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:48:04 
- 一  29 10:48:07 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:48:07 
- 一  29 10:48:09 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:48:09 
- 一  29 10:48:12 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:48:12 
- 一  29 10:48:14 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:48:14 
- 一  29 10:48:17 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:48:17 
- 一  29 10:48:19 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:48:19 
- 一  29 10:48:22 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:48:22 
- 一  29 10:48:25 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:48:25 
- 一  29 10:48:27 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:48:27 
- 一  29 10:48:30 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:48:30 
- 一  29 10:48:32 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:48:32 
- 一  29 10:48:35 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:48:35 
- 一  29 10:48:37 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:48:37 
- 一  29 10:48:40 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:48:40 
- 一  29 10:48:43 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:48:43 
- 一  29 10:48:45 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:48:45 
- 一  29 10:48:48 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:48:48 
- 一  29 10:48:50 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:48:50 
- 一  29 10:48:53 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:48:53 
- 一  29 10:48:55 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:48:55 
- 一  29 10:48:58 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:48:58 
- 一  29 10:49:01 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:49:01 
- 一  29 10:49:03 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:49:03 
- 一  29 10:49:06 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:49:06 
- 一  29 10:49:08 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:49:08 
- 一  29 10:49:11 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:49:11 
- 一  29 10:49:13 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:49:13 
- 一  29 10:49:16 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:49:16 
- 一  29 10:49:19 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:49:19 
- 一  29 10:49:21 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:49:21 
- 一  29 10:49:24 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:49:24 
- 一  29 10:49:26 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:49:26 
- 一  29 10:49:29 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:49:29 
- 一  29 10:49:31 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:49:31 
- 一  29 10:49:34 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:49:34 
- 一  29 10:49:37 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:49:37 
- 一  29 10:49:39 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:49:39 
- 一  29 10:49:42 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:49:42 
- 一  29 10:49:44 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:49:44 
- 一  29 10:49:47 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:49:47 
- 一  29 10:49:49 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:49:49 
- 一  29 10:49:52 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:49:52 
- 一  29 10:49:55 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:49:55 
- 一  29 10:49:57 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:49:57 
- 一  29 10:50:00 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:50:00 
- 一  29 10:50:02 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:50:02 
- 一  29 10:50:05 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:50:05 
- 一  29 10:50:07 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:50:07 
- 一  29 10:50:10 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:50:10 
- 一  29 10:50:13 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:50:13 
- 一  29 10:50:15 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:50:15 
- 一  29 10:50:18 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:50:18 
- 一  29 10:50:20 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:50:20 
- 一  29 10:50:23 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:50:23 
- 一  29 10:50:25 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:50:25 
- 一  29 10:50:28 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:50:28 
- 一  29 10:50:31 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:50:31 
- 一  29 10:50:33 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:50:33 
- 一  29 10:50:36 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:50:36 
- 一  29 10:50:38 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:50:38 
- 一  29 10:50:41 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:50:41 
- 一  29 10:50:43 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:50:43 
- 一  29 10:50:46 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:50:46 
- 一  29 10:50:49 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:50:49 
- 一  29 10:50:51 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:50:51 
- 一  29 10:50:54 [0m[NR_MAC]   Frame.Slot 896.0
- 一  29 10:50:54 
- 一  29 10:50:56 [0m[NR_MAC]   Frame.Slot 0.0
- 一  29 10:50:56 
- 一  29 10:50:59 [0m[NR_MAC]   Frame.Slot 128.0
- 一  29 10:50:59 
- 一  29 10:51:01 [0m[NR_MAC]   Frame.Slot 256.0
- 一  29 10:51:01 
- 一  29 10:51:04 [0m[NR_MAC]   Frame.Slot 384.0
- 一  29 10:51:04 
- 一  29 10:51:07 [0m[NR_MAC]   Frame.Slot 512.0
- 一  29 10:51:07 
- 一  29 10:51:09 [0m[NR_MAC]   Frame.Slot 640.0
- 一  29 10:51:09 
- 一  29 10:51:12 [0m[NR_MAC]   Frame.Slot 768.0
- 一  29 10:51:12 
- 一  29 10:51:12 [0m
- 一  29 10:51:12 ** Caught SIGTERM, shutting down
- 一  29 10:51:12 Returned from ITTI signal handler
- 一  29 10:51:12 oai_exit=1
- 一  29 10:51:12 Bye.
+ 一  29 11:20:01 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf" "--nfapi" "VNF" "--sa" 
+ 一  29 11:20:01 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+ 一  29 11:20:01 [CONFIG] function config_libconfig_init returned 0
+ 一  29 11:20:01 [CONFIG] config module libconfig loaded
+ 一  29 11:20:01 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 一  29 11:20:01 [CONFIG] debug flags: 0x00000000
+ 一  29 11:20:01 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 一  29 11:20:01 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
+ 一  29 11:20:01 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+ 一  29 11:20:01 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  29 11:20:01 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  29 11:20:01 log init done
+ 一  29 11:20:01 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 一  29 11:20:01 [0mReading in command-line options
+ 一  29 11:20:01 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
+ 一  29 11:20:01 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 一  29 11:20:01 [ENB_APP]   nfapi running mode: VNF
+ 一  29 11:20:01 [0m[GNB_APP]   Getting GNBSParams
+ 一  29 11:20:01 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:01 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:01 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:01 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:01 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:01 [CONFIG] parallel_conf is set to 2
+ 一  29 11:20:01 [CONFIG] worker_conf is set to 1
+ 一  29 11:20:01 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+ 一  29 11:20:01 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 一  29 11:20:01 configuring for RAU/RRU
+ 一  29 11:20:02 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 一  29 11:20:02 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 一  29 11:20:02 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 一  29 11:20:02 [OPT]   OPT disabled
+ 一  29 11:20:02 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: e9081061c2 Date: Wed Jan 17 11:43:56 2024 +0800
+ 一  29 11:20:02 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [PHY]   create_gNB_tasks() Task ready initialize structures
+ 一  29 11:20:02 [0m
+ 一  29 11:20:02 [NTUST] Task ready initialize structures[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 
+ 一  29 11:20:02 [NR_PHY]   RC.gNB = 0x55e9e49bfba0
+ 一  29 11:20:02 [0m[NTUST] Finish RCconfig_verify()[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [NR_PHY]   PRB blacklist 
+ 一  29 11:20:02 [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+ 一  29 11:20:02 [0m[LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [PHY]   No L1s configuration found[0m
+ 一  29 11:20:02 [NTUST] Finish RCconfig_NR_L1()[LIBCONFIG] list prs_config not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [PHY]   No prs_config configuration found..!!
+ 一  29 11:20:02 [0m
+ 一  29 11:20:02 [NTUST] RC.nb_nr_macrlc_inst:1[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+ 一  29 11:20:02 [0m[GNB_APP]   minTXRXTIME 2
+ 一  29 11:20:02 [0m[GNB_APP]   SIB1 TDA 1
+ 一  29 11:20:02 [0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
+ 一  29 11:20:02 [0m[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+ 一  29 11:20:02 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -118
+ 一  29 11:20:02 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 一  29 11:20:02 [0m[RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
+ 一  29 11:20:02 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 一  29 11:20:02 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 一  29 11:20:02 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 一  29 11:20:02 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 一  29 11:20:02 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+ 一  29 11:20:02 [0m[UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
+ 一  29 11:20:02 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  29 11:20:02 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x55e9e49de1a0
+ 一  29 11:20:02 [0m[NR_MAC]   Configuring common parameters from NR ServingCellConfig
+ 一  29 11:20:02 [0m[NR_MAC]   config_common() dl_BandwidthP:40
+ 一  29 11:20:02 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 一  29 11:20:02 [0m[NR_MAC]   config_common() dl_BandwidthP:40
+ 一  29 11:20:02 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 一  29 11:20:02 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 一  29 11:20:02 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 一  29 11:20:02 [0m[NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
+ 一  29 11:20:02 [0m[NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
+ 一  29 11:20:02 [0m[NR_MAC]   Setting TDD configuration period to 6
+ 一  29 11:20:02 [0m[NR_MAC]   TDD has been properly configurated
+ 一  29 11:20:02 [0m[NR_MAC]   PUSCH Target 200, PUCCH Target 150, PUCCH Failure 10, PUSCH Failure 10
+ 一  29 11:20:02 [0m**************** vnf_port:50001
+ 一  29 11:20:02 [ENB_APP]   nfapi running mode: VNF
+ 一  29 11:20:02 [0m**************** RETURNED FROM configure_nr_nfapi_vnf() vnf_port:50001
+ 一  29 11:20:02 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [93m[GNB_APP]   no slices transported via F1 Setup Request!
+ 一  29 11:20:02 [0m[NR_RRC]   SIB1 freq: offsetToPointA 86
+ 一  29 11:20:02 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 一  29 11:20:02 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 一  29 11:20:02 [0m[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-Eurecom-5GNRBox, TAC 1 MCC/MNC/length 208/95/2 cellID 1
+ 一  29 11:20:02 [0m[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
+ 一  29 11:20:02 [0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
+ 一  29 11:20:02 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+ 一  29 11:20:02 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 NRRRC 0: Southbound Transport local_mac
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [GNB_APP]   SDAP layer is disabled
+ 一  29 11:20:02 [0m[GNB_APP]   Data Radio Bearer count 1
+ 一  29 11:20:02 [0m[NR_RRC]   do_SIB23_NR, size 9 
+ 一  29 11:20:02  [0m[LIBCONFIG] security: 4/4 parameters successfully set, (2 to default value)
+ 一  29 11:20:02 [93m[RRC]   no preferred ciphering algorithm set in configuration file, applying default parameters (no security)
+ 一  29 11:20:02 [0m[93m[RRC]   no preferred integrity algorithm set in configuration file, applying default parameters (nia2)
+ 一  29 11:20:02 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [PDCP]   pdcp init,usegtp 
+ 一  29 11:20:02 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 一  29 11:20:02 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  29 11:20:02 [GNB_APP]   default drx 0
+ 一  29 11:20:02 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+ 一  29 11:20:02 [0m[UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
+ 一  29 11:20:02 [0m[ITTI]   Created Posix thread TASK_SCTP
+ 一  29 11:20:02 [0m[X2AP]   X2AP is disabled.
+ 一  29 11:20:02 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  29 11:20:02 [UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
+ 一  29 11:20:02 [0m[NGAP]   Starting NGAP layer
+ 一  29 11:20:02 [0m[ITTI]   Created Posix thread TASK_NGAP
+ 一  29 11:20:02 [0m[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
+ 一  29 11:20:02 [0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
+ 一  29 11:20:02 [0m[NGAP]   [gNB 0] check the amf registration state
+ 一  29 11:20:02 [0m[ITTI]   Created Posix thread TASK_GNB_APP
+ 一  29 11:20:02 [0m[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
+ 一  29 11:20:02 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 一  29 11:20:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 一  29 11:20:02 [ITTI]   Created Posix thread TASK_RRC_GNB
+ 一  29 11:20:02 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+ 一  29 11:20:02 [GTPU]   Configuring GTPu
+ 一  29 11:20:02 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 11:20:02 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  29 11:20:02 [GTPU]   SA mode 
+ 一  29 11:20:02 [0m[GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
+ 一  29 11:20:02 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+ 一  29 11:20:02 [0m[GTPU]   Created gtpu instance id: 101
+ 一  29 11:20:02 [0m[NR_RRC]   Entering main loop of NR_RRC message task
+ 一  29 11:20:02 [0m[UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
+ 一  29 11:20:02 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-Eurecom-5GNRBox) on assoc_id -1
+ 一  29 11:20:02 [0m[RRC]   Accepting DU 3584 (gNB-Eurecom-5GNRBox), sending F1 Setup Response
+ 一  29 11:20:02 [0m[MAC]   received F1 Setup Response from CU (null)
+ 一  29 11:20:02 [0m[RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-5GNRBox (assoc_id -1)
+ 一  29 11:20:02 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
+ 一  29 11:20:02 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 一  29 11:20:02 START MAIN THREADS
+ 一  29 11:20:02 RC.nb_nr_L1_inst:0
+ 一  29 11:20:02 wait_gNBs()
+ 一  29 11:20:02 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+ 一  29 11:20:02 gNB L1 are configured
+ 一  29 11:20:02 About to Init RU threads RC.nb_RU:0
+ 一  29 11:20:02 Entering ITTI signals handler
+ 一  29 11:20:02 TYPE <CTRL-C> TO TERMINATE
+ 一  29 11:20:04 [PHY]   Installing callbacks for IF_Module - UL_indication
+ 一  29 11:20:04 [0mCalling sched_setscheduler(79)
+ 一  29 11:20:04 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:103
+ 一  29 11:20:11 
+ 一  29 11:20:11 ** Caught SIGTERM, shutting down
+ 一  29 11:20:11 Returned from ITTI signal handler
+ 一  29 11:20:11 oai_exit=1
+ 一  29 11:20:11 Bye.

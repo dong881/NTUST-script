@@ -13,7 +13,7 @@ sudo ifconfig lo:ODU  down
 sudo ifconfig lo:OAI_CU down
 sudo ifconfig lo:local_n_address  down
 sudo ifconfig lo:remote_n_address down
-sudo ifconfig lo:local_n_address  "127.0.0.1"
+# sudo ifconfig lo:local_n_address  "127.0.0.1"
 sudo ifconfig lo:remote_n_address "127.0.0.2"
 
 # Common path
@@ -24,13 +24,15 @@ OAI_PATH="$Target_PATH/openairinterface5g/cmake_targets"
 # 進入目錄
 cd "$OAI_PATH"
 
-pwd
-
 # 第一個腳本
 # sudo ./build_oai -c --ninja --nrUE --gNB
 
 # 進入目錄
 cd "$OAI_PATH/ran_build/build"
+
+sudo echo "Start TCPdump..."
+sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump.pcap &
+# sudo tcpdump -i any -nn -w /home/yen0224/NTUST/nfapi-fixes/LOG/nFAPI_TCPdump.pcap &
 
 # 定義路徑變數
 NFAPI_TRACE_LEVEL=debug
@@ -48,10 +50,12 @@ sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
 vnf_cmd="$common_cmd -O $CONF_PATH/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --sa"
 sudo stdbuf -oL $vnf_cmd 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
 
-wait_sec=600
+wait_sec=10
+echo "The script automatically closes after $wait_sec seconds..."
+
 # Wait for the specified number of seconds
 sleep $wait_sec
 
 bash "$Target_PATH/exit"
 
-echo "The script automatically closes after $wait_sec seconds..."
+echo "Time to $wait_sec seconds..."

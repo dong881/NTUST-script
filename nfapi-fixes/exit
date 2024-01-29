@@ -1,7 +1,8 @@
 #!/bin/bash
 Target_PATH="/home/yen0224/NTUST/nfapi-fixes"
 
-ps aux | grep "nr-softmodem" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
+# ps aux | grep "nr-softmodem" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
+ps aux | grep "nr-softmodem\|tcpdump" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
 
 # 讀取PID檔案
 while read -r pid; do
