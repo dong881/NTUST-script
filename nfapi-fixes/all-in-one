@@ -1,5 +1,14 @@
 #!/bin/bash
 
+sudo ifconfig lo:RIC_STUB down
+sudo ifconfig lo:CU_STUB  down
+sudo ifconfig lo:ODU  down
+sudo ifconfig lo:OAI_CU down
+sudo ifconfig lo:local_n_address  down
+sudo ifconfig lo:remote_n_address down
+sudo ifconfig lo:local_n_address  "127.0.0.1"
+sudo ifconfig lo:remote_n_address "127.0.0.2"
+
 # Common path
 Target_PATH="/home/yen0224/NTUST/nfapi-fixes"
 LOG_PATH="$Target_PATH/LOG"
@@ -7,6 +16,8 @@ OAI_PATH="$Target_PATH/openairinterface5g/cmake_targets"
 
 # 進入目錄
 cd "$OAI_PATH"
+
+pwd
 
 # 第一個腳本
 sudo ./build_oai -c --ninja --nrUE --gNB
