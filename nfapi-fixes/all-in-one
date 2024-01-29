@@ -59,3 +59,6 @@ sleep $wait_sec
 bash "$Target_PATH/exit"
 
 echo "Time to $wait_sec seconds..."
+
+# /home/yen0224/NTUST/nfapi-fixes/openairinterface5g/targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf
+# /home/yen0224/NTUST/nfapi-fixes/openairinterface5g/targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf
