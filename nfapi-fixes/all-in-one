@@ -48,7 +48,7 @@ sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
 vnf_cmd="$common_cmd -O $CONF_PATH/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --sa"
 sudo stdbuf -oL $vnf_cmd 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
 
-wait_sec=30
+wait_sec=600
 # Wait for the specified number of seconds
 sleep $wait_sec
 
