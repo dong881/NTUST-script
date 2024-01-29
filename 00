@@ -1,5 +1,7 @@
 #!/bin/bash
 
+bash "$Target_PATH/q"
+
 echo "Ensure that the previous execution has been closed."
 echo "If you see 'kill: (xxxPIDxxx): No such process,' it means the previous execution has been closed."
 /home/yen0224/NTUST/q
@@ -31,18 +33,18 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/home/gnb/
 export PATH
 echo  "O-RAN NIC Setting Complete!"
 
-# sudo echo "Build OSC DU..."
-# # NTUST/mwnl-odu-at-oai-based-on-scf/l2
-# cd /home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2/build/odu
-# #clean
-# make clean_odu MACHINE=BIT64 MODE=FDD NFAPI=YES
-# # make clean_cu MACHINE=BIT64 MODE=FDD NFAPI=YES
-# make clean_ric MACHINE=BIT64 MODE=FDD NFAPI=YES
+sudo echo "Build OSC DU..."
+# NTUST/mwnl-odu-at-oai-based-on-scf/l2
+cd /home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2/build/odu
+#clean
+make clean_odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+# make clean_cu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make clean_ric MACHINE=BIT64 MODE=FDD NFAPI=YES
 
-# #compile
-# make odu MACHINE=BIT64 MODE=FDD NFAPI=YES
-# #make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
-# make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+#compile
+make odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+#make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
 
 Target_PATH="/home/yen0224/NTUST"
 L2_PATH="/home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2"
@@ -108,7 +110,7 @@ else
     # Handle the error case as needed
 fi
 
-wait_sec=10
+wait_sec=15
 echo "The script automatically closes after $wait_sec seconds..."
 
 # Wait for the specified number of seconds
