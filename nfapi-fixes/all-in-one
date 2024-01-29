@@ -50,7 +50,7 @@ sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
 vnf_cmd="$common_cmd -O $CONF_PATH/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --sa"
 sudo stdbuf -oL $vnf_cmd 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
 
-wait_sec=10
+wait_sec=600
 echo "The script automatically closes after $wait_sec seconds..."
 
 # Wait for the specified number of seconds
