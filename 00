@@ -1,0 +1,119 @@
+#!/bin/bash
+
+echo "Ensure that the previous execution has been closed."
+echo "If you see 'kill: (xxxPIDxxx): No such process,' it means the previous execution has been closed."
+/home/yen0224/NTUST/q
+
+echo "***** Assigning IP addresses *****"
+INTERFACE=$(ip route | grep default | sed -e "s/^.*dev.//" -e "s/.proto.*//")
+INTERFACE="$(echo -e "${INTERFACE}" | tr -d '[:space:]')"
+
+# Clear state
+sudo ifconfig $INTERFACE:RIC_STUB down
+sudo ifconfig $INTERFACE:CU_STUB down
+sudo ifconfig $INTERFACE:ODU down
+sudo ifconfig $INTERFACE:OAI_CU down
+sudo ifconfig lo:RIC_STUB down
+sudo ifconfig lo:CU_STUB  down
+sudo ifconfig lo:ODU  down
+sudo ifconfig lo:OAI_CU down
+
+sudo ifconfig $INTERFACE:RIC_STUB "192.168.130.80"
+sudo ifconfig $INTERFACE:ODU  "192.168.130.81"
+sudo ifconfig $INTERFACE:CU_STUB "192.168.130.82"
+sudo ifconfig $INTERFACE:OAI_CU "192.168.130.83"
+
+sudo ifconfig lo:RIC_STUB "192.168.130.80"
+sudo ifconfig lo:ODU  "192.168.130.81"
+sudo ifconfig lo:OAI_CU "192.168.130.83"
+
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/home/gnb/
+export PATH
+echo  "O-RAN NIC Setting Complete!"
+
+# sudo echo "Build OSC DU..."
+# # NTUST/mwnl-odu-at-oai-based-on-scf/l2
+# cd /home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2/build/odu
+# #clean
+# make clean_odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+# # make clean_cu MACHINE=BIT64 MODE=FDD NFAPI=YES
+# make clean_ric MACHINE=BIT64 MODE=FDD NFAPI=YES
+
+# #compile
+# make odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+# #make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+# make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+
+Target_PATH="/home/yen0224/NTUST"
+L2_PATH="/home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2"
+LOG_PATH="/home/yen0224/NTUST/LOG"
+CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
+CU_LOG_FILE="$LOG_PATH/1-CU_STUB.log"
+CU_PATH="/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
+OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
+CU_CONF="/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
+RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
+RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
+ODU_PATH="$L2_PATH/bin/odu/odu"
+ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
+PNF_PATH="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
+PNF_CONF="/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf"
+PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
+PID_FILE="$LOG_PATH/PID_FILE_NAME"
+
+cd ~
+
+echo "RUN OAI CU"
+sudo stdbuf -oL $CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
+# sleep 2
+# Use ps and grep to find the process ID
+CU_PID=$(ps aux | grep "[n]r-softmodem" | awk '{print $2}')
+
+# Check if the PID is found
+if [ -n "$CU_PID" ]; then
+    echo "OAI CU is running with PID: $CU_PID"
+    echo -n $CU_PID > $PID_FILE
+    echo -n " " >> $PID_FILE
+else
+    echo "Error: OAI CU not running or PID not found."
+    # Handle the error case as needed
+fi
+
+echo "RUN OSC RIC_STUB"
+sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
+sleep 1
+RIC_PID=$(pgrep -o ric_stub)
+echo $RIC_PID
+echo -n $RIC_PID >> $PID_FILE
+echo -n " " >> $PID_FILE
+
+echo "RUN OSC DU"
+sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
+sleep 1
+ODU_PID=$(pgrep -o odu)
+echo $ODU_PID
+echo -n $ODU_PID >> $PID_FILE
+echo -n " " >> $PID_FILE
+
+echo "RUN OAI PNF"
+sudo stdbuf -oL $PNF_PATH -O $PNF_CONF --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &>$PNF_LOG_FILE &
+sleep 1
+PNF_PID=$(ps aux | grep "[n]r-softmodem" | awk '{print $2}')
+if [ -n "$PNF_PID" ]; then
+    echo "OAI PNF is running with PID: $PNF_PID"
+    echo -n $PNF_PID >> $PID_FILE
+    echo -n " " >> $PID_FILE
+else
+    echo "Error: OAI PNF not running or PID not found."
+    # Handle the error case as needed
+fi
+
+wait_sec=10
+echo "The script automatically closes after $wait_sec seconds..."
+
+# Wait for the specified number of seconds
+sleep $wait_sec
+
+bash "$Target_PATH/q"
+
+echo "Time to $wait_sec seconds..."

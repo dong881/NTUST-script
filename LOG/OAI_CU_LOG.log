@@ -1,0 +1,182 @@
+ 一  29 20:31:42 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf" "--sa" 
+ 一  29 20:31:42 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf , debug flags: 0x00000000
+ 一  29 20:31:42 [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF
+ 一  29 20:31:42 [CONFIG] function config_libconfig_init returned 0
+ 一  29 20:31:42 [CONFIG] config module libconfig loaded
+ 一  29 20:31:42 [LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+ 一  29 20:31:42 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 一  29 20:31:42 [LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
+ 一  29 20:31:42 [LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
+ 一  29 20:31:42 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  29 20:31:42 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  29 20:31:42 log init done
+ 一  29 20:31:42 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 一  29 20:31:42 [0mReading in command-line options
+ 一  29 20:31:42 [LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
+ 一  29 20:31:42 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
+ 一  29 20:31:42 [ENB_APP]   nfapi running mode: MONOLITHIC
+ 一  29 20:31:42 [0m[GNB_APP]   Getting GNBSParams
+ 一  29 20:31:42 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:42 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:42 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:42 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:42 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:42 [CONFIG] parallel_conf is set to 2
+ 一  29 20:31:42 [CONFIG] worker_conf is set to 1
+ 一  29 20:31:42 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+ 一  29 20:31:42 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+ 一  29 20:31:42 configuring for RAU/RRU
+ 一  29 20:31:43 CPU Freq is 3.417745 
+ 一  29 20:31:43 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 14
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 15
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 16
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 19
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 22
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 26
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U_SIM as task 41
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 42
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 43
+ 一  29 20:31:43 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 44
+ 一  29 20:31:43 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 一  29 20:31:43 [OPT]   OPT disabled
+ 一  29 20:31:43 [0m[HW]   Version: Branch: master Abrev. Hash: 96e9d95 Date: Mon Jul 25 17:08:05 2022 +0800
+ 一  29 20:31:43 [0m[ITTI]   Created Posix thread TASK_SCTP
+ 一  29 20:31:43 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 一  29 20:31:43 [X2AP]   X2AP is disabled.
+ 一  29 20:31:43 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  29 20:31:43 [34m[NGAP]   Configuration in the file: demo-oai.
+ 一  29 20:31:43 [0m[34m[NGAP]   Configuration in the file: 192.168.70.129/24.
+ 一  29 20:31:43 [0m[NGAP]   Starting NGAP layer
+ 一  29 20:31:43 [0m[ITTI]   Created Posix thread TASK_NGAP
+ 一  29 20:31:43 [0m[PHY]   gNB_app_task() Task ready initialize structures
+ 一  29 20:31:43 [0m[ITTI]   Created Posix thread TASK_GNB_APP
+ 一  29 20:31:43 [0m[NR_RRC]   Creating NR RRC gNB Task
+ 一  29 20:31:43 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 一  29 20:31:43 [NR_PHY]   PRB blacklist 
+ 一  29 20:31:43 [0m[NR_PHY]   RC.gNB = 0x7fdc98000cd0
+ 一  29 20:31:43 [0m[LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:43 [PHY]   No L1s configuration found[0m[PHY]   RC.gNB[0] = 0x7fdc9dfaf010
+ 一  29 20:31:43 [0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
+ 一  29 20:31:43 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+ 一  29 20:31:43 [0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7fdc980026f0
+ 一  29 20:31:43 [0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7fdc98002710 (1 of 1)
+ 一  29 20:31:43 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (8 to default value)
+ 一  29 20:31:43 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 433096, DLBand 66, ABSFREQPOINTA 430000, DLBW 106,RACH_TargetReceivedPower -118
+ 一  29 20:31:43 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+ 一  29 20:31:43 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+ 一  29 20:31:43 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+ 一  29 20:31:43 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+ 一  29 20:31:43 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+ 一  29 20:31:43 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+ 一  29 20:31:43 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:43 NRRRC 0: Southbound Transport f1
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [GNB_APP]   F1AP: gNB_CU_id[0] 0
+ 一  29 20:31:43 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
+ 一  29 20:31:43 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [GNB_APP]   SSB SCO 0
+ 一  29 20:31:43 [0m[GNB_APP]   pdsch_AntennaPorts N1 1
+ 一  29 20:31:43 [0m[GNB_APP]   pdsch_AntennaPorts N2 1
+ 一  29 20:31:43 [0m[GNB_APP]   pdsch_AntennaPorts XP 1
+ 一  29 20:31:43 [0m[GNB_APP]   pusch_AntennaPorts 1
+ 一  29 20:31:43 [0m[GNB_APP]   minTXRXTIME 6
+ 一  29 20:31:43 [0m[GNB_APP]   SIB1 TDA 0
+ 一  29 20:31:43 [0m[GNB_APP]   Do CSI-RS 0
+ 一  29 20:31:43 [0m[GNB_APP]   Do SRS 0
+ 一  29 20:31:43 [0m[GNB_APP]   256 QAM: may be on
+ 一  29 20:31:43 [0m[GNB_APP]   SDAP layer is disabled
+ 一  29 20:31:43 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [GNB_APP]   RRC starting with node type 5
+ 一  29 20:31:43 [0m[GNB_APP]   Sending configuration message to NR_RRC task
+ 一  29 20:31:43 [0m[NR_RRC]   Entering main loop of NR_RRC message task
+ 一  29 20:31:43 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
+ 一  29 20:31:43 [0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7fdc98003d70
+ 一  29 20:31:43 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
+ 一  29 20:31:43 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
+ 一  29 20:31:43 [0m[PDCP]   pdcp init,usegtp 
+ 一  29 20:31:43 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  29 20:31:43 [GNB_APP]   default drx 0
+ 一  29 20:31:43 [0m[GTPU]   Configuring GTPu
+ 一  29 20:31:43 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  29 20:31:43 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  29 20:31:43 [GTPU]   SA mode 
+ 一  29 20:31:43 [0m[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
+ 一  29 20:31:43 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+ 一  29 20:31:43 [0m[NGAP]   Registered new gNB[0] and macro gNB id 0
+ 一  29 20:31:43 [0m[NGAP]   [gNB 0] check the amf registration state
+ 一  29 20:31:43 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+ 一  29 20:31:43 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+ 一  29 20:31:43 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+ 一  29 20:31:43 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
+ 一  29 20:31:43 [0m[NR_RRC]   do_SIB23_NR, size 9 
+ 一  29 20:31:43  [0m[NR_RRC]   Done init_NR_SI
+ 一  29 20:31:43 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
+ 一  29 20:31:43 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+ 一  29 20:31:43 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
+ 一  29 20:31:43 [0m[F1AP]   Starting F1AP at CU
+ 一  29 20:31:43 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket)
+ 一  29 20:31:43 [0m[ITTI]   Created Posix thread TASK_CU_F1
+ 一  29 20:31:43 [0m[93m[GTPU]   bind: Address already in use
+ 一  29 20:31:43 [0m[1;31m[GTPU]   failed to bind socket: 192.168.70.129 2152 
+ 一  29 20:31:43 [0m[1;31m[GTPU]   can't create GTP-U instance
+ 一  29 20:31:43 [0m[GTPU]   Created gtpu instance id: -1
+ 一  29 20:31:43 [0m[ITTI]   Created Posix thread TASK_GTPV1_U_SIM
+ 一  29 20:31:43 [0m[93m[GTPU]   Initializing UDP SIM
+ 一  29 20:31:43 [0mNFAPI MODE:MONOLITHIC
+ 一  29 20:31:43 START MAIN THREADS
+ 一  29 20:31:43 RC.nb_nr_L1_inst:0
+ 一  29 20:31:43 wait_gNBs()
+ 一  29 20:31:43 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+ 一  29 20:31:44 gNB L1 are configured
+ 一  29 20:31:44 About to Init RU threads RC.nb_RU:0
+ 一  29 20:31:44 About to call end_configmodule() from main() /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:794
+ 一  29 20:31:44 Called end_configmodule() from main() /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:799
+ 一  29 20:31:44 TYPE <CTRL-C> TO TERMINATE
+ 一  29 20:31:44 Entering ITTI signals handler
