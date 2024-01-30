@@ -29,6 +29,7 @@ cd "$OAI_PATH"
 
 # 第一個腳本
 # sudo ./build_oai -c --ninja --nrUE --gNB
+# exit
 
 # 進入目錄
 cd "$OAI_PATH/ran_build/build"
