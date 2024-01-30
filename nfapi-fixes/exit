@@ -8,6 +8,7 @@ ps aux | grep "nr-softmodem\|tcpdump" | grep -v grep | awk '{print $2}' >> "$Tar
 while read -r pid; do
     # 關閉背景進程
     sudo kill -15 "$pid"  # SIGTERM
+    echo "kill $pid"
 done < $Target_PATH/pids.txt
 
 # 刪除PID檔案
