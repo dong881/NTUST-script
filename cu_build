@@ -1,8 +1,7 @@
 #!/bin/bash
 sudo echo "Build OAI DU"
 
-cd /home/yen0224/NTUST/openairinterface5g-NTUST/cmake_targets
-
+cd /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets
 sudo echo "Build OAI DU - step1"
 # compile all of the code
 ./build_oai --gNB --nrUE -w SIMU
@@ -13,5 +12,5 @@ sudo echo "Build OAI DU - step2"
 
 sudo echo "Build OAI DU - step3"
 # compile the part of RAN
-cd /home/yen0224/NTUST/openairinterface5g-NTUST/cmake_targets
+cd /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets
 ./build_oai --gNB
