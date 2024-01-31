@@ -1,292 +1,315 @@
- 一  30 15:34:09 CMDLINE: "/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf" "--sa" 
- 一  30 15:34:09 [CONFIG] get parameters from libconfig /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf , debug flags: 0x00000000
- 一  30 15:34:09 [LIBCONFIG] Path for include directive set to: /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF
- 一  30 15:34:09 [CONFIG] function config_libconfig_init returned 0
- 一  30 15:34:09 [CONFIG] config module libconfig loaded
- 一  30 15:34:09 [LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
- 一  30 15:34:09 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 一  30 15:34:09 [LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
- 一  30 15:34:09 [LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
- 一  30 15:34:09 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  30 15:34:09 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 一  30 15:34:09 log init done
- 一  30 15:34:09 [HW]   # /dev/cpu_dma_latency set to 2 us
- 一  30 15:34:09 [0mReading in command-line options
- 一  30 15:34:09 [LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
- 一  30 15:34:09 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
- 一  30 15:34:09 [ENB_APP]   nfapi running mode: MONOLITHIC
- 一  30 15:34:09 [0m[GNB_APP]   Getting GNBSParams
- 一  30 15:34:09 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:09 [LIBCONFIG] list MACRLCs not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  30 15:34:09 [LIBCONFIG] list L1s not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  30 15:34:09 [LIBCONFIG] list RUs not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  30 15:34:09 [LIBCONFIG] list THREAD_STRUCT not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  30 15:34:09 [CONFIG] parallel_conf is set to 2
- 一  30 15:34:09 [CONFIG] worker_conf is set to 1
- 一  30 15:34:09 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
- 一  30 15:34:09 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
- 一  30 15:34:09 configuring for RAU/RRU
- 一  30 15:34:10 CPU Freq is 3.417742 
- 一  30 15:34:10 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 14
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 15
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 16
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 19
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 22
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 26
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U_SIM as task 41
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 42
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 43
- 一  30 15:34:10 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 44
- 一  30 15:34:10 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 一  30 15:34:10 [OPT]   OPT disabled
- 一  30 15:34:10 [0m[HW]   Version: Branch: master Abrev. Hash: 96e9d95 Date: Mon Jul 25 17:08:05 2022 +0800
- 一  30 15:34:10 [0m[ITTI]   Created Posix thread TASK_SCTP
- 一  30 15:34:10 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 一  30 15:34:10 [X2AP]   X2AP is disabled.
- 一  30 15:34:10 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 一  30 15:34:10 [34m[NGAP]   Configuration in the file: demo-oai.
- 一  30 15:34:10 [0m[34m[NGAP]   Configuration in the file: 192.168.70.129/24.
- 一  30 15:34:10 [0m[NGAP]   Starting NGAP layer
- 一  30 15:34:10 [0m[ITTI]   Created Posix thread TASK_NGAP
- 一  30 15:34:10 [0m[PHY]   gNB_app_task() Task ready initialize structures
- 一  30 15:34:10 [0m[ITTI]   Created Posix thread TASK_GNB_APP
- 一  30 15:34:10 [0m[NR_RRC]   Creating NR RRC gNB Task
- 一  30 15:34:10 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
- 一  30 15:34:10 [NR_PHY]   PRB blacklist 
- 一  30 15:34:10 [0m[NR_PHY]   RC.gNB = 0x7fc19c000d30
- 一  30 15:34:10 [0m[LIBCONFIG] list L1s not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  30 15:34:10 [PHY]   No L1s configuration found[0m[PHY]   RC.gNB[0] = 0x7fc1a086e010
- 一  30 15:34:10 [0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
- 一  30 15:34:10 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
- 一  30 15:34:10 [0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7fc19c0027e0
- 一  30 15:34:10 [0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7fc19c002800 (1 of 1)
- 一  30 15:34:10 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (8 to default value)
- 一  30 15:34:10 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 433096, DLBand 66, ABSFREQPOINTA 432000, DLBW 106,RACH_TargetReceivedPower -118
- 一  30 15:34:10 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
- 一  30 15:34:10 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
- 一  30 15:34:10 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
- 一  30 15:34:10 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
- 一  30 15:34:10 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
- 一  30 15:34:10 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
- 一  30 15:34:10 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  30 15:34:10 NRRRC 0: Southbound Transport f1
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [GNB_APP]   F1AP: gNB_CU_id[0] 0
- 一  30 15:34:10 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
- 一  30 15:34:10 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [GNB_APP]   SSB SCO 0
- 一  30 15:34:10 [0m[GNB_APP]   pdsch_AntennaPorts N1 1
- 一  30 15:34:10 [0m[GNB_APP]   pdsch_AntennaPorts N2 1
- 一  30 15:34:10 [0m[GNB_APP]   pdsch_AntennaPorts XP 1
- 一  30 15:34:10 [0m[GNB_APP]   pusch_AntennaPorts 1
- 一  30 15:34:10 [0m[GNB_APP]   minTXRXTIME 6
- 一  30 15:34:10 [0m[GNB_APP]   SIB1 TDA 0
- 一  30 15:34:10 [0m[GNB_APP]   Do CSI-RS 0
- 一  30 15:34:10 [0m[GNB_APP]   Do SRS 0
- 一  30 15:34:10 [0m[GNB_APP]   256 QAM: may be on
- 一  30 15:34:10 [0m[GNB_APP]   SDAP layer is disabled
- 一  30 15:34:10 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [GNB_APP]   RRC starting with node type 5
- 一  30 15:34:10 [0m[GNB_APP]   Sending configuration message to NR_RRC task
- 一  30 15:34:10 [0m[NR_RRC]   Entering main loop of NR_RRC message task
- 一  30 15:34:10 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
- 一  30 15:34:10 [0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7fc19c003e60
- 一  30 15:34:10 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
- 一  30 15:34:10 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
- 一  30 15:34:10 [0m[PDCP]   pdcp init,usegtp 
- 一  30 15:34:10 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 一  30 15:34:10 [GNB_APP]   default drx 0
- 一  30 15:34:10 [0m[GTPU]   Configuring GTPu
- 一  30 15:34:10 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  30 15:34:10 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 一  30 15:34:10 [GTPU]   SA mode 
- 一  30 15:34:10 [0m[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
- 一  30 15:34:10 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
- 一  30 15:34:10 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
- 一  30 15:34:10 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
- 一  30 15:34:10 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
- 一  30 15:34:10 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
- 一  30 15:34:10 [0m[NR_RRC]   do_SIB23_NR, size 9 
- 一  30 15:34:10  [0m[NR_RRC]   Done init_NR_SI
- 一  30 15:34:10 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
- 一  30 15:34:10 [0m[NGAP]   Registered new gNB[0] and macro gNB id 0
- 一  30 15:34:10 [0m[NGAP]   [gNB 0] check the amf registration state
- 一  30 15:34:10 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
- 一  30 15:34:10 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
- 一  30 15:34:10 [0m[F1AP]   Starting F1AP at CU
- 一  30 15:34:10 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket)
- 一  30 15:34:10 [0m[ITTI]   Created Posix thread TASK_CU_F1
- 一  30 15:34:10 [0m[GTPU]   Created gtpu instance id: 97
- 一  30 15:34:10 [0m[ITTI]   Created Posix thread TASK_GTPV1_U_SIM
- 一  30 15:34:10 [0m[93m[GTPU]   Initializing UDP SIM
- 一  30 15:34:10 [0mNFAPI MODE:MONOLITHIC
- 一  30 15:34:10 START MAIN THREADS
- 一  30 15:34:10 RC.nb_nr_L1_inst:0
- 一  30 15:34:10 wait_gNBs()
- 一  30 15:34:10 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
- 一  30 15:34:10 gNB L1 are configured
- 一  30 15:34:10 About to Init RU threads RC.nb_RU:0
- 一  30 15:34:10 About to call end_configmodule() from main() /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:794
- 一  30 15:34:10 Called end_configmodule() from main() /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:799
- 一  30 15:34:10 TYPE <CTRL-C> TO TERMINATE
- 一  30 15:34:10 Entering ITTI signals handler
- 一  30 15:34:10 [F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_IND for instance 0
- 一  30 15:34:10 [0m[GTPU]   Initializing UDP for local address 192.168.130.83 with port 2152
- 一  30 15:34:10 [0m[GTPU]   Created gtpu instance id: 100
- 一  30 15:34:10 [0m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0
- 一  30 15:34:10 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
- 一  30 15:34:10 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
- 一  30 15:34:10 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_F1Setup
- 一  30 15:34:10 [0m[F1AP]   Calling handler with instance 0
- 一  30 15:34:10 [0m[34m[F1AP]   CU_handle_F1_SETUP_REQUEST
- 一  30 15:34:10 [0m[34m[F1AP]   req->gNB_DU_id 1 
- 一  30 15:34:10 [0m[34m[F1AP]   req->gNB_DU_name ��­ 
- 一  30 15:34:10 [0m[34m[F1AP]   req->num_cells_available 1 
- 一  30 15:34:10 [0m[34m[F1AP]   req->tac[0] 0 
- 一  30 15:34:10 [0m[34m[F1AP]   [SCTP 457] Received nRCGI: MCC 466, MNC 92, CELL_ID 1
- 一  30 15:34:10 [0m[34m[F1AP]   req->nr_pci[0] 1 
- 一  30 15:34:10 [0m[F1AP]   Received Cell in 1 context
- 一  30 15:34:10 [0m[34m[F1AP]   req->mib[0] len = 3 
- 一  30 15:34:10 [0m[34m[F1AP]   req->sib1[0] len = 88 
- 一  30 15:34:10 [0m[NR_RRC]   Received message F1AP_SETUP_REQ
- 一  30 15:34:10 [0m[NR_RRC]   [gNB 0] Received F1AP_SETUP_REQ : 0x7fc188003020
- 一  30 15:34:10 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 1 (��­)
- 一  30 15:34:10 [0m[93m[NR_RRC]   instance 0 mib length 3
- 一  30 15:34:10 [0m[93m[NR_RRC]   instance 0 sib1 length 88
- 一  30 15:34:10 [0m[F1AP]   CU Task Received F1AP_SETUP_RESP
- 一  30 15:34:10 [0m[34m[F1AP]   num_cells_to_activate = 1 
- 一  30 15:34:10 [0m[34m[F1AP]   f1ap_setup_resp->SI_container_length[0][2] = 9 
- 一  30 15:34:10 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
- 一  30 15:34:10 [0m<F1AP-PDU>
- 一  30 15:34:10     <successfulOutcome>
- 一  30 15:34:10         <procedureCode>1</procedureCode>
- 一  30 15:34:10         <criticality><reject/></criticality>
- 一  30 15:34:10         <value>
- 一  30 15:34:10             <F1SetupResponse>
- 一  30 15:34:10                 <protocolIEs>
- 一  30 15:34:10                     <F1SetupResponseIEs>
- 一  30 15:34:10                         <id>78</id>
- 一  30 15:34:10                         <criticality><reject/></criticality>
- 一  30 15:34:10                         <value>
- 一  30 15:34:10                             <TransactionID>1</TransactionID>
- 一  30 15:34:10                         </value>
- 一  30 15:34:10                     </F1SetupResponseIEs>
- 一  30 15:34:10                     <F1SetupResponseIEs>
- 一  30 15:34:10                         <id>82</id>
- 一  30 15:34:10                         <criticality><ignore/></criticality>
- 一  30 15:34:10                         <value>
- 一  30 15:34:10                             <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
- 一  30 15:34:10                         </value>
- 一  30 15:34:10                     </F1SetupResponseIEs>
- 一  30 15:34:10                     <F1SetupResponseIEs>
- 一  30 15:34:10                         <id>3</id>
- 一  30 15:34:10                         <criticality><reject/></criticality>
- 一  30 15:34:10                         <value>
- 一  30 15:34:10                             <Cells-to-be-Activated-List>
- 一  30 15:34:10                                 <ProtocolIE-SingleContainer>
- 一  30 15:34:10                                     <id>4</id>
- 一  30 15:34:10                                     <criticality><reject/></criticality>
- 一  30 15:34:10                                     <value>
- 一  30 15:34:10                                         <Cells-to-be-Activated-List-Item>
- 一  30 15:34:10                                             <nRCGI>
- 一  30 15:34:10                                                 <pLMN-Identity>64 F6 29</pLMN-Identity>
- 一  30 15:34:10                                                 <nRCellIdentity>
- 一  30 15:34:10                                                     000000000000000000000000000000000001
- 一  30 15:34:10                                                 </nRCellIdentity>
- 一  30 15:34:10                                             </nRCGI>
- 一  30 15:34:10                                             <nRPCI>1</nRPCI>
- 一  30 15:34:10                                             <iE-Extensions>
- 一  30 15:34:10                                                 <Cells-to-be-Activated-List-ItemExtIEs>
- 一  30 15:34:10                                                     <id>118</id>
- 一  30 15:34:10                                                     <criticality><reject/></criticality>
- 一  30 15:34:10                                                     <extensionValue>
- 一  30 15:34:10                                                         <GNB-CUSystemInformation>
- 一  30 15:34:10                                                             <sibtypetobeupdatedlist>
- 一  30 15:34:10                                                                 <SibtypetobeupdatedListItem>
- 一  30 15:34:10                                                                     <sIBtype>2</sIBtype>
- 一  30 15:34:10                                                                     <sIBmessage>00 40 01 00 90 00 A0 94 40</sIBmessage>
- 一  30 15:34:10                                                                     <valueTag>0</valueTag>
- 一  30 15:34:10                                                                 </SibtypetobeupdatedListItem>
- 一  30 15:34:10                                                             </sibtypetobeupdatedlist>
- 一  30 15:34:10                                                         </GNB-CUSystemInformation>
- 一  30 15:34:10                                                     </extensionValue>
- 一  30 15:34:10                                                 </Cells-to-be-Activated-List-ItemExtIEs>
- 一  30 15:34:10                                             </iE-Extensions>
- 一  30 15:34:10                                         </Cells-to-be-Activated-List-Item>
- 一  30 15:34:10                                     </value>
- 一  30 15:34:10                                 </ProtocolIE-SingleContainer>
- 一  30 15:34:10                             </Cells-to-be-Activated-List>
- 一  30 15:34:10                         </value>
- 一  30 15:34:10                     </F1SetupResponseIEs>
- 一  30 15:34:10                 </protocolIEs>
- 一  30 15:34:10             </F1SetupResponse>
- 一  30 15:34:10         </value>
- 一  30 15:34:10     </successfulOutcome>
- 一  30 15:34:10 </F1AP-PDU>
- 一  30 15:34:10 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
- 一  30 15:34:10 [0m[F1AP]   Sending ITTI message to SCTP Task
- 一  30 15:34:12 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
- 一  30 15:34:12 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
- 一  30 15:34:12 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_gNBDUConfigurationUpdate
- 一  30 15:34:12 [0m[F1AP]   Calling handler with instance 0
- 一  30 15:34:12 [0m[34m[F1AP]   CU_handle_gNB_DU_CONFIGURATION_UPDATE
- 一  30 15:34:12 [0m[34m[F1AP]   F1AP: gNB_DU_Configuration_Update: protocolIEs.list.count 4
- 一  30 15:34:12 [0m[34m[F1AP]   F1AP: GNB-DU-ConfigurationUpdate: TransactionId 1
- 一  30 15:34:12 [0m[34m[F1AP]   F1AP: Modifying 1 cells
- 一  30 15:34:12 [0m[34m[F1AP]   Old nr_cellId : 0 0 0 0 10
- 一  30 15:34:12 [0m[34m[F1AP]   F1AP: Old Cell 0 MCC 466 MNC 92 MNC Digit Length 2 NRCellid 1
- 一  30 15:34:12 [0m[34m[F1AP]   Modified nr_cellId : 0 0 0 0 10
- 一  30 15:34:12 [0m[34m[F1AP]   F1AP: Modified Cell 0 MCC 466 MNC 92 MNC Digit Length 2 NRCellid 1
- 一  30 15:34:12 [0m
- 一  30 15:34:12 Assertion (1==0) failed!
- 一  30 15:34:12 In CU_handle_gNB_DU_CONFIGURATION_UPDATE() /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/openair2/F1AP/f1ap_cu_interface_management.c:555
- 一  30 15:34:12 F1AP_ProtocolIE_ID_id 89 unknown
- 一  30 15:34:12 
- 一  30 15:34:12 Exiting execution
+ 一  31 15:05:47 CMDLINE: "/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf" "--sa" 
+ 一  31 15:05:47 [CONFIG] get parameters from libconfig /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf , debug flags: 0x00000000
+ 一  31 15:05:47 [LIBCONFIG] Path for include directive set to: /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF
+ 一  31 15:05:47 [CONFIG] function config_libconfig_init returned 0
+ 一  31 15:05:47 [CONFIG] config module libconfig loaded
+ 一  31 15:05:47 [LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+ 一  31 15:05:47 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 一  31 15:05:47 [LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
+ 一  31 15:05:47 [LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
+ 一  31 15:05:47 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  31 15:05:47 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 一  31 15:05:47 log init done
+ 一  31 15:05:47 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 一  31 15:05:47 [0mReading in command-line options
+ 一  31 15:05:47 [LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
+ 一  31 15:05:47 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
+ 一  31 15:05:47 [ENB_APP]   nfapi running mode: MONOLITHIC
+ 一  31 15:05:47 [0m[GNB_APP]   Getting GNBSParams
+ 一  31 15:05:47 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:47 [LIBCONFIG] list MACRLCs not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  31 15:05:47 [LIBCONFIG] list L1s not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  31 15:05:47 [LIBCONFIG] list RUs not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  31 15:05:47 [LIBCONFIG] list THREAD_STRUCT not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  31 15:05:47 [CONFIG] parallel_conf is set to 2
+ 一  31 15:05:47 [CONFIG] worker_conf is set to 1
+ 一  31 15:05:47 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+ 一  31 15:05:47 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+ 一  31 15:05:47 configuring for RAU/RRU
+ 一  31 15:05:48 CPU Freq is 3.417734 
+ 一  31 15:05:48 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 14
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 15
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 16
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 19
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 22
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 26
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U_SIM as task 41
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 42
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 43
+ 一  31 15:05:48 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 44
+ 一  31 15:05:48 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 一  31 15:05:48 [OPT]   OPT disabled
+ 一  31 15:05:48 [0m[HW]   Version: Branch: master Abrev. Hash: 96e9d95 Date: Mon Jul 25 17:08:05 2022 +0800
+ 一  31 15:05:48 [0m[ITTI]   Created Posix thread TASK_SCTP
+ 一  31 15:05:48 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 一  31 15:05:48 [X2AP]   X2AP is disabled.
+ 一  31 15:05:48 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  31 15:05:48 [34m[NGAP]   Configuration in the file: demo-oai.
+ 一  31 15:05:48 [0m[34m[NGAP]   Configuration in the file: 192.168.70.129/24.
+ 一  31 15:05:48 [0m[NGAP]   Starting NGAP layer
+ 一  31 15:05:48 [0m[ITTI]   Created Posix thread TASK_NGAP
+ 一  31 15:05:48 [0m[PHY]   gNB_app_task() Task ready initialize structures
+ 一  31 15:05:48 [0m[ITTI]   Created Posix thread TASK_GNB_APP
+ 一  31 15:05:48 [0m[NR_RRC]   Creating NR RRC gNB Task
+ 一  31 15:05:48 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 一  31 15:05:48 [NR_PHY]   PRB blacklist 
+ 一  31 15:05:48 [0m[NR_PHY]   RC.gNB = 0x7fe58c000d30
+ 一  31 15:05:48 [0m[LIBCONFIG] list L1s not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  31 15:05:48 [PHY]   No L1s configuration found[0m[PHY]   RC.gNB[0] = 0x7fe5931b0010
+ 一  31 15:05:48 [0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
+ 一  31 15:05:48 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+ 一  31 15:05:48 [0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7fe58c0027e0
+ 一  31 15:05:48 [0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7fe58c002800 (1 of 1)
+ 一  31 15:05:48 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (8 to default value)
+ 一  31 15:05:48 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 433096, DLBand 66, ABSFREQPOINTA 432000, DLBW 106,RACH_TargetReceivedPower -118
+ 一  31 15:05:48 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+ 一  31 15:05:48 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+ 一  31 15:05:48 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+ 一  31 15:05:48 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+ 一  31 15:05:48 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+ 一  31 15:05:48 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+ 一  31 15:05:48 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  31 15:05:48 NRRRC 0: Southbound Transport f1
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [GNB_APP]   F1AP: gNB_CU_id[0] 0
+ 一  31 15:05:48 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
+ 一  31 15:05:48 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [GNB_APP]   SSB SCO 0
+ 一  31 15:05:48 [0m[GNB_APP]   pdsch_AntennaPorts N1 1
+ 一  31 15:05:48 [0m[GNB_APP]   pdsch_AntennaPorts N2 1
+ 一  31 15:05:48 [0m[GNB_APP]   pdsch_AntennaPorts XP 1
+ 一  31 15:05:48 [0m[GNB_APP]   pusch_AntennaPorts 1
+ 一  31 15:05:48 [0m[GNB_APP]   minTXRXTIME 6
+ 一  31 15:05:48 [0m[GNB_APP]   SIB1 TDA 0
+ 一  31 15:05:48 [0m[GNB_APP]   Do CSI-RS 0
+ 一  31 15:05:48 [0m[GNB_APP]   Do SRS 0
+ 一  31 15:05:48 [0m[GNB_APP]   256 QAM: may be on
+ 一  31 15:05:48 [0m[GNB_APP]   SDAP layer is disabled
+ 一  31 15:05:48 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [GNB_APP]   RRC starting with node type 5
+ 一  31 15:05:48 [0m[GNB_APP]   Sending configuration message to NR_RRC task
+ 一  31 15:05:48 [0m[NR_RRC]   Entering main loop of NR_RRC message task
+ 一  31 15:05:48 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
+ 一  31 15:05:48 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
+ 一  31 15:05:48 [0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7fe58c003e60
+ 一  31 15:05:48 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
+ 一  31 15:05:48 [0m[PDCP]   pdcp init,usegtp 
+ 一  31 15:05:48 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  31 15:05:48 [GNB_APP]   default drx 0
+ 一  31 15:05:48 [0m[GTPU]   Configuring GTPu
+ 一  31 15:05:48 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 一  31 15:05:48 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 一  31 15:05:48 [GTPU]   SA mode 
+ 一  31 15:05:48 [0m[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
+ 一  31 15:05:48 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+ 一  31 15:05:48 [0m[NGAP]   Registered new gNB[0] and macro gNB id 0
+ 一  31 15:05:48 [0m[NGAP]   [gNB 0] check the amf registration state
+ 一  31 15:05:48 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+ 一  31 15:05:48 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+ 一  31 15:05:48 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+ 一  31 15:05:48 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
+ 一  31 15:05:48 [0m[NR_RRC]   do_SIB23_NR, size 9 
+ 一  31 15:05:48  [0m[NR_RRC]   Done init_NR_SI
+ 一  31 15:05:48 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
+ 一  31 15:05:48 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+ 一  31 15:05:48 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
+ 一  31 15:05:48 [0m[F1AP]   Starting F1AP at CU
+ 一  31 15:05:48 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket)
+ 一  31 15:05:48 [0m[ITTI]   Created Posix thread TASK_CU_F1
+ 一  31 15:05:48 [0m[GTPU]   Created gtpu instance id: 97
+ 一  31 15:05:48 [0m[ITTI]   Created Posix thread TASK_GTPV1_U_SIM
+ 一  31 15:05:48 [0m[93m[GTPU]   Initializing UDP SIM
+ 一  31 15:05:48 [0mNFAPI MODE:MONOLITHIC
+ 一  31 15:05:48 START MAIN THREADS
+ 一  31 15:05:48 RC.nb_nr_L1_inst:0
+ 一  31 15:05:48 wait_gNBs()
+ 一  31 15:05:48 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+ 一  31 15:05:48 gNB L1 are configured
+ 一  31 15:05:48 About to Init RU threads RC.nb_RU:0
+ 一  31 15:05:48 About to call end_configmodule() from main() /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:794
+ 一  31 15:05:48 Called end_configmodule() from main() /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:799
+ 一  31 15:05:48 TYPE <CTRL-C> TO TERMINATE
+ 一  31 15:05:48 Entering ITTI signals handler
+ 一  31 15:05:49 [F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_IND for instance 0
+ 一  31 15:05:49 [0m[GTPU]   Initializing UDP for local address 192.168.130.83 with port 2152
+ 一  31 15:05:49 [0m[GTPU]   Created gtpu instance id: 100
+ 一  31 15:05:49 [0m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0
+ 一  31 15:05:49 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+ 一  31 15:05:49 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
+ 一  31 15:05:49 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_F1Setup
+ 一  31 15:05:49 [0m[F1AP]   Calling handler with instance 0
+ 一  31 15:05:49 [0m[34m[F1AP]   CU_handle_F1_SETUP_REQUEST
+ 一  31 15:05:49 [0m[34m[F1AP]   req->gNB_DU_id 1 
+ 一  31 15:05:49 [0m[34m[F1AP]   req->gNB_DU_name ORAN OAM DU 
+ 一  31 15:05:49 [0m[34m[F1AP]   req->num_cells_available 1 
+ 一  31 15:05:49 [0m[34m[F1AP]   req->tac[0] 0 
+ 一  31 15:05:49 [0m[34m[F1AP]   [SCTP 32] Received nRCGI: MCC 466, MNC 92, CELL_ID 1
+ 一  31 15:05:49 [0m[34m[F1AP]   req->nr_pci[0] 1 
+ 一  31 15:05:49 [0m[F1AP]   Received Cell in 1 context
+ 一  31 15:05:49 [0m[34m[F1AP]   req->mib[0] len = 3 
+ 一  31 15:05:49 [0m[34m[F1AP]   req->sib1[0] len = 88 
+ 一  31 15:05:49 [0m[NR_RRC]   Received message F1AP_SETUP_REQ
+ 一  31 15:05:49 [0m[NR_RRC]   [gNB 0] Received F1AP_SETUP_REQ : 0x7fe574003020
+ 一  31 15:05:49 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 1 (ORAN OAM DU)
+ 一  31 15:05:49 [0m[93m[NR_RRC]   instance 0 mib length 3
+ 一  31 15:05:49 [0m[93m[NR_RRC]   instance 0 sib1 length 88
+ 一  31 15:05:49 [0m[F1AP]   CU Task Received F1AP_SETUP_RESP
+ 一  31 15:05:49 [0m[34m[F1AP]   num_cells_to_activate = 1 
+ 一  31 15:05:49 [0m[34m[F1AP]   f1ap_setup_resp->SI_container_length[0][2] = 9 
+ 一  31 15:05:49 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
+ 一  31 15:05:49 [0m<F1AP-PDU>
+ 一  31 15:05:49     <successfulOutcome>
+ 一  31 15:05:49         <procedureCode>1</procedureCode>
+ 一  31 15:05:49         <criticality><reject/></criticality>
+ 一  31 15:05:49         <value>
+ 一  31 15:05:49             <F1SetupResponse>
+ 一  31 15:05:49                 <protocolIEs>
+ 一  31 15:05:49                     <F1SetupResponseIEs>
+ 一  31 15:05:49                         <id>78</id>
+ 一  31 15:05:49                         <criticality><reject/></criticality>
+ 一  31 15:05:49                         <value>
+ 一  31 15:05:49                             <TransactionID>1</TransactionID>
+ 一  31 15:05:49                         </value>
+ 一  31 15:05:49                     </F1SetupResponseIEs>
+ 一  31 15:05:49                     <F1SetupResponseIEs>
+ 一  31 15:05:49                         <id>82</id>
+ 一  31 15:05:49                         <criticality><ignore/></criticality>
+ 一  31 15:05:49                         <value>
+ 一  31 15:05:49                             <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
+ 一  31 15:05:49                         </value>
+ 一  31 15:05:49                     </F1SetupResponseIEs>
+ 一  31 15:05:49                     <F1SetupResponseIEs>
+ 一  31 15:05:49                         <id>3</id>
+ 一  31 15:05:49                         <criticality><reject/></criticality>
+ 一  31 15:05:49                         <value>
+ 一  31 15:05:49                             <Cells-to-be-Activated-List>
+ 一  31 15:05:49                                 <ProtocolIE-SingleContainer>
+ 一  31 15:05:49                                     <id>4</id>
+ 一  31 15:05:49                                     <criticality><reject/></criticality>
+ 一  31 15:05:49                                     <value>
+ 一  31 15:05:49                                         <Cells-to-be-Activated-List-Item>
+ 一  31 15:05:49                                             <nRCGI>
+ 一  31 15:05:49                                                 <pLMN-Identity>64 F6 29</pLMN-Identity>
+ 一  31 15:05:49                                                 <nRCellIdentity>
+ 一  31 15:05:49                                                     000000000000000000000000000000000001
+ 一  31 15:05:49                                                 </nRCellIdentity>
+ 一  31 15:05:49                                             </nRCGI>
+ 一  31 15:05:49                                             <nRPCI>1</nRPCI>
+ 一  31 15:05:49                                             <iE-Extensions>
+ 一  31 15:05:49                                                 <Cells-to-be-Activated-List-ItemExtIEs>
+ 一  31 15:05:49                                                     <id>118</id>
+ 一  31 15:05:49                                                     <criticality><reject/></criticality>
+ 一  31 15:05:49                                                     <extensionValue>
+ 一  31 15:05:49                                                         <GNB-CUSystemInformation>
+ 一  31 15:05:49                                                             <sibtypetobeupdatedlist>
+ 一  31 15:05:49                                                                 <SibtypetobeupdatedListItem>
+ 一  31 15:05:49                                                                     <sIBtype>2</sIBtype>
+ 一  31 15:05:49                                                                     <sIBmessage>00 40 01 00 90 00 A0 94 40</sIBmessage>
+ 一  31 15:05:49                                                                     <valueTag>0</valueTag>
+ 一  31 15:05:49                                                                 </SibtypetobeupdatedListItem>
+ 一  31 15:05:49                                                             </sibtypetobeupdatedlist>
+ 一  31 15:05:49                                                         </GNB-CUSystemInformation>
+ 一  31 15:05:49                                                     </extensionValue>
+ 一  31 15:05:49                                                 </Cells-to-be-Activated-List-ItemExtIEs>
+ 一  31 15:05:49                                             </iE-Extensions>
+ 一  31 15:05:49                                         </Cells-to-be-Activated-List-Item>
+ 一  31 15:05:49                                     </value>
+ 一  31 15:05:49                                 </ProtocolIE-SingleContainer>
+ 一  31 15:05:49                             </Cells-to-be-Activated-List>
+ 一  31 15:05:49                         </value>
+ 一  31 15:05:49                     </F1SetupResponseIEs>
+ 一  31 15:05:49                 </protocolIEs>
+ 一  31 15:05:49             </F1SetupResponse>
+ 一  31 15:05:49         </value>
+ 一  31 15:05:49     </successfulOutcome>
+ 一  31 15:05:49 </F1AP-PDU>
+ 一  31 15:05:49 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
+ 一  31 15:05:49 [0m[F1AP]   Sending ITTI message to SCTP Task
+ 一  31 15:05:50 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+ 一  31 15:05:50 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
+ 一  31 15:05:50 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_gNBDUConfigurationUpdate
+ 一  31 15:05:50 [0m[F1AP]   Calling handler with instance 0
+ 一  31 15:05:50 [0m[34m[F1AP]   CU_handle_gNB_DU_CONFIGURATION_UPDATE
+ 一  31 15:05:50 [0m[34m[F1AP]   F1AP: gNB_DU_Configuration_Update: protocolIEs.list.count 4
+ 一  31 15:05:50 [0m[34m[F1AP]   F1AP: GNB-DU-ConfigurationUpdate: TransactionId 1
+ 一  31 15:05:50 [0m[34m[F1AP]   F1AP: Modifying 1 cells
+ 一  31 15:05:50 [0m[34m[F1AP]   Old nr_cellId : 0 0 0 0 10
+ 一  31 15:05:50 [0m[34m[F1AP]   F1AP: Old Cell 0 MCC 466 MNC 92 MNC Digit Length 2 NRCellid 1
+ 一  31 15:05:50 [0m[34m[F1AP]   Modified nr_cellId : 0 0 0 0 10
+ 一  31 15:05:50 [0m[34m[F1AP]   F1AP: Modified Cell 0 MCC 466 MNC 92 MNC Digit Length 2 NRCellid 1
+ 一  31 15:05:50 [0m[34m[F1AP]   F1AP: num_cells_to_modify 1
+ 一  31 15:05:50 [0m[34m[F1AP]   Sending F1AP_GNB_DU_CONFIGURATION_UPDATE ITTI message 
+ 一  31 15:05:50 [0m[GNB_APP]   Received F1AP_GNB_DU_CONFIGURATION_UPDATE: associated ngran_gNB_DU (null) with 1 cells to modify
+ 一  31 15:05:50 [0m[GNB_APP]   cells_to_modify 1, RRC instances 1
+ 一  31 15:05:50 [0m[GNB_APP]   Checking cell 0, rrc inst 0 : rrc->nr_cellid 1, gnb_cu_cfg_updatenr_cellid 1
+ 一  31 15:05:50 [0m[F1AP]   CU Task Received F1AP_GNB_DU_CONFIGURATION_UPDATE_ACKNOWLEDGE
+ 一  31 15:05:50 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
+ 一  31 15:05:50 [0m<F1AP-PDU>
+ 一  31 15:05:50     <successfulOutcome>
+ 一  31 15:05:50         <procedureCode>3</procedureCode>
+ 一  31 15:05:50         <criticality><reject/></criticality>
+ 一  31 15:05:50         <value>
+ 一  31 15:05:50             <GNBDUConfigurationUpdateAcknowledge>
+ 一  31 15:05:50                 <protocolIEs>
+ 一  31 15:05:50                     <GNBDUConfigurationUpdateAcknowledgeIEs>
+ 一  31 15:05:50                         <id>78</id>
+ 一  31 15:05:50                         <criticality><reject/></criticality>
+ 一  31 15:05:50                         <value>
+ 一  31 15:05:50                             <TransactionID>1</TransactionID>
+ 一  31 15:05:50                         </value>
+ 一  31 15:05:50                     </GNBDUConfigurationUpdateAcknowledgeIEs>
+ 一  31 15:05:50                 </protocolIEs>
+ 一  31 15:05:50             </GNBDUConfigurationUpdateAcknowledge>
+ 一  31 15:05:50         </value>
+ 一  31 15:05:50     </successfulOutcome>
+ 一  31 15:05:50 </F1AP-PDU>
+ 一  31 15:05:50 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
+ 一  31 15:05:50 [0m[F1AP]   Sending ITTI message to SCTP Task
+ 一  31 15:06:05 [0m
