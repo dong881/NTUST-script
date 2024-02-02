@@ -1,975 +1,518 @@
- 二  02 14:00:58 CMDLINE: "/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "PNF" 
- 二  02 14:00:58 [CONFIG] get parameters from libconfig /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf
- 二  02 14:00:58 [CONFIG] function config_libconfig_init returned 0
- 二  02 14:00:58 [CONFIG] config module libconfig loaded
- 二  02 14:00:58 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 二  02 14:00:58 [CONFIG] debug flags: 0x00000000
- 二  02 14:00:58 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 二  02 14:00:58 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
- 二  02 14:00:58 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
- 二  02 14:00:58 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 二  02 14:00:58 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 二  02 14:00:58 log init done
- 二  02 14:00:58 [HW]   # /dev/cpu_dma_latency set to 2 us
- 二  02 14:00:58 [0mReading in command-line options
- 二  02 14:00:58 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
- 二  02 14:00:58 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 二  02 14:00:58 [ENB_APP]   nfapi running mode: PNF
- 二  02 14:00:58 [0m[GNB_APP]   Getting GNBSParams
- 二  02 14:00:58 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  02 14:00:58 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 二  02 14:00:58 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 二  02 14:00:58 [CONFIG] parallel_conf is set to 0
- 二  02 14:00:58 [CONFIG] worker_conf is set to 1
- 二  02 14:00:58 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
- 二  02 14:00:58 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 二  02 14:00:58 configuring for RAU/RRU
- 二  02 14:00:59 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 二  02 14:00:59 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 二  02 14:00:59 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 二  02 14:00:59 [OPT]   OPT disabled
- 二  02 14:00:59 [0m[HW]   Version: Branch: develop Abrev. Hash: c7eed4ac17 Date: Wed Jan 17 23:30:33 2024 +0800
- 二  02 14:00:59 [0m[NR_PHY]   RC.gNB = 0x564819348240
- 二  02 14:00:59 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
- 二  02 14:00:59 [PHY]   L1_RX_THREAD_CORE -1 (16)
- 二  02 14:00:59 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
- 二  02 14:00:59 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
- 二  02 14:00:59 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
- 二  02 14:00:59 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
- 二  02 14:00:59 [0mconfigure_nr_nfapi_pnf() PNF
- 二  02 14:00:59 
- 二  02 14:00:59 
- 二  02 14:00:59 
- 二  02 14:00:59 
- 二  02 14:00:59 
- 二  02 14:00:59 [ENB_APP]   nfapi running mode: PNF
- 二  02 14:00:59 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
- 二  02 14:00:59 Initializing northbound interface for L1
- 二  02 14:00:59 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 二  02 14:00:59 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 二  02 14:00:59 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x56481934b510
- 二  02 14:00:59 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 二  02 14:00:59 [0m
- 二  02 14:00:59  Read NR message unpack:  00  00  01  00  00  00  00  00 
- 二  02 14:00:59 [PNF] pnf param request
- 二  02 14:00:59 
- 二  02 14:00:59  Read NR message unpack:  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
- 二  02 14:00:59 [PNF] pnf config request
- 二  02 14:00:59 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
- 二  02 14:00:59 [PNF] Sent pnf_config_resp
- 二  02 14:00:59 
- 二  02 14:00:59  Read NR message unpack:  00  00  01  04  00  00  00  00 
- 二  02 14:00:59 Received NFAPI_PNF_START_REQUEST
- 二  02 14:00:59 [PNF] Sent NFAPI_PNF_START_RESP
- 二  02 14:00:59 
- 二  02 14:00:59  Read NR message unpack:  00  01  00  00  00  00  00  00 
- 二  02 14:00:59 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
- 二  02 14:00:59 TAG value :2
- 二  02 14:00:59 RUNNING pack_param_response
- 二  02 14:00:59 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
- 二  02 14:00:59 [PNF] param request .. exit
- 二  02 14:00:59 
- 二  02 14:00:59  Read NR message unpack:  00  01  00  02  00  f9  00  00  23  10  01  00  04  00  00  00  14  10  02  00  04  00  20  f5  80  10  04  00  02  00  6a  00  00  10  05  00  02  00  01  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  1a  db  00  10  09  00  02  00  6a  00  00  10  0a  00  02  00  01  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  01  00  00  00  10  12  00  01  01  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : The ppReadPackedMsg value is: 2543384744
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1001
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1002
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1004
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1005
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1006
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1007
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1009
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x100a
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x100c
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x100d
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x100e
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1010
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1012
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1013
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1014
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1029
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1015
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1017
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1018
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x101b
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x101d
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x101f
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1020
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1021
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1022
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x1023
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x0100
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x0102
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x011f
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x0120
- 二  02 14:00:59 
- 二  02 14:00:59 NTUST test : TAG value: 0x011e
- 二  02 14:00:59 [PNF] vnf p7 127.0.0.1:50611
- 二  02 14:00:59 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
- 二  02 14:00:59 
- 二  02 14:00:59 Timing window tag: 286
- 二  02 14:00:59 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
- 二  02 14:00:59 timing info mode:3
- 二  02 14:00:59 timing info period provided value:10
- 二  02 14:00:59 nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:20
- 二  02 14:00:59 [PNF] CONFIG_REQUEST[num_tlv:35] TLVs processed:6
- 二  02 14:00:59 [PNF] Simulating PHY CONFIG
- 二  02 14:00:59 
- 二  02 14:00:59 [NTUST] match table:(27)! dl_freq_khz:2179080
- 二  02 14:00:59 [NTUST] current_offset_khz:4294777296
- 二  02 14:00:59 [NTUST] delta_duplex_khz:4294567296
- 二  02 14:00:59 [NTUST] ul_min:1920000
- 二  02 14:00:59 [NTUST] dl_min:2110000
- 二  02 14:00:59 
- 二  02 14:00:59 [NTUST] match table:(28)! dl_freq_khz:2179080
- 二  02 14:00:59 [NTUST] current_offset_khz:4294567296
- 二  02 14:00:59 [NTUST] delta_duplex_khz:4294567296
- 二  02 14:00:59 [NTUST] ul_min:1710000
- 二  02 14:00:59 [NTUST] dl_min:2110000
- 二  02 14:00:59 
- 二  02 14:00:59 [NTUST] center_frequency_khz:2155000
- 二  02 14:00:59 [NTUST] center_freq_diff_khz:24080
- 二  02 14:00:59 DL frequency 2179080000: band 66, UL frequency 1779080000
- 二  02 14:00:59 [PHY]   DL frequency 2179080000 Hz, UL frequency 1779080000 Hz: band 66, uldl offset -400000000 Hz
- 二  02 14:00:59 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 1,DL freq 2179080000, UL freq 1779080000)
- 二  02 14:00:59 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 二  02 14:00:59 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
- 二  02 14:00:59 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
- 二  02 14:00:59 START MAIN THREADS
- 二  02 14:00:59 RC.nb_nr_L1_inst:1
- 二  02 14:00:59 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
- 二  02 14:00:59 [PHY]   Initializing gNB 0 single_thread_flag:1
- 二  02 14:00:59 [0m[PHY]   Initializing gNB 0
- 二  02 14:00:59 [0m[PHY]   Registering with MAC interface module (before 0x56481934b510)
- 二  02 14:00:59 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 二  02 14:00:59 [0m[PHY]   Registering with MAC interface module (after 0x56481934b510)
- 二  02 14:00:59 [0m[PHY]   Setting indication lists
- 二  02 14:00:59 [0m[PHY]   [nr-gnb.c] gNB structure allocated
- 二  02 14:00:59 [0mwait_gNBs()
- 二  02 14:00:59 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 二  02 14:00:59 [PHY]   gNB 0 configured
- 二  02 14:00:59 [0m[PHY]   fp->scs=30000
- 二  02 14:00:59 [0m[PHY]   fp->ofdm_symbol_size=1536
- 二  02 14:00:59 [0m[PHY]   fp->nb_prefix_samples0=132
- 二  02 14:00:59 [0m[PHY]   fp->nb_prefix_samples=108
- 二  02 14:00:59 [0m[PHY]   fp->slots_per_subframe=2
- 二  02 14:00:59 [0m[PHY]   fp->samples_per_subframe_wCP=43008
- 二  02 14:00:59 [0m[PHY]   fp->samples_per_frame_wCP=430080
- 二  02 14:00:59 [0m[PHY]   fp->samples_per_subframe=46080
- 二  02 14:00:59 [0m[PHY]   fp->samples_per_frame=460800
- 二  02 14:00:59 [0m[PHY]   fp->dl_CarrierFreq=2179080000
- 二  02 14:00:59 [0m[PHY]   fp->ul_CarrierFreq=1779080000
- 二  02 14:00:59 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
- 二  02 14:00:59 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
- 二  02 14:00:59 
- 二  02 14:00:59  Read NR message unpack:  00  01  00  04  00  00  00  00 
- 二  02 14:00:59 [PNF] Received NFAPI_START_REQ phy_id:1
- 二  02 14:00:59 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
- 二  02 14:00:59 subframe_buffer_size configured using phy_info->timing_window:30
- 二  02 14:00:59 [PNF] Sending PNF_START_RESP
- 二  02 14:00:59 Sending NFAPI_START_RESPONSE config:0x564819349290 phy_id:1
- 二  02 14:00:59 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 二  02 14:00:59 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 二  02 14:00:59 [0mCalling sched_setscheduler(79)
- 二  02 14:00:59 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 二  02 14:01:00 [0mgNB L1 are configured
- 二  02 14:01:00 About to Init RU threads RC.nb_RU:1
- 二  02 14:01:00 Initializing RU threads
- 二  02 14:01:00 configuring RU from file
- 二  02 14:01:00 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (35 to default value)
- 二  02 14:01:00 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  02 14:01:00 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (19 to default value)
- 二  02 14:01:00 Set RU mask to 1
- 二  02 14:01:00 Creating RC.ru[0]:0x564819351da0
- 二  02 14:01:00 [PHY]   RU GPIO control set as 'generic'
- 二  02 14:01:00 [0m[PHY]   Setting clock source to internal
- 二  02 14:01:00 [0m[PHY]   Setting time source to internal
- 二  02 14:01:00 [0mSetting function for RU 0 to gNodeB_3GPP
- 二  02 14:01:00 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
- 二  02 14:01:00 [RU 0] Setting half-slot parallelization to 1
- 二  02 14:01:00 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 24
- 二  02 14:01:00 [0m[1;31m[PHY]   DJP - delete code above this /home/yen0224/openairinterface5g/executables/nr-ru.c:1820
- 二  02 14:01:00 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
- 二  02 14:01:00 [0mconfiguring ru_id 0 (start_rf 0x56481456c9d0)
- 二  02 14:01:00 [PHY]   Starting ru_thread 0
- 二  02 14:01:00 [0m[PHY]   Initializing RU proc 0 (,synch_to_ext_device),
- 二  02 14:01:00 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
- 二  02 14:01:00 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 4
- 二  02 14:01:00 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 二  02 14:01:00 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
- 二  02 14:01:00 [0m[PHY]   fp->scs=30000
- 二  02 14:01:00 [0m[PHY]   fp->ofdm_symbol_size=1536
- 二  02 14:01:00 [0m[PHY]   fp->nb_prefix_samples0=132
- 二  02 14:01:00 [0m[PHY]   fp->nb_prefix_samples=108
- 二  02 14:01:00 [0m[PHY]   fp->slots_per_subframe=2
- 二  02 14:01:00 [0m[PHY]   fp->samples_per_subframe_wCP=43008
- 二  02 14:01:00 [0m[PHY]   fp->samples_per_frame_wCP=430080
- 二  02 14:01:00 [0m[PHY]   fp->samples_per_subframe=46080
- 二  02 14:01:00 [0m[PHY]   fp->samples_per_frame=460800
- 二  02 14:01:00 [0m[PHY]   fp->dl_CarrierFreq=2179080000
- 二  02 14:01:00 [0m[PHY]   fp->ul_CarrierFreq=1779080000
- 二  02 14:01:00 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
- 二  02 14:01:00 [0m[PHY]   RU Thread pool size 2
- 二  02 14:01:00 [0m[PHY]   RU thread-pool core string -1,-1
- 二  02 14:01:00 [0mcreate a thread for core -1
- 二  02 14:01:00 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
- 二  02 14:01:00 [0m[PHY]   Channel 0: setting tx_gain offset 90, rx_gain offset 125, tx_freq 2179080000 Hz, rx_freq 1779080000 Hz, tune_offset 0 Hz, sample_rate 46080000 Hz
- 二  02 14:01:00 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
- 二  02 14:01:00 [0m[PHY]   [INIT] common.txdata[0] = 0x7f7c95f1e040 (1844480 bytes,sf_extension 320)
- 二  02 14:01:00 [0m[PHY]   [INIT] common.txdata[0] = 0x7f7c95f1e540 
- 二  02 14:01:00 [0m[PHY]   nb_tx 1
- 二  02 14:01:00 [0m[PHY]   rxdata_7_5kHz[0] 0x7f7c95ca6040 for RU 0
- 二  02 14:01:00 [0mcreate a thread for core -1
- 二  02 14:01:00 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
- 二  02 14:01:00 [0m[PHY]   [INIT] common.txdata_BF= 0x7f7c88000b00 (8 bytes)
- 二  02 14:01:00 [0m[PHY]   txdataF_BF[0] 0x7f7c952d5040 for RU 0
- 二  02 14:01:00 [0m[PHY]   rxdataF[0] 0x7f7c95280040 for RU 0
- 二  02 14:01:00 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
- 二  02 14:01:00 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
- 二  02 14:01:00 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
- 二  02 14:01:00 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
- 二  02 14:01:00 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
- 二  02 14:01:00 [LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
- 二  02 14:01:00 shlib_path liboai_device.so
- 二  02 14:01:00 [LOADER] library liboai_device.so successfully loaded
- 二  02 14:01:00 [HW]   openair0_cfg[0].sdr_addrs == '(null)'
- 二  02 14:01:00 [0m[HW]   openair0_cfg[0].clock_source == '0' (internal = 0, external = 1)
- 二  02 14:01:00 [0m[HW]   UHD version 4.3.0.HEAD-0-g2c96e57f (4.3.0)
- 二  02 14:01:00 [0m[INFO] [UHD] linux; GNU C++ version 9.4.0; Boost_107100; DPDK_20.5; UHD_4.3.0.HEAD-0-g2c96e57f
- 二  02 14:01:00 [HW]   Found USRP b200
- 二  02 14:01:00 [0m[INFO] [B200] Detected Device: B210
- 二  02 14:01:00 [INFO] [B200] Operating over USB 3.
- 二  02 14:01:00 [INFO] [B200] Initialize CODEC control...
- 二  02 14:01:00 [INFO] [B200] Initialize Radio control...
- 二  02 14:01:00 [INFO] [B200] Performing register loopback test... 
- 二  02 14:01:00 [INFO] [B200] Register loopback test passed
- 二  02 14:01:00 [INFO] [B200] Performing register loopback test... 
- 二  02 14:01:00 [INFO] [B200] Register loopback test passed
- 二  02 14:01:00 [INFO] [B200] Asking for clock rate 30.720000 MHz... 
- 二  02 14:01:00 [INFO] [B200] Actually got clock rate 30.720000 MHz.
- 二  02 14:01:01 [HW]   Setting clock source to internal
- 二  02 14:01:01 [0m[HW]   Setting time source to internal
- 二  02 14:01:01 [0m-- Using calibration table: calib_table_b210_38
- 二  02 14:01:01 [INFO] [B200] Asking for clock rate 46.080000 MHz... 
- 二  02 14:01:01 [INFO] [B200] Actually got clock rate 46.080000 MHz.
- 二  02 14:01:01 [WARNING] [CORES] Timer loopback test failed!
- 二  02 14:01:01 [WARNING] [CORES] Expecting clock rate: 46.08 MHz
- 二  02 14:01:01 Approximate clock rate: 0 MHz
- 二  02 14:01:01 
- 二  02 14:01:02 [HW]   cal 0: freq 3500000000.000000, offset 44.000000, diff 1720920000.000000
- 二  02 14:01:02 [0m[HW]   cal 1: freq 2660000000.000000, offset 49.800000, diff 880920000.000000
- 二  02 14:01:02 [0m[HW]   cal 2: freq 2300000000.000000, offset 51.000000, diff 520920000.000000
- 二  02 14:01:02 [0m[HW]   cal 3: freq 1880000000.000000, offset 53.000000, diff 100920000.000000
- 二  02 14:01:02 [0m[HW]   cal 4: freq 816000000.000000, offset 57.000000, diff 963080000.000000
- 二  02 14:01:02 [0m[HW]   RX Gain 0 125.000000 (53.000000) => 72.000000 (max 76.000000)
- 二  02 14:01:02 [0m[HW]   USRP TX_GAIN:-0.25 gain_range:89.75 tx_gain:90.00
- 二  02 14:01:02 [0m[HW]   Actual master clock: 46.080000MHz...
- 二  02 14:01:02 [0m[HW]   Actual clock source internal...
- 二  02 14:01:02 [0m[HW]   Actual time source internal...
- 二  02 14:01:02 [0m[HW]   setting rx channel 0
- 二  02 14:01:02 [0m[HW]   RF board max packet size 1916, size for 100µs jitter 4608 
- 二  02 14:01:02 [0m[HW]   rx_max_num_samps 1916
- 二  02 14:01:02 [0m[HW]   RX Channel 0
- 二  02 14:01:02 [0m[HW]     Actual RX sample rate: 46.080000MSps...
- 二  02 14:01:02 [0m[HW]     Actual RX frequency: 1.779080GHz...
- 二  02 14:01:02 [0m[HW]     Actual RX gain: 72.000000...
- 二  02 14:01:02 [0m[HW]     Actual RX bandwidth: 40.000000M...
- 二  02 14:01:02 [0m[HW]     Actual RX antenna: RX2...
- 二  02 14:01:02 [0m[HW]   TX Channel 0
- 二  02 14:01:02 [0m[HW]     Actual TX sample rate: 46.080000MSps...
- 二  02 14:01:02 [0m[HW]     Actual TX frequency: 2.179080GHz...
- 二  02 14:01:02 [0m[HW]     Actual TX gain: 0.000000...
- 二  02 14:01:02 [0m[HW]     Actual TX bandwidth: 40.000000M...
- 二  02 14:01:02 [0m[HW]     Actual TX antenna: TX/RX...
- 二  02 14:01:02 [0m[HW]     Actual TX packet size: 1916
- 二  02 14:01:02 [0mUsing Device: Single USRP:
- 二  02 14:01:02   Device: B-Series Device
- 二  02 14:01:02   Mboard 0: B210
- 二  02 14:01:02   RX Channel: 0
- 二  02 14:01:02     RX DSP: 0
- 二  02 14:01:02     RX Dboard: A
- 二  02 14:01:02     RX Subdev: FE-RX2
- 二  02 14:01:02   RX Channel: 1
- 二  02 14:01:02     RX DSP: 1
- 二  02 14:01:02     RX Dboard: A
- 二  02 14:01:02     RX Subdev: FE-RX1
- 二  02 14:01:02   TX Channel: 0
- 二  02 14:01:02     TX DSP: 0
- 二  02 14:01:02     TX Dboard: A
- 二  02 14:01:02     TX Subdev: FE-TX2
- 二  02 14:01:02   TX Channel: 1
- 二  02 14:01:02     TX DSP: 1
- 二  02 14:01:02     TX Dboard: A
- 二  02 14:01:02     TX Subdev: FE-TX1
- 二  02 14:01:02 
- 二  02 14:01:02 [HW]   Device timestamp: 1.167554...
- 二  02 14:01:02 [0m[HW]   [RAU] has loaded USRP B200 device.
- 二  02 14:01:02 [0msetup_RU_buffers: frame_parms = 0x7f7c968e2010
- 二  02 14:01:02 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
- 二  02 14:01:02 [0mwaiting for sync (ru_thread,-1/0x5648151060b4,0x5648169a21a0,0x5648169a13e0)
- 二  02 14:01:04 [PNF] waiting for OAI to be configured (eNB/RU)
- 二  02 14:01:04 [PNF] OAI eNB/RU configured
- 二  02 14:01:04 [PNF] About to call init_eNB_afterRU()
- 二  02 14:01:04 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
- 二  02 14:01:04 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7f7c97991010
- 二  02 14:01:04 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
- 二  02 14:01:04 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
- 二  02 14:01:04 shlib_path libdfts.so
- 二  02 14:01:04 [LOADER] library libdfts.so successfully loaded
- 二  02 14:01:04 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
- 二  02 14:01:04 shlib_path libldpc.so
- 二  02 14:01:04 [LOADER] library libldpc.so successfully loaded
- 二  02 14:01:05 [PHY]   Initialise nr transport
- 二  02 14:01:05 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
- 二  02 14:01:05 [0m[PHY]   gNB->num_RU:1
- 二  02 14:01:05 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0mcreate a thread for core -1
- 二  02 14:01:05 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 50
- 二  02 14:01:05 [0m[PHY]   Creating thread for TX reordering and dispatching to RU
- 二  02 14:01:05 [0m[UTIL]   Creating thread thread_tx_reorder with affinity -1 and priority 97
- 二  02 14:01:05 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
- 二  02 14:01:05 [0mwaiting for sync (L1_stats_thread,-1/0x5648151060b4,0x5648169a21a0,0x5648169a13e0)
- 二  02 14:01:05 NFAPI: got sync (main?)
- 二  02 14:01:05 wait RUs
- 二  02 14:01:05 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
- 二  02 14:01:05 [0m[PHY]   RUs configured
- 二  02 14:01:05 [0mALL RUs READY!
- 二  02 14:01:05 RC.nb_RU:1
- 二  02 14:01:05 ALL RUs ready - init gNBs
- 二  02 14:01:05 NFAPI mode - DO NOT call init_gNB_afterRU()
- 二  02 14:01:05 ALL RUs ready - ALL gNBs ready
- 二  02 14:01:05 Sending sync to all threads
- 二  02 14:01:05 got sync (ru_thread)
- 二  02 14:01:05 Entering ITTI signals handler
- 二  02 14:01:05 TYPE <CTRL-C> TO TERMINATE
- 二  02 14:01:05 got sync (L1_stats_thread)
- 二  02 14:01:05 [HW]   current pps at 4.000000, starting streaming at 5.000000
- 二  02 14:01:05 [0m[PHY]   RU 0 rf device ready
- 二  02 14:01:05 [0m[PHY]   RU 0 RF started opp_enabled 0
- 二  02 14:01:05 [0msleep...
- 二  02 14:01:05 sleep...
- 二  02 14:01:05 sleep...
- 二  02 14:01:05 sleep...
- 二  02 14:01:05 sleep...
- 二  02 14:01:05 sleep...
- 二  02 14:01:06 sleep...
- 二  02 14:01:06 sleep...
- 二  02 14:01:06 sleep...
- 二  02 14:01:06 [PHY]   tx_reorder_thread started
- 二  02 14:01:06 [0m[NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 7
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 6
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10006 <= recv_sfn_slot_dec + timing_window: 10037
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 8
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 7
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10007 <= recv_sfn_slot_dec + timing_window: 10038
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 9
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 8
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10008 <= recv_sfn_slot_dec + timing_window: 10039
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 10
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 9
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10009 <= recv_sfn_slot_dec + timing_window: 10040
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 11
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 10
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10010 <= recv_sfn_slot_dec + timing_window: 10041
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 12
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 11
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10011 <= recv_sfn_slot_dec + timing_window: 10042
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 13
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 12
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10012 <= recv_sfn_slot_dec + timing_window: 10043
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 14
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 13
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10013 <= recv_sfn_slot_dec + timing_window: 10044
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 15
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 14
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10014 <= recv_sfn_slot_dec + timing_window: 10045
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 16
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 15
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10015 <= recv_sfn_slot_dec + timing_window: 10046
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 17
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 16
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10016 <= recv_sfn_slot_dec + timing_window: 10047
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 18
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 17
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10017 <= recv_sfn_slot_dec + timing_window: 10048
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 500, p7_msg_slot: 19
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 18
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10018 <= recv_sfn_slot_dec + timing_window: 10049
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 0
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 500, phy_slot   : 19
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10019 <= recv_sfn_slot_dec + timing_window: 10050
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 1
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 0
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10020 <= recv_sfn_slot_dec + timing_window: 10051
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 2
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 1
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10021 <= recv_sfn_slot_dec + timing_window: 10052
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 3
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 2
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10022 <= recv_sfn_slot_dec + timing_window: 10053
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 4
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 3
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10023 <= recv_sfn_slot_dec + timing_window: 10054
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 5
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 4
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10024 <= recv_sfn_slot_dec + timing_window: 10055
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 6
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 5
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10025 <= recv_sfn_slot_dec + timing_window: 10056
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 7
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 6
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10026 <= recv_sfn_slot_dec + timing_window: 10057
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 8
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 7
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10027 <= recv_sfn_slot_dec + timing_window: 10058
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 9
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 8
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10028 <= recv_sfn_slot_dec + timing_window: 10059
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 10
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 9
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10029 <= recv_sfn_slot_dec + timing_window: 10060
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 11
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 10
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10030 <= recv_sfn_slot_dec + timing_window: 10061
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 12
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 11
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10031 <= recv_sfn_slot_dec + timing_window: 10062
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 13
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 12
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10032 <= recv_sfn_slot_dec + timing_window: 10063
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 14
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 13
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10033 <= recv_sfn_slot_dec + timing_window: 10064
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 15
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 14
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10034 <= recv_sfn_slot_dec + timing_window: 10065
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 16
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 15
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10035 <= recv_sfn_slot_dec + timing_window: 10066
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 17
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 16
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10036 <= recv_sfn_slot_dec + timing_window: 10067
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 18
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 17
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10037 <= recv_sfn_slot_dec + timing_window: 10068
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 501, p7_msg_slot: 19
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 18
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10038 <= recv_sfn_slot_dec + timing_window: 10069
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 0
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 501, phy_slot   : 19
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10039 <= recv_sfn_slot_dec + timing_window: 10070
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 1
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 0
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10040 <= recv_sfn_slot_dec + timing_window: 10071
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 2
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 1
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10041 <= recv_sfn_slot_dec + timing_window: 10072
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 3
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 2
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10042 <= recv_sfn_slot_dec + timing_window: 10073
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 4
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 3
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10043 <= recv_sfn_slot_dec + timing_window: 10074
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 5
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 4
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10044 <= recv_sfn_slot_dec + timing_window: 10075
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 6
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 5
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10045 <= recv_sfn_slot_dec + timing_window: 10076
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 7
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 6
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10046 <= recv_sfn_slot_dec + timing_window: 10077
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 8
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 7
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10047 <= recv_sfn_slot_dec + timing_window: 10078
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 9
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 8
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10048 <= recv_sfn_slot_dec + timing_window: 10079
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 10
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 9
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10049 <= recv_sfn_slot_dec + timing_window: 10080
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 11
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 10
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10050 <= recv_sfn_slot_dec + timing_window: 10081
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 12
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 11
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10051 <= recv_sfn_slot_dec + timing_window: 10082
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 13
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 12
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10052 <= recv_sfn_slot_dec + timing_window: 10083
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 14
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 13
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10053 <= recv_sfn_slot_dec + timing_window: 10084
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 15
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 14
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10054 <= recv_sfn_slot_dec + timing_window: 10085
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 16
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 15
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10055 <= recv_sfn_slot_dec + timing_window: 10086
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 17
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 16
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10056 <= recv_sfn_slot_dec + timing_window: 10087
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 18
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 17
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10057 <= recv_sfn_slot_dec + timing_window: 10088
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 502, p7_msg_slot: 19
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 18
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10058 <= recv_sfn_slot_dec + timing_window: 10089
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 0
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 502, phy_slot   : 19
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10059 <= recv_sfn_slot_dec + timing_window: 10090
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 1
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 0
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10060 <= recv_sfn_slot_dec + timing_window: 10091
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 2
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 1
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10061 <= recv_sfn_slot_dec + timing_window: 10092
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 3
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 2
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10062 <= recv_sfn_slot_dec + timing_window: 10093
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 4
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 3
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10063 <= recv_sfn_slot_dec + timing_window: 10094
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 5
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 4
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10064 <= recv_sfn_slot_dec + timing_window: 10095
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 6
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 5
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10065 <= recv_sfn_slot_dec + timing_window: 10096
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 7
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 6
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10066 <= recv_sfn_slot_dec + timing_window: 10097
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 8
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 7
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10067 <= recv_sfn_slot_dec + timing_window: 10098
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 9
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 8
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10068 <= recv_sfn_slot_dec + timing_window: 10099
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 10
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 9
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10069 <= recv_sfn_slot_dec + timing_window: 10100
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 11
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 10
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10070 <= recv_sfn_slot_dec + timing_window: 10101
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 12
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 11
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10071 <= recv_sfn_slot_dec + timing_window: 10102
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 13
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 12
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10072 <= recv_sfn_slot_dec + timing_window: 10103
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 14
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 13
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10073 <= recv_sfn_slot_dec + timing_window: 10104
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 15
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 14
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10074 <= recv_sfn_slot_dec + timing_window: 10105
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 16
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 15
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10075 <= recv_sfn_slot_dec + timing_window: 10106
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 17
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 16
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10076 <= recv_sfn_slot_dec + timing_window: 10107
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 18
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 17
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10077 <= recv_sfn_slot_dec + timing_window: 10108
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 503, p7_msg_slot: 19
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 18
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10078 <= recv_sfn_slot_dec + timing_window: 10109
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:06 100604762331 [E] 2534995712: unpack_dl_tti_request_body_value: FIXME : Invalid DL_TTI pdu type 256 
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 504, p7_msg_slot: 0
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 503, phy_slot   : 19
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10079 <= recv_sfn_slot_dec + timing_window: 10110
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 1
- 二  02 14:01:06 pnf_phy_dl_tti_req() TX:0/0 RX:0/0; sfn:504, slot:0, nGroup:1, nPDUs: 1, nUE: 0x7f7c4c0053e0, PduIdx: 0x7f7c4c0054e0,
- 二  02 14:01:06 100604762337 [E] 2534995712: pnf_phy_dl_tti_req: pnf_phy_dl_tti_req() UNKNOWN:256
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 1
- 二  02 14:01:06 pnf_phy_dl_tti_req() TX:0/0 RX:0/0; sfn:504, slot:0, nGroup:1, nPDUs: 1, nUE: 0x7f7c4c0053e0, PduIdx: 0x7f7c4c0054e0,
- 二  02 14:01:06 100604762765 [E] 2164233984: pnf_phy_dl_tti_req: pnf_phy_dl_tti_req() UNKNOWN:256
- 二  02 14:01:06 [NFAPI PNF P7] p7_msg_sfn  : 504, p7_msg_slot: 1
- 二  02 14:01:06 [NFAPI PNF P7] phy_sfn     : 504, phy_slot   : 2
- 二  02 14:01:06 [NFAPI PNF P7] The current_sfn_slot_dec : 10082 <= recv_sfn_slot_dec + timing_window: 10111
- 二  02 14:01:06 
- 二  02 14:01:06 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
- 二  02 14:01:10 U[PNF] waiting for OAI to be started
+ 二  02 16:02:48 CMDLINE: "/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "PNF" 
+ 二  02 16:02:48 [CONFIG] get parameters from libconfig /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf
+ 二  02 16:02:48 [CONFIG] function config_libconfig_init returned 0
+ 二  02 16:02:48 [CONFIG] config module libconfig loaded
+ 二  02 16:02:48 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 二  02 16:02:48 [CONFIG] debug flags: 0x00000000
+ 二  02 16:02:48 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 二  02 16:02:48 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
+ 二  02 16:02:48 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+ 二  02 16:02:48 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 二  02 16:02:48 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 二  02 16:02:48 log init done
+ 二  02 16:02:48 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 二  02 16:02:48 [0mReading in command-line options
+ 二  02 16:02:48 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
+ 二  02 16:02:48 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 二  02 16:02:48 [ENB_APP]   nfapi running mode: PNF
+ 二  02 16:02:48 [0m[GNB_APP]   Getting GNBSParams
+ 二  02 16:02:48 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  02 16:02:48 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 二  02 16:02:48 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 二  02 16:02:48 [CONFIG] parallel_conf is set to 0
+ 二  02 16:02:48 [CONFIG] worker_conf is set to 1
+ 二  02 16:02:48 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+ 二  02 16:02:48 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 二  02 16:02:48 configuring for RAU/RRU
+ 二  02 16:02:49 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 二  02 16:02:49 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 二  02 16:02:49 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 二  02 16:02:49 [OPT]   OPT disabled
+ 二  02 16:02:49 [0m[HW]   Version: Branch: develop Abrev. Hash: c7eed4ac17 Date: Wed Jan 17 23:30:33 2024 +0800
+ 二  02 16:02:49 [0m[NR_PHY]   RC.gNB = 0x5621083c4240
+ 二  02 16:02:49 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
+ 二  02 16:02:49 [PHY]   L1_RX_THREAD_CORE -1 (16)
+ 二  02 16:02:49 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+ 二  02 16:02:49 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+ 二  02 16:02:49 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+ 二  02 16:02:49 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+ 二  02 16:02:49 [0mconfigure_nr_nfapi_pnf() PNF
+ 二  02 16:02:49 
+ 二  02 16:02:49 
+ 二  02 16:02:49 
+ 二  02 16:02:49 
+ 二  02 16:02:49 
+ 二  02 16:02:49 [ENB_APP]   nfapi running mode: PNF
+ 二  02 16:02:49 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
+ 二  02 16:02:49 Initializing northbound interface for L1
+ 二  02 16:02:49 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 二  02 16:02:49 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 二  02 16:02:49 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5621083c7510
+ 二  02 16:02:49 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 二  02 16:02:49 [0m
+ 二  02 16:02:49  Read NR message unpack:  00  00  01  00  00  00  00  00 
+ 二  02 16:02:49 [PNF] pnf param request
+ 二  02 16:02:49 
+ 二  02 16:02:49  Read NR message unpack:  00  00  01  02  00  15  00  00  00  10  03  00  0e  00  02  00  01  00  00  00  00  00  00  00  00  00  00  00  00 
+ 二  02 16:02:49 [PNF] pnf config request
+ 二  02 16:02:49 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+ 二  02 16:02:49 [PNF] Sent pnf_config_resp
+ 二  02 16:02:49 
+ 二  02 16:02:49  Read NR message unpack:  00  00  01  04  00  00  00  00 
+ 二  02 16:02:49 Received NFAPI_PNF_START_REQUEST
+ 二  02 16:02:49 [PNF] Sent NFAPI_PNF_START_RESP
+ 二  02 16:02:49 
+ 二  02 16:02:49  Read NR message unpack:  00  01  00  00  00  00  00  00 
+ 二  02 16:02:49 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+ 二  02 16:02:49 TAG value :2
+ 二  02 16:02:49 RUNNING pack_param_response
+ 二  02 16:02:49 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+ 二  02 16:02:49 [PNF] param request .. exit
+ 二  02 16:02:49 
+ 二  02 16:02:49  Read NR message unpack:  00  01  00  02  00  f9  00  00  23  10  01  00  04  00  00  00  14  10  02  00  04  00  20  f5  80  10  04  00  02  00  6a  00  00  10  05  00  02  00  01  00  00  10  06  00  04  00  00  00  14  10  07  00  04  00  1a  db  00  10  09  00  02  00  6a  00  00  10  0a  00  02  00  01  00  00  10  0c  00  01  01  00  00  00  10  0d  00  01  00  00  00  00  10  0e  00  04  00  00  00  00  10  10  00  01  01  00  00  00  10  12  00  01  01  00  00  00  10  13  00  01  00  00  00  00  10  14  00  01  01  00  00  00  10  29  00  01  10  00  00  00  10  15  00  02  00  00  00  00  10  17  00  02  00  00  00  00  10  18  00  01  04  00  00  00  10  1b  00  01  01  00  00  00  10  1d  00  02  00  18  00  00  10  1f  00  01  02  00  00  00  10  20  00  01  00  00  00  00  10  21  00  04  00  00  06  00  10  22  00  04  00  00  00  01  10  23  00  01  00  00  00  00  01  00  00  04  7f  00  00  01  01  02  00  02  c5  b3  00  00  01  1f  00  01  03  00  00  00  01  20  00  01  0a  00  00  00  01  1e  00  01  1e  00  00  00 
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : The ppReadPackedMsg value is: 4101580968
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1001
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1002
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1004
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1005
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1006
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1007
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1009
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x100a
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x100c
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x100d
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x100e
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1010
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1012
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1013
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1014
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1029
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1015
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1017
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1018
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x101b
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x101d
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x101f
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1020
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1021
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1022
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x1023
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x0100
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x0102
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x011f
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x0120
+ 二  02 16:02:49 
+ 二  02 16:02:49 NTUST test : TAG value: 0x011e
+ 二  02 16:02:49 [PNF] vnf p7 127.0.0.1:50611
+ 二  02 16:02:49 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+ 二  02 16:02:49 
+ 二  02 16:02:49 Timing window tag: 286
+ 二  02 16:02:49 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+ 二  02 16:02:49 timing info mode:3
+ 二  02 16:02:49 timing info period provided value:10
+ 二  02 16:02:49 nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:20
+ 二  02 16:02:49 [PNF] CONFIG_REQUEST[num_tlv:35] TLVs processed:6
+ 二  02 16:02:49 [PNF] Simulating PHY CONFIG
+ 二  02 16:02:49 
+ 二  02 16:02:49 [NTUST] match table:(27)! dl_freq_khz:2179080
+ 二  02 16:02:49 [NTUST] current_offset_khz:4294777296
+ 二  02 16:02:49 [NTUST] delta_duplex_khz:4294567296
+ 二  02 16:02:49 [NTUST] ul_min:1920000
+ 二  02 16:02:49 [NTUST] dl_min:2110000
+ 二  02 16:02:49 
+ 二  02 16:02:49 [NTUST] match table:(28)! dl_freq_khz:2179080
+ 二  02 16:02:49 [NTUST] current_offset_khz:4294567296
+ 二  02 16:02:49 [NTUST] delta_duplex_khz:4294567296
+ 二  02 16:02:49 [NTUST] ul_min:1710000
+ 二  02 16:02:49 [NTUST] dl_min:2110000
+ 二  02 16:02:49 
+ 二  02 16:02:49 [NTUST] center_frequency_khz:2155000
+ 二  02 16:02:49 [NTUST] center_freq_diff_khz:24080
+ 二  02 16:02:49 DL frequency 2179080000: band 66, UL frequency 1779080000
+ 二  02 16:02:49 [PHY]   DL frequency 2179080000 Hz, UL frequency 1779080000 Hz: band 66, uldl offset -400000000 Hz
+ 二  02 16:02:49 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 1,DL freq 2179080000, UL freq 1779080000)
+ 二  02 16:02:49 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 二  02 16:02:49 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
+ 二  02 16:02:49 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 二  02 16:02:49 START MAIN THREADS
+ 二  02 16:02:49 RC.nb_nr_L1_inst:1
+ 二  02 16:02:49 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+ 二  02 16:02:49 [PHY]   Initializing gNB 0 single_thread_flag:1
+ 二  02 16:02:49 [0m[PHY]   Initializing gNB 0
+ 二  02 16:02:49 [0m[PHY]   Registering with MAC interface module (before 0x5621083c7510)
+ 二  02 16:02:49 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 二  02 16:02:49 [0m[PHY]   Registering with MAC interface module (after 0x5621083c7510)
+ 二  02 16:02:49 [0m[PHY]   Setting indication lists
+ 二  02 16:02:49 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+ 二  02 16:02:49 [0mwait_gNBs()
+ 二  02 16:02:49 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 二  02 16:02:49 [PHY]   gNB 0 configured
+ 二  02 16:02:49 [0m[PHY]   fp->scs=30000
+ 二  02 16:02:49 [0m[PHY]   fp->ofdm_symbol_size=1536
+ 二  02 16:02:49 [0m[PHY]   fp->nb_prefix_samples0=132
+ 二  02 16:02:49 [0m[PHY]   fp->nb_prefix_samples=108
+ 二  02 16:02:49 [0m[PHY]   fp->slots_per_subframe=2
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_subframe_wCP=43008
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_frame_wCP=430080
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_subframe=46080
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_frame=460800
+ 二  02 16:02:49 [0m[PHY]   fp->dl_CarrierFreq=2179080000
+ 二  02 16:02:49 [0m[PHY]   fp->ul_CarrierFreq=1779080000
+ 二  02 16:02:49 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
+ 二  02 16:02:49 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+ 二  02 16:02:49 
+ 二  02 16:02:49  Read NR message unpack:  00  01  00  04  00  00  00  00 
+ 二  02 16:02:49 [PNF] Received NFAPI_START_REQ phy_id:1
+ 二  02 16:02:49 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
+ 二  02 16:02:49 subframe_buffer_size configured using phy_info->timing_window:30
+ 二  02 16:02:49 [PNF] Sending PNF_START_RESP
+ 二  02 16:02:49 Sending NFAPI_START_RESPONSE config:0x5621083c5290 phy_id:1
+ 二  02 16:02:49 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 二  02 16:02:49 [0mCalling sched_setscheduler(79)
+ 二  02 16:02:49 [PHY]   Installing callbacks for IF_Module - UL_indication
+ 二  02 16:02:49 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 二  02 16:02:49 [0mgNB L1 are configured
+ 二  02 16:02:49 About to Init RU threads RC.nb_RU:1
+ 二  02 16:02:49 Initializing RU threads
+ 二  02 16:02:49 configuring RU from file
+ 二  02 16:02:49 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (35 to default value)
+ 二  02 16:02:49 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  02 16:02:49 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (19 to default value)
+ 二  02 16:02:49 Set RU mask to 1
+ 二  02 16:02:49 Creating RC.ru[0]:0x5621083cdda0
+ 二  02 16:02:49 [PHY]   RU GPIO control set as 'generic'
+ 二  02 16:02:49 [0m[PHY]   Setting clock source to internal
+ 二  02 16:02:49 [0m[PHY]   Setting time source to internal
+ 二  02 16:02:49 [0mSetting function for RU 0 to gNodeB_3GPP
+ 二  02 16:02:49 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
+ 二  02 16:02:49 [RU 0] Setting half-slot parallelization to 1
+ 二  02 16:02:49 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 24
+ 二  02 16:02:49 [0m[1;31m[PHY]   DJP - delete code above this /home/yen0224/openairinterface5g/executables/nr-ru.c:1820
+ 二  02 16:02:49 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+ 二  02 16:02:49 [0mconfiguring ru_id 0 (start_rf 0x56210431a9d0)
+ 二  02 16:02:49 [PHY]   Starting ru_thread 0
+ 二  02 16:02:49 [0m[PHY]   Initializing RU proc 0 (,synch_to_ext_device),
+ 二  02 16:02:49 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+ 二  02 16:02:49 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 14
+ 二  02 16:02:49 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 二  02 16:02:49 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132, ofdm_symbol_size 1536
+ 二  02 16:02:49 [0m[PHY]   fp->scs=30000
+ 二  02 16:02:49 [0m[PHY]   fp->ofdm_symbol_size=1536
+ 二  02 16:02:49 [0m[PHY]   fp->nb_prefix_samples0=132
+ 二  02 16:02:49 [0m[PHY]   fp->nb_prefix_samples=108
+ 二  02 16:02:49 [0m[PHY]   fp->slots_per_subframe=2
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_subframe_wCP=43008
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_frame_wCP=430080
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_subframe=46080
+ 二  02 16:02:49 [0m[PHY]   fp->samples_per_frame=460800
+ 二  02 16:02:49 [0m[PHY]   fp->dl_CarrierFreq=2179080000
+ 二  02 16:02:49 [0m[PHY]   fp->ul_CarrierFreq=1779080000
+ 二  02 16:02:49 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+ 二  02 16:02:49 [0m[PHY]   RU Thread pool size 2
+ 二  02 16:02:49 [0m[PHY]   RU thread-pool core string -1,-1
+ 二  02 16:02:49 [0mcreate a thread for core -1
+ 二  02 16:02:49 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+ 二  02 16:02:49 [0m[PHY]   Channel 0: setting tx_gain offset 90, rx_gain offset 125, tx_freq 2179080000 Hz, rx_freq 1779080000 Hz, tune_offset 0 Hz, sample_rate 46080000 Hz
+ 二  02 16:02:49 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+ 二  02 16:02:49 [0m[PHY]   [INIT] common.txdata[0] = 0x7f03f2d21040 (1844480 bytes,sf_extension 320)
+ 二  02 16:02:49 [0m[PHY]   [INIT] common.txdata[0] = 0x7f03f2d21540 
+ 二  02 16:02:49 [0m[PHY]   nb_tx 1
+ 二  02 16:02:49 [0mcreate a thread for core -1
+ 二  02 16:02:49 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+ 二  02 16:02:49 [0m[PHY]   rxdata_7_5kHz[0] 0x7f03f22a8040 for RU 0
+ 二  02 16:02:49 [0m[PHY]   [INIT] common.txdata_BF= 0x7f03e4000b00 (8 bytes)
+ 二  02 16:02:49 [0m[PHY]   txdataF_BF[0] 0x7f03f20d8040 for RU 0
+ 二  02 16:02:49 [0m[PHY]   rxdataF[0] 0x7f03f2083040 for RU 0
+ 二  02 16:02:49 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
+ 二  02 16:02:49 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+ 二  02 16:02:49 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+ 二  02 16:02:49 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+ 二  02 16:02:49 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+ 二  02 16:02:49 [LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
+ 二  02 16:02:49 shlib_path liboai_device.so
+ 二  02 16:02:49 [LOADER] library liboai_device.so successfully loaded
+ 二  02 16:02:49 [HW]   openair0_cfg[0].sdr_addrs == '(null)'
+ 二  02 16:02:49 [0m[HW]   openair0_cfg[0].clock_source == '0' (internal = 0, external = 1)
+ 二  02 16:02:49 [0m[HW]   UHD version 4.3.0.HEAD-0-g2c96e57f (4.3.0)
+ 二  02 16:02:49 [0m[INFO] [UHD] linux; GNU C++ version 9.4.0; Boost_107100; DPDK_20.5; UHD_4.3.0.HEAD-0-g2c96e57f
+ 二  02 16:02:49 [HW]   Found USRP b200
+ 二  02 16:02:49 [0m[INFO] [B200] Detected Device: B210
+ 二  02 16:02:49 [INFO] [B200] Operating over USB 3.
+ 二  02 16:02:49 [INFO] [B200] Initialize CODEC control...
+ 二  02 16:02:49 [INFO] [B200] Initialize Radio control...
+ 二  02 16:02:49 [INFO] [B200] Performing register loopback test... 
+ 二  02 16:02:49 [INFO] [B200] Register loopback test passed
+ 二  02 16:02:49 [INFO] [B200] Performing register loopback test... 
+ 二  02 16:02:49 [INFO] [B200] Register loopback test passed
+ 二  02 16:02:49 [INFO] [B200] Asking for clock rate 30.720000 MHz... 
+ 二  02 16:02:50 [INFO] [B200] Actually got clock rate 30.720000 MHz.
+ 二  02 16:02:50 [HW]   Setting clock source to internal
+ 二  02 16:02:50 [0m[HW]   Setting time source to internal
+ 二  02 16:02:50 [0m-- Using calibration table: calib_table_b210_38
+ 二  02 16:02:50 [INFO] [B200] Asking for clock rate 46.080000 MHz... 
+ 二  02 16:02:50 [INFO] [B200] Actually got clock rate 46.080000 MHz.
+ 二  02 16:02:51 [HW]   cal 0: freq 3500000000.000000, offset 44.000000, diff 1720920000.000000
+ 二  02 16:02:51 [0m[HW]   cal 1: freq 2660000000.000000, offset 49.800000, diff 880920000.000000
+ 二  02 16:02:51 [0m[HW]   cal 2: freq 2300000000.000000, offset 51.000000, diff 520920000.000000
+ 二  02 16:02:51 [0m[HW]   cal 3: freq 1880000000.000000, offset 53.000000, diff 100920000.000000
+ 二  02 16:02:51 [0m[HW]   cal 4: freq 816000000.000000, offset 57.000000, diff 963080000.000000
+ 二  02 16:02:51 [0m[HW]   RX Gain 0 125.000000 (53.000000) => 72.000000 (max 76.000000)
+ 二  02 16:02:51 [0m[HW]   USRP TX_GAIN:-0.25 gain_range:89.75 tx_gain:90.00
+ 二  02 16:02:51 [0m[HW]   Actual master clock: 46.080000MHz...
+ 二  02 16:02:51 [0m[HW]   Actual clock source internal...
+ 二  02 16:02:51 [0m[HW]   Actual time source internal...
+ 二  02 16:02:51 [0m[HW]   setting rx channel 0
+ 二  02 16:02:51 [0m[HW]   RF board max packet size 1916, size for 100µs jitter 4608 
+ 二  02 16:02:51 [0m[HW]   rx_max_num_samps 1916
+ 二  02 16:02:51 [0m[HW]   RX Channel 0
+ 二  02 16:02:51 [0m[HW]     Actual RX sample rate: 46.080000MSps...
+ 二  02 16:02:51 [0m[HW]     Actual RX frequency: 1.779080GHz...
+ 二  02 16:02:51 [0m[HW]     Actual RX gain: 72.000000...
+ 二  02 16:02:51 [0m[HW]     Actual RX bandwidth: 40.000000M...
+ 二  02 16:02:51 [0m[HW]     Actual RX antenna: RX2...
+ 二  02 16:02:51 [0m[HW]   TX Channel 0
+ 二  02 16:02:51 [0m[HW]     Actual TX sample rate: 46.080000MSps...
+ 二  02 16:02:51 [0m[HW]     Actual TX frequency: 2.179080GHz...
+ 二  02 16:02:51 [0m[HW]     Actual TX gain: 0.000000...
+ 二  02 16:02:51 [0m[HW]     Actual TX bandwidth: 40.000000M...
+ 二  02 16:02:51 [0m[HW]     Actual TX antenna: TX/RX...
+ 二  02 16:02:51 [0m[HW]     Actual TX packet size: 1916
+ 二  02 16:02:51 [0mUsing Device: Single USRP:
+ 二  02 16:02:51   Device: B-Series Device
+ 二  02 16:02:51   Mboard 0: B210
+ 二  02 16:02:51   RX Channel: 0
+ 二  02 16:02:51     RX DSP: 0
+ 二  02 16:02:51     RX Dboard: A
+ 二  02 16:02:51     RX Subdev: FE-RX2
+ 二  02 16:02:51   RX Channel: 1
+ 二  02 16:02:51     RX DSP: 1
+ 二  02 16:02:51     RX Dboard: A
+ 二  02 16:02:51     RX Subdev: FE-RX1
+ 二  02 16:02:51   TX Channel: 0
+ 二  02 16:02:51     TX DSP: 0
+ 二  02 16:02:51     TX Dboard: A
+ 二  02 16:02:51     TX Subdev: FE-TX2
+ 二  02 16:02:51   TX Channel: 1
+ 二  02 16:02:51     TX DSP: 1
+ 二  02 16:02:51     TX Dboard: A
+ 二  02 16:02:51     TX Subdev: FE-TX1
+ 二  02 16:02:51 
+ 二  02 16:02:51 [HW]   Device timestamp: 1.167514...
+ 二  02 16:02:51 [0m[HW]   [RAU] has loaded USRP B200 device.
+ 二  02 16:02:51 [0msetup_RU_buffers: frame_parms = 0x7f03f36e5010
+ 二  02 16:02:51 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
+ 二  02 16:02:51 [0mwaiting for sync (ru_thread,-1/0x562104eb40b4,0x5621067501a0,0x56210674f3e0)
+ 二  02 16:02:54 [PNF] waiting for OAI to be configured (eNB/RU)
+ 二  02 16:02:54 [PNF] OAI eNB/RU configured
+ 二  02 16:02:54 [PNF] About to call init_eNB_afterRU()
+ 二  02 16:02:54 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+ 二  02 16:02:54 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7f03f4794010
+ 二  02 16:02:54 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+ 二  02 16:02:54 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+ 二  02 16:02:54 shlib_path libdfts.so
+ 二  02 16:02:54 [LOADER] library libdfts.so successfully loaded
+ 二  02 16:02:54 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+ 二  02 16:02:54 shlib_path libldpc.so
+ 二  02 16:02:54 [LOADER] library libldpc.so successfully loaded
+ 二  02 16:02:54 [PHY]   Initialise nr transport
+ 二  02 16:02:54 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
+ 二  02 16:02:54 [0m[PHY]   gNB->num_RU:1
+ 二  02 16:02:54 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0mcreate a thread for core -1
+ 二  02 16:02:54 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 50
+ 二  02 16:02:54 [0m[PHY]   Creating thread for TX reordering and dispatching to RU
+ 二  02 16:02:54 [0m[UTIL]   Creating thread thread_tx_reorder with affinity -1 and priority 97
+ 二  02 16:02:54 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+ 二  02 16:02:54 [0mwaiting for sync (L1_stats_thread,-1/0x562104eb40b4,0x5621067501a0,0x56210674f3e0)
+ 二  02 16:02:54 NFAPI: got sync (main?)
+ 二  02 16:02:54 wait RUs
+ 二  02 16:02:54 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+ 二  02 16:02:54 [0m[PHY]   RUs configured
+ 二  02 16:02:54 [0mALL RUs READY!
+ 二  02 16:02:54 RC.nb_RU:1
+ 二  02 16:02:54 ALL RUs ready - init gNBs
+ 二  02 16:02:54 NFAPI mode - DO NOT call init_gNB_afterRU()
+ 二  02 16:02:54 ALL RUs ready - ALL gNBs ready
+ 二  02 16:02:54 Sending sync to all threads
+ 二  02 16:02:54 Entering ITTI signals handler
+ 二  02 16:02:54 TYPE <CTRL-C> TO TERMINATE
+ 二  02 16:02:54 got sync (L1_stats_thread)
+ 二  02 16:02:54 got sync (ru_thread)
+ 二  02 16:02:54 [HW]   current pps at 4.832228, starting streaming at 5.832228
+ 二  02 16:02:54 [0m[PHY]   RU 0 rf device ready
+ 二  02 16:02:54 [0m[PHY]   RU 0 RF started opp_enabled 0
+ 二  02 16:02:54 [0msleep...
+ 二  02 16:02:54 sleep...
+ 二  02 16:02:54 sleep...
+ 二  02 16:02:55 sleep...
+ 二  02 16:02:55 sleep...
+ 二  02 16:02:55 sleep...
+ 二  02 16:02:55 sleep...
+ 二  02 16:02:55 sleep...
+ 二  02 16:02:55 sleep...
+ 二  02 16:02:55 [PHY]   tx_reorder_thread started
+ 二  02 16:02:55 [0m[NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 11
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 11
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11671 <= recv_sfn_slot_dec + timing_window: 11701
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 12
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 11
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11671 <= recv_sfn_slot_dec + timing_window: 11702
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 13
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 12
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11672 <= recv_sfn_slot_dec + timing_window: 11703
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 14
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 13
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11673 <= recv_sfn_slot_dec + timing_window: 11704
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 15
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 14
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11674 <= recv_sfn_slot_dec + timing_window: 11705
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 16
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 15
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11675 <= recv_sfn_slot_dec + timing_window: 11706
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 17
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 17
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11677 <= recv_sfn_slot_dec + timing_window: 11707
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 18
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 17
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11677 <= recv_sfn_slot_dec + timing_window: 11708
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 583, p7_msg_slot: 19
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 583, phy_slot   : 18
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11678 <= recv_sfn_slot_dec + timing_window: 11709
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 584, p7_msg_slot: 0
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 584, phy_slot   : 0
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11680 <= recv_sfn_slot_dec + timing_window: 11710
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 1
+ 二  02 16:02:55 pnf_phy_dl_tti_req() TX:0/0 RX:0/0; sfn:584, slot:0, nGroup:1, nPDUs: 1, nUE: 0x7f03a800a970, PduIdx: 0x7f03a800aa70,
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 1
+ 二  02 16:02:55 pnf_phy_dl_tti_req() TX:0/0 RX:0/0; sfn:584, slot:0, nGroup:1, nPDUs: 1, nUE: 0x7f03a800a970, PduIdx: 0x7f03a800aa70,
+ 二  02 16:02:55 [NFAPI PNF P7] p7_msg_sfn  : 584, p7_msg_slot: 1
+ 二  02 16:02:55 [NFAPI PNF P7] phy_sfn     : 584, phy_slot   : 3
+ 二  02 16:02:55 [NFAPI PNF P7] The current_sfn_slot_dec : 11683 <= recv_sfn_slot_dec + timing_window: 11711
+ 二  02 16:02:55 
+ 二  02 16:02:55 DEBUG  -->  pnf_phy_dl_tti_req() -->  number of PDU: 0
+ 二  02 16:02:59 U[PNF] waiting for OAI to be started
