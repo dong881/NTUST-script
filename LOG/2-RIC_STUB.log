@@ -1,318 +1,318 @@
- 二  02 13:44:08 
- 二  02 13:44:08 Creating thread here /home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2/src/mt/mt_ss.c 3743
- 二  02 13:44:08 
- 二  02 13:44:08 INFO  --> RIC : Starting RIC_STUB
- 二  02 13:44:09 INFO  --> RIC : Reading RIC configurations
- 二  02 13:44:09 INFO   -->  SCTP : Connecting
- 二  02 13:44:09 INFO   -->  SCTP : Connection established
- 二  02 13:44:09 INFO  -->  SCTP : Polling started at RIC
- 二  02 13:44:09 
- 二  02 13:44:09 INFO  -->  E2AP : Received E2AP message buffer
- 二  02 13:44:09 DEBUG  -->  E2AP : Received flat buffer to be decoded : 010ffffff82100040310200030b264fffffff629500001010a0ffffff80ffffffb900840ffffff80ffffffb3001ffffff80ffffff9060304f52414e2d4532534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111000018312e332e362e312e342e312e35333134382e312e322e322e320320ffffff8135000330ffffff812e19ffffff8010ffffff80ffffffde010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48064fffffff62900001001001864fffffff629000ffffff8340c01402023440ffffffa06781055f000410406ffffff97ffffff8000410274ffffffe07101133ffffffd45200300c587c328ffffffa34061466cffffff900ffffff8000ffffff80000f7f0020281210ffffff82300426ffffffce1966ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc10010ffffff9effffffae70ffffffcb36ffffffa0ffffff805248a67ffffffcc79fffffff812718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f504940104500304e020105240106ffffff80674e422d45757265636f6d2d435503024000401e6064fffffff62900001001000760d00904010ffffff900ffffffa0ffffff94400
- 二  02 13:44:09 <E2AP-PDU>
- 二  02 13:44:09     <initiatingMessage>
- 二  02 13:44:09         <procedureCode>1</procedureCode>
- 二  02 13:44:09         <criticality><reject/></criticality>
- 二  02 13:44:09         <value>
- 二  02 13:44:09             <E2setupRequest>
- 二  02 13:44:09                 <protocolIEs>
- 二  02 13:44:09                     <E2setupRequestIEs>
- 二  02 13:44:09                         <id>49</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <TransactionID>0</TransactionID>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupRequestIEs>
- 二  02 13:44:09                     <E2setupRequestIEs>
- 二  02 13:44:09                         <id>3</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <GlobalE2node-ID>
- 二  02 13:44:09                                 <gNB>
- 二  02 13:44:09                                     <global-gNB-ID>
- 二  02 13:44:09                                         <plmn-id>64 F6 29</plmn-id>
- 二  02 13:44:09                                         <gnb-id>
- 二  02 13:44:09                                             <gnb-ID>
- 二  02 13:44:09                                                 00000000000000000000000000000001
- 二  02 13:44:09                                             </gnb-ID>
- 二  02 13:44:09                                         </gnb-id>
- 二  02 13:44:09                                     </global-gNB-ID>
- 二  02 13:44:09                                     <gNB-DU-ID>1</gNB-DU-ID>
- 二  02 13:44:09                                 </gNB>
- 二  02 13:44:09                             </GlobalE2node-ID>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupRequestIEs>
- 二  02 13:44:09                     <E2setupRequestIEs>
- 二  02 13:44:09                         <id>10</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <RANfunctions-List>
- 二  02 13:44:09                                 <ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                                     <id>8</id>
- 二  02 13:44:09                                     <criticality><ignore/></criticality>
- 二  02 13:44:09                                     <value>
- 二  02 13:44:09                                         <RANfunction-Item>
- 二  02 13:44:09                                             <ranFunctionID>1</ranFunctionID>
- 二  02 13:44:09                                             <ranFunctionDefinition>
- 二  02 13:44:09                                                 60 30 4F 52 41 4E 2D 45 32 53 4D 2D 4B 50 4D 00 
- 二  02 13:44:09                                                 00 18 31 2E 33 2E 36 2E 31 2E 34 2E 31 2E 35 33 
- 二  02 13:44:09                                                 31 34 38 2E 31 2E 32 2E 32 2E 32 05 00 4B 50 4D 
- 二  02 13:44:09                                                 20 4D 6F 6E 69 74 6F 72 00 01 01 07 00 50 65 72 
- 二  02 13:44:09                                                 69 6F 64 69 63 20 52 65 70 6F 72 74 01 01 00 01 
- 二  02 13:44:09                                                 01 09 00 45 32 20 4E 6F 64 65 20 4D 65 61 73 75 
- 二  02 13:44:09                                                 72 65 6D 65 6E 74 01 01 00 01 41 60 52 52 55 2E 
- 二  02 13:44:09                                                 50 72 62 54 6F 74 44 6C 00 00 00 41 60 52 52 55 
- 二  02 13:44:09                                                 2E 50 72 62 54 6F 74 55 6C 00 00 01 01 01 01 01
- 二  02 13:44:09                                             </ranFunctionDefinition>
- 二  02 13:44:09                                             <ranFunctionRevision>0</ranFunctionRevision>
- 二  02 13:44:09                                             <ranFunctionOID>1.3.6.1.4.1.53148.1.2.2.2</ranFunctionOID>
- 二  02 13:44:09                                         </RANfunction-Item>
- 二  02 13:44:09                                     </value>
- 二  02 13:44:09                                 </ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                             </RANfunctions-List>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupRequestIEs>
- 二  02 13:44:09                     <E2setupRequestIEs>
- 二  02 13:44:09                         <id>50</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <E2nodeComponentConfigAddition-List>
- 二  02 13:44:09                                 <ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                                     <id>51</id>
- 二  02 13:44:09                                     <criticality><reject/></criticality>
- 二  02 13:44:09                                     <value>
- 二  02 13:44:09                                         <E2nodeComponentConfigAddition-Item>
- 二  02 13:44:09                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
- 二  02 13:44:09                                             <e2nodeComponentID>
- 二  02 13:44:09                                                 <e2nodeComponentInterfaceTypeF1>
- 二  02 13:44:09                                                     <gNB-DU-ID>1</gNB-DU-ID>
- 二  02 13:44:09                                                 </e2nodeComponentInterfaceTypeF1>
- 二  02 13:44:09                                             </e2nodeComponentID>
- 二  02 13:44:09                                             <e2nodeComponentConfiguration>
- 二  02 13:44:09                                                 <e2nodeComponentRequestPart>
- 二  02 13:44:09                                                     00 01 00 80 D9 00 00 05 00 4E 00 02 00 01 00 2A 
- 二  02 13:44:09                                                     00 02 00 01 00 2D 40 0D 05 00 4F 52 41 4E 20 4F 
- 二  02 13:44:09                                                     41 4D 20 44 55 00 2C 00 80 A6 00 00 00 2B 00 80 
- 二  02 13:44:09                                                     9F 48 00 64 F6 29 00 00 00 00 10 00 01 00 00 01 
- 二  02 13:44:09                                                     08 64 F6 29 00 00 00 83 40 0C 00 01 40 20 02 03 
- 二  02 13:44:09                                                     04 40 A0 06 07 08 01 00 05 5F 00 00 00 41 00 40 
- 二  02 13:44:09                                                     06 97 80 00 00 41 00 27 04 E0 07 10 11 33 D4 05 
- 二  02 13:44:09                                                     02 00 00 03 00 00 0C 58 7C 03 28 A3 40 61 46 6C 
- 二  02 13:44:09                                                     90 00 80 00 00 80 00 00 00 0F 7F 00 00 20 28 12 
- 二  02 13:44:09                                                     10 82 03 00 00 04 26 CE 19 66 BB 00 36 04 02 00 
- 二  02 13:44:09                                                     0F 11 00 82 0D 18 08 50 50 9B 88 82 C1 00 00 10 
- 二  02 13:44:09                                                     9E AE 70 CB 36 A0 80 52 48 0A 67 CC 79 F8 01 27 
- 二  02 13:44:09                                                     18 88 51 50 8C 25 40 80 EC 04 16 03 E0 08 5E 00 
- 二  02 13:44:09                                                     00 AB 00 0A 80 00 00 00 C7 00 03 0F 05 00
- 二  02 13:44:09                                                 </e2nodeComponentRequestPart>
- 二  02 13:44:09                                                 <e2nodeComponentResponsePart>
- 二  02 13:44:09                                                     40 01 00 45 00 00 03 00 4E 00 02 00 01 00 52 40 
- 二  02 13:44:09                                                     10 06 80 67 4E 42 2D 45 75 72 65 63 6F 6D 2D 43 
- 二  02 13:44:09                                                     55 00 03 00 24 00 00 00 04 00 1E 60 64 F6 29 00 
- 二  02 13:44:09                                                     00 00 00 10 00 01 00 00 00 76 00 0D 00 00 09 00 
- 二  02 13:44:09                                                     40 01 00 90 00 A0 94 40 00
- 二  02 13:44:09                                                 </e2nodeComponentResponsePart>
- 二  02 13:44:09                                             </e2nodeComponentConfiguration>
- 二  02 13:44:09                                         </E2nodeComponentConfigAddition-Item>
- 二  02 13:44:09                                     </value>
- 二  02 13:44:09                                 </ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                             </E2nodeComponentConfigAddition-List>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupRequestIEs>
- 二  02 13:44:09                 </protocolIEs>
- 二  02 13:44:09             </E2setupRequest>
- 二  02 13:44:09         </value>
- 二  02 13:44:09     </initiatingMessage>
- 二  02 13:44:09 </E2AP-PDU>
- 二  02 13:44:09 
- 二  02 13:44:09 INFO  -->  E2AP : E2 setup request received
- 二  02 13:44:09 INFO   -->  E2AP : Building E2 Setup Response
- 二  02 13:44:09 <E2AP-PDU>
- 二  02 13:44:09     <successfulOutcome>
- 二  02 13:44:09         <procedureCode>1</procedureCode>
- 二  02 13:44:09         <criticality><reject/></criticality>
- 二  02 13:44:09         <value>
- 二  02 13:44:09             <E2setupResponse>
- 二  02 13:44:09                 <protocolIEs>
- 二  02 13:44:09                     <E2setupResponseIEs>
- 二  02 13:44:09                         <id>49</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <TransactionID>0</TransactionID>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupResponseIEs>
- 二  02 13:44:09                     <E2setupResponseIEs>
- 二  02 13:44:09                         <id>4</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <GlobalRIC-ID>
- 二  02 13:44:09                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
- 二  02 13:44:09                                 <ric-ID>
- 二  02 13:44:09                                     00000000000000000001
- 二  02 13:44:09                                 </ric-ID>
- 二  02 13:44:09                             </GlobalRIC-ID>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupResponseIEs>
- 二  02 13:44:09                     <E2setupResponseIEs>
- 二  02 13:44:09                         <id>9</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <RANfunctionsID-List>
- 二  02 13:44:09                                 <ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                                     <id>6</id>
- 二  02 13:44:09                                     <criticality><ignore/></criticality>
- 二  02 13:44:09                                     <value>
- 二  02 13:44:09                                         <RANfunctionID-Item>
- 二  02 13:44:09                                             <ranFunctionID>1</ranFunctionID>
- 二  02 13:44:09                                             <ranFunctionRevision>0</ranFunctionRevision>
- 二  02 13:44:09                                         </RANfunctionID-Item>
- 二  02 13:44:09                                     </value>
- 二  02 13:44:09                                 </ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                             </RANfunctionsID-List>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupResponseIEs>
- 二  02 13:44:09                     <E2setupResponseIEs>
- 二  02 13:44:09                         <id>52</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <E2nodeComponentConfigAdditionAck-List>
- 二  02 13:44:09                                 <ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                                     <id>53</id>
- 二  02 13:44:09                                     <criticality><reject/></criticality>
- 二  02 13:44:09                                     <value>
- 二  02 13:44:09                                         <E2nodeComponentConfigAdditionAck-Item>
- 二  02 13:44:09                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
- 二  02 13:44:09                                             <e2nodeComponentID>
- 二  02 13:44:09                                                 <e2nodeComponentInterfaceTypeF1>
- 二  02 13:44:09                                                     <gNB-DU-ID>1</gNB-DU-ID>
- 二  02 13:44:09                                                 </e2nodeComponentInterfaceTypeF1>
- 二  02 13:44:09                                             </e2nodeComponentID>
- 二  02 13:44:09                                             <e2nodeComponentConfigurationAck>
- 二  02 13:44:09                                                 <updateOutcome><success/></updateOutcome>
- 二  02 13:44:09                                             </e2nodeComponentConfigurationAck>
- 二  02 13:44:09                                         </E2nodeComponentConfigAdditionAck-Item>
- 二  02 13:44:09                                     </value>
- 二  02 13:44:09                                 </ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                             </E2nodeComponentConfigAdditionAck-List>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2setupResponseIEs>
- 二  02 13:44:09                 </protocolIEs>
- 二  02 13:44:09             </E2setupResponse>
- 二  02 13:44:09         </value>
- 二  02 13:44:09     </successfulOutcome>
- 二  02 13:44:09 </E2AP-PDU>
- 二  02 13:44:09 
- 二  02 13:44:09 DEBUG  -->  E2AP : Created APER encoded buffer for E2SetupResponse
- 二  02 13:44:09 20103000403102000407013fffffff1ffffff840010090a006405001000340a000350419ffffff8010
- 二  02 13:44:09 INFO   -->  E2AP : Building RIC Subscription Request
- 二  02 13:44:09 <E2SM-KPM-EventTriggerDefinition>
- 二  02 13:44:09     <eventDefinition-formats>
- 二  02 13:44:09         <eventDefinition-Format1>
- 二  02 13:44:09             <reportingPeriod>1000</reportingPeriod>
- 二  02 13:44:09         </eventDefinition-Format1>
- 二  02 13:44:09     </eventDefinition-formats>
- 二  02 13:44:09 </E2SM-KPM-EventTriggerDefinition>
- 二  02 13:44:09 <E2SM-KPM-ActionDefinition>
- 二  02 13:44:09     <ric-Style-Type>1</ric-Style-Type>
- 二  02 13:44:09     <actionDefinition-formats>
- 二  02 13:44:09         <actionDefinition-Format1>
- 二  02 13:44:09             <measInfoList>
- 二  02 13:44:09                 <MeasurementInfoItem>
- 二  02 13:44:09                     <measType>
- 二  02 13:44:09                         <measName>RRU.PrbTotDl</measName>
- 二  02 13:44:09                     </measType>
- 二  02 13:44:09                     <labelInfoList>
- 二  02 13:44:09                     </labelInfoList>
- 二  02 13:44:09                 </MeasurementInfoItem>
- 二  02 13:44:09                 <MeasurementInfoItem>
- 二  02 13:44:09                     <measType>
- 二  02 13:44:09                         <measName>RRU.PrbTotUl</measName>
- 二  02 13:44:09                     </measType>
- 二  02 13:44:09                     <labelInfoList>
- 二  02 13:44:09                     </labelInfoList>
- 二  02 13:44:09                 </MeasurementInfoItem>
- 二  02 13:44:09             </measInfoList>
- 二  02 13:44:09             <granulPeriod>100</granulPeriod>
- 二  02 13:44:09         </actionDefinition-Format1>
- 二  02 13:44:09     </actionDefinition-formats>
- 二  02 13:44:09 </E2SM-KPM-ActionDefinition>
- 二  02 13:44:09 <E2AP-PDU>
- 二  02 13:44:09     <initiatingMessage>
- 二  02 13:44:09         <procedureCode>8</procedureCode>
- 二  02 13:44:09         <criticality><reject/></criticality>
- 二  02 13:44:09         <value>
- 二  02 13:44:09             <RICsubscriptionRequest>
- 二  02 13:44:09                 <protocolIEs>
- 二  02 13:44:09                     <RICsubscriptionRequest-IEs>
- 二  02 13:44:09                         <id>29</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <RICrequestID>
- 二  02 13:44:09                                 <ricRequestorID>1</ricRequestorID>
- 二  02 13:44:09                                 <ricInstanceID>1</ricInstanceID>
- 二  02 13:44:09                             </RICrequestID>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </RICsubscriptionRequest-IEs>
- 二  02 13:44:09                     <RICsubscriptionRequest-IEs>
- 二  02 13:44:09                         <id>5</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <RANfunctionID>1</RANfunctionID>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </RICsubscriptionRequest-IEs>
- 二  02 13:44:09                     <RICsubscriptionRequest-IEs>
- 二  02 13:44:09                         <id>30</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <RICsubscriptionDetails>
- 二  02 13:44:09                                 <ricEventTriggerDefinition>08 03 E7</ricEventTriggerDefinition>
- 二  02 13:44:09                                 <ricAction-ToBeSetup-List>
- 二  02 13:44:09                                     <ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                                         <id>19</id>
- 二  02 13:44:09                                         <criticality><ignore/></criticality>
- 二  02 13:44:09                                         <value>
- 二  02 13:44:09                                             <RICaction-ToBeSetup-Item>
- 二  02 13:44:09                                                 <ricActionID>0</ricActionID>
- 二  02 13:44:09                                                 <ricActionType><report/></ricActionType>
- 二  02 13:44:09                                                 <ricActionDefinition>
- 二  02 13:44:09                                                     00 01 01 00 00 01 00 B0 52 52 55 2E 50 72 62 54 
- 二  02 13:44:09                                                     6F 74 44 6C 00 00 B0 52 52 55 2E 50 72 62 54 6F 
- 二  02 13:44:09                                                     74 55 6C 00 00 63
- 二  02 13:44:09                                                 </ricActionDefinition>
- 二  02 13:44:09                                             </RICaction-ToBeSetup-Item>
- 二  02 13:44:09                                         </value>
- 二  02 13:44:09                                     </ProtocolIE-SingleContainerE2>
- 二  02 13:44:09                                 </ricAction-ToBeSetup-List>
- 二  02 13:44:09                             </RICsubscriptionDetails>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </RICsubscriptionRequest-IEs>
- 二  02 13:44:09                 </protocolIEs>
- 二  02 13:44:09             </RICsubscriptionRequest>
- 二  02 13:44:09         </value>
- 二  02 13:44:09     </initiatingMessage>
- 二  02 13:44:09 </E2AP-PDU>
- 二  02 13:44:09 
- 二  02 13:44:09 DEBUG  -->  E2AP : Created APER encoded buffer for RicSubscriptionRequest
- 二  02 13:44:09 0804a00301d050010105020101e0340383ffffffe70013402a4000260110010ffffffb05252552e507262546f74446c00ffffffb05252552e507262546f74556c0063
- 二  02 13:44:09 INFO  -->  E2AP : Received E2AP message buffer
- 二  02 13:44:09 DEBUG  -->  E2AP : Received flat buffer to be decoded : 0a090010310201
- 二  02 13:44:09 <E2AP-PDU>
- 二  02 13:44:09     <initiatingMessage>
- 二  02 13:44:09         <procedureCode>10</procedureCode>
- 二  02 13:44:09         <criticality><reject/></criticality>
- 二  02 13:44:09         <value>
- 二  02 13:44:09             <E2nodeConfigurationUpdate>
- 二  02 13:44:09                 <protocolIEs>
- 二  02 13:44:09                     <E2nodeConfigurationUpdate-IEs>
- 二  02 13:44:09                         <id>49</id>
- 二  02 13:44:09                         <criticality><reject/></criticality>
- 二  02 13:44:09                         <value>
- 二  02 13:44:09                             <TransactionID>1</TransactionID>
- 二  02 13:44:09                         </value>
- 二  02 13:44:09                     </E2nodeConfigurationUpdate-IEs>
- 二  02 13:44:09                 </protocolIEs>
- 二  02 13:44:09             </E2nodeConfigurationUpdate>
- 二  02 13:44:09         </value>
- 二  02 13:44:09     </initiatingMessage>
- 二  02 13:44:09 </E2AP-PDU>
- 二  02 13:44:09 
+ 二  02 14:00:53 
+ 二  02 14:00:53 Creating thread here /home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2/src/mt/mt_ss.c 3743
+ 二  02 14:00:53 
+ 二  02 14:00:53 INFO  --> RIC : Starting RIC_STUB
+ 二  02 14:00:54 INFO  --> RIC : Reading RIC configurations
+ 二  02 14:00:54 INFO   -->  SCTP : Connecting
+ 二  02 14:00:54 INFO   -->  SCTP : Connection established
+ 二  02 14:00:54 INFO  -->  SCTP : Polling started at RIC
+ 二  02 14:00:54 
+ 二  02 14:00:54 INFO  -->  E2AP : Received E2AP message buffer
+ 二  02 14:00:54 DEBUG  -->  E2AP : Received flat buffer to be decoded : 010ffffff82100040310200030b264fffffff629500001010a0ffffff80ffffffb900840ffffff80ffffffb3001ffffff80ffffff9060304f52414e2d4532534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111000018312e332e362e312e342e312e35333134382e312e322e322e320320ffffff8135000330ffffff812e19ffffff8010ffffff80ffffffde010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48064fffffff62900001001001864fffffff629000ffffff8340c01402023440ffffffa06781055f000410406ffffff97ffffff8000410274ffffffe07101133ffffffd45200300c587c328ffffffa34061466cffffff900ffffff8000ffffff80000f7f0020281210ffffff82300426ffffffce1966ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc10010ffffff9effffffae70ffffffcb36ffffffa0ffffff805248a67ffffffcc79fffffff812718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f504940104500304e020105240106ffffff80674e422d45757265636f6d2d435503024000401e6064fffffff62900001001000760d00904010ffffff900ffffffa0ffffff94400
+ 二  02 14:00:54 <E2AP-PDU>
+ 二  02 14:00:54     <initiatingMessage>
+ 二  02 14:00:54         <procedureCode>1</procedureCode>
+ 二  02 14:00:54         <criticality><reject/></criticality>
+ 二  02 14:00:54         <value>
+ 二  02 14:00:54             <E2setupRequest>
+ 二  02 14:00:54                 <protocolIEs>
+ 二  02 14:00:54                     <E2setupRequestIEs>
+ 二  02 14:00:54                         <id>49</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <TransactionID>0</TransactionID>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupRequestIEs>
+ 二  02 14:00:54                     <E2setupRequestIEs>
+ 二  02 14:00:54                         <id>3</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <GlobalE2node-ID>
+ 二  02 14:00:54                                 <gNB>
+ 二  02 14:00:54                                     <global-gNB-ID>
+ 二  02 14:00:54                                         <plmn-id>64 F6 29</plmn-id>
+ 二  02 14:00:54                                         <gnb-id>
+ 二  02 14:00:54                                             <gnb-ID>
+ 二  02 14:00:54                                                 00000000000000000000000000000001
+ 二  02 14:00:54                                             </gnb-ID>
+ 二  02 14:00:54                                         </gnb-id>
+ 二  02 14:00:54                                     </global-gNB-ID>
+ 二  02 14:00:54                                     <gNB-DU-ID>1</gNB-DU-ID>
+ 二  02 14:00:54                                 </gNB>
+ 二  02 14:00:54                             </GlobalE2node-ID>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupRequestIEs>
+ 二  02 14:00:54                     <E2setupRequestIEs>
+ 二  02 14:00:54                         <id>10</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <RANfunctions-List>
+ 二  02 14:00:54                                 <ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                                     <id>8</id>
+ 二  02 14:00:54                                     <criticality><ignore/></criticality>
+ 二  02 14:00:54                                     <value>
+ 二  02 14:00:54                                         <RANfunction-Item>
+ 二  02 14:00:54                                             <ranFunctionID>1</ranFunctionID>
+ 二  02 14:00:54                                             <ranFunctionDefinition>
+ 二  02 14:00:54                                                 60 30 4F 52 41 4E 2D 45 32 53 4D 2D 4B 50 4D 00 
+ 二  02 14:00:54                                                 00 18 31 2E 33 2E 36 2E 31 2E 34 2E 31 2E 35 33 
+ 二  02 14:00:54                                                 31 34 38 2E 31 2E 32 2E 32 2E 32 05 00 4B 50 4D 
+ 二  02 14:00:54                                                 20 4D 6F 6E 69 74 6F 72 00 01 01 07 00 50 65 72 
+ 二  02 14:00:54                                                 69 6F 64 69 63 20 52 65 70 6F 72 74 01 01 00 01 
+ 二  02 14:00:54                                                 01 09 00 45 32 20 4E 6F 64 65 20 4D 65 61 73 75 
+ 二  02 14:00:54                                                 72 65 6D 65 6E 74 01 01 00 01 41 60 52 52 55 2E 
+ 二  02 14:00:54                                                 50 72 62 54 6F 74 44 6C 00 00 00 41 60 52 52 55 
+ 二  02 14:00:54                                                 2E 50 72 62 54 6F 74 55 6C 00 00 01 01 01 01 01
+ 二  02 14:00:54                                             </ranFunctionDefinition>
+ 二  02 14:00:54                                             <ranFunctionRevision>0</ranFunctionRevision>
+ 二  02 14:00:54                                             <ranFunctionOID>1.3.6.1.4.1.53148.1.2.2.2</ranFunctionOID>
+ 二  02 14:00:54                                         </RANfunction-Item>
+ 二  02 14:00:54                                     </value>
+ 二  02 14:00:54                                 </ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                             </RANfunctions-List>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupRequestIEs>
+ 二  02 14:00:54                     <E2setupRequestIEs>
+ 二  02 14:00:54                         <id>50</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <E2nodeComponentConfigAddition-List>
+ 二  02 14:00:54                                 <ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                                     <id>51</id>
+ 二  02 14:00:54                                     <criticality><reject/></criticality>
+ 二  02 14:00:54                                     <value>
+ 二  02 14:00:54                                         <E2nodeComponentConfigAddition-Item>
+ 二  02 14:00:54                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+ 二  02 14:00:54                                             <e2nodeComponentID>
+ 二  02 14:00:54                                                 <e2nodeComponentInterfaceTypeF1>
+ 二  02 14:00:54                                                     <gNB-DU-ID>1</gNB-DU-ID>
+ 二  02 14:00:54                                                 </e2nodeComponentInterfaceTypeF1>
+ 二  02 14:00:54                                             </e2nodeComponentID>
+ 二  02 14:00:54                                             <e2nodeComponentConfiguration>
+ 二  02 14:00:54                                                 <e2nodeComponentRequestPart>
+ 二  02 14:00:54                                                     00 01 00 80 D9 00 00 05 00 4E 00 02 00 01 00 2A 
+ 二  02 14:00:54                                                     00 02 00 01 00 2D 40 0D 05 00 4F 52 41 4E 20 4F 
+ 二  02 14:00:54                                                     41 4D 20 44 55 00 2C 00 80 A6 00 00 00 2B 00 80 
+ 二  02 14:00:54                                                     9F 48 00 64 F6 29 00 00 00 00 10 00 01 00 00 01 
+ 二  02 14:00:54                                                     08 64 F6 29 00 00 00 83 40 0C 00 01 40 20 02 03 
+ 二  02 14:00:54                                                     04 40 A0 06 07 08 01 00 05 5F 00 00 00 41 00 40 
+ 二  02 14:00:54                                                     06 97 80 00 00 41 00 27 04 E0 07 10 11 33 D4 05 
+ 二  02 14:00:54                                                     02 00 00 03 00 00 0C 58 7C 03 28 A3 40 61 46 6C 
+ 二  02 14:00:54                                                     90 00 80 00 00 80 00 00 00 0F 7F 00 00 20 28 12 
+ 二  02 14:00:54                                                     10 82 03 00 00 04 26 CE 19 66 BB 00 36 04 02 00 
+ 二  02 14:00:54                                                     0F 11 00 82 0D 18 08 50 50 9B 88 82 C1 00 00 10 
+ 二  02 14:00:54                                                     9E AE 70 CB 36 A0 80 52 48 0A 67 CC 79 F8 01 27 
+ 二  02 14:00:54                                                     18 88 51 50 8C 25 40 80 EC 04 16 03 E0 08 5E 00 
+ 二  02 14:00:54                                                     00 AB 00 0A 80 00 00 00 C7 00 03 0F 05 00
+ 二  02 14:00:54                                                 </e2nodeComponentRequestPart>
+ 二  02 14:00:54                                                 <e2nodeComponentResponsePart>
+ 二  02 14:00:54                                                     40 01 00 45 00 00 03 00 4E 00 02 00 01 00 52 40 
+ 二  02 14:00:54                                                     10 06 80 67 4E 42 2D 45 75 72 65 63 6F 6D 2D 43 
+ 二  02 14:00:54                                                     55 00 03 00 24 00 00 00 04 00 1E 60 64 F6 29 00 
+ 二  02 14:00:54                                                     00 00 00 10 00 01 00 00 00 76 00 0D 00 00 09 00 
+ 二  02 14:00:54                                                     40 01 00 90 00 A0 94 40 00
+ 二  02 14:00:54                                                 </e2nodeComponentResponsePart>
+ 二  02 14:00:54                                             </e2nodeComponentConfiguration>
+ 二  02 14:00:54                                         </E2nodeComponentConfigAddition-Item>
+ 二  02 14:00:54                                     </value>
+ 二  02 14:00:54                                 </ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                             </E2nodeComponentConfigAddition-List>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupRequestIEs>
+ 二  02 14:00:54                 </protocolIEs>
+ 二  02 14:00:54             </E2setupRequest>
+ 二  02 14:00:54         </value>
+ 二  02 14:00:54     </initiatingMessage>
+ 二  02 14:00:54 </E2AP-PDU>
+ 二  02 14:00:54 
+ 二  02 14:00:54 INFO  -->  E2AP : E2 setup request received
+ 二  02 14:00:54 INFO   -->  E2AP : Building E2 Setup Response
+ 二  02 14:00:54 <E2AP-PDU>
+ 二  02 14:00:54     <successfulOutcome>
+ 二  02 14:00:54         <procedureCode>1</procedureCode>
+ 二  02 14:00:54         <criticality><reject/></criticality>
+ 二  02 14:00:54         <value>
+ 二  02 14:00:54             <E2setupResponse>
+ 二  02 14:00:54                 <protocolIEs>
+ 二  02 14:00:54                     <E2setupResponseIEs>
+ 二  02 14:00:54                         <id>49</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <TransactionID>0</TransactionID>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupResponseIEs>
+ 二  02 14:00:54                     <E2setupResponseIEs>
+ 二  02 14:00:54                         <id>4</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <GlobalRIC-ID>
+ 二  02 14:00:54                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
+ 二  02 14:00:54                                 <ric-ID>
+ 二  02 14:00:54                                     00000000000000000001
+ 二  02 14:00:54                                 </ric-ID>
+ 二  02 14:00:54                             </GlobalRIC-ID>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupResponseIEs>
+ 二  02 14:00:54                     <E2setupResponseIEs>
+ 二  02 14:00:54                         <id>9</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <RANfunctionsID-List>
+ 二  02 14:00:54                                 <ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                                     <id>6</id>
+ 二  02 14:00:54                                     <criticality><ignore/></criticality>
+ 二  02 14:00:54                                     <value>
+ 二  02 14:00:54                                         <RANfunctionID-Item>
+ 二  02 14:00:54                                             <ranFunctionID>1</ranFunctionID>
+ 二  02 14:00:54                                             <ranFunctionRevision>0</ranFunctionRevision>
+ 二  02 14:00:54                                         </RANfunctionID-Item>
+ 二  02 14:00:54                                     </value>
+ 二  02 14:00:54                                 </ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                             </RANfunctionsID-List>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupResponseIEs>
+ 二  02 14:00:54                     <E2setupResponseIEs>
+ 二  02 14:00:54                         <id>52</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <E2nodeComponentConfigAdditionAck-List>
+ 二  02 14:00:54                                 <ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                                     <id>53</id>
+ 二  02 14:00:54                                     <criticality><reject/></criticality>
+ 二  02 14:00:54                                     <value>
+ 二  02 14:00:54                                         <E2nodeComponentConfigAdditionAck-Item>
+ 二  02 14:00:54                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+ 二  02 14:00:54                                             <e2nodeComponentID>
+ 二  02 14:00:54                                                 <e2nodeComponentInterfaceTypeF1>
+ 二  02 14:00:54                                                     <gNB-DU-ID>1</gNB-DU-ID>
+ 二  02 14:00:54                                                 </e2nodeComponentInterfaceTypeF1>
+ 二  02 14:00:54                                             </e2nodeComponentID>
+ 二  02 14:00:54                                             <e2nodeComponentConfigurationAck>
+ 二  02 14:00:54                                                 <updateOutcome><success/></updateOutcome>
+ 二  02 14:00:54                                             </e2nodeComponentConfigurationAck>
+ 二  02 14:00:54                                         </E2nodeComponentConfigAdditionAck-Item>
+ 二  02 14:00:54                                     </value>
+ 二  02 14:00:54                                 </ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                             </E2nodeComponentConfigAdditionAck-List>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2setupResponseIEs>
+ 二  02 14:00:54                 </protocolIEs>
+ 二  02 14:00:54             </E2setupResponse>
+ 二  02 14:00:54         </value>
+ 二  02 14:00:54     </successfulOutcome>
+ 二  02 14:00:54 </E2AP-PDU>
+ 二  02 14:00:54 
+ 二  02 14:00:54 DEBUG  -->  E2AP : Created APER encoded buffer for E2SetupResponse
+ 二  02 14:00:54 20103000403102000407013fffffff1ffffff840010090a006405001000340a000350419ffffff8010
+ 二  02 14:00:54 INFO   -->  E2AP : Building RIC Subscription Request
+ 二  02 14:00:54 <E2SM-KPM-EventTriggerDefinition>
+ 二  02 14:00:54     <eventDefinition-formats>
+ 二  02 14:00:54         <eventDefinition-Format1>
+ 二  02 14:00:54             <reportingPeriod>1000</reportingPeriod>
+ 二  02 14:00:54         </eventDefinition-Format1>
+ 二  02 14:00:54     </eventDefinition-formats>
+ 二  02 14:00:54 </E2SM-KPM-EventTriggerDefinition>
+ 二  02 14:00:54 <E2SM-KPM-ActionDefinition>
+ 二  02 14:00:54     <ric-Style-Type>1</ric-Style-Type>
+ 二  02 14:00:54     <actionDefinition-formats>
+ 二  02 14:00:54         <actionDefinition-Format1>
+ 二  02 14:00:54             <measInfoList>
+ 二  02 14:00:54                 <MeasurementInfoItem>
+ 二  02 14:00:54                     <measType>
+ 二  02 14:00:54                         <measName>RRU.PrbTotDl</measName>
+ 二  02 14:00:54                     </measType>
+ 二  02 14:00:54                     <labelInfoList>
+ 二  02 14:00:54                     </labelInfoList>
+ 二  02 14:00:54                 </MeasurementInfoItem>
+ 二  02 14:00:54                 <MeasurementInfoItem>
+ 二  02 14:00:54                     <measType>
+ 二  02 14:00:54                         <measName>RRU.PrbTotUl</measName>
+ 二  02 14:00:54                     </measType>
+ 二  02 14:00:54                     <labelInfoList>
+ 二  02 14:00:54                     </labelInfoList>
+ 二  02 14:00:54                 </MeasurementInfoItem>
+ 二  02 14:00:54             </measInfoList>
+ 二  02 14:00:54             <granulPeriod>100</granulPeriod>
+ 二  02 14:00:54         </actionDefinition-Format1>
+ 二  02 14:00:54     </actionDefinition-formats>
+ 二  02 14:00:54 </E2SM-KPM-ActionDefinition>
+ 二  02 14:00:54 <E2AP-PDU>
+ 二  02 14:00:54     <initiatingMessage>
+ 二  02 14:00:54         <procedureCode>8</procedureCode>
+ 二  02 14:00:54         <criticality><reject/></criticality>
+ 二  02 14:00:54         <value>
+ 二  02 14:00:54             <RICsubscriptionRequest>
+ 二  02 14:00:54                 <protocolIEs>
+ 二  02 14:00:54                     <RICsubscriptionRequest-IEs>
+ 二  02 14:00:54                         <id>29</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <RICrequestID>
+ 二  02 14:00:54                                 <ricRequestorID>1</ricRequestorID>
+ 二  02 14:00:54                                 <ricInstanceID>1</ricInstanceID>
+ 二  02 14:00:54                             </RICrequestID>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </RICsubscriptionRequest-IEs>
+ 二  02 14:00:54                     <RICsubscriptionRequest-IEs>
+ 二  02 14:00:54                         <id>5</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <RANfunctionID>1</RANfunctionID>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </RICsubscriptionRequest-IEs>
+ 二  02 14:00:54                     <RICsubscriptionRequest-IEs>
+ 二  02 14:00:54                         <id>30</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <RICsubscriptionDetails>
+ 二  02 14:00:54                                 <ricEventTriggerDefinition>08 03 E7</ricEventTriggerDefinition>
+ 二  02 14:00:54                                 <ricAction-ToBeSetup-List>
+ 二  02 14:00:54                                     <ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                                         <id>19</id>
+ 二  02 14:00:54                                         <criticality><ignore/></criticality>
+ 二  02 14:00:54                                         <value>
+ 二  02 14:00:54                                             <RICaction-ToBeSetup-Item>
+ 二  02 14:00:54                                                 <ricActionID>0</ricActionID>
+ 二  02 14:00:54                                                 <ricActionType><report/></ricActionType>
+ 二  02 14:00:54                                                 <ricActionDefinition>
+ 二  02 14:00:54                                                     00 01 01 00 00 01 00 B0 52 52 55 2E 50 72 62 54 
+ 二  02 14:00:54                                                     6F 74 44 6C 00 00 B0 52 52 55 2E 50 72 62 54 6F 
+ 二  02 14:00:54                                                     74 55 6C 00 00 63
+ 二  02 14:00:54                                                 </ricActionDefinition>
+ 二  02 14:00:54                                             </RICaction-ToBeSetup-Item>
+ 二  02 14:00:54                                         </value>
+ 二  02 14:00:54                                     </ProtocolIE-SingleContainerE2>
+ 二  02 14:00:54                                 </ricAction-ToBeSetup-List>
+ 二  02 14:00:54                             </RICsubscriptionDetails>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </RICsubscriptionRequest-IEs>
+ 二  02 14:00:54                 </protocolIEs>
+ 二  02 14:00:54             </RICsubscriptionRequest>
+ 二  02 14:00:54         </value>
+ 二  02 14:00:54     </initiatingMessage>
+ 二  02 14:00:54 </E2AP-PDU>
+ 二  02 14:00:54 
+ 二  02 14:00:54 DEBUG  -->  E2AP : Created APER encoded buffer for RicSubscriptionRequest
+ 二  02 14:00:54 0804a00301d050010105020101e0340383ffffffe70013402a4000260110010ffffffb05252552e507262546f74446c00ffffffb05252552e507262546f74556c0063
+ 二  02 14:00:54 INFO  -->  E2AP : Received E2AP message buffer
+ 二  02 14:00:54 DEBUG  -->  E2AP : Received flat buffer to be decoded : 0a090010310201
+ 二  02 14:00:54 <E2AP-PDU>
+ 二  02 14:00:54     <initiatingMessage>
+ 二  02 14:00:54         <procedureCode>10</procedureCode>
+ 二  02 14:00:54         <criticality><reject/></criticality>
+ 二  02 14:00:54         <value>
+ 二  02 14:00:54             <E2nodeConfigurationUpdate>
+ 二  02 14:00:54                 <protocolIEs>
+ 二  02 14:00:54                     <E2nodeConfigurationUpdate-IEs>
+ 二  02 14:00:54                         <id>49</id>
+ 二  02 14:00:54                         <criticality><reject/></criticality>
+ 二  02 14:00:54                         <value>
+ 二  02 14:00:54                             <TransactionID>1</TransactionID>
+ 二  02 14:00:54                         </value>
+ 二  02 14:00:54                     </E2nodeConfigurationUpdate-IEs>
+ 二  02 14:00:54                 </protocolIEs>
+ 二  02 14:00:54             </E2nodeConfigurationUpdate>
+ 二  02 14:00:54         </value>
+ 二  02 14:00:54     </initiatingMessage>
+ 二  02 14:00:54 </E2AP-PDU>
+ 二  02 14:00:54 
