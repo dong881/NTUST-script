@@ -20,6 +20,10 @@ This repository contains scripts for configuring and running O-RAN OSC (Open Sou
 2. **nfapi-fixes/all-in-one script:**
     - Execute the script using `./nfapi-fixes/all-in-one`.
     - The script builds OAI components, starts PNF and VNF processes, and automatically closes after 3 seconds.
+    - You need to git clone OAI (branch: nfapi-fixes)
+   ```bash
+   git clone -b nfapi-fixes https://gitlab.eurecom.fr/oai/openairinterface5g.git ./NTUST-script/nfapi-fixes/openairinterface5g
+   ```
 
 ## Important Notes
 - Ensure that the system has the necessary permissions to execute the scripts.
