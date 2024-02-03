@@ -6,6 +6,11 @@ This repository contains scripts for configuring and running O-RAN OSC (Open Sou
 - The scripts assume that the necessary dependencies and libraries are already installed on the system.
 - Ensure the correct path configurations in the scripts according to your environment.
 
+```bash
+sudo apt-get update
+sudo ./build_oai -I
+```
+
 ## File Structure
 - **0:** This script is responsible for assigning IP addresses and starting OSC DU, CU_STUB, RIC_STUB, and OAI PNF processes.
 
