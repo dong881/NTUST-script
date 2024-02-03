@@ -8,6 +8,9 @@ This repository contains scripts for configuring and running O-RAN OSC (Open Sou
 
 ```bash
 sudo apt-get update
+# for timestamp log
+sudo apt-get install moreutils
+
 sudo ./build_oai -I
 ```
 
