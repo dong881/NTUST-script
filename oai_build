@@ -7,3 +7,4 @@ cd /home/yen0224/openairinterface5g/cmake_targets
 ./build_oai -I -c -C
 ./build_oai -w USRP --gNB
 
+bash "/home/yen0224/NTUST/00"
