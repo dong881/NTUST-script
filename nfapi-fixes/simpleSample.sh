@@ -9,6 +9,8 @@ OAI_PATH="$Target_PATH/openairinterface5g/cmake_targets"
 cd "$OAI_PATH"
 
 # 第一個腳本
+sudo ./build_oai -c --ninja --nrUE --gNB
+
 # sudo ./build_oai --gNB --nrUE
 # exit
 
@@ -30,7 +32,7 @@ sudo echo "Start UE..."
 ue_cmd="./nr-uesoftmodem --rfsim --phy-test -d --rfsimulator.serveraddr 127.0.0.1"
 sudo stdbuf -oL $ue_cmd 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes-simple.log" &
 
-wait_sec=15
+wait_sec=20
 echo "The script automatically closes after $wait_sec seconds..."
 # Wait for the specified number of seconds
 sleep $wait_sec
