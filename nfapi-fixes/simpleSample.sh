@@ -9,7 +9,7 @@ OAI_PATH="$Target_PATH/openairinterface5g/cmake_targets"
 cd "$OAI_PATH"
 
 # 第一個腳本
-sudo ./build_oai -c --ninja --nrUE --gNB
+# sudo ./build_oai -c --ninja --nrUE --gNB
 
 # sudo ./build_oai --gNB --nrUE
 # exit
@@ -17,8 +17,8 @@ sudo ./build_oai -c --ninja --nrUE --gNB
 cd "$OAI_PATH/ran_build/build"
 pwd
 
-# sudo echo "Start TCPdump..."
-# sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump_simple.pcap &
+sudo echo "Start TCPdump..."
+sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump_simple.pcap &
 
 sudo echo "Start PNF..."
 pnf_cmd="./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpx300.conf --nfapi PNF --rfsim --phy-test --rfsimulator.serveraddr server"
