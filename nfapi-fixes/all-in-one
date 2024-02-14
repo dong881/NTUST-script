@@ -29,6 +29,7 @@ cd "$OAI_PATH"
 
 # 第一個腳本
 sudo ./build_oai -c --ninja --nrUE --gNB
+# sudo ./build_oai --gNB --nrUE
 # exit
 
 # 進入目錄

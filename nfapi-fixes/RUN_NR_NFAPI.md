@@ -1,5 +1,7 @@
 # Procedure to run nFAPI in 5G NR
 
+<img src="https://hackmd.io/_uploads/SyXXjoFsT.png">
+
 ## Contributed by 5G Testbed IISc 
 
 ### Developers: Gokul S, Mahesh A, Aniq U R
