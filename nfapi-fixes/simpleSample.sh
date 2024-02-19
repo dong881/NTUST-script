@@ -25,12 +25,13 @@ pnf_cmd="./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.
 sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes-simple.log" &
 
 sudo echo "Start VNF..."
-vnf_cmd="./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --noS1 --phy-test --nokrnmode 1"
+#  --nokrnmode 1
+vnf_cmd="./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --noS1 --phy-test"
 sudo stdbuf -oL $vnf_cmd 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes-simple.log" &
 
-sudo echo "Start UE..."
-ue_cmd="./nr-uesoftmodem --rfsim --phy-test -d --rfsimulator.serveraddr 127.0.0.1"
-sudo stdbuf -oL $ue_cmd 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes-simple.log" &
+# sudo echo "Start UE..."
+# ue_cmd="./nr-uesoftmodem --rfsim --phy-test -d --rfsimulator.serveraddr 127.0.0.1"
+# sudo stdbuf -oL $ue_cmd 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes-simple.log" &
 
 wait_sec=20
 echo "The script automatically closes after $wait_sec seconds..."
