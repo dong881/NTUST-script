@@ -1,913 +1,248 @@
- 二  21 17:20:03 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf" "--nfapi" "VNF" "--sa" 
- 二  21 17:20:03 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
- 二  21 17:20:03 [CONFIG] function config_libconfig_init returned 0
- 二  21 17:20:03 [CONFIG] config module libconfig loaded
- 二  21 17:20:03 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 二  21 17:20:03 [CONFIG] debug flags: 0x00000000
- 二  21 17:20:03 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 二  21 17:20:03 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
- 二  21 17:20:03 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
- 二  21 17:20:03 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 二  21 17:20:03 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 二  21 17:20:03 log init done
- 二  21 17:20:03 [HW]   # /dev/cpu_dma_latency set to 2 us
- 二  21 17:20:03 [0mReading in command-line options
- 二  21 17:20:03 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
- 二  21 17:20:03 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 二  21 17:20:03 [ENB_APP]   nfapi running mode: VNF
- 二  21 17:20:03 [0m[GNB_APP]   Getting GNBSParams
- 二  21 17:20:03 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:03 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:03 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:03 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:03 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:03 [CONFIG] parallel_conf is set to 2
- 二  21 17:20:03 [CONFIG] worker_conf is set to 1
- 二  21 17:20:03 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
- 二  21 17:20:03 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 二  21 17:20:03 configuring for RAU/RRU
- 二  21 17:20:04 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 二  21 17:20:04 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 二  21 17:20:04 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 二  21 17:20:04 [OPT]   OPT disabled
- 二  21 17:20:04 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 5791cb7b08 Date: Wed Feb 21 16:45:40 2024 +0800
- 二  21 17:20:04 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [PHY]   create_gNB_tasks() Task ready initialize structures
- 二  21 17:20:04 [0m
- 二  21 17:20:04 [NTUST] Task ready initialize structures[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 
- 二  21 17:20:04 [NR_PHY]   RC.gNB = 0x5651d2ce9ba0
- 二  21 17:20:04 [0m[NTUST] Finish RCconfig_verify(), node_type:2[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [NR_PHY]   PRB blacklist 
- 二  21 17:20:04 [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
- 二  21 17:20:04 [0m[LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [PHY]   No L1s configuration found[0m
- 二  21 17:20:04 [NTUST] Finish RCconfig_NR_L1()[LIBCONFIG] list prs_config not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [PHY]   No prs_config configuration found..!!
- 二  21 17:20:04 [0m
- 二  21 17:20:04 [NTUST] RC.nb_nr_macrlc_inst:1[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
- 二  21 17:20:04 [0m[GNB_APP]   minTXRXTIME 2
- 二  21 17:20:04 [0m[GNB_APP]   SIB1 TDA 1
- 二  21 17:20:04 [0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
- 二  21 17:20:04 [0m[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
- 二  21 17:20:04 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -118
- 二  21 17:20:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 二  21 17:20:04 [0m[RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
- 二  21 17:20:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 二  21 17:20:04 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 二  21 17:20:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 二  21 17:20:04 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 二  21 17:20:04 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
- 二  21 17:20:04 [0m[UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
- 二  21 17:20:04 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [PHY]   Installing callbacks for IF_Module - UL_indication
- 二  21 17:20:04 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5651d2d081a0
- 二  21 17:20:04 [0m[NR_MAC]   Configuring common parameters from NR ServingCellConfig
- 二  21 17:20:04 [0m[NR_MAC]   config_common() dl_BandwidthP:40
- 二  21 17:20:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 二  21 17:20:04 [0m[NR_MAC]   config_common() dl_BandwidthP:40
- 二  21 17:20:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 二  21 17:20:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 二  21 17:20:04 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 二  21 17:20:04 [0m[NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
- 二  21 17:20:04 [0m[NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
- 二  21 17:20:04 [0m[NR_MAC]   Setting TDD configuration period to 6
- 二  21 17:20:04 [0m[NR_MAC]   TDD has been properly configurated
- 二  21 17:20:04 [0m[NR_MAC]   PUSCH Target 200, PUCCH Target 150, PUCCH Failure 10, PUSCH Failure 10
- 二  21 17:20:04 [0m**************** vnf_port:50001
- 二  21 17:20:04 [ENB_APP]   nfapi running mode: VNF
- 二  21 17:20:04 [0m**************** RETURNED FROM configure_nr_nfapi_vnf() vnf_port:50001
- 二  21 17:20:04 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [93m[GNB_APP]   no slices transported via F1 Setup Request!
- 二  21 17:20:04 [0m[NR_RRC]   SIB1 freq: offsetToPointA 86
- 二  21 17:20:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 二  21 17:20:04 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 二  21 17:20:04 [0m[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-Eurecom-5GNRBox, TAC 1 MCC/MNC/length 208/95/2 cellID 1
- 二  21 17:20:04 [0m[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
- 二  21 17:20:04 [0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
- 二  21 17:20:04 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
- 二  21 17:20:04 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 NRRRC 0: Southbound Transport local_mac
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [GNB_APP]   SDAP layer is disabled
- 二  21 17:20:04 [0m[GNB_APP]   Data Radio Bearer count 1
- 二  21 17:20:04 [0m[NR_RRC]   do_SIB23_NR, size 9 
- 二  21 17:20:04  [0m[LIBCONFIG] security: 4/4 parameters successfully set, (2 to default value)
- 二  21 17:20:04 [93m[RRC]   no preferred ciphering algorithm set in configuration file, applying default parameters (no security)
- 二  21 17:20:04 [0m[93m[RRC]   no preferred integrity algorithm set in configuration file, applying default parameters (nia2)
- 二  21 17:20:04 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [PDCP]   pdcp init,usegtp 
- 二  21 17:20:04 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 二  21 17:20:04 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 二  21 17:20:04 [GNB_APP]   default drx 0
- 二  21 17:20:04 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
- 二  21 17:20:04 [0m[UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
- 二  21 17:20:04 [0m[ITTI]   Created Posix thread TASK_SCTP
- 二  21 17:20:04 [0m[X2AP]   X2AP is disabled.
- 二  21 17:20:04 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 二  21 17:20:04 [UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
- 二  21 17:20:04 [0m[NGAP]   Starting NGAP layer
- 二  21 17:20:04 [0m[ITTI]   Created Posix thread TASK_NGAP
- 二  21 17:20:04 [0m[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
- 二  21 17:20:04 [0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
- 二  21 17:20:04 [0m[NGAP]   [gNB 0] check the amf registration state
- 二  21 17:20:04 [0m[ITTI]   Created Posix thread TASK_GNB_APP
- 二  21 17:20:04 [0m[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
- 二  21 17:20:04 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
- 二  21 17:20:04 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
- 二  21 17:20:04 [ITTI]   Created Posix thread TASK_RRC_GNB
- 二  21 17:20:04 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
- 二  21 17:20:04 [GTPU]   Configuring GTPu
- 二  21 17:20:04 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 二  21 17:20:04 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 二  21 17:20:04 [GTPU]   SA mode 
- 二  21 17:20:04 [0m[GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
- 二  21 17:20:04 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
- 二  21 17:20:04 [0m[93m[GTPU]   bind: Address already in use
- 二  21 17:20:04 [0m[1;31m[GTPU]   failed to bind socket: 192.168.70.129 2152 
- 二  21 17:20:04 [0m[1;31m[GTPU]   can't create GTP-U instance
- 二  21 17:20:04 [0m[GTPU]   Created gtpu instance id: -1
- 二  21 17:20:04 [0m[1;31m[E1AP]   Failed to create CUUP N3 UDP listener[0m[NR_RRC]   Entering main loop of NR_RRC message task
- 二  21 17:20:04 [0m[UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
- 二  21 17:20:04 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-Eurecom-5GNRBox) on assoc_id -1
- 二  21 17:20:04 [0m[RRC]   Accepting DU 3584 (gNB-Eurecom-5GNRBox), sending F1 Setup Response
- 二  21 17:20:04 [0m[MAC]   received F1 Setup Response from CU (null)
- 二  21 17:20:04 [0m[RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-5GNRBox (assoc_id -1)
- 二  21 17:20:04 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
- 二  21 17:20:04 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
- 二  21 17:20:04 START MAIN THREADS
- 二  21 17:20:04 RC.nb_nr_L1_inst:0
- 二  21 17:20:04 wait_gNBs()
- 二  21 17:20:04 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
- 二  21 17:20:04 gNB L1 are configured
- 二  21 17:20:04 About to Init RU threads RC.nb_RU:0
- 二  21 17:20:04 Entering ITTI signals handler
- 二  21 17:20:04 TYPE <CTRL-C> TO TERMINATE
- 二  21 17:20:06 [PHY]   Installing callbacks for IF_Module - UL_indication
- 二  21 17:20:06 [0mCalling sched_setscheduler(79)
- 二  21 17:20:06 [NTUST] vnf_p7_connection_info_list_add: pnf_p7_addr:127.0.0.1, sin_port:23235
- 二  21 17:20:06 [NTUST] [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:103
- 二  21 17:20:06 [NTUST] [VNF] Sent NFAPI_VNF_START_REQ num_tlv
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:11 
- 二  21 17:20:11 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:12 
- 二  21 17:20:12 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 [NR_MAC]   Frame.Slot 128.0
- 二  21 17:20:13 
- 二  21 17:20:13 [0m
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:13 
- 二  21 17:20:13 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:14 
- 二  21 17:20:14 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:15 
- 二  21 17:20:15 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] [VNF] Received NFAPI_START_RESP idx:0 phy_id:1
- 二  21 17:20:16 [NTUST] vnf_p7_connection_info_list_add: pnf_p7_addr:127.0.0.1, sin_port:23235
- 二  21 17:20:16 [NTUST] [VNF] nfapi_vnf_p7_add_pnf(), remote_addr:127.0.0.1, remote_port:23235, phy->id:1 
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 [NR_MAC]   Frame.Slot 256.0
- 二  21 17:20:16 
- 二  21 17:20:16 [0m
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:16 
- 二  21 17:20:16 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:17 
- 二  21 17:20:17 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:18 
- 二  21 17:20:18 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:18 
- 二  21 17:20:18 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:18 
- 二  21 17:20:18 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:18 
- 二  21 17:20:18 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:18 
- 二  21 17:20:18 [NTUST] Handle nfapi_vnf_p7_ul_tti_req()...
- 二  21 17:20:18 
- 二  21 17:20:18 [NTUST] Handle nfapi_vnf_p7_nr_dl_config_req()...
- 二  21 17:20:18 
- 二  21 17:20:18 ** Caught SIGTERM, shutting down
- 二  21 17:20:18 Returned from ITTI signal handler
- 二  21 17:20:18 oai_exit=1
- 二  21 17:20:18 Bye.
+ 二  21 17:47:54 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf" "--nfapi" "VNF" "--sa" 
+ 二  21 17:47:54 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+ 二  21 17:47:54 [CONFIG] function config_libconfig_init returned 0
+ 二  21 17:47:54 [CONFIG] config module libconfig loaded
+ 二  21 17:47:54 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 二  21 17:47:54 [CONFIG] debug flags: 0x00000000
+ 二  21 17:47:54 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 二  21 17:47:54 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
+ 二  21 17:47:54 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+ 二  21 17:47:54 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 二  21 17:47:54 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 二  21 17:47:54 log init done
+ 二  21 17:47:54 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 二  21 17:47:54 [0mReading in command-line options
+ 二  21 17:47:54 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
+ 二  21 17:47:54 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 二  21 17:47:54 [ENB_APP]   nfapi running mode: VNF
+ 二  21 17:47:54 [0m[GNB_APP]   Getting GNBSParams
+ 二  21 17:47:54 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:54 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:54 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:54 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:54 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:54 [CONFIG] parallel_conf is set to 2
+ 二  21 17:47:54 [CONFIG] worker_conf is set to 1
+ 二  21 17:47:54 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+ 二  21 17:47:54 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 二  21 17:47:54 configuring for RAU/RRU
+ 二  21 17:47:55 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 二  21 17:47:55 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 二  21 17:47:55 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 二  21 17:47:55 [OPT]   OPT disabled
+ 二  21 17:47:55 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 318c5a9cf8 Date: Wed Feb 21 17:46:49 2024 +0800
+ 二  21 17:47:55 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [PHY]   create_gNB_tasks() Task ready initialize structures
+ 二  21 17:47:55 [0m
+ 二  21 17:47:55 [NTUST] Task ready initialize structures[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 
+ 二  21 17:47:55 [NR_PHY]   RC.gNB = 0x555cba491ba0
+ 二  21 17:47:55 [0m[NTUST] Finish RCconfig_verify(), node_type:2[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [NR_PHY]   PRB blacklist 
+ 二  21 17:47:55 [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+ 二  21 17:47:55 [0m[LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [PHY]   No L1s configuration found[0m
+ 二  21 17:47:55 [NTUST] Finish RCconfig_NR_L1()[LIBCONFIG] list prs_config not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [PHY]   No prs_config configuration found..!!
+ 二  21 17:47:55 [0m
+ 二  21 17:47:55 [NTUST] RC.nb_nr_macrlc_inst:1[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+ 二  21 17:47:55 [0m[GNB_APP]   minTXRXTIME 2
+ 二  21 17:47:55 [0m[GNB_APP]   SIB1 TDA 1
+ 二  21 17:47:55 [0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
+ 二  21 17:47:55 [0m[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+ 二  21 17:47:55 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -118
+ 二  21 17:47:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  21 17:47:55 [0m[RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
+ 二  21 17:47:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  21 17:47:55 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  21 17:47:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  21 17:47:55 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  21 17:47:55 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+ 二  21 17:47:55 [0m[UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
+ 二  21 17:47:55 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [PHY]   Installing callbacks for IF_Module - UL_indication
+ 二  21 17:47:55 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x555cba4b01a0
+ 二  21 17:47:55 [0m[NR_MAC]   Configuring common parameters from NR ServingCellConfig
+ 二  21 17:47:55 [0m[NR_MAC]   config_common() dl_BandwidthP:40
+ 二  21 17:47:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  21 17:47:55 [0m[NR_MAC]   config_common() dl_BandwidthP:40
+ 二  21 17:47:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  21 17:47:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  21 17:47:55 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  21 17:47:55 [0m[NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
+ 二  21 17:47:55 [0m[NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
+ 二  21 17:47:55 [0m[NR_MAC]   Setting TDD configuration period to 6
+ 二  21 17:47:55 [0m[NR_MAC]   TDD has been properly configurated
+ 二  21 17:47:55 [0m[NR_MAC]   PUSCH Target 200, PUCCH Target 150, PUCCH Failure 10, PUSCH Failure 10
+ 二  21 17:47:55 [0m
+ 二  21 17:47:55  [NTUST] vnf addr:127.0.0.2
+ 二  21 17:47:55  [NTUST] vnf p5 port50001
+ 二  21 17:47:55  [NTUST] vnf p7 port50011
+ 二  21 17:47:55 **************** vnf_port:50001
+ 二  21 17:47:55 [ENB_APP]   nfapi running mode: VNF
+ 二  21 17:47:55 [0m
+ 二  21 17:47:55  [NTUST] [VNF] configure_nr_nfapi_vnf() vnf.p7_vnfs[0].config:0x555cba4b6540 VNF ADDRESS:127.0.0.2:50001
+ 二  21 17:47:55 **************** RETURNED FROM configure_nr_nfapi_vnf() vnf_port:50001
+ 二  21 17:47:55 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [93m[GNB_APP]   no slices transported via F1 Setup Request!
+ 二  21 17:47:55 [0m[NR_RRC]   SIB1 freq: offsetToPointA 86
+ 二  21 17:47:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  21 17:47:55 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  21 17:47:55 [0m[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-Eurecom-5GNRBox, TAC 1 MCC/MNC/length 208/95/2 cellID 1
+ 二  21 17:47:55 [0m[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
+ 二  21 17:47:55 [0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
+ 二  21 17:47:55 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+ 二  21 17:47:55 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 NRRRC 0: Southbound Transport local_mac
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [GNB_APP]   SDAP layer is disabled
+ 二  21 17:47:55 [0m[GNB_APP]   Data Radio Bearer count 1
+ 二  21 17:47:55 [0m[NR_RRC]   do_SIB23_NR, size 9 
+ 二  21 17:47:55  [0m[LIBCONFIG] security: 4/4 parameters successfully set, (2 to default value)
+ 二  21 17:47:55 [93m[RRC]   no preferred ciphering algorithm set in configuration file, applying default parameters (no security)
+ 二  21 17:47:55 [0m[93m[RRC]   no preferred integrity algorithm set in configuration file, applying default parameters (nia2)
+ 二  21 17:47:55 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [PDCP]   pdcp init,usegtp 
+ 二  21 17:47:55 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 二  21 17:47:55 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 二  21 17:47:55 [GNB_APP]   default drx 0
+ 二  21 17:47:55 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+ 二  21 17:47:55 [0m[UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
+ 二  21 17:47:55 [0m[ITTI]   Created Posix thread TASK_SCTP
+ 二  21 17:47:55 [0m[X2AP]   X2AP is disabled.
+ 二  21 17:47:55 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 二  21 17:47:55 [UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
+ 二  21 17:47:55 [0m[NGAP]   Starting NGAP layer
+ 二  21 17:47:55 [0m[ITTI]   Created Posix thread TASK_NGAP
+ 二  21 17:47:55 [0m[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
+ 二  21 17:47:55 [0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
+ 二  21 17:47:55 [0m[NGAP]   [gNB 0] check the amf registration state
+ 二  21 17:47:55 [0m[ITTI]   Created Posix thread TASK_GNB_APP
+ 二  21 17:47:55 [0m[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
+ 二  21 17:47:55 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  21 17:47:55 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  21 17:47:55 [ITTI]   Created Posix thread TASK_RRC_GNB
+ 二  21 17:47:55 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+ 二  21 17:47:55 [GTPU]   Configuring GTPu
+ 二  21 17:47:55 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  21 17:47:55 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 二  21 17:47:55 [GTPU]   SA mode 
+ 二  21 17:47:55 [0m[GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
+ 二  21 17:47:55 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+ 二  21 17:47:55 [0m[GTPU]   Created gtpu instance id: 101
+ 二  21 17:47:55 [0m[NR_RRC]   Entering main loop of NR_RRC message task
+ 二  21 17:47:55 [0m[UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
+ 二  21 17:47:55 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-Eurecom-5GNRBox) on assoc_id -1
+ 二  21 17:47:55 [0m[RRC]   Accepting DU 3584 (gNB-Eurecom-5GNRBox), sending F1 Setup Response
+ 二  21 17:47:55 [0m[MAC]   received F1 Setup Response from CU (null)
+ 二  21 17:47:55 [0m[RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-5GNRBox (assoc_id -1)
+ 二  21 17:47:55 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
+ 二  21 17:47:55 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 二  21 17:47:55 START MAIN THREADS
+ 二  21 17:47:55 RC.nb_nr_L1_inst:0
+ 二  21 17:47:55 wait_gNBs()
+ 二  21 17:47:55 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+ 二  21 17:47:55 gNB L1 are configured
+ 二  21 17:47:55 About to Init RU threads RC.nb_RU:0
+ 二  21 17:47:55 Entering ITTI signals handler
+ 二  21 17:47:55 TYPE <CTRL-C> TO TERMINATE
+ 二  21 17:47:57 [PHY]   Installing callbacks for IF_Module - UL_indication
+ 二  21 17:47:57 [0mCalling sched_setscheduler(79)
+ 二  21 17:47:57 [NTUST] vnf_p7_connection_info_list_add: pnf_p7_addr:127.0.0.1, sin_port:23235
+ 二  21 17:47:57 [NTUST] [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:103
+ 二  21 17:47:57 [NTUST] [VNF] Sent NFAPI_VNF_START_REQ num_tlv
+ 二  21 17:48:05 [NR_MAC]   Frame.Slot 128.0
+ 二  21 17:48:05 
+ 二  21 17:48:07 [0m
+ 二  21 17:48:07 [NTUST] [VNF] Received NFAPI_START_RESP idx:0 phy_id:1
+ 二  21 17:48:07 [NTUST] vnf_p7_connection_info_list_add: pnf_p7_addr:127.0.0.1, sin_port:23235
+ 二  21 17:48:07 [NTUST] [VNF] nfapi_vnf_p7_add_pnf(), remote_addr:127.0.0.1, remote_port:23235, phy->id:1 
+ 二  21 17:48:07 [NR_MAC]   Frame.Slot 256.0
+ 二  21 17:48:07 
+ 二  21 17:48:09 [0m
+ 二  21 17:48:09 ** Caught SIGTERM, shutting down
+ 二  21 17:48:09 Returned from ITTI signal handler
+ 二  21 17:48:09 oai_exit=1
+ 二  21 17:48:09 Bye.
