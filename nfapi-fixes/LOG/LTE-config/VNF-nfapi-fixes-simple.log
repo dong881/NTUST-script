@@ -1,0 +1,1192 @@
+ 二  20 00:38:39 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf" "--nfapi" "VNF" "--noS1" "--nokrnmode" "1" "--phy-test" 
+ 二  20 00:38:39 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+ 二  20 00:38:39 [CONFIG] function config_libconfig_init returned 0
+ 二  20 00:38:39 [CONFIG] config module libconfig loaded
+ 二  20 00:38:39 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 二  20 00:38:39 [CONFIG] debug flags: 0x00000000
+ 二  20 00:38:39 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 二  20 00:38:39 [LIBCONFIG] log_config: 53/53 parameters successfully set, (47 to default value)
+ 二  20 00:38:39 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+ 二  20 00:38:39 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 二  20 00:38:39 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 二  20 00:38:39 log init done
+ 二  20 00:38:39 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 二  20 00:38:39 [0mReading in command-line options
+ 二  20 00:38:39 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
+ 二  20 00:38:39 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 二  20 00:38:39 [ENB_APP]   nfapi running mode: VNF
+ 二  20 00:38:39 [0m[GNB_APP]   Getting GNBSParams
+ 二  20 00:38:39 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:39 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:39 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:39 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:39 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:39 [CONFIG] parallel_conf is set to 2
+ 二  20 00:38:39 [CONFIG] worker_conf is set to 1
+ 二  20 00:38:39 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+ 二  20 00:38:39 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 二  20 00:38:39 configuring for RAU/RRU
+ 二  20 00:38:40 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 二  20 00:38:40 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 二  20 00:38:40 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 二  20 00:38:40 [OPT]   OPT disabled
+ 二  20 00:38:40 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: a6f7329c37 Date: Wed Feb 14 10:42:17 2024 +0800
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [PHY]   create_gNB_tasks() Task ready initialize structures
+ 二  20 00:38:40 [0m
+ 二  20 00:38:40 [NTUST] Task ready initialize structures[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 
+ 二  20 00:38:40 [NR_PHY]   RC.gNB = 0x5648d4ce6bb0
+ 二  20 00:38:40 [0m[NTUST] Finish RCconfig_verify(), node_type:2[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [NR_PHY]   PRB blacklist 
+ 二  20 00:38:40 [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+ 二  20 00:38:40 [0m[LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [PHY]   No L1s configuration found[0m
+ 二  20 00:38:40 [NTUST] Finish RCconfig_NR_L1()[LIBCONFIG] list prs_config not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [PHY]   No prs_config configuration found..!!
+ 二  20 00:38:40 [0m
+ 二  20 00:38:40 [NTUST] RC.nb_nr_macrlc_inst:1[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+ 二  20 00:38:40 [0m[GNB_APP]   minTXRXTIME 2
+ 二  20 00:38:40 [0m[GNB_APP]   SIB1 TDA 1
+ 二  20 00:38:40 [0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+ 二  20 00:38:40 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -118
+ 二  20 00:38:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  20 00:38:40 [0m[RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
+ 二  20 00:38:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  20 00:38:40 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  20 00:38:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  20 00:38:40 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  20 00:38:40 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+ 二  20 00:38:40 [0m[UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [RLC]   RLC UM Bi-directional Bearer configuration selected 
+ 二  20 00:38:40 [0m[RLC]   /home/yen0224/NTUST/nfapi-fixes/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:950: added DRB to UE with RNTI 0x1234
+ 二  20 00:38:40 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 二  20 00:38:40 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5648d4d0a250
+ 二  20 00:38:40 [0m[NR_MAC]   Configuring common parameters from NR ServingCellConfig
+ 二  20 00:38:40 [0m[NR_MAC]   config_common() dl_BandwidthP:40
+ 二  20 00:38:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  20 00:38:40 [0m[NR_MAC]   config_common() dl_BandwidthP:40
+ 二  20 00:38:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  20 00:38:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  20 00:38:40 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  20 00:38:40 [0m[NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
+ 二  20 00:38:40 [0m[NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
+ 二  20 00:38:40 [0m[NR_MAC]   Setting TDD configuration period to 6
+ 二  20 00:38:40 [0m[NR_MAC]   TDD has been properly configurated
+ 二  20 00:38:40 [0m[NR_MAC]   PUSCH Target 200, PUCCH Target 150, PUCCH Failure 10, PUSCH Failure 10
+ 二  20 00:38:40 [0m**************** vnf_port:50001
+ 二  20 00:38:40 [ENB_APP]   nfapi running mode: VNF
+ 二  20 00:38:40 [0m**************** RETURNED FROM configure_nr_nfapi_vnf() vnf_port:50001
+ 二  20 00:38:40 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [93m[GNB_APP]   no slices transported via F1 Setup Request!
+ 二  20 00:38:40 [0m[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-Eurecom-5GNRBox, TAC 1 MCC/MNC/length 208/95/2 cellID 1
+ 二  20 00:38:40 [0m[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
+ 二  20 00:38:40 [0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
+ 二  20 00:38:40 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+ 二  20 00:38:40 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 NRRRC 0: Southbound Transport local_mac
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [GNB_APP]   SDAP layer is disabled
+ 二  20 00:38:40 [0m[GNB_APP]   Data Radio Bearer count 1
+ 二  20 00:38:40 [0m[NR_RRC]   do_SIB23_NR, size 9 
+ 二  20 00:38:40  [0m[NR_RRC]   Returning new RRC UE context RRC ue id: 1
+ 二  20 00:38:40 [0m[NR_RRC]   Adding new user (0x7faf75f39010)
+ 二  20 00:38:40 [0m[1;31m[NR_RRC]   Could not open UE Capabilities input file. Not handling OAI UE Capabilities.
+ 二  20 00:38:40 [0m[1;31m[RRC]   No UE Capabilities available when programming default CellGroup in NSA
+ 二  20 00:38:40 [0m[RLC]   RLC UM Bi-directional Bearer configuration selected 
+ 二  20 00:38:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 二  20 00:38:40 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 二  20 00:38:40 [0m<CellGroupConfig>
+ 二  20 00:38:40     <cellGroupId>1</cellGroupId>
+ 二  20 00:38:40     <rlc-BearerToAddModList>
+ 二  20 00:38:40         <RLC-BearerConfig>
+ 二  20 00:38:40             <logicalChannelIdentity>4</logicalChannelIdentity>
+ 二  20 00:38:40             <servedRadioBearer>
+ 二  20 00:38:40                 <drb-Identity>1</drb-Identity>
+ 二  20 00:38:40             </servedRadioBearer>
+ 二  20 00:38:40             <rlc-Config>
+ 二  20 00:38:40                 <um-Bi-Directional>
+ 二  20 00:38:40                     <ul-UM-RLC>
+ 二  20 00:38:40                         <sn-FieldLength><size12/></sn-FieldLength>
+ 二  20 00:38:40                     </ul-UM-RLC>
+ 二  20 00:38:40                     <dl-UM-RLC>
+ 二  20 00:38:40                         <sn-FieldLength><size12/></sn-FieldLength>
+ 二  20 00:38:40                         <t-Reassembly><ms15/></t-Reassembly>
+ 二  20 00:38:40                     </dl-UM-RLC>
+ 二  20 00:38:40                 </um-Bi-Directional>
+ 二  20 00:38:40             </rlc-Config>
+ 二  20 00:38:40             <mac-LogicalChannelConfig>
+ 二  20 00:38:40                 <ul-SpecificParameters>
+ 二  20 00:38:40                     <priority>1</priority>
+ 二  20 00:38:40                     <prioritisedBitRate><kBps8/></prioritisedBitRate>
+ 二  20 00:38:40                     <bucketSizeDuration><ms100/></bucketSizeDuration>
+ 二  20 00:38:40                     <logicalChannelGroup>1</logicalChannelGroup>
+ 二  20 00:38:40                     <schedulingRequestID>0</schedulingRequestID>
+ 二  20 00:38:40                     <logicalChannelSR-Mask><false/></logicalChannelSR-Mask>
+ 二  20 00:38:40                     <logicalChannelSR-DelayTimerApplied><false/></logicalChannelSR-DelayTimerApplied>
+ 二  20 00:38:40                 </ul-SpecificParameters>
+ 二  20 00:38:40             </mac-LogicalChannelConfig>
+ 二  20 00:38:40         </RLC-BearerConfig>
+ 二  20 00:38:40     </rlc-BearerToAddModList>
+ 二  20 00:38:40     <mac-CellGroupConfig>
+ 二  20 00:38:40         <schedulingRequestConfig>
+ 二  20 00:38:40             <schedulingRequestToAddModList>
+ 二  20 00:38:40                 <SchedulingRequestToAddMod>
+ 二  20 00:38:40                     <schedulingRequestId>0</schedulingRequestId>
+ 二  20 00:38:40                     <sr-TransMax><n64/></sr-TransMax>
+ 二  20 00:38:40                 </SchedulingRequestToAddMod>
+ 二  20 00:38:40             </schedulingRequestToAddModList>
+ 二  20 00:38:40         </schedulingRequestConfig>
+ 二  20 00:38:40         <bsr-Config>
+ 二  20 00:38:40             <periodicBSR-Timer><sf10/></periodicBSR-Timer>
+ 二  20 00:38:40             <retxBSR-Timer><sf80/></retxBSR-Timer>
+ 二  20 00:38:40         </bsr-Config>
+ 二  20 00:38:40         <tag-Config>
+ 二  20 00:38:40             <tag-ToAddModList>
+ 二  20 00:38:40                 <TAG>
+ 二  20 00:38:40                     <tag-Id>0</tag-Id>
+ 二  20 00:38:40                     <timeAlignmentTimer><infinity/></timeAlignmentTimer>
+ 二  20 00:38:40                 </TAG>
+ 二  20 00:38:40             </tag-ToAddModList>
+ 二  20 00:38:40         </tag-Config>
+ 二  20 00:38:40         <phr-Config>
+ 二  20 00:38:40             <setup>
+ 二  20 00:38:40                 <phr-PeriodicTimer><sf10/></phr-PeriodicTimer>
+ 二  20 00:38:40                 <phr-ProhibitTimer><sf10/></phr-ProhibitTimer>
+ 二  20 00:38:40                 <phr-Tx-PowerFactorChange><dB1/></phr-Tx-PowerFactorChange>
+ 二  20 00:38:40                 <multiplePHR><false/></multiplePHR>
+ 二  20 00:38:40                 <dummy><false/></dummy>
+ 二  20 00:38:40                 <phr-Type2OtherCell><false/></phr-Type2OtherCell>
+ 二  20 00:38:40                 <phr-ModeOtherCG><real/></phr-ModeOtherCG>
+ 二  20 00:38:40             </setup>
+ 二  20 00:38:40         </phr-Config>
+ 二  20 00:38:40         <skipUplinkTxDynamic><false/></skipUplinkTxDynamic>
+ 二  20 00:38:40     </mac-CellGroupConfig>
+ 二  20 00:38:40     <physicalCellGroupConfig>
+ 二  20 00:38:40         <pdsch-HARQ-ACK-Codebook><dynamic/></pdsch-HARQ-ACK-Codebook>
+ 二  20 00:38:40     </physicalCellGroupConfig>
+ 二  20 00:38:40     <spCellConfig>
+ 二  20 00:38:40         <servCellIndex>1</servCellIndex>
+ 二  20 00:38:40         <reconfigurationWithSync>
+ 二  20 00:38:40             <spCellConfigCommon>
+ 二  20 00:38:40                 <physCellId>0</physCellId>
+ 二  20 00:38:40                 <downlinkConfigCommon>
+ 二  20 00:38:40                     <frequencyInfoDL>
+ 二  20 00:38:40                         <absoluteFrequencySSB>641280</absoluteFrequencySSB>
+ 二  20 00:38:40                         <frequencyBandList>
+ 二  20 00:38:40                             <FreqBandIndicatorNR>78</FreqBandIndicatorNR>
+ 二  20 00:38:40                         </frequencyBandList>
+ 二  20 00:38:40                         <absoluteFrequencyPointA>640008</absoluteFrequencyPointA>
+ 二  20 00:38:40                         <scs-SpecificCarrierList>
+ 二  20 00:38:40                             <SCS-SpecificCarrier>
+ 二  20 00:38:40                                 <offsetToCarrier>0</offsetToCarrier>
+ 二  20 00:38:40                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 二  20 00:38:40                                 <carrierBandwidth>106</carrierBandwidth>
+ 二  20 00:38:40                             </SCS-SpecificCarrier>
+ 二  20 00:38:40                         </scs-SpecificCarrierList>
+ 二  20 00:38:40                     </frequencyInfoDL>
+ 二  20 00:38:40                     <initialDownlinkBWP>
+ 二  20 00:38:40                         <genericParameters>
+ 二  20 00:38:40                             <locationAndBandwidth>6366</locationAndBandwidth>
+ 二  20 00:38:40                             <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 二  20 00:38:40                         </genericParameters>
+ 二  20 00:38:40                         <pdcch-ConfigCommon>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <controlResourceSetZero>12</controlResourceSetZero>
+ 二  20 00:38:40                                 <searchSpaceZero>0</searchSpaceZero>
+ 二  20 00:38:40                                 <commonSearchSpaceList>
+ 二  20 00:38:40                                     <SearchSpace>
+ 二  20 00:38:40                                         <searchSpaceId>1</searchSpaceId>
+ 二  20 00:38:40                                         <controlResourceSetId>0</controlResourceSetId>
+ 二  20 00:38:40                                         <monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                             <sl1></sl1>
+ 二  20 00:38:40                                         </monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                         <monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                             10000000000000
+ 二  20 00:38:40                                         </monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                         <nrofCandidates>
+ 二  20 00:38:40                                             <aggregationLevel1><n0/></aggregationLevel1>
+ 二  20 00:38:40                                             <aggregationLevel2><n0/></aggregationLevel2>
+ 二  20 00:38:40                                             <aggregationLevel4><n1/></aggregationLevel4>
+ 二  20 00:38:40                                             <aggregationLevel8><n0/></aggregationLevel8>
+ 二  20 00:38:40                                             <aggregationLevel16><n0/></aggregationLevel16>
+ 二  20 00:38:40                                         </nrofCandidates>
+ 二  20 00:38:40                                         <searchSpaceType>
+ 二  20 00:38:40                                             <common>
+ 二  20 00:38:40                                                 <dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                                 </dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                             </common>
+ 二  20 00:38:40                                         </searchSpaceType>
+ 二  20 00:38:40                                     </SearchSpace>
+ 二  20 00:38:40                                     <SearchSpace>
+ 二  20 00:38:40                                         <searchSpaceId>2</searchSpaceId>
+ 二  20 00:38:40                                         <controlResourceSetId>0</controlResourceSetId>
+ 二  20 00:38:40                                         <monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                             <sl1></sl1>
+ 二  20 00:38:40                                         </monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                         <monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                             10000000000000
+ 二  20 00:38:40                                         </monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                         <nrofCandidates>
+ 二  20 00:38:40                                             <aggregationLevel1><n0/></aggregationLevel1>
+ 二  20 00:38:40                                             <aggregationLevel2><n0/></aggregationLevel2>
+ 二  20 00:38:40                                             <aggregationLevel4><n1/></aggregationLevel4>
+ 二  20 00:38:40                                             <aggregationLevel8><n0/></aggregationLevel8>
+ 二  20 00:38:40                                             <aggregationLevel16><n0/></aggregationLevel16>
+ 二  20 00:38:40                                         </nrofCandidates>
+ 二  20 00:38:40                                         <searchSpaceType>
+ 二  20 00:38:40                                             <common>
+ 二  20 00:38:40                                                 <dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                                 </dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                             </common>
+ 二  20 00:38:40                                         </searchSpaceType>
+ 二  20 00:38:40                                     </SearchSpace>
+ 二  20 00:38:40                                     <SearchSpace>
+ 二  20 00:38:40                                         <searchSpaceId>3</searchSpaceId>
+ 二  20 00:38:40                                         <controlResourceSetId>0</controlResourceSetId>
+ 二  20 00:38:40                                         <monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                             <sl1></sl1>
+ 二  20 00:38:40                                         </monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                         <monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                             10000000000000
+ 二  20 00:38:40                                         </monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                         <nrofCandidates>
+ 二  20 00:38:40                                             <aggregationLevel1><n0/></aggregationLevel1>
+ 二  20 00:38:40                                             <aggregationLevel2><n0/></aggregationLevel2>
+ 二  20 00:38:40                                             <aggregationLevel4><n1/></aggregationLevel4>
+ 二  20 00:38:40                                             <aggregationLevel8><n0/></aggregationLevel8>
+ 二  20 00:38:40                                             <aggregationLevel16><n0/></aggregationLevel16>
+ 二  20 00:38:40                                         </nrofCandidates>
+ 二  20 00:38:40                                         <searchSpaceType>
+ 二  20 00:38:40                                             <common>
+ 二  20 00:38:40                                                 <dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                                 </dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                             </common>
+ 二  20 00:38:40                                         </searchSpaceType>
+ 二  20 00:38:40                                     </SearchSpace>
+ 二  20 00:38:40                                 </commonSearchSpaceList>
+ 二  20 00:38:40                                 <searchSpaceSIB1>0</searchSpaceSIB1>
+ 二  20 00:38:40                                 <searchSpaceOtherSystemInformation>3</searchSpaceOtherSystemInformation>
+ 二  20 00:38:40                                 <pagingSearchSpace>2</pagingSearchSpace>
+ 二  20 00:38:40                                 <ra-SearchSpace>1</ra-SearchSpace>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pdcch-ConfigCommon>
+ 二  20 00:38:40                         <pdsch-ConfigCommon>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <pdsch-TimeDomainAllocationList>
+ 二  20 00:38:40                                     <PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <mappingType><typeA/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>40</startSymbolAndLength>
+ 二  20 00:38:40                                     </PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     <PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <mappingType><typeA/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>54</startSymbolAndLength>
+ 二  20 00:38:40                                     </PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     <PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <mappingType><typeA/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>57</startSymbolAndLength>
+ 二  20 00:38:40                                     </PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                 </pdsch-TimeDomainAllocationList>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pdsch-ConfigCommon>
+ 二  20 00:38:40                     </initialDownlinkBWP>
+ 二  20 00:38:40                 </downlinkConfigCommon>
+ 二  20 00:38:40                 <uplinkConfigCommon>
+ 二  20 00:38:40                     <frequencyInfoUL>
+ 二  20 00:38:40                         <frequencyBandList>
+ 二  20 00:38:40                             <FreqBandIndicatorNR>78</FreqBandIndicatorNR>
+ 二  20 00:38:40                         </frequencyBandList>
+ 二  20 00:38:40                         <scs-SpecificCarrierList>
+ 二  20 00:38:40                             <SCS-SpecificCarrier>
+ 二  20 00:38:40                                 <offsetToCarrier>0</offsetToCarrier>
+ 二  20 00:38:40                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 二  20 00:38:40                                 <carrierBandwidth>106</carrierBandwidth>
+ 二  20 00:38:40                             </SCS-SpecificCarrier>
+ 二  20 00:38:40                         </scs-SpecificCarrierList>
+ 二  20 00:38:40                         <p-Max>20</p-Max>
+ 二  20 00:38:40                     </frequencyInfoUL>
+ 二  20 00:38:40                     <initialUplinkBWP>
+ 二  20 00:38:40                         <genericParameters>
+ 二  20 00:38:40                             <locationAndBandwidth>6366</locationAndBandwidth>
+ 二  20 00:38:40                             <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 二  20 00:38:40                         </genericParameters>
+ 二  20 00:38:40                         <rach-ConfigCommon>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <rach-ConfigGeneric>
+ 二  20 00:38:40                                     <prach-ConfigurationIndex>98</prach-ConfigurationIndex>
+ 二  20 00:38:40                                     <msg1-FDM><one/></msg1-FDM>
+ 二  20 00:38:40                                     <msg1-FrequencyStart>0</msg1-FrequencyStart>
+ 二  20 00:38:40                                     <zeroCorrelationZoneConfig>13</zeroCorrelationZoneConfig>
+ 二  20 00:38:40                                     <preambleReceivedTargetPower>-118</preambleReceivedTargetPower>
+ 二  20 00:38:40                                     <preambleTransMax><n10/></preambleTransMax>
+ 二  20 00:38:40                                     <powerRampingStep><dB2/></powerRampingStep>
+ 二  20 00:38:40                                     <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+ 二  20 00:38:40                                 </rach-ConfigGeneric>
+ 二  20 00:38:40                                 <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 二  20 00:38:40                                     <one><n64/></one>
+ 二  20 00:38:40                                 </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 二  20 00:38:40                                 <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+ 二  20 00:38:40                                 <rsrp-ThresholdSSB>19</rsrp-ThresholdSSB>
+ 二  20 00:38:40                                 <prach-RootSequenceIndex>
+ 二  20 00:38:40                                     <l139>1</l139>
+ 二  20 00:38:40                                 </prach-RootSequenceIndex>
+ 二  20 00:38:40                                 <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
+ 二  20 00:38:40                                 <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </rach-ConfigCommon>
+ 二  20 00:38:40                         <pusch-ConfigCommon>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <pusch-TimeDomainAllocationList>
+ 二  20 00:38:40                                     <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <k2>2</k2>
+ 二  20 00:38:40                                         <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>41</startSymbolAndLength>
+ 二  20 00:38:40                                     </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <k2>2</k2>
+ 二  20 00:38:40                                         <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>55</startSymbolAndLength>
+ 二  20 00:38:40                                     </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <k2>2</k2>
+ 二  20 00:38:40                                         <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>38</startSymbolAndLength>
+ 二  20 00:38:40                                     </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <k2>7</k2>
+ 二  20 00:38:40                                         <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>38</startSymbolAndLength>
+ 二  20 00:38:40                                     </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                 </pusch-TimeDomainAllocationList>
+ 二  20 00:38:40                                 <msg3-DeltaPreamble>1</msg3-DeltaPreamble>
+ 二  20 00:38:40                                 <p0-NominalWithGrant>-90</p0-NominalWithGrant>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pusch-ConfigCommon>
+ 二  20 00:38:40                         <pucch-ConfigCommon>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <pucch-ResourceCommon>0</pucch-ResourceCommon>
+ 二  20 00:38:40                                 <pucch-GroupHopping><neither/></pucch-GroupHopping>
+ 二  20 00:38:40                                 <hoppingId>40</hoppingId>
+ 二  20 00:38:40                                 <p0-nominal>-90</p0-nominal>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pucch-ConfigCommon>
+ 二  20 00:38:40                     </initialUplinkBWP>
+ 二  20 00:38:40                     <dummy><ms500/></dummy>
+ 二  20 00:38:40                 </uplinkConfigCommon>
+ 二  20 00:38:40                 <ssb-PositionsInBurst>
+ 二  20 00:38:40                     <mediumBitmap>
+ 二  20 00:38:40                         10000000
+ 二  20 00:38:40                     </mediumBitmap>
+ 二  20 00:38:40                 </ssb-PositionsInBurst>
+ 二  20 00:38:40                 <ssb-periodicityServingCell><ms20/></ssb-periodicityServingCell>
+ 二  20 00:38:40                 <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+ 二  20 00:38:40                 <ssbSubcarrierSpacing><kHz30/></ssbSubcarrierSpacing>
+ 二  20 00:38:40                 <tdd-UL-DL-ConfigurationCommon>
+ 二  20 00:38:40                     <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
+ 二  20 00:38:40                     <pattern1>
+ 二  20 00:38:40                         <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
+ 二  20 00:38:40                         <nrofDownlinkSlots>7</nrofDownlinkSlots>
+ 二  20 00:38:40                         <nrofDownlinkSymbols>6</nrofDownlinkSymbols>
+ 二  20 00:38:40                         <nrofUplinkSlots>2</nrofUplinkSlots>
+ 二  20 00:38:40                         <nrofUplinkSymbols>4</nrofUplinkSymbols>
+ 二  20 00:38:40                     </pattern1>
+ 二  20 00:38:40                 </tdd-UL-DL-ConfigurationCommon>
+ 二  20 00:38:40                 <ss-PBCH-BlockPower>10</ss-PBCH-BlockPower>
+ 二  20 00:38:40             </spCellConfigCommon>
+ 二  20 00:38:40             <newUE-Identity>4660</newUE-Identity>
+ 二  20 00:38:40             <t304><ms2000/></t304>
+ 二  20 00:38:40             <rach-ConfigDedicated>
+ 二  20 00:38:40                 <uplink>
+ 二  20 00:38:40                     <cfra>
+ 二  20 00:38:40                         <occasions>
+ 二  20 00:38:40                             <rach-ConfigGeneric>
+ 二  20 00:38:40                                 <prach-ConfigurationIndex>98</prach-ConfigurationIndex>
+ 二  20 00:38:40                                 <msg1-FDM><one/></msg1-FDM>
+ 二  20 00:38:40                                 <msg1-FrequencyStart>0</msg1-FrequencyStart>
+ 二  20 00:38:40                                 <zeroCorrelationZoneConfig>13</zeroCorrelationZoneConfig>
+ 二  20 00:38:40                                 <preambleReceivedTargetPower>-118</preambleReceivedTargetPower>
+ 二  20 00:38:40                                 <preambleTransMax><n10/></preambleTransMax>
+ 二  20 00:38:40                                 <powerRampingStep><dB2/></powerRampingStep>
+ 二  20 00:38:40                                 <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+ 二  20 00:38:40                             </rach-ConfigGeneric>
+ 二  20 00:38:40                             <ssb-perRACH-Occasion><one/></ssb-perRACH-Occasion>
+ 二  20 00:38:40                         </occasions>
+ 二  20 00:38:40                         <resources>
+ 二  20 00:38:40                             <ssb>
+ 二  20 00:38:40                                 <ssb-ResourceList>
+ 二  20 00:38:40                                     <CFRA-SSB-Resource>
+ 二  20 00:38:40                                         <ssb>0</ssb>
+ 二  20 00:38:40                                         <ra-PreambleIndex>62</ra-PreambleIndex>
+ 二  20 00:38:40                                     </CFRA-SSB-Resource>
+ 二  20 00:38:40                                 </ssb-ResourceList>
+ 二  20 00:38:40                                 <ra-ssb-OccasionMaskIndex>0</ra-ssb-OccasionMaskIndex>
+ 二  20 00:38:40                             </ssb>
+ 二  20 00:38:40                         </resources>
+ 二  20 00:38:40                     </cfra>
+ 二  20 00:38:40                 </uplink>
+ 二  20 00:38:40             </rach-ConfigDedicated>
+ 二  20 00:38:40         </reconfigurationWithSync>
+ 二  20 00:38:40         <rlf-TimersAndConstants>
+ 二  20 00:38:40             <setup>
+ 二  20 00:38:40                 <t310><ms4000/></t310>
+ 二  20 00:38:40                 <n310><n20/></n310>
+ 二  20 00:38:40                 <n311><n1/></n311>
+ 二  20 00:38:40                 <ext1>
+ 二  20 00:38:40                     <t311><ms30000/></t311>
+ 二  20 00:38:40                 </ext1>
+ 二  20 00:38:40             </setup>
+ 二  20 00:38:40         </rlf-TimersAndConstants>
+ 二  20 00:38:40         <spCellConfigDedicated>
+ 二  20 00:38:40             <initialDownlinkBWP>
+ 二  20 00:38:40                 <pdsch-Config>
+ 二  20 00:38:40                     <setup>
+ 二  20 00:38:40                         <dmrs-DownlinkForPDSCH-MappingTypeA>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <dmrs-AdditionalPosition><pos1/></dmrs-AdditionalPosition>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </dmrs-DownlinkForPDSCH-MappingTypeA>
+ 二  20 00:38:40                         <tci-StatesToAddModList>
+ 二  20 00:38:40                             <TCI-State>
+ 二  20 00:38:40                                 <tci-StateId>0</tci-StateId>
+ 二  20 00:38:40                                 <qcl-Type1>
+ 二  20 00:38:40                                     <bwp-Id>0</bwp-Id>
+ 二  20 00:38:40                                     <referenceSignal>
+ 二  20 00:38:40                                         <ssb>0</ssb>
+ 二  20 00:38:40                                     </referenceSignal>
+ 二  20 00:38:40                                     <qcl-Type><typeC/></qcl-Type>
+ 二  20 00:38:40                                 </qcl-Type1>
+ 二  20 00:38:40                             </TCI-State>
+ 二  20 00:38:40                         </tci-StatesToAddModList>
+ 二  20 00:38:40                         <resourceAllocation><resourceAllocationType1/></resourceAllocation>
+ 二  20 00:38:40                         <rbg-Size><config1/></rbg-Size>
+ 二  20 00:38:40                         <prb-BundlingType>
+ 二  20 00:38:40                             <staticBundling>
+ 二  20 00:38:40                                 <bundleSize><wideband/></bundleSize>
+ 二  20 00:38:40                             </staticBundling>
+ 二  20 00:38:40                         </prb-BundlingType>
+ 二  20 00:38:40                     </setup>
+ 二  20 00:38:40                 </pdsch-Config>
+ 二  20 00:38:40             </initialDownlinkBWP>
+ 二  20 00:38:40             <downlinkBWP-ToAddModList>
+ 二  20 00:38:40                 <BWP-Downlink>
+ 二  20 00:38:40                     <bwp-Id>1</bwp-Id>
+ 二  20 00:38:40                     <bwp-Common>
+ 二  20 00:38:40                         <genericParameters>
+ 二  20 00:38:40                             <locationAndBandwidth>28875</locationAndBandwidth>
+ 二  20 00:38:40                             <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 二  20 00:38:40                         </genericParameters>
+ 二  20 00:38:40                         <pdcch-ConfigCommon>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <commonControlResourceSet>
+ 二  20 00:38:40                                     <controlResourceSetId>2</controlResourceSetId>
+ 二  20 00:38:40                                     <frequencyDomainResources>
+ 二  20 00:38:40                                         111111111111111100000000000000000000000000000
+ 二  20 00:38:40                                     </frequencyDomainResources>
+ 二  20 00:38:40                                     <duration>1</duration>
+ 二  20 00:38:40                                     <cce-REG-MappingType>
+ 二  20 00:38:40                                         <nonInterleaved></nonInterleaved>
+ 二  20 00:38:40                                     </cce-REG-MappingType>
+ 二  20 00:38:40                                     <precoderGranularity><sameAsREG-bundle/></precoderGranularity>
+ 二  20 00:38:40                                     <tci-StatesPDCCH-ToAddList>
+ 二  20 00:38:40                                         <TCI-StateId>0</TCI-StateId>
+ 二  20 00:38:40                                     </tci-StatesPDCCH-ToAddList>
+ 二  20 00:38:40                                 </commonControlResourceSet>
+ 二  20 00:38:40                                 <commonSearchSpaceList>
+ 二  20 00:38:40                                     <SearchSpace>
+ 二  20 00:38:40                                         <searchSpaceId>6</searchSpaceId>
+ 二  20 00:38:40                                         <controlResourceSetId>2</controlResourceSetId>
+ 二  20 00:38:40                                         <monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                             <sl1></sl1>
+ 二  20 00:38:40                                         </monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                         <monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                             10000000000000
+ 二  20 00:38:40                                         </monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                         <nrofCandidates>
+ 二  20 00:38:40                                             <aggregationLevel1><n0/></aggregationLevel1>
+ 二  20 00:38:40                                             <aggregationLevel2><n0/></aggregationLevel2>
+ 二  20 00:38:40                                             <aggregationLevel4><n1/></aggregationLevel4>
+ 二  20 00:38:40                                             <aggregationLevel8><n0/></aggregationLevel8>
+ 二  20 00:38:40                                             <aggregationLevel16><n0/></aggregationLevel16>
+ 二  20 00:38:40                                         </nrofCandidates>
+ 二  20 00:38:40                                         <searchSpaceType>
+ 二  20 00:38:40                                             <common>
+ 二  20 00:38:40                                                 <dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                                 </dci-Format0-0-AndFormat1-0>
+ 二  20 00:38:40                                             </common>
+ 二  20 00:38:40                                         </searchSpaceType>
+ 二  20 00:38:40                                     </SearchSpace>
+ 二  20 00:38:40                                 </commonSearchSpaceList>
+ 二  20 00:38:40                                 <ra-SearchSpace>6</ra-SearchSpace>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pdcch-ConfigCommon>
+ 二  20 00:38:40                         <pdsch-ConfigCommon>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <pdsch-TimeDomainAllocationList>
+ 二  20 00:38:40                                     <PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <mappingType><typeA/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>40</startSymbolAndLength>
+ 二  20 00:38:40                                     </PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     <PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <mappingType><typeA/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>54</startSymbolAndLength>
+ 二  20 00:38:40                                     </PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     <PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <mappingType><typeA/></mappingType>
+ 二  20 00:38:40                                         <startSymbolAndLength>57</startSymbolAndLength>
+ 二  20 00:38:40                                     </PDSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                 </pdsch-TimeDomainAllocationList>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pdsch-ConfigCommon>
+ 二  20 00:38:40                     </bwp-Common>
+ 二  20 00:38:40                     <bwp-Dedicated>
+ 二  20 00:38:40                         <pdcch-Config>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <controlResourceSetToAddModList>
+ 二  20 00:38:40                                     <ControlResourceSet>
+ 二  20 00:38:40                                         <controlResourceSetId>2</controlResourceSetId>
+ 二  20 00:38:40                                         <frequencyDomainResources>
+ 二  20 00:38:40                                             111111111111111100000000000000000000000000000
+ 二  20 00:38:40                                         </frequencyDomainResources>
+ 二  20 00:38:40                                         <duration>1</duration>
+ 二  20 00:38:40                                         <cce-REG-MappingType>
+ 二  20 00:38:40                                             <nonInterleaved></nonInterleaved>
+ 二  20 00:38:40                                         </cce-REG-MappingType>
+ 二  20 00:38:40                                         <precoderGranularity><sameAsREG-bundle/></precoderGranularity>
+ 二  20 00:38:40                                         <tci-StatesPDCCH-ToAddList>
+ 二  20 00:38:40                                             <TCI-StateId>0</TCI-StateId>
+ 二  20 00:38:40                                         </tci-StatesPDCCH-ToAddList>
+ 二  20 00:38:40                                     </ControlResourceSet>
+ 二  20 00:38:40                                 </controlResourceSetToAddModList>
+ 二  20 00:38:40                                 <searchSpacesToAddModList>
+ 二  20 00:38:40                                     <SearchSpace>
+ 二  20 00:38:40                                         <searchSpaceId>11</searchSpaceId>
+ 二  20 00:38:40                                         <controlResourceSetId>2</controlResourceSetId>
+ 二  20 00:38:40                                         <monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                             <sl1></sl1>
+ 二  20 00:38:40                                         </monitoringSlotPeriodicityAndOffset>
+ 二  20 00:38:40                                         <monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                             10000000000000
+ 二  20 00:38:40                                         </monitoringSymbolsWithinSlot>
+ 二  20 00:38:40                                         <nrofCandidates>
+ 二  20 00:38:40                                             <aggregationLevel1><n0/></aggregationLevel1>
+ 二  20 00:38:40                                             <aggregationLevel2><n2/></aggregationLevel2>
+ 二  20 00:38:40                                             <aggregationLevel4><n0/></aggregationLevel4>
+ 二  20 00:38:40                                             <aggregationLevel8><n0/></aggregationLevel8>
+ 二  20 00:38:40                                             <aggregationLevel16><n0/></aggregationLevel16>
+ 二  20 00:38:40                                         </nrofCandidates>
+ 二  20 00:38:40                                         <searchSpaceType>
+ 二  20 00:38:40                                             <ue-Specific>
+ 二  20 00:38:40                                                 <dci-Formats><formats0-1-And-1-1/></dci-Formats>
+ 二  20 00:38:40                                             </ue-Specific>
+ 二  20 00:38:40                                         </searchSpaceType>
+ 二  20 00:38:40                                     </SearchSpace>
+ 二  20 00:38:40                                 </searchSpacesToAddModList>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pdcch-Config>
+ 二  20 00:38:40                         <pdsch-Config>
+ 二  20 00:38:40                             <setup>
+ 二  20 00:38:40                                 <dmrs-DownlinkForPDSCH-MappingTypeA>
+ 二  20 00:38:40                                     <setup>
+ 二  20 00:38:40                                         <dmrs-AdditionalPosition><pos1/></dmrs-AdditionalPosition>
+ 二  20 00:38:40                                     </setup>
+ 二  20 00:38:40                                 </dmrs-DownlinkForPDSCH-MappingTypeA>
+ 二  20 00:38:40                                 <tci-StatesToAddModList>
+ 二  20 00:38:40                                     <TCI-State>
+ 二  20 00:38:40                                         <tci-StateId>0</tci-StateId>
+ 二  20 00:38:40                                         <qcl-Type1>
+ 二  20 00:38:40                                             <bwp-Id>1</bwp-Id>
+ 二  20 00:38:40                                             <referenceSignal>
+ 二  20 00:38:40                                                 <ssb>0</ssb>
+ 二  20 00:38:40                                             </referenceSignal>
+ 二  20 00:38:40                                             <qcl-Type><typeC/></qcl-Type>
+ 二  20 00:38:40                                         </qcl-Type1>
+ 二  20 00:38:40                                     </TCI-State>
+ 二  20 00:38:40                                 </tci-StatesToAddModList>
+ 二  20 00:38:40                                 <resourceAllocation><resourceAllocationType1/></resourceAllocation>
+ 二  20 00:38:40                                 <rbg-Size><config1/></rbg-Size>
+ 二  20 00:38:40                                 <prb-BundlingType>
+ 二  20 00:38:40                                     <staticBundling>
+ 二  20 00:38:40                                         <bundleSize><wideband/></bundleSize>
+ 二  20 00:38:40                                     </staticBundling>
+ 二  20 00:38:40                                 </prb-BundlingType>
+ 二  20 00:38:40                             </setup>
+ 二  20 00:38:40                         </pdsch-Config>
+ 二  20 00:38:40                     </bwp-Dedicated>
+ 二  20 00:38:40                 </BWP-Downlink>
+ 二  20 00:38:40             </downlinkBWP-ToAddModList>
+ 二  20 00:38:40             <firstActiveDownlinkBWP-Id>1</firstActiveDownlinkBWP-Id>
+ 二  20 00:38:40             <defaultDownlinkBWP-Id>0</defaultDownlinkBWP-Id>
+ 二  20 00:38:40             <uplinkConfig>
+ 二  20 00:38:40                 <initialUplinkBWP>
+ 二  20 00:38:40                     <pusch-Config>
+ 二  20 00:38:40                         <setup>
+ 二  20 00:38:40                             <txConfig><codebook/></txConfig>
+ 二  20 00:38:40                             <dmrs-UplinkForPUSCH-MappingTypeB>
+ 二  20 00:38:40                                 <setup>
+ 二  20 00:38:40                                     <transformPrecodingDisabled>
+ 二  20 00:38:40                                     </transformPrecodingDisabled>
+ 二  20 00:38:40                                     <transformPrecodingEnabled>
+ 二  20 00:38:40                                     </transformPrecodingEnabled>
+ 二  20 00:38:40                                 </setup>
+ 二  20 00:38:40                             </dmrs-UplinkForPUSCH-MappingTypeB>
+ 二  20 00:38:40                             <pusch-PowerControl>
+ 二  20 00:38:40                                 <msg3-Alpha><alpha1/></msg3-Alpha>
+ 二  20 00:38:40                                 <p0-AlphaSets>
+ 二  20 00:38:40                                     <P0-PUSCH-AlphaSet>
+ 二  20 00:38:40                                         <p0-PUSCH-AlphaSetId>0</p0-PUSCH-AlphaSetId>
+ 二  20 00:38:40                                         <p0>0</p0>
+ 二  20 00:38:40                                         <alpha><alpha1/></alpha>
+ 二  20 00:38:40                                     </P0-PUSCH-AlphaSet>
+ 二  20 00:38:40                                 </p0-AlphaSets>
+ 二  20 00:38:40                                 <pathlossReferenceRSToAddModList>
+ 二  20 00:38:40                                     <PUSCH-PathlossReferenceRS>
+ 二  20 00:38:40                                         <pusch-PathlossReferenceRS-Id>0</pusch-PathlossReferenceRS-Id>
+ 二  20 00:38:40                                         <referenceSignal>
+ 二  20 00:38:40                                             <ssb-Index>0</ssb-Index>
+ 二  20 00:38:40                                         </referenceSignal>
+ 二  20 00:38:40                                     </PUSCH-PathlossReferenceRS>
+ 二  20 00:38:40                                 </pathlossReferenceRSToAddModList>
+ 二  20 00:38:40                                 <deltaMCS><enabled/></deltaMCS>
+ 二  20 00:38:40                             </pusch-PowerControl>
+ 二  20 00:38:40                             <resourceAllocation><resourceAllocationType1/></resourceAllocation>
+ 二  20 00:38:40                             <codebookSubset><nonCoherent/></codebookSubset>
+ 二  20 00:38:40                             <maxRank>1</maxRank>
+ 二  20 00:38:40                         </setup>
+ 二  20 00:38:40                     </pusch-Config>
+ 二  20 00:38:40                     <srs-Config>
+ 二  20 00:38:40                         <setup>
+ 二  20 00:38:40                             <srs-ResourceSetToAddModList>
+ 二  20 00:38:40                                 <SRS-ResourceSet>
+ 二  20 00:38:40                                     <srs-ResourceSetId>0</srs-ResourceSetId>
+ 二  20 00:38:40                                     <srs-ResourceIdList>
+ 二  20 00:38:40                                         <SRS-ResourceId>0</SRS-ResourceId>
+ 二  20 00:38:40                                     </srs-ResourceIdList>
+ 二  20 00:38:40                                     <resourceType>
+ 二  20 00:38:40                                         <aperiodic>
+ 二  20 00:38:40                                             <aperiodicSRS-ResourceTrigger>1</aperiodicSRS-ResourceTrigger>
+ 二  20 00:38:40                                             <slotOffset>2</slotOffset>
+ 二  20 00:38:40                                         </aperiodic>
+ 二  20 00:38:40                                     </resourceType>
+ 二  20 00:38:40                                     <usage><codebook/></usage>
+ 二  20 00:38:40                                     <alpha><alpha1/></alpha>
+ 二  20 00:38:40                                     <p0>-80</p0>
+ 二  20 00:38:40                                 </SRS-ResourceSet>
+ 二  20 00:38:40                             </srs-ResourceSetToAddModList>
+ 二  20 00:38:40                             <srs-ResourceToAddModList>
+ 二  20 00:38:40                                 <SRS-Resource>
+ 二  20 00:38:40                                     <srs-ResourceId>0</srs-ResourceId>
+ 二  20 00:38:40                                     <nrofSRS-Ports><port1/></nrofSRS-Ports>
+ 二  20 00:38:40                                     <transmissionComb>
+ 二  20 00:38:40                                         <n2>
+ 二  20 00:38:40                                             <combOffset-n2>0</combOffset-n2>
+ 二  20 00:38:40                                             <cyclicShift-n2>0</cyclicShift-n2>
+ 二  20 00:38:40                                         </n2>
+ 二  20 00:38:40                                     </transmissionComb>
+ 二  20 00:38:40                                     <resourceMapping>
+ 二  20 00:38:40                                         <startPosition>1</startPosition>
+ 二  20 00:38:40                                         <nrofSymbols><n1/></nrofSymbols>
+ 二  20 00:38:40                                         <repetitionFactor><n1/></repetitionFactor>
+ 二  20 00:38:40                                     </resourceMapping>
+ 二  20 00:38:40                                     <freqDomainPosition>0</freqDomainPosition>
+ 二  20 00:38:40                                     <freqDomainShift>0</freqDomainShift>
+ 二  20 00:38:40                                     <freqHopping>
+ 二  20 00:38:40                                         <c-SRS>5</c-SRS>
+ 二  20 00:38:40                                         <b-SRS>0</b-SRS>
+ 二  20 00:38:40                                         <b-hop>0</b-hop>
+ 二  20 00:38:40                                     </freqHopping>
+ 二  20 00:38:40                                     <groupOrSequenceHopping><neither/></groupOrSequenceHopping>
+ 二  20 00:38:40                                     <resourceType>
+ 二  20 00:38:40                                         <aperiodic>
+ 二  20 00:38:40                                         </aperiodic>
+ 二  20 00:38:40                                     </resourceType>
+ 二  20 00:38:40                                     <sequenceId>40</sequenceId>
+ 二  20 00:38:40                                     <spatialRelationInfo>
+ 二  20 00:38:40                                         <referenceSignal>
+ 二  20 00:38:40                                             <ssb-Index>0</ssb-Index>
+ 二  20 00:38:40                                         </referenceSignal>
+ 二  20 00:38:40                                     </spatialRelationInfo>
+ 二  20 00:38:40                                 </SRS-Resource>
+ 二  20 00:38:40                             </srs-ResourceToAddModList>
+ 二  20 00:38:40                         </setup>
+ 二  20 00:38:40                     </srs-Config>
+ 二  20 00:38:40                 </initialUplinkBWP>
+ 二  20 00:38:40                 <uplinkBWP-ToAddModList>
+ 二  20 00:38:40                     <BWP-Uplink>
+ 二  20 00:38:40                         <bwp-Id>1</bwp-Id>
+ 二  20 00:38:40                         <bwp-Common>
+ 二  20 00:38:40                             <genericParameters>
+ 二  20 00:38:40                                 <locationAndBandwidth>28875</locationAndBandwidth>
+ 二  20 00:38:40                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 二  20 00:38:40                             </genericParameters>
+ 二  20 00:38:40                             <rach-ConfigCommon>
+ 二  20 00:38:40                                 <setup>
+ 二  20 00:38:40                                     <rach-ConfigGeneric>
+ 二  20 00:38:40                                         <prach-ConfigurationIndex>98</prach-ConfigurationIndex>
+ 二  20 00:38:40                                         <msg1-FDM><one/></msg1-FDM>
+ 二  20 00:38:40                                         <msg1-FrequencyStart>0</msg1-FrequencyStart>
+ 二  20 00:38:40                                         <zeroCorrelationZoneConfig>13</zeroCorrelationZoneConfig>
+ 二  20 00:38:40                                         <preambleReceivedTargetPower>-118</preambleReceivedTargetPower>
+ 二  20 00:38:40                                         <preambleTransMax><n10/></preambleTransMax>
+ 二  20 00:38:40                                         <powerRampingStep><dB2/></powerRampingStep>
+ 二  20 00:38:40                                         <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+ 二  20 00:38:40                                     </rach-ConfigGeneric>
+ 二  20 00:38:40                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 二  20 00:38:40                                         <one><n64/></one>
+ 二  20 00:38:40                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 二  20 00:38:40                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+ 二  20 00:38:40                                     <rsrp-ThresholdSSB>19</rsrp-ThresholdSSB>
+ 二  20 00:38:40                                     <prach-RootSequenceIndex>
+ 二  20 00:38:40                                         <l139>1</l139>
+ 二  20 00:38:40                                     </prach-RootSequenceIndex>
+ 二  20 00:38:40                                     <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
+ 二  20 00:38:40                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+ 二  20 00:38:40                                 </setup>
+ 二  20 00:38:40                             </rach-ConfigCommon>
+ 二  20 00:38:40                             <pusch-ConfigCommon>
+ 二  20 00:38:40                                 <setup>
+ 二  20 00:38:40                                     <pusch-TimeDomainAllocationList>
+ 二  20 00:38:40                                         <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                             <k2>2</k2>
+ 二  20 00:38:40                                             <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                             <startSymbolAndLength>41</startSymbolAndLength>
+ 二  20 00:38:40                                         </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                             <k2>2</k2>
+ 二  20 00:38:40                                             <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                             <startSymbolAndLength>55</startSymbolAndLength>
+ 二  20 00:38:40                                         </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                             <k2>2</k2>
+ 二  20 00:38:40                                             <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                             <startSymbolAndLength>38</startSymbolAndLength>
+ 二  20 00:38:40                                         </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                         <PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                             <k2>7</k2>
+ 二  20 00:38:40                                             <mappingType><typeB/></mappingType>
+ 二  20 00:38:40                                             <startSymbolAndLength>38</startSymbolAndLength>
+ 二  20 00:38:40                                         </PUSCH-TimeDomainResourceAllocation>
+ 二  20 00:38:40                                     </pusch-TimeDomainAllocationList>
+ 二  20 00:38:40                                     <msg3-DeltaPreamble>1</msg3-DeltaPreamble>
+ 二  20 00:38:40                                     <p0-NominalWithGrant>-90</p0-NominalWithGrant>
+ 二  20 00:38:40                                 </setup>
+ 二  20 00:38:40                             </pusch-ConfigCommon>
+ 二  20 00:38:40                             <pucch-ConfigCommon>
+ 二  20 00:38:40                                 <setup>
+ 二  20 00:38:40                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
+ 二  20 00:38:40                                     <hoppingId>40</hoppingId>
+ 二  20 00:38:40                                     <p0-nominal>-90</p0-nominal>
+ 二  20 00:38:40                                 </setup>
+ 二  20 00:38:40                             </pucch-ConfigCommon>
+ 二  20 00:38:40                         </bwp-Common>
+ 二  20 00:38:40                         <bwp-Dedicated>
+ 二  20 00:38:40                             <pucch-Config>
+ 二  20 00:38:40                                 <setup>
+ 二  20 00:38:40                                     <resourceSetToAddModList>
+ 二  20 00:38:40                                         <PUCCH-ResourceSet>
+ 二  20 00:38:40                                             <pucch-ResourceSetId>0</pucch-ResourceSetId>
+ 二  20 00:38:40                                             <resourceList>
+ 二  20 00:38:40                                                 <PUCCH-ResourceId>0</PUCCH-ResourceId>
+ 二  20 00:38:40                                             </resourceList>
+ 二  20 00:38:40                                         </PUCCH-ResourceSet>
+ 二  20 00:38:40                                         <PUCCH-ResourceSet>
+ 二  20 00:38:40                                             <pucch-ResourceSetId>1</pucch-ResourceSetId>
+ 二  20 00:38:40                                             <resourceList>
+ 二  20 00:38:40                                                 <PUCCH-ResourceId>2</PUCCH-ResourceId>
+ 二  20 00:38:40                                             </resourceList>
+ 二  20 00:38:40                                         </PUCCH-ResourceSet>
+ 二  20 00:38:40                                     </resourceSetToAddModList>
+ 二  20 00:38:40                                     <resourceToAddModList>
+ 二  20 00:38:40                                         <PUCCH-Resource>
+ 二  20 00:38:40                                             <pucch-ResourceId>0</pucch-ResourceId>
+ 二  20 00:38:40                                             <startingPRB>9</startingPRB>
+ 二  20 00:38:40                                             <format>
+ 二  20 00:38:40                                                 <format0>
+ 二  20 00:38:40                                                     <initialCyclicShift>0</initialCyclicShift>
+ 二  20 00:38:40                                                     <nrofSymbols>1</nrofSymbols>
+ 二  20 00:38:40                                                     <startingSymbolIndex>13</startingSymbolIndex>
+ 二  20 00:38:40                                                 </format0>
+ 二  20 00:38:40                                             </format>
+ 二  20 00:38:40                                         </PUCCH-Resource>
+ 二  20 00:38:40                                         <PUCCH-Resource>
+ 二  20 00:38:40                                             <pucch-ResourceId>2</pucch-ResourceId>
+ 二  20 00:38:40                                             <startingPRB>0</startingPRB>
+ 二  20 00:38:40                                             <format>
+ 二  20 00:38:40                                                 <format2>
+ 二  20 00:38:40                                                     <nrofPRBs>8</nrofPRBs>
+ 二  20 00:38:40                                                     <nrofSymbols>1</nrofSymbols>
+ 二  20 00:38:40                                                     <startingSymbolIndex>13</startingSymbolIndex>
+ 二  20 00:38:40                                                 </format2>
+ 二  20 00:38:40                                             </format>
+ 二  20 00:38:40                                         </PUCCH-Resource>
+ 二  20 00:38:40                                     </resourceToAddModList>
+ 二  20 00:38:40                                     <format2>
+ 二  20 00:38:40                                         <setup>
+ 二  20 00:38:40                                             <maxCodeRate><zeroDot15/></maxCodeRate>
+ 二  20 00:38:40                                             <simultaneousHARQ-ACK-CSI><true/></simultaneousHARQ-ACK-CSI>
+ 二  20 00:38:40                                         </setup>
+ 二  20 00:38:40                                     </format2>
+ 二  20 00:38:40                                     <schedulingRequestResourceToAddModList>
+ 二  20 00:38:40                                         <SchedulingRequestResourceConfig>
+ 二  20 00:38:40                                             <schedulingRequestResourceId>1</schedulingRequestResourceId>
+ 二  20 00:38:40                                             <schedulingRequestID>0</schedulingRequestID>
+ 二  20 00:38:40                                             <periodicityAndOffset>
+ 二  20 00:38:40                                                 <sl10>7</sl10>
+ 二  20 00:38:40                                             </periodicityAndOffset>
+ 二  20 00:38:40                                             <resource>0</resource>
+ 二  20 00:38:40                                         </SchedulingRequestResourceConfig>
+ 二  20 00:38:40                                     </schedulingRequestResourceToAddModList>
+ 二  20 00:38:40                                     <dl-DataToUL-ACK>
+ 二  20 00:38:40                                         <INTEGER>2</INTEGER>
+ 二  20 00:38:40                                         <INTEGER>3</INTEGER>
+ 二  20 00:38:40                                         <INTEGER>4</INTEGER>
+ 二  20 00:38:40                                         <INTEGER>5</INTEGER>
+ 二  20 00:38:40                                         <INTEGER>6</INTEGER>
+ 二  20 00:38:40                                         <INTEGER>7</INTEGER>
+ 二  20 00:38:40                                         <INTEGER>8</INTEGER>
+ 二  20 00:38:40                                         <INTEGER>9</INTEGER>
+ 二  20 00:38:40                                     </dl-DataToUL-ACK>
+ 二  20 00:38:40                                     <spatialRelationInfoToAddModList>
+ 二  20 00:38:40                                         <PUCCH-SpatialRelationInfo>
+ 二  20 00:38:40                                             <pucch-SpatialRelationInfoId>1</pucch-SpatialRelationInfoId>
+ 二  20 00:38:40                                             <referenceSignal>
+ 二  20 00:38:40                                                 <ssb-Index>0</ssb-Index>
+ 二  20 00:38:40                                             </referenceSignal>
+ 二  20 00:38:40                                             <pucch-PathlossReferenceRS-Id>0</pucch-PathlossReferenceRS-Id>
+ 二  20 00:38:40                                             <p0-PUCCH-Id>1</p0-PUCCH-Id>
+ 二  20 00:38:40                                             <closedLoopIndex><i0/></closedLoopIndex>
+ 二  20 00:38:40                                         </PUCCH-SpatialRelationInfo>
+ 二  20 00:38:40                                     </spatialRelationInfoToAddModList>
+ 二  20 00:38:40                                     <pucch-PowerControl>
+ 二  20 00:38:40                                         <deltaF-PUCCH-f0>0</deltaF-PUCCH-f0>
+ 二  20 00:38:40                                         <deltaF-PUCCH-f2>0</deltaF-PUCCH-f2>
+ 二  20 00:38:40                                         <p0-Set>
+ 二  20 00:38:40                                             <P0-PUCCH>
+ 二  20 00:38:40                                                 <p0-PUCCH-Id>1</p0-PUCCH-Id>
+ 二  20 00:38:40                                                 <p0-PUCCH-Value>0</p0-PUCCH-Value>
+ 二  20 00:38:40                                             </P0-PUCCH>
+ 二  20 00:38:40                                         </p0-Set>
+ 二  20 00:38:40                                         <pathlossReferenceRSs>
+ 二  20 00:38:40                                             <PUCCH-PathlossReferenceRS>
+ 二  20 00:38:40                                                 <pucch-PathlossReferenceRS-Id>0</pucch-PathlossReferenceRS-Id>
+ 二  20 00:38:40                                                 <referenceSignal>
+ 二  20 00:38:40                                                     <ssb-Index>0</ssb-Index>
+ 二  20 00:38:40                                                 </referenceSignal>
+ 二  20 00:38:40                                             </PUCCH-PathlossReferenceRS>
+ 二  20 00:38:40                                         </pathlossReferenceRSs>
+ 二  20 00:38:40                                     </pucch-PowerControl>
+ 二  20 00:38:40                                 </setup>
+ 二  20 00:38:40                             </pucch-Config>
+ 二  20 00:38:40                             <pusch-Config>
+ 二  20 00:38:40                                 <setup>
+ 二  20 00:38:40                                     <txConfig><codebook/></txConfig>
+ 二  20 00:38:40                                     <dmrs-UplinkForPUSCH-MappingTypeB>
+ 二  20 00:38:40                                         <setup>
+ 二  20 00:38:40                                             <transformPrecodingDisabled>
+ 二  20 00:38:40                                             </transformPrecodingDisabled>
+ 二  20 00:38:40                                             <transformPrecodingEnabled>
+ 二  20 00:38:40                                             </transformPrecodingEnabled>
+ 二  20 00:38:40                                         </setup>
+ 二  20 00:38:40                                     </dmrs-UplinkForPUSCH-MappingTypeB>
+ 二  20 00:38:40                                     <pusch-PowerControl>
+ 二  20 00:38:40                                         <msg3-Alpha><alpha1/></msg3-Alpha>
+ 二  20 00:38:40                                         <p0-AlphaSets>
+ 二  20 00:38:40                                             <P0-PUSCH-AlphaSet>
+ 二  20 00:38:40                                                 <p0-PUSCH-AlphaSetId>0</p0-PUSCH-AlphaSetId>
+ 二  20 00:38:40                                                 <p0>0</p0>
+ 二  20 00:38:40                                                 <alpha><alpha1/></alpha>
+ 二  20 00:38:40                                             </P0-PUSCH-AlphaSet>
+ 二  20 00:38:40                                         </p0-AlphaSets>
+ 二  20 00:38:40                                         <pathlossReferenceRSToAddModList>
+ 二  20 00:38:40                                             <PUSCH-PathlossReferenceRS>
+ 二  20 00:38:40                                                 <pusch-PathlossReferenceRS-Id>0</pusch-PathlossReferenceRS-Id>
+ 二  20 00:38:40                                                 <referenceSignal>
+ 二  20 00:38:40                                                     <ssb-Index>0</ssb-Index>
+ 二  20 00:38:40                                                 </referenceSignal>
+ 二  20 00:38:40                                             </PUSCH-PathlossReferenceRS>
+ 二  20 00:38:40                                         </pathlossReferenceRSToAddModList>
+ 二  20 00:38:40                                         <deltaMCS><enabled/></deltaMCS>
+ 二  20 00:38:40                                     </pusch-PowerControl>
+ 二  20 00:38:40                                     <resourceAllocation><resourceAllocationType1/></resourceAllocation>
+ 二  20 00:38:40                                     <codebookSubset><nonCoherent/></codebookSubset>
+ 二  20 00:38:40                                     <maxRank>1</maxRank>
+ 二  20 00:38:40                                 </setup>
+ 二  20 00:38:40                             </pusch-Config>
+ 二  20 00:38:40                             <srs-Config>
+ 二  20 00:38:40                                 <setup>
+ 二  20 00:38:40                                     <srs-ResourceSetToAddModList>
+ 二  20 00:38:40                                         <SRS-ResourceSet>
+ 二  20 00:38:40                                             <srs-ResourceSetId>1</srs-ResourceSetId>
+ 二  20 00:38:40                                             <srs-ResourceIdList>
+ 二  20 00:38:40                                                 <SRS-ResourceId>1</SRS-ResourceId>
+ 二  20 00:38:40                                             </srs-ResourceIdList>
+ 二  20 00:38:40                                             <resourceType>
+ 二  20 00:38:40                                                 <aperiodic>
+ 二  20 00:38:40                                                     <aperiodicSRS-ResourceTrigger>1</aperiodicSRS-ResourceTrigger>
+ 二  20 00:38:40                                                     <slotOffset>2</slotOffset>
+ 二  20 00:38:40                                                 </aperiodic>
+ 二  20 00:38:40                                             </resourceType>
+ 二  20 00:38:40                                             <usage><codebook/></usage>
+ 二  20 00:38:40                                             <alpha><alpha1/></alpha>
+ 二  20 00:38:40                                             <p0>-80</p0>
+ 二  20 00:38:40                                         </SRS-ResourceSet>
+ 二  20 00:38:40                                     </srs-ResourceSetToAddModList>
+ 二  20 00:38:40                                     <srs-ResourceToAddModList>
+ 二  20 00:38:40                                         <SRS-Resource>
+ 二  20 00:38:40                                             <srs-ResourceId>1</srs-ResourceId>
+ 二  20 00:38:40                                             <nrofSRS-Ports><port1/></nrofSRS-Ports>
+ 二  20 00:38:40                                             <transmissionComb>
+ 二  20 00:38:40                                                 <n2>
+ 二  20 00:38:40                                                     <combOffset-n2>0</combOffset-n2>
+ 二  20 00:38:40                                                     <cyclicShift-n2>0</cyclicShift-n2>
+ 二  20 00:38:40                                                 </n2>
+ 二  20 00:38:40                                             </transmissionComb>
+ 二  20 00:38:40                                             <resourceMapping>
+ 二  20 00:38:40                                                 <startPosition>1</startPosition>
+ 二  20 00:38:40                                                 <nrofSymbols><n1/></nrofSymbols>
+ 二  20 00:38:40                                                 <repetitionFactor><n1/></repetitionFactor>
+ 二  20 00:38:40                                             </resourceMapping>
+ 二  20 00:38:40                                             <freqDomainPosition>0</freqDomainPosition>
+ 二  20 00:38:40                                             <freqDomainShift>0</freqDomainShift>
+ 二  20 00:38:40                                             <freqHopping>
+ 二  20 00:38:40                                                 <c-SRS>25</c-SRS>
+ 二  20 00:38:40                                                 <b-SRS>0</b-SRS>
+ 二  20 00:38:40                                                 <b-hop>0</b-hop>
+ 二  20 00:38:40                                             </freqHopping>
+ 二  20 00:38:40                                             <groupOrSequenceHopping><neither/></groupOrSequenceHopping>
+ 二  20 00:38:40                                             <resourceType>
+ 二  20 00:38:40                                                 <aperiodic>
+ 二  20 00:38:40                                                 </aperiodic>
+ 二  20 00:38:40                                             </resourceType>
+ 二  20 00:38:40                                             <sequenceId>40</sequenceId>
+ 二  20 00:38:40                                             <spatialRelationInfo>
+ 二  20 00:38:40                                                 <referenceSignal>
+ 二  20 00:38:40                                                     <ssb-Index>0</ssb-Index>
+ 二  20 00:38:40                                                 </referenceSignal>
+ 二  20 00:38:40                                             </spatialRelationInfo>
+ 二  20 00:38:40                                         </SRS-Resource>
+ 二  20 00:38:40                                     </srs-ResourceToAddModList>
+ 二  20 00:38:40                                 </setup>
+ 二  20 00:38:40                             </srs-Config>
+ 二  20 00:38:40                         </bwp-Dedicated>
+ 二  20 00:38:40                     </BWP-Uplink>
+ 二  20 00:38:40                 </uplinkBWP-ToAddModList>
+ 二  20 00:38:40                 <firstActiveUplinkBWP-Id>1</firstActiveUplinkBWP-Id>
+ 二  20 00:38:40                 <pusch-ServingCellConfig>
+ 二  20 00:38:40                     <setup>
+ 二  20 00:38:40                         <ext1>
+ 二  20 00:38:40                             <maxMIMO-Layers>1</maxMIMO-Layers>
+ 二  20 00:38:40                         </ext1>
+ 二  20 00:38:40                     </setup>
+ 二  20 00:38:40                 </pusch-ServingCellConfig>
+ 二  20 00:38:40             </uplinkConfig>
+ 二  20 00:38:40             <pdsch-ServingCellConfig>
+ 二  20 00:38:40                 <setup>
+ 二  20 00:38:40                     <nrofHARQ-ProcessesForPDSCH><n16/></nrofHARQ-ProcessesForPDSCH>
+ 二  20 00:38:40                     <ext1>
+ 二  20 00:38:40                         <maxMIMO-Layers>2</maxMIMO-Layers>
+ 二  20 00:38:40                     </ext1>
+ 二  20 00:38:40                 </setup>
+ 二  20 00:38:40             </pdsch-ServingCellConfig>
+ 二  20 00:38:40             <csi-MeasConfig>
+ 二  20 00:38:40                 <setup>
+ 二  20 00:38:40                     <csi-SSB-ResourceSetToAddModList>
+ 二  20 00:38:40                         <CSI-SSB-ResourceSet>
+ 二  20 00:38:40                             <csi-SSB-ResourceSetId>0</csi-SSB-ResourceSetId>
+ 二  20 00:38:40                             <csi-SSB-ResourceList>
+ 二  20 00:38:40                                 <SSB-Index>0</SSB-Index>
+ 二  20 00:38:40                             </csi-SSB-ResourceList>
+ 二  20 00:38:40                         </CSI-SSB-ResourceSet>
+ 二  20 00:38:40                     </csi-SSB-ResourceSetToAddModList>
+ 二  20 00:38:40                     <csi-ResourceConfigToAddModList>
+ 二  20 00:38:40                         <CSI-ResourceConfig>
+ 二  20 00:38:40                             <csi-ResourceConfigId>21</csi-ResourceConfigId>
+ 二  20 00:38:40                             <csi-RS-ResourceSetList>
+ 二  20 00:38:40                                 <nzp-CSI-RS-SSB>
+ 二  20 00:38:40                                     <csi-SSB-ResourceSetList>
+ 二  20 00:38:40                                         <CSI-SSB-ResourceSetId>0</CSI-SSB-ResourceSetId>
+ 二  20 00:38:40                                     </csi-SSB-ResourceSetList>
+ 二  20 00:38:40                                 </nzp-CSI-RS-SSB>
+ 二  20 00:38:40                             </csi-RS-ResourceSetList>
+ 二  20 00:38:40                             <bwp-Id>1</bwp-Id>
+ 二  20 00:38:40                             <resourceType><periodic/></resourceType>
+ 二  20 00:38:40                         </CSI-ResourceConfig>
+ 二  20 00:38:40                     </csi-ResourceConfigToAddModList>
+ 二  20 00:38:40                     <csi-ReportConfigToAddModList>
+ 二  20 00:38:40                         <CSI-ReportConfig>
+ 二  20 00:38:40                             <reportConfigId>11</reportConfigId>
+ 二  20 00:38:40                             <resourcesForChannelMeasurement>21</resourcesForChannelMeasurement>
+ 二  20 00:38:40                             <reportConfigType>
+ 二  20 00:38:40                                 <periodic>
+ 二  20 00:38:40                                     <reportSlotConfig>
+ 二  20 00:38:40                                         <slots160>17</slots160>
+ 二  20 00:38:40                                     </reportSlotConfig>
+ 二  20 00:38:40                                     <pucch-CSI-ResourceList>
+ 二  20 00:38:40                                         <PUCCH-CSI-Resource>
+ 二  20 00:38:40                                             <uplinkBandwidthPartId>1</uplinkBandwidthPartId>
+ 二  20 00:38:40                                             <pucch-Resource>2</pucch-Resource>
+ 二  20 00:38:40                                         </PUCCH-CSI-Resource>
+ 二  20 00:38:40                                     </pucch-CSI-ResourceList>
+ 二  20 00:38:40                                 </periodic>
+ 二  20 00:38:40                             </reportConfigType>
+ 二  20 00:38:40                             <reportQuantity>
+ 二  20 00:38:40                                 <ssb-Index-RSRP></ssb-Index-RSRP>
+ 二  20 00:38:40                             </reportQuantity>
+ 二  20 00:38:40                             <timeRestrictionForChannelMeasurements><configured/></timeRestrictionForChannelMeasurements>
+ 二  20 00:38:40                             <timeRestrictionForInterferenceMeasurements><configured/></timeRestrictionForInterferenceMeasurements>
+ 二  20 00:38:40                             <groupBasedBeamReporting>
+ 二  20 00:38:40                                 <disabled>
+ 二  20 00:38:40                                     <nrofReportedRS><n1/></nrofReportedRS>
+ 二  20 00:38:40                                 </disabled>
+ 二  20 00:38:40                             </groupBasedBeamReporting>
+ 二  20 00:38:40                             <subbandSize><value1/></subbandSize>
+ 二  20 00:38:40                         </CSI-ReportConfig>
+ 二  20 00:38:40                     </csi-ReportConfigToAddModList>
+ 二  20 00:38:40                 </setup>
+ 二  20 00:38:40             </csi-MeasConfig>
+ 二  20 00:38:40             <tag-Id>0</tag-Id>
+ 二  20 00:38:40         </spCellConfigDedicated>
+ 二  20 00:38:40     </spCellConfig>
+ 二  20 00:38:40 </CellGroupConfig>
+ 二  20 00:38:40 [RRC]   Dumping NR_RRCReconfiguration message (335 bytes)
+ 二  20 00:38:40 [0m08814c5c40b1c07c683014203e0102341e040002e85b98c00693920004d27102000009a586378d7f816e0804000010106e1004000010106e180400001010001840d2140d873a404d0000269c9c31bc65462001aa8cc7fc9c04939c2a9856f0a9a3d3270b801438060108580ec0248c246989988006aa3318001f06fc0080e016cc0494000120800011024c659c32cca282ffff000000010000dc6208000020201a90a06c39654020bfffc000000040000dcb208000200594000120800013024c85c54b018418059383043800625038000040bde802000200000280028000cb9c32cca8c400355198ff9380927385530ade15347a64e13028706aa49a8000200404000900d010013b649180ee0391a2b3c48000014d080100012c061060164e0c10e0018940e0802102f7a0082008000032000a000700a00c0654140188802a0000000002a40300002ca90221058c00
+ 二  20 00:38:40 [RRC]   Dumping scg_RB_Config message (8 bytes)
+ 二  20 00:38:40 [0m140950178fc1cc00
+ 二  20 00:38:40 [RRC]   Assign CU UE ID 1 and DU UE ID 4660 to UE RNTI 1234
+ 二  20 00:38:40 [0m[NR_MAC]   Adding UE with rnti 0x1234
+ 二  20 00:38:40 [0m[NR_MAC]   Switching to DL-BWP 1
+ 二  20 00:38:40 [0m[NR_MAC]   Switching to UL-BWP 1
+ 二  20 00:38:40 [0m[NR_MAC]   Force-added new UE 1234 with initial CellGroup
+ 二  20 00:38:40 [0m[NR_MAC]   Added new CFRA process for UE RNTI 1234 with initial CellGroup
+ 二  20 00:38:40 [0m[93m[RRC]   Calling RRC PDCP/RLC ASN1 request functions for protocol context 0x7ffd729c95c0 with module_id 0, rnti 1, frame 0, subframe 0 eNB_index 0 
+ 二  20 00:38:40 [0m[1;31m[RLC]   DEBUG add_drb_um /home/yen0224/NTUST/nfapi-fixes/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:922:add_drb_um: warning DRB 1 already exist for ue 4660, do nothing
+ 二  20 00:38:40 [0m[RLC]   /home/yen0224/NTUST/nfapi-fixes/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:950: added DRB to UE with RNTI 0x1234
+ 二  20 00:38:40 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (2 to default value)
+ 二  20 00:38:40 [93m[RRC]   no preferred ciphering algorithm set in configuration file, applying default parameters (no security)
+ 二  20 00:38:40 [0m[93m[RRC]   no preferred integrity algorithm set in configuration file, applying default parameters (nia2)
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [PDCP]   pdcp init, usenetlink
+ 二  20 00:38:40 [0m[LIBCONFIG] nas.noS1: 3/3 parameters successfully set, (3 to default value)
+ 二  20 00:38:40 [PDCP]   TUN: Opened socket oaitun_enb1 with fd nas_sock_fd[0]=100
+ 二  20 00:38:40 [0m[OIP]   Interface oaitun_enb1 successfully configured, ip address 10.0.1.1, mask 255.255.255.0 broadcast address 10.0.1.255
+ 二  20 00:38:40 [0mCannot find device "oip1"
+ 二  20 00:38:40 [PDCP]   ENB pdcp will use tun interface
+ 二  20 00:38:40 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 二  20 00:38:40 [UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
+ 二  20 00:38:40 [0m[ITTI]   Created Posix thread TASK_SCTP
+ 二  20 00:38:40 [0m[X2AP]   X2AP is disabled.
+ 二  20 00:38:40 [0m[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
+ 二  20 00:38:40 [0m[ITTI]   Created Posix thread TASK_GNB_APP
+ 二  20 00:38:40 [0m[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+ 二  20 00:38:40 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+ 二  20 00:38:40 [ITTI]   Created Posix thread TASK_RRC_GNB
+ 二  20 00:38:40 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [NR_RRC]   Entering main loop of NR_RRC message task
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (21 to default value)
+ 二  20 00:38:40 [NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-Eurecom-5GNRBox) on assoc_id -1
+ 二  20 00:38:40 [0m[RRC]   Accepting DU 3584 (gNB-Eurecom-5GNRBox), sending F1 Setup Response
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [MAC]   received F1 Setup Response from CU (null)
+ 二  20 00:38:40 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+ 二  20 00:38:40 [GTPU]   Configuring GTPu
+ 二  20 00:38:40 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 二  20 00:38:40 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 二  20 00:38:40 [GTPU]   SA mode 
+ 二  20 00:38:40 [0m[GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
+ 二  20 00:38:40 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+ 二  20 00:38:40 [0m[GTPU]   Created gtpu instance id: 101
+ 二  20 00:38:40 [0m[RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-5GNRBox (assoc_id -1)
+ 二  20 00:38:40 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 二  20 00:38:40 START MAIN THREADS
+ 二  20 00:38:40 RC.nb_nr_L1_inst:0
+ 二  20 00:38:40 wait_gNBs()
+ 二  20 00:38:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+ 二  20 00:38:40 gNB L1 are configured
+ 二  20 00:38:40 About to Init RU threads RC.nb_RU:0
+ 二  20 00:38:40 Entering ITTI signals handler
+ 二  20 00:38:40 TYPE <CTRL-C> TO TERMINATE
+ 二  20 00:38:42 [PHY]   Installing callbacks for IF_Module - UL_indication
+ 二  20 00:38:42 [0mCalling sched_setscheduler(79)
+ 二  20 00:38:42 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:103
+ 二  20 00:38:47 
+ 二  20 00:38:47 Assertion (harq_id >= 0) failed!
+ 二  20 00:38:47 In nr_schedule_ulsch() /home/yen0224/NTUST/nfapi-fixes/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_ulsch.c:2104
+ 二  20 00:38:47 no free HARQ process available for UE 1234
+ 二  20 00:38:47 
+ 二  20 00:38:47 Exiting execution
+ 二  20 00:38:47 /home/yen0224/NTUST/nfapi-fixes/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_ulsch.c:2104 nr_schedule_ulsch() Exiting OAI softmodem: _Assert_Exit_
