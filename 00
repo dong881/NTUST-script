@@ -10,6 +10,8 @@ echo "***** Assigning IP addresses *****"
 INTERFACE=$(ip route | grep default | sed -e "s/^.*dev.//" -e "s/.proto.*//")
 INTERFACE="$(echo -e "${INTERFACE}" | tr -d '[:space:]')"
 
+sudo ifconfig lo: 127.0.0.2 netmask 255.0.0.0 up
+
 # Clear state
 sudo ifconfig $INTERFACE:RIC_STUB down
 sudo ifconfig $INTERFACE:CU_STUB down
@@ -62,6 +64,8 @@ PNF_PATH="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-soft
 PNF_CONF="/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf"
 PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
+# Common part of nrsoftmodem_command
+common_cmd="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
 
 cd ~
 
@@ -98,7 +102,15 @@ echo -n $ODU_PID >> $PID_FILE
 echo -n " " >> $PID_FILE
 
 echo "RUN OAI PNF"
-sudo stdbuf -oL $PNF_PATH -O $PNF_CONF --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &>$PNF_LOG_FILE &
+# sudo stdbuf -oL $PNF_PATH -O $PNF_CONF --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi PNF 2>&1 | ts &>$PNF_LOG_FILE &
+
+# Second script
+#################### 2024/3/3 add for run in RFsim
+pnf_cmd="$common_cmd -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
+#################### 2024/3/3 add 
+
+
 sleep 1
 PNF_PID=$(ps aux | grep "[n]r-softmodem" | awk '{print $2}')
 if [ -n "$PNF_PID" ]; then

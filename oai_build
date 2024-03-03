@@ -4,7 +4,10 @@ sudo echo "Build OAI DU"
 cd /home/yen0224/openairinterface5g/cmake_targets
 
 #compile
-./build_oai -I -c -C
-./build_oai -w USRP --gNB
+# ./build_oai -I -c -C
+# ./build_oai -w USRP --gNB
+#################### 2024/3/3 add for run in RFsim
+sudo ./build_oai -c --ninja --nrUE --gNB
+#################### 2024/3/3 add for run in RFsim
 
 bash "/home/yen0224/NTUST/00"
