@@ -52,6 +52,7 @@ pnf_cmd="$common_cmd -O $CONF_PATH/oaiL1.nfapi.usrpb210.conf --nfapi PNF --rfsim
 sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
 
 # Third script
+sudo ASAN_OPTIONS=detect_leaks=0 
 vnf_cmd="$common_cmd -O $CONF_PATH/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --sa"
 sudo stdbuf -oL $vnf_cmd 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
 
