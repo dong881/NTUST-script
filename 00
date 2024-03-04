@@ -67,6 +67,11 @@ PID_FILE="$LOG_PATH/PID_FILE_NAME"
 # Common part of nrsoftmodem_command
 common_cmd="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
 
+###############2024/03/04 add for TCPdump
+sudo echo "Start TCPdump..."
+sudo tcpdump -i any -nn -w $LOG_PATH/TCPdump.pcap &
+############### TCPdump
+
 cd ~
 
 echo "RUN OAI CU"
