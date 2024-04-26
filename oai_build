@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo echo "Build OAI DU"
 
-cd /home/yen0224/openairinterface5g/cmake_targets
+cd /home/hpe/openairinterface5g/cmake_targets
 
 #compile
 # ./build_oai -I -c -C
@@ -10,4 +10,4 @@ cd /home/yen0224/openairinterface5g/cmake_targets
 sudo ./build_oai -c --ninja --nrUE --gNB
 #################### 2024/3/3 add for run in RFsim
 
-bash "/home/yen0224/NTUST/00"
+# bash "/home/hpe/NTUST-script/00"

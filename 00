@@ -4,7 +4,7 @@ bash "$Target_PATH/q"
 
 echo "Ensure that the previous execution has been closed."
 echo "If you see 'kill: (xxxPIDxxx): No such process,' it means the previous execution has been closed."
-/home/yen0224/NTUST/q
+/home/hpe/q
 
 echo "***** Assigning IP addresses *****"
 INTERFACE=$(ip route | grep default | sed -e "s/^.*dev.//" -e "s/.proto.*//")
@@ -13,19 +13,19 @@ INTERFACE="$(echo -e "${INTERFACE}" | tr -d '[:space:]')"
 sudo ifconfig lo: 127.0.0.2 netmask 255.0.0.0 up
 
 # Clear state
-sudo ifconfig $INTERFACE:RIC_STUB down
-sudo ifconfig $INTERFACE:CU_STUB down
-sudo ifconfig $INTERFACE:ODU down
-sudo ifconfig $INTERFACE:OAI_CU down
+# sudo ifconfig $INTERFACE:RIC_STUB down
+# sudo ifconfig $INTERFACE:CU_STUB down
+# sudo ifconfig $INTERFACE:ODU down
+# sudo ifconfig $INTERFACE:OAI_CU down
 sudo ifconfig lo:RIC_STUB down
 sudo ifconfig lo:CU_STUB  down
 sudo ifconfig lo:ODU  down
 sudo ifconfig lo:OAI_CU down
 
-sudo ifconfig $INTERFACE:RIC_STUB "192.168.130.80"
-sudo ifconfig $INTERFACE:ODU  "192.168.130.81"
-sudo ifconfig $INTERFACE:CU_STUB "192.168.130.82"
-sudo ifconfig $INTERFACE:OAI_CU "192.168.130.83"
+# sudo ifconfig $INTERFACE:RIC_STUB "192.168.130.80"
+# sudo ifconfig $INTERFACE:ODU  "192.168.130.81"
+# sudo ifconfig $INTERFACE:CU_STUB "192.168.130.82"
+# sudo ifconfig $INTERFACE:OAI_CU "192.168.130.83"
 
 sudo ifconfig lo:RIC_STUB "192.168.130.80"
 sudo ifconfig lo:ODU  "192.168.130.81"
@@ -37,35 +37,35 @@ echo  "O-RAN NIC Setting Complete!"
 
 sudo echo "Build OSC DU..."
 # NTUST/mwnl-odu-at-oai-based-on-scf/l2
-cd /home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2/build/odu
+cd /home/hpe/mwnl-odu-at-oai-based-on-scf/l2/build/odu
 #clean
-make clean_odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
 # make clean_cu MACHINE=BIT64 MODE=FDD NFAPI=YES
-make clean_ric MACHINE=BIT64 MODE=FDD NFAPI=YES
+make clean_ric MACHINE=BIT64 MODE=TDD NFAPI=YES
 
 #compile
-make odu MACHINE=BIT64 MODE=FDD NFAPI=YES
+make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
 #make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
-make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
+make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=TDD NFAPI=YES
 
-Target_PATH="/home/yen0224/NTUST"
-L2_PATH="/home/yen0224/NTUST/mwnl-odu-at-oai-based-on-scf/l2"
-LOG_PATH="/home/yen0224/NTUST/LOG"
+Target_PATH="/home/hpe"
+L2_PATH="/home/hpe/mwnl-odu-at-oai-based-on-scf/l2"
+LOG_PATH="/home/hpe/NTUST-script/LOG"
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
 CU_LOG_FILE="$LOG_PATH/1-CU_STUB.log"
-CU_PATH="/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
+CU_PATH="/home/hpe/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
 OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
-CU_CONF="/home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
+CU_CONF="/home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
 RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
 RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
 ODU_PATH="$L2_PATH/bin/odu/odu"
 ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
-PNF_PATH="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
-PNF_CONF="/home/yen0224/new/small_cell_integration/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf"
+PNF_PATH="/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
+PNF_CONF="/home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf"
 PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
 # Common part of nrsoftmodem_command
-common_cmd="/home/yen0224/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
+common_cmd="/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
 
 ###############2024/03/04 add for TCPdump
 sudo echo "Start TCPdump..."

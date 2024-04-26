@@ -1,16 +1,16 @@
 #!/bin/bash
-sudo echo "Build OAI DU"
+sudo echo "Build OAI CU"
 
-cd /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets
-sudo echo "Build OAI DU - step1"
+cd /home/hpe/bmwlab_tony_cu_du/oai_cu/cmake_targets
+sudo echo "Build OAI CU - step1"
 # compile all of the code
 ./build_oai --gNB --nrUE -w SIMU
 
-sudo echo "Build OAI DU - step2"
+sudo echo "Build OAI CU- step2"
 # sync up the format of F1AP
 ./f1ap_codec_mod.sh
 
-sudo echo "Build OAI DU - step3"
+sudo echo "Build OAI CU - step3"
 # compile the part of RAN
-cd /home/yen0224/NTUST/bmwlab_tony_cu_du/oai_cu/cmake_targets
+cd /home/hpe/bmwlab_tony_cu_du/oai_cu/cmake_targets
 ./build_oai --gNB
