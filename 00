@@ -116,16 +116,6 @@ sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
 #################### 2024/3/3 add 
 
 
-sleep 1
-PNF_PID=$(ps aux | grep "[n]r-softmodem" | awk '{print $2}')
-if [ -n "$PNF_PID" ]; then
-    echo "OAI PNF is running with PID: $PNF_PID"
-    echo -n $PNF_PID >> $PID_FILE
-    echo -n " " >> $PID_FILE
-else
-    echo "Error: OAI PNF not running or PID not found."
-    # Handle the error case as needed
-fi
 
 wait_sec=15
 echo "The script automatically closes after $wait_sec seconds..."
@@ -133,6 +123,6 @@ echo "The script automatically closes after $wait_sec seconds..."
 # Wait for the specified number of seconds
 sleep $wait_sec
 
-bash "$Target_PATH/q"
+bash "$Target_PATH/exit"
 
 echo "Time to $wait_sec seconds..."
