@@ -48,7 +48,7 @@ make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
 #make cu_stub NODE=TEST_STUB MACHINE=BIT64 MODE=FDD NFAPI=YES
 make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=TDD NFAPI=YES
 
-Target_PATH="/home/hpe"
+Target_PATH="/home/hpe/NTUST-script"
 L2_PATH="/home/hpe/mwnl-odu-at-oai-based-on-scf/l2"
 LOG_PATH="/home/hpe/NTUST-script/LOG"
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
