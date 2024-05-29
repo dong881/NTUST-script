@@ -2,6 +2,26 @@
 
 This repository contains scripts for configuring and running O-RAN OSC (Open Source Core) components, specifically the OSC DU (Distributed Unit) and associated components. The scripts provided are targeted for specific network functions, including CU_STUB, RIC_STUB, ODU (OSC DU), and PNF (Physical Network Function). 
 
+# Automatic Build and Execution Tool for OSC DU, OAI Layer1, and OAI UEsim
+
+This tool automates the building and execution of OSC DU, OAI Layer1, and OAI UEsim components. It simplifies the process by allowing users to execute these components in the background without manual intervention. Upon reaching a predetermined timeout, the tool gracefully terminates itself. Additionally, it ensures that all logs and TCPdump outputs are timestamped and automatically saved in the designated folder.
+
+## Usage
+
+1. Ensure all necessary configurations are set up correctly.
+2. Execute the main executable file located at `0`.
+3. Monitor the logs in the `LOG` folder for any errors or updates.
+4. Upon completion or timeout, review the generated logs and TCPdump outputs in the designated folder.
+
+## Notes
+
+- The tool automatically builds OSC DU, OAI Layer1, and OAI UEsim components.
+- It executes these components in the background.
+- Upon reaching a predetermined timeout, the tool gracefully terminates itself.
+- All logs and TCPdump outputs are timestamped and automatically saved in the designated folder.
+
+For detailed instructions and troubleshooting, refer to the respective documentation or contact me.
+
 ## Prerequisites
 - The scripts assume that the necessary dependencies and libraries are already installed on the system.
 - Ensure the correct path configurations in the scripts according to your environment.
