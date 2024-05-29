@@ -1,81 +1,91 @@
 #!/bin/bash
 
 HOME_PATH="/home/hpe"
+wait_sec=15
+
 Target_PATH="$HOME_PATH/NTUST-script"
 L2_PATH="$HOME_PATH/mwnl-odu-at-oai-based-on-scf/l2"
 LOG_PATH="$Target_PATH/LOG"
 
+# LOG File name
+OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
+RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
+ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
+PNF_LOG_FILE="$LOG_PATH/PNF-nfapi-fixes.log"
+UE_LOG_FILE="$LOG_PATH/5-OAI_UEsim.log"
+TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
+
+sudo ifconfig lo:RIC_STUB down
+sudo ifconfig lo:CU_STUB  down
+sudo ifconfig lo:ODU  down
+sudo ifconfig lo:OAI_CU down
+sudo ifconfig lo:RIC_STUB "192.168.130.80"
+sudo ifconfig lo:ODU  "192.168.130.81"
+sudo ifconfig lo:OAI_CU "192.168.130.83"
+
 ## CU & CU stub
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
 OAI_CU_PATH="$HOME_PATH/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
-OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
 CU_CONF="$HOME_PATH/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
 
+# OSC root
+OSC_root_PATH="$L2_PATH/build/odu"
+# OAI root
+OAI_root_PATH="$HOME_PATH/openairinterface5g/cmake_targets/ran_build/build"
 # RIC stub
 RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
-RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
-
 # OSC DU
 ODU_PATH="$L2_PATH/bin/odu/odu"
-ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
-
-# OAI gNB (OAI PNF) & OAI UEsim
-OAI_SOURCE_PATH="$HOME_PATH/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
+# OAI gNB (OAI PNF)
 PNF_CONF="$Target_PATH/ELSE/oaiL1.nfapi.usrpb210.conf"
-PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
 
 # FID
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
 
 # TCPdump
 sudo echo "Start TCPdump..."
-sudo tcpdump -i any -nn -w $LOG_PATH/TCPdump.pcap &
+sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
-bash "$Target_PATH/oai_build"
+# clean & compile OSC DU
+cd $OSC_root_PATH
+make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+
+# clean & build OAI all
+cd $OAI_root_PATH
+sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
+
+bash "$Target_PATH/q"
+bash "$Target_PATH/exit"
 cd ~
 
-echo "RUN OAI CU"
+# echo "RUN OAI CU"
 sudo stdbuf -oL $OAI_CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
-# sleep 2
-# Use ps and grep to find the process ID
-CU_PID=$(ps aux | grep "[n]r-softmodem" | awk '{print $2}')
-
-# Check if the PID is found
-if [ -n "$CU_PID" ]; then
-    echo "OAI CU is running with PID: $CU_PID"
-    echo -n $CU_PID > $PID_FILE
-    echo -n " " >> $PID_FILE
-else
-    echo "Error: OAI CU not running or PID not found."
-fi
-
-echo "RUN OSC RIC_STUB"
+# echo "RUN OSC RIC_STUB"
 sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
 sleep 1
 RIC_PID=$(pgrep -o ric_stub)
-echo $RIC_PID
+# echo $RIC_PID
 echo -n $RIC_PID >> $PID_FILE
 echo -n " " >> $PID_FILE
 
-echo "RUN OSC DU"
+# echo "RUN OSC DU"
 sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
 sleep 2
 ODU_PID=$(pgrep -o odu)
-echo $ODU_PID
+# echo $ODU_PID
 echo -n $ODU_PID >> $PID_FILE
 echo -n " " >> $PID_FILE
 
-echo "RUN OAI PNF"
-pnf_cmd="$OAI_SOURCE_PATH -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
-sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
-sleep 1
+# echo "RUN OAI PNF"
+pnf_cmd="$OAI_root_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
+# echo "RUN OAI UEsim"
+ue_cmd="$OAI_root_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
+sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
 
-echo "RUN OAI UEsim"
-ue_cmd="$OAI_SOURCE_PATH -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
-sudo stdbuf -oL $ue_cmd 2>&1 | ts &> "$LOG_PATH/5-OAI_UEsim.log" &
-
-wait_sec=15
 echo "The script automatically closes after $wait_sec seconds..."
 sleep $wait_sec
 bash "$Target_PATH/q"
+bash "$Target_PATH/exit"
 echo "Time to $wait_sec seconds..."

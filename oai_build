@@ -1,14 +1,11 @@
 #!/bin/bash
-sudo echo "Build OAI DU"
-
-# cd /home/hpe/openairinterface5g/cmake_targets
 cd ~/openairinterface5g/cmake_targets/ran_build/build
 
 #compile
 # ./build_oai -I -c -C
 # ./build_oai -w USRP --gNB
 #################### 2024/3/3 add for run in RFsim
-sudo ./build_oai -c --ninja --nrUE --gNB
+# sudo ./build_oai -c --ninja --nrUE --gNB
 # sudo ./build_oai -c --ninja --nrUE --gNB
 # Fast re-build only if you're build first time.
 sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
