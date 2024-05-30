@@ -47,9 +47,9 @@ sudo echo "Start TCPdump..."
 sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
 # clean & compile OSC DU
-cd $OSC_root_PATH
-make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
-make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+# cd $OSC_root_PATH
+# make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+# make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
 
 # clean & build OAI all
 cd $OAI_root_PATH

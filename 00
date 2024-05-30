@@ -72,6 +72,7 @@ sudo echo "Start TCPdump..."
 sudo tcpdump -i any -nn -w $LOG_PATH/TCPdump.pcap &
 ############### TCPdump
 
+bash "$Target_PATH/oai_build"
 cd ~
 
 echo "RUN OAI CU"
@@ -100,7 +101,7 @@ echo -n " " >> $PID_FILE
 
 echo "RUN OSC DU"
 sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
-sleep 1
+sleep 2
 ODU_PID=$(pgrep -o odu)
 echo $ODU_PID
 echo -n $ODU_PID >> $PID_FILE
@@ -112,11 +113,11 @@ echo "RUN OAI PNF"
 # Second script
 #################### 2024/3/3 add for run in RFsim
 pnf_cmd="$common_cmd -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+#pnf_cmd="$common_cmd -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --log\_config.global\_log\_options wall\_clock --sa"
 sudo stdbuf -oL $pnf_cmd 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
 #################### 2024/3/3 add 
-
+sleep 1
 echo "RUN OAI UEsim"
-
 #################### 2024/4/30 UEsim
 ue_cmd="$uecommon_cmd -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
 sudo stdbuf -oL $ue_cmd 2>&1 | ts &> "$LOG_PATH/5-OAI_UEsim.log" &
