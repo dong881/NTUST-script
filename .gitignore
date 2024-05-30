@@ -2,3 +2,6 @@ nfapi-fixes/openairinterface5g
 LOG/UEsim-nfapi-fixes.log
 nfapi-fixes/LOG/PNF-nfapi-fixes.log
 nfapi-fixes/LOG/VNF-nfapi-fixes.log
+LOG/1-OAI_CU.log
+LOG/2-RIC_STUB.log
+LOG/PID_FILE_NAME
