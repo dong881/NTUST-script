@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HOME_PATH="/home/hpe"
-wait_sec=15
+wait_sec=75
 
 Target_PATH="$HOME_PATH/NTUST-script"
 L2_PATH="$HOME_PATH/mwnl-odu-at-oai-based-on-scf/l2"
@@ -43,8 +43,8 @@ PNF_CONF="$Target_PATH/ELSE/oaiL1.nfapi.usrpb210.conf"
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
 
 # TCPdump
-sudo echo "Start TCPdump..."
-sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
+# sudo echo "Start TCPdump..."
+# sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
 # clean & compile OSC DU
 # cd $OSC_root_PATH
@@ -80,6 +80,7 @@ echo -n " " >> $PID_FILE
 # echo "RUN OAI PNF"
 pnf_cmd="$OAI_root_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
 sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
+sleep 2
 # echo "RUN OAI UEsim"
 ue_cmd="$OAI_root_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
 sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &

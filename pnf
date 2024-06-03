@@ -1,0 +1,2 @@
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa

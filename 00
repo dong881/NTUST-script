@@ -68,8 +68,8 @@ PID_FILE="$LOG_PATH/PID_FILE_NAME"
 common_cmd="/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem"
 uecommon_cmd="/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-uesoftmodem"
 ###############2024/03/04 add for TCPdump
-sudo echo "Start TCPdump..."
-sudo tcpdump -i any -nn -w $LOG_PATH/TCPdump.pcap &
+# sudo echo "Start TCPdump..."
+# sudo tcpdump -i any -nn -w $LOG_PATH/TCPdump.pcap &
 ############### TCPdump
 
 bash "$Target_PATH/oai_build"
