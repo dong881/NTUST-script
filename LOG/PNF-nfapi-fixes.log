@@ -1,1271 +1,780 @@
- 六  03 22:42:04 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
- 六  03 22:42:04 [CONFIG] get parameters from libconfig /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/hpe/NTUST-script/ELSE
- 六  03 22:42:04 [CONFIG] function config_libconfig_init returned 0
- 六  03 22:42:04 [CONFIG] config module libconfig loaded
- 六  03 22:42:04 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 六  03 22:42:04 [CONFIG] debug flags: 0x00000000
- 六  03 22:42:04 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 六  03 22:42:04 [LIBCONFIG] log_config: 50/50 parameters successfully set, (44 to default value)
- 六  03 22:42:04 [LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
- 六  03 22:42:04 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 六  03 22:42:04 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 六  03 22:42:04 log init done
- 六  03 22:42:04 [HW]   # /dev/cpu_dma_latency set to 2 us
- 六  03 22:42:04 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
- 六  03 22:42:04 [1;31m[HW]   Can't set cpu frequency
- 六  03 22:42:04 [0mReading in command-line options
- 六  03 22:42:04 [LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
- 六  03 22:42:04 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 六  03 22:42:04 [ENB_APP]   nfapi (1) running mode: PNF
- 六  03 22:42:04 [0m[GNB_APP]   Getting GNBSParams
- 六  03 22:42:04 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 六  03 22:42:04 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 六  03 22:42:04 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 六  03 22:42:04 [CONFIG] parallel_conf is set to 0
- 六  03 22:42:04 [CONFIG] worker_conf is set to 1
- 六  03 22:42:04 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
- 六  03 22:42:04 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 六  03 22:42:04 configuring for RAU/RRU
- 六  03 22:42:05 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 六  03 22:42:05 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 六  03 22:42:05 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 六  03 22:42:05 [OPT]   OPT disabled
- 六  03 22:42:05 [0m[HW]   Version: Branch: nfapi-fixes-rebased Abrev. Hash: 8e46925a43 Date: Tue May 21 22:39:20 2024 +0800
- 六  03 22:42:05 [0m[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (20 to default value)
- 六  03 22:42:05 [LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (25 to default value)
- 六  03 22:42:05 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf 
- 六  03 22:42:05 [NR_PHY]   RC.gNB = 0x60c20fea2980
- 六  03 22:42:05 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
- 六  03 22:42:05 [PHY]   L1_RX_THREAD_CORE -1 (15)
- 六  03 22:42:05 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
- 六  03 22:42:05 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
- 六  03 22:42:05 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
- 六  03 22:42:05 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
- 六  03 22:42:05 [0mconfigure_nr_nfapi_pnf() PNF
- 六  03 22:42:05 
- 六  03 22:42:05 
- 六  03 22:42:05 
- 六  03 22:42:05 
- 六  03 22:42:05 
- 六  03 22:42:05 [ENB_APP]   nfapi (1) running mode: PNF
- 六  03 22:42:05 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
- 六  03 22:42:05 Initializing northbound interface for L1
- 六  03 22:42:05 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 六  03 22:42:05 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 六  03 22:42:05 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x60c20feaed40
- 六  03 22:42:05 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 六  03 22:42:05 [0m[PNF] pnf param request
- 六  03 22:42:05 [PNF] pnf config request
- 六  03 22:42:05 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
- 六  03 22:42:05 [PNF] Sent pnf_config_resp
- 六  03 22:42:05 Received NFAPI_PNF_START_REQUEST
- 六  03 22:42:05 [PNF] Sent NFAPI_PNF_START_RESP
- 六  03 22:42:05 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
- 六  03 22:42:05 TAG value :2
- 六  03 22:42:05 RUNNING pack_param_response
- 六  03 22:42:05 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
- 六  03 22:42:05 b8 10 01 00 02 00 64 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 64 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1c 00 01 00 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 21 00 04 00 00 00 00 10 22 00 04 80 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 28 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c5 b3 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 
- 六  03 22:42:05 *** have tag 1001, idx 0
- 六  03 22:42:05 *** have tag 1002, idx 1
- 六  03 22:42:05 *** have tag 1005, idx 4
- 六  03 22:42:05 *** have tag 1006, idx 5
- 六  03 22:42:05 *** have tag 1007, idx 6
- 六  03 22:42:05 *** have tag 100a, idx 9
- 六  03 22:42:05 *** have tag 100c, idx 11
- 六  03 22:42:05 *** have tag 100d, idx 12
- 六  03 22:42:05 *** have tag 100e, idx 13
- 六  03 22:42:05 *** have tag 100f, idx 14
- 六  03 22:42:05 *** have tag 1010, idx 15
- 六  03 22:42:05 *** have tag 1011, idx 16
- 六  03 22:42:05 *** have tag 1012, idx 17
- 六  03 22:42:05 *** have tag 1013, idx 18
- 六  03 22:42:05 *** have tag 1014, idx 19
- 六  03 22:42:05 *** have tag 1029, idx 20
- 六  03 22:42:05 *** have tag 101b, idx 27
- 六  03 22:42:05 *** have tag 101c, idx 28
- 六  03 22:42:05 *** have tag 101d, idx 29
- 六  03 22:42:05 *** have tag 101f, idx 31
- 六  03 22:42:05 *** have tag 1020, idx 32
- 六  03 22:42:05 *** have tag 1021, idx 33
- 六  03 22:42:05 *** have tag 1026, idx 38
- 六  03 22:42:05 *** have tag 1028, idx 40
- 六  03 22:42:05 *** have tag 100, idx 41
- 六  03 22:42:05 *** have tag 102, idx 43
- 六  03 22:42:05 *** have tag 11e, idx 44
- 六  03 22:42:05 *** have tag 11f, idx 45
- 六  03 22:42:05 *** have tag 120, idx 46
- 六  03 22:42:05 [PNF] vnf p7 127.0.0.1:50611
- 六  03 22:42:05 num_tlv:184
- 六  03 22:42:05 ssb_config
- 六  03 22:42:05   bch_payload t 4111 l 1 v 1
- 六  03 22:42:05   scs_common t 4112 l 1 v 1
- 六  03 22:42:05   ss_pbch_power t 4110 l 4 v -25
- 六  03 22:42:05 ssb_table
- 六  03 22:42:05   ssb_offset_point_a t 4125 l 2 v 86
- 六  03 22:42:05   beta_pss t 0 l 0 v 0
- 六  03 22:42:05   ssb_period t 4127 l 1 v 2
- 六  03 22:42:05   ssb_subcarrier_offset t 4128 l 1 v 0
- 六  03 22:42:05   MIB t 4129 l 4 v 0
- 六  03 22:42:05 ssb_mask_list:
- 六  03 22:42:05 -2147483648	0	
- 六  03 22:42:05 ssb_beam_id_list:
- 六  03 22:42:05 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
- 六  03 22:42:05   ss_pbch_multiple_carriers_in_a_band t 0 l 0 v 0
- 六  03 22:42:05   multiple_cells_ss_pbch_in_a_carrier t 0 l 0 v 0
- 六  03 22:42:05 tdd_table
- 六  03 22:42:05   tdd_period t 4134 l 1 v 6
- 六  03 22:42:05   slot_config t 4135 l 1 v 0
- 六  03 22:42:05 cell_config
- 六  03 22:42:05   frame_duplex_type t 4109 l 1 v 1
- 六  03 22:42:05   phy_cell_id t 4108 l 2 v 0
- 六  03 22:42:05 nfapi_nr_measurement_config_t
- 六  03 22:42:05   rssi_measurement t 4136 l 1 v 1
- 六  03 22:42:05 nfapi_nr_nfapi_t
- 六  03 22:42:05   dl_tti_timing_offset t 0 l 0 v 0
- 六  03 22:42:05   ul_tti_timing_offset t 0 l 0 v 0
- 六  03 22:42:05   ul_dci_timing_offset t 0 l 0 v 0
- 六  03 22:42:05   tx_data_timing_offset t 0 l 0 v 0
- 六  03 22:42:05 0	0	0	0	
- 六  03 22:42:05 0	0	0	0	
- 六  03 22:42:05   p7_pnf_port t 0 l 0 v 0
- 六  03 22:42:05   timing_window t 286 l 1 v 30
- 六  03 22:42:05   timing_info_mode t 287 l 1 v 3
- 六  03 22:42:05   timing_info_period t 288 l 1 v 10
- 六  03 22:42:05 pmi_list:
- 六  03 22:42:05   num_pm_idx:-1503904760
- 六  03 22:42:05   pm_idx:0
- 六  03 22:42:05   numLayers:2
- 六  03 22:42:05   num_ant_ports:4
- 六  03 22:42:05   weights:  6	  10	  14	  18	  22	  26	  30	  34	  38	  42	  46	  50	  54	  58	  62	  66	
- 六  03 22:42:05 carrier_config
- 六  03 22:42:05   bw t 4097 l 2 v 40
- 六  03 22:42:05   freq t 4098 l 4 v 3600120
- 六  03 22:42:05   dl_k0[0] t 0 l 0 v 0
- 六  03 22:42:05   dl_k0[1] t 4099 l 10 v 0
- 六  03 22:42:05   dl_k0[2] t 0 l 0 v 0
- 六  03 22:42:05   dl_k0[3] t 0 l 0 v 0
- 六  03 22:42:05   dl_k0[4] t 0 l 0 v 0
- 六  03 22:42:05   dl_grid_size[0] t 0 l 0 v 0
- 六  03 22:42:05   dl_grid_size[1] t 4100 l 10 v 106
- 六  03 22:42:05   dl_grid_size[2] t 0 l 0 v 0
- 六  03 22:42:05   dl_grid_size[3] t 0 l 0 v 0
- 六  03 22:42:05   dl_grid_size[4] t 0 l 0 v 0
- 六  03 22:42:05   num_tx_ant t 4101 l 2 v 1
- 六  03 22:42:05   uplink_bandwidth t 4102 l 2 v 40
- 六  03 22:42:05   uplink_frequency t 4103 l 4 v 3600120
- 六  03 22:42:05   ul_k0[0] t 0 l 0 v 0
- 六  03 22:42:05   ul_k0[1] t 4104 l 10 v 0
- 六  03 22:42:05   ul_k0[2] t 0 l 0 v 0
- 六  03 22:42:05   ul_k0[3] t 0 l 0 v 0
- 六  03 22:42:05   ul_k0[4] t 0 l 0 v 0
- 六  03 22:42:05   ul_grid_size[0] t 0 l 0 v 0
- 六  03 22:42:05   ul_grid_size[1] t 4105 l 10 v 106
- 六  03 22:42:05   ul_grid_size[2] t 0 l 0 v 0
- 六  03 22:42:05   ul_grid_size[3] t 0 l 0 v 0
- 六  03 22:42:05   ul_grid_size[4] t 0 l 0 v 0
- 六  03 22:42:05   num_rx_ant t 4106 l 2 v 1
- 六  03 22:42:05   frequency_shift_7p5khz t 0 l 0 v 0
- 六  03 22:42:05 prach_config
- 六  03 22:42:05   prach_sequence_length t 4113 l 1 v 1
- 六  03 22:42:05   prach_sub_c_spacing t 4114 l 1 v 1
- 六  03 22:42:05   restricted_set_config t 4115 l 1 v 0
- 六  03 22:42:05   num_prach_fd_occasions t 4116 l 1 v 1
- 六  03 22:42:05   prach_ConfigurationIndex t 4137 l 1 v 98
- 六  03 22:42:05     prach_root_sequence_index t 4117 l 2 v 1
- 六  03 22:42:05     num_root_sequences t 4118 l 1 v 16
- 六  03 22:42:05     k1 t 4119 l 2 v 0
- 六  03 22:42:05     prach_zero_corr_conf t 4120 l 1 v 13
- 六  03 22:42:05     num_unused_root_sequences t 4121 l 2 v 0
- 六  03 22:42:05   ssb_per_rach t 4123 l 1 v 3
- 六  03 22:42:05   prach_multiple_carriers_in_a_band t 4124 l 1 v 0
- 六  03 22:42:05 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
- 六  03 22:42:05 
- 六  03 22:42:05 Timing window tag: 286
- 六  03 22:42:05 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
- 六  03 22:42:05 timing info mode:3
- 六  03 22:42:05 timing info period provided value:10
- 六  03 22:42:05 873408486411 [E] 2791065152: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
- 六  03 22:42:05 [PNF] CONFIG_REQUEST[num_tlv:184] TLVs processed:6
- 六  03 22:42:05 [PNF] Simulating PHY CONFIG
- 六  03 22:42:05 DL frequency 3619200000: band 48, UL frequency 3619200000
- 六  03 22:42:05 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
- 六  03 22:42:05 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
- 六  03 22:42:05 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 六  03 22:42:05 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 六  03 22:42:05 [0m[PHY]   gNB 0 configured
- 六  03 22:42:05 [0m[PHY]   fp->scs=30000
- 六  03 22:42:05 [0m[PHY]   fp->ofdm_symbol_size=2048
- 六  03 22:42:05 [0m[PHY]   fp->nb_prefix_samples0=176
- 六  03 22:42:05 [0m[PHY]   fp->nb_prefix_samples=144
- 六  03 22:42:05 [0m[PHY]   fp->slots_per_subframe=2
- 六  03 22:42:05 [0m[PHY]   fp->samples_per_subframe_wCP=57344
- 六  03 22:42:05 [0m[PHY]   fp->samples_per_frame_wCP=573440
- 六  03 22:42:05 [0m[PHY]   fp->samples_per_subframe=61440
- 六  03 22:42:05 [0m[PHY]   fp->samples_per_frame=614400
- 六  03 22:42:05 [0m[PHY]   fp->dl_CarrierFreq=3619200000
- 六  03 22:42:05 [0m[PHY]   fp->ul_CarrierFreq=3619200000
- 六  03 22:42:05 [0m[PHY]   fp->Nid_cell=0
- 六  03 22:42:05 [0m[PHY]   fp->first_carrier_offset=1412
- 六  03 22:42:05 [0m[PHY]   fp->ssb_start_subcarrier=0
- 六  03 22:42:05 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
- 六  03 22:42:05 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
- 六  03 22:42:05 [PNF] Received NFAPI_START_REQ phy_id:1
- 六  03 22:42:05 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
- 六  03 22:42:05 START MAIN THREADS
- 六  03 22:42:05 RC.nb_nr_L1_inst:1
- 六  03 22:42:05 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
- 六  03 22:42:05 [PHY]   Initializing gNB 0 single_thread_flag:1
- 六  03 22:42:05 [0m[PHY]   Initializing gNB 0
- 六  03 22:42:05 [0m[PHY]   Registering with MAC interface module (before 0x60c20feaed40)
- 六  03 22:42:05 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 六  03 22:42:05 [0m[PHY]   Registering with MAC interface module (after 0x60c20feaed40)
- 六  03 22:42:05 [0m[PHY]   Setting indication lists
- 六  03 22:42:05 [0m[PHY]   [nr-gnb.c] gNB structure allocated
- 六  03 22:42:05 [0mwait_gNBs()
- 六  03 22:42:05 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 六  03 22:42:05 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
- 六  03 22:42:05 subframe_buffer_size configured using phy_info->timing_window:30
- 六  03 22:42:05 [PNF] Sending PNF_START_RESP
- 六  03 22:42:05 Sending NFAPI_START_RESPONSE config:0x60c20fea6ac0 phy_id:1
- 六  03 22:42:05 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 六  03 22:42:05 [0mCalling sched_setscheduler(79)
- 六  03 22:42:05 [PHY]   Installing callbacks for IF_Module - UL_indication
- 六  03 22:42:05 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 六  03 22:42:05 [0mgNB L1 are configured
- 六  03 22:42:05 About to Init RU threads RC.nb_RU:1
- 六  03 22:42:05 Initializing RU threads
- 六  03 22:42:05 configuring RU from file
- 六  03 22:42:05 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
- 六  03 22:42:05 Set RU mask to 1
- 六  03 22:42:05 Creating RC.ru[0]:0x60c20feb1950
- 六  03 22:42:05 [PHY]   RU GPIO control set as 'generic'
- 六  03 22:42:05 [0m[PHY]   Setting clock source to internal
- 六  03 22:42:05 [0m[PHY]   Setting time source to internal
- 六  03 22:42:05 [0mSetting function for RU 0 to gNodeB_3GPP
- 六  03 22:42:05 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
- 六  03 22:42:05 [RU 0] Setting half-slot parallelization to 1
- 六  03 22:42:05 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
- 六  03 22:42:05 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
- 六  03 22:42:05 [0mconfiguring ru_id 0 (start_rf 0x60c20adb15c0)
- 六  03 22:42:05 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
- 六  03 22:42:05 [0m[PHY]   RU Thread pool size 2
- 六  03 22:42:05 [0m[PHY]   RU thread-pool core string -1,-1
- 六  03 22:42:05 [0mcreate a thread for core -1
- 六  03 22:42:05 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 六  03 22:42:05 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 六  03 22:42:05 [0mcreate a thread for core -1
- 六  03 22:42:05 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 六  03 22:42:05 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 六  03 22:42:05 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
- 六  03 22:42:06 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
- 六  03 22:42:06 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 18
- 六  03 22:42:06 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 六  03 22:42:06 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 六  03 22:42:06 [0m[PHY]   fp->scs=30000
- 六  03 22:42:06 [0m[PHY]   fp->ofdm_symbol_size=2048
- 六  03 22:42:06 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
- 六  03 22:42:06 [PHY]   fp->nb_prefix_samples0=176
- 六  03 22:42:06 [0m[PHY]   fp->nb_prefix_samples=144
- 六  03 22:42:06 [0m[PHY]   fp->slots_per_subframe=2
- 六  03 22:42:06 [0m[PHY]   fp->samples_per_subframe_wCP=57344
- 六  03 22:42:06 [0m[PHY]   fp->samples_per_frame_wCP=573440
- 六  03 22:42:06 [0m[PHY]   fp->samples_per_subframe=61440
- 六  03 22:42:06 [0m[PHY]   fp->samples_per_frame=614400
- 六  03 22:42:06 [0m[PHY]   fp->dl_CarrierFreq=3619200000
- 六  03 22:42:06 [0m[PHY]   fp->ul_CarrierFreq=3619200000
- 六  03 22:42:06 [0m[PHY]   fp->Nid_cell=0
- 六  03 22:42:06 [0m[PHY]   fp->first_carrier_offset=1412
- 六  03 22:42:06 [0m[PHY]   fp->ssb_start_subcarrier=0
- 六  03 22:42:06 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
- 六  03 22:42:06 [0m[PHY]   [INIT] common.txdata[0] = 0x76e2a4368040 (2458880 bytes,sf_extension 320)
- 六  03 22:42:06 [0m[PHY]   [INIT] common.txdata[0] = 0x76e2a4368540 
- 六  03 22:42:06 [0m[PHY]   nb_tx 1
- 六  03 22:42:06 [0m[PHY]   rxdata_7_5kHz[0] 0x76e2a401e040 for RU 0
- 六  03 22:42:06 [0m[PHY]   [INIT] common.txdata_BF= 0x76e290000ac0 (8 bytes)
- 六  03 22:42:06 [0m[PHY]   txdataF_BF[0] 0x76e2a7481040 for RU 0
- 六  03 22:42:06 [0m[PHY]   rxdataF[0] 0x76e2a6ea8040 for RU 0
- 六  03 22:42:06 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
- 六  03 22:42:06 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
- 六  03 22:42:06 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
- 六  03 22:42:06 [0m[PHY]   Channel 0: setting tx_gain offset 90, tx_freq 3619200000 Hz
- 六  03 22:42:06 [0m[PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
- 六  03 22:42:06 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
- 六  03 22:42:06 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
- 六  03 22:42:06 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
- 六  03 22:42:06 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
- 六  03 22:42:06 shlib_path librfsimulator.so
- 六  03 22:42:06 [LOADER] library librfsimulator.so successfully loaded
- 六  03 22:42:06 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
- 六  03 22:42:06 [93m[HW]   sample_rate 61440000.000000
- 六  03 22:42:06 [0m[HW]   Running as server waiting opposite rfsimulators to connect
- 六  03 22:42:06 [0mInitializing random number generator, seed 1257273355070870694
- 六  03 22:42:06 [HW]   [RAU] has loaded RFSIMULATOR device.
- 六  03 22:42:06 [0msetup_RU_buffers: frame_parms = 0x76e2a6aaf010
- 六  03 22:42:06 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
- 六  03 22:42:06 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
- 六  03 22:42:06 [0mwaiting for sync (ru_thread,-1/0x60c20b9ac0ac,0x60c20d2d10a0,0x60c20d2d03a0)
- 六  03 22:42:10 [PNF] waiting for OAI to be configured (eNB/RU)
- 六  03 22:42:10 [PNF] OAI eNB/RU configured
- 六  03 22:42:10 [PNF] About to call init_eNB_afterRU()
- 六  03 22:42:10 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
- 六  03 22:42:10 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x76e2a65c5010
- 六  03 22:42:10 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
- 六  03 22:42:10 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
- 六  03 22:42:10 shlib_path libdfts.so
- 六  03 22:42:10 [LOADER] library libdfts.so successfully loaded
- 六  03 22:42:10 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
- 六  03 22:42:10 shlib_path libldpc.so
- 六  03 22:42:10 [LOADER] library libldpc.so successfully loaded
- 六  03 22:42:11 [PHY]   Initialise nr transport
- 六  03 22:42:11 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
- 六  03 22:42:11 [0m[PHY]   gNB->num_RU:1
- 六  03 22:42:11 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0mcreate a thread for core -1
- 六  03 22:42:11 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 六  03 22:42:11 [0m[UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
- 六  03 22:42:11 [0m[UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
- 六  03 22:42:11 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
- 六  03 22:42:11 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
- 六  03 22:42:11 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
- 六  03 22:42:11 [0mwaiting for sync (L1_stats_thread,-1/0x60c20b9ac0ac,0x60c20d2d10a0,0x60c20d2d03a0)
- 六  03 22:42:11 [PNF] Sending PNF_START_RESP
- 六  03 22:42:11 Sending NFAPI_START_RESPONSE config:0x60c20fea6ac0 phy_id:1
- 六  03 22:42:11 NFAPI: got sync (main?)
- 六  03 22:42:11 wait RUs
- 六  03 22:42:11 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
- 六  03 22:42:11 [0m[PHY]   RUs configured
- 六  03 22:42:11 [0mALL RUs READY!
- 六  03 22:42:11 RC.nb_RU:1
- 六  03 22:42:11 ALL RUs ready - init gNBs
- 六  03 22:42:11 NFAPI mode - DO NOT call init_gNB_afterRU()
- 六  03 22:42:11 ALL RUs ready - ALL gNBs ready
- 六  03 22:42:11 Sending sync to all threads
- 六  03 22:42:11 Entering ITTI signals handler
- 六  03 22:42:11 TYPE <CTRL-C> TO TERMINATE
- 六  03 22:42:11 got sync (ru_thread)
- 六  03 22:42:11 got sync (L1_stats_thread)
- 六  03 22:42:11 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 六  03 22:42:11 [0m[PNF] Sending first P7 slot indication
- 六  03 22:42:11 [PHY]   Process tx_data SFN/slot 0.0 buffer index: 0 
- 六  03 22:42:11 [0m[PNF] Sent first P7 slot ind
- 六  03 22:42:11 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 六  03 22:42:11 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 六  03 22:42:11 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 六  03 22:42:11 [0m[PHY]   RU 0 rf device ready
- 六  03 22:42:11 [0m[PHY]   RU 0 RF started opp_enabled 0
- 六  03 22:42:11 [0m[93m[HW]   No connected device, generating void samples...
- 六  03 22:42:11 [0m[PHY]   Process dl_tti SFN/slot 8.0 buffer index: 0 
- 六  03 22:42:11 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
- 六  03 22:42:11 [0m[PHY]   Process dl_tti SFN/slot 10.0 buffer index: 0 
- 六  03 22:42:11 [0m[PHY]   Process dl_tti SFN/slot 12.0 buffer index: 0 
- 六  03 22:42:11 [0m[PHY]   Process dl_tti SFN/slot 14.0 buffer index: 0 
- 六  03 22:42:11 [0m[PHY]   Process dl_tti SFN/slot 16.0 buffer index: 0 
- 六  03 22:42:11 [0m[PHY]   Process tx_data SFN/slot 16.0 buffer index: 0 
- 六  03 22:42:11 [0m[NR_PHY]   15.18 Got prach entry id 0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 15, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 0)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:0
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 15, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 1)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:1
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 15, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 2)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:2
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   15.19 Got prach entry id 1
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 15, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 3)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:3
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 15, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 4)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:4
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 15, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 5)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:5
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[PHY]   Process dl_tti SFN/slot 18.0 buffer index: 0 
- 六  03 22:42:11 [0m[PHY]   Process tx_data SFN/slot 18.0 buffer index: 0 
- 六  03 22:42:11 [0m[NR_PHY]   17.18 Got prach entry id 0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 17, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 6)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:6
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 17, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 7)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:7
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 17, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 8)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:8
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   17.19 Got prach entry id 1
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 17, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 9)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:9
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 17, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 10)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:10
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:11 [0m[NR_PHY]   [RAPROC] Frame 17, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 11)
- 六  03 22:42:11 [0m[NR_PHY]   prach_energy_counter:11
- 六  03 22:42:11 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[PHY]   Process dl_tti SFN/slot 20.0 buffer index: 0 
- 六  03 22:42:12 [0m[PHY]   Process tx_data SFN/slot 20.0 buffer index: 0 
- 六  03 22:42:12 [0m[NR_PHY]   19.18 Got prach entry id 0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 19, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 12)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:12
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 19, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 13)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:13
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 19, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 14)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:14
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   19.19 Got prach entry id 1
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 19, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 15)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:15
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 19, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 16)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:16
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 19, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 17)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:17
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[PHY]   Process dl_tti SFN/slot 22.0 buffer index: 0 
- 六  03 22:42:12 [0m[PHY]   Process tx_data SFN/slot 22.0 buffer index: 0 
- 六  03 22:42:12 [0m[NR_PHY]   21.18 Got prach entry id 0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 21, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 18)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:18
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 21, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 19)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:19
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 21, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 20)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:20
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   21.19 Got prach entry id 1
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 21, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 21)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:21
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 21, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 22)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:22
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 21, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 23)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:23
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[PHY]   Process dl_tti SFN/slot 24.0 buffer index: 0 
- 六  03 22:42:12 [0m[PHY]   Process tx_data SFN/slot 24.0 buffer index: 0 
- 六  03 22:42:12 [0m[NR_PHY]   23.18 Got prach entry id 0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 23, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 24)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:24
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 23, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 25)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:25
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 23, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 26)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:26
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   23.19 Got prach entry id 1
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 23, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 27)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:27
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 23, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 28)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:28
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 23, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 29)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:29
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[PHY]   Process dl_tti SFN/slot 26.0 buffer index: 0 
- 六  03 22:42:12 [0m[PHY]   Process tx_data SFN/slot 26.0 buffer index: 0 
- 六  03 22:42:12 [0m[NR_PHY]   25.18 Got prach entry id 0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 25, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 30)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:30
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 25, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 31)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:31
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 25, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 32)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:32
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   25.19 Got prach entry id 1
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 25, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 33)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:33
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 25, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 34)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:34
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 25, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 35)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:35
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[PHY]   Process dl_tti SFN/slot 28.0 buffer index: 0 
- 六  03 22:42:12 [0m[PHY]   Process tx_data SFN/slot 28.0 buffer index: 0 
- 六  03 22:42:12 [0m[NR_PHY]   27.18 Got prach entry id 0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 27, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 36)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:36
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 27, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 37)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:37
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 27, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 38)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:38
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   27.19 Got prach entry id 1
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 27, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 39)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:39
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 27, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 40)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:40
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 27, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 41)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:41
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[PHY]   Process dl_tti SFN/slot 30.0 buffer index: 0 
- 六  03 22:42:12 [0m[PHY]   Process tx_data SFN/slot 30.0 buffer index: 0 
- 六  03 22:42:12 [0m[NR_PHY]   29.18 Got prach entry id 0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 29, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 42)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:42
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 29, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 43)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:43
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 29, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 44)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:44
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   29.19 Got prach entry id 1
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 29, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 45)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:45
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 29, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 46)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:46
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[NR_PHY]   [RAPROC] Frame 29, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 47)
- 六  03 22:42:12 [0m[NR_PHY]   prach_energy_counter:47
- 六  03 22:42:12 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:12 [0m[HW]   A client connects, sending the current time
- 六  03 22:42:12 [0m[PHY]   Process dl_tti SFN/slot 32.0 buffer index: 0 
- 六  03 22:42:12 [0m[PHY]   Process tx_data SFN/slot 32.0 buffer index: 0 
- 六  03 22:42:13 [0m[NR_PHY]   31.18 Got prach entry id 0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 31, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 48)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:48
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 31, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 49)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:49
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 31, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 50)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:50
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   31.19 Got prach entry id 1
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 31, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 51)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:51
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 31, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 52)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:52
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 31, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 53)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:53
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[PHY]   Process dl_tti SFN/slot 34.0 buffer index: 0 
- 六  03 22:42:13 [0m
- 六  03 22:42:13 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:13 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:13 no HARQ SDU present
- 六  03 22:42:13 [NR_PHY]   33.18 Got prach entry id 0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 33, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 54)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:54
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 33, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 55)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:55
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 33, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 56)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:56
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[PHY]   Process dl_tti SFN/slot 36.0 buffer index: 0 
- 六  03 22:42:13 [0m
- 六  03 22:42:13 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:13 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:13 no HARQ SDU present
- 六  03 22:42:13 [NR_PHY]   35.18 Got prach entry id 0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 35, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 57)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:57
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 35, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 58)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:58
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 35, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 59)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:59
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[PHY]   Process dl_tti SFN/slot 38.0 buffer index: 0 
- 六  03 22:42:13 [0m
- 六  03 22:42:13 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:13 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:13 no HARQ SDU present
- 六  03 22:42:13 [NR_PHY]   37.18 Got prach entry id 0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 37, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 60)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:60
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 37, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 61)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:61
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:13 [0m[NR_PHY]   [RAPROC] Frame 37, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 62)
- 六  03 22:42:13 [0m[NR_PHY]   prach_energy_counter:62
- 六  03 22:42:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:17 [0m[PHY]   Process dl_tti SFN/slot 40.0 buffer index: 0 
- 六  03 22:42:17 [0m[PHY]   Process tx_data SFN/slot 40.0 buffer index: 0 
- 六  03 22:42:17 [0m[NR_PHY]   39.18 Got prach entry id 0
- 六  03 22:42:17 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 63)
- 六  03 22:42:17 [0m[NR_PHY]   prach_energy_counter:63
- 六  03 22:42:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:17 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 64)
- 六  03 22:42:17 [0m[NR_PHY]   prach_energy_counter:64
- 六  03 22:42:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:17 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 65)
- 六  03 22:42:17 [0m[NR_PHY]   prach_energy_counter:65
- 六  03 22:42:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:17 [0m[NR_PHY]   39.19 Got prach entry id 1
- 六  03 22:42:17 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 66)
- 六  03 22:42:17 [0m[NR_PHY]   prach_energy_counter:66
- 六  03 22:42:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:17 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 67)
- 六  03 22:42:17 [0m[NR_PHY]   prach_energy_counter:67
- 六  03 22:42:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:17 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 68)
- 六  03 22:42:17 [0m[NR_PHY]   prach_energy_counter:68
- 六  03 22:42:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[PHY]   Process dl_tti SFN/slot 40.0 buffer index: 0 
- 六  03 22:42:21 [0m[PHY]   Process tx_data SFN/slot 40.0 buffer index: 0 
- 六  03 22:42:21 [0m[NR_PHY]   39.18 Got prach entry id 0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 69)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:69
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 70)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:70
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 71)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:71
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   39.19 Got prach entry id 1
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 72)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:72
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 73)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:73
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 74)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:74
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[PHY]   Process tx_data SFN/slot 88.0 buffer index: 0 
- 六  03 22:42:21 [0m[NR_PHY]   87.18 Got prach entry id 0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 87, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 75)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:75
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 87, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 76)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:76
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 87, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 77)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:77
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   87.19 Got prach entry id 1
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 87, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 78)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:78
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 87, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 79)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:79
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:21 [0m[NR_PHY]   [RAPROC] Frame 87, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 80)
- 六  03 22:42:21 [0m[NR_PHY]   prach_energy_counter:80
- 六  03 22:42:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:25 [0m[PHY]   Process dl_tti SFN/slot 90.0 buffer index: 0 
- 六  03 22:42:25 [0m[PHY]   Process tx_data SFN/slot 90.0 buffer index: 0 
- 六  03 22:42:25 [0m[NR_PHY]   89.18 Got prach entry id 0
- 六  03 22:42:25 [0m[NR_PHY]   [RAPROC] Frame 89, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 81)
- 六  03 22:42:25 [0m[NR_PHY]   prach_energy_counter:81
- 六  03 22:42:25 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:25 [0m[NR_PHY]   [RAPROC] Frame 89, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 82)
- 六  03 22:42:25 [0m[NR_PHY]   prach_energy_counter:82
- 六  03 22:42:25 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:25 [0m[NR_PHY]   [RAPROC] Frame 89, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 83)
- 六  03 22:42:25 [0m[NR_PHY]   prach_energy_counter:83
- 六  03 22:42:25 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:25 [0m[NR_PHY]   89.19 Got prach entry id 1
- 六  03 22:42:25 [0m[NR_PHY]   [RAPROC] Frame 89, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 84)
- 六  03 22:42:25 [0m[NR_PHY]   prach_energy_counter:84
- 六  03 22:42:25 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:25 [0m[NR_PHY]   [RAPROC] Frame 89, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 85)
- 六  03 22:42:25 [0m[NR_PHY]   prach_energy_counter:85
- 六  03 22:42:25 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:25 [0m[NR_PHY]   [RAPROC] Frame 89, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 86)
- 六  03 22:42:25 [0m[NR_PHY]   prach_energy_counter:86
- 六  03 22:42:25 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[PHY]   Process dl_tti SFN/slot 90.0 buffer index: 0 
- 六  03 22:42:30 [0m[PHY]   Process tx_data SFN/slot 90.0 buffer index: 0 
- 六  03 22:42:30 [0m[NR_PHY]   89.18 Got prach entry id 0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 89, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 87)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:87
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 89, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 88)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:88
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 89, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 89)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:89
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   89.19 Got prach entry id 1
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 89, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 90)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:90
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 89, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 91)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:91
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 89, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 92)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:92
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[PHY]   Process tx_data SFN/slot 202.0 buffer index: 0 
- 六  03 22:42:30 [0m[NR_PHY]   201.19 Got prach entry id 0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 201, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 93)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:93
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 201, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 94)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:94
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 201, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 95)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:95
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[PHY]   Process dl_tti SFN/slot 204.0 buffer index: 0 
- 六  03 22:42:30 [0m
- 六  03 22:42:30 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:30 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:30 no HARQ SDU present
- 六  03 22:42:30 [NR_PHY]   203.18 Got prach entry id 0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 96)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:96
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 97)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:97
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:30 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 98)
- 六  03 22:42:30 [0m[NR_PHY]   prach_energy_counter:98
- 六  03 22:42:30 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:34 [0m[PHY]   Process tx_data SFN/slot 204.0 buffer index: 0 
- 六  03 22:42:34 [0m[NR_PHY]   203.18 Got prach entry id 0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 99)
- 六  03 22:42:34 [0m[NR_PHY]   prach_energy_counter:99
- 六  03 22:42:34 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:34 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:34 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] 203.18 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 0, thres 150), delay 0 start symbol 4 freq index 0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:34 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:34 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] 203.18 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 65, thres 150), delay 0 start symbol 8 freq index 0
- 六  03 22:42:34 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:34 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:34 [0m[NR_PHY]   203.19 Got prach entry id 1
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] Frame 203, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:34 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:34 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] 203.19 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 122, thres 150), delay 0 start symbol 0 freq index 0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] Frame 203, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:34 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:34 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] 203.19 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 172, thres 150), delay 0 start symbol 4 freq index 0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] Frame 203, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:34 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:34 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:34 [0m[NR_PHY]   [RAPROC] 203.19 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 216, thres 150), delay 0 start symbol 8 freq index 0
- 六  03 22:42:34 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:34 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:34 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:34 [0m[PHY]   Process dl_tti SFN/slot 206.0 buffer index: 0 
- 六  03 22:42:34 [0m
- 六  03 22:42:34 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:34 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:34 no HARQ SDU present
- 六  03 22:42:38 [PHY]   Process tx_data SFN/slot 204.0 buffer index: 0 
- 六  03 22:42:38 [0m[NR_PHY]   203.18 Got prach entry id 0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:38 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:38 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] 203.18 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 254, thres 150), delay 0 start symbol 0 freq index 0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:38 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:38 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] 203.18 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 288, thres 150), delay 0 start symbol 4 freq index 0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] Frame 203, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:38 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:38 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] 203.18 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 318, thres 150), delay 0 start symbol 8 freq index 0
- 六  03 22:42:38 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:38 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:38 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:38 [0m[NR_PHY]   203.19 Got prach entry id 1
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] Frame 203, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:38 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:38 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] 203.19 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 344, thres 150), delay 0 start symbol 0 freq index 0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] Frame 203, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:38 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:38 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] 203.19 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 367, thres 150), delay 0 start symbol 4 freq index 0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] Frame 203, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:38 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:38 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:38 [0m[NR_PHY]   [RAPROC] 203.19 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 387, thres 150), delay 0 start symbol 8 freq index 0
- 六  03 22:42:38 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:38 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:38 [0m[PHY]   pack_nr_rach_indication_body
- 六  03 22:42:38 [0m[PHY]   Process dl_tti SFN/slot 206.0 buffer index: 0 
- 六  03 22:42:38 [0m
- 六  03 22:42:38 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:38 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:38 no HARQ SDU present
- 六  03 22:42:39 [NR_PHY]   247.19 Got prach entry id 0
- 六  03 22:42:39 [0m[NR_PHY]   [RAPROC] Frame 247, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:39 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:39 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:39 [0m[NR_PHY]   [RAPROC] Frame 247, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:39 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:39 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:39 [0m[NR_PHY]   [RAPROC] Frame 247, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:39 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:39 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:39 [0m[PHY]   Process dl_tti SFN/slot 250.0 buffer index: 0 
- 六  03 22:42:39 [0m
- 六  03 22:42:39 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:39 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:39 no HARQ SDU present
- 六  03 22:42:39 [NR_PHY]   249.18 Got prach entry id 0
- 六  03 22:42:39 [0m[NR_PHY]   [RAPROC] Frame 249, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:39 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:39 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:39 [0m[NR_PHY]   [RAPROC] Frame 249, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:39 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:39 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:39 [0m[NR_PHY]   [RAPROC] Frame 249, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:39 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:39 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:43 [0m[PHY]   Process dl_tti SFN/slot 252.0 buffer index: 0 
- 六  03 22:42:43 [0m[PHY]   Process tx_data SFN/slot 252.0 buffer index: 0 
- 六  03 22:42:43 [0m[NR_PHY]   251.18 Got prach entry id 0
- 六  03 22:42:43 [0m[NR_PHY]   [RAPROC] Frame 251, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:43 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:43 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:43 [0m[NR_PHY]   [RAPROC] Frame 251, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:43 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:43 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:43 [0m[NR_PHY]   [RAPROC] Frame 251, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:43 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:43 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:43 [0m[NR_PHY]   251.19 Got prach entry id 1
- 六  03 22:42:43 [0m[NR_PHY]   [RAPROC] Frame 251, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:43 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:43 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:43 [0m[NR_PHY]   [RAPROC] Frame 251, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:43 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:43 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:43 [0m[NR_PHY]   [RAPROC] Frame 251, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:43 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:43 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:47 [0m[PHY]   Process dl_tti SFN/slot 252.0 buffer index: 0 
- 六  03 22:42:47 [0m[PHY]   Process tx_data SFN/slot 252.0 buffer index: 0 
- 六  03 22:42:47 [0m[NR_PHY]   251.18 Got prach entry id 0
- 六  03 22:42:47 [0m[NR_PHY]   [RAPROC] Frame 251, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:47 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:47 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:47 [0m[NR_PHY]   [RAPROC] Frame 251, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:47 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:47 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:47 [0m[NR_PHY]   [RAPROC] Frame 251, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:47 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:47 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:47 [0m[NR_PHY]   251.19 Got prach entry id 1
- 六  03 22:42:47 [0m[NR_PHY]   [RAPROC] Frame 251, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:47 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:47 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:47 [0m[NR_PHY]   [RAPROC] Frame 251, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:47 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:47 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:47 [0m[NR_PHY]   [RAPROC] Frame 251, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:47 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:47 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:48 [0m[PHY]   Process tx_data SFN/slot 384.0 buffer index: 0 
- 六  03 22:42:48 [0m[NR_PHY]   383.18 Got prach entry id 0
- 六  03 22:42:48 [0m[NR_PHY]   [RAPROC] Frame 383, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:48 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:48 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:48 [0m[NR_PHY]   [RAPROC] Frame 383, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:48 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:48 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:48 [0m[NR_PHY]   [RAPROC] Frame 383, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:48 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:48 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:48 [0m[NR_PHY]   383.19 Got prach entry id 1
- 六  03 22:42:48 [0m[NR_PHY]   [RAPROC] Frame 383, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:48 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:48 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:48 [0m[NR_PHY]   [RAPROC] Frame 383, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:48 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:48 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:48 [0m[NR_PHY]   [RAPROC] Frame 383, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:48 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:48 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:52 [0m[PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:42:52 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:42:52 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:52 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:52 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:52 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:52 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:52 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:52 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:52 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:52 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:52 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:42:52 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:52 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:52 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:52 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:52 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:52 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:52 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:52 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:52 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:52 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:42:52 [0m
- 六  03 22:42:52 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:52 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:52 no HARQ SDU present
- 六  03 22:42:55 873458488173 [W] 2791065152: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
- 六  03 22:42:55 873458488185 [W] 2791065152: pnf_nr_read_dispatch_message: Disconnected socket
- 六  03 22:42:56 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:42:56 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:42:56 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:56 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:56 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:56 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:56 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:56 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:56 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:56 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:56 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:56 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:42:56 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:56 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:56 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:56 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:56 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:56 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:56 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:42:56 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:42:56 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:42:56 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:42:56 [0m
- 六  03 22:42:56 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:42:56 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:42:56 no HARQ SDU present
- 六  03 22:42:56 873459488546 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:42:58 873461488935 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:00 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:43:00 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:43:00 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:00 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:00 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:00 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:00 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:00 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:00 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:00 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:00 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:00 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:43:00 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:00 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:00 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:00 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:00 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:00 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:00 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:00 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:00 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:00 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:43:00 [0m
- 六  03 22:43:00 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:43:00 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:43:00 no HARQ SDU present
- 六  03 22:43:00 873463489284 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:02 873465489627 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:04 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:43:04 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:43:04 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:04 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:04 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:04 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:04 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:04 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:04 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:04 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:04 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:04 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:43:04 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:04 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:04 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:04 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:04 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:04 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:04 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:04 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:04 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:04 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:43:04 [0m
- 六  03 22:43:04 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:43:04 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:43:04 no HARQ SDU present
- 六  03 22:43:04 873467489989 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:06 873469490339 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:08 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:43:08 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:43:08 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:08 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:08 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:08 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:08 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:08 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:08 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:08 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:08 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:08 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:43:08 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:08 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:08 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:08 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:08 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:08 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:08 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:08 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:08 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:08 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:43:08 [0m
- 六  03 22:43:08 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:43:08 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:43:08 no HARQ SDU present
- 六  03 22:43:08 873471490704 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:10 873473491068 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:12 873475491413 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:13 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:43:13 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:43:13 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:13 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:13 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:13 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:13 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:13 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:13 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:43:13 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:13 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:13 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:13 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:13 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:13 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:13 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:13 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:43:13 [0m
- 六  03 22:43:13 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:43:13 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:43:13 no HARQ SDU present
- 六  03 22:43:14 873477491746 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:16 873479492100 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:17 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:43:17 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:43:17 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:17 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:17 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:17 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:17 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:17 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:17 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:43:17 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:17 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:17 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:17 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:17 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:17 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:17 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:17 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:43:17 [0m
- 六  03 22:43:17 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:43:17 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:43:17 no HARQ SDU present
- 六  03 22:43:18 873481492475 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:20 873483492799 [E] 2791065152: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
- 六  03 22:43:21 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
- 六  03 22:43:21 [0m[NR_PHY]   385.18 Got prach entry id 0
- 六  03 22:43:21 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:21 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:21 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:21 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:21 [0m[NR_PHY]   [RAPROC] Frame 385, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:21 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:21 [0m[NR_PHY]   385.19 Got prach entry id 1
- 六  03 22:43:21 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:21 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:21 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:21 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:21 [0m[NR_PHY]   [RAPROC] Frame 385, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 100)
- 六  03 22:43:21 [0m[NR_PHY]   prach_energy_counter:100
- 六  03 22:43:21 [0m[NR_PHY]   max_preamble_energy[0]:0
- 六  03 22:43:21 [0m[PHY]   Process dl_tti SFN/slot 388.0 buffer index: 0 
- 六  03 22:43:21 [0m
- 六  03 22:43:21 Assertion (harq->sdu_len > 0) failed!
- 六  03 22:43:21 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
- 六  03 22:43:21 no HARQ SDU present
- 六  03 22:43:21 
- 六  03 22:43:21 ** Caught SIGTERM, shutting down
- 六  03 22:43:21 Returned from ITTI signal handler
- 六  03 22:43:21 oai_exit=1
- 六  03 22:43:21 [PHY]   Killing gNB 0 processing threads
- 六  03 22:43:21 [0mExiting ru_thread 
- 六  03 22:43:21 
- 六  03 22:43:21 ** Caught SIGTERM, shutting down
- 六  03 22:43:21 
- 六  03 22:43:21 ** Caught SIGTERM, shutting down
- 六  03 22:43:22 [PHY]   Stopping RU 0 processing threads
- 六  03 22:43:22 [0m[PHY]   RU 0 RF device stopped
- 六  03 22:43:22 [0m[PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
- 六  03 22:43:22 [0mBye.
+ 六  04 21:44:45 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
+ 六  04 21:44:45 [CONFIG] get parameters from libconfig /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/hpe/NTUST-script/ELSE
+ 六  04 21:44:45 [CONFIG] function config_libconfig_init returned 0
+ 六  04 21:44:45 [CONFIG] config module libconfig loaded
+ 六  04 21:44:45 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 六  04 21:44:45 [CONFIG] debug flags: 0x00000000
+ 六  04 21:44:45 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 六  04 21:44:45 [LIBCONFIG] log_config: 50/50 parameters successfully set, (44 to default value)
+ 六  04 21:44:45 [LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+ 六  04 21:44:45 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 六  04 21:44:45 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 六  04 21:44:45 log init done
+ 六  04 21:44:45 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 六  04 21:44:45 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  04 21:44:45 [1;31m[HW]   Can't set cpu frequency
+ 六  04 21:44:45 [0mReading in command-line options
+ 六  04 21:44:45 [LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+ 六  04 21:44:45 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 六  04 21:44:45 [ENB_APP]   nfapi (1) running mode: PNF
+ 六  04 21:44:45 [0m[GNB_APP]   Getting GNBSParams
+ 六  04 21:44:45 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 六  04 21:44:45 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 六  04 21:44:45 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 六  04 21:44:45 [CONFIG] parallel_conf is set to 0
+ 六  04 21:44:45 [CONFIG] worker_conf is set to 1
+ 六  04 21:44:45 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+ 六  04 21:44:45 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 六  04 21:44:45 configuring for RAU/RRU
+ 六  04 21:44:46 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 六  04 21:44:46 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 六  04 21:44:46 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 六  04 21:44:46 [OPT]   OPT disabled
+ 六  04 21:44:46 [0m[HW]   Version: Branch: nfapi-fixes-rebased Abrev. Hash: 8e46925a43 Date: Tue May 21 22:39:20 2024 +0800
+ 六  04 21:44:46 [0m[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (20 to default value)
+ 六  04 21:44:46 [LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (25 to default value)
+ 六  04 21:44:46 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf 
+ 六  04 21:44:46 [NR_PHY]   RC.gNB = 0x59005e2e5980
+ 六  04 21:44:46 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
+ 六  04 21:44:46 [PHY]   L1_RX_THREAD_CORE -1 (15)
+ 六  04 21:44:46 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+ 六  04 21:44:46 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+ 六  04 21:44:46 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+ 六  04 21:44:46 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+ 六  04 21:44:46 [0mconfigure_nr_nfapi_pnf() PNF
+ 六  04 21:44:46 
+ 六  04 21:44:46 
+ 六  04 21:44:46 
+ 六  04 21:44:46 
+ 六  04 21:44:46 
+ 六  04 21:44:46 [ENB_APP]   nfapi (1) running mode: PNF
+ 六  04 21:44:46 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
+ 六  04 21:44:46 Initializing northbound interface for L1
+ 六  04 21:44:46 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 六  04 21:44:46 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 六  04 21:44:46 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x59005e2f1d40
+ 六  04 21:44:46 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 六  04 21:44:46 [0m[PNF] pnf param request
+ 六  04 21:44:46 [PNF] pnf config request
+ 六  04 21:44:46 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+ 六  04 21:44:46 [PNF] Sent pnf_config_resp
+ 六  04 21:44:46 Received NFAPI_PNF_START_REQUEST
+ 六  04 21:44:46 [PNF] Sent NFAPI_PNF_START_RESP
+ 六  04 21:44:46 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+ 六  04 21:44:46 TAG value :2
+ 六  04 21:44:46 RUNNING pack_param_response
+ 六  04 21:44:46 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+ 六  04 21:44:46 b8 10 01 00 02 00 64 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 64 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1c 00 01 00 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 21 00 04 00 00 00 00 10 22 00 04 80 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 28 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c5 b3 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 
+ 六  04 21:44:46 *** have tag 1001, idx 0
+ 六  04 21:44:46 *** have tag 1002, idx 1
+ 六  04 21:44:46 *** have tag 1005, idx 4
+ 六  04 21:44:46 *** have tag 1006, idx 5
+ 六  04 21:44:46 *** have tag 1007, idx 6
+ 六  04 21:44:46 *** have tag 100a, idx 9
+ 六  04 21:44:46 *** have tag 100c, idx 11
+ 六  04 21:44:46 *** have tag 100d, idx 12
+ 六  04 21:44:46 *** have tag 100e, idx 13
+ 六  04 21:44:46 *** have tag 100f, idx 14
+ 六  04 21:44:46 *** have tag 1010, idx 15
+ 六  04 21:44:46 *** have tag 1011, idx 16
+ 六  04 21:44:46 *** have tag 1012, idx 17
+ 六  04 21:44:46 *** have tag 1013, idx 18
+ 六  04 21:44:46 *** have tag 1014, idx 19
+ 六  04 21:44:46 *** have tag 1029, idx 20
+ 六  04 21:44:46 *** have tag 101b, idx 27
+ 六  04 21:44:46 *** have tag 101c, idx 28
+ 六  04 21:44:46 *** have tag 101d, idx 29
+ 六  04 21:44:46 *** have tag 101f, idx 31
+ 六  04 21:44:46 *** have tag 1020, idx 32
+ 六  04 21:44:46 *** have tag 1021, idx 33
+ 六  04 21:44:46 *** have tag 1026, idx 38
+ 六  04 21:44:46 *** have tag 1028, idx 40
+ 六  04 21:44:46 *** have tag 100, idx 41
+ 六  04 21:44:46 *** have tag 102, idx 43
+ 六  04 21:44:46 *** have tag 11e, idx 44
+ 六  04 21:44:46 *** have tag 11f, idx 45
+ 六  04 21:44:46 *** have tag 120, idx 46
+ 六  04 21:44:46 [PNF] vnf p7 127.0.0.1:50611
+ 六  04 21:44:46 num_tlv:247
+ 六  04 21:44:46 ssb_config
+ 六  04 21:44:46   bch_payload t 4111 l 1 v 1
+ 六  04 21:44:46   scs_common t 4112 l 1 v 1
+ 六  04 21:44:46   ss_pbch_power t 4110 l 4 v -25
+ 六  04 21:44:46 ssb_table
+ 六  04 21:44:46   ssb_offset_point_a t 4125 l 2 v 86
+ 六  04 21:44:46   beta_pss t 0 l 0 v 0
+ 六  04 21:44:46   ssb_period t 4127 l 1 v 2
+ 六  04 21:44:46   ssb_subcarrier_offset t 4128 l 1 v 0
+ 六  04 21:44:46   MIB t 4129 l 4 v 0
+ 六  04 21:44:46 ssb_mask_list:
+ 六  04 21:44:46 -2147483648	0	
+ 六  04 21:44:46 ssb_beam_id_list:
+ 六  04 21:44:46 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+ 六  04 21:44:46   ss_pbch_multiple_carriers_in_a_band t 0 l 0 v 0
+ 六  04 21:44:46   multiple_cells_ss_pbch_in_a_carrier t 0 l 0 v 0
+ 六  04 21:44:46 tdd_table
+ 六  04 21:44:46   tdd_period t 4134 l 1 v 6
+ 六  04 21:44:46   slot_config t 4135 l 1 v 0
+ 六  04 21:44:46 cell_config
+ 六  04 21:44:46   frame_duplex_type t 4109 l 1 v 1
+ 六  04 21:44:46   phy_cell_id t 4108 l 2 v 0
+ 六  04 21:44:46 nfapi_nr_measurement_config_t
+ 六  04 21:44:46   rssi_measurement t 4136 l 1 v 1
+ 六  04 21:44:46 nfapi_nr_nfapi_t
+ 六  04 21:44:46   dl_tti_timing_offset t 0 l 0 v 0
+ 六  04 21:44:46   ul_tti_timing_offset t 0 l 0 v 0
+ 六  04 21:44:46   ul_dci_timing_offset t 0 l 0 v 0
+ 六  04 21:44:46   tx_data_timing_offset t 0 l 0 v 0
+ 六  04 21:44:46 0	0	0	0	
+ 六  04 21:44:46 0	0	0	0	
+ 六  04 21:44:46   p7_pnf_port t 0 l 0 v 0
+ 六  04 21:44:46   timing_window t 286 l 1 v 30
+ 六  04 21:44:46   timing_info_mode t 287 l 1 v 3
+ 六  04 21:44:46   timing_info_period t 288 l 1 v 10
+ 六  04 21:44:46 pmi_list:
+ 六  04 21:44:46   num_pm_idx:1375484936
+ 六  04 21:44:46   pm_idx:0
+ 六  04 21:44:46   numLayers:2
+ 六  04 21:44:46   num_ant_ports:4
+ 六  04 21:44:46   weights:  6	  10	  14	  18	  22	  26	  30	  34	  38	  42	  46	  50	  54	  58	  62	  66	
+ 六  04 21:44:46 carrier_config
+ 六  04 21:44:46   bw t 4097 l 2 v 40
+ 六  04 21:44:46   freq t 4098 l 4 v 3600120
+ 六  04 21:44:46   dl_k0[0] t 0 l 0 v 0
+ 六  04 21:44:46   dl_k0[1] t 4099 l 10 v 0
+ 六  04 21:44:46   dl_k0[2] t 0 l 0 v 0
+ 六  04 21:44:46   dl_k0[3] t 0 l 0 v 0
+ 六  04 21:44:46   dl_k0[4] t 0 l 0 v 0
+ 六  04 21:44:46   dl_grid_size[0] t 0 l 0 v 0
+ 六  04 21:44:46   dl_grid_size[1] t 4100 l 10 v 106
+ 六  04 21:44:46   dl_grid_size[2] t 0 l 0 v 0
+ 六  04 21:44:46   dl_grid_size[3] t 0 l 0 v 0
+ 六  04 21:44:46   dl_grid_size[4] t 0 l 0 v 0
+ 六  04 21:44:46   num_tx_ant t 4101 l 2 v 1
+ 六  04 21:44:46   uplink_bandwidth t 4102 l 2 v 40
+ 六  04 21:44:46   uplink_frequency t 4103 l 4 v 3600120
+ 六  04 21:44:46   ul_k0[0] t 0 l 0 v 0
+ 六  04 21:44:46   ul_k0[1] t 4104 l 10 v 0
+ 六  04 21:44:46   ul_k0[2] t 0 l 0 v 0
+ 六  04 21:44:46   ul_k0[3] t 0 l 0 v 0
+ 六  04 21:44:46   ul_k0[4] t 0 l 0 v 0
+ 六  04 21:44:46   ul_grid_size[0] t 0 l 0 v 0
+ 六  04 21:44:46   ul_grid_size[1] t 4105 l 10 v 106
+ 六  04 21:44:46   ul_grid_size[2] t 0 l 0 v 0
+ 六  04 21:44:46   ul_grid_size[3] t 0 l 0 v 0
+ 六  04 21:44:46   ul_grid_size[4] t 0 l 0 v 0
+ 六  04 21:44:46   num_rx_ant t 4106 l 2 v 1
+ 六  04 21:44:46   frequency_shift_7p5khz t 0 l 0 v 0
+ 六  04 21:44:46 prach_config
+ 六  04 21:44:46   prach_sequence_length t 4113 l 1 v 1
+ 六  04 21:44:46   prach_sub_c_spacing t 4114 l 1 v 1
+ 六  04 21:44:46   restricted_set_config t 4115 l 1 v 0
+ 六  04 21:44:46   num_prach_fd_occasions t 4116 l 1 v 1
+ 六  04 21:44:46   prach_ConfigurationIndex t 4137 l 1 v 98
+ 六  04 21:44:46     prach_root_sequence_index t 4117 l 2 v 1
+ 六  04 21:44:46     num_root_sequences t 4118 l 1 v 16
+ 六  04 21:44:46     k1 t 4119 l 2 v 0
+ 六  04 21:44:46     prach_zero_corr_conf t 4120 l 1 v 13
+ 六  04 21:44:46     num_unused_root_sequences t 4121 l 2 v 0
+ 六  04 21:44:46   ssb_per_rach t 4123 l 1 v 3
+ 六  04 21:44:46   prach_multiple_carriers_in_a_band t 4124 l 1 v 0
+ 六  04 21:44:46 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+ 六  04 21:44:46 
+ 六  04 21:44:46 Timing window tag: 286
+ 六  04 21:44:46 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+ 六  04 21:44:46 timing info mode:3
+ 六  04 21:44:46 timing info period provided value:10
+ 六  04 21:44:46 956369501826 [E] 1375487552: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
+ 六  04 21:44:46 [PNF] CONFIG_REQUEST[num_tlv:247] TLVs processed:6
+ 六  04 21:44:46 [PNF] Simulating PHY CONFIG
+ 六  04 21:44:46 DL frequency 3619200000: band 48, UL frequency 3619200000
+ 六  04 21:44:46 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+ 六  04 21:44:46 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
+ 六  04 21:44:46 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 六  04 21:44:46 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 六  04 21:44:46 [0m[PHY]   gNB 0 configured
+ 六  04 21:44:46 [0m[PHY]   fp->scs=30000
+ 六  04 21:44:46 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 六  04 21:44:46 [0m[PHY]   fp->nb_prefix_samples0=176
+ 六  04 21:44:46 [0m[PHY]   fp->nb_prefix_samples=144
+ 六  04 21:44:46 [0m[PHY]   fp->slots_per_subframe=2
+ 六  04 21:44:46 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 六  04 21:44:46 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 六  04 21:44:46 [0m[PHY]   fp->samples_per_subframe=61440
+ 六  04 21:44:46 [0m[PHY]   fp->samples_per_frame=614400
+ 六  04 21:44:46 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 六  04 21:44:46 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 六  04 21:44:46 [0m[PHY]   fp->Nid_cell=0
+ 六  04 21:44:46 [0m[PHY]   fp->first_carrier_offset=1412
+ 六  04 21:44:46 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 六  04 21:44:46 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
+ 六  04 21:44:46 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+ 六  04 21:44:46 [PNF] Received NFAPI_START_REQ phy_id:1
+ 六  04 21:44:46 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 六  04 21:44:46 START MAIN THREADS
+ 六  04 21:44:46 RC.nb_nr_L1_inst:1
+ 六  04 21:44:46 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+ 六  04 21:44:46 [PHY]   Initializing gNB 0 single_thread_flag:1
+ 六  04 21:44:46 [0m[PHY]   Initializing gNB 0
+ 六  04 21:44:46 [0m[PHY]   Registering with MAC interface module (before 0x59005e2f1d40)
+ 六  04 21:44:46 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 六  04 21:44:46 [0m[PHY]   Registering with MAC interface module (after 0x59005e2f1d40)
+ 六  04 21:44:46 [0m[PHY]   Setting indication lists
+ 六  04 21:44:46 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+ 六  04 21:44:46 [0mwait_gNBs()
+ 六  04 21:44:46 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 六  04 21:44:47 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
+ 六  04 21:44:47 subframe_buffer_size configured using phy_info->timing_window:30
+ 六  04 21:44:47 [PNF] Sending PNF_START_RESP
+ 六  04 21:44:47 Sending NFAPI_START_RESPONSE config:0x59005e2e9ac0 phy_id:1
+ 六  04 21:44:47 gNB L1 are configured
+ 六  04 21:44:47 About to Init RU threads RC.nb_RU:1
+ 六  04 21:44:47 Initializing RU threads
+ 六  04 21:44:47 configuring RU from file
+ 六  04 21:44:47 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
+ 六  04 21:44:47 Set RU mask to 1
+ 六  04 21:44:47 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 六  04 21:44:47 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 六  04 21:44:47 [0mCalling sched_setscheduler(79)
+ 六  04 21:44:47 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 六  04 21:44:47 [0mCreating RC.ru[0]:0x59005e2f4950
+ 六  04 21:44:47 [PHY]   RU GPIO control set as 'generic'
+ 六  04 21:44:47 [0m[PHY]   Setting clock source to internal
+ 六  04 21:44:47 [0m[PHY]   Setting time source to internal
+ 六  04 21:44:47 [0mSetting function for RU 0 to gNodeB_3GPP
+ 六  04 21:44:47 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
+ 六  04 21:44:47 [RU 0] Setting half-slot parallelization to 1
+ 六  04 21:44:47 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
+ 六  04 21:44:47 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+ 六  04 21:44:47 [0mconfiguring ru_id 0 (start_rf 0x5900592385c0)
+ 六  04 21:44:47 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+ 六  04 21:44:47 [0m[PHY]   RU Thread pool size 2
+ 六  04 21:44:47 [0m[PHY]   RU thread-pool core string -1,-1
+ 六  04 21:44:47 [0mcreate a thread for core -1
+ 六  04 21:44:47 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 六  04 21:44:47 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 六  04 21:44:47 [0mcreate a thread for core -1
+ 六  04 21:44:47 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 六  04 21:44:47 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 六  04 21:44:47 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+ 六  04 21:44:47 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
+ 六  04 21:44:47 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 32
+ 六  04 21:44:47 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 六  04 21:44:47 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 六  04 21:44:47 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
+ 六  04 21:44:47 [PHY]   fp->scs=30000
+ 六  04 21:44:47 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 六  04 21:44:47 [0m[PHY]   fp->nb_prefix_samples0=176
+ 六  04 21:44:47 [0m[PHY]   fp->nb_prefix_samples=144
+ 六  04 21:44:47 [0m[PHY]   fp->slots_per_subframe=2
+ 六  04 21:44:47 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 六  04 21:44:47 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 六  04 21:44:47 [0m[PHY]   fp->samples_per_subframe=61440
+ 六  04 21:44:47 [0m[PHY]   fp->samples_per_frame=614400
+ 六  04 21:44:47 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 六  04 21:44:47 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 六  04 21:44:47 [0m[PHY]   fp->Nid_cell=0
+ 六  04 21:44:47 [0m[PHY]   fp->first_carrier_offset=1412
+ 六  04 21:44:47 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 六  04 21:44:47 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+ 六  04 21:44:47 [0m[PHY]   [INIT] common.txdata[0] = 0x72f350569040 (2458880 bytes,sf_extension 320)
+ 六  04 21:44:47 [0m[PHY]   [INIT] common.txdata[0] = 0x72f350569540 
+ 六  04 21:44:47 [0m[PHY]   nb_tx 1
+ 六  04 21:44:47 [0m[PHY]   rxdata_7_5kHz[0] 0x72f35250f040 for RU 0
+ 六  04 21:44:47 [0m[PHY]   [INIT] common.txdata_BF= 0x72f33c000ac0 (8 bytes)
+ 六  04 21:44:47 [0m[PHY]   txdataF_BF[0] 0x72f352ee7040 for RU 0
+ 六  04 21:44:47 [0m[PHY]   rxdataF[0] 0x72f352e76040 for RU 0
+ 六  04 21:44:47 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+ 六  04 21:44:47 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+ 六  04 21:44:47 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+ 六  04 21:44:47 [0m[PHY]   Channel 0: setting tx_gain offset 90, tx_freq 3619200000 Hz
+ 六  04 21:44:47 [0m[PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
+ 六  04 21:44:47 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+ 六  04 21:44:47 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+ 六  04 21:44:47 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+ 六  04 21:44:47 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+ 六  04 21:44:47 shlib_path librfsimulator.so
+ 六  04 21:44:47 [LOADER] library librfsimulator.so successfully loaded
+ 六  04 21:44:47 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
+ 六  04 21:44:47 [93m[HW]   sample_rate 61440000.000000
+ 六  04 21:44:47 [0m[HW]   Running as server waiting opposite rfsimulators to connect
+ 六  04 21:44:47 [0mInitializing random number generator, seed 8617321446181977483
+ 六  04 21:44:47 [HW]   [RAU] has loaded RFSIMULATOR device.
+ 六  04 21:44:47 [0msetup_RU_buffers: frame_parms = 0x72f3528af010
+ 六  04 21:44:47 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+ 六  04 21:44:47 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
+ 六  04 21:44:47 [0mwaiting for sync (ru_thread,-1/0x590059e330ac,0x59005b7580a0,0x59005b7573a0)
+ 六  04 21:44:52 [PNF] waiting for OAI to be configured (eNB/RU)
+ 六  04 21:44:52 [PNF] OAI eNB/RU configured
+ 六  04 21:44:52 [PNF] About to call init_eNB_afterRU()
+ 六  04 21:44:52 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+ 六  04 21:44:52 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x72f351fc5010
+ 六  04 21:44:52 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+ 六  04 21:44:52 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+ 六  04 21:44:52 shlib_path libdfts.so
+ 六  04 21:44:52 [LOADER] library libdfts.so successfully loaded
+ 六  04 21:44:52 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+ 六  04 21:44:52 shlib_path libldpc.so
+ 六  04 21:44:52 [LOADER] library libldpc.so successfully loaded
+ 六  04 21:44:52 [PHY]   Initialise nr transport
+ 六  04 21:44:52 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
+ 六  04 21:44:52 [0m[PHY]   gNB->num_RU:1
+ 六  04 21:44:52 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0mcreate a thread for core -1
+ 六  04 21:44:52 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0m[UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0m[UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
+ 六  04 21:44:52 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+ 六  04 21:44:52 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
+ 六  04 21:44:52 [0mwaiting for sync (L1_stats_thread,-1/0x590059e330ac,0x59005b7580a0,0x59005b7573a0)
+ 六  04 21:44:52 [PNF] Sending PNF_START_RESP
+ 六  04 21:44:52 Sending NFAPI_START_RESPONSE config:0x59005e2e9ac0 phy_id:1
+ 六  04 21:44:52 NFAPI: got sync (main?)
+ 六  04 21:44:52 wait RUs
+ 六  04 21:44:52 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+ 六  04 21:44:52 [0m[PHY]   RUs configured
+ 六  04 21:44:52 [0mALL RUs READY!
+ 六  04 21:44:52 RC.nb_RU:1
+ 六  04 21:44:52 ALL RUs ready - init gNBs
+ 六  04 21:44:52 NFAPI mode - DO NOT call init_gNB_afterRU()
+ 六  04 21:44:52 ALL RUs ready - ALL gNBs ready
+ 六  04 21:44:52 Sending sync to all threads
+ 六  04 21:44:52 Entering ITTI signals handler
+ 六  04 21:44:52 TYPE <CTRL-C> TO TERMINATE
+ 六  04 21:44:52 got sync (L1_stats_thread)
+ 六  04 21:44:52 got sync (ru_thread)
+ 六  04 21:44:52 [PNF] Sending first P7 slot indication
+ 六  04 21:44:52 [PHY]   Process tx_data SFN/slot 0.0 buffer index: 0 
+ 六  04 21:44:52 [0m[PNF] Sent first P7 slot ind
+ 六  04 21:44:52 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+ 六  04 21:44:52 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+ 六  04 21:44:52 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+ 六  04 21:44:52 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+ 六  04 21:44:52 [0m[PHY]   RU 0 rf device ready
+ 六  04 21:44:52 [0m[PHY]   RU 0 RF started opp_enabled 0
+ 六  04 21:44:52 [0m[93m[HW]   No connected device, generating void samples...
+ 六  04 21:44:52 [0m[PHY]   Process dl_tti SFN/slot 8.0 buffer index: 0 
+ 六  04 21:44:52 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
+ 六  04 21:44:52 [0m[PHY]   Process dl_tti SFN/slot 10.0 buffer index: 0 
+ 六  04 21:44:52 [0m[PHY]   Process dl_tti SFN/slot 12.0 buffer index: 0 
+ 六  04 21:44:52 [0m[PHY]   Process dl_tti SFN/slot 14.0 buffer index: 0 
+ 六  04 21:44:52 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 16/0
+ 六  04 21:44:52 [0m[PHY]   Process dl_tti SFN/slot 16.0 buffer index: 0 
+ 六  04 21:44:52 [0m[PHY]   Process tx_data SFN/slot 16.0 buffer index: 0 
+ 六  04 21:44:52 [0m[NR_PHY]   15.18 Got prach entry id 0
+ 六  04 21:44:52 [0m[NR_PHY]   [RAPROC] Frame 15, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 0)
+ 六  04 21:44:52 [0m[NR_PHY]   prach_energy_counter:0
+ 六  04 21:44:52 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:52 [0m[NR_PHY]   [RAPROC] Frame 15, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 1)
+ 六  04 21:44:52 [0m[NR_PHY]   prach_energy_counter:1
+ 六  04 21:44:52 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:52 [0m[NR_PHY]   [RAPROC] Frame 15, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 2)
+ 六  04 21:44:52 [0m[NR_PHY]   prach_energy_counter:2
+ 六  04 21:44:52 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:52 [0m[NR_PHY]   15.19 Got prach entry id 1
+ 六  04 21:44:52 [0m[NR_PHY]   [RAPROC] Frame 15, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 3)
+ 六  04 21:44:52 [0m[NR_PHY]   prach_energy_counter:3
+ 六  04 21:44:52 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:52 [0m[NR_PHY]   [RAPROC] Frame 15, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 4)
+ 六  04 21:44:52 [0m[NR_PHY]   prach_energy_counter:4
+ 六  04 21:44:52 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:52 [0m[NR_PHY]   [RAPROC] Frame 15, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 5)
+ 六  04 21:44:52 [0m[NR_PHY]   prach_energy_counter:5
+ 六  04 21:44:52 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 18/0
+ 六  04 21:44:53 [0m[PHY]   Process dl_tti SFN/slot 18.0 buffer index: 0 
+ 六  04 21:44:53 [0m[PHY]   Process tx_data SFN/slot 18.0 buffer index: 0 
+ 六  04 21:44:53 [0m[NR_PHY]   17.18 Got prach entry id 0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 17, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 6)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:6
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 17, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 7)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:7
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 17, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 8)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:8
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   17.19 Got prach entry id 1
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 17, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 9)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:9
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 17, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 10)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:10
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 17, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 11)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:11
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 20/0
+ 六  04 21:44:53 [0m[PHY]   Process dl_tti SFN/slot 20.0 buffer index: 0 
+ 六  04 21:44:53 [0m[PHY]   Process tx_data SFN/slot 20.0 buffer index: 0 
+ 六  04 21:44:53 [0m[NR_PHY]   19.18 Got prach entry id 0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 19, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 12)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:12
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 19, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 13)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:13
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 19, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 14)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:14
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   19.19 Got prach entry id 1
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 19, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 15)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:15
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 19, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 16)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:16
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 19, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 17)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:17
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 22/0
+ 六  04 21:44:53 [0m[PHY]   Process dl_tti SFN/slot 22.0 buffer index: 0 
+ 六  04 21:44:53 [0m[PHY]   Process tx_data SFN/slot 22.0 buffer index: 0 
+ 六  04 21:44:53 [0m[NR_PHY]   21.18 Got prach entry id 0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 21, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 18)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:18
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 21, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 19)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:19
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 21, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 20)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:20
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   21.19 Got prach entry id 1
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 21, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 21)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:21
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 21, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 22)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:22
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 21, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 23)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:23
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 24/0
+ 六  04 21:44:53 [0m[PHY]   Process dl_tti SFN/slot 24.0 buffer index: 0 
+ 六  04 21:44:53 [0m[PHY]   Process tx_data SFN/slot 24.0 buffer index: 0 
+ 六  04 21:44:53 [0m[NR_PHY]   23.18 Got prach entry id 0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 23, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 24)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:24
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 23, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 25)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:25
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 23, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 26)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:26
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   23.19 Got prach entry id 1
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 23, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 27)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:27
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 23, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 28)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:28
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 23, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 29)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:29
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 26/0
+ 六  04 21:44:53 [0m[PHY]   Process dl_tti SFN/slot 26.0 buffer index: 0 
+ 六  04 21:44:53 [0m[PHY]   Process tx_data SFN/slot 26.0 buffer index: 0 
+ 六  04 21:44:53 [0m[NR_PHY]   25.18 Got prach entry id 0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 25, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 30)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:30
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 25, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 31)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:31
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 25, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 32)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:32
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   25.19 Got prach entry id 1
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 25, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 33)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:33
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 25, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 34)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:34
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 25, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 35)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:35
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 28/0
+ 六  04 21:44:53 [0m[PHY]   Process dl_tti SFN/slot 28.0 buffer index: 0 
+ 六  04 21:44:53 [0m[PHY]   Process tx_data SFN/slot 28.0 buffer index: 0 
+ 六  04 21:44:53 [0m[NR_PHY]   27.18 Got prach entry id 0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 27, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 36)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:36
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 27, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 37)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:37
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 27, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 38)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:38
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   27.19 Got prach entry id 1
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 27, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 39)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:39
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 27, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 40)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:40
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 27, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 41)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:41
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 30/0
+ 六  04 21:44:53 [0m[PHY]   Process dl_tti SFN/slot 30.0 buffer index: 0 
+ 六  04 21:44:53 [0m[PHY]   Process tx_data SFN/slot 30.0 buffer index: 0 
+ 六  04 21:44:53 [0m[NR_PHY]   29.18 Got prach entry id 0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 29, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 42)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:42
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 29, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 43)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:43
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 29, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 44)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:44
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   29.19 Got prach entry id 1
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 29, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 45)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:45
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 29, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 46)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:46
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[NR_PHY]   [RAPROC] Frame 29, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 47)
+ 六  04 21:44:53 [0m[NR_PHY]   prach_energy_counter:47
+ 六  04 21:44:53 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:53 [0m[HW]   A client connects, sending the current time
+ 六  04 21:44:54 [0m[PHY]   Process dl_tti SFN/slot 32.0 buffer index: 0 
+ 六  04 21:44:54 [0m
+ 六  04 21:44:54 Assertion (harq->sdu_len > 0) failed!
+ 六  04 21:44:54 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 六  04 21:44:54 no HARQ SDU present
+ 六  04 21:44:54 [NR_PHY]   31.18 Got prach entry id 0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 31, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 48)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:48
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 31, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 49)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:49
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 31, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 50)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:50
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 32/0
+ 六  04 21:44:54 [0m[PHY]   Process dl_tti SFN/slot 34.0 buffer index: 0 
+ 六  04 21:44:54 [0m
+ 六  04 21:44:54 Assertion (harq->sdu_len > 0) failed!
+ 六  04 21:44:54 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 六  04 21:44:54 no HARQ SDU present
+ 六  04 21:44:54 [NR_PHY]   33.18 Got prach entry id 0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 33, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 51)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:51
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 33, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 52)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:52
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 33, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 53)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:53
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 34/0
+ 六  04 21:44:54 [0m[PHY]   Process dl_tti SFN/slot 36.0 buffer index: 0 
+ 六  04 21:44:54 [0m
+ 六  04 21:44:54 Assertion (harq->sdu_len > 0) failed!
+ 六  04 21:44:54 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 六  04 21:44:54 no HARQ SDU present
+ 六  04 21:44:54 [NR_PHY]   35.18 Got prach entry id 0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 35, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 54)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:54
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 35, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 55)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:55
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 35, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 56)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:56
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 36/0
+ 六  04 21:44:54 [0m[PHY]   Process dl_tti SFN/slot 38.0 buffer index: 0 
+ 六  04 21:44:54 [0m
+ 六  04 21:44:54 Assertion (harq->sdu_len > 0) failed!
+ 六  04 21:44:54 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 六  04 21:44:54 no HARQ SDU present
+ 六  04 21:44:54 [NR_PHY]   37.18 Got prach entry id 0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 37, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 57)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:57
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 37, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 58)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:58
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NR_PHY]   [RAPROC] Frame 37, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 59)
+ 六  04 21:44:54 [0m[NR_PHY]   prach_energy_counter:59
+ 六  04 21:44:54 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:54 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 38/0
+ 六  04 21:44:54 [0m[NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 40/0
+ 六  04 21:44:58 [0m[PHY]   Process dl_tti SFN/slot 40.0 buffer index: 0 
+ 六  04 21:44:58 [0m[PHY]   Process tx_data SFN/slot 40.0 buffer index: 0 
+ 六  04 21:44:58 [0m[NR_PHY]   39.18 Got prach entry id 0
+ 六  04 21:44:58 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 60)
+ 六  04 21:44:58 [0m[NR_PHY]   prach_energy_counter:60
+ 六  04 21:44:58 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:58 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 61)
+ 六  04 21:44:58 [0m[NR_PHY]   prach_energy_counter:61
+ 六  04 21:44:58 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:58 [0m[NR_PHY]   [RAPROC] Frame 39, slot 18, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 62)
+ 六  04 21:44:58 [0m[NR_PHY]   prach_energy_counter:62
+ 六  04 21:44:58 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:58 [0m[NR_PHY]   39.19 Got prach entry id 1
+ 六  04 21:44:58 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 0 (prachStartSymbol 0) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 63)
+ 六  04 21:44:58 [0m[NR_PHY]   prach_energy_counter:63
+ 六  04 21:44:58 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:58 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 1 (prachStartSymbol 4) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 64)
+ 六  04 21:44:58 [0m[NR_PHY]   prach_energy_counter:64
+ 六  04 21:44:58 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:58 [0m[NR_PHY]   [RAPROC] Frame 39, slot 19, occasion 2 (prachStartSymbol 8) : Most likely preamble 0, energy 0.0 dB delay 0 (prach_energy counter 65)
+ 六  04 21:44:58 [0m[NR_PHY]   prach_energy_counter:65
+ 六  04 21:44:58 [0m[NR_PHY]   max_preamble_energy[0]:0
+ 六  04 21:44:59 [0m[93m[HW]   Lost socket
+ 六  04 21:45:02 [0m
+ 六  04 21:45:02 ** Caught SIGTERM, shutting down
+ 六  04 21:45:02 Returned from ITTI signal handler
+ 六  04 21:45:02 oai_exit=1
+ 六  04 21:45:02 [PHY]   Killing gNB 0 processing threads
+ 六  04 21:45:02 [0mExiting ru_thread 
+ 六  04 21:45:03 
+ 六  04 21:45:03 ** Caught SIGTERM, shutting down
+ 六  04 21:45:03 
+ 六  04 21:45:03 ** Caught SIGTERM, shutting down
+ 六  04 21:45:03 956385845858 [W] 1375487552: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+ 六  04 21:45:03 956385845873 [W] 1375487552: pnf_nr_read_dispatch_message: Disconnected socket
+ 六  04 21:45:03 [PHY]   Stopping RU 0 processing threads
+ 六  04 21:45:03 [0m[PHY]   RU 0 RF device stopped
+ 六  04 21:45:03 [0m[PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
+ 六  04 21:45:03 [0mBye.
