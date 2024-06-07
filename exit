@@ -11,7 +11,7 @@ done
 
 # 刪除lock檔案
 LOCKFILE=./tmp-build_run.lock
+cd "$(dirname "$0")"
 if [ -e $LOCKFILE ]; then
-    cd "$(dirname "$0")"
     rm $LOCKFILE
 fi
