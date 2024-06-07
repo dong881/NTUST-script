@@ -1,11 +1,13 @@
 #!/bin/bash
 
 HOME_PATH="/home/hpe"
-wait_sec=18
+wait_sec=15
 
 Target_PATH="$HOME_PATH/NTUST-script"
 L2_PATH="$HOME_PATH/mwnl-odu-at-oai-based-on-scf/l2"
 LOG_PATH="$Target_PATH/LOG"
+LOCKFILE="$Target_PATH/tmp-build_run.lock"
+mkdir -p "$LOG_PATH"
 
 # LOG File name
 OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
@@ -14,14 +16,6 @@ ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
 PNF_LOG_FILE="$LOG_PATH/PNF-nfapi-fixes.log"
 UE_LOG_FILE="$LOG_PATH/5-OAI_UEsim.log"
 TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
-
-sudo ifconfig lo:RIC_STUB down
-sudo ifconfig lo:CU_STUB  down
-sudo ifconfig lo:ODU  down
-sudo ifconfig lo:OAI_CU down
-sudo ifconfig lo:RIC_STUB "192.168.130.80"
-sudo ifconfig lo:ODU  "192.168.130.81"
-sudo ifconfig lo:OAI_CU "192.168.130.83"
 
 ## CU & CU stub
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
@@ -42,51 +36,69 @@ PNF_CONF="$Target_PATH/ELSE/oaiL1.nfapi.usrpb210.conf"
 # FID
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
 
-# TCPdump
-# sudo echo "Start TCPdump..."
-# sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
+# Check if the lock file exists
+if [ -e $LOCKFILE ]; then
+    echo "Another user is currently building and running the code. Please wait."
+    exit 1
+else
+    bash "$Target_PATH/q"
+    bash "$Target_PATH/exit"
+    # Create the lock file
+    touch $LOCKFILE
+    touch $PID_FILE
 
-# clean & compile OSC DU
-# cd $OSC_root_PATH
-# make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
-# make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+    sudo ifconfig lo:RIC_STUB down
+    sudo ifconfig lo:CU_STUB  down
+    sudo ifconfig lo:ODU  down
+    sudo ifconfig lo:OAI_CU down
+    sudo ifconfig lo:RIC_STUB "192.168.130.80"
+    sudo ifconfig lo:ODU  "192.168.130.81"
+    sudo ifconfig lo:OAI_CU "192.168.130.83"
+    
+    # TCPdump
+    # sudo echo "Start TCPdump..."
+    # sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
-# clean & build OAI all
-cd $OAI_root_PATH
-sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
+    # clean & compile OSC DU
+    # cd $OSC_root_PATH
+    # make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+    # make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
 
-bash "$Target_PATH/q"
-bash "$Target_PATH/exit"
-cd ~
+    # clean & build OAI all
+    cd $OAI_root_PATH
+    sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
 
-# echo "RUN OAI CU"
-sudo stdbuf -oL $OAI_CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
-# echo "RUN OSC RIC_STUB"
-sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
-sleep 1
-RIC_PID=$(pgrep -o ric_stub)
-# echo $RIC_PID
-echo -n $RIC_PID >> $PID_FILE
-echo -n " " >> $PID_FILE
+    cd ~
 
-# echo "RUN OSC DU"
-sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
-sleep 2
-ODU_PID=$(pgrep -o odu)
-# echo $ODU_PID
-echo -n $ODU_PID >> $PID_FILE
-echo -n " " >> $PID_FILE
+    # echo "RUN OAI CU"
+    sudo stdbuf -oL $OAI_CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
+    # echo "RUN OSC RIC_STUB"
+    sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
+    sleep 1
+    RIC_PID=$(pgrep -o ric_stub)
+    # echo $RIC_PID
+    echo -n $RIC_PID >> $PID_FILE
+    echo -n " " >> $PID_FILE
 
-# echo "RUN OAI PNF"
-pnf_cmd="$OAI_root_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
-sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
-sleep 5
-# echo "RUN OAI UEsim"
-ue_cmd="$OAI_root_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
-sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
+    # echo "RUN OSC DU"
+    sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
+    sleep 2
+    ODU_PID=$(pgrep -o odu)
+    # echo $ODU_PID
+    echo -n $ODU_PID >> $PID_FILE
+    echo -n " " >> $PID_FILE
 
-echo "The script automatically closes after $wait_sec seconds..."
-sleep $wait_sec
-bash "$Target_PATH/q"
-bash "$Target_PATH/exit"
-echo "Time to $wait_sec seconds..."
+    # echo "RUN OAI PNF"
+    pnf_cmd="$OAI_root_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+    sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
+    sleep 3
+    # echo "RUN OAI UEsim"
+    ue_cmd="$OAI_root_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
+    sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
+
+    echo "The script automatically closes after $wait_sec seconds..."
+    sleep $wait_sec
+    bash "$Target_PATH/exit"
+    bash "$Target_PATH/q"
+    echo "Time to $wait_sec seconds..."
+fi
