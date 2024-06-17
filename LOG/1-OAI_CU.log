@@ -1,387 +1,384 @@
- 六  17 18:14:06 CMDLINE: "/home/hpe/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf" "--sa" 
- 六  17 18:14:06 [CONFIG] get parameters from libconfig /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf , debug flags: 0x00000000
- 六  17 18:14:06 [LIBCONFIG] Path for include directive set to: /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF
- 六  17 18:14:06 [CONFIG] function config_libconfig_init returned 0
- 六  17 18:14:06 [CONFIG] config module libconfig loaded
- 六  17 18:14:06 [LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
- 六  17 18:14:06 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 六  17 18:14:06 [LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
- 六  17 18:14:06 [LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
- 六  17 18:14:06 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 六  17 18:14:06 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 六  17 18:14:06 log init done
- 六  17 18:14:06 [HW]   # /dev/cpu_dma_latency set to 2 us
- 六  17 18:14:06 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:06 [1;31m[HW]   Can't set cpu frequency
- 六  17 18:14:06 [0mReading in command-line options
- 六  17 18:14:06 [LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
- 六  17 18:14:06 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
- 六  17 18:14:06 [ENB_APP]   nfapi running mode: MONOLITHIC
- 六  17 18:14:06 [0m[GNB_APP]   Getting GNBSParams
- 六  17 18:14:06 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:06 [LIBCONFIG] list MACRLCs not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 六  17 18:14:06 [LIBCONFIG] list L1s not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 六  17 18:14:06 [LIBCONFIG] list RUs not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 六  17 18:14:06 [LIBCONFIG] list THREAD_STRUCT not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 六  17 18:14:06 [CONFIG] parallel_conf is set to 2
- 六  17 18:14:06 [CONFIG] worker_conf is set to 1
- 六  17 18:14:06 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
- 六  17 18:14:06 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
- 六  17 18:14:06 configuring for RAU/RRU
- 六  17 18:14:07 CPU Freq is 2.893332 
- 六  17 18:14:07 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 14
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 15
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 16
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 19
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 22
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 26
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U_SIM as task 41
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 42
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 43
- 六  17 18:14:07 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 44
- 六  17 18:14:07 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 六  17 18:14:07 [OPT]   OPT disabled
- 六  17 18:14:07 [0m[HW]   Version: Branch: master Abrev. Hash: 96e9d95 Date: Mon Jul 25 17:08:05 2022 +0800
- 六  17 18:14:07 [0m[ITTI]   Created Posix thread TASK_SCTP
- 六  17 18:14:07 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
- 六  17 18:14:07 [X2AP]   X2AP is disabled.
- 六  17 18:14:07 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 六  17 18:14:07 [34m[NGAP]   Configuration in the file: demo-oai.
- 六  17 18:14:07 [0m[34m[NGAP]   Configuration in the file: 192.168.70.129/24.
- 六  17 18:14:07 [0m[NGAP]   Starting NGAP layer
- 六  17 18:14:07 [0m[ITTI]   Created Posix thread TASK_NGAP
- 六  17 18:14:07 [0m[PHY]   gNB_app_task() Task ready initialize structures
- 六  17 18:14:07 [0m[ITTI]   Created Posix thread TASK_GNB_APP
- 六  17 18:14:07 [0m[NR_RRC]   Creating NR RRC gNB Task
- 六  17 18:14:07 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
- 六  17 18:14:07 [NR_PHY]   PRB blacklist 
- 六  17 18:14:07 [0m[NR_PHY]   RC.gNB = 0x70e7f0000d40
- 六  17 18:14:07 [0m[LIBCONFIG] list L1s not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 六  17 18:14:07 [PHY]   No L1s configuration found[0m[PHY]   RC.gNB[0] = 0x70e7f9672010
- 六  17 18:14:07 [0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
- 六  17 18:14:07 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
- 六  17 18:14:07 [0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x70e7f00027e0
- 六  17 18:14:07 [0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x70e7f0002800 (1 of 1)
- 六  17 18:14:07 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
- 六  17 18:14:07 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -96
- 六  17 18:14:07 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 六  17 18:14:07 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 六  17 18:14:07 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 六  17 18:14:07 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 六  17 18:14:07 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 六  17 18:14:07 NRRRC 0: Southbound Transport f1
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [GNB_APP]   F1AP: gNB_CU_id[0] 0
- 六  17 18:14:07 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
- 六  17 18:14:07 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [GNB_APP]   SSB SCO 0
- 六  17 18:14:07 [0m[GNB_APP]   pdsch_AntennaPorts N1 1
- 六  17 18:14:07 [0m[GNB_APP]   pdsch_AntennaPorts N2 1
- 六  17 18:14:07 [0m[GNB_APP]   pdsch_AntennaPorts XP 1
- 六  17 18:14:07 [0m[GNB_APP]   pusch_AntennaPorts 1
- 六  17 18:14:07 [0m[GNB_APP]   minTXRXTIME 6
- 六  17 18:14:07 [0m[GNB_APP]   SIB1 TDA 0
- 六  17 18:14:07 [0m[GNB_APP]   Do CSI-RS 0
- 六  17 18:14:07 [0m[GNB_APP]   Do SRS 0
- 六  17 18:14:07 [0m[GNB_APP]   256 QAM: may be on
- 六  17 18:14:07 [0m[GNB_APP]   SDAP layer is disabled
- 六  17 18:14:07 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [GNB_APP]   RRC starting with node type 5
- 六  17 18:14:07 [0m[GNB_APP]   Sending configuration message to NR_RRC task
- 六  17 18:14:07 [0m[NR_RRC]   Entering main loop of NR_RRC message task
- 六  17 18:14:07 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
- 六  17 18:14:07 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
- 六  17 18:14:07 [0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x70e7f0003e60
- 六  17 18:14:07 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
- 六  17 18:14:07 [0m[PDCP]   pdcp init,usegtp 
- 六  17 18:14:07 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 六  17 18:14:07 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 六  17 18:14:07 [0m[LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
- 六  17 18:14:07 [0m[LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [NR_RRC]   do_SIB23_NR, size 9 
- 六  17 18:14:07  [0m[NR_RRC]   Done init_NR_SI
- 六  17 18:14:07 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 六  17 18:14:07 [NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
- 六  17 18:14:07 [0m[GNB_APP]   default drx 0
- 六  17 18:14:07 [0m[GTPU]   Configuring GTPu
- 六  17 18:14:07 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 六  17 18:14:07 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
- 六  17 18:14:07 [GTPU]   SA mode 
- 六  17 18:14:07 [0m[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
- 六  17 18:14:07 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
- 六  17 18:14:07 [0m[NGAP]   Registered new gNB[0] and macro gNB id 0
- 六  17 18:14:07 [0m[NGAP]   [gNB 0] check the amf registration state
- 六  17 18:14:07 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
- 六  17 18:14:07 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
- 六  17 18:14:07 [0m[F1AP]   Starting F1AP at CU
- 六  17 18:14:07 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket)
- 六  17 18:14:07 [0m[ITTI]   Created Posix thread TASK_CU_F1
- 六  17 18:14:07 [0m[GTPU]   Created gtpu instance id: 97
- 六  17 18:14:07 [0m[ITTI]   Created Posix thread TASK_GTPV1_U_SIM
- 六  17 18:14:07 [0m[93m[GTPU]   Initializing UDP SIM
- 六  17 18:14:07 [0mNFAPI MODE:MONOLITHIC
- 六  17 18:14:07 START MAIN THREADS
- 六  17 18:14:07 RC.nb_nr_L1_inst:0
- 六  17 18:14:07 wait_gNBs()
- 六  17 18:14:07 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
- 六  17 18:14:07 gNB L1 are configured
- 六  17 18:14:07 About to Init RU threads RC.nb_RU:0
- 六  17 18:14:07 About to call end_configmodule() from main() /home/hpe/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:794
- 六  17 18:14:07 Called end_configmodule() from main() /home/hpe/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:799
- 六  17 18:14:07 TYPE <CTRL-C> TO TERMINATE
- 六  17 18:14:07 Entering ITTI signals handler
- 六  17 18:14:07 [F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_IND for instance 0
- 六  17 18:14:07 [0m[GTPU]   Initializing UDP for local address 192.168.130.83 with port 2152
- 六  17 18:14:07 [0m[GTPU]   Created gtpu instance id: 100
- 六  17 18:14:07 [0m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0
- 六  17 18:14:07 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
- 六  17 18:14:07 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
- 六  17 18:14:07 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_F1Setup
- 六  17 18:14:07 [0m[F1AP]   Calling handler with instance 0
- 六  17 18:14:07 [0m[34m[F1AP]   CU_handle_F1_SETUP_REQUEST
- 六  17 18:14:07 [0m[34m[F1AP]   req->gNB_DU_id 1 
- 六  17 18:14:07 [0m[34m[F1AP]   req->gNB_DU_name ORAN OAM DU 
- 六  17 18:14:07 [0m[34m[F1AP]   req->num_cells_available 1 
- 六  17 18:14:07 [0m[34m[F1AP]   req->tac[0] 0 
- 六  17 18:14:07 [0m[34m[F1AP]   [SCTP 1860] Received nRCGI: MCC 208, MNC 95, CELL_ID 1
- 六  17 18:14:07 [0m[34m[F1AP]   req->nr_pci[0] 0 
- 六  17 18:14:07 [0m[F1AP]   Received Cell in 1 context
- 六  17 18:14:07 [0m[34m[F1AP]   req->mib[0] len = 3 
- 六  17 18:14:07 [0m[34m[F1AP]   req->sib1[0] len = 91 
- 六  17 18:14:07 [0m[NR_RRC]   Received message F1AP_SETUP_REQ
- 六  17 18:14:07 [0m[NR_RRC]   [gNB 0] Received F1AP_SETUP_REQ : 0x70e7d8002f80
- 六  17 18:14:07 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 1 (ORAN OAM DU)
- 六  17 18:14:07 [0m[93m[NR_RRC]   instance 0 mib length 3
- 六  17 18:14:07 [0m[93m[NR_RRC]   instance 0 sib1 length 91
- 六  17 18:14:07 [0m[F1AP]   CU Task Received F1AP_SETUP_RESP
- 六  17 18:14:07 [0m[34m[F1AP]   num_cells_to_activate = 1 
- 六  17 18:14:07 [0m[34m[F1AP]   f1ap_setup_resp->SI_container_length[0][2] = 9 
- 六  17 18:14:07 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
- 六  17 18:14:07 [0m<F1AP-PDU>
- 六  17 18:14:07     <successfulOutcome>
- 六  17 18:14:07         <procedureCode>1</procedureCode>
- 六  17 18:14:07         <criticality><reject/></criticality>
- 六  17 18:14:07         <value>
- 六  17 18:14:07             <F1SetupResponse>
- 六  17 18:14:07                 <protocolIEs>
- 六  17 18:14:07                     <F1SetupResponseIEs>
- 六  17 18:14:07                         <id>78</id>
- 六  17 18:14:07                         <criticality><reject/></criticality>
- 六  17 18:14:07                         <value>
- 六  17 18:14:07                             <TransactionID>1</TransactionID>
- 六  17 18:14:07                         </value>
- 六  17 18:14:07                     </F1SetupResponseIEs>
- 六  17 18:14:07                     <F1SetupResponseIEs>
- 六  17 18:14:07                         <id>82</id>
- 六  17 18:14:07                         <criticality><ignore/></criticality>
- 六  17 18:14:07                         <value>
- 六  17 18:14:07                             <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
- 六  17 18:14:07                         </value>
- 六  17 18:14:07                     </F1SetupResponseIEs>
- 六  17 18:14:07                     <F1SetupResponseIEs>
- 六  17 18:14:07                         <id>3</id>
- 六  17 18:14:07                         <criticality><reject/></criticality>
- 六  17 18:14:07                         <value>
- 六  17 18:14:07                             <Cells-to-be-Activated-List>
- 六  17 18:14:07                                 <ProtocolIE-SingleContainer>
- 六  17 18:14:07                                     <id>4</id>
- 六  17 18:14:07                                     <criticality><reject/></criticality>
- 六  17 18:14:07                                     <value>
- 六  17 18:14:07                                         <Cells-to-be-Activated-List-Item>
- 六  17 18:14:07                                             <nRCGI>
- 六  17 18:14:07                                                 <pLMN-Identity>02 F8 59</pLMN-Identity>
- 六  17 18:14:07                                                 <nRCellIdentity>
- 六  17 18:14:07                                                     000000000000000000000000000000000001
- 六  17 18:14:07                                                 </nRCellIdentity>
- 六  17 18:14:07                                             </nRCGI>
- 六  17 18:14:07                                             <nRPCI>0</nRPCI>
- 六  17 18:14:07                                             <iE-Extensions>
- 六  17 18:14:07                                                 <Cells-to-be-Activated-List-ItemExtIEs>
- 六  17 18:14:07                                                     <id>118</id>
- 六  17 18:14:07                                                     <criticality><reject/></criticality>
- 六  17 18:14:07                                                     <extensionValue>
- 六  17 18:14:07                                                         <GNB-CUSystemInformation>
- 六  17 18:14:07                                                             <sibtypetobeupdatedlist>
- 六  17 18:14:07                                                                 <SibtypetobeupdatedListItem>
- 六  17 18:14:07                                                                     <sIBtype>2</sIBtype>
- 六  17 18:14:07                                                                     <sIBmessage>00 40 01 00 90 00 A0 94 40</sIBmessage>
- 六  17 18:14:07                                                                     <valueTag>0</valueTag>
- 六  17 18:14:07                                                                 </SibtypetobeupdatedListItem>
- 六  17 18:14:07                                                             </sibtypetobeupdatedlist>
- 六  17 18:14:07                                                         </GNB-CUSystemInformation>
- 六  17 18:14:07                                                     </extensionValue>
- 六  17 18:14:07                                                 </Cells-to-be-Activated-List-ItemExtIEs>
- 六  17 18:14:07                                             </iE-Extensions>
- 六  17 18:14:07                                         </Cells-to-be-Activated-List-Item>
- 六  17 18:14:07                                     </value>
- 六  17 18:14:07                                 </ProtocolIE-SingleContainer>
- 六  17 18:14:07                             </Cells-to-be-Activated-List>
- 六  17 18:14:07                         </value>
- 六  17 18:14:07                     </F1SetupResponseIEs>
- 六  17 18:14:07                 </protocolIEs>
- 六  17 18:14:07             </F1SetupResponse>
- 六  17 18:14:07         </value>
- 六  17 18:14:07     </successfulOutcome>
- 六  17 18:14:07 </F1AP-PDU>
- 六  17 18:14:07 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
- 六  17 18:14:07 [0m[F1AP]   Sending ITTI message to SCTP Task
- 六  17 18:14:10 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
- 六  17 18:14:10 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
- 六  17 18:14:10 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_gNBDUConfigurationUpdate
- 六  17 18:14:10 [0m[F1AP]   Calling handler with instance 0
- 六  17 18:14:10 [0m[34m[F1AP]   CU_handle_gNB_DU_CONFIGURATION_UPDATE
- 六  17 18:14:10 [0m[34m[F1AP]   F1AP: gNB_DU_Configuration_Update: protocolIEs.list.count 4
- 六  17 18:14:10 [0m[34m[F1AP]   F1AP: GNB-DU-ConfigurationUpdate: TransactionId 1
- 六  17 18:14:10 [0m[34m[F1AP]   F1AP: Modifying 1 cells
- 六  17 18:14:10 [0m[34m[F1AP]   Old nr_cellId : 0 0 0 0 10
- 六  17 18:14:10 [0m[34m[F1AP]   F1AP: Old Cell 0 MCC 208 MNC 95 MNC Digit Length 2 NRCellid 1
- 六  17 18:14:10 [0m[34m[F1AP]   Modified nr_cellId : 0 0 0 0 10
- 六  17 18:14:10 [0m[34m[F1AP]   F1AP: Modified Cell 0 MCC 208 MNC 95 MNC Digit Length 2 NRCellid 1
- 六  17 18:14:10 [0m[34m[F1AP]   F1AP: num_cells_to_modify 1
- 六  17 18:14:10 [0m[34m[F1AP]   Sending F1AP_GNB_DU_CONFIGURATION_UPDATE ITTI message 
- 六  17 18:14:10 [0m[GNB_APP]   Received F1AP_GNB_DU_CONFIGURATION_UPDATE: associated ngran_gNB_DU (null) with 1 cells to modify
- 六  17 18:14:10 [0m[GNB_APP]   cells_to_modify 1, RRC instances 1
- 六  17 18:14:10 [0m[GNB_APP]   Checking cell 0, rrc inst 0 : rrc->nr_cellid 1, gnb_cu_cfg_updatenr_cellid 1
- 六  17 18:14:10 [0m[F1AP]   CU Task Received F1AP_GNB_DU_CONFIGURATION_UPDATE_ACKNOWLEDGE
- 六  17 18:14:10 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
- 六  17 18:14:10 [0m<F1AP-PDU>
- 六  17 18:14:10     <successfulOutcome>
- 六  17 18:14:10         <procedureCode>3</procedureCode>
- 六  17 18:14:10         <criticality><reject/></criticality>
- 六  17 18:14:10         <value>
- 六  17 18:14:10             <GNBDUConfigurationUpdateAcknowledge>
- 六  17 18:14:10                 <protocolIEs>
- 六  17 18:14:10                     <GNBDUConfigurationUpdateAcknowledgeIEs>
- 六  17 18:14:10                         <id>78</id>
- 六  17 18:14:10                         <criticality><reject/></criticality>
- 六  17 18:14:10                         <value>
- 六  17 18:14:10                             <TransactionID>1</TransactionID>
- 六  17 18:14:10                         </value>
- 六  17 18:14:10                     </GNBDUConfigurationUpdateAcknowledgeIEs>
- 六  17 18:14:10                 </protocolIEs>
- 六  17 18:14:10             </GNBDUConfigurationUpdateAcknowledge>
- 六  17 18:14:10         </value>
- 六  17 18:14:10     </successfulOutcome>
- 六  17 18:14:10 </F1AP-PDU>
- 六  17 18:14:10 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
- 六  17 18:14:10 [0m[F1AP]   Sending ITTI message to SCTP Task
- 六  17 18:14:21 [0m[93m[SCTP]   Received SCTP SHUTDOWN EVENT
- 六  17 18:14:21 [0m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0
- 六  17 18:14:21 [0m[93m[F1AP]   Received unsuccessful result for SCTP association (1), instance 0, cnx_id 0
- 六  17 18:14:27 [0m
- 六  17 18:14:27 ** Caught SIGTERM, shutting down
- 六  17 18:14:27 Returned from ITTI signal handler
- 六  17 18:14:27 oai_exit=1
- 六  17 18:14:27 stopping MODEM threads
- 六  17 18:14:27 [PHY]   Killing gNB 0 processing threads
- 六  17 18:14:27 [0m[PHY]   Destroying UL_INFO mutex
- 六  17 18:14:27 [0m
+ 六  18 03:57:00 CMDLINE: "/home/hpe/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf" "--sa" 
+ 六  18 03:57:00 [CONFIG] get parameters from libconfig /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf , debug flags: 0x00000000
+ 六  18 03:57:00 [LIBCONFIG] Path for include directive set to: /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF
+ 六  18 03:57:00 [CONFIG] function config_libconfig_init returned 0
+ 六  18 03:57:00 [CONFIG] config module libconfig loaded
+ 六  18 03:57:00 [LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+ 六  18 03:57:00 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 六  18 03:57:00 [LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
+ 六  18 03:57:00 [LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
+ 六  18 03:57:00 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 六  18 03:57:00 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 六  18 03:57:00 log init done
+ 六  18 03:57:00 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 六  18 03:57:00 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:00 [1;31m[HW]   Can't set cpu frequency
+ 六  18 03:57:00 [0mReading in command-line options
+ 六  18 03:57:00 [LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
+ 六  18 03:57:00 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
+ 六  18 03:57:00 [ENB_APP]   nfapi running mode: MONOLITHIC
+ 六  18 03:57:00 [0m[GNB_APP]   Getting GNBSParams
+ 六  18 03:57:00 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:00 [LIBCONFIG] list MACRLCs not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 六  18 03:57:00 [LIBCONFIG] list L1s not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 六  18 03:57:00 [LIBCONFIG] list RUs not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 六  18 03:57:00 [LIBCONFIG] list THREAD_STRUCT not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 六  18 03:57:00 [CONFIG] parallel_conf is set to 2
+ 六  18 03:57:00 [CONFIG] worker_conf is set to 1
+ 六  18 03:57:00 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+ 六  18 03:57:00 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+ 六  18 03:57:00 configuring for RAU/RRU
+ 六  18 03:57:01 CPU Freq is 2.893338 
+ 六  18 03:57:01 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 14
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 15
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 16
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 19
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 22
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 26
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U_SIM as task 41
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 42
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 43
+ 六  18 03:57:01 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 44
+ 六  18 03:57:01 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 六  18 03:57:01 [OPT]   OPT disabled
+ 六  18 03:57:01 [0m[HW]   Version: Branch: master Abrev. Hash: 96e9d95 Date: Mon Jul 25 17:08:05 2022 +0800
+ 六  18 03:57:01 [0m[ITTI]   Created Posix thread TASK_SCTP
+ 六  18 03:57:01 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+ 六  18 03:57:01 [X2AP]   X2AP is disabled.
+ 六  18 03:57:01 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 六  18 03:57:01 [34m[NGAP]   Configuration in the file: demo-oai.
+ 六  18 03:57:01 [0m[34m[NGAP]   Configuration in the file: 192.168.70.129/24.
+ 六  18 03:57:01 [0m[NGAP]   Starting NGAP layer
+ 六  18 03:57:01 [0m[ITTI]   Created Posix thread TASK_NGAP
+ 六  18 03:57:01 [0m[PHY]   gNB_app_task() Task ready initialize structures
+ 六  18 03:57:01 [0m[ITTI]   Created Posix thread TASK_GNB_APP
+ 六  18 03:57:01 [0m[NR_RRC]   Creating NR RRC gNB Task
+ 六  18 03:57:01 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 六  18 03:57:01 [NR_PHY]   PRB blacklist 
+ 六  18 03:57:01 [0m[NR_PHY]   RC.gNB = 0x7593c4000d40
+ 六  18 03:57:01 [0m[LIBCONFIG] list L1s not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 六  18 03:57:01 [PHY]   No L1s configuration found[0m[PHY]   RC.gNB[0] = 0x7593cde72010
+ 六  18 03:57:01 [0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
+ 六  18 03:57:01 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+ 六  18 03:57:01 [0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7593c40027e0
+ 六  18 03:57:01 [0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7593c4002800 (1 of 1)
+ 六  18 03:57:01 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+ 六  18 03:57:01 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -96
+ 六  18 03:57:01 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 六  18 03:57:01 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 六  18 03:57:01 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 六  18 03:57:01 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 六  18 03:57:01 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file /home/hpe/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 六  18 03:57:01 NRRRC 0: Southbound Transport f1
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [GNB_APP]   F1AP: gNB_CU_id[0] 0
+ 六  18 03:57:01 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
+ 六  18 03:57:01 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [GNB_APP]   SSB SCO 0
+ 六  18 03:57:01 [0m[GNB_APP]   pdsch_AntennaPorts N1 1
+ 六  18 03:57:01 [0m[GNB_APP]   pdsch_AntennaPorts N2 1
+ 六  18 03:57:01 [0m[GNB_APP]   pdsch_AntennaPorts XP 1
+ 六  18 03:57:01 [0m[GNB_APP]   pusch_AntennaPorts 1
+ 六  18 03:57:01 [0m[GNB_APP]   minTXRXTIME 6
+ 六  18 03:57:01 [0m[GNB_APP]   SIB1 TDA 0
+ 六  18 03:57:01 [0m[GNB_APP]   Do CSI-RS 0
+ 六  18 03:57:01 [0m[GNB_APP]   Do SRS 0
+ 六  18 03:57:01 [0m[GNB_APP]   256 QAM: may be on
+ 六  18 03:57:01 [0m[GNB_APP]   SDAP layer is disabled
+ 六  18 03:57:01 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [GNB_APP]   RRC starting with node type 5
+ 六  18 03:57:01 [0m[GNB_APP]   Sending configuration message to NR_RRC task
+ 六  18 03:57:01 [0m[NR_RRC]   Entering main loop of NR_RRC message task
+ 六  18 03:57:01 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
+ 六  18 03:57:01 [0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7593c4003e60
+ 六  18 03:57:01 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
+ 六  18 03:57:01 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
+ 六  18 03:57:01 [0m[PDCP]   pdcp init,usegtp 
+ 六  18 03:57:01 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (11 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 六  18 03:57:01 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 六  18 03:57:01 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
+ 六  18 03:57:01 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 六  18 03:57:01 [GNB_APP]   default drx 0
+ 六  18 03:57:01 [0m[NR_RRC]   do_SIB23_NR, size 9 
+ 六  18 03:57:01  [0m[GTPU]   Configuring GTPu
+ 六  18 03:57:01 [0m[NR_RRC]   Done init_NR_SI
+ 六  18 03:57:01 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 六  18 03:57:01 [NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
+ 六  18 03:57:01 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+ 六  18 03:57:01 [GTPU]   SA mode 
+ 六  18 03:57:01 [0m[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
+ 六  18 03:57:01 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+ 六  18 03:57:01 [0m[NGAP]   Registered new gNB[0] and macro gNB id 0
+ 六  18 03:57:01 [0m[NGAP]   [gNB 0] check the amf registration state
+ 六  18 03:57:01 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+ 六  18 03:57:01 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
+ 六  18 03:57:01 [0m[F1AP]   Starting F1AP at CU
+ 六  18 03:57:01 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket)
+ 六  18 03:57:01 [0m[ITTI]   Created Posix thread TASK_CU_F1
+ 六  18 03:57:01 [0m[GTPU]   Created gtpu instance id: 97
+ 六  18 03:57:01 [0m[ITTI]   Created Posix thread TASK_GTPV1_U_SIM
+ 六  18 03:57:01 [0m[93m[GTPU]   Initializing UDP SIM
+ 六  18 03:57:01 [0mNFAPI MODE:MONOLITHIC
+ 六  18 03:57:01 START MAIN THREADS
+ 六  18 03:57:01 RC.nb_nr_L1_inst:0
+ 六  18 03:57:01 wait_gNBs()
+ 六  18 03:57:01 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+ 六  18 03:57:01 gNB L1 are configured
+ 六  18 03:57:01 About to Init RU threads RC.nb_RU:0
+ 六  18 03:57:01 About to call end_configmodule() from main() /home/hpe/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:794
+ 六  18 03:57:01 Called end_configmodule() from main() /home/hpe/bmwlab_tony_cu_du/oai_cu/executables/nr-softmodem.c:799
+ 六  18 03:57:01 TYPE <CTRL-C> TO TERMINATE
+ 六  18 03:57:01 Entering ITTI signals handler
+ 六  18 03:57:01 [F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_IND for instance 0
+ 六  18 03:57:01 [0m[GTPU]   Initializing UDP for local address 192.168.130.83 with port 2152
+ 六  18 03:57:01 [0m[GTPU]   Created gtpu instance id: 100
+ 六  18 03:57:01 [0m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0
+ 六  18 03:57:01 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+ 六  18 03:57:01 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
+ 六  18 03:57:01 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_F1Setup
+ 六  18 03:57:01 [0m[F1AP]   Calling handler with instance 0
+ 六  18 03:57:01 [0m[34m[F1AP]   CU_handle_F1_SETUP_REQUEST
+ 六  18 03:57:01 [0m[34m[F1AP]   req->gNB_DU_id 1 
+ 六  18 03:57:01 [0m[34m[F1AP]   req->gNB_DU_name ORAN OAM DU 
+ 六  18 03:57:01 [0m[34m[F1AP]   req->num_cells_available 1 
+ 六  18 03:57:01 [0m[34m[F1AP]   req->tac[0] 0 
+ 六  18 03:57:01 [0m[34m[F1AP]   [SCTP 2023] Received nRCGI: MCC 208, MNC 95, CELL_ID 1
+ 六  18 03:57:01 [0m[34m[F1AP]   req->nr_pci[0] 0 
+ 六  18 03:57:01 [0m[F1AP]   Received Cell in 1 context
+ 六  18 03:57:01 [0m[34m[F1AP]   req->mib[0] len = 3 
+ 六  18 03:57:01 [0m[34m[F1AP]   req->sib1[0] len = 91 
+ 六  18 03:57:01 [0m[NR_RRC]   Received message F1AP_SETUP_REQ
+ 六  18 03:57:01 [0m[NR_RRC]   [gNB 0] Received F1AP_SETUP_REQ : 0x7593ac002f80
+ 六  18 03:57:01 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 1 (ORAN OAM DU)
+ 六  18 03:57:01 [0m[93m[NR_RRC]   instance 0 mib length 3
+ 六  18 03:57:01 [0m[93m[NR_RRC]   instance 0 sib1 length 91
+ 六  18 03:57:01 [0m[F1AP]   CU Task Received F1AP_SETUP_RESP
+ 六  18 03:57:01 [0m[34m[F1AP]   num_cells_to_activate = 1 
+ 六  18 03:57:01 [0m[34m[F1AP]   f1ap_setup_resp->SI_container_length[0][2] = 9 
+ 六  18 03:57:01 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
+ 六  18 03:57:01 [0m<F1AP-PDU>
+ 六  18 03:57:01     <successfulOutcome>
+ 六  18 03:57:01         <procedureCode>1</procedureCode>
+ 六  18 03:57:01         <criticality><reject/></criticality>
+ 六  18 03:57:01         <value>
+ 六  18 03:57:01             <F1SetupResponse>
+ 六  18 03:57:01                 <protocolIEs>
+ 六  18 03:57:01                     <F1SetupResponseIEs>
+ 六  18 03:57:01                         <id>78</id>
+ 六  18 03:57:01                         <criticality><reject/></criticality>
+ 六  18 03:57:01                         <value>
+ 六  18 03:57:01                             <TransactionID>1</TransactionID>
+ 六  18 03:57:01                         </value>
+ 六  18 03:57:01                     </F1SetupResponseIEs>
+ 六  18 03:57:01                     <F1SetupResponseIEs>
+ 六  18 03:57:01                         <id>82</id>
+ 六  18 03:57:01                         <criticality><ignore/></criticality>
+ 六  18 03:57:01                         <value>
+ 六  18 03:57:01                             <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
+ 六  18 03:57:01                         </value>
+ 六  18 03:57:01                     </F1SetupResponseIEs>
+ 六  18 03:57:01                     <F1SetupResponseIEs>
+ 六  18 03:57:01                         <id>3</id>
+ 六  18 03:57:01                         <criticality><reject/></criticality>
+ 六  18 03:57:01                         <value>
+ 六  18 03:57:01                             <Cells-to-be-Activated-List>
+ 六  18 03:57:01                                 <ProtocolIE-SingleContainer>
+ 六  18 03:57:01                                     <id>4</id>
+ 六  18 03:57:01                                     <criticality><reject/></criticality>
+ 六  18 03:57:01                                     <value>
+ 六  18 03:57:01                                         <Cells-to-be-Activated-List-Item>
+ 六  18 03:57:01                                             <nRCGI>
+ 六  18 03:57:01                                                 <pLMN-Identity>02 F8 59</pLMN-Identity>
+ 六  18 03:57:01                                                 <nRCellIdentity>
+ 六  18 03:57:01                                                     000000000000000000000000000000000001
+ 六  18 03:57:01                                                 </nRCellIdentity>
+ 六  18 03:57:01                                             </nRCGI>
+ 六  18 03:57:01                                             <nRPCI>0</nRPCI>
+ 六  18 03:57:01                                             <iE-Extensions>
+ 六  18 03:57:01                                                 <Cells-to-be-Activated-List-ItemExtIEs>
+ 六  18 03:57:01                                                     <id>118</id>
+ 六  18 03:57:01                                                     <criticality><reject/></criticality>
+ 六  18 03:57:01                                                     <extensionValue>
+ 六  18 03:57:01                                                         <GNB-CUSystemInformation>
+ 六  18 03:57:01                                                             <sibtypetobeupdatedlist>
+ 六  18 03:57:01                                                                 <SibtypetobeupdatedListItem>
+ 六  18 03:57:01                                                                     <sIBtype>2</sIBtype>
+ 六  18 03:57:01                                                                     <sIBmessage>00 40 01 00 90 00 A0 94 40</sIBmessage>
+ 六  18 03:57:01                                                                     <valueTag>0</valueTag>
+ 六  18 03:57:01                                                                 </SibtypetobeupdatedListItem>
+ 六  18 03:57:01                                                             </sibtypetobeupdatedlist>
+ 六  18 03:57:01                                                         </GNB-CUSystemInformation>
+ 六  18 03:57:01                                                     </extensionValue>
+ 六  18 03:57:01                                                 </Cells-to-be-Activated-List-ItemExtIEs>
+ 六  18 03:57:01                                             </iE-Extensions>
+ 六  18 03:57:01                                         </Cells-to-be-Activated-List-Item>
+ 六  18 03:57:01                                     </value>
+ 六  18 03:57:01                                 </ProtocolIE-SingleContainer>
+ 六  18 03:57:01                             </Cells-to-be-Activated-List>
+ 六  18 03:57:01                         </value>
+ 六  18 03:57:01                     </F1SetupResponseIEs>
+ 六  18 03:57:01                 </protocolIEs>
+ 六  18 03:57:01             </F1SetupResponse>
+ 六  18 03:57:01         </value>
+ 六  18 03:57:01     </successfulOutcome>
+ 六  18 03:57:01 </F1AP-PDU>
+ 六  18 03:57:01 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
+ 六  18 03:57:01 [0m[F1AP]   Sending ITTI message to SCTP Task
+ 六  18 03:57:04 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+ 六  18 03:57:04 [0m[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
+ 六  18 03:57:04 [0m[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_gNBDUConfigurationUpdate
+ 六  18 03:57:04 [0m[F1AP]   Calling handler with instance 0
+ 六  18 03:57:04 [0m[34m[F1AP]   CU_handle_gNB_DU_CONFIGURATION_UPDATE
+ 六  18 03:57:04 [0m[34m[F1AP]   F1AP: gNB_DU_Configuration_Update: protocolIEs.list.count 4
+ 六  18 03:57:04 [0m[34m[F1AP]   F1AP: GNB-DU-ConfigurationUpdate: TransactionId 1
+ 六  18 03:57:04 [0m[34m[F1AP]   F1AP: Modifying 1 cells
+ 六  18 03:57:04 [0m[34m[F1AP]   Old nr_cellId : 0 0 0 0 10
+ 六  18 03:57:04 [0m[34m[F1AP]   F1AP: Old Cell 0 MCC 208 MNC 95 MNC Digit Length 2 NRCellid 1
+ 六  18 03:57:04 [0m[34m[F1AP]   Modified nr_cellId : 0 0 0 0 10
+ 六  18 03:57:04 [0m[34m[F1AP]   F1AP: Modified Cell 0 MCC 208 MNC 95 MNC Digit Length 2 NRCellid 1
+ 六  18 03:57:04 [0m[34m[F1AP]   F1AP: num_cells_to_modify 1
+ 六  18 03:57:04 [0m[34m[F1AP]   Sending F1AP_GNB_DU_CONFIGURATION_UPDATE ITTI message 
+ 六  18 03:57:04 [0m[GNB_APP]   Received F1AP_GNB_DU_CONFIGURATION_UPDATE: associated ngran_gNB_DU (null) with 1 cells to modify
+ 六  18 03:57:04 [0m[GNB_APP]   cells_to_modify 1, RRC instances 1
+ 六  18 03:57:04 [0m[GNB_APP]   Checking cell 0, rrc inst 0 : rrc->nr_cellid 1, gnb_cu_cfg_updatenr_cellid 1
+ 六  18 03:57:04 [0m[F1AP]   CU Task Received F1AP_GNB_DU_CONFIGURATION_UPDATE_ACKNOWLEDGE
+ 六  18 03:57:04 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
+ 六  18 03:57:04 [0m<F1AP-PDU>
+ 六  18 03:57:04     <successfulOutcome>
+ 六  18 03:57:04         <procedureCode>3</procedureCode>
+ 六  18 03:57:04         <criticality><reject/></criticality>
+ 六  18 03:57:04         <value>
+ 六  18 03:57:04             <GNBDUConfigurationUpdateAcknowledge>
+ 六  18 03:57:04                 <protocolIEs>
+ 六  18 03:57:04                     <GNBDUConfigurationUpdateAcknowledgeIEs>
+ 六  18 03:57:04                         <id>78</id>
+ 六  18 03:57:04                         <criticality><reject/></criticality>
+ 六  18 03:57:04                         <value>
+ 六  18 03:57:04                             <TransactionID>1</TransactionID>
+ 六  18 03:57:04                         </value>
+ 六  18 03:57:04                     </GNBDUConfigurationUpdateAcknowledgeIEs>
+ 六  18 03:57:04                 </protocolIEs>
+ 六  18 03:57:04             </GNBDUConfigurationUpdateAcknowledge>
+ 六  18 03:57:04         </value>
+ 六  18 03:57:04     </successfulOutcome>
+ 六  18 03:57:04 </F1AP-PDU>
+ 六  18 03:57:04 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
+ 六  18 03:57:04 [0m[F1AP]   Sending ITTI message to SCTP Task
+ 六  18 03:57:21 [0m
+ 六  18 03:57:21 ** Caught SIGTERM, shutting down
+ 六  18 03:57:21 Returned from ITTI signal handler
+ 六  18 03:57:21 oai_exit=1
+ 六  18 03:57:21 stopping MODEM threads
+ 六  18 03:57:21 [PHY]   Killing gNB 0 processing threads
+ 六  18 03:57:21 [0m[PHY]   Destroying UL_INFO mutex
+ 六  18 03:57:21 [0m

@@ -1,809 +1,870 @@
- 六  17 18:14:12 Calling sched_setscheduler(79)
- 六  17 18:14:12 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
- 六  17 18:14:12 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
- 六  17 18:14:12 [CONFIG] log_config: 2/3 parameters successfully set 
- 六  17 18:14:12 [CONFIG] log_config: 50/50 parameters successfully set 
- 六  17 18:14:12 [CONFIG] log_config: 50/50 parameters successfully set 
- 六  17 18:14:12 [CONFIG] log_config: 16/16 parameters successfully set 
- 六  17 18:14:12 [CONFIG] log_config: 16/16 parameters successfully set 
- 六  17 18:14:12 log init done
- 六  17 18:14:12 [CONFIG] (root): 28/31 parameters successfully set 
- 六  17 18:14:12 [CONFIG] (root): 39/42 parameters successfully set 
- 六  17 18:14:12 [CONFIG] (root): 5/6 parameters successfully set 
- 六  17 18:14:12 [ENB_APP]   nfapi (0) running mode: MONOLITHIC
- 六  17 18:14:12 [0m[CONFIG] TTracer: 3/3 parameters successfully set 
- 六  17 18:14:12 create a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 六  17 18:14:12 [0mcreate a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 六  17 18:14:12 [0mcreate a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 六  17 18:14:12 [0mcreate a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 六  17 18:14:12 [0mcreate a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 六  17 18:14:12 [0mcreate a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 六  17 18:14:12 [0mcreate a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 六  17 18:14:12 [0mcreate a thread for core -1
- 六  17 18:14:12 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 六  17 18:14:12 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 六  17 18:14:13 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 六  17 18:14:13 [0m[CONFIG] opt: 3/3 parameters successfully set 
- 六  17 18:14:13 [OPT]   OPT disabled
- 六  17 18:14:13 [0m[CONFIG] loader: 2/2 parameters successfully set 
- 六  17 18:14:13 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
- 六  17 18:14:13 shlib_path libldpc.so
- 六  17 18:14:13 [LOADER] library libldpc.so successfully loaded
- 六  17 18:14:13 [HW]   Version: Branch: nfapi-fixes-rebased Abrev. Hash: 8e46925a43 Date: Tue May 21 22:39:20 2024 +0800
- 六  17 18:14:13 [0m[PDCP]   pdcp init,usegtp usenetlink
- 六  17 18:14:13 [0m[CONFIG] nas.noS1: 3/3 parameters successfully set 
- 六  17 18:14:13 [PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
- 六  17 18:14:13 [0m[PDCP]   UE pdcp will use tun interface
- 六  17 18:14:13 [0m[NR_MAC]   [UE0] Initializing MAC
- 六  17 18:14:13 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
- 六  17 18:14:13 [0m[RLC]   Activated srb0 for UE 0
- 六  17 18:14:13 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
- 六  17 18:14:13 , chest-freq 0, chest-time 0
- 六  17 18:14:13 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
- 六  17 18:14:13 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
- 六  17 18:14:13 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
- 六  17 18:14:13 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 六  17 18:14:13 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 六  17 18:14:13 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
- 六  17 18:14:13 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
- 六  17 18:14:13 [0m[CONFIG] loader.dfts: 1/2 parameters successfully set 
- 六  17 18:14:13 shlib_path libdfts.so
- 六  17 18:14:13 [LOADER] library libdfts.so successfully loaded
- 六  17 18:14:13 [PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
- 六  17 18:14:13 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 六  17 18:14:13 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
- 六  17 18:14:13 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
- 六  17 18:14:13 [1;31m[HW]   Can't set cpu frequency
- 六  17 18:14:13 [0m[PHY]   Intializing UE Threads for instance 0 (0x5d731ac2c770,0x74aa280a3010)...
- 六  17 18:14:13 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
- 六  17 18:14:13 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
- 六  17 18:14:13 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
- 六  17 18:14:13 [0m[CONFIG] device.recplay: 8/8 parameters successfully set 
- 六  17 18:14:13 [CONFIG] device: 1/1 parameters successfully set 
- 六  17 18:14:13 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
- 六  17 18:14:13 shlib_path librfsimulator.so
- 六  17 18:14:13 [LOADER] library librfsimulator.so successfully loaded
- 六  17 18:14:13 [CONFIG] rfsimulator: 8/9 parameters successfully set 
- 六  17 18:14:13 [93m[HW]   sample_rate 61440000.000000
- 六  17 18:14:13 [0m[HW]   Running as client: will connect to a rfsimulator server side
- 六  17 18:14:13 [0mInitializing random number generator, seed 1935855086943729168
- 六  17 18:14:13 [HW]   [RRU] has loaded RFSIMULATOR device.
- 六  17 18:14:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 六  17 18:14:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 六  17 18:14:13 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
- 六  17 18:14:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 六  17 18:14:13 [0mUE threads created by 3136765
- 六  17 18:14:13 TYPE <CTRL-C> TO TERMINATE
- 六  17 18:14:13 [NR_RRC]   create TASK_RRC_NRUE 
- 六  17 18:14:13 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
- 六  17 18:14:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 六  17 18:14:13 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
- 六  17 18:14:13 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 六  17 18:14:13 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 六  17 18:14:13 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
- 六  17 18:14:13 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
- 六  17 18:14:13 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
- 六  17 18:14:13 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
- 六  17 18:14:13 [0m[CONFIG] uicc0: 10/10 parameters successfully set 
- 六  17 18:14:13 [SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
- 六  17 18:14:14 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 六  17 18:14:14 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 六  17 18:14:15 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 六  17 18:14:15 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 六  17 18:14:15 [0mEntering ITTI signals handler
- 六  17 18:14:15 TYPE <CTRL-C> TO TERMINATE
- 六  17 18:14:16 [HW]   Trying to connect to 127.0.0.1:4043
- 六  17 18:14:16 [0m[HW]   Connection to 127.0.0.1:4043 established
- 六  17 18:14:16 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 六  17 18:14:17 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
- 六  17 18:14:17 [0m[93m[NR_PHY]   Starting sync detection
- 六  17 18:14:17 [0m[PHY]   [UE thread Synch] Running Initial Synch 
- 六  17 18:14:18 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 0, Peak found at pos 219600, val = 8706702226 (99 dB power over signal avg 58 dB), ffo 0.000000
- 六  17 18:14:18 [0m[PHY]   PSS execution duration 68953 microseconds 
- 六  17 18:14:18 [0m[93m[NR_PHY]   SSS detected, PCI: 0, ffo_pss 0.000000 (0 Hz), ffo_sss 0.000544 (16 Hz),  ffo_pss+ffo_sss 0.000544 (16 Hz), nid1: 0, nid2: 0
- 六  17 18:14:18 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
- 六  17 18:14:18 [0m[PHY]   [UE0] In synch, rx_offset 215040 samples
- 六  17 18:14:18 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 0 Hz
- 六  17 18:14:18 [0m[32m[PHY]   Initial sync successful
- 六  17 18:14:18 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 六  17 18:14:18 [0m[PHY]   Got synch: hw_slot_offset 14, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
- 六  17 18:14:18 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=32 UE->init_sync_frame=1 trashed_frames=6
- 六  17 18:14:18 [0m[PHY]   Resynchronizing RX by 215040 samples
- 六  17 18:14:18 [0m[NR_MAC]   Decoding NR-BCCH-DL-SCH-Message (SIB1 or SI)
- 六  17 18:14:18 [0m<BCCH-DL-SCH-Message>
- 六  17 18:14:18     <message>
- 六  17 18:14:18         <c1>
- 六  17 18:14:18             <systemInformationBlockType1>
- 六  17 18:14:18                 <cellSelectionInfo>
- 六  17 18:14:18                     <q-RxLevMin>-65</q-RxLevMin>
- 六  17 18:14:18                 </cellSelectionInfo>
- 六  17 18:14:18                 <cellAccessRelatedInfo>
- 六  17 18:14:18                     <plmn-IdentityInfoList>
- 六  17 18:14:18                         <PLMN-IdentityInfo>
- 六  17 18:14:18                             <plmn-IdentityList>
- 六  17 18:14:18                                 <PLMN-Identity>
- 六  17 18:14:18                                     <mcc>
- 六  17 18:14:18                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 六  17 18:14:18                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 六  17 18:14:18                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
- 六  17 18:14:18                                     </mcc>
- 六  17 18:14:18                                     <mnc>
- 六  17 18:14:18                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 六  17 18:14:18                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
- 六  17 18:14:18                                     </mnc>
- 六  17 18:14:18                                 </PLMN-Identity>
- 六  17 18:14:18                             </plmn-IdentityList>
- 六  17 18:14:18                             <trackingAreaCode>
- 六  17 18:14:18                                 000000000000000000000001
- 六  17 18:14:18                             </trackingAreaCode>
- 六  17 18:14:18                             <cellIdentity>
- 六  17 18:14:18                                 000000000000101111000110000101001110
- 六  17 18:14:18                             </cellIdentity>
- 六  17 18:14:18                             <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
- 六  17 18:14:18                         </PLMN-IdentityInfo>
- 六  17 18:14:18                     </plmn-IdentityInfoList>
- 六  17 18:14:18                 </cellAccessRelatedInfo>
- 六  17 18:14:18                 <servingCellConfigCommon>
- 六  17 18:14:18                     <downlinkConfigCommon>
- 六  17 18:14:18                         <frequencyInfoDL>
- 六  17 18:14:18                             <frequencyBandList>
- 六  17 18:14:18                                 <NR-MultiBandInfo>
- 六  17 18:14:18                                     <freqBandIndicatorNR>78</freqBandIndicatorNR>
- 六  17 18:14:18                                 </NR-MultiBandInfo>
- 六  17 18:14:18                             </frequencyBandList>
- 六  17 18:14:18                             <offsetToPointA>86</offsetToPointA>
- 六  17 18:14:18                             <scs-SpecificCarrierList>
- 六  17 18:14:18                                 <SCS-SpecificCarrier>
- 六  17 18:14:18                                     <offsetToCarrier>0</offsetToCarrier>
- 六  17 18:14:18                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 六  17 18:14:18                                     <carrierBandwidth>106</carrierBandwidth>
- 六  17 18:14:18                                 </SCS-SpecificCarrier>
- 六  17 18:14:18                             </scs-SpecificCarrierList>
- 六  17 18:14:18                         </frequencyInfoDL>
- 六  17 18:14:18                         <initialDownlinkBWP>
- 六  17 18:14:18                             <genericParameters>
- 六  17 18:14:18                                 <locationAndBandwidth>28875</locationAndBandwidth>
- 六  17 18:14:18                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 六  17 18:14:18                             </genericParameters>
- 六  17 18:14:18                             <pdcch-ConfigCommon>
- 六  17 18:14:18                                 <setup>
- 六  17 18:14:18                                     <controlResourceSetZero>12</controlResourceSetZero>
- 六  17 18:14:18                                     <searchSpaceZero>0</searchSpaceZero>
- 六  17 18:14:18                                     <commonSearchSpaceList>
- 六  17 18:14:18                                         <SearchSpace>
- 六  17 18:14:18                                             <searchSpaceId>1</searchSpaceId>
- 六  17 18:14:18                                             <controlResourceSetId>0</controlResourceSetId>
- 六  17 18:14:18                                             <monitoringSlotPeriodicityAndOffset>
- 六  17 18:14:18                                                 <sl1></sl1>
- 六  17 18:14:18                                             </monitoringSlotPeriodicityAndOffset>
- 六  17 18:14:18                                             <monitoringSymbolsWithinSlot>
- 六  17 18:14:18                                                 10000000000000
- 六  17 18:14:18                                             </monitoringSymbolsWithinSlot>
- 六  17 18:14:18                                             <nrofCandidates>
- 六  17 18:14:18                                                 <aggregationLevel1><n0/></aggregationLevel1>
- 六  17 18:14:18                                                 <aggregationLevel2><n0/></aggregationLevel2>
- 六  17 18:14:18                                                 <aggregationLevel4><n1/></aggregationLevel4>
- 六  17 18:14:18                                                 <aggregationLevel8><n0/></aggregationLevel8>
- 六  17 18:14:18                                                 <aggregationLevel16><n0/></aggregationLevel16>
- 六  17 18:14:18                                             </nrofCandidates>
- 六  17 18:14:18                                             <searchSpaceType>
- 六  17 18:14:18                                                 <common>
- 六  17 18:14:18                                                     <dci-Format0-0-AndFormat1-0>
- 六  17 18:14:18                                                     </dci-Format0-0-AndFormat1-0>
- 六  17 18:14:18                                                 </common>
- 六  17 18:14:18                                             </searchSpaceType>
- 六  17 18:14:18                                         </SearchSpace>
- 六  17 18:14:18                                         <SearchSpace>
- 六  17 18:14:18                                             <searchSpaceId>2</searchSpaceId>
- 六  17 18:14:18                                             <controlResourceSetId>0</controlResourceSetId>
- 六  17 18:14:18                                             <monitoringSlotPeriodicityAndOffset>
- 六  17 18:14:18                                                 <sl1></sl1>
- 六  17 18:14:18                                             </monitoringSlotPeriodicityAndOffset>
- 六  17 18:14:18                                             <monitoringSymbolsWithinSlot>
- 六  17 18:14:18                                                 10000000000000
- 六  17 18:14:18                                             </monitoringSymbolsWithinSlot>
- 六  17 18:14:18                                             <nrofCandidates>
- 六  17 18:14:18                                                 <aggregationLevel1><n0/></aggregationLevel1>
- 六  17 18:14:18                                                 <aggregationLevel2><n0/></aggregationLevel2>
- 六  17 18:14:18                                                 <aggregationLevel4><n1/></aggregationLevel4>
- 六  17 18:14:18                                                 <aggregationLevel8><n0/></aggregationLevel8>
- 六  17 18:14:18                                                 <aggregationLevel16><n0/></aggregationLevel16>
- 六  17 18:14:18                                             </nrofCandidates>
- 六  17 18:14:18                                             <searchSpaceType>
- 六  17 18:14:18                                                 <common>
- 六  17 18:14:18                                                     <dci-Format0-0-AndFormat1-0>
- 六  17 18:14:18                                                     </dci-Format0-0-AndFormat1-0>
- 六  17 18:14:18                                                 </common>
- 六  17 18:14:18                                             </searchSpaceType>
- 六  17 18:14:18                                         </SearchSpace>
- 六  17 18:14:18                                         <SearchSpace>
- 六  17 18:14:18                                             <searchSpaceId>3</searchSpaceId>
- 六  17 18:14:18                                             <controlResourceSetId>0</controlResourceSetId>
- 六  17 18:14:18                                             <monitoringSlotPeriodicityAndOffset>
- 六  17 18:14:18                                                 <sl1></sl1>
- 六  17 18:14:18                                             </monitoringSlotPeriodicityAndOffset>
- 六  17 18:14:18                                             <monitoringSymbolsWithinSlot>
- 六  17 18:14:18                                                 10000000000000
- 六  17 18:14:18                                             </monitoringSymbolsWithinSlot>
- 六  17 18:14:18                                             <nrofCandidates>
- 六  17 18:14:18                                                 <aggregationLevel1><n0/></aggregationLevel1>
- 六  17 18:14:18                                                 <aggregationLevel2><n0/></aggregationLevel2>
- 六  17 18:14:18                                                 <aggregationLevel4><n1/></aggregationLevel4>
- 六  17 18:14:18                                                 <aggregationLevel8><n0/></aggregationLevel8>
- 六  17 18:14:18                                                 <aggregationLevel16><n0/></aggregationLevel16>
- 六  17 18:14:18                                             </nrofCandidates>
- 六  17 18:14:18                                             <searchSpaceType>
- 六  17 18:14:18                                                 <common>
- 六  17 18:14:18                                                     <dci-Format0-0-AndFormat1-0>
- 六  17 18:14:18                                                     </dci-Format0-0-AndFormat1-0>
- 六  17 18:14:18                                                 </common>
- 六  17 18:14:18                                             </searchSpaceType>
- 六  17 18:14:18                                         </SearchSpace>
- 六  17 18:14:18                                     </commonSearchSpaceList>
- 六  17 18:14:18                                     <searchSpaceSIB1>0</searchSpaceSIB1>
- 六  17 18:14:18                                     <searchSpaceOtherSystemInformation>3</searchSpaceOtherSystemInformation>
- 六  17 18:14:18                                     <pagingSearchSpace>2</pagingSearchSpace>
- 六  17 18:14:18                                     <ra-SearchSpace>1</ra-SearchSpace>
- 六  17 18:14:18                                 </setup>
- 六  17 18:14:18                             </pdcch-ConfigCommon>
- 六  17 18:14:18                             <pdsch-ConfigCommon>
- 六  17 18:14:18                                 <setup>
- 六  17 18:14:18                                     <pdsch-TimeDomainAllocationList>
- 六  17 18:14:18                                         <PDSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                             <mappingType><typeA/></mappingType>
- 六  17 18:14:18                                             <startSymbolAndLength>40</startSymbolAndLength>
- 六  17 18:14:18                                         </PDSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                         <PDSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                             <mappingType><typeA/></mappingType>
- 六  17 18:14:18                                             <startSymbolAndLength>54</startSymbolAndLength>
- 六  17 18:14:18                                         </PDSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                         <PDSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                             <mappingType><typeA/></mappingType>
- 六  17 18:14:18                                             <startSymbolAndLength>57</startSymbolAndLength>
- 六  17 18:14:18                                         </PDSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                     </pdsch-TimeDomainAllocationList>
- 六  17 18:14:18                                 </setup>
- 六  17 18:14:18                             </pdsch-ConfigCommon>
- 六  17 18:14:18                         </initialDownlinkBWP>
- 六  17 18:14:18                         <bcch-Config>
- 六  17 18:14:18                             <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
- 六  17 18:14:18                         </bcch-Config>
- 六  17 18:14:18                         <pcch-Config>
- 六  17 18:14:18                             <defaultPagingCycle><rf256/></defaultPagingCycle>
- 六  17 18:14:18                             <nAndPagingFrameOffset>
- 六  17 18:14:18                                 <quarterT>1</quarterT>
- 六  17 18:14:18                             </nAndPagingFrameOffset>
- 六  17 18:14:18                             <ns><one/></ns>
- 六  17 18:14:18                             <firstPDCCH-MonitoringOccasionOfPO>
- 六  17 18:14:18                                 <sCS120KHZoneT-SCS60KHZhalfT-SCS30KHZquarterT-SCS15KHZoneEighthT>
- 六  17 18:14:18                                     <INTEGER>0</INTEGER>
- 六  17 18:14:18                                 </sCS120KHZoneT-SCS60KHZhalfT-SCS30KHZquarterT-SCS15KHZoneEighthT>
- 六  17 18:14:18                             </firstPDCCH-MonitoringOccasionOfPO>
- 六  17 18:14:18                         </pcch-Config>
- 六  17 18:14:18                     </downlinkConfigCommon>
- 六  17 18:14:18                     <uplinkConfigCommon>
- 六  17 18:14:18                         <frequencyInfoUL>
- 六  17 18:14:18                             <scs-SpecificCarrierList>
- 六  17 18:14:18                                 <SCS-SpecificCarrier>
- 六  17 18:14:18                                     <offsetToCarrier>0</offsetToCarrier>
- 六  17 18:14:18                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 六  17 18:14:18                                     <carrierBandwidth>106</carrierBandwidth>
- 六  17 18:14:18                                 </SCS-SpecificCarrier>
- 六  17 18:14:18                             </scs-SpecificCarrierList>
- 六  17 18:14:18                             <p-Max>20</p-Max>
- 六  17 18:14:18                         </frequencyInfoUL>
- 六  17 18:14:18                         <initialUplinkBWP>
- 六  17 18:14:18                             <genericParameters>
- 六  17 18:14:18                                 <locationAndBandwidth>28875</locationAndBandwidth>
- 六  17 18:14:18                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 六  17 18:14:18                             </genericParameters>
- 六  17 18:14:18                             <rach-ConfigCommon>
- 六  17 18:14:18                                 <setup>
- 六  17 18:14:18                                     <rach-ConfigGeneric>
- 六  17 18:14:18                                         <prach-ConfigurationIndex>98</prach-ConfigurationIndex>
- 六  17 18:14:18                                         <msg1-FDM><one/></msg1-FDM>
- 六  17 18:14:18                                         <msg1-FrequencyStart>0</msg1-FrequencyStart>
- 六  17 18:14:18                                         <zeroCorrelationZoneConfig>13</zeroCorrelationZoneConfig>
- 六  17 18:14:18                                         <preambleReceivedTargetPower>-96</preambleReceivedTargetPower>
- 六  17 18:14:18                                         <preambleTransMax><n10/></preambleTransMax>
- 六  17 18:14:18                                         <powerRampingStep><dB2/></powerRampingStep>
- 六  17 18:14:18                                         <ra-ResponseWindow><sl20/></ra-ResponseWindow>
- 六  17 18:14:18                                     </rach-ConfigGeneric>
- 六  17 18:14:18                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
- 六  17 18:14:18                                         <one><n60/></one>
- 六  17 18:14:18                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
- 六  17 18:14:18                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
- 六  17 18:14:18                                     <rsrp-ThresholdSSB>19</rsrp-ThresholdSSB>
- 六  17 18:14:18                                     <prach-RootSequenceIndex>
- 六  17 18:14:18                                         <l139>1</l139>
- 六  17 18:14:18                                     </prach-RootSequenceIndex>
- 六  17 18:14:18                                     <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
- 六  17 18:14:18                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
- 六  17 18:14:18                                 </setup>
- 六  17 18:14:18                             </rach-ConfigCommon>
- 六  17 18:14:18                             <pusch-ConfigCommon>
- 六  17 18:14:18                                 <setup>
- 六  17 18:14:18                                     <pusch-TimeDomainAllocationList>
- 六  17 18:14:18                                         <PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                             <k2>6</k2>
- 六  17 18:14:18                                             <mappingType><typeB/></mappingType>
- 六  17 18:14:18                                             <startSymbolAndLength>41</startSymbolAndLength>
- 六  17 18:14:18                                         </PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                         <PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                             <k2>6</k2>
- 六  17 18:14:18                                             <mappingType><typeB/></mappingType>
- 六  17 18:14:18                                             <startSymbolAndLength>55</startSymbolAndLength>
- 六  17 18:14:18                                         </PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                         <PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                             <k2>6</k2>
- 六  17 18:14:18                                             <mappingType><typeB/></mappingType>
- 六  17 18:14:18                                             <startSymbolAndLength>38</startSymbolAndLength>
- 六  17 18:14:18                                         </PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                         <PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                             <k2>7</k2>
- 六  17 18:14:18                                             <mappingType><typeB/></mappingType>
- 六  17 18:14:18                                             <startSymbolAndLength>38</startSymbolAndLength>
- 六  17 18:14:18                                         </PUSCH-TimeDomainResourceAllocation>
- 六  17 18:14:18                                     </pusch-TimeDomainAllocationList>
- 六  17 18:14:18                                     <msg3-DeltaPreamble>1</msg3-DeltaPreamble>
- 六  17 18:14:18                                     <p0-NominalWithGrant>-90</p0-NominalWithGrant>
- 六  17 18:14:18                                 </setup>
- 六  17 18:14:18                             </pusch-ConfigCommon>
- 六  17 18:14:18                             <pucch-ConfigCommon>
- 六  17 18:14:18                                 <setup>
- 六  17 18:14:18                                     <pucch-ResourceCommon>0</pucch-ResourceCommon>
- 六  17 18:14:18                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
- 六  17 18:14:18                                     <hoppingId>40</hoppingId>
- 六  17 18:14:18                                     <p0-nominal>-90</p0-nominal>
- 六  17 18:14:18                                 </setup>
- 六  17 18:14:18                             </pucch-ConfigCommon>
- 六  17 18:14:18                         </initialUplinkBWP>
- 六  17 18:14:18                         <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
- 六  17 18:14:18                     </uplinkConfigCommon>
- 六  17 18:14:18                     <ssb-PositionsInBurst>
- 六  17 18:14:18                         <inOneGroup>
- 六  17 18:14:18                             10000000
- 六  17 18:14:18                         </inOneGroup>
- 六  17 18:14:18                     </ssb-PositionsInBurst>
- 六  17 18:14:18                     <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
- 六  17 18:14:18                     <tdd-UL-DL-ConfigurationCommon>
- 六  17 18:14:18                         <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
- 六  17 18:14:18                         <pattern1>
- 六  17 18:14:18                             <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
- 六  17 18:14:18                             <nrofDownlinkSlots>7</nrofDownlinkSlots>
- 六  17 18:14:18                             <nrofDownlinkSymbols>6</nrofDownlinkSymbols>
- 六  17 18:14:18                             <nrofUplinkSlots>2</nrofUplinkSlots>
- 六  17 18:14:18                             <nrofUplinkSymbols>4</nrofUplinkSymbols>
- 六  17 18:14:18                         </pattern1>
- 六  17 18:14:18                     </tdd-UL-DL-ConfigurationCommon>
- 六  17 18:14:18                     <ss-PBCH-BlockPower>-25</ss-PBCH-BlockPower>
- 六  17 18:14:18                 </servingCellConfigCommon>
- 六  17 18:14:18                 <ue-TimersAndConstants>
- 六  17 18:14:18                     <t300><ms400/></t300>
- 六  17 18:14:18                     <t301><ms400/></t301>
- 六  17 18:14:18                     <t310><ms2000/></t310>
- 六  17 18:14:18                     <n310><n10/></n310>
- 六  17 18:14:18                     <t311><ms3000/></t311>
- 六  17 18:14:18                     <n311><n1/></n311>
- 六  17 18:14:18                     <t319><ms400/></t319>
- 六  17 18:14:18                 </ue-TimersAndConstants>
- 六  17 18:14:18             </systemInformationBlockType1>
- 六  17 18:14:18         </c1>
- 六  17 18:14:18     </message>
- 六  17 18:14:18 </BCCH-DL-SCH-Message>
- 六  17 18:14:18 [32m[NR_RRC]   SIB1 decoded
- 六  17 18:14:18 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
- 六  17 18:14:18 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 六  17 18:14:18 [0m[NR_PHY]   ============================================
- 六  17 18:14:18 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 六  17 18:14:18 [0m[NR_PHY]   ============================================
- 六  17 18:14:19 [0m[NR_PHY]   ============================================
- 六  17 18:14:19 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 六  17 18:14:19 [0m[NR_PHY]   ============================================
- 六  17 18:14:19 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
- 六  17 18:14:19 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 六  17 18:14:19 [0m[NR_MAC]   Initialization of 4-step contention-based random access procedure
- 六  17 18:14:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:19 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:19 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
- 六  17 18:14:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][183.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:20 [0m[NR_PHY]   ============================================
- 六  17 18:14:20 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 六  17 18:14:20 [0m[NR_PHY]   ============================================
- 六  17 18:14:20 [0m[93m[MAC]   [UE 0][194:7] RAR reception failed 
- 六  17 18:14:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 195, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:20 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:20 [0m[PHY]   PRACH [UE 0] in frame.slot 195.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
- 六  17 18:14:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][195.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:20 [0m[93m[MAC]   [UE 0][206:7] RAR reception failed 
- 六  17 18:14:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 207, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:20 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:20 [0m[PHY]   PRACH [UE 0] in frame.slot 207.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
- 六  17 18:14:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][207.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:20 [0m[93m[MAC]   [UE 0][218:7] RAR reception failed 
- 六  17 18:14:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 219, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:20 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:20 [0m[PHY]   PRACH [UE 0] in frame.slot 219.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0
- 六  17 18:14:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][219.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:20 [0m[93m[MAC]   [UE 0][230:7] RAR reception failed 
- 六  17 18:14:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 231, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:20 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:20 [0m[PHY]   PRACH [UE 0] in frame.slot 231.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
- 六  17 18:14:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][231.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:20 [0m[93m[MAC]   [UE 0][242:7] RAR reception failed 
- 六  17 18:14:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 243, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:20 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:20 [0m[PHY]   PRACH [UE 0] in frame.slot 243.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
- 六  17 18:14:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][243.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 43 dBW (amp 512)
- 六  17 18:14:20 [0m[93m[MAC]   [UE 0][254:7] RAR reception failed 
- 六  17 18:14:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 255, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:20 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:20 [0m[PHY]   PRACH [UE 0] in frame.slot 255.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
- 六  17 18:14:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][255.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:20 [0m[NR_PHY]   ============================================
- 六  17 18:14:20 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 六  17 18:14:20 [0m[NR_PHY]   ============================================
- 六  17 18:14:20 [0m[1;31m[PHY]   [UE 0] frame 258, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:20 [0m[1;31m[PHY]   [UE 0] frame 260, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:20 [0m[1;31m[PHY]   [UE 0] frame 262, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 264, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 266, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[93m[MAC]   [UE 0][266:7] RAR reception failed 
- 六  17 18:14:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 267, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:21 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:21 [0m[PHY]   PRACH [UE 0] in frame.slot 267.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
- 六  17 18:14:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][267.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 268, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 270, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 272, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 274, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 276, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 278, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[93m[MAC]   [UE 0][278:7] RAR reception failed 
- 六  17 18:14:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:21 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:21 [0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
- 六  17 18:14:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][279.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 280, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 282, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 284, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 286, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 288, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 290, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[93m[MAC]   [UE 0][290:7] RAR reception failed 
- 六  17 18:14:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 291, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:21 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:21 [0m[PHY]   PRACH [UE 0] in frame.slot 291.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
- 六  17 18:14:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][291.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 292, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 294, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 296, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 298, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 300, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 302, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[93m[MAC]   [UE 0][302:7] RAR reception failed 
- 六  17 18:14:21 [0m[93m[MAC]   [UE 0][302:8] RAR reception failed 
- 六  17 18:14:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 303, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:21 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:21 [0m[PHY]   PRACH [UE 0] in frame.slot 303.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
- 六  17 18:14:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][303.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 304, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 306, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 308, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 310, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 312, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 314, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[93m[MAC]   [UE 0][314:7] RAR reception failed 
- 六  17 18:14:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 315, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:21 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:21 [0m[PHY]   PRACH [UE 0] in frame.slot 315.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
- 六  17 18:14:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][315.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 316, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 318, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 320, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[NR_PHY]   ============================================
- 六  17 18:14:21 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 六  17 18:14:21 [0m[NR_PHY]   ============================================
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 322, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 324, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 326, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[93m[MAC]   [UE 0][326:7] RAR reception failed 
- 六  17 18:14:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 327, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:21 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:21 [0m[PHY]   PRACH [UE 0] in frame.slot 327.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
- 六  17 18:14:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][327.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 328, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 330, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 332, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 334, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 336, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:21 [0m[1;31m[PHY]   [UE 0] frame 338, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][338:7] RAR reception failed 
- 六  17 18:14:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 339, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:22 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:22 [0m[PHY]   PRACH [UE 0] in frame.slot 339.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
- 六  17 18:14:22 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][339.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 43 dBW (amp 512)
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 340, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 342, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 344, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 346, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 348, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 350, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][350:7] RAR reception failed 
- 六  17 18:14:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 351, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:22 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:22 [0m[PHY]   PRACH [UE 0] in frame.slot 351.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
- 六  17 18:14:22 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][351.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 352, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 354, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 356, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 358, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 360, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 362, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][362:7] RAR reception failed 
- 六  17 18:14:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 363, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:22 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:22 [0m[PHY]   PRACH [UE 0] in frame.slot 363.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
- 六  17 18:14:22 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][363.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 364, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 366, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 368, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 370, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 372, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 374, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][374:7] RAR reception failed 
- 六  17 18:14:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 375, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:22 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:22 [0m[PHY]   PRACH [UE 0] in frame.slot 375.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
- 六  17 18:14:22 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][375.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 376, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 378, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 380, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 382, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 384, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[NR_PHY]   ============================================
- 六  17 18:14:22 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 六  17 18:14:22 [0m[NR_PHY]   ============================================
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 386, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][386:7] RAR reception failed 
- 六  17 18:14:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 387, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:22 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:22 [0m[PHY]   PRACH [UE 0] in frame.slot 387.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
- 六  17 18:14:22 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][387.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 43 dBW (amp 512)
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 388, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 390, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 392, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 394, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 396, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 398, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][398:7] RAR reception failed 
- 六  17 18:14:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 399, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:22 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:22 [0m[PHY]   PRACH [UE 0] in frame.slot 399.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
- 六  17 18:14:22 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][399.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 400, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 402, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 404, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 406, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 408, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 410, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][410:7] RAR reception failed 
- 六  17 18:14:22 [0m[93m[MAC]   [UE 0][410:8] RAR reception failed 
- 六  17 18:14:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 411, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:22 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:22 [0m[PHY]   PRACH [UE 0] in frame.slot 411.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
- 六  17 18:14:22 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][411.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:22 [0m[1;31m[PHY]   [UE 0] frame 412, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 414, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 416, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 418, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 420, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 422, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[93m[MAC]   [UE 0][422:7] RAR reception failed 
- 六  17 18:14:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 423, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:23 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:23 [0m[PHY]   PRACH [UE 0] in frame.slot 423.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
- 六  17 18:14:23 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][423.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 424, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 426, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 428, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 430, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 432, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 434, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[93m[MAC]   [UE 0][434:7] RAR reception failed 
- 六  17 18:14:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 435, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:23 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:23 [0m[PHY]   PRACH [UE 0] in frame.slot 435.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
- 六  17 18:14:23 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][435.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 436, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 438, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 440, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 442, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 444, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 446, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[93m[MAC]   [UE 0][446:7] RAR reception failed 
- 六  17 18:14:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 447, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:23 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:23 [0m[PHY]   PRACH [UE 0] in frame.slot 447.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
- 六  17 18:14:23 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][447.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 448, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[NR_PHY]   ============================================
- 六  17 18:14:23 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 六  17 18:14:23 [0m[NR_PHY]   ============================================
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 450, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 452, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 454, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 456, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 458, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[93m[MAC]   [UE 0][458:7] RAR reception failed 
- 六  17 18:14:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 459, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:23 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:23 [0m[PHY]   PRACH [UE 0] in frame.slot 459.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
- 六  17 18:14:23 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][459.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 460, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 462, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 464, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 466, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 468, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 470, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[93m[MAC]   [UE 0][470:7] RAR reception failed 
- 六  17 18:14:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 471, Slot 19, Symbol 0, Fdm 0
- 六  17 18:14:23 [0m[MAC]   Msg1_transmitted
- 六  17 18:14:23 [0m[PHY]   PRACH [UE 0] in frame.slot 471.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
- 六  17 18:14:23 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][471.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 472, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[1;31m[PHY]   [UE 0] frame 474, nr_slot_rx 0, Error decoding PBCH!
- 六  17 18:14:23 [0m[93m[NR_RRC]   Timer T310 expired
- 六  17 18:14:23 [0m
- 六  17 18:14:23 Assertion (0) failed!
- 六  17 18:14:23 In nr_rrc_handle_timers() /home/hpe/openairinterface5g/openair2/RRC/NR_UE/rrc_timers_and_constants.c:156
- 六  17 18:14:23 Radio link failure! Not handled yet!
- 六  17 18:14:23 
- 六  17 18:14:23 Exiting execution
- 六  17 18:14:23 /home/hpe/openairinterface5g/openair2/RRC/NR_UE/rrc_timers_and_constants.c:156 nr_rrc_handle_timers() Exiting OAI softmodem: _Assert_Exit_
+ 六  18 03:57:06 Calling sched_setscheduler(79)
+ 六  18 03:57:06 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
+ 六  18 03:57:06 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
+ 六  18 03:57:06 [CONFIG] log_config: 2/3 parameters successfully set 
+ 六  18 03:57:06 [CONFIG] log_config: 50/50 parameters successfully set 
+ 六  18 03:57:06 [CONFIG] log_config: 50/50 parameters successfully set 
+ 六  18 03:57:06 [CONFIG] log_config: 16/16 parameters successfully set 
+ 六  18 03:57:06 [CONFIG] log_config: 16/16 parameters successfully set 
+ 六  18 03:57:06 log init done
+ 六  18 03:57:06 [CONFIG] (root): 28/31 parameters successfully set 
+ 六  18 03:57:06 [CONFIG] (root): 39/42 parameters successfully set 
+ 六  18 03:57:06 [CONFIG] (root): 5/6 parameters successfully set 
+ 六  18 03:57:06 [ENB_APP]   nfapi (0) running mode: MONOLITHIC
+ 六  18 03:57:06 [0m[CONFIG] TTracer: 3/3 parameters successfully set 
+ 六  18 03:57:06 create a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 六  18 03:57:06 [0mcreate a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 六  18 03:57:06 [0mcreate a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+ 六  18 03:57:06 [0mcreate a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+ 六  18 03:57:06 [0mcreate a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+ 六  18 03:57:06 [0mcreate a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+ 六  18 03:57:06 [0mcreate a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+ 六  18 03:57:06 [0mcreate a thread for core -1
+ 六  18 03:57:06 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+ 六  18 03:57:06 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 六  18 03:57:07 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 六  18 03:57:07 [0m[CONFIG] opt: 3/3 parameters successfully set 
+ 六  18 03:57:07 [OPT]   OPT disabled
+ 六  18 03:57:07 [0m[CONFIG] loader: 2/2 parameters successfully set 
+ 六  18 03:57:07 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
+ 六  18 03:57:07 shlib_path libldpc.so
+ 六  18 03:57:07 [LOADER] library libldpc.so successfully loaded
+ 六  18 03:57:07 [HW]   Version: Branch: nfapi-fixes-rebased Abrev. Hash: 8e46925a43 Date: Tue May 21 22:39:20 2024 +0800
+ 六  18 03:57:07 [0m[PDCP]   pdcp init,usegtp usenetlink
+ 六  18 03:57:07 [0m[CONFIG] nas.noS1: 3/3 parameters successfully set 
+ 六  18 03:57:07 [PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+ 六  18 03:57:07 [0m[PDCP]   UE pdcp will use tun interface
+ 六  18 03:57:07 [0m[NR_MAC]   [UE0] Initializing MAC
+ 六  18 03:57:07 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+ 六  18 03:57:07 [0m[RLC]   Activated srb0 for UE 0
+ 六  18 03:57:07 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+ 六  18 03:57:07 , chest-freq 0, chest-time 0
+ 六  18 03:57:07 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+ 六  18 03:57:07 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+ 六  18 03:57:07 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+ 六  18 03:57:07 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 六  18 03:57:07 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 六  18 03:57:07 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+ 六  18 03:57:07 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+ 六  18 03:57:07 [0m[CONFIG] loader.dfts: 1/2 parameters successfully set 
+ 六  18 03:57:07 shlib_path libdfts.so
+ 六  18 03:57:07 [LOADER] library libdfts.so successfully loaded
+ 六  18 03:57:07 [PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+ 六  18 03:57:07 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:07 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 六  18 03:57:07 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
+ 六  18 03:57:07 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+ 六  18 03:57:07 [1;31m[HW]   Can't set cpu frequency
+ 六  18 03:57:07 [0m[PHY]   Intializing UE Threads for instance 0 (0x5d8a97c6e770,0x72415d2a3010)...
+ 六  18 03:57:07 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
+ 六  18 03:57:07 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
+ 六  18 03:57:07 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
+ 六  18 03:57:07 [0m[CONFIG] device.recplay: 8/8 parameters successfully set 
+ 六  18 03:57:07 [CONFIG] device: 1/1 parameters successfully set 
+ 六  18 03:57:07 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
+ 六  18 03:57:07 shlib_path librfsimulator.so
+ 六  18 03:57:07 [LOADER] library librfsimulator.so successfully loaded
+ 六  18 03:57:07 [CONFIG] rfsimulator: 8/9 parameters successfully set 
+ 六  18 03:57:07 [93m[HW]   sample_rate 61440000.000000
+ 六  18 03:57:07 [0m[HW]   Running as client: will connect to a rfsimulator server side
+ 六  18 03:57:07 [0mInitializing random number generator, seed 3485373314048817099
+ 六  18 03:57:07 [HW]   [RRU] has loaded RFSIMULATOR device.
+ 六  18 03:57:07 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+ 六  18 03:57:07 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+ 六  18 03:57:07 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+ 六  18 03:57:07 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+ 六  18 03:57:07 [0mUE threads created by 2684319
+ 六  18 03:57:07 TYPE <CTRL-C> TO TERMINATE
+ 六  18 03:57:07 [NR_RRC]   create TASK_RRC_NRUE 
+ 六  18 03:57:07 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+ 六  18 03:57:07 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+ 六  18 03:57:07 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+ 六  18 03:57:07 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 六  18 03:57:07 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 六  18 03:57:07 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
+ 六  18 03:57:07 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+ 六  18 03:57:07 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+ 六  18 03:57:07 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
+ 六  18 03:57:07 [0m[CONFIG] uicc0: 10/10 parameters successfully set 
+ 六  18 03:57:07 [SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+ 六  18 03:57:08 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 六  18 03:57:08 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 六  18 03:57:09 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 六  18 03:57:09 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 六  18 03:57:09 [0mEntering ITTI signals handler
+ 六  18 03:57:09 TYPE <CTRL-C> TO TERMINATE
+ 六  18 03:57:10 [HW]   Trying to connect to 127.0.0.1:4043
+ 六  18 03:57:10 [0m[HW]   Connection to 127.0.0.1:4043 established
+ 六  18 03:57:10 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 六  18 03:57:12 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+ 六  18 03:57:12 [0m[93m[NR_PHY]   Starting sync detection
+ 六  18 03:57:12 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+ 六  18 03:57:12 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 0, Peak found at pos 219600, val = 8706702226 (99 dB power over signal avg 58 dB), ffo 0.000000
+ 六  18 03:57:12 [0m[PHY]   PSS execution duration 73409 microseconds 
+ 六  18 03:57:12 [0m[93m[NR_PHY]   SSS detected, PCI: 0, ffo_pss 0.000000 (0 Hz), ffo_sss 0.000530 (15 Hz),  ffo_pss+ffo_sss 0.000530 (15 Hz), nid1: 0, nid2: 0
+ 六  18 03:57:12 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+ 六  18 03:57:12 [0m[PHY]   [UE0] In synch, rx_offset 215040 samples
+ 六  18 03:57:12 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 0 Hz
+ 六  18 03:57:12 [0m[32m[PHY]   Initial sync successful
+ 六  18 03:57:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 六  18 03:57:12 [0m[PHY]   Got synch: hw_slot_offset 14, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+ 六  18 03:57:12 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=32 UE->init_sync_frame=1 trashed_frames=6
+ 六  18 03:57:12 [0m[PHY]   Resynchronizing RX by 215040 samples
+ 六  18 03:57:12 [0m[NR_MAC]   Decoding NR-BCCH-DL-SCH-Message (SIB1 or SI)
+ 六  18 03:57:12 [0m<BCCH-DL-SCH-Message>
+ 六  18 03:57:12     <message>
+ 六  18 03:57:12         <c1>
+ 六  18 03:57:12             <systemInformationBlockType1>
+ 六  18 03:57:12                 <cellSelectionInfo>
+ 六  18 03:57:12                     <q-RxLevMin>-65</q-RxLevMin>
+ 六  18 03:57:12                     <q-RxLevMinSUL>-50</q-RxLevMinSUL>
+ 六  18 03:57:12                     <q-QualMin>-30</q-QualMin>
+ 六  18 03:57:12                 </cellSelectionInfo>
+ 六  18 03:57:12                 <cellAccessRelatedInfo>
+ 六  18 03:57:12                     <plmn-IdentityInfoList>
+ 六  18 03:57:12                         <PLMN-IdentityInfo>
+ 六  18 03:57:12                             <plmn-IdentityList>
+ 六  18 03:57:12                                 <PLMN-Identity>
+ 六  18 03:57:12                                     <mcc>
+ 六  18 03:57:12                                         <MCC-MNC-Digit>2</MCC-MNC-Digit>
+ 六  18 03:57:12                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
+ 六  18 03:57:12                                         <MCC-MNC-Digit>8</MCC-MNC-Digit>
+ 六  18 03:57:12                                     </mcc>
+ 六  18 03:57:12                                     <mnc>
+ 六  18 03:57:12                                         <MCC-MNC-Digit>9</MCC-MNC-Digit>
+ 六  18 03:57:12                                         <MCC-MNC-Digit>5</MCC-MNC-Digit>
+ 六  18 03:57:12                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
+ 六  18 03:57:12                                     </mnc>
+ 六  18 03:57:12                                 </PLMN-Identity>
+ 六  18 03:57:12                             </plmn-IdentityList>
+ 六  18 03:57:12                             <trackingAreaCode>
+ 六  18 03:57:12                                 000000000000000000000001
+ 六  18 03:57:12                             </trackingAreaCode>
+ 六  18 03:57:12                             <ranac>1</ranac>
+ 六  18 03:57:12                             <cellIdentity>
+ 六  18 03:57:12                                 000000000000000000000000000000000001
+ 六  18 03:57:12                             </cellIdentity>
+ 六  18 03:57:12                             <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+ 六  18 03:57:12                         </PLMN-IdentityInfo>
+ 六  18 03:57:12                     </plmn-IdentityInfoList>
+ 六  18 03:57:12                 </cellAccessRelatedInfo>
+ 六  18 03:57:12                 <connEstFailureControl>
+ 六  18 03:57:12                     <connEstFailCount><n3/></connEstFailCount>
+ 六  18 03:57:12                     <connEstFailOffsetValidity><s900/></connEstFailOffsetValidity>
+ 六  18 03:57:12                     <connEstFailOffset>15</connEstFailOffset>
+ 六  18 03:57:12                 </connEstFailureControl>
+ 六  18 03:57:12                 <si-SchedulingInfo>
+ 六  18 03:57:12                     <schedulingInfoList>
+ 六  18 03:57:12                         <SchedulingInfo>
+ 六  18 03:57:12                             <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
+ 六  18 03:57:12                             <si-Periodicity><rf8/></si-Periodicity>
+ 六  18 03:57:12                             <sib-MappingInfo>
+ 六  18 03:57:12                                 <SIB-TypeInfo>
+ 六  18 03:57:12                                     <type><sibType2/></type>
+ 六  18 03:57:12                                     <valueTag>10</valueTag>
+ 六  18 03:57:12                                 </SIB-TypeInfo>
+ 六  18 03:57:12                             </sib-MappingInfo>
+ 六  18 03:57:12                         </SchedulingInfo>
+ 六  18 03:57:12                     </schedulingInfoList>
+ 六  18 03:57:12                     <si-WindowLength><s5/></si-WindowLength>
+ 六  18 03:57:12                 </si-SchedulingInfo>
+ 六  18 03:57:12                 <servingCellConfigCommon>
+ 六  18 03:57:12                     <downlinkConfigCommon>
+ 六  18 03:57:12                         <frequencyInfoDL>
+ 六  18 03:57:12                             <frequencyBandList>
+ 六  18 03:57:12                                 <NR-MultiBandInfo>
+ 六  18 03:57:12                                     <freqBandIndicatorNR>78</freqBandIndicatorNR>
+ 六  18 03:57:12                                 </NR-MultiBandInfo>
+ 六  18 03:57:12                             </frequencyBandList>
+ 六  18 03:57:12                             <offsetToPointA>86</offsetToPointA>
+ 六  18 03:57:12                             <scs-SpecificCarrierList>
+ 六  18 03:57:12                                 <SCS-SpecificCarrier>
+ 六  18 03:57:12                                     <offsetToCarrier>0</offsetToCarrier>
+ 六  18 03:57:12                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 六  18 03:57:12                                     <carrierBandwidth>106</carrierBandwidth>
+ 六  18 03:57:12                                 </SCS-SpecificCarrier>
+ 六  18 03:57:12                             </scs-SpecificCarrierList>
+ 六  18 03:57:12                         </frequencyInfoDL>
+ 六  18 03:57:12                         <initialDownlinkBWP>
+ 六  18 03:57:12                             <genericParameters>
+ 六  18 03:57:12                                 <locationAndBandwidth>28875</locationAndBandwidth>
+ 六  18 03:57:12                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 六  18 03:57:12                             </genericParameters>
+ 六  18 03:57:12                             <pdcch-ConfigCommon>
+ 六  18 03:57:12                                 <setup>
+ 六  18 03:57:12                                     <controlResourceSetZero>12</controlResourceSetZero>
+ 六  18 03:57:12                                     <searchSpaceZero>0</searchSpaceZero>
+ 六  18 03:57:12                                     <commonSearchSpaceList>
+ 六  18 03:57:12                                         <SearchSpace>
+ 六  18 03:57:12                                             <searchSpaceId>1</searchSpaceId>
+ 六  18 03:57:12                                             <controlResourceSetId>0</controlResourceSetId>
+ 六  18 03:57:12                                             <monitoringSlotPeriodicityAndOffset>
+ 六  18 03:57:12                                                 <sl1></sl1>
+ 六  18 03:57:12                                             </monitoringSlotPeriodicityAndOffset>
+ 六  18 03:57:12                                             <monitoringSymbolsWithinSlot>
+ 六  18 03:57:12                                                 10000000000000
+ 六  18 03:57:12                                             </monitoringSymbolsWithinSlot>
+ 六  18 03:57:12                                             <nrofCandidates>
+ 六  18 03:57:12                                                 <aggregationLevel1><n0/></aggregationLevel1>
+ 六  18 03:57:12                                                 <aggregationLevel2><n0/></aggregationLevel2>
+ 六  18 03:57:12                                                 <aggregationLevel4><n1/></aggregationLevel4>
+ 六  18 03:57:12                                                 <aggregationLevel8><n1/></aggregationLevel8>
+ 六  18 03:57:12                                                 <aggregationLevel16><n0/></aggregationLevel16>
+ 六  18 03:57:12                                             </nrofCandidates>
+ 六  18 03:57:12                                         </SearchSpace>
+ 六  18 03:57:12                                     </commonSearchSpaceList>
+ 六  18 03:57:12                                     <searchSpaceSIB1>1</searchSpaceSIB1>
+ 六  18 03:57:12                                     <pagingSearchSpace>1</pagingSearchSpace>
+ 六  18 03:57:12                                     <ra-SearchSpace>1</ra-SearchSpace>
+ 六  18 03:57:12                                 </setup>
+ 六  18 03:57:12                             </pdcch-ConfigCommon>
+ 六  18 03:57:12                             <pdsch-ConfigCommon>
+ 六  18 03:57:12                                 <setup>
+ 六  18 03:57:12                                     <pdsch-TimeDomainAllocationList>
+ 六  18 03:57:12                                         <PDSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                             <k0>0</k0>
+ 六  18 03:57:12                                             <mappingType><typeA/></mappingType>
+ 六  18 03:57:12                                             <startSymbolAndLength>40</startSymbolAndLength>
+ 六  18 03:57:12                                         </PDSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                         <PDSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                             <k0>1</k0>
+ 六  18 03:57:12                                             <mappingType><typeA/></mappingType>
+ 六  18 03:57:12                                             <startSymbolAndLength>54</startSymbolAndLength>
+ 六  18 03:57:12                                         </PDSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                     </pdsch-TimeDomainAllocationList>
+ 六  18 03:57:12                                 </setup>
+ 六  18 03:57:12                             </pdsch-ConfigCommon>
+ 六  18 03:57:12                         </initialDownlinkBWP>
+ 六  18 03:57:12                         <bcch-Config>
+ 六  18 03:57:12                             <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
+ 六  18 03:57:12                         </bcch-Config>
+ 六  18 03:57:12                         <pcch-Config>
+ 六  18 03:57:12                             <defaultPagingCycle><rf256/></defaultPagingCycle>
+ 六  18 03:57:12                             <nAndPagingFrameOffset>
+ 六  18 03:57:12                                 <quarterT>0</quarterT>
+ 六  18 03:57:12                             </nAndPagingFrameOffset>
+ 六  18 03:57:12                             <ns><one/></ns>
+ 六  18 03:57:12                             <firstPDCCH-MonitoringOccasionOfPO>
+ 六  18 03:57:12                                 <sCS30KHZoneT-SCS15KHZhalfT>
+ 六  18 03:57:12                                     <INTEGER>44</INTEGER>
+ 六  18 03:57:12                                 </sCS30KHZoneT-SCS15KHZhalfT>
+ 六  18 03:57:12                             </firstPDCCH-MonitoringOccasionOfPO>
+ 六  18 03:57:12                         </pcch-Config>
+ 六  18 03:57:12                     </downlinkConfigCommon>
+ 六  18 03:57:12                     <uplinkConfigCommon>
+ 六  18 03:57:12                         <frequencyInfoUL>
+ 六  18 03:57:12                             <scs-SpecificCarrierList>
+ 六  18 03:57:12                                 <SCS-SpecificCarrier>
+ 六  18 03:57:12                                     <offsetToCarrier>0</offsetToCarrier>
+ 六  18 03:57:12                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 六  18 03:57:12                                     <carrierBandwidth>106</carrierBandwidth>
+ 六  18 03:57:12                                 </SCS-SpecificCarrier>
+ 六  18 03:57:12                             </scs-SpecificCarrierList>
+ 六  18 03:57:12                             <p-Max>23</p-Max>
+ 六  18 03:57:12                         </frequencyInfoUL>
+ 六  18 03:57:12                         <initialUplinkBWP>
+ 六  18 03:57:12                             <genericParameters>
+ 六  18 03:57:12                                 <locationAndBandwidth>28875</locationAndBandwidth>
+ 六  18 03:57:12                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 六  18 03:57:12                             </genericParameters>
+ 六  18 03:57:12                             <rach-ConfigCommon>
+ 六  18 03:57:12                                 <setup>
+ 六  18 03:57:12                                     <rach-ConfigGeneric>
+ 六  18 03:57:12                                         <prach-ConfigurationIndex>98</prach-ConfigurationIndex>
+ 六  18 03:57:12                                         <msg1-FDM><one/></msg1-FDM>
+ 六  18 03:57:12                                         <msg1-FrequencyStart>82</msg1-FrequencyStart>
+ 六  18 03:57:12                                         <zeroCorrelationZoneConfig>13</zeroCorrelationZoneConfig>
+ 六  18 03:57:12                                         <preambleReceivedTargetPower>-96</preambleReceivedTargetPower>
+ 六  18 03:57:12                                         <preambleTransMax><n10/></preambleTransMax>
+ 六  18 03:57:12                                         <powerRampingStep><dB2/></powerRampingStep>
+ 六  18 03:57:12                                         <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+ 六  18 03:57:12                                     </rach-ConfigGeneric>
+ 六  18 03:57:12                                     <totalNumberOfRA-Preambles>63</totalNumberOfRA-Preambles>
+ 六  18 03:57:12                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 六  18 03:57:12                                         <one><n8/></one>
+ 六  18 03:57:12                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 六  18 03:57:12                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+ 六  18 03:57:12                                     <rsrp-ThresholdSSB>19</rsrp-ThresholdSSB>
+ 六  18 03:57:12                                     <prach-RootSequenceIndex>
+ 六  18 03:57:12                                         <l139>1</l139>
+ 六  18 03:57:12                                     </prach-RootSequenceIndex>
+ 六  18 03:57:12                                     <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
+ 六  18 03:57:12                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+ 六  18 03:57:12                                 </setup>
+ 六  18 03:57:12                             </rach-ConfigCommon>
+ 六  18 03:57:12                             <pusch-ConfigCommon>
+ 六  18 03:57:12                                 <setup>
+ 六  18 03:57:12                                     <pusch-TimeDomainAllocationList>
+ 六  18 03:57:12                                         <PUSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                             <k2>6</k2>
+ 六  18 03:57:12                                             <mappingType><typeB/></mappingType>
+ 六  18 03:57:12                                             <startSymbolAndLength>41</startSymbolAndLength>
+ 六  18 03:57:12                                         </PUSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                         <PUSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                             <k2>6</k2>
+ 六  18 03:57:12                                             <mappingType><typeB/></mappingType>
+ 六  18 03:57:12                                             <startSymbolAndLength>55</startSymbolAndLength>
+ 六  18 03:57:12                                         </PUSCH-TimeDomainResourceAllocation>
+ 六  18 03:57:12                                     </pusch-TimeDomainAllocationList>
+ 六  18 03:57:12                                     <msg3-DeltaPreamble>1</msg3-DeltaPreamble>
+ 六  18 03:57:12                                     <p0-NominalWithGrant>-90</p0-NominalWithGrant>
+ 六  18 03:57:12                                 </setup>
+ 六  18 03:57:12                             </pusch-ConfigCommon>
+ 六  18 03:57:12                             <pucch-ConfigCommon>
+ 六  18 03:57:12                                 <setup>
+ 六  18 03:57:12                                     <pucch-ResourceCommon>0</pucch-ResourceCommon>
+ 六  18 03:57:12                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
+ 六  18 03:57:12                                     <p0-nominal>-90</p0-nominal>
+ 六  18 03:57:12                                 </setup>
+ 六  18 03:57:12                             </pucch-ConfigCommon>
+ 六  18 03:57:12                         </initialUplinkBWP>
+ 六  18 03:57:12                         <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+ 六  18 03:57:12                     </uplinkConfigCommon>
+ 六  18 03:57:12                     <ssb-PositionsInBurst>
+ 六  18 03:57:12                         <inOneGroup>
+ 六  18 03:57:12                             10000000
+ 六  18 03:57:12                         </inOneGroup>
+ 六  18 03:57:12                     </ssb-PositionsInBurst>
+ 六  18 03:57:12                     <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
+ 六  18 03:57:12                     <tdd-UL-DL-ConfigurationCommon>
+ 六  18 03:57:12                         <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
+ 六  18 03:57:12                         <pattern1>
+ 六  18 03:57:12                             <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
+ 六  18 03:57:12                             <nrofDownlinkSlots>7</nrofDownlinkSlots>
+ 六  18 03:57:12                             <nrofDownlinkSymbols>6</nrofDownlinkSymbols>
+ 六  18 03:57:12                             <nrofUplinkSlots>2</nrofUplinkSlots>
+ 六  18 03:57:12                             <nrofUplinkSymbols>4</nrofUplinkSymbols>
+ 六  18 03:57:12                         </pattern1>
+ 六  18 03:57:12                     </tdd-UL-DL-ConfigurationCommon>
+ 六  18 03:57:12                     <ss-PBCH-BlockPower>-25</ss-PBCH-BlockPower>
+ 六  18 03:57:12                 </servingCellConfigCommon>
+ 六  18 03:57:12                 <ue-TimersAndConstants>
+ 六  18 03:57:12                     <t300><ms400/></t300>
+ 六  18 03:57:12                     <t301><ms400/></t301>
+ 六  18 03:57:12                     <t310><ms2000/></t310>
+ 六  18 03:57:12                     <n310><n10/></n310>
+ 六  18 03:57:12                     <t311><ms3000/></t311>
+ 六  18 03:57:12                     <n311><n1/></n311>
+ 六  18 03:57:12                     <t319><ms400/></t319>
+ 六  18 03:57:12                 </ue-TimersAndConstants>
+ 六  18 03:57:12             </systemInformationBlockType1>
+ 六  18 03:57:12         </c1>
+ 六  18 03:57:12     </message>
+ 六  18 03:57:12 </BCCH-DL-SCH-Message>
+ 六  18 03:57:12 [32m[NR_RRC]   SIB1 decoded
+ 六  18 03:57:12 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+ 六  18 03:57:12 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 六  18 03:57:12 [0m[NR_MAC]   Decoding NR-BCCH-DL-SCH-Message (SIB1 or SI)
+ 六  18 03:57:12 [0m<BCCH-DL-SCH-Message>
+ 六  18 03:57:12     <message>
+ 六  18 03:57:12         <c1>
+ 六  18 03:57:12             <systemInformation>
+ 六  18 03:57:12                 <criticalExtensions>
+ 六  18 03:57:12                     <systemInformation>
+ 六  18 03:57:12                         <sib-TypeAndInfo>
+ 六  18 03:57:12                                 <sib2>
+ 六  18 03:57:12                                     <cellReselectionInfoCommon>
+ 六  18 03:57:12                                         <q-Hyst><dB0/></q-Hyst>
+ 六  18 03:57:12                                     </cellReselectionInfoCommon>
+ 六  18 03:57:12                                     <cellReselectionServingFreqInfo>
+ 六  18 03:57:12                                         <threshServingLowP>0</threshServingLowP>
+ 六  18 03:57:12                                         <cellReselectionPriority>0</cellReselectionPriority>
+ 六  18 03:57:12                                     </cellReselectionServingFreqInfo>
+ 六  18 03:57:12                                     <intraFreqCellReselectionInfo>
+ 六  18 03:57:12                                         <q-RxLevMin>-70</q-RxLevMin>
+ 六  18 03:57:12                                         <s-IntraSearchP>0</s-IntraSearchP>
+ 六  18 03:57:12                                         <t-ReselectionNR>0</t-ReselectionNR>
+ 六  18 03:57:12                                         <deriveSSB-IndexFromCell><false/></deriveSSB-IndexFromCell>
+ 六  18 03:57:12                                     </intraFreqCellReselectionInfo>
+ 六  18 03:57:12                                 </sib2>
+ 六  18 03:57:12                             
+ 六  18 03:57:12                         </sib-TypeAndInfo>
+ 六  18 03:57:12                     </systemInformation>
+ 六  18 03:57:12                 </criticalExtensions>
+ 六  18 03:57:12             </systemInformation>
+ 六  18 03:57:12         </c1>
+ 六  18 03:57:12     </message>
+ 六  18 03:57:12 </BCCH-DL-SCH-Message>
+ 六  18 03:57:12 [NR_RRC]   [UE 0] Decoding SI
+ 六  18 03:57:12 [0m[RRC]   Found SIB2
+ 六  18 03:57:12 [0m[NR_PHY]   ============================================
+ 六  18 03:57:12 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:12 [0m[NR_PHY]   ============================================
+ 六  18 03:57:13 [0m[NR_PHY]   ============================================
+ 六  18 03:57:13 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:13 [0m[NR_PHY]   ============================================
+ 六  18 03:57:14 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+ 六  18 03:57:14 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 六  18 03:57:14 [0m[NR_MAC]   Initialization of 4-step contention-based random access procedure
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][183.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[NR_PHY]   ============================================
+ 六  18 03:57:14 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:14 [0m[NR_PHY]   ============================================
+ 六  18 03:57:14 [0m[93m[MAC]   [UE 0][192:9] RAR reception failed 
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 193, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 193.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][193.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[93m[MAC]   [UE 0][202:9] RAR reception failed 
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 203, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 203.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][203.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[93m[MAC]   [UE 0][212:9] RAR reception failed 
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 213, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 213.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][213.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[93m[MAC]   [UE 0][222:9] RAR reception failed 
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 223, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 223.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][223.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[93m[MAC]   [UE 0][232:9] RAR reception failed 
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 233, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 233.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][233.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[93m[MAC]   [UE 0][242:9] RAR reception failed 
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 243, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 243.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][243.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[93m[MAC]   [UE 0][252:9] RAR reception failed 
+ 六  18 03:57:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 253, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:14 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:14 [0m[PHY]   PRACH [UE 0] in frame.slot 253.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:14 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][253.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:14 [0m[NR_PHY]   ============================================
+ 六  18 03:57:14 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:14 [0m[NR_PHY]   ============================================
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][262:9] RAR reception failed 
+ 六  18 03:57:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 263, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:15 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:15 [0m[PHY]   PRACH [UE 0] in frame.slot 263.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:15 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][263.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][272:9] RAR reception failed 
+ 六  18 03:57:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 273, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:15 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:15 [0m[PHY]   PRACH [UE 0] in frame.slot 273.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:15 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][273.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][282:9] RAR reception failed 
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][282:17] RAR reception failed 
+ 六  18 03:57:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 283, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:15 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:15 [0m[PHY]   PRACH [UE 0] in frame.slot 283.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:15 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][283.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][292:9] RAR reception failed 
+ 六  18 03:57:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 293, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:15 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:15 [0m[PHY]   PRACH [UE 0] in frame.slot 293.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:15 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][293.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][302:9] RAR reception failed 
+ 六  18 03:57:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 303, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:15 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:15 [0m[PHY]   PRACH [UE 0] in frame.slot 303.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:15 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][303.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][312:9] RAR reception failed 
+ 六  18 03:57:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 313, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:15 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:15 [0m[PHY]   PRACH [UE 0] in frame.slot 313.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:15 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][313.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:15 [0m[NR_PHY]   ============================================
+ 六  18 03:57:15 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:15 [0m[NR_PHY]   ============================================
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][322:9] RAR reception failed 
+ 六  18 03:57:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 323, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:15 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:15 [0m[PHY]   PRACH [UE 0] in frame.slot 323.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:15 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][323.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:15 [0m[93m[MAC]   [UE 0][332:9] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 333, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 333.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][333.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][342:9] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 343, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 343.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][343.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][352:9] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 353, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 353.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][353.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][362:9] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 363, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 363.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][363.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][372:9] RAR reception failed 
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][372:17] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 373, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 373.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][373.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][382:9] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 383, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 383.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][383.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:16 [0m[NR_PHY]   ============================================
+ 六  18 03:57:16 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:16 [0m[NR_PHY]   ============================================
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][392:9] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 393, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 393.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][393.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:16 [0m[93m[MAC]   [UE 0][402:9] RAR reception failed 
+ 六  18 03:57:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 403, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:16 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:16 [0m[PHY]   PRACH [UE 0] in frame.slot 403.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:16 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][403.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][412:9] RAR reception failed 
+ 六  18 03:57:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 413, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:17 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:17 [0m[PHY]   PRACH [UE 0] in frame.slot 413.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:17 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][413.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][422:9] RAR reception failed 
+ 六  18 03:57:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 423, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:17 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:17 [0m[PHY]   PRACH [UE 0] in frame.slot 423.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:17 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][423.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][432:9] RAR reception failed 
+ 六  18 03:57:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 433, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:17 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:17 [0m[PHY]   PRACH [UE 0] in frame.slot 433.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:17 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][433.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][442:9] RAR reception failed 
+ 六  18 03:57:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 443, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:17 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:17 [0m[PHY]   PRACH [UE 0] in frame.slot 443.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:17 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][443.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[NR_PHY]   ============================================
+ 六  18 03:57:17 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:17 [0m[NR_PHY]   ============================================
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][452:9] RAR reception failed 
+ 六  18 03:57:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 453, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:17 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:17 [0m[PHY]   PRACH [UE 0] in frame.slot 453.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:17 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][453.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][462:9] RAR reception failed 
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][462:17] RAR reception failed 
+ 六  18 03:57:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 463, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:17 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:17 [0m[PHY]   PRACH [UE 0] in frame.slot 463.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:17 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][463.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][472:9] RAR reception failed 
+ 六  18 03:57:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 473, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:17 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:17 [0m[PHY]   PRACH [UE 0] in frame.slot 473.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:17 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][473.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:17 [0m[93m[MAC]   [UE 0][482:9] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 483, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 483.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][483.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][492:9] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 493, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 493.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][493.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][502:9] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 503, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 503.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][503.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:18 [0m[NR_PHY]   ============================================
+ 六  18 03:57:18 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:18 [0m[NR_PHY]   ============================================
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][512:9] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 513, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 513.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][513.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][522:9] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 523, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 523.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][523.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][532:9] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 533, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 533.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][533.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][542:9] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 543, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 543.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][543.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][552:9] RAR reception failed 
+ 六  18 03:57:18 [0m[93m[MAC]   [UE 0][552:17] RAR reception failed 
+ 六  18 03:57:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 553, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:18 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:18 [0m[PHY]   PRACH [UE 0] in frame.slot 553.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:18 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][553.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][562:9] RAR reception failed 
+ 六  18 03:57:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 563, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:19 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:19 [0m[PHY]   PRACH [UE 0] in frame.slot 563.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][563.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][572:9] RAR reception failed 
+ 六  18 03:57:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 573, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:19 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:19 [0m[PHY]   PRACH [UE 0] in frame.slot 573.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][573.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[NR_PHY]   ============================================
+ 六  18 03:57:19 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:19 [0m[NR_PHY]   ============================================
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][582:9] RAR reception failed 
+ 六  18 03:57:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 583, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:19 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:19 [0m[PHY]   PRACH [UE 0] in frame.slot 583.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][583.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][592:9] RAR reception failed 
+ 六  18 03:57:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 593, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:19 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:19 [0m[PHY]   PRACH [UE 0] in frame.slot 593.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][593.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][602:9] RAR reception failed 
+ 六  18 03:57:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 603, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:19 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:19 [0m[PHY]   PRACH [UE 0] in frame.slot 603.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][603.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][612:9] RAR reception failed 
+ 六  18 03:57:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 613, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:19 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:19 [0m[PHY]   PRACH [UE 0] in frame.slot 613.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][613.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][622:9] RAR reception failed 
+ 六  18 03:57:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 623, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:19 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:19 [0m[PHY]   PRACH [UE 0] in frame.slot 623.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:19 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][623.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:19 [0m[93m[MAC]   [UE 0][632:9] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 633, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 633.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][633.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[NR_PHY]   ============================================
+ 六  18 03:57:20 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:20 [0m[NR_PHY]   ============================================
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][642:9] RAR reception failed 
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][642:17] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 643, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 643.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][643.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][652:9] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 653, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 653.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][653.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][662:9] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 663, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 663.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][663.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][672:9] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 673, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 673.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][673.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][682:9] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 683, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 683.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][683.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][692:9] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 693, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 693.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][693.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[93m[MAC]   [UE 0][702:9] RAR reception failed 
+ 六  18 03:57:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 703, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:20 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:20 [0m[PHY]   PRACH [UE 0] in frame.slot 703.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:20 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][703.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:20 [0m[NR_PHY]   ============================================
+ 六  18 03:57:20 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 六  18 03:57:20 [0m[NR_PHY]   ============================================
+ 六  18 03:57:21 [0m[93m[MAC]   [UE 0][712:9] RAR reception failed 
+ 六  18 03:57:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 713, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:21 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:21 [0m[PHY]   PRACH [UE 0] in frame.slot 713.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][713.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:21 [0m[93m[MAC]   [UE 0][722:9] RAR reception failed 
+ 六  18 03:57:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 723, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:21 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:21 [0m[PHY]   PRACH [UE 0] in frame.slot 723.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][723.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:21 [0m[93m[MAC]   [UE 0][732:9] RAR reception failed 
+ 六  18 03:57:21 [0m[93m[MAC]   [UE 0][732:17] RAR reception failed 
+ 六  18 03:57:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 733, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:21 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:21 [0m[PHY]   PRACH [UE 0] in frame.slot 733.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][733.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:21 [0m[93m[MAC]   [UE 0][742:9] RAR reception failed 
+ 六  18 03:57:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 743, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:21 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:21 [0m[PHY]   PRACH [UE 0] in frame.slot 743.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 0, first_nonzero_root_idx 0
+ 六  18 03:57:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][743.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:21 [0m[93m[MAC]   [UE 0][752:9] RAR reception failed 
+ 六  18 03:57:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 753, Slot 19, Symbol 0, Fdm 0
+ 六  18 03:57:21 [0m[MAC]   Msg1_transmitted
+ 六  18 03:57:21 [0m[PHY]   PRACH [UE 0] in frame.slot 753.19, placing PRACH in position 700, msg1 frequency start 82 (k1 82), preamble_offset 1, first_nonzero_root_idx 0
+ 六  18 03:57:21 [0m[PHY]   In nr_ue_prach_procedures: [UE 0][RAPROC][753.19]: Generated PRACH Msg1 (TX power PRACH -72 dBm, digital power 42 dBW (amp 512)
+ 六  18 03:57:21 [0mPress ^C again to trigger immediate shutdown
+ 六  18 03:57:21 [NAS]   [UE 0] Received NAS_DEREGISTRATION_REQ
+ 六  18 03:57:21 [0m[93m[NAS]   No GUTI, cannot trigger deregistration request.
+ 六  18 03:57:21 [0m[32m[NR_MAC]   Received detach indication
+ 六  18 03:57:21 [0mdouble free or corruption (fasttop)
