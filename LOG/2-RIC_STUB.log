@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
  六  25 16:23:53 
  六  25 16:23:53 Creating thread here /home/hpe/mwnl-odu-at-oai-based-on-scf/l2/src/mt/mt_ss.c 3743
  六  25 16:23:53 
@@ -316,3 +317,323 @@
  六  25 16:23:54     </initiatingMessage>
  六  25 16:23:54 </E2AP-PDU>
  六  25 16:23:54 
+=======
+juin 27 16:34:16 
+juin 27 16:34:16 Creating thread here /home/chen/quan/mwnl-odu-at-oai-based-on-scf/l2/src/mt/mt_ss.c 3743
+juin 27 16:34:16 
+juin 27 16:34:16 INFO  --> RIC : Starting RIC_STUB
+juin 27 16:34:17 INFO  --> RIC : Reading RIC configurations
+juin 27 16:34:17 INFO   -->  SCTP : Connecting
+juin 27 16:34:17 INFO   -->  SCTP : Connection established
+juin 27 16:34:17 INFO  -->  SCTP : Polling started at RIC
+juin 27 16:34:17 
+juin 27 16:34:17 INFO  -->  E2AP : Received E2AP message buffer
+juin 27 16:34:17 DEBUG  -->  E2AP : Received flat buffer to be decoded : 010ffffff82d0040310200030b264fffffff629500001010a0ffffff80ffffffb900840ffffff80ffffffb3001ffffff80ffffff9060304f52414e2d4532534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111000018312e332e362e312e342e312e35333134382e312e322e322e320320ffffff8132000330ffffff812b19ffffff8010ffffff80ffffffdb010ffffff80ffffffd600504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa30002b0ffffff80ffffff9c48064fffffff62900001000001864fffffff629000ffffff8340c01402023440ffffffa06784109ffffff8328004d4001bffffff807101133ffffffd4520032cc5b7cffffff83affffffa34061466cffffff900ffffff8000ffffff80000f7f0020281210ffffff9aaffffffc004ffffffd2ffffffce1966ffffffbbffffffc036420090ffffff82d185104dffffff83ffffffa220ffffffb04004ffffffd3ffffffabffffff9c32ffffffcdffffffa8ffffffc414ffffffb5ffffffa9ffffff99fffffff31e4e249ffffffc632146424ffffffe1501c3b15ffffff80ffffffec24466fffffff621ffffff800ffffffab0affffff80000ffffffc703f504940104500304e020105240106ffffff80674e422d45757265636f6d2d435503024000401e6064fffffff62900001000000760d00904010ffffff900ffffffa0ffffff94400
+juin 27 16:34:17 <E2AP-PDU>
+juin 27 16:34:17     <initiatingMessage>
+juin 27 16:34:17         <procedureCode>1</procedureCode>
+juin 27 16:34:17         <criticality><reject/></criticality>
+juin 27 16:34:17         <value>
+juin 27 16:34:17             <E2setupRequest>
+juin 27 16:34:17                 <protocolIEs>
+juin 27 16:34:17                     <E2setupRequestIEs>
+juin 27 16:34:17                         <id>49</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <TransactionID>0</TransactionID>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupRequestIEs>
+juin 27 16:34:17                     <E2setupRequestIEs>
+juin 27 16:34:17                         <id>3</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <GlobalE2node-ID>
+juin 27 16:34:17                                 <gNB>
+juin 27 16:34:17                                     <global-gNB-ID>
+juin 27 16:34:17                                         <plmn-id>64 F6 29</plmn-id>
+juin 27 16:34:17                                         <gnb-id>
+juin 27 16:34:17                                             <gnb-ID>
+juin 27 16:34:17                                                 00000000000000000000000000000001
+juin 27 16:34:17                                             </gnb-ID>
+juin 27 16:34:17                                         </gnb-id>
+juin 27 16:34:17                                     </global-gNB-ID>
+juin 27 16:34:17                                     <gNB-DU-ID>1</gNB-DU-ID>
+juin 27 16:34:17                                 </gNB>
+juin 27 16:34:17                             </GlobalE2node-ID>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupRequestIEs>
+juin 27 16:34:17                     <E2setupRequestIEs>
+juin 27 16:34:17                         <id>10</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <RANfunctions-List>
+juin 27 16:34:17                                 <ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                                     <id>8</id>
+juin 27 16:34:17                                     <criticality><ignore/></criticality>
+juin 27 16:34:17                                     <value>
+juin 27 16:34:17                                         <RANfunction-Item>
+juin 27 16:34:17                                             <ranFunctionID>1</ranFunctionID>
+juin 27 16:34:17                                             <ranFunctionDefinition>
+juin 27 16:34:17                                                 60 30 4F 52 41 4E 2D 45 32 53 4D 2D 4B 50 4D 00 
+juin 27 16:34:17                                                 00 18 31 2E 33 2E 36 2E 31 2E 34 2E 31 2E 35 33 
+juin 27 16:34:17                                                 31 34 38 2E 31 2E 32 2E 32 2E 32 05 00 4B 50 4D 
+juin 27 16:34:17                                                 20 4D 6F 6E 69 74 6F 72 00 01 01 07 00 50 65 72 
+juin 27 16:34:17                                                 69 6F 64 69 63 20 52 65 70 6F 72 74 01 01 00 01 
+juin 27 16:34:17                                                 01 09 00 45 32 20 4E 6F 64 65 20 4D 65 61 73 75 
+juin 27 16:34:17                                                 72 65 6D 65 6E 74 01 01 00 01 41 60 52 52 55 2E 
+juin 27 16:34:17                                                 50 72 62 54 6F 74 44 6C 00 00 00 41 60 52 52 55 
+juin 27 16:34:17                                                 2E 50 72 62 54 6F 74 55 6C 00 00 01 01 01 01 01
+juin 27 16:34:17                                             </ranFunctionDefinition>
+juin 27 16:34:17                                             <ranFunctionRevision>0</ranFunctionRevision>
+juin 27 16:34:17                                             <ranFunctionOID>1.3.6.1.4.1.53148.1.2.2.2</ranFunctionOID>
+juin 27 16:34:17                                         </RANfunction-Item>
+juin 27 16:34:17                                     </value>
+juin 27 16:34:17                                 </ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                             </RANfunctions-List>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupRequestIEs>
+juin 27 16:34:17                     <E2setupRequestIEs>
+juin 27 16:34:17                         <id>50</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <E2nodeComponentConfigAddition-List>
+juin 27 16:34:17                                 <ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                                     <id>51</id>
+juin 27 16:34:17                                     <criticality><reject/></criticality>
+juin 27 16:34:17                                     <value>
+juin 27 16:34:17                                         <E2nodeComponentConfigAddition-Item>
+juin 27 16:34:17                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+juin 27 16:34:17                                             <e2nodeComponentID>
+juin 27 16:34:17                                                 <e2nodeComponentInterfaceTypeF1>
+juin 27 16:34:17                                                     <gNB-DU-ID>1</gNB-DU-ID>
+juin 27 16:34:17                                                 </e2nodeComponentInterfaceTypeF1>
+juin 27 16:34:17                                             </e2nodeComponentID>
+juin 27 16:34:17                                             <e2nodeComponentConfiguration>
+juin 27 16:34:17                                                 <e2nodeComponentRequestPart>
+juin 27 16:34:17                                                     00 01 00 80 D6 00 00 05 00 4E 00 02 00 01 00 2A 
+juin 27 16:34:17                                                     00 02 00 01 00 2D 40 0D 05 00 4F 52 41 4E 20 4F 
+juin 27 16:34:17                                                     41 4D 20 44 55 00 2C 00 80 A3 00 00 00 2B 00 80 
+juin 27 16:34:17                                                     9C 48 00 64 F6 29 00 00 00 00 10 00 00 00 00 01 
+juin 27 16:34:17                                                     08 64 F6 29 00 00 00 83 40 0C 00 01 40 20 02 03 
+juin 27 16:34:17                                                     04 40 A0 06 07 08 41 00 09 83 28 00 00 4D 04 00 
+juin 27 16:34:17                                                     00 01 0B 80 07 10 11 33 D4 05 02 00 00 03 02 0C 
+juin 27 16:34:17                                                     0C 5B 7C 83 0A A3 40 61 46 6C 90 00 80 00 00 80 
+juin 27 16:34:17                                                     00 00 00 0F 7F 00 00 20 28 12 10 9A 0A C0 00 04 
+juin 27 16:34:17                                                     D2 CE 19 66 BB C0 36 04 02 00 00 09 00 82 0D 18 
+juin 27 16:34:17                                                     05 10 4D 83 A2 20 B0 40 00 04 D3 AB 9C 32 CD A8 
+juin 27 16:34:17                                                     C4 14 B5 A9 99 F3 1E 4E 02 49 C6 32 14 64 24 E1 
+juin 27 16:34:17                                                     50 1C 3B 01 05 80 EC 02 44 66 F6 21 80 00 AB 00 
+juin 27 16:34:17                                                     0A 80 00 00 00 C7 00 03 0F 05 00
+juin 27 16:34:17                                                 </e2nodeComponentRequestPart>
+juin 27 16:34:17                                                 <e2nodeComponentResponsePart>
+juin 27 16:34:17                                                     40 01 00 45 00 00 03 00 4E 00 02 00 01 00 52 40 
+juin 27 16:34:17                                                     10 06 80 67 4E 42 2D 45 75 72 65 63 6F 6D 2D 43 
+juin 27 16:34:17                                                     55 00 03 00 24 00 00 00 04 00 1E 60 64 F6 29 00 
+juin 27 16:34:17                                                     00 00 00 10 00 00 00 00 00 76 00 0D 00 00 09 00 
+juin 27 16:34:17                                                     40 01 00 90 00 A0 94 40 00
+juin 27 16:34:17                                                 </e2nodeComponentResponsePart>
+juin 27 16:34:17                                             </e2nodeComponentConfiguration>
+juin 27 16:34:17                                         </E2nodeComponentConfigAddition-Item>
+juin 27 16:34:17                                     </value>
+juin 27 16:34:17                                 </ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                             </E2nodeComponentConfigAddition-List>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupRequestIEs>
+juin 27 16:34:17                 </protocolIEs>
+juin 27 16:34:17             </E2setupRequest>
+juin 27 16:34:17         </value>
+juin 27 16:34:17     </initiatingMessage>
+juin 27 16:34:17 </E2AP-PDU>
+juin 27 16:34:17 
+juin 27 16:34:17 INFO  -->  E2AP : E2 setup request received
+juin 27 16:34:17 INFO   -->  E2AP : Building E2 Setup Response
+juin 27 16:34:17 <E2AP-PDU>
+juin 27 16:34:17     <successfulOutcome>
+juin 27 16:34:17         <procedureCode>1</procedureCode>
+juin 27 16:34:17         <criticality><reject/></criticality>
+juin 27 16:34:17         <value>
+juin 27 16:34:17             <E2setupResponse>
+juin 27 16:34:17                 <protocolIEs>
+juin 27 16:34:17                     <E2setupResponseIEs>
+juin 27 16:34:17                         <id>49</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <TransactionID>0</TransactionID>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupResponseIEs>
+juin 27 16:34:17                     <E2setupResponseIEs>
+juin 27 16:34:17                         <id>4</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <GlobalRIC-ID>
+juin 27 16:34:17                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
+juin 27 16:34:17                                 <ric-ID>
+juin 27 16:34:17                                     00000000000000000001
+juin 27 16:34:17                                 </ric-ID>
+juin 27 16:34:17                             </GlobalRIC-ID>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupResponseIEs>
+juin 27 16:34:17                     <E2setupResponseIEs>
+juin 27 16:34:17                         <id>9</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <RANfunctionsID-List>
+juin 27 16:34:17                                 <ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                                     <id>6</id>
+juin 27 16:34:17                                     <criticality><ignore/></criticality>
+juin 27 16:34:17                                     <value>
+juin 27 16:34:17                                         <RANfunctionID-Item>
+juin 27 16:34:17                                             <ranFunctionID>1</ranFunctionID>
+juin 27 16:34:17                                             <ranFunctionRevision>0</ranFunctionRevision>
+juin 27 16:34:17                                         </RANfunctionID-Item>
+juin 27 16:34:17                                     </value>
+juin 27 16:34:17                                 </ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                             </RANfunctionsID-List>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupResponseIEs>
+juin 27 16:34:17                     <E2setupResponseIEs>
+juin 27 16:34:17                         <id>52</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <E2nodeComponentConfigAdditionAck-List>
+juin 27 16:34:17                                 <ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                                     <id>53</id>
+juin 27 16:34:17                                     <criticality><reject/></criticality>
+juin 27 16:34:17                                     <value>
+juin 27 16:34:17                                         <E2nodeComponentConfigAdditionAck-Item>
+juin 27 16:34:17                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+juin 27 16:34:17                                             <e2nodeComponentID>
+juin 27 16:34:17                                                 <e2nodeComponentInterfaceTypeF1>
+juin 27 16:34:17                                                     <gNB-DU-ID>1</gNB-DU-ID>
+juin 27 16:34:17                                                 </e2nodeComponentInterfaceTypeF1>
+juin 27 16:34:17                                             </e2nodeComponentID>
+juin 27 16:34:17                                             <e2nodeComponentConfigurationAck>
+juin 27 16:34:17                                                 <updateOutcome><success/></updateOutcome>
+juin 27 16:34:17                                             </e2nodeComponentConfigurationAck>
+juin 27 16:34:17                                         </E2nodeComponentConfigAdditionAck-Item>
+juin 27 16:34:17                                     </value>
+juin 27 16:34:17                                 </ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                             </E2nodeComponentConfigAdditionAck-List>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2setupResponseIEs>
+juin 27 16:34:17                 </protocolIEs>
+juin 27 16:34:17             </E2setupResponse>
+juin 27 16:34:17         </value>
+juin 27 16:34:17     </successfulOutcome>
+juin 27 16:34:17 </E2AP-PDU>
+juin 27 16:34:17 
+juin 27 16:34:17 DEBUG  -->  E2AP : Created APER encoded buffer for E2SetupResponse
+juin 27 16:34:17 20103000403102000407013fffffff1ffffff840010090a006405001000340a000350419ffffff8010
+juin 27 16:34:17 INFO   -->  E2AP : Building RIC Subscription Request
+juin 27 16:34:17 <E2SM-KPM-EventTriggerDefinition>
+juin 27 16:34:17     <eventDefinition-formats>
+juin 27 16:34:17         <eventDefinition-Format1>
+juin 27 16:34:17             <reportingPeriod>1000</reportingPeriod>
+juin 27 16:34:17         </eventDefinition-Format1>
+juin 27 16:34:17     </eventDefinition-formats>
+juin 27 16:34:17 </E2SM-KPM-EventTriggerDefinition>
+juin 27 16:34:17 <E2SM-KPM-ActionDefinition>
+juin 27 16:34:17     <ric-Style-Type>1</ric-Style-Type>
+juin 27 16:34:17     <actionDefinition-formats>
+juin 27 16:34:17         <actionDefinition-Format1>
+juin 27 16:34:17             <measInfoList>
+juin 27 16:34:17                 <MeasurementInfoItem>
+juin 27 16:34:17                     <measType>
+juin 27 16:34:17                         <measName>RRU.PrbTotDl</measName>
+juin 27 16:34:17                     </measType>
+juin 27 16:34:17                     <labelInfoList>
+juin 27 16:34:17                     </labelInfoList>
+juin 27 16:34:17                 </MeasurementInfoItem>
+juin 27 16:34:17                 <MeasurementInfoItem>
+juin 27 16:34:17                     <measType>
+juin 27 16:34:17                         <measName>RRU.PrbTotUl</measName>
+juin 27 16:34:17                     </measType>
+juin 27 16:34:17                     <labelInfoList>
+juin 27 16:34:17                     </labelInfoList>
+juin 27 16:34:17                 </MeasurementInfoItem>
+juin 27 16:34:17             </measInfoList>
+juin 27 16:34:17             <granulPeriod>100</granulPeriod>
+juin 27 16:34:17         </actionDefinition-Format1>
+juin 27 16:34:17     </actionDefinition-formats>
+juin 27 16:34:17 </E2SM-KPM-ActionDefinition>
+juin 27 16:34:17 <E2AP-PDU>
+juin 27 16:34:17     <initiatingMessage>
+juin 27 16:34:17         <procedureCode>8</procedureCode>
+juin 27 16:34:17         <criticality><reject/></criticality>
+juin 27 16:34:17         <value>
+juin 27 16:34:17             <RICsubscriptionRequest>
+juin 27 16:34:17                 <protocolIEs>
+juin 27 16:34:17                     <RICsubscriptionRequest-IEs>
+juin 27 16:34:17                         <id>29</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <RICrequestID>
+juin 27 16:34:17                                 <ricRequestorID>1</ricRequestorID>
+juin 27 16:34:17                                 <ricInstanceID>1</ricInstanceID>
+juin 27 16:34:17                             </RICrequestID>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </RICsubscriptionRequest-IEs>
+juin 27 16:34:17                     <RICsubscriptionRequest-IEs>
+juin 27 16:34:17                         <id>5</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <RANfunctionID>1</RANfunctionID>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </RICsubscriptionRequest-IEs>
+juin 27 16:34:17                     <RICsubscriptionRequest-IEs>
+juin 27 16:34:17                         <id>30</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <RICsubscriptionDetails>
+juin 27 16:34:17                                 <ricEventTriggerDefinition>08 03 E7</ricEventTriggerDefinition>
+juin 27 16:34:17                                 <ricAction-ToBeSetup-List>
+juin 27 16:34:17                                     <ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                                         <id>19</id>
+juin 27 16:34:17                                         <criticality><ignore/></criticality>
+juin 27 16:34:17                                         <value>
+juin 27 16:34:17                                             <RICaction-ToBeSetup-Item>
+juin 27 16:34:17                                                 <ricActionID>0</ricActionID>
+juin 27 16:34:17                                                 <ricActionType><report/></ricActionType>
+juin 27 16:34:17                                                 <ricActionDefinition>
+juin 27 16:34:17                                                     00 01 01 00 00 01 00 B0 52 52 55 2E 50 72 62 54 
+juin 27 16:34:17                                                     6F 74 44 6C 00 00 B0 52 52 55 2E 50 72 62 54 6F 
+juin 27 16:34:17                                                     74 55 6C 00 00 63
+juin 27 16:34:17                                                 </ricActionDefinition>
+juin 27 16:34:17                                             </RICaction-ToBeSetup-Item>
+juin 27 16:34:17                                         </value>
+juin 27 16:34:17                                     </ProtocolIE-SingleContainerE2>
+juin 27 16:34:17                                 </ricAction-ToBeSetup-List>
+juin 27 16:34:17                             </RICsubscriptionDetails>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </RICsubscriptionRequest-IEs>
+juin 27 16:34:17                 </protocolIEs>
+juin 27 16:34:17             </RICsubscriptionRequest>
+juin 27 16:34:17         </value>
+juin 27 16:34:17     </initiatingMessage>
+juin 27 16:34:17 </E2AP-PDU>
+juin 27 16:34:17 
+juin 27 16:34:17 DEBUG  -->  E2AP : Created APER encoded buffer for RicSubscriptionRequest
+juin 27 16:34:17 0804a00301d050010105020101e0340383ffffffe70013402a4000260110010ffffffb05252552e507262546f74446c00ffffffb05252552e507262546f74556c0063
+juin 27 16:34:17 INFO  -->  E2AP : Received E2AP message buffer
+juin 27 16:34:17 DEBUG  -->  E2AP : Received flat buffer to be decoded : 0a090010310201
+juin 27 16:34:17 <E2AP-PDU>
+juin 27 16:34:17     <initiatingMessage>
+juin 27 16:34:17         <procedureCode>10</procedureCode>
+juin 27 16:34:17         <criticality><reject/></criticality>
+juin 27 16:34:17         <value>
+juin 27 16:34:17             <E2nodeConfigurationUpdate>
+juin 27 16:34:17                 <protocolIEs>
+juin 27 16:34:17                     <E2nodeConfigurationUpdate-IEs>
+juin 27 16:34:17                         <id>49</id>
+juin 27 16:34:17                         <criticality><reject/></criticality>
+juin 27 16:34:17                         <value>
+juin 27 16:34:17                             <TransactionID>1</TransactionID>
+juin 27 16:34:17                         </value>
+juin 27 16:34:17                     </E2nodeConfigurationUpdate-IEs>
+juin 27 16:34:17                 </protocolIEs>
+juin 27 16:34:17             </E2nodeConfigurationUpdate>
+juin 27 16:34:17         </value>
+juin 27 16:34:17     </initiatingMessage>
+juin 27 16:34:17 </E2AP-PDU>
+juin 27 16:34:17 
+>>>>>>> Stashed changes

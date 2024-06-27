@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
  六  25 16:23:56 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
  六  25 16:23:56 [CONFIG] get parameters from libconfig /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/hpe/NTUST-script/ELSE
  六  25 16:23:56 [CONFIG] function config_libconfig_init returned 0
@@ -13789,3 +13790,827 @@
  六  25 16:24:14 [0m[PHY]   RU 0 RF device stopped
  六  25 16:24:14 [0m[PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
  六  25 16:24:14 [0mBye.
+=======
+juin 27 16:34:17 CMDLINE: "/home/chen/quan/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/chen/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
+juin 27 16:34:17 [CONFIG] get parameters from libconfig /home/chen/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/chen/NTUST-script/ELSE
+juin 27 16:34:17 [CONFIG] function config_libconfig_init returned 0
+juin 27 16:34:17 [CONFIG] config module libconfig loaded
+juin 27 16:34:17 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+juin 27 16:34:17 [CONFIG] debug flags: 0x00000000
+juin 27 16:34:17 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+juin 27 16:34:17 [LIBCONFIG] log_config: 50/50 parameters successfully set, (44 to default value)
+juin 27 16:34:17 [LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+juin 27 16:34:17 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+juin 27 16:34:17 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+juin 27 16:34:17 log init done
+juin 27 16:34:17 [HW]   # /dev/cpu_dma_latency set to 2 us
+juin 27 16:34:17 [0mReading in command-line options
+juin 27 16:34:17 [LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+juin 27 16:34:17 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+juin 27 16:34:17 [ENB_APP]   nfapi (1) running mode: PNF
+juin 27 16:34:17 [0m[GNB_APP]   Getting GNBSParams
+juin 27 16:34:17 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+juin 27 16:34:17 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+juin 27 16:34:17 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+juin 27 16:34:17 [CONFIG] parallel_conf is set to 0
+juin 27 16:34:17 [CONFIG] worker_conf is set to 1
+juin 27 16:34:17 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+juin 27 16:34:17 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+juin 27 16:34:17 configuring for RAU/RRU
+juin 27 16:34:18 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+juin 27 16:34:18 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+juin 27 16:34:18 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+juin 27 16:34:18 [OPT]   OPT disabled
+juin 27 16:34:18 [0m[HW]   Version: Branch: HEAD Abrev. Hash: 8b8090863e Date: Tue May 28 22:39:54 2024 +0800
+juin 27 16:34:18 [0m[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (20 to default value)
+juin 27 16:34:18 [LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (25 to default value)
+juin 27 16:34:18 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /home/chen/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf 
+juin 27 16:34:18 [NR_PHY]   RC.gNB = 0x56975d6ed9e0
+juin 27 16:34:18 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
+juin 27 16:34:18 [PHY]   L1_RX_THREAD_CORE -1 (15)
+juin 27 16:34:18 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+juin 27 16:34:18 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+juin 27 16:34:18 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+juin 27 16:34:18 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+juin 27 16:34:18 [0mconfigure_nr_nfapi_pnf() PNF
+juin 27 16:34:18 
+juin 27 16:34:18 
+juin 27 16:34:18 
+juin 27 16:34:18 
+juin 27 16:34:18 
+juin 27 16:34:18 [ENB_APP]   nfapi (1) running mode: PNF
+juin 27 16:34:18 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
+juin 27 16:34:18 Initializing northbound interface for L1
+juin 27 16:34:18 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+juin 27 16:34:18 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+juin 27 16:34:18 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x56975d6f9da0
+juin 27 16:34:18 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+juin 27 16:34:18 [0m[PNF] pnf param request
+juin 27 16:34:18 [PNF] pnf config request
+juin 27 16:34:18 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+juin 27 16:34:18 [PNF] Sent pnf_config_resp
+juin 27 16:34:18 Received NFAPI_PNF_START_REQUEST
+juin 27 16:34:18 [PNF] Sent NFAPI_PNF_START_RESP
+juin 27 16:34:18 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+juin 27 16:34:18 TAG value :2
+juin 27 16:34:18 RUNNING pack_param_response
+juin 27 16:34:18 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+juin 27 16:34:18 b8 10 01 00 02 00 64 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 64 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1c 00 01 00 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 21 00 04 00 00 00 00 10 22 00 04 80 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 28 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c5 b3 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 01 1e 00 01 1e 00 00 00 
+juin 27 16:34:18 *** have tag 1001, idx 0
+juin 27 16:34:18 *** have tag 1002, idx 1
+juin 27 16:34:18 *** have tag 1005, idx 4
+juin 27 16:34:18 *** have tag 1006, idx 5
+juin 27 16:34:18 *** have tag 1007, idx 6
+juin 27 16:34:18 *** have tag 100a, idx 9
+juin 27 16:34:18 *** have tag 100c, idx 11
+juin 27 16:34:18 *** have tag 100d, idx 12
+juin 27 16:34:18 *** have tag 100e, idx 13
+juin 27 16:34:18 *** have tag 100f, idx 14
+juin 27 16:34:18 *** have tag 1010, idx 15
+juin 27 16:34:18 *** have tag 1011, idx 16
+juin 27 16:34:18 *** have tag 1012, idx 17
+juin 27 16:34:18 *** have tag 1013, idx 18
+juin 27 16:34:18 *** have tag 1014, idx 19
+juin 27 16:34:18 *** have tag 1029, idx 20
+juin 27 16:34:18 *** have tag 101b, idx 27
+juin 27 16:34:18 *** have tag 101c, idx 28
+juin 27 16:34:18 *** have tag 101d, idx 29
+juin 27 16:34:18 *** have tag 101f, idx 31
+juin 27 16:34:18 *** have tag 1020, idx 32
+juin 27 16:34:18 *** have tag 1021, idx 33
+juin 27 16:34:18 *** have tag 1026, idx 38
+juin 27 16:34:18 *** have tag 1028, idx 40
+juin 27 16:34:18 *** have tag 100, idx 41
+juin 27 16:34:18 *** have tag 102, idx 43
+juin 27 16:34:18 *** have tag 11f, idx 45
+juin 27 16:34:18 *** have tag 120, idx 46
+juin 27 16:34:18 *** have tag 11e, idx 44
+juin 27 16:34:18 [PNF] vnf p7 127.0.0.1:50611
+juin 27 16:34:18 carrier_config
+juin 27 16:34:18   bw t 4097 l 2 v 100
+juin 27 16:34:18   freq t 4098 l 4 v 3600120
+juin 27 16:34:18   dl_k0[0] t 0 l 0 v 0
+juin 27 16:34:18   dl_k0[1] t 4099 l 10 v 0
+juin 27 16:34:18   dl_k0[2] t 0 l 0 v 0
+juin 27 16:34:18   dl_k0[3] t 0 l 0 v 0
+juin 27 16:34:18   dl_k0[4] t 0 l 0 v 0
+juin 27 16:34:18   dl_grid_size[0] t 0 l 0 v 0
+juin 27 16:34:18   dl_grid_size[1] t 4100 l 10 v 106
+juin 27 16:34:18   dl_grid_size[2] t 0 l 0 v 0
+juin 27 16:34:18   dl_grid_size[3] t 0 l 0 v 0
+juin 27 16:34:18   dl_grid_size[4] t 0 l 0 v 0
+juin 27 16:34:18   num_tx_ant t 4101 l 2 v 1
+juin 27 16:34:18   uplink_bandwidth t 4102 l 2 v 100
+juin 27 16:34:18   uplink_frequency t 4103 l 4 v 3600120
+juin 27 16:34:18   ul_k0[0] t 0 l 0 v 0
+juin 27 16:34:18   ul_k0[1] t 4104 l 10 v 0
+juin 27 16:34:18   ul_k0[2] t 0 l 0 v 0
+juin 27 16:34:18   ul_k0[3] t 0 l 0 v 0
+juin 27 16:34:18   ul_k0[4] t 0 l 0 v 0
+juin 27 16:34:18   ul_grid_size[0] t 0 l 0 v 0
+juin 27 16:34:18   ul_grid_size[1] t 4105 l 10 v 106
+juin 27 16:34:18   ul_grid_size[2] t 0 l 0 v 0
+juin 27 16:34:18   ul_grid_size[3] t 0 l 0 v 0
+juin 27 16:34:18   ul_grid_size[4] t 0 l 0 v 0
+juin 27 16:34:18   num_rx_ant t 4106 l 2 v 1
+juin 27 16:34:18   frequency_shift_7p5khz t 0 l 0 v 0
+juin 27 16:34:18 prach_config
+juin 27 16:34:18   prach_sequence_length t 4113 l 1 v 1
+juin 27 16:34:18   prach_sub_c_spacing t 4114 l 1 v 1
+juin 27 16:34:18   restricted_set_config t 4115 l 1 v 0
+juin 27 16:34:18   num_prach_fd_occasions t 4116 l 1 v 1
+juin 27 16:34:18   prach_ConfigurationIndex t 4137 l 1 v 98
+juin 27 16:34:18     prach_root_sequence_index t 4117 l 2 v 1
+juin 27 16:34:18     num_root_sequences t 4118 l 1 v 16
+juin 27 16:34:18     k1 t 4119 l 2 v 0
+juin 27 16:34:18     prach_zero_corr_conf t 4120 l 1 v 13
+juin 27 16:34:18     num_unused_root_sequences t 4121 l 2 v 0
+juin 27 16:34:18   ssb_per_rach t 4123 l 1 v 3
+juin 27 16:34:18   prach_multiple_carriers_in_a_band t 4124 l 1 v 0
+juin 27 16:34:18 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+juin 27 16:34:18 
+juin 27 16:34:18 Timing window tag: 286
+juin 27 16:34:18 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+juin 27 16:34:18 timing info mode:3
+juin 27 16:34:18 timing info period provided value:10
+juin 27 16:34:18 21756609507 [E] 3506193984: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
+juin 27 16:34:18 [PNF] CONFIG_REQUEST[num_tlv:184] TLVs processed:6
+juin 27 16:34:18 [PNF] Simulating PHY CONFIG
+juin 27 16:34:18 DL frequency 3619200000: band 48, UL frequency 3619200000
+juin 27 16:34:18 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+juin 27 16:34:18 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
+juin 27 16:34:18 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+juin 27 16:34:18 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+juin 27 16:34:18 [0m[PHY]   gNB 0 configured
+juin 27 16:34:18 [0m[PHY]   fp->scs=30000
+juin 27 16:34:18 [0m[PHY]   fp->ofdm_symbol_size=2048
+juin 27 16:34:18 [0m[PHY]   fp->nb_prefix_samples0=176
+juin 27 16:34:18 [0m[PHY]   fp->nb_prefix_samples=144
+juin 27 16:34:18 [0m[PHY]   fp->slots_per_subframe=2
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_frame_wCP=573440
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_subframe=61440
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_frame=614400
+juin 27 16:34:18 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+juin 27 16:34:18 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+juin 27 16:34:18 [0m[PHY]   fp->Nid_cell=0
+juin 27 16:34:18 [0m[PHY]   fp->first_carrier_offset=1412
+juin 27 16:34:18 [0m[PHY]   fp->ssb_start_subcarrier=0
+juin 27 16:34:18 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
+juin 27 16:34:18 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+juin 27 16:34:18 [PNF] Received NFAPI_START_REQ phy_id:1
+juin 27 16:34:18 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+juin 27 16:34:18 START MAIN THREADS
+juin 27 16:34:18 RC.nb_nr_L1_inst:1
+juin 27 16:34:18 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+juin 27 16:34:18 [PHY]   Initializing gNB 0 single_thread_flag:1
+juin 27 16:34:18 [0m[PHY]   Initializing gNB 0
+juin 27 16:34:18 [0m[PHY]   Registering with MAC interface module (before 0x56975d6f9da0)
+juin 27 16:34:18 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+juin 27 16:34:18 [0m[PHY]   Registering with MAC interface module (after 0x56975d6f9da0)
+juin 27 16:34:18 [0m[PHY]   Setting indication lists
+juin 27 16:34:18 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+juin 27 16:34:18 [0mwait_gNBs()
+juin 27 16:34:18 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+juin 27 16:34:18 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
+juin 27 16:34:18 subframe_buffer_size configured using phy_info->timing_window:30
+juin 27 16:34:18 [PNF] Sending PNF_START_RESP
+juin 27 16:34:18 Sending NFAPI_START_RESPONSE config:0x56975d6f1b20 phy_id:1
+juin 27 16:34:18 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+juin 27 16:34:18 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+juin 27 16:34:18 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+juin 27 16:34:18 [0mCalling sched_setscheduler(79)
+juin 27 16:34:18 gNB L1 are configured
+juin 27 16:34:18 About to Init RU threads RC.nb_RU:1
+juin 27 16:34:18 Initializing RU threads
+juin 27 16:34:18 configuring RU from file
+juin 27 16:34:18 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
+juin 27 16:34:18 Set RU mask to 1
+juin 27 16:34:18 Creating RC.ru[0]:0x56975d6fc9b0
+juin 27 16:34:18 [PHY]   RU GPIO control set as 'generic'
+juin 27 16:34:18 [0m[PHY]   Setting clock source to internal
+juin 27 16:34:18 [0m[PHY]   Setting time source to internal
+juin 27 16:34:18 [0mSetting function for RU 0 to gNodeB_3GPP
+juin 27 16:34:18 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
+juin 27 16:34:18 [RU 0] Setting half-slot parallelization to 1
+juin 27 16:34:18 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 12
+juin 27 16:34:18 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+juin 27 16:34:18 [0mconfiguring ru_id 0 (start_rf 0x569759f69230)
+juin 27 16:34:18 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+juin 27 16:34:18 [0m[PHY]   RU Thread pool size 2
+juin 27 16:34:18 [0m[PHY]   RU thread-pool core string -1,-1
+juin 27 16:34:18 [0mcreate a thread for core -1
+juin 27 16:34:18 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+juin 27 16:34:18 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+juin 27 16:34:18 [0mcreate a thread for core -1
+juin 27 16:34:18 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+juin 27 16:34:18 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+juin 27 16:34:18 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+juin 27 16:34:18 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
+juin 27 16:34:18 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 0
+juin 27 16:34:18 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+juin 27 16:34:18 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+juin 27 16:34:18 [0m[PHY]   fp->scs=30000
+juin 27 16:34:18 [0m[PHY]   fp->ofdm_symbol_size=2048
+juin 27 16:34:18 [0m[PHY]   fp->nb_prefix_samples0=176
+juin 27 16:34:18 [0m[PHY]   fp->nb_prefix_samples=144
+juin 27 16:34:18 [0m[PHY]   fp->slots_per_subframe=2
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_frame_wCP=573440
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_subframe=61440
+juin 27 16:34:18 [0m[PHY]   fp->samples_per_frame=614400
+juin 27 16:34:18 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+juin 27 16:34:18 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+juin 27 16:34:18 [0m[PHY]   fp->Nid_cell=0
+juin 27 16:34:18 [0m[PHY]   fp->first_carrier_offset=1412
+juin 27 16:34:18 [0m[PHY]   fp->ssb_start_subcarrier=0
+juin 27 16:34:18 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+juin 27 16:34:18 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
+juin 27 16:34:18 [PHY]   [INIT] common.txdata[0] = 0x72d3d056b040 (2458880 bytes,sf_extension 320)
+juin 27 16:34:18 [0m[PHY]   [INIT] common.txdata[0] = 0x72d3d056b540 
+juin 27 16:34:18 [0m[PHY]   nb_tx 1
+juin 27 16:34:18 [0m[PHY]   rxdata_7_5kHz[0] 0x72d3d150f040 for RU 0
+juin 27 16:34:18 [0m[PHY]   [INIT] common.txdata_BF= 0x72d3bc000ac0 (8 bytes)
+juin 27 16:34:18 [0m[PHY]   txdataF_BF[0] 0x72d3d1eda040 for RU 0
+juin 27 16:34:18 [0m[PHY]   rxdataF[0] 0x72d3d1e69040 for RU 0
+juin 27 16:34:18 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+juin 27 16:34:18 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+juin 27 16:34:18 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+juin 27 16:34:18 [0m[PHY]   Channel 0: setting tx_gain offset 90, tx_freq 3619200000 Hz
+juin 27 16:34:18 [0m[PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
+juin 27 16:34:18 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+juin 27 16:34:18 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+juin 27 16:34:18 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+juin 27 16:34:18 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+juin 27 16:34:18 shlib_path librfsimulator.so
+juin 27 16:34:18 [LOADER] library librfsimulator.so successfully loaded
+juin 27 16:34:18 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
+juin 27 16:34:18 [93m[HW]   sample_rate 61440000.000000
+juin 27 16:34:18 [0m[HW]   Running as server waiting opposite rfsimulators to connect
+juin 27 16:34:18 [0mInitializing random number generator, seed 1930992275863029374
+juin 27 16:34:18 [HW]   [RAU] has loaded RFSIMULATOR device.
+juin 27 16:34:18 [0msetup_RU_buffers: frame_parms = 0x72d3d18af010
+juin 27 16:34:18 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+juin 27 16:34:18 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
+juin 27 16:34:18 [0mwaiting for sync (ru_thread,-1/0x56975ab4e0ac,0x56975c4730a0,0x56975c4723a0)
+juin 27 16:34:23 [PNF] waiting for OAI to be configured (eNB/RU)
+juin 27 16:34:23 [PNF] OAI eNB/RU configured
+juin 27 16:34:23 [PNF] About to call init_eNB_afterRU()
+juin 27 16:34:23 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+juin 27 16:34:23 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x72d3d0fc5010
+juin 27 16:34:23 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+juin 27 16:34:23 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+juin 27 16:34:23 shlib_path libdfts.so
+juin 27 16:34:23 [LOADER] library libdfts.so successfully loaded
+juin 27 16:34:23 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+juin 27 16:34:23 shlib_path libldpc.so
+juin 27 16:34:23 [LOADER] library libldpc.so successfully loaded
+juin 27 16:34:23 [PHY]   Initialise nr transport
+juin 27 16:34:23 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
+juin 27 16:34:23 [0m[PHY]   gNB->num_RU:1
+juin 27 16:34:23 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0mcreate a thread for core -1
+juin 27 16:34:23 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+juin 27 16:34:23 [0m[UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
+juin 27 16:34:23 [0m[UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
+juin 27 16:34:23 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
+juin 27 16:34:23 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+juin 27 16:34:23 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
+juin 27 16:34:23 [0mwaiting for sync (L1_stats_thread,-1/0x56975ab4e0ac,0x56975c4730a0,0x56975c4723a0)
+juin 27 16:34:23 [PNF] Sending PNF_START_RESP
+juin 27 16:34:23 Sending NFAPI_START_RESPONSE config:0x56975d6f1b20 phy_id:1
+juin 27 16:34:23 NFAPI: got sync (main?)
+juin 27 16:34:23 wait RUs
+juin 27 16:34:23 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+juin 27 16:34:23 [0m[PHY]   RUs configured
+juin 27 16:34:23 [0mALL RUs READY!
+juin 27 16:34:23 RC.nb_RU:1
+juin 27 16:34:23 ALL RUs ready - init gNBs
+juin 27 16:34:23 NFAPI mode - DO NOT call init_gNB_afterRU()
+juin 27 16:34:23 ALL RUs ready - ALL gNBs ready
+juin 27 16:34:23 Sending sync to all threads
+juin 27 16:34:23 Entering ITTI signals handler
+juin 27 16:34:23 TYPE <CTRL-C> TO TERMINATE
+juin 27 16:34:23 got sync (L1_stats_thread)
+juin 27 16:34:23 got sync (ru_thread)
+juin 27 16:34:23 [PNF] Sending first P7 slot indication
+juin 27 16:34:23 [PNF] Sent first P7 slot ind
+juin 27 16:34:23 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+juin 27 16:34:23 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+juin 27 16:34:23 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+juin 27 16:34:23 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+juin 27 16:34:23 [0m[PHY]   RU 0 rf device ready
+juin 27 16:34:23 [0m[PHY]   RU 0 RF started opp_enabled 0
+juin 27 16:34:23 [0m[93m[HW]   No connected device, generating void samples...
+juin 27 16:34:24 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
+juin 27 16:34:24 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:24 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:24 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:24 [0m[NR_PHY]   Counter: 0, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:24 [0m[NR_PHY]   Counter: 1, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:24 [0m[NR_PHY]   Counter: 2, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:24 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:24 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:24 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:24 [0m[NR_PHY]   Counter: 3, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:24 [0m[NR_PHY]   Counter: 4, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:24 [0m[NR_PHY]   Counter: 5, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:24 [0m[HW]   A client connects, sending the current time
+juin 27 16:34:25 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:25 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:25 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:25 [0m[NR_PHY]   Counter: 6, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:25 [0m[NR_PHY]   Counter: 7, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:25 [0m[NR_PHY]   Counter: 8, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 9, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 10, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 11, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 12, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 13, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 14, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 15, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 16, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 17, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 18, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 19, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 20, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 21, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 22, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 23, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 24, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 25, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 26, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 27, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 28, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 29, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 30, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 31, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 32, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 33, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 34, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 35, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:26 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:26 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 36, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 37, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:26 [0m[NR_PHY]   Counter: 38, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 39, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 40, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 41, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 42, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 43, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 44, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 45, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 46, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 47, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 48, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 49, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 50, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 51, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 52, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 53, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 54, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 55, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 56, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 57, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 58, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 59, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 60, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 61, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 62, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:27 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:27 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 63, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 64, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:27 [0m[NR_PHY]   Counter: 65, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 66, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 67, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 68, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 69, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 70, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 71, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 72, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 73, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 74, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 75, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 76, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 77, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 78, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 79, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 80, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 81, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 82, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 83, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 84, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 85, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 86, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 87, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 88, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 89, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 90, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 91, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 92, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:28 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:28 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 93, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 94, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:28 [0m[NR_PHY]   Counter: 95, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 96, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 97, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 98, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 99, max_preamble_energy[0]:0, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:0,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 81.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 0, thres 150), delay 0 start symbol 4 freq index 0
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:62,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 81.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 62, thres 150), delay 0 start symbol 8 freq index 0
+juin 27 16:34:29 [0m[PHY]   UL_info->UL_info->rach_ind.number_of_pdus:2 SFN/Slot:81.18 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:42
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:42
+juin 27 16:34:29 [0m[PHY]   Result: 64,1677743617,63,0,0,0,0,0,0,0,0,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:116,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 83.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 116, thres 150), delay 0 start symbol 0 freq index 0
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:163,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 83.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 163, thres 150), delay 0 start symbol 4 freq index 0
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:205,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 83.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 205, thres 150), delay 0 start symbol 8 freq index 0
+juin 27 16:34:29 [0m[PHY]   UL_info->UL_info->rach_ind.number_of_pdus:3 SFN/Slot:83.18 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:42
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:42
+juin 27 16:34:29 [0m[PHY]   Result: 64,1694520833,63,0,0,0,0,0,0,0,0,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:242,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 85.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 242, thres 150), delay 0 start symbol 0 freq index 0
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:274,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 85.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 274, thres 150), delay 0 start symbol 4 freq index 0
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:302,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 85.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 302, thres 150), delay 0 start symbol 8 freq index 0
+juin 27 16:34:29 [0m[PHY]   UL_info->UL_info->rach_ind.number_of_pdus:3 SFN/Slot:85.18 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:42
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:42
+juin 27 16:34:29 [0m[PHY]   Result: 64,1711298049,63,0,0,0,0,0,0,0,0,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:327,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 87.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 327, thres 150), delay 0 start symbol 0 freq index 0
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:349,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 87.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 349, thres 150), delay 0 start symbol 4 freq index 0
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:368,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   [RAPROC] 87.18 Initiating RA procedure with preamble 0, energy 52.0 dB (I0 368, thres 150), delay 0 start symbol 8 freq index 0
+juin 27 16:34:29 [0m[PHY]   UL_info->UL_info->rach_ind.number_of_pdus:3 SFN/Slot:87.18 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:385,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:400,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:413,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:424,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:434,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:443,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:451,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:458,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:464,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:469,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:474,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:478,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:29 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:29 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:482,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:485,gNB->prach_thres:150 
+juin 27 16:34:29 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:488,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:490,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:492,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:494,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:496,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:497,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:498,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:499,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:500,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:501,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:502,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:503,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:30 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:30 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:31 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:31 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:31 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:32 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:32 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:32 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:32 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:32 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->TLVs[i].length:129
+juin 27 16:34:32 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+juin 27 16:34:32 [0m[PHY]   Result: 34242660,1082130440,37748736,2419754481,5689476,1888888320,100545995,1056952,3091283968,4160,1622688064,1073741840,56688704,473321544,12602503,1761738784,1712967369,436232788,3380465108,3325643200,443518377,1882340762,2269315512,498081856,3733735552,12484,0,0,0,0,0,0,0,
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m[NR_PHY]   Counter: 100, max_preamble_energy[0]:520, gNB->measurements.prach_I0:504,gNB->prach_thres:150 
+juin 27 16:34:32 [0m
+juin 27 16:34:32 ** Caught SIGTERM, shutting down
+juin 27 16:34:32 Returned from ITTI signal handler
+juin 27 16:34:32 oai_exit=1
+juin 27 16:34:32 [PHY]   Killing gNB 0 processing threads
+juin 27 16:34:32 [0mExiting ru_thread 
+juin 27 16:34:32 
+juin 27 16:34:32 ** Caught SIGTERM, shutting down
+juin 27 16:34:32 
+juin 27 16:34:32 ** Caught SIGTERM, shutting down
+juin 27 16:34:32 21770828073 [W] 3506193984: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+juin 27 16:34:32 21770828088 [W] 3506193984: pnf_nr_read_dispatch_message: Disconnected socket
+juin 27 16:34:32 [PHY]   Stopping RU 0 processing threads
+juin 27 16:34:32 [0m[PHY]   RU 0 RF device stopped
+juin 27 16:34:32 [0m[PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
+juin 27 16:34:33 [0mBye.
+>>>>>>> Stashed changes
