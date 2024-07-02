@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_PATH="/home/hpe/NTUST-script/LOG"
+LOG_PATH="/home/chen/NTUST-script/LOG"
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
 if [ -e $PID_FILE ]; then
     sudo kill -9 `cat $PID_FILE`

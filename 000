@@ -1,10 +1,10 @@
 #!/bin/bash
 #cd ~/quan/mwnl-odu-at-oai-based-on-scf/l2/build/odu
-HOME_PATH="/home/hpe"
-wait_sec=15
+HOME_PATH="/home/chen"
+wait_sec=30
 
 Target_PATH="$HOME_PATH/NTUST-script"
-L2_PATH="$HOME_PATH/mwnl-odu-at-oai-based-on-scf/l2"
+L2_PATH="$HOME_PATH/quan/mwnl-odu-at-oai-based-on-scf/l2"
 LOG_PATH="$Target_PATH/LOG"
 LOCKFILE="$Target_PATH/tmp-build_run.lock"
 mkdir -p "$LOG_PATH"
@@ -19,13 +19,13 @@ TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
 
 ## CU & CU stub
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
-OAI_CU_PATH="$HOME_PATH/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
-CU_CONF="$HOME_PATH/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
+OAI_CU_PATH="$HOME_PATH/quan/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
+CU_CONF="$HOME_PATH/quan/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
 
 # OSC root
 OSC_root_PATH="$L2_PATH/build/odu"
 # OAI root
-OAI_root_PATH="$HOME_PATH/openairinterface5g/cmake_targets/ran_build/build"
+OAI_root_PATH="$HOME_PATH/quan/openairinterface5g/cmake_targets/ran_build/build"
 # RIC stub
 RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
 # OSC DU
@@ -57,7 +57,7 @@ else
     
     # TCPdump
     # sudo echo "Start TCPdump..."
-    # sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
+    sudo tcpdump -i any -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE &
 
     # clean & compile OSC DU
     cd $OSC_root_PATH
@@ -82,16 +82,17 @@ else
 
     # echo "RUN OSC DU"
     sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
-    sleep 2
+    sleep 0
     ODU_PID=$(pgrep -o odu)
     # echo $ODU_PID
     echo -n $ODU_PID >> $PID_FILE
     echo -n " " >> $PID_FILE
 
     # echo "RUN OAI PNF"
+    sleep 0
     pnf_cmd="$OAI_root_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
     sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
-    sleep 3
+    sleep 0
     # echo "RUN OAI UEsim"
     ue_cmd="$OAI_root_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
     sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
