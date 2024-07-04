@@ -60,6 +60,7 @@ else
     # sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
     # clean & compile OSC DU
+    #cd /home/hpe/mwnl-odu-at-oai-based-on-scf/l2/build/odu
     cd $OSC_root_PATH
     make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
     make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
