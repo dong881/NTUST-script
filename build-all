@@ -3,5 +3,5 @@ cd ~/openairinterface5g/cmake_targets
 sudo ./build_oai -c --ninja --nrUE --gNB
 
 ## IF execute first time in your PC you need to add `-I`
-cd ~/nfapi-split-script
-bash "./all-in-one"
+# cd ~/nfapi-split-script
+# bash "./all-in-one"
