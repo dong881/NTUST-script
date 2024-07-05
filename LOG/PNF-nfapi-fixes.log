@@ -1,504 +1,586 @@
- 七  04 22:32:04 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
- 七  04 22:32:04 [CONFIG] get parameters from libconfig /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/hpe/NTUST-script/ELSE
- 七  04 22:32:04 [CONFIG] function config_libconfig_init returned 0
- 七  04 22:32:04 [CONFIG] config module libconfig loaded
- 七  04 22:32:04 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
- 七  04 22:32:04 [CONFIG] debug flags: 0x00000000
- 七  04 22:32:04 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
- 七  04 22:32:04 [LIBCONFIG] log_config: 50/50 parameters successfully set, (44 to default value)
- 七  04 22:32:04 [LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
- 七  04 22:32:04 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 七  04 22:32:04 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
- 七  04 22:32:04 log init done
- 七  04 22:32:04 [HW]   # /dev/cpu_dma_latency set to 2 us
- 七  04 22:32:04 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
- 七  04 22:32:04 [1;31m[HW]   Can't set cpu frequency
- 七  04 22:32:04 [0mReading in command-line options
- 七  04 22:32:04 [LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
- 七  04 22:32:04 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
- 七  04 22:32:04 [ENB_APP]   nfapi (1) running mode: PNF
- 七  04 22:32:04 [0m[GNB_APP]   Getting GNBSParams
- 七  04 22:32:04 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 七  04 22:32:04 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 七  04 22:32:04 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
- 七  04 22:32:04 [CONFIG] parallel_conf is set to 0
- 七  04 22:32:04 [CONFIG] worker_conf is set to 1
- 七  04 22:32:04 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
- 七  04 22:32:04 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
- 七  04 22:32:04 configuring for RAU/RRU
- 七  04 22:32:05 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 七  04 22:32:05 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 七  04 22:32:05 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
- 七  04 22:32:05 [OPT]   OPT disabled
- 七  04 22:32:05 [0m[HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 3cb8e77bed Date: Wed May 29 17:18:55 2024 +0800
- 七  04 22:32:05 [0m[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (20 to default value)
- 七  04 22:32:05 [LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (25 to default value)
- 七  04 22:32:05 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf 
- 七  04 22:32:05 [NR_PHY]   RC.gNB = 0x5aed049f1980
- 七  04 22:32:05 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
- 七  04 22:32:05 [PHY]   L1_RX_THREAD_CORE -1 (15)
- 七  04 22:32:05 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
- 七  04 22:32:05 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
- 七  04 22:32:05 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
- 七  04 22:32:05 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
- 七  04 22:32:05 [0mconfigure_nr_nfapi_pnf() PNF
- 七  04 22:32:05 
- 七  04 22:32:05 
- 七  04 22:32:05 
- 七  04 22:32:05 
- 七  04 22:32:05 
- 七  04 22:32:05 [ENB_APP]   nfapi (1) running mode: PNF
- 七  04 22:32:05 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
- 七  04 22:32:05 Initializing northbound interface for L1
- 七  04 22:32:05 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 七  04 22:32:05 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 七  04 22:32:05 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5aed049fdd40
- 七  04 22:32:05 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 七  04 22:32:05 [0m[PNF] pnf param request
- 七  04 22:32:05 [PNF] pnf config request
- 七  04 22:32:05 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
- 七  04 22:32:05 [PNF] Sent pnf_config_resp
- 七  04 22:32:05 Received NFAPI_PNF_START_REQUEST
- 七  04 22:32:05 [PNF] Sent NFAPI_PNF_START_RESP
- 七  04 22:32:05 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
- 七  04 22:32:05 TAG value :2
- 七  04 22:32:05 RUNNING pack_param_response
- 七  04 22:32:05 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
- 七  04 22:32:05 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
- 七  04 22:32:05 START MAIN THREADS
- 七  04 22:32:05 RC.nb_nr_L1_inst:1
- 七  04 22:32:05 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
- 七  04 22:32:05 [PHY]   Initializing gNB 0 single_thread_flag:1
- 七  04 22:32:05 [0m[PHY]   Initializing gNB 0
- 七  04 22:32:05 [0m[PHY]   Registering with MAC interface module (before 0x5aed049fdd40)
- 七  04 22:32:05 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 七  04 22:32:05 [0m[PHY]   Registering with MAC interface module (after 0x5aed049fdd40)
- 七  04 22:32:05 [0m[PHY]   Setting indication lists
- 七  04 22:32:05 [0m[PHY]   [nr-gnb.c] gNB structure allocated
- 七  04 22:32:05 [0mwait_gNBs()
- 七  04 22:32:05 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
- 七  04 22:32:05 b8 10 01 00 02 00 64 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 64 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1c 00 01 00 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 21 00 04 00 00 00 00 10 22 00 04 80 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 28 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c5 b3 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 
- 七  04 22:32:05 *** have tag 1001, idx 0
- 七  04 22:32:05 *** have tag 1002, idx 1
- 七  04 22:32:05 *** have tag 1005, idx 4
- 七  04 22:32:05 *** have tag 1006, idx 5
- 七  04 22:32:05 *** have tag 1007, idx 6
- 七  04 22:32:05 *** have tag 100a, idx 9
- 七  04 22:32:05 *** have tag 100c, idx 11
- 七  04 22:32:05 *** have tag 100d, idx 12
- 七  04 22:32:05 *** have tag 100e, idx 13
- 七  04 22:32:05 *** have tag 100f, idx 14
- 七  04 22:32:05 *** have tag 1010, idx 15
- 七  04 22:32:05 *** have tag 1011, idx 16
- 七  04 22:32:05 *** have tag 1012, idx 17
- 七  04 22:32:05 *** have tag 1013, idx 18
- 七  04 22:32:05 *** have tag 1014, idx 19
- 七  04 22:32:05 *** have tag 1029, idx 20
- 七  04 22:32:05 *** have tag 101b, idx 27
- 七  04 22:32:05 *** have tag 101c, idx 28
- 七  04 22:32:05 *** have tag 101d, idx 29
- 七  04 22:32:05 *** have tag 101f, idx 31
- 七  04 22:32:05 *** have tag 1020, idx 32
- 七  04 22:32:05 *** have tag 1021, idx 33
- 七  04 22:32:05 *** have tag 1026, idx 38
- 七  04 22:32:05 *** have tag 1028, idx 40
- 七  04 22:32:05 *** have tag 100, idx 41
- 七  04 22:32:05 *** have tag 102, idx 43
- 七  04 22:32:05 *** have tag 11e, idx 44
- 七  04 22:32:05 *** have tag 11f, idx 45
- 七  04 22:32:05 *** have tag 120, idx 46
- 七  04 22:32:05 [PNF] vnf p7 127.0.0.1:50611
- 七  04 22:32:05 num_tlv:184
- 七  04 22:32:05 ssb_config
- 七  04 22:32:05   bch_payload t 4111 l 1 v 1
- 七  04 22:32:05   scs_common t 4112 l 1 v 1
- 七  04 22:32:05   ss_pbch_power t 4110 l 4 v -25
- 七  04 22:32:05 ssb_table
- 七  04 22:32:05   ssb_offset_point_a t 4125 l 2 v 86
- 七  04 22:32:05   beta_pss t 0 l 0 v 0
- 七  04 22:32:05   ssb_period t 4127 l 1 v 2
- 七  04 22:32:05   ssb_subcarrier_offset t 4128 l 1 v 0
- 七  04 22:32:05   MIB t 4129 l 4 v 0
- 七  04 22:32:05 ssb_mask_list:
- 七  04 22:32:05 -2147483648	0	
- 七  04 22:32:05 ssb_beam_id_list:
- 七  04 22:32:05 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
- 七  04 22:32:05   ss_pbch_multiple_carriers_in_a_band t 0 l 0 v 0
- 七  04 22:32:05   multiple_cells_ss_pbch_in_a_carrier t 0 l 0 v 0
- 七  04 22:32:05 tdd_table
- 七  04 22:32:05   tdd_period t 4134 l 1 v 6
- 七  04 22:32:05   slot_config t 4135 l 1 v 0
- 七  04 22:32:05 cell_config
- 七  04 22:32:05   frame_duplex_type t 4109 l 1 v 1
- 七  04 22:32:05   phy_cell_id t 4108 l 2 v 0
- 七  04 22:32:05 nfapi_nr_measurement_config_t
- 七  04 22:32:05   rssi_measurement t 4136 l 1 v 1
- 七  04 22:32:05 nfapi_nr_nfapi_t
- 七  04 22:32:05   dl_tti_timing_offset t 0 l 0 v 0
- 七  04 22:32:05   ul_tti_timing_offset t 0 l 0 v 0
- 七  04 22:32:05   ul_dci_timing_offset t 0 l 0 v 0
- 七  04 22:32:05   tx_data_timing_offset t 0 l 0 v 0
- 七  04 22:32:05 0	0	0	0	
- 七  04 22:32:05 0	0	0	0	
- 七  04 22:32:05   p7_pnf_port t 0 l 0 v 0
- 七  04 22:32:05   timing_window t 286 l 1 v 30
- 七  04 22:32:05   timing_info_mode t 287 l 1 v 3
- 七  04 22:32:05   timing_info_period t 288 l 1 v 10
- 七  04 22:32:05 pmi_list:
- 七  04 22:32:05   num_pm_idx:-325305336
- 七  04 22:32:05   pm_idx:0
- 七  04 22:32:05   numLayers:2
- 七  04 22:32:05   num_ant_ports:4
- 七  04 22:32:05   weights:  6	  10	  14	  18	  22	  26	  30	  34	  38	  42	  46	  50	  54	  58	  62	  66	
- 七  04 22:32:05 carrier_config
- 七  04 22:32:05   bw t 4097 l 2 v 100
- 七  04 22:32:05   freq t 4098 l 4 v 3600120
- 七  04 22:32:05   dl_k0[0] t 0 l 0 v 0
- 七  04 22:32:05   dl_k0[1] t 4099 l 10 v 0
- 七  04 22:32:05   dl_k0[2] t 0 l 0 v 0
- 七  04 22:32:05   dl_k0[3] t 0 l 0 v 0
- 七  04 22:32:05   dl_k0[4] t 0 l 0 v 0
- 七  04 22:32:05   dl_grid_size[0] t 0 l 0 v 0
- 七  04 22:32:05   dl_grid_size[1] t 4100 l 10 v 106
- 七  04 22:32:05   dl_grid_size[2] t 0 l 0 v 0
- 七  04 22:32:05   dl_grid_size[3] t 0 l 0 v 0
- 七  04 22:32:05   dl_grid_size[4] t 0 l 0 v 0
- 七  04 22:32:05   num_tx_ant t 4101 l 2 v 1
- 七  04 22:32:05   uplink_bandwidth t 4102 l 2 v 100
- 七  04 22:32:05   uplink_frequency t 4103 l 4 v 3600120
- 七  04 22:32:05   ul_k0[0] t 0 l 0 v 0
- 七  04 22:32:05   ul_k0[1] t 4104 l 10 v 0
- 七  04 22:32:05   ul_k0[2] t 0 l 0 v 0
- 七  04 22:32:05   ul_k0[3] t 0 l 0 v 0
- 七  04 22:32:05   ul_k0[4] t 0 l 0 v 0
- 七  04 22:32:05   ul_grid_size[0] t 0 l 0 v 0
- 七  04 22:32:05   ul_grid_size[1] t 4105 l 10 v 106
- 七  04 22:32:05   ul_grid_size[2] t 0 l 0 v 0
- 七  04 22:32:05   ul_grid_size[3] t 0 l 0 v 0
- 七  04 22:32:05   ul_grid_size[4] t 0 l 0 v 0
- 七  04 22:32:05   num_rx_ant t 4106 l 2 v 1
- 七  04 22:32:05   frequency_shift_7p5khz t 0 l 0 v 0
- 七  04 22:32:05 prach_config
- 七  04 22:32:05   prach_sequence_length t 4113 l 1 v 1
- 七  04 22:32:05   prach_sub_c_spacing t 4114 l 1 v 1
- 七  04 22:32:05   restricted_set_config t 4115 l 1 v 0
- 七  04 22:32:05   num_prach_fd_occasions t 4116 l 1 v 1
- 七  04 22:32:05   prach_ConfigurationIndex t 4137 l 1 v 98
- 七  04 22:32:05     prach_root_sequence_index t 4117 l 2 v 1
- 七  04 22:32:05     num_root_sequences t 4118 l 1 v 16
- 七  04 22:32:05     k1 t 4119 l 2 v 0
- 七  04 22:32:05     prach_zero_corr_conf t 4120 l 1 v 13
- 七  04 22:32:05     num_unused_root_sequences t 4121 l 2 v 0
- 七  04 22:32:05   ssb_per_rach t 4123 l 1 v 3
- 七  04 22:32:05   prach_multiple_carriers_in_a_band t 4124 l 1 v 0
- 七  04 22:32:05 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
- 七  04 22:32:05 
- 七  04 22:32:05 Timing window tag: 286
- 七  04 22:32:05 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
- 七  04 22:32:05 timing info mode:3
- 七  04 22:32:05 timing info period provided value:10
- 七  04 22:32:05 2411350681160 [E] 3969664576: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
- 七  04 22:32:05 [PNF] CONFIG_REQUEST[num_tlv:184] TLVs processed:6
- 七  04 22:32:05 [PNF] Simulating PHY CONFIG
- 七  04 22:32:05 DL frequency 3619200000: band 48, UL frequency 3619200000
- 七  04 22:32:05 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
- 七  04 22:32:05 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
- 七  04 22:32:05 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 七  04 22:32:05 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 七  04 22:32:05 [0m[PHY]   gNB 0 configured
- 七  04 22:32:05 [0m[PHY]   fp->scs=30000
- 七  04 22:32:05 [0m[PHY]   fp->ofdm_symbol_size=2048
- 七  04 22:32:05 [0m[PHY]   fp->nb_prefix_samples0=176
- 七  04 22:32:05 [0m[PHY]   fp->nb_prefix_samples=144
- 七  04 22:32:05 [0m[PHY]   fp->slots_per_subframe=2
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_subframe_wCP=57344
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_frame_wCP=573440
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_subframe=61440
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_frame=614400
- 七  04 22:32:05 [0m[PHY]   fp->dl_CarrierFreq=3619200000
- 七  04 22:32:05 [0m[PHY]   fp->ul_CarrierFreq=3619200000
- 七  04 22:32:05 [0m[PHY]   fp->Nid_cell=0
- 七  04 22:32:05 [0m[PHY]   fp->first_carrier_offset=1412
- 七  04 22:32:05 [0m[PHY]   fp->ssb_start_subcarrier=0
- 七  04 22:32:05 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
- 七  04 22:32:05 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
- 七  04 22:32:05 [PNF] Received NFAPI_START_REQ phy_id:1
- 七  04 22:32:05 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
- 七  04 22:32:05 subframe_buffer_size configured using phy_info->timing_window:30
- 七  04 22:32:05 [PNF] Sending PNF_START_RESP
- 七  04 22:32:05 Sending NFAPI_START_RESPONSE config:0x5aed049f5ac0 phy_id:1
- 七  04 22:32:05 gNB L1 are configured
- 七  04 22:32:05 About to Init RU threads RC.nb_RU:1
- 七  04 22:32:05 Initializing RU threads
- 七  04 22:32:05 configuring RU from file
- 七  04 22:32:05 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
- 七  04 22:32:05 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
- 七  04 22:32:05 [0mCalling sched_setscheduler(79)
- 七  04 22:32:05 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
- 七  04 22:32:05 [0m[LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
- 七  04 22:32:05 Set RU mask to 1
- 七  04 22:32:05 Creating RC.ru[0]:0x5aed04a00950
- 七  04 22:32:05 [PHY]   RU GPIO control set as 'generic'
- 七  04 22:32:05 [0m[PHY]   Setting clock source to internal
- 七  04 22:32:05 [0m[PHY]   Setting time source to internal
- 七  04 22:32:05 [0mSetting function for RU 0 to gNodeB_3GPP
- 七  04 22:32:05 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
- 七  04 22:32:05 [RU 0] Setting half-slot parallelization to 1
- 七  04 22:32:05 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
- 七  04 22:32:05 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
- 七  04 22:32:05 [0mconfiguring ru_id 0 (start_rf 0x5aed0032b5c0)
- 七  04 22:32:05 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
- 七  04 22:32:05 [0m[PHY]   RU Thread pool size 2
- 七  04 22:32:05 [0m[PHY]   RU thread-pool core string -1,-1
- 七  04 22:32:05 [0mcreate a thread for core -1
- 七  04 22:32:05 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 七  04 22:32:05 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 七  04 22:32:05 [0mcreate a thread for core -1
- 七  04 22:32:05 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 七  04 22:32:05 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 七  04 22:32:05 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
- 七  04 22:32:05 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
- 七  04 22:32:05 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 16
- 七  04 22:32:05 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
- 七  04 22:32:05 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
- 七  04 22:32:05 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 七  04 22:32:05 [0m[PHY]   fp->scs=30000
- 七  04 22:32:05 [0m[PHY]   fp->ofdm_symbol_size=2048
- 七  04 22:32:05 [0m[PHY]   fp->nb_prefix_samples0=176
- 七  04 22:32:05 [0m[PHY]   fp->nb_prefix_samples=144
- 七  04 22:32:05 [0m[PHY]   fp->slots_per_subframe=2
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_subframe_wCP=57344
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_frame_wCP=573440
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_subframe=61440
- 七  04 22:32:05 [0m[PHY]   fp->samples_per_frame=614400
- 七  04 22:32:05 [0m[PHY]   fp->dl_CarrierFreq=3619200000
- 七  04 22:32:05 [0m[PHY]   fp->ul_CarrierFreq=3619200000
- 七  04 22:32:05 [0m[PHY]   fp->Nid_cell=0
- 七  04 22:32:05 [0m[PHY]   fp->first_carrier_offset=1412
- 七  04 22:32:05 [0m[PHY]   fp->ssb_start_subcarrier=0
- 七  04 22:32:05 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
- 七  04 22:32:05 [0m[PHY]   [INIT] common.txdata[0] = 0x7f91dca19040 (2458880 bytes,sf_extension 320)
- 七  04 22:32:05 [0m[PHY]   [INIT] common.txdata[0] = 0x7f91dca19540 
- 七  04 22:32:05 [0m[PHY]   nb_tx 1
- 七  04 22:32:05 [0m[PHY]   rxdata_7_5kHz[0] 0x7f91ecf0f040 for RU 0
- 七  04 22:32:05 [0m[PHY]   [INIT] common.txdata_BF= 0x7f91d8000ac0 (8 bytes)
- 七  04 22:32:05 [0m[PHY]   txdataF_BF[0] 0x7f91ed276040 for RU 0
- 七  04 22:32:05 [0m[PHY]   rxdataF[0] 0x7f91ece9e040 for RU 0
- 七  04 22:32:05 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
- 七  04 22:32:05 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
- 七  04 22:32:05 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
- 七  04 22:32:05 [0m[PHY]   Channel 0: setting tx_gain offset 90, tx_freq 3619200000 Hz
- 七  04 22:32:05 [0m[PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
- 七  04 22:32:05 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
- 七  04 22:32:05 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
- 七  04 22:32:05 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
- 七  04 22:32:05 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
- 七  04 22:32:05 shlib_path librfsimulator.so
- 七  04 22:32:05 [LOADER] library librfsimulator.so successfully loaded
- 七  04 22:32:05 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
- 七  04 22:32:05 [93m[HW]   sample_rate 61440000.000000
- 七  04 22:32:05 [0m[HW]   Running as server waiting opposite rfsimulators to connect
- 七  04 22:32:05 [0mInitializing random number generator, seed 15964262190599874624
- 七  04 22:32:05 [HW]   [RAU] has loaded RFSIMULATOR device.
- 七  04 22:32:05 [0msetup_RU_buffers: frame_parms = 0x7f91ed2af010
- 七  04 22:32:05 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
- 七  04 22:32:05 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
- 七  04 22:32:05 [0mwaiting for sync (ru_thread,-1/0x5aed00f260ac,0x5aed0284b0a0,0x5aed0284a3a0)
- 七  04 22:32:10 [PNF] waiting for OAI to be configured (eNB/RU)
- 七  04 22:32:10 [PNF] OAI eNB/RU configured
- 七  04 22:32:10 [PNF] About to call init_eNB_afterRU()
- 七  04 22:32:10 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
- 七  04 22:32:10 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7f91ec9c5010
- 七  04 22:32:10 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
- 七  04 22:32:10 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
- 七  04 22:32:10 shlib_path libdfts.so
- 七  04 22:32:10 [LOADER] library libdfts.so successfully loaded
- 七  04 22:32:10 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
- 七  04 22:32:10 shlib_path libldpc.so
- 七  04 22:32:10 [LOADER] library libldpc.so successfully loaded
- 七  04 22:32:10 [PHY]   Initialise nr transport
- 七  04 22:32:11 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
- 七  04 22:32:11 [0m[PHY]   gNB->num_RU:1
- 七  04 22:32:11 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0mcreate a thread for core -1
- 七  04 22:32:11 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 七  04 22:32:11 [0m[UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
- 七  04 22:32:11 [0m[UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
- 七  04 22:32:11 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
- 七  04 22:32:11 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
- 七  04 22:32:11 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
- 七  04 22:32:11 [0mwaiting for sync (L1_stats_thread,-1/0x5aed00f260ac,0x5aed0284b0a0,0x5aed0284a3a0)
- 七  04 22:32:11 [PNF] Sending PNF_START_RESP
- 七  04 22:32:11 Sending NFAPI_START_RESPONSE config:0x5aed049f5ac0 phy_id:1
- 七  04 22:32:11 NFAPI: got sync (main?)
- 七  04 22:32:11 wait RUs
- 七  04 22:32:11 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
- 七  04 22:32:11 [0m[PHY]   RUs configured
- 七  04 22:32:11 [0mALL RUs READY!
- 七  04 22:32:11 RC.nb_RU:1
- 七  04 22:32:11 ALL RUs ready - init gNBs
- 七  04 22:32:11 NFAPI mode - DO NOT call init_gNB_afterRU()
- 七  04 22:32:11 ALL RUs ready - ALL gNBs ready
- 七  04 22:32:11 Sending sync to all threads
- 七  04 22:32:11 Entering ITTI signals handler
- 七  04 22:32:11 TYPE <CTRL-C> TO TERMINATE
- 七  04 22:32:11 got sync (L1_stats_thread)
- 七  04 22:32:11 got sync (ru_thread)
- 七  04 22:32:11 [PNF] Sending first P7 slot indication
- 七  04 22:32:11 [PNF] Sent first P7 slot ind
- 七  04 22:32:11 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 七  04 22:32:11 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 七  04 22:32:11 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 七  04 22:32:11 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 七  04 22:32:11 [0m[PHY]   RU 0 rf device ready
- 七  04 22:32:11 [0m[PHY]   RU 0 RF started opp_enabled 0
- 七  04 22:32:11 [0m[93m[HW]   No connected device, generating void samples...
- 七  04 22:32:11 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
- 七  04 22:32:12 [0m[HW]   A client connects, sending the current time
- 七  04 22:32:22 [0m
- 七  04 22:32:22 ** Caught SIGTERM, shutting down
- 七  04 22:32:22 Returned from ITTI signal handler
- 七  04 22:32:22 oai_exit=1
- 七  04 22:32:22 [PHY]   Killing gNB 0 processing threads
- 七  04 22:32:22 [0m
- 七  04 22:32:22 ** Caught SIGTERM, shutting down
- 七  04 22:32:22 
- 七  04 22:32:22 ** Caught SIGTERM, shutting down
- 七  04 22:32:22 [93m[HW]   Lost socket
- 七  04 22:32:22 [0mExiting ru_thread 
- 七  04 22:32:23 2411367997854 [W] 3969664576: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
- 七  04 22:32:23 2411367997862 [W] 3969664576: pnf_nr_read_dispatch_message: Disconnected socket
- 七  04 22:32:23 [PHY]   Stopping RU 0 processing threads
- 七  04 22:32:23 [0m[PHY]   RU 0 RF device stopped
- 七  04 22:32:23 [0m[PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
- 七  04 22:32:23 [0mBye.
+ 七  05 16:50:37 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
+ 七  05 16:50:37 [CONFIG] get parameters from libconfig /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/hpe/NTUST-script/ELSE
+ 七  05 16:50:37 [CONFIG] function config_libconfig_init returned 0
+ 七  05 16:50:37 [CONFIG] config module libconfig loaded
+ 七  05 16:50:37 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 七  05 16:50:37 [CONFIG] debug flags: 0x00000000
+ 七  05 16:50:37 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 七  05 16:50:37 [LIBCONFIG] log_config: 50/50 parameters successfully set, (44 to default value)
+ 七  05 16:50:37 [LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+ 七  05 16:50:37 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 七  05 16:50:37 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 七  05 16:50:37 log init done
+ 七  05 16:50:37 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 七  05 16:50:37 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+ 七  05 16:50:37 [1;31m[HW]   Can't set cpu frequency
+ 七  05 16:50:37 [0mReading in command-line options
+ 七  05 16:50:37 [LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+ 七  05 16:50:37 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 七  05 16:50:37 [ENB_APP]   nfapi (1) running mode: PNF
+ 七  05 16:50:37 [0m[GNB_APP]   Getting GNBSParams
+ 七  05 16:50:37 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 七  05 16:50:37 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 七  05 16:50:37 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 七  05 16:50:37 [CONFIG] parallel_conf is set to 0
+ 七  05 16:50:37 [CONFIG] worker_conf is set to 1
+ 七  05 16:50:37 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+ 七  05 16:50:37 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 七  05 16:50:37 configuring for RAU/RRU
+ 七  05 16:50:38 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 七  05 16:50:38 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 七  05 16:50:38 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 七  05 16:50:38 [OPT]   OPT disabled
+ 七  05 16:50:38 [0m[HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 3cb8e77bed Date: Wed May 29 17:18:55 2024 +0800
+ 七  05 16:50:38 [0m[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (20 to default value)
+ 七  05 16:50:38 [LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (25 to default value)
+ 七  05 16:50:38 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /home/hpe/NTUST-script/ELSE/oaiL1.nfapi.usrpb210.conf 
+ 七  05 16:50:38 [NR_PHY]   RC.gNB = 0x624cf9cfb980
+ 七  05 16:50:38 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
+ 七  05 16:50:38 [PHY]   L1_RX_THREAD_CORE -1 (15)
+ 七  05 16:50:38 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+ 七  05 16:50:38 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+ 七  05 16:50:38 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+ 七  05 16:50:38 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+ 七  05 16:50:38 [0mconfigure_nr_nfapi_pnf() PNF
+ 七  05 16:50:38 
+ 七  05 16:50:38 
+ 七  05 16:50:38 
+ 七  05 16:50:38 
+ 七  05 16:50:38 
+ 七  05 16:50:38 [ENB_APP]   nfapi (1) running mode: PNF
+ 七  05 16:50:38 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
+ 七  05 16:50:38 Initializing northbound interface for L1
+ 七  05 16:50:38 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 七  05 16:50:38 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 七  05 16:50:38 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x624cf9d07d40
+ 七  05 16:50:38 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 七  05 16:50:38 [0m[PNF] pnf param request
+ 七  05 16:50:38 [PNF] pnf config request
+ 七  05 16:50:38 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+ 七  05 16:50:38 [PNF] Sent pnf_config_resp
+ 七  05 16:50:38 Received NFAPI_PNF_START_REQUEST
+ 七  05 16:50:38 [PNF] Sent NFAPI_PNF_START_RESP
+ 七  05 16:50:38 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+ 七  05 16:50:38 TAG value :2
+ 七  05 16:50:38 RUNNING pack_param_response
+ 七  05 16:50:38 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+ 七  05 16:50:38 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 七  05 16:50:38 START MAIN THREADS
+ 七  05 16:50:38 RC.nb_nr_L1_inst:1
+ 七  05 16:50:38 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+ 七  05 16:50:38 [PHY]   Initializing gNB 0 single_thread_flag:1
+ 七  05 16:50:38 [0m[PHY]   Initializing gNB 0
+ 七  05 16:50:38 [0m[PHY]   Registering with MAC interface module (before 0x624cf9d07d40)
+ 七  05 16:50:38 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 七  05 16:50:38 [0m[PHY]   Registering with MAC interface module (after 0x624cf9d07d40)
+ 七  05 16:50:38 [0m[PHY]   Setting indication lists
+ 七  05 16:50:38 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+ 七  05 16:50:38 [0mwait_gNBs()
+ 七  05 16:50:38 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 七  05 16:50:38 b8 10 01 00 02 00 64 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 64 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1c 00 01 00 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 21 00 04 00 00 00 00 10 22 00 04 80 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 28 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c5 b3 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 
+ 七  05 16:50:38 *** have tag 1001, idx 0
+ 七  05 16:50:38 *** have tag 1002, idx 1
+ 七  05 16:50:38 *** have tag 1005, idx 4
+ 七  05 16:50:38 *** have tag 1006, idx 5
+ 七  05 16:50:38 *** have tag 1007, idx 6
+ 七  05 16:50:38 *** have tag 100a, idx 9
+ 七  05 16:50:38 *** have tag 100c, idx 11
+ 七  05 16:50:38 *** have tag 100d, idx 12
+ 七  05 16:50:38 *** have tag 100e, idx 13
+ 七  05 16:50:38 *** have tag 100f, idx 14
+ 七  05 16:50:38 *** have tag 1010, idx 15
+ 七  05 16:50:38 *** have tag 1011, idx 16
+ 七  05 16:50:38 *** have tag 1012, idx 17
+ 七  05 16:50:38 *** have tag 1013, idx 18
+ 七  05 16:50:38 *** have tag 1014, idx 19
+ 七  05 16:50:38 *** have tag 1029, idx 20
+ 七  05 16:50:38 *** have tag 101b, idx 27
+ 七  05 16:50:38 *** have tag 101c, idx 28
+ 七  05 16:50:38 *** have tag 101d, idx 29
+ 七  05 16:50:38 *** have tag 101f, idx 31
+ 七  05 16:50:38 *** have tag 1020, idx 32
+ 七  05 16:50:38 *** have tag 1021, idx 33
+ 七  05 16:50:38 *** have tag 1026, idx 38
+ 七  05 16:50:38 *** have tag 1028, idx 40
+ 七  05 16:50:38 *** have tag 100, idx 41
+ 七  05 16:50:38 *** have tag 102, idx 43
+ 七  05 16:50:38 *** have tag 11e, idx 44
+ 七  05 16:50:38 *** have tag 11f, idx 45
+ 七  05 16:50:38 *** have tag 120, idx 46
+ 七  05 16:50:38 [PNF] vnf p7 127.0.0.1:50611
+ 七  05 16:50:38 num_tlv:184
+ 七  05 16:50:38 ssb_config
+ 七  05 16:50:38   bch_payload t 4111 l 1 v 1
+ 七  05 16:50:38   scs_common t 4112 l 1 v 1
+ 七  05 16:50:38   ss_pbch_power t 4110 l 4 v -25
+ 七  05 16:50:38 ssb_table
+ 七  05 16:50:38   ssb_offset_point_a t 4125 l 2 v 86
+ 七  05 16:50:38   beta_pss t 0 l 0 v 0
+ 七  05 16:50:38   ssb_period t 4127 l 1 v 2
+ 七  05 16:50:38   ssb_subcarrier_offset t 4128 l 1 v 0
+ 七  05 16:50:38   MIB t 4129 l 4 v 0
+ 七  05 16:50:38 ssb_mask_list:
+ 七  05 16:50:38 -2147483648	0	
+ 七  05 16:50:38 ssb_beam_id_list:
+ 七  05 16:50:38 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+ 七  05 16:50:38   ss_pbch_multiple_carriers_in_a_band t 0 l 0 v 0
+ 七  05 16:50:38   multiple_cells_ss_pbch_in_a_carrier t 0 l 0 v 0
+ 七  05 16:50:38 tdd_table
+ 七  05 16:50:38   tdd_period t 4134 l 1 v 6
+ 七  05 16:50:38   slot_config t 4135 l 1 v 0
+ 七  05 16:50:38 cell_config
+ 七  05 16:50:38   frame_duplex_type t 4109 l 1 v 1
+ 七  05 16:50:38   phy_cell_id t 4108 l 2 v 0
+ 七  05 16:50:38 nfapi_nr_measurement_config_t
+ 七  05 16:50:38   rssi_measurement t 4136 l 1 v 1
+ 七  05 16:50:38 nfapi_nr_nfapi_t
+ 七  05 16:50:38   dl_tti_timing_offset t 0 l 0 v 0
+ 七  05 16:50:38   ul_tti_timing_offset t 0 l 0 v 0
+ 七  05 16:50:38   ul_dci_timing_offset t 0 l 0 v 0
+ 七  05 16:50:38   tx_data_timing_offset t 0 l 0 v 0
+ 七  05 16:50:38 0	0	0	0	
+ 七  05 16:50:38 0	0	0	0	
+ 七  05 16:50:38   p7_pnf_port t 0 l 0 v 0
+ 七  05 16:50:38   timing_window t 286 l 1 v 30
+ 七  05 16:50:38   timing_info_mode t 287 l 1 v 3
+ 七  05 16:50:38   timing_info_period t 288 l 1 v 10
+ 七  05 16:50:38 pmi_list:
+ 七  05 16:50:38   num_pm_idx:1350319112
+ 七  05 16:50:38   pm_idx:0
+ 七  05 16:50:38   numLayers:2
+ 七  05 16:50:38   num_ant_ports:4
+ 七  05 16:50:38   weights:  6	  10	  14	  18	  22	  26	  30	  34	  38	  42	  46	  50	  54	  58	  62	  66	
+ 七  05 16:50:38 carrier_config
+ 七  05 16:50:38   bw t 4097 l 2 v 100
+ 七  05 16:50:38   freq t 4098 l 4 v 3600120
+ 七  05 16:50:38   dl_k0[0] t 0 l 0 v 0
+ 七  05 16:50:38   dl_k0[1] t 4099 l 10 v 0
+ 七  05 16:50:38   dl_k0[2] t 0 l 0 v 0
+ 七  05 16:50:38   dl_k0[3] t 0 l 0 v 0
+ 七  05 16:50:38   dl_k0[4] t 0 l 0 v 0
+ 七  05 16:50:38   dl_grid_size[0] t 0 l 0 v 0
+ 七  05 16:50:38   dl_grid_size[1] t 4100 l 10 v 106
+ 七  05 16:50:38   dl_grid_size[2] t 0 l 0 v 0
+ 七  05 16:50:38   dl_grid_size[3] t 0 l 0 v 0
+ 七  05 16:50:38   dl_grid_size[4] t 0 l 0 v 0
+ 七  05 16:50:38   num_tx_ant t 4101 l 2 v 1
+ 七  05 16:50:38   uplink_bandwidth t 4102 l 2 v 100
+ 七  05 16:50:38   uplink_frequency t 4103 l 4 v 3600120
+ 七  05 16:50:38   ul_k0[0] t 0 l 0 v 0
+ 七  05 16:50:38   ul_k0[1] t 4104 l 10 v 0
+ 七  05 16:50:38   ul_k0[2] t 0 l 0 v 0
+ 七  05 16:50:38   ul_k0[3] t 0 l 0 v 0
+ 七  05 16:50:38   ul_k0[4] t 0 l 0 v 0
+ 七  05 16:50:38   ul_grid_size[0] t 0 l 0 v 0
+ 七  05 16:50:38   ul_grid_size[1] t 4105 l 10 v 106
+ 七  05 16:50:38   ul_grid_size[2] t 0 l 0 v 0
+ 七  05 16:50:38   ul_grid_size[3] t 0 l 0 v 0
+ 七  05 16:50:38   ul_grid_size[4] t 0 l 0 v 0
+ 七  05 16:50:38   num_rx_ant t 4106 l 2 v 1
+ 七  05 16:50:38   frequency_shift_7p5khz t 0 l 0 v 0
+ 七  05 16:50:38 prach_config
+ 七  05 16:50:38   prach_sequence_length t 4113 l 1 v 1
+ 七  05 16:50:38   prach_sub_c_spacing t 4114 l 1 v 1
+ 七  05 16:50:38   restricted_set_config t 4115 l 1 v 0
+ 七  05 16:50:38   num_prach_fd_occasions t 4116 l 1 v 1
+ 七  05 16:50:38   prach_ConfigurationIndex t 4137 l 1 v 98
+ 七  05 16:50:38     prach_root_sequence_index t 4117 l 2 v 1
+ 七  05 16:50:38     num_root_sequences t 4118 l 1 v 16
+ 七  05 16:50:38     k1 t 4119 l 2 v 0
+ 七  05 16:50:38     prach_zero_corr_conf t 4120 l 1 v 13
+ 七  05 16:50:38     num_unused_root_sequences t 4121 l 2 v 0
+ 七  05 16:50:38   ssb_per_rach t 4123 l 1 v 3
+ 七  05 16:50:38   prach_multiple_carriers_in_a_band t 4124 l 1 v 0
+ 七  05 16:50:38 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+ 七  05 16:50:38 
+ 七  05 16:50:38 Timing window tag: 286
+ 七  05 16:50:38 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+ 七  05 16:50:38 timing info mode:3
+ 七  05 16:50:38 timing info period provided value:10
+ 七  05 16:50:38 2477263652061 [E] 1350321728: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
+ 七  05 16:50:38 [PNF] CONFIG_REQUEST[num_tlv:184] TLVs processed:6
+ 七  05 16:50:38 [PNF] Simulating PHY CONFIG
+ 七  05 16:50:38 DL frequency 3619200000: band 48, UL frequency 3619200000
+ 七  05 16:50:38 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+ 七  05 16:50:38 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
+ 七  05 16:50:38 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 七  05 16:50:38 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 七  05 16:50:38 [0m[PHY]   gNB 0 configured
+ 七  05 16:50:38 [0m[PHY]   fp->scs=30000
+ 七  05 16:50:38 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 七  05 16:50:38 [0m[PHY]   fp->nb_prefix_samples0=176
+ 七  05 16:50:38 [0m[PHY]   fp->nb_prefix_samples=144
+ 七  05 16:50:38 [0m[PHY]   fp->slots_per_subframe=2
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_subframe=61440
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_frame=614400
+ 七  05 16:50:38 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 七  05 16:50:38 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 七  05 16:50:38 [0m[PHY]   fp->Nid_cell=0
+ 七  05 16:50:38 [0m[PHY]   fp->first_carrier_offset=1412
+ 七  05 16:50:38 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 七  05 16:50:38 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
+ 七  05 16:50:38 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+ 七  05 16:50:38 [PNF] Received NFAPI_START_REQ phy_id:1
+ 七  05 16:50:38 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
+ 七  05 16:50:38 subframe_buffer_size configured using phy_info->timing_window:30
+ 七  05 16:50:38 [PNF] Sending PNF_START_RESP
+ 七  05 16:50:38 Sending NFAPI_START_RESPONSE config:0x624cf9cffac0 phy_id:1
+ 七  05 16:50:38 gNB L1 are configured
+ 七  05 16:50:38 About to Init RU threads RC.nb_RU:1
+ 七  05 16:50:38 Initializing RU threads
+ 七  05 16:50:38 configuring RU from file
+ 七  05 16:50:38 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
+ 七  05 16:50:38 Set RU mask to 1
+ 七  05 16:50:38 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 七  05 16:50:38 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 七  05 16:50:38 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 七  05 16:50:38 [0mCalling sched_setscheduler(79)
+ 七  05 16:50:38 Creating RC.ru[0]:0x624cf9d0a950
+ 七  05 16:50:38 [PHY]   RU GPIO control set as 'generic'
+ 七  05 16:50:38 [0m[PHY]   Setting clock source to internal
+ 七  05 16:50:38 [0m[PHY]   Setting time source to internal
+ 七  05 16:50:38 [0mSetting function for RU 0 to gNodeB_3GPP
+ 七  05 16:50:38 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
+ 七  05 16:50:38 [RU 0] Setting half-slot parallelization to 1
+ 七  05 16:50:38 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
+ 七  05 16:50:38 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+ 七  05 16:50:38 [0mconfiguring ru_id 0 (start_rf 0x624cf49ca5c0)
+ 七  05 16:50:38 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+ 七  05 16:50:38 [0m[PHY]   RU Thread pool size 2
+ 七  05 16:50:38 [0m[PHY]   RU thread-pool core string -1,-1
+ 七  05 16:50:38 [0mcreate a thread for core -1
+ 七  05 16:50:38 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 七  05 16:50:38 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 七  05 16:50:38 [0mcreate a thread for core -1
+ 七  05 16:50:38 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 七  05 16:50:38 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 七  05 16:50:38 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+ 七  05 16:50:38 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
+ 七  05 16:50:38 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 17
+ 七  05 16:50:38 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 七  05 16:50:38 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 七  05 16:50:38 [0m[PHY]   fp->scs=30000
+ 七  05 16:50:38 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 七  05 16:50:38 [0m[PHY]   fp->nb_prefix_samples0=176
+ 七  05 16:50:38 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
+ 七  05 16:50:38 [PHY]   fp->nb_prefix_samples=144
+ 七  05 16:50:38 [0m[PHY]   fp->slots_per_subframe=2
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_subframe=61440
+ 七  05 16:50:38 [0m[PHY]   fp->samples_per_frame=614400
+ 七  05 16:50:38 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 七  05 16:50:38 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 七  05 16:50:38 [0m[PHY]   fp->Nid_cell=0
+ 七  05 16:50:38 [0m[PHY]   fp->first_carrier_offset=1412
+ 七  05 16:50:38 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 七  05 16:50:38 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+ 七  05 16:50:38 [0m[PHY]   [INIT] common.txdata[0] = 0x7e274dd67040 (2458880 bytes,sf_extension 320)
+ 七  05 16:50:38 [0m[PHY]   [INIT] common.txdata[0] = 0x7e274dd67540 
+ 七  05 16:50:38 [0m[PHY]   nb_tx 1
+ 七  05 16:50:38 [0m[PHY]   rxdata_7_5kHz[0] 0x7e274da1d040 for RU 0
+ 七  05 16:50:38 [0m[PHY]   [INIT] common.txdata_BF= 0x7e2738000ac0 (8 bytes)
+ 七  05 16:50:38 [0m[PHY]   txdataF_BF[0] 0x7e275168d040 for RU 0
+ 七  05 16:50:38 [0m[PHY]   rxdataF[0] 0x7e27510a8040 for RU 0
+ 七  05 16:50:38 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+ 七  05 16:50:38 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+ 七  05 16:50:38 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+ 七  05 16:50:38 [0m[PHY]   Channel 0: setting tx_gain offset 90, tx_freq 3619200000 Hz
+ 七  05 16:50:38 [0m[PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
+ 七  05 16:50:38 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+ 七  05 16:50:38 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+ 七  05 16:50:38 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+ 七  05 16:50:38 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+ 七  05 16:50:38 shlib_path librfsimulator.so
+ 七  05 16:50:38 [LOADER] library librfsimulator.so successfully loaded
+ 七  05 16:50:38 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
+ 七  05 16:50:38 [93m[HW]   sample_rate 61440000.000000
+ 七  05 16:50:38 [0m[HW]   Running as server waiting opposite rfsimulators to connect
+ 七  05 16:50:38 [0mInitializing random number generator, seed 7376900740763434423
+ 七  05 16:50:38 [HW]   [RAU] has loaded RFSIMULATOR device.
+ 七  05 16:50:38 [0msetup_RU_buffers: frame_parms = 0x7e2750caf010
+ 七  05 16:50:38 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+ 七  05 16:50:38 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
+ 七  05 16:50:38 [0mwaiting for sync (ru_thread,-1/0x624cf55c50ac,0x624cf6eea0a0,0x624cf6ee93a0)
+ 七  05 16:50:43 [PNF] waiting for OAI to be configured (eNB/RU)
+ 七  05 16:50:43 [PNF] OAI eNB/RU configured
+ 七  05 16:50:43 [PNF] About to call init_eNB_afterRU()
+ 七  05 16:50:43 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+ 七  05 16:50:43 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7e27507c5010
+ 七  05 16:50:43 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+ 七  05 16:50:43 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+ 七  05 16:50:43 shlib_path libdfts.so
+ 七  05 16:50:43 [LOADER] library libdfts.so successfully loaded
+ 七  05 16:50:43 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+ 七  05 16:50:43 shlib_path libldpc.so
+ 七  05 16:50:43 [LOADER] library libldpc.so successfully loaded
+ 七  05 16:50:43 [PHY]   Initialise nr transport
+ 七  05 16:50:44 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
+ 七  05 16:50:44 [0m[PHY]   gNB->num_RU:1
+ 七  05 16:50:44 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0mcreate a thread for core -1
+ 七  05 16:50:44 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0m[UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0m[UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
+ 七  05 16:50:44 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+ 七  05 16:50:44 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
+ 七  05 16:50:44 [0mwaiting for sync (L1_stats_thread,-1/0x624cf55c50ac,0x624cf6eea0a0,0x624cf6ee93a0)
+ 七  05 16:50:44 [PNF] Sending PNF_START_RESP
+ 七  05 16:50:44 Sending NFAPI_START_RESPONSE config:0x624cf9cffac0 phy_id:1
+ 七  05 16:50:44 NFAPI: got sync (main?)
+ 七  05 16:50:44 wait RUs
+ 七  05 16:50:44 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+ 七  05 16:50:44 [0m[PHY]   RUs configured
+ 七  05 16:50:44 [0mALL RUs READY!
+ 七  05 16:50:44 RC.nb_RU:1
+ 七  05 16:50:44 ALL RUs ready - init gNBs
+ 七  05 16:50:44 NFAPI mode - DO NOT call init_gNB_afterRU()
+ 七  05 16:50:44 ALL RUs ready - ALL gNBs ready
+ 七  05 16:50:44 Sending sync to all threads
+ 七  05 16:50:44 Entering ITTI signals handler
+ 七  05 16:50:44 TYPE <CTRL-C> TO TERMINATE
+ 七  05 16:50:44 got sync (L1_stats_thread)
+ 七  05 16:50:44 got sync (ru_thread)
+ 七  05 16:50:44 [PNF] Sending first P7 slot indication
+ 七  05 16:50:44 [PNF] Sent first P7 slot ind
+ 七  05 16:50:44 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+ 七  05 16:50:44 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+ 七  05 16:50:44 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+ 七  05 16:50:44 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+ 七  05 16:50:44 [0m[PHY]   RU 0 rf device ready
+ 七  05 16:50:44 [0m[PHY]   RU 0 RF started opp_enabled 0
+ 七  05 16:50:44 [0m[93m[HW]   No connected device, generating void samples...
+ 七  05 16:50:44 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
+ 七  05 16:50:45 [0m[HW]   A client connects, sending the current time
+ 七  05 16:50:46 [0m
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:46 
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:46 
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:46 
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:46 
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:46 
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:46 
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:46 
+ 七  05 16:50:46 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:46 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:46 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:47 
+ 七  05 16:50:47 Assertion (harq->sdu_len > 0) failed!
+ 七  05 16:50:47 In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
+ 七  05 16:50:47 no HARQ SDU present
+ 七  05 16:50:48 [NR_PHY]   [RAPROC] 183.19 Initiating RA procedure with preamble 41, energy 56.4 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
+ 七  05 16:50:48 [0m[PHY]   pack_nr_rach_indication_body
+ 七  05 16:50:48 [0m[NR_PHY]   [RAPROC] 195.19 Initiating RA procedure with preamble 25, energy 56.4 dB (I0 4, thres 150), delay 0 start symbol 0 freq index 0
+ 七  05 16:50:48 [0m[PHY]   pack_nr_rach_indication_body
+ 七  05 16:50:48 [0m[NR_PHY]   [RAPROC] 207.19 Initiating RA procedure with preamble 17, energy 56.4 dB (I0 5, thres 150), delay 0 start symbol 0 freq index 0
+ 七  05 16:50:48 [0m[PHY]   pack_nr_rach_indication_body
+ 七  05 16:50:48 [0m[NR_PHY]   [RAPROC] 219.19 Initiating RA procedure with preamble 49, energy 56.4 dB (I0 5, thres 150), delay 0 start symbol 0 freq index 0
+ 七  05 16:50:48 [0m[PHY]   pack_nr_rach_indication_body
+ 七  05 16:50:48 [0m[NR_PHY]   [RAPROC] 231.19 Initiating RA procedure with preamble 38, energy 54.0 dB (I0 5, thres 150), delay 0 start symbol 0 freq index 0
+ 七  05 16:50:48 [0m[PHY]   pack_nr_rach_indication_body
+ 七  05 16:50:48 [0m[NR_PHY]   [RAPROC] 243.19 Initiating RA procedure with preamble 0, energy 54.0 dB (I0 4, thres 150), delay 0 start symbol 0 freq index 0
+ 七  05 16:50:48 [0m[PHY]   pack_nr_rach_indication_body
+ 七  05 16:50:48 [0m[NR_PHY]   [RAPROC] 255.19 Initiating RA procedure with preamble 34, energy 54.0 dB (I0 4, thres 150), delay 0 start symbol 0 freq index 0
+ 七  05 16:50:48 [0m[PHY]   pack_nr_rach_indication_body
+ 七  05 16:50:49 [0m2477274239198 [W] 1350321728: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+ 七  05 16:50:49 2477274239211 [W] 1350321728: pnf_nr_read_dispatch_message: Disconnected socket
+ 七  05 16:50:50 2477275239587 [E] 1350321728: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+ 七  05 16:50:51 [93m[HW]   Lost socket
+ 七  05 16:50:52 [0m2477277240006 [E] 1350321728: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+ 七  05 16:50:54 2477279240410 [E] 1350321728: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+ 七  05 16:50:55 
+ 七  05 16:50:55 ** Caught SIGTERM, shutting down
+ 七  05 16:50:55 Returned from ITTI signal handler
+ 七  05 16:50:55 oai_exit=1
+ 七  05 16:50:55 [PHY]   Killing gNB 0 processing threads
+ 七  05 16:50:55 [0mExiting ru_thread 
+ 七  05 16:50:55 
+ 七  05 16:50:55 ** Caught SIGTERM, shutting down
+ 七  05 16:50:55 
+ 七  05 16:50:55 ** Caught SIGTERM, shutting down
+ 七  05 16:50:56 2477281240842 [E] 1350321728: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+ 七  05 16:50:56 [PHY]   Stopping RU 0 processing threads
+ 七  05 16:50:56 [0m[PHY]   RU 0 RF device stopped
+ 七  05 16:50:56 [0m[PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
+ 七  05 16:50:56 [0mBye.
