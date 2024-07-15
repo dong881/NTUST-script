@@ -59,6 +59,11 @@ else
     # sudo echo "Start TCPdump..."
     # sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
+    # clean & compile OSC RIC
+    cd $OSC_root_PATH
+    make clean_ric NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
+    make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
+
     # clean & compile OSC DU
     #cd /home/hpe/mwnl-odu-at-oai-based-on-scf/l2/build/odu
     cd $OSC_root_PATH
@@ -80,7 +85,7 @@ else
     # echo $RIC_PID
     echo -n $RIC_PID >> $PID_FILE
     echo -n " " >> $PID_FILE
-
+    sleep 1
     # echo "RUN OSC DU"
     sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
     sleep 2
