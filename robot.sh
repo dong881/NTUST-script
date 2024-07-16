@@ -39,8 +39,6 @@ should_continue() {
 }
 
 while true; do
-    bash "$Target_PATH/0"
-    sleep 1
     check_logs_for_string
     case $? in
         1)
@@ -65,4 +63,6 @@ while true; do
         fi
         exit 0
     fi
+    bash "$Target_PATH/0"
+    sleep 1
 done
