@@ -107,4 +107,7 @@ else
     bash "$Target_PATH/exit"
     bash "$Target_PATH/q"
     echo "Time to $wait_sec seconds..."
+    echo "Auto execute robot.sh script..."
+    cd $Target_PATH
+    bash "$Target_PATH/robot.sh"
 fi
