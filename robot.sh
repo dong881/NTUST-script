@@ -43,6 +43,10 @@ while true; do
     case $? in
         1)
             echo "Search string found in logs. Stopping script."
+            # 刪除control檔案
+            if [ -e "$CONTROL_FILE" ]; then
+                rm "$CONTROL_FILE"
+            fi
             exit 0
             ;;
         2)
