@@ -16,16 +16,16 @@ PNF_LOG_FILE="$LOG_PATH/PNF-nfapi-fixes.log"
 UE_LOG_FILE="$LOG_PATH/5-OAI_UEsim.log"
 
 SEARCH_STRING="pack_nr_rach_indication_body"
-ERROR_STRING="ERROR"
+ERROR_STRING="asdfghjkl;"
 
 check_logs_for_string() {
     for LOG_FILE in "$PNF_LOG_FILE"; do
         if grep -q "$SEARCH_STRING" "$LOG_FILE"; then
             return 1
         fi
-        # if grep -q "$ERROR_STRING" "$LOG_FILE"; then
-        #     return 2
-        # fi
+        if grep -q "$ERROR_STRING" "$LOG_FILE"; then
+            return 2
+        fi
     done
     return 0
 }
@@ -40,35 +40,31 @@ should_continue() {
     return 1  # Stop
 }
 
-while true; do
-    check_logs_for_string
-    case $? in
-        1)
-            echo "Search string found in logs. Stopping script."
-            # 刪除control檔案
-            if [ -e "$CONTROL_FILE" ]; then
-                rm "$CONTROL_FILE"
-            fi
-            exit 0
-            ;;
-        2)
-            echo "Error detected in logs. Restarting..."
-            bash "$Target_PATH/exit"
-            bash "$Target_PATH/q"
-            continue
-            ;;
-    esac
-    should_continue
-    if [ $? -eq 1 ]; then
-        echo "Control file indicates to stop the script."
-        bash "$Target_PATH/exit"
-        bash "$Target_PATH/q"
+check_logs_for_string
+case $? in
+    1)
+        echo "Search string found in logs. Stopping script."
         # 刪除control檔案
         if [ -e "$CONTROL_FILE" ]; then
             rm "$CONTROL_FILE"
         fi
         exit 0
+        ;;
+    2)
+        echo "Error detected in logs. Restarting..."
+        bash "$Target_PATH/exit"
+        bash "$Target_PATH/q"
+        bash "$Target_PATH/0"
+        ;;
+esac
+should_continue
+if [ $? -eq 1 ]; then
+    echo "Control file indicates to stop the script."
+    # 刪除control檔案
+    if [ -e "$CONTROL_FILE" ]; then
+        rm "$CONTROL_FILE"
     fi
-    bash "$Target_PATH/0"
-    sleep 1
-done
+    exit 0
+fi
+bash "$Target_PATH/0"
+
