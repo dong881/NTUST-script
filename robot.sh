@@ -3,8 +3,10 @@ LOG_PATH="$Target_PATH/LOG"
 CONTROL_FILE="$Target_PATH/CONTROL"
 
 # Create CONTROL file if it doesn't exist
-touch $CONTROL_FILE
-echo -n "1" > $CONTROL_FILE
+if [ ! -e "$CONTROL_FILE" ]; then
+    touch $CONTROL_FILE
+    echo -n "1" > $CONTROL_FILE
+fi
 
 # LOG File name
 OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
@@ -13,11 +15,11 @@ ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
 PNF_LOG_FILE="$LOG_PATH/PNF-nfapi-fixes.log"
 UE_LOG_FILE="$LOG_PATH/5-OAI_UEsim.log"
 
-SEARCH_STRING="RAR-Msg2 decoded"
+SEARCH_STRING="pack_nr_rach_indication_body"
 ERROR_STRING="ERROR"
 
 check_logs_for_string() {
-    for LOG_FILE in "$UE_LOG_FILE"; do
+    for LOG_FILE in "$PNF_LOG_FILE"; do
         if grep -q "$SEARCH_STRING" "$LOG_FILE"; then
             return 1
         fi
