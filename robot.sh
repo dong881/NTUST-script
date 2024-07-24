@@ -15,11 +15,11 @@ ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
 PNF_LOG_FILE="$LOG_PATH/PNF-nfapi-fixes.log"
 UE_LOG_FILE="$LOG_PATH/5-OAI_UEsim.log"
 
-SEARCH_STRING="pack_nr_rach_indication_body"
+SEARCH_STRING="SIB1 decoded"
 ERROR_STRING="asdfghjkl;"
 
 check_logs_for_string() {
-    for LOG_FILE in "$PNF_LOG_FILE"; do
+    for LOG_FILE in "$UE_LOG_FILE"; do
         if grep -q "$SEARCH_STRING" "$LOG_FILE"; then
             return 1
         fi
