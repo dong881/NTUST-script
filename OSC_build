@@ -1,0 +1,16 @@
+#!/bin/bash
+
+HOME_PATH="/home/hpe"
+L2_PATH="$HOME_PATH/o-du-l2"
+# OSC root
+OSC_root_PATH="$L2_PATH/build/odu"
+# clean & compile OSC RIC
+cd $OSC_root_PATH
+make clean_ric NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
+make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
+
+# clean & compile OSC DU
+#cd /home/hpe/o-du-l2/build/odu
+cd $OSC_root_PATH
+make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
