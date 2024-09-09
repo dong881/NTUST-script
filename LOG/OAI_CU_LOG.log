@@ -16,13 +16,13 @@
  一  29 20:31:42 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
  一  29 20:31:42 [ENB_APP]   nfapi running mode: MONOLITHIC
  一  29 20:31:42 [0m[GNB_APP]   Getting GNBSParams
- 一  29 20:31:42 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
- 一  29 20:31:42 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  29 20:31:42 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
- 一  29 20:31:42 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:42 [0m[LIBCONFIG] (root): 2/2 parameters successfully set,  (0 to default value)
+   一  29 20:31:42 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-NR  -5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
  一  29 20:31:42 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
  一  29 20:31:42 [CONFIG] parallel_conf is set to 2
- 一  29 20:31:42 [CONFIG] worker_conf is set to 1
+ 一  29 20:31:42 [CONFIG] worker_conf is set to 1DlPageAllocDlPageAllocDlPaDlPageAllocgeAllocnot found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:42 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf 
+ 一  29 20:31:42 [LIBCONFIG] list RUs not found in config file ../../../targets/
  一  29 20:31:42 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
  一  29 20:31:42 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
  一  29 20:31:42 configuring for RAU/RRU
