@@ -78,14 +78,14 @@ else
 
     # echo "RUN OAI CU"
     sudo stdbuf -oL $OAI_CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
-    # echo "RUN OSC RIC_STUB"
-    sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
-    sleep 1
-    RIC_PID=$(pgrep -o ric_stub)
-    # echo $RIC_PID
-    echo -n $RIC_PID >> $PID_FILE
-    echo -n " " >> $PID_FILE
-    sleep 1
+    # # echo "RUN OSC RIC_STUB"
+    # sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
+    # sleep 1
+    # RIC_PID=$(pgrep -o ric_stub)
+    # # echo $RIC_PID
+    # echo -n $RIC_PID >> $PID_FILE
+    # echo -n " " >> $PID_FILE
+    sleep 2
     # echo "RUN OSC DU"
     sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
     sleep 2
