@@ -1,6 +1,7 @@
 #!/bin/bash
-sudo echo "Build OAI CU"
+source ../VARIABLE.sh
 
+sudo echo "Build OAI CU"
 cd /home/hpe/bmwlab_tony_cu_du/oai_cu/cmake_targets
 sudo echo "Build OAI CU - step1"
 # compile all of the code

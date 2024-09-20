@@ -1,18 +1,17 @@
 #!/bin/bash
 
-# 使用ps命令過濾出所需進程的PID
 pids=$(ps aux | grep "nr-uesoftmodem\|nr-softmodem\|tcpdump\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}')
 
-# 關閉背景進程
 for pid in $pids; do
     sudo kill -15 "$pid"  # SIGTERM
     echo -e  "\r"
     # echo "kill $pid"
 done
 
-# 刪除lock檔案
-LOCKFILE=./tmp-build_run.lock
+LOCKFILE=$PATH_TO_SCRIPT/tmp-build_run.lock
 cd "$(dirname "$0")"
 if [ -e $LOCKFILE ]; then
     rm $LOCKFILE
 fi
+
+bash "./Tools/q"

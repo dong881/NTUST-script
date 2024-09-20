@@ -1,0 +1,5 @@
+#!/bin/bash
+source ../VARIABLE.sh
+
+cd $PATH_TO_O_DU_L2/bin/ric_stub
+sudo ./ric_stub 

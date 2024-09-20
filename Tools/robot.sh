@@ -1,12 +1,14 @@
-Target_PATH="."
+#!/bin/bash
+source ../VARIABLE.sh
+
+SEARCH_STRING="pack_nr_rach_indication_body"
+ERROR_STRING="asdfghjkl;"
+
+################################################
+
+Target_PATH="$PATH_TO_SCRIPT"
 LOG_PATH="$Target_PATH/LOG"
 CONTROL_FILE="$Target_PATH/CONTROL"
-
-# Create CONTROL file if it doesn't exist
-if [ ! -e "$CONTROL_FILE" ]; then
-    touch $CONTROL_FILE
-    echo -n "1" > $CONTROL_FILE
-fi
 
 # LOG File name
 OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
@@ -14,9 +16,13 @@ RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
 ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
 PNF_LOG_FILE="$LOG_PATH/PNF-nfapi-fixes.log"
 UE_LOG_FILE="$LOG_PATH/5-OAI_UEsim.log"
+TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
 
-SEARCH_STRING="pack_nr_rach_indication_body"
-ERROR_STRING="asdfghjkl;"
+# Create CONTROL file if it doesn't exist
+if [ ! -e "$CONTROL_FILE" ]; then
+    touch $CONTROL_FILE
+    echo -n "1" > $CONTROL_FILE
+fi
 
 check_logs_for_string() {
     for LOG_FILE in "$PNF_LOG_FILE"; do
@@ -44,7 +50,6 @@ check_logs_for_string
 case $? in
     1)
         echo "Search string found in logs. Stopping script."
-        # 刪除control檔案
         if [ -e "$CONTROL_FILE" ]; then
             rm "$CONTROL_FILE"
         fi
@@ -53,14 +58,12 @@ case $? in
     2)
         echo "Error detected in logs. Restarting..."
         bash "$Target_PATH/exit"
-        bash "$Target_PATH/q"
         bash "$Target_PATH/0"
         ;;
 esac
 should_continue
 if [ $? -eq 1 ]; then
     echo "Control file indicates to stop the script."
-    # 刪除control檔案
     if [ -e "$CONTROL_FILE" ]; then
         rm "$CONTROL_FILE"
     fi

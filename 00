@@ -1,10 +1,9 @@
 #!/bin/bash
-
-HOME_PATH="/home/hpe"
+source ./VARIABLE.sh
 wait_sec=25
 
-Target_PATH="$HOME_PATH/NTUST-script"
-L2_PATH="$HOME_PATH/mwnl-odu-at-oai-based-on-scf/l2"
+Target_PATH=$PATH_TO_SCRIPT
+L2_PATH=$PATH_TO_O_DU_L2
 LOG_PATH="$Target_PATH/LOG"
 LOCKFILE="$Target_PATH/tmp-build_run.lock"
 mkdir -p "$LOG_PATH"
@@ -19,24 +18,25 @@ TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
 
 ## CU & CU stub
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
-OAI_CU_PATH="$HOME_PATH/bmwlab_tony_cu_du/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
-CU_CONF="$HOME_PATH/bmwlab_tony_cu_du/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
+OAI_CU_PATH="$PATH_TO_CU/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
+CU_CONF="$PATH_TO_CU/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
 
 # OSC root
 OSC_root_PATH="$L2_PATH/build/odu"
 # OAI root
-OAI_root_PATH="$HOME_PATH/openairinterface5g/cmake_targets/ran_build/build"
+OAI_build_PATH="$PATH_TO_L1_RFSIM_UE/cmake_targets/ran_build/build"
 # RIC stub
 RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
 # OSC DU
 ODU_PATH="$L2_PATH/bin/odu/odu"
 # OAI gNB (OAI PNF)
-PNF_CONF="$Target_PATH/ELSE/oaiL1.nfapi.usrpb210.conf"
+PNF_CONF="$Target_PATH/CONFIG/oaiL1.nfapi.usrpb210.conf"
 
 # FID
 PID_FILE="$LOG_PATH/PID_FILE_NAME"
 
 # Check if the lock file exists
+echo $LOCKFILE
 if [ -e $LOCKFILE ]; then
     echo "Another user is currently building and running the code. Please wait."
     exit 1
@@ -57,35 +57,30 @@ else
     
     # TCPdump
     # sudo echo "Start TCPdump..."
+    # sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE &
     # sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
-    # clean & compile OSC RIC
-    cd $OSC_root_PATH
-    make clean_ric NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
-    make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
-
     # clean & compile OSC DU
-    #cd /home/hpe/mwnl-odu-at-oai-based-on-scf/l2/build/odu
     cd $OSC_root_PATH
     make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
     make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
 
     # clean & build OAI all
-    cd $OAI_root_PATH
+    cd $OAI_build_PATH
     sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
-    echo -e  "\n\r"
+    echo -e  "\r"
     cd ~
 
     # echo "RUN OAI CU"
     sudo stdbuf -oL $OAI_CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
-    # # echo "RUN OSC RIC_STUB"
+    # echo "RUN OSC RIC_STUB"
     # sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
-    # sleep 1
+    sleep 3
     # RIC_PID=$(pgrep -o ric_stub)
     # # echo $RIC_PID
     # echo -n $RIC_PID >> $PID_FILE
     # echo -n " " >> $PID_FILE
-    sleep 2
+
     # echo "RUN OSC DU"
     sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
     sleep 2
@@ -95,19 +90,18 @@ else
     echo -n " " >> $PID_FILE
 
     # echo "RUN OAI PNF"
-    pnf_cmd="$OAI_root_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+    pnf_cmd="$OAI_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
     sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
     sleep 3
     # echo "RUN OAI UEsim"
-    ue_cmd="$OAI_root_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
+    ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
     sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
 
-    echo -e  "\nThe script automatically closes after $wait_sec seconds...\n\r"
+    echo -e "The script automatically closes after $wait_sec seconds...\n\r"
     sleep $wait_sec
     bash "$Target_PATH/exit"
-    bash "$Target_PATH/q"
-    echo -e  "Time to $wait_sec seconds...\n\r"
-    echo -e  "Auto execute robot.sh script...\n\r"
+    echo -e "\rTime to $wait_sec seconds...\n\r"
+    echo -e "\rAuto execute robot.sh script...\r"
     cd $Target_PATH
-    bash "$Target_PATH/robot.sh"
+    bash "$Target_PATH/Tools/robot.sh"
 fi

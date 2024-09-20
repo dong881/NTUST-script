@@ -1,0 +1,5 @@
+#!/bin/bash
+source ../VARIABLE.sh
+
+cd $PATH_TO_L1_RFSIM_UE/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O $PATH_TO_SCRIPT/CONFIG/oaiL1.nfapi.usrpb210.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa

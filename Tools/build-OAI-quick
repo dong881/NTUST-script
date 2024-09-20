@@ -1,0 +1,9 @@
+#!/bin/bash
+source ../VARIABLE.sh
+
+cd $PATH_TO_L1_RFSIM_UE/cmake_targets/ran_build/build
+
+#compile
+# ./build_oai -I -c -C
+# ./build_oai -w USRP --gNB
+sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
