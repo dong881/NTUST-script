@@ -1,10 +1,9 @@
 #!/bin/bash
+source ./VARIABLE.sh
 
 pids=$(ps aux | grep "nr-uesoftmodem\|nr-softmodem\|tcpdump\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}')
-
 for pid in $pids; do
-    sudo kill -15 "$pid"  # SIGTERM
-    echo -e  "\r"
+    sudo kill -15 "$pid" &  # SIGTERM
     # echo "kill $pid"
 done
 
@@ -14,4 +13,5 @@ if [ -e $LOCKFILE ]; then
     rm $LOCKFILE
 fi
 
-bash "./Tools/q"
+cd $PATH_TO_SCRIPT/Tools
+bash "$PATH_TO_SCRIPT/Tools/q"

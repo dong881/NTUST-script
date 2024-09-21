@@ -24,7 +24,7 @@ CU_CONF="$PATH_TO_CU/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.b
 # OSC root
 OSC_root_PATH="$L2_PATH/build/odu"
 # OAI root
-OAI_build_PATH="$PATH_TO_L1_RFSIM_UE/cmake_targets/ran_build/build"
+OAI_build_PATH="$PATH_TO_L1_UE/cmake_targets/ran_build/build"
 # RIC stub
 RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
 # OSC DU
@@ -33,27 +33,26 @@ ODU_PATH="$L2_PATH/bin/odu/odu"
 PNF_CONF="$Target_PATH/CONFIG/oaiL1.nfapi.usrpb210.conf"
 
 # FID
-PID_FILE="$LOG_PATH/PID_FILE_NAME"
+PID_FILE="$PATH_TO_SCRIPT/PID_FILE_NAME"
 
 # Check if the lock file exists
-echo $LOCKFILE
 if [ -e $LOCKFILE ]; then
     echo "Another user is currently building and running the code. Please wait."
     exit 1
 else
-    bash "$Target_PATH/q"
+    cd $Target_PATH
     bash "$Target_PATH/exit"
     # Create the lock file
     touch $LOCKFILE
     touch $PID_FILE
 
-    sudo ifconfig lo:RIC_STUB down
-    sudo ifconfig lo:CU_STUB  down
-    sudo ifconfig lo:ODU  down
-    sudo ifconfig lo:OAI_CU down
-    sudo ifconfig lo:RIC_STUB "192.168.130.80"
-    sudo ifconfig lo:ODU  "192.168.130.81"
-    sudo ifconfig lo:OAI_CU "192.168.130.83"
+    sudo ifconfig lo:RIC_STUB down 2>/dev/null
+    sudo ifconfig lo:CU_STUB  down 2>/dev/null
+    sudo ifconfig lo:ODU  down 2>/dev/null
+    sudo ifconfig lo:OAI_CU down 2>/dev/null
+    sudo ifconfig lo:RIC_STUB "192.168.130.80" 2>/dev/null
+    sudo ifconfig lo:ODU  "192.168.130.81" 2>/dev/null
+    sudo ifconfig lo:OAI_CU "192.168.130.83" 2>/dev/null
     
     # TCPdump
     # sudo echo "Start TCPdump..."
@@ -74,12 +73,12 @@ else
     # echo "RUN OAI CU"
     sudo stdbuf -oL $OAI_CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
     # echo "RUN OSC RIC_STUB"
-    # sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
-    sleep 3
-    # RIC_PID=$(pgrep -o ric_stub)
-    # # echo $RIC_PID
-    # echo -n $RIC_PID >> $PID_FILE
-    # echo -n " " >> $PID_FILE
+    sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
+    sleep 1
+    RIC_PID=$(pgrep -o ric_stub)
+    # echo $RIC_PID
+    echo -n $RIC_PID >> $PID_FILE
+    echo -n " " >> $PID_FILE
 
     # echo "RUN OSC DU"
     sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
@@ -93,15 +92,30 @@ else
     pnf_cmd="$OAI_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
     sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
     sleep 3
-    # echo "RUN OAI UEsim"
+    # echo "RUN OAI UE"
     ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
     sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
 
     echo -e "The script automatically closes after $wait_sec seconds...\n\r"
-    sleep $wait_sec
-    bash "$Target_PATH/exit"
-    echo -e "\rTime to $wait_sec seconds...\n\r"
-    echo -e "\rAuto execute robot.sh script...\r"
+    start_time=$(date +%s)
+    timeout=$wait_sec
+    end_time=$((start_time + timeout))
+    while [ $(date +%s) -lt $end_time ]; do
+        keywords=("Assertion (index_4msb < 9) failed!" "pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111")
+        log_files=("$UE_LOG_FILE" "$PNF_LOG_FILE")
+        for log_file in "${log_files[@]}"; do
+            for keyword in "${keywords[@]}"; do
+                if grep -q "$keyword" "$log_file"; then
+                    echo -e "$keyword found in $log_file. Terminating script.\n\r"
+                    break 3
+                fi
+            done
+        done
+        sleep 0.5
+    done
     cd $Target_PATH
+    bash "$Target_PATH/exit"
+    echo -e "\rAuto execute robot.sh script...\r"
+    cd "$Target_PATH/Tools"
     bash "$Target_PATH/Tools/robot.sh"
 fi

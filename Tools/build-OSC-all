@@ -1,16 +1,17 @@
 #!/bin/bash
+source ../VARIABLE.sh
 
-HOME_PATH="/home/hpe"
-L2_PATH="$HOME_PATH/mwnl-odu-at-oai-based-on-scf/l2"
+L2_PATH=$PATH_TO_O_DU_L2
+echo "L2_PATH=$L2_PATH"
 # OSC root
-OSC_root_PATH="$L2_PATH/build/odu"
+OSC_build_PATH="$L2_PATH/build/odu"
 # clean & compile OSC RIC
-cd $OSC_root_PATH
+cd $OSC_build_PATH
 make clean_ric NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
 make ric_stub NODE=TEST_STUB MACHINE=BIT64 MODE=TDD
 
 # clean & compile OSC DU
 #cd /home/hpe/o-du-l2/build/odu
-cd $OSC_root_PATH
+cd $OSC_build_PATH
 make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
 make odu MACHINE=BIT64 MODE=TDD NFAPI=YES

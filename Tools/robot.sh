@@ -1,7 +1,7 @@
 #!/bin/bash
 source ../VARIABLE.sh
 
-SEARCH_STRING="pack_nr_rach_indication_body"
+SEARCH_STRING="RA-Msg3 transmitted"
 ERROR_STRING="asdfghjkl;"
 
 ################################################
@@ -25,7 +25,7 @@ if [ ! -e "$CONTROL_FILE" ]; then
 fi
 
 check_logs_for_string() {
-    for LOG_FILE in "$PNF_LOG_FILE"; do
+    for LOG_FILE in "$UE_LOG_FILE"; do
         if grep -q "$SEARCH_STRING" "$LOG_FILE"; then
             return 1
         fi
@@ -39,7 +39,7 @@ check_logs_for_string() {
 should_continue() {
     if [ -e "$CONTROL_FILE" ] && [ -f "$CONTROL_FILE" ]; then
         CONTROL_VALUE=$(cat "$CONTROL_FILE")
-        if [ "$CONTROL_VALUE" -eq 1 ]; then
+        if [ -n "$CONTROL_VALUE" ] && [ "$CONTROL_VALUE" -eq 1 ]; then
             return 0  # Continue
         fi
     fi
@@ -57,7 +57,7 @@ case $? in
         ;;
     2)
         echo "Error detected in logs. Restarting..."
-        bash "$Target_PATH/exit"
+        cd $Target_PATH
         bash "$Target_PATH/0"
         ;;
 esac
@@ -69,5 +69,6 @@ if [ $? -eq 1 ]; then
     fi
     exit 0
 fi
+cd $Target_PATH
 bash "$Target_PATH/0"
 
