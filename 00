@@ -46,10 +46,10 @@ else
     touch $LOCKFILE
     touch $PID_FILE
 
-    sudo ifconfig lo:RIC_STUB down
-    sudo ifconfig lo:CU_STUB  down
-    sudo ifconfig lo:ODU  down
-    sudo ifconfig lo:OAI_CU down
+    sudo ifconfig lo:RIC_STUB down 2>/dev/null
+    sudo ifconfig lo:CU_STUB  down 2>/dev/null
+    sudo ifconfig lo:ODU  down 2>/dev/null
+    sudo ifconfig lo:OAI_CU down 2>/dev/null
     sudo ifconfig lo:RIC_STUB "192.168.130.80" 2>/dev/null
     sudo ifconfig lo:ODU  "192.168.130.81" 2>/dev/null
     sudo ifconfig lo:OAI_CU "192.168.130.83" 2>/dev/null
