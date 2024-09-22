@@ -111,6 +111,12 @@ else
                 fi
             done
         done
+        count=$(grep -c "Harq round stats for Downlink: 0/0/0" "$UE_LOG_FILE")
+        
+        if [ "$count" -ge 3 ]; then
+            echo -e "Harq round stats for Downlink: 0/0/0 repeated twice in $log_file. Terminating script.\n\r"
+            break
+        fi
         sleep 0.5
     done
     cd $Target_PATH
