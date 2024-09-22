@@ -1,0 +1,1475 @@
+ 九  22 13:18:01 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/NTUST-script/CONFIG/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
+ 九  22 13:18:01 [CONFIG] get parameters from libconfig /home/hpe/NTUST-script/CONFIG/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: /home/hpe/NTUST-script/CONFIG
+ 九  22 13:18:01 [CONFIG] function config_libconfig_init returned 0
+ 九  22 13:18:01 [CONFIG] config module libconfig loaded
+ 九  22 13:18:01 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+ 九  22 13:18:01 [CONFIG] debug flags: 0x00000000
+ 九  22 13:18:01 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+ 九  22 13:18:01 [LIBCONFIG] log_config: 50/50 parameters successfully set, (44 to default value)
+ 九  22 13:18:01 [LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+ 九  22 13:18:01 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 九  22 13:18:01 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+ 九  22 13:18:01 log init done
+ 九  22 13:18:01 [HW]   # /dev/cpu_dma_latency set to 2 us
+ 九  22 13:18:01 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+ 九  22 13:18:01 [1;31m[HW]   Can't set cpu frequency
+ 九  22 13:18:01 [0mReading in command-line options
+ 九  22 13:18:01 [LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+ 九  22 13:18:01 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+ 九  22 13:18:01 [ENB_APP]   nfapi (1) running mode: PNF
+ 九  22 13:18:01 [0m[GNB_APP]   Getting GNBSParams
+ 九  22 13:18:01 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+ 九  22 13:18:01 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 九  22 13:18:01 [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+ 九  22 13:18:01 [CONFIG] parallel_conf is set to 0
+ 九  22 13:18:01 [CONFIG] worker_conf is set to 1
+ 九  22 13:18:01 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+ 九  22 13:18:01 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+ 九  22 13:18:01 configuring for RAU/RRU
+ 九  22 13:18:02 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 九  22 13:18:02 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 九  22 13:18:02 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+ 九  22 13:18:02 [OPT]   OPT disabled
+ 九  22 13:18:02 [0m[HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 7a7a9f7aa6 Date: Thu Sep 5 00:50:53 2024 +0800
+ 九  22 13:18:02 [0m[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (20 to default value)
+ 九  22 13:18:02 [LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (25 to default value)
+ 九  22 13:18:02 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /home/hpe/NTUST-script/CONFIG/oaiL1.nfapi.usrpb210.conf 
+ 九  22 13:18:02 [NR_PHY]   RC.gNB = 0x5fdba5c8b980
+ 九  22 13:18:02 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
+ 九  22 13:18:02 [PHY]   L1_RX_THREAD_CORE -1 (15)
+ 九  22 13:18:02 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+ 九  22 13:18:02 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+ 九  22 13:18:02 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+ 九  22 13:18:02 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+ 九  22 13:18:02 [0mconfigure_nr_nfapi_pnf() PNF
+ 九  22 13:18:02 
+ 九  22 13:18:02 
+ 九  22 13:18:02 
+ 九  22 13:18:02 
+ 九  22 13:18:02 
+ 九  22 13:18:02 [ENB_APP]   nfapi (1) running mode: PNF
+ 九  22 13:18:02 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:50010]
+ 九  22 13:18:02 Initializing northbound interface for L1
+ 九  22 13:18:02 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 九  22 13:18:02 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 九  22 13:18:02 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5fdba5c97d40
+ 九  22 13:18:02 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 九  22 13:18:02 [0m[PNF] pnf param request
+ 九  22 13:18:02 [PNF] pnf config request
+ 九  22 13:18:02 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+ 九  22 13:18:02 [PNF] Sent pnf_config_resp
+ 九  22 13:18:02 Received NFAPI_PNF_START_REQUEST
+ 九  22 13:18:02 [PNF] Sent NFAPI_PNF_START_RESP
+ 九  22 13:18:02 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+ 九  22 13:18:02 TAG value :2
+ 九  22 13:18:02 RUNNING pack_param_response
+ 九  22 13:18:02 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+ 九  22 13:18:02 b8 10 01 00 02 00 64 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 64 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 01 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1c 00 01 00 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 21 00 04 00 00 00 00 10 22 00 04 80 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 28 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c5 b3 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 01 1e 00 01 1e 00 00 00 
+ 九  22 13:18:02 *** have tag 1001, idx 0
+ 九  22 13:18:02 *** have tag 1002, idx 1
+ 九  22 13:18:02 *** have tag 1005, idx 4
+ 九  22 13:18:02 *** have tag 1006, idx 5
+ 九  22 13:18:02 *** have tag 1007, idx 6
+ 九  22 13:18:02 *** have tag 100a, idx 9
+ 九  22 13:18:02 *** have tag 100c, idx 11
+ 九  22 13:18:02 *** have tag 100d, idx 12
+ 九  22 13:18:02 *** have tag 100e, idx 13
+ 九  22 13:18:02 *** have tag 100f, idx 14
+ 九  22 13:18:02 *** have tag 1010, idx 15
+ 九  22 13:18:02 *** have tag 1011, idx 16
+ 九  22 13:18:02 *** have tag 1012, idx 17
+ 九  22 13:18:02 *** have tag 1013, idx 18
+ 九  22 13:18:02 *** have tag 1014, idx 19
+ 九  22 13:18:02 *** have tag 1029, idx 20
+ 九  22 13:18:02 *** have tag 101b, idx 27
+ 九  22 13:18:02 *** have tag 101c, idx 28
+ 九  22 13:18:02 *** have tag 101d, idx 29
+ 九  22 13:18:02 *** have tag 101f, idx 31
+ 九  22 13:18:02 *** have tag 1020, idx 32
+ 九  22 13:18:02 *** have tag 1021, idx 33
+ 九  22 13:18:02 *** have tag 1026, idx 38
+ 九  22 13:18:02 *** have tag 1028, idx 40
+ 九  22 13:18:02 *** have tag 100, idx 41
+ 九  22 13:18:02 *** have tag 102, idx 43
+ 九  22 13:18:02 *** have tag 11f, idx 45
+ 九  22 13:18:02 *** have tag 120, idx 46
+ 九  22 13:18:02 *** have tag 11e, idx 44
+ 九  22 13:18:02 [NTUST] TDD Table
+ 九  22 13:18:02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ 九  22 13:18:02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ 九  22 13:18:02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ 九  22 13:18:02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ 九  22 13:18:02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ 九  22 13:18:02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ 九  22 13:18:02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ 九  22 13:18:02 0 0 0 0 0 0 2 2 2 2 1 1 1 1 
+ 九  22 13:18:02 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ 九  22 13:18:02 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ 九  22 13:18:02 [PNF] vnf p7 127.0.0.1:50611
+ 九  22 13:18:02 num_tlv:184
+ 九  22 13:18:02 ssb_config
+ 九  22 13:18:02   bch_payload t 4111 l 1 v 1
+ 九  22 13:18:02   scs_common t 4112 l 1 v 1
+ 九  22 13:18:02   ss_pbch_power t 4110 l 4 v -25
+ 九  22 13:18:02 ssb_table
+ 九  22 13:18:02   ssb_offset_point_a t 4125 l 2 v 86
+ 九  22 13:18:02   beta_pss t 0 l 0 v 0
+ 九  22 13:18:02   ssb_period t 4127 l 1 v 2
+ 九  22 13:18:02   ssb_subcarrier_offset t 4128 l 1 v 0
+ 九  22 13:18:02   MIB t 4129 l 4 v 0
+ 九  22 13:18:02 ssb_mask_list:
+ 九  22 13:18:02 -2147483648	0	
+ 九  22 13:18:02 ssb_beam_id_list:
+ 九  22 13:18:02 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+ 九  22 13:18:02   ss_pbch_multiple_carriers_in_a_band t 0 l 0 v 0
+ 九  22 13:18:02   multiple_cells_ss_pbch_in_a_carrier t 0 l 0 v 0
+ 九  22 13:18:02 tdd_table
+ 九  22 13:18:02   tdd_period t 4134 l 1 v 6
+ 九  22 13:18:02   slot_config t 4135 l 1 v 0
+ 九  22 13:18:02 cell_config
+ 九  22 13:18:02   frame_duplex_type t 4109 l 1 v 1
+ 九  22 13:18:02   phy_cell_id t 4108 l 2 v 1
+ 九  22 13:18:02 nfapi_nr_measurement_config_t
+ 九  22 13:18:02   rssi_measurement t 4136 l 1 v 1
+ 九  22 13:18:02 nfapi_nr_nfapi_t
+ 九  22 13:18:02   dl_tti_timing_offset t 0 l 0 v 0
+ 九  22 13:18:02   ul_tti_timing_offset t 0 l 0 v 0
+ 九  22 13:18:02   ul_dci_timing_offset t 0 l 0 v 0
+ 九  22 13:18:02   tx_data_timing_offset t 0 l 0 v 0
+ 九  22 13:18:02 0	0	0	0	
+ 九  22 13:18:02 0	0	0	0	
+ 九  22 13:18:02   p7_pnf_port t 0 l 0 v 0
+ 九  22 13:18:02   timing_window t 286 l 1 v 30
+ 九  22 13:18:02   timing_info_mode t 287 l 1 v 3
+ 九  22 13:18:02   timing_info_period t 288 l 1 v 10
+ 九  22 13:18:02 pmi_list:
+ 九  22 13:18:02   num_pm_idx:1042283528
+ 九  22 13:18:02   pm_idx:0
+ 九  22 13:18:02   numLayers:2
+ 九  22 13:18:02   num_ant_ports:4
+ 九  22 13:18:02   weights:  6	  10	  14	  18	  22	  26	  30	  34	  38	  42	  46	  50	  54	  58	  62	  66	
+ 九  22 13:18:02 carrier_config
+ 九  22 13:18:02   bw t 4097 l 2 v 100
+ 九  22 13:18:02   freq t 4098 l 4 v 3600120
+ 九  22 13:18:02   dl_k0[0] t 0 l 0 v 0
+ 九  22 13:18:02   dl_k0[1] t 4099 l 10 v 0
+ 九  22 13:18:02   dl_k0[2] t 0 l 0 v 0
+ 九  22 13:18:02   dl_k0[3] t 0 l 0 v 0
+ 九  22 13:18:02   dl_k0[4] t 0 l 0 v 0
+ 九  22 13:18:02   dl_grid_size[0] t 0 l 0 v 0
+ 九  22 13:18:02   dl_grid_size[1] t 4100 l 10 v 106
+ 九  22 13:18:02   dl_grid_size[2] t 0 l 0 v 0
+ 九  22 13:18:02   dl_grid_size[3] t 0 l 0 v 0
+ 九  22 13:18:02   dl_grid_size[4] t 0 l 0 v 0
+ 九  22 13:18:02   num_tx_ant t 4101 l 2 v 1
+ 九  22 13:18:02   uplink_bandwidth t 4102 l 2 v 100
+ 九  22 13:18:02   uplink_frequency t 4103 l 4 v 3600120
+ 九  22 13:18:02   ul_k0[0] t 0 l 0 v 0
+ 九  22 13:18:02   ul_k0[1] t 4104 l 10 v 0
+ 九  22 13:18:02   ul_k0[2] t 0 l 0 v 0
+ 九  22 13:18:02   ul_k0[3] t 0 l 0 v 0
+ 九  22 13:18:02   ul_k0[4] t 0 l 0 v 0
+ 九  22 13:18:02   ul_grid_size[0] t 0 l 0 v 0
+ 九  22 13:18:02   ul_grid_size[1] t 4105 l 10 v 106
+ 九  22 13:18:02   ul_grid_size[2] t 0 l 0 v 0
+ 九  22 13:18:02   ul_grid_size[3] t 0 l 0 v 0
+ 九  22 13:18:02   ul_grid_size[4] t 0 l 0 v 0
+ 九  22 13:18:02   num_rx_ant t 4106 l 2 v 1
+ 九  22 13:18:02   frequency_shift_7p5khz t 0 l 0 v 0
+ 九  22 13:18:02 prach_config
+ 九  22 13:18:02   prach_sequence_length t 4113 l 1 v 1
+ 九  22 13:18:02   prach_sub_c_spacing t 4114 l 1 v 1
+ 九  22 13:18:02   restricted_set_config t 4115 l 1 v 0
+ 九  22 13:18:02   num_prach_fd_occasions t 4116 l 1 v 1
+ 九  22 13:18:02   prach_ConfigurationIndex t 4137 l 1 v 98
+ 九  22 13:18:02     prach_root_sequence_index t 4117 l 2 v 1
+ 九  22 13:18:02     num_root_sequences t 4118 l 1 v 16
+ 九  22 13:18:02     k1 t 4119 l 2 v 0
+ 九  22 13:18:02     prach_zero_corr_conf t 4120 l 1 v 13
+ 九  22 13:18:02     num_unused_root_sequences t 4121 l 2 v 0
+ 九  22 13:18:02   ssb_per_rach t 4123 l 1 v 3
+ 九  22 13:18:02   prach_multiple_carriers_in_a_band t 4124 l 1 v 0
+ 九  22 13:18:02 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+ 九  22 13:18:02 
+ 九  22 13:18:02 Timing window tag: 286
+ 九  22 13:18:02 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+ 九  22 13:18:02 timing info mode:3
+ 九  22 13:18:02 timing info period provided value:10
+ 九  22 13:18:02 110863250 [E] 1042286144: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
+ 九  22 13:18:02 [PNF] CONFIG_REQUEST[num_tlv:184] TLVs processed:6
+ 九  22 13:18:02 [PNF] Simulating PHY CONFIG
+ 九  22 13:18:02 DL frequency 3619200000: band 48, UL frequency 3619200000
+ 九  22 13:18:02 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+ 九  22 13:18:02 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 1,DL freq 3619200000, UL freq 3619200000)
+ 九  22 13:18:02 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 九  22 13:18:02 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 九  22 13:18:02 [0m[PHY]   gNB 0 configured
+ 九  22 13:18:02 [0m[PHY]   fp->scs=30000
+ 九  22 13:18:02 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 九  22 13:18:02 [0m[PHY]   fp->nb_prefix_samples0=176
+ 九  22 13:18:02 [0m[PHY]   fp->nb_prefix_samples=144
+ 九  22 13:18:02 [0m[PHY]   fp->slots_per_subframe=2
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_subframe=61440
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_frame=614400
+ 九  22 13:18:02 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 九  22 13:18:02 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 九  22 13:18:02 [0m[PHY]   fp->Nid_cell=1
+ 九  22 13:18:02 [0m[PHY]   fp->first_carrier_offset=1412
+ 九  22 13:18:02 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 九  22 13:18:02 [0m[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
+ 九  22 13:18:02 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+ 九  22 13:18:02 [PNF] Received NFAPI_START_REQ phy_id:1
+ 九  22 13:18:02 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+ 九  22 13:18:02 START MAIN THREADS
+ 九  22 13:18:02 RC.nb_nr_L1_inst:1
+ 九  22 13:18:02 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+ 九  22 13:18:02 [PHY]   Initializing gNB 0 single_thread_flag:1
+ 九  22 13:18:02 [0m[PHY]   Initializing gNB 0
+ 九  22 13:18:02 [0m[PHY]   Registering with MAC interface module (before 0x5fdba5c97d40)
+ 九  22 13:18:02 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 九  22 13:18:02 [0m[PHY]   Registering with MAC interface module (after 0x5fdba5c97d40)
+ 九  22 13:18:02 [0m[PHY]   Setting indication lists
+ 九  22 13:18:02 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+ 九  22 13:18:02 [0mwait_gNBs()
+ 九  22 13:18:02 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+ 九  22 13:18:02 [PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:50010
+ 九  22 13:18:02 subframe_buffer_size configured using phy_info->timing_window:30
+ 九  22 13:18:02 [PNF] Sending PNF_START_RESP
+ 九  22 13:18:02 Sending NFAPI_START_RESPONSE config:0x5fdba5c8fac0 phy_id:1
+ 九  22 13:18:02 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+ 九  22 13:18:02 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+ 九  22 13:18:02 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+ 九  22 13:18:02 [0mCalling sched_setscheduler(79)
+ 九  22 13:18:02 gNB L1 are configured
+ 九  22 13:18:02 About to Init RU threads RC.nb_RU:1
+ 九  22 13:18:02 Initializing RU threads
+ 九  22 13:18:02 configuring RU from file
+ 九  22 13:18:02 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
+ 九  22 13:18:02 Set RU mask to 1
+ 九  22 13:18:02 Creating RC.ru[0]:0x5fdba5c9a950
+ 九  22 13:18:02 [PHY]   RU GPIO control set as 'generic'
+ 九  22 13:18:02 [0m[PHY]   Setting clock source to internal
+ 九  22 13:18:02 [0m[PHY]   Setting time source to internal
+ 九  22 13:18:02 [0mSetting function for RU 0 to gNodeB_3GPP
+ 九  22 13:18:02 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
+ 九  22 13:18:02 [RU 0] Setting half-slot parallelization to 1
+ 九  22 13:18:02 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
+ 九  22 13:18:02 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+ 九  22 13:18:02 [0mconfiguring ru_id 0 (start_rf 0x5fdba0c885d0)
+ 九  22 13:18:02 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+ 九  22 13:18:02 [0m[PHY]   RU Thread pool size 2
+ 九  22 13:18:02 [0m[PHY]   RU thread-pool core string -1,-1
+ 九  22 13:18:02 [0mcreate a thread for core -1
+ 九  22 13:18:02 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 九  22 13:18:02 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 九  22 13:18:02 [0mcreate a thread for core -1
+ 九  22 13:18:02 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 九  22 13:18:02 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 九  22 13:18:02 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+ 九  22 13:18:02 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
+ 九  22 13:18:02 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 32
+ 九  22 13:18:02 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 九  22 13:18:02 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 九  22 13:18:02 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
+ 九  22 13:18:02 [PHY]   fp->scs=30000
+ 九  22 13:18:02 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 九  22 13:18:02 [0m[PHY]   fp->nb_prefix_samples0=176
+ 九  22 13:18:02 [0m[PHY]   fp->nb_prefix_samples=144
+ 九  22 13:18:02 [0m[PHY]   fp->slots_per_subframe=2
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_subframe=61440
+ 九  22 13:18:02 [0m[PHY]   fp->samples_per_frame=614400
+ 九  22 13:18:02 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 九  22 13:18:02 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 九  22 13:18:02 [0m[PHY]   fp->Nid_cell=1
+ 九  22 13:18:02 [0m[PHY]   fp->first_carrier_offset=1412
+ 九  22 13:18:02 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 九  22 13:18:02 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+ 九  22 13:18:02 [0m[PHY]   [INIT] common.txdata[0] = 0x7e1d3c200040 (2458880 bytes,sf_extension 320)
+ 九  22 13:18:02 [0m[PHY]   [INIT] common.txdata[0] = 0x7e1d3c200540 
+ 九  22 13:18:02 [0m[PHY]   nb_tx 1
+ 九  22 13:18:02 [0m[PHY]   rxdata_7_5kHz[0] 0x7e1d3e70f040 for RU 0
+ 九  22 13:18:02 [0m[PHY]   [INIT] common.txdata_BF= 0x7e1d28000ac0 (8 bytes)
+ 九  22 13:18:02 [0m[PHY]   txdataF_BF[0] 0x7e1d3f4a6040 for RU 0
+ 九  22 13:18:02 [0m[PHY]   rxdataF[0] 0x7e1d3eea8040 for RU 0
+ 九  22 13:18:02 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+ 九  22 13:18:02 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+ 九  22 13:18:02 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+ 九  22 13:18:02 [0m[PHY]   Channel 0: setting tx_gain offset 90, tx_freq 3619200000 Hz
+ 九  22 13:18:02 [0m[PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
+ 九  22 13:18:02 [0m[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+ 九  22 13:18:02 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+ 九  22 13:18:02 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+ 九  22 13:18:02 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+ 九  22 13:18:02 shlib_path librfsimulator.so
+ 九  22 13:18:02 [LOADER] library librfsimulator.so successfully loaded
+ 九  22 13:18:02 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
+ 九  22 13:18:02 [93m[HW]   sample_rate 61440000.000000
+ 九  22 13:18:02 [0m[HW]   Running as server waiting opposite rfsimulators to connect
+ 九  22 13:18:02 [0mInitializing random number generator, seed 17723352078451906449
+ 九  22 13:18:02 [HW]   [RAU] has loaded RFSIMULATOR device.
+ 九  22 13:18:02 [0msetup_RU_buffers: frame_parms = 0x7e1d3eaaf010
+ 九  22 13:18:02 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+ 九  22 13:18:02 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
+ 九  22 13:18:02 [0mwaiting for sync (ru_thread,-1/0x5fdba18870ac,0x5fdba31ac0a0,0x5fdba31ab3a0)
+ 九  22 13:18:07 [PNF] waiting for OAI to be configured (eNB/RU)
+ 九  22 13:18:07 [PNF] OAI eNB/RU configured
+ 九  22 13:18:07 [PNF] About to call init_eNB_afterRU()
+ 九  22 13:18:07 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+ 九  22 13:18:07 [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7e1d3e400010
+ 九  22 13:18:07 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+ 九  22 13:18:07 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+ 九  22 13:18:07 shlib_path libdfts.so
+ 九  22 13:18:07 [LOADER] library libdfts.so successfully loaded
+ 九  22 13:18:07 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+ 九  22 13:18:07 shlib_path libldpc.so
+ 九  22 13:18:07 [LOADER] library libldpc.so successfully loaded
+ 九  22 13:18:08 [PHY]   Initialise nr transport
+ 九  22 13:18:08 [0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
+ 九  22 13:18:08 [0m[PHY]   gNB->num_RU:1
+ 九  22 13:18:08 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0mcreate a thread for core -1
+ 九  22 13:18:08 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0m[UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0m[UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
+ 九  22 13:18:08 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+ 九  22 13:18:08 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
+ 九  22 13:18:08 [0mwaiting for sync (L1_stats_thread,-1/0x5fdba18870ac,0x5fdba31ac0a0,0x5fdba31ab3a0)
+ 九  22 13:18:08 [PNF] Sending PNF_START_RESP
+ 九  22 13:18:08 Sending NFAPI_START_RESPONSE config:0x5fdba5c8fac0 phy_id:1
+ 九  22 13:18:08 NFAPI: got sync (main?)
+ 九  22 13:18:08 wait RUs
+ 九  22 13:18:08 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+ 九  22 13:18:08 [0m[PHY]   RUs configured
+ 九  22 13:18:08 [0mALL RUs READY!
+ 九  22 13:18:08 RC.nb_RU:1
+ 九  22 13:18:08 ALL RUs ready - init gNBs
+ 九  22 13:18:08 NFAPI mode - DO NOT call init_gNB_afterRU()
+ 九  22 13:18:08 ALL RUs ready - ALL gNBs ready
+ 九  22 13:18:08 Sending sync to all threads
+ 九  22 13:18:08 Entering ITTI signals handler
+ 九  22 13:18:08 TYPE <CTRL-C> TO TERMINATE
+ 九  22 13:18:08 got sync (L1_stats_thread)
+ 九  22 13:18:08 got sync (ru_thread)
+ 九  22 13:18:08 [PNF] Sending first P7 slot indication
+ 九  22 13:18:08 [PNF] Sent first P7 slot ind
+ 九  22 13:18:08 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+ 九  22 13:18:08 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+ 九  22 13:18:08 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+ 九  22 13:18:08 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+ 九  22 13:18:08 [0m[PHY]   RU 0 rf device ready
+ 九  22 13:18:08 [0m[PHY]   RU 0 RF started opp_enabled 0
+ 九  22 13:18:08 [0m[93m[HW]   No connected device, generating void samples...
+ 九  22 13:18:08 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->SFN: 15
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:08 [0m[PHY]   TX_DATA
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->SFN: 17
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:08 [0m[PHY]   TX_DATA
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->SFN: 19
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:08 [0m[PHY]   TX_DATA
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->SFN: 21
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:08 [0m[PHY]   TX_DATA
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->SFN: 23
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:08 [0m[PHY]   TX_DATA
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->SFN: 25
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:08 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:08 [0m[PHY]   TX_DATA
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:08 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->SFN: 27
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:09 [0m[PHY]   TX_DATA
+ 九  22 13:18:09 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:09 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->SFN: 29
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:09 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:09 [0m[PHY]   TX_DATA
+ 九  22 13:18:09 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:09 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:09 [0m[HW]   A client connects, sending the current time
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 31
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 33
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 35
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 37
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 39
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 41
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 43
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 45
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 47
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 49
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 51
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 53
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 55
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 57
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 59
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 61
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 63
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 65
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 67
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 69
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 71
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 73
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 75
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 77
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 79
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 81
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 83
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 85
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 87
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 89
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 91
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->SFN: 93
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:10 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:10 [0m[PHY]   TX_DATA
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:10 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 95
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 97
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 99
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 101
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 103
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 105
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 107
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 109
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 111
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 113
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 115
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 117
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 119
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 121
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 123
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 125
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 127
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 129
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 131
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 133
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 135
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 137
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 139
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 141
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 143
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 145
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 147
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 149
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 151
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 153
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 155
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 157
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 159
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 161
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->SFN: 163
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:11 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:11 [0m[PHY]   TX_DATA
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:11 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 165
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 167
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 169
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 171
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 173
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 175
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 177
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 179
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 181
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 183
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[NR_PHY]   [RAPROC] 183.19 Initiating RA procedure with preamble 27, energy 56.4 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
+ 九  22 13:18:12 [0m[PHY]   pack_nr_rach_indication_body
+ 九  22 13:18:12 [0m[PHY]   value->slot_index:19
+ 九  22 13:18:12 [0m[PHY]   value->phy_cell_id:1
+ 九  22 13:18:12 [0m[PHY]   value->symbol_index:0
+ 九  22 13:18:12 [0m[PHY]   value->freq_index:0
+ 九  22 13:18:12 [0m[PHY]   value->avg_rssi:240
+ 九  22 13:18:12 [0m[PHY]   value->avg_snr:255
+ 九  22 13:18:12 [0m[PHY]   value->num_preamble:1
+ 九  22 13:18:12 [0m[PHY]   value->preamble_list[0].preamble_index:27
+ 九  22 13:18:12 [0m[PHY]   value->preamble_list[0].timing_advance:0
+ 九  22 13:18:12 [0m[PHY]   value->preamble_list[0].preamble_pwr:-1
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:11
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 184
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->pdu_bit_map: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->rnti: 100
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->handle: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->bwp_size: 106
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->bwp_start: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->subcarrier_spacing: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->cyclic_prefix: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->target_code_rate: 1200
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->qam_mod_order: 2
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->mcs_index: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->mcs_table: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->transform_precoding: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->data_scrambling_id: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->nrOfLayers: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->ul_dmrs_symb_pos: 1057
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->dmrs_config_type: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->ul_dmrs_scrambling_id: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->pusch_identity: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->scid: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->num_dmrs_cdm_grps_no_data: 2
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->dmrs_ports: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->resource_alloc: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->rb_start: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->rb_size: 8
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->vrb_to_prb_mapping: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->frequency_hopping: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->tx_direct_current_location: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->uplink_frequency_shift_7p5khz: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->start_symbol_index: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->nr_of_symbols: 13
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->pusch_data.rv_index: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->pusch_data.harq_process_id: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->pusch_data.new_data_indicator: 1
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->pusch_data.tb_size: 28
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->pusch_data.num_cb: 0
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->maintenance_parms_v3.ldpcBaseGraph: 2
+ 九  22 13:18:12 [0m[PHY]   pusch_pdu->maintenance_parms_v3.tbSizeLbrmBytes: 0
+ 九  22 13:18:12 [0m[PHY]   UL_info->UL_info->crc_ind.number_crcs:1 CRC_IND:SFN/Slot:184.19
+ 九  22 13:18:12 [0m[PHY]   oai_nfapi_nr_crc_indication
+ 九  22 13:18:12 [0m[PHY]   pack_nr_crc_indication_body:0
+ 九  22 13:18:12 [0m[PHY]   handle:0
+ 九  22 13:18:12 [0m[PHY]   rnti:100
+ 九  22 13:18:12 [0m[PHY]   harq_id:0
+ 九  22 13:18:12 [0m[PHY]   tb_crc_status:0
+ 九  22 13:18:12 [0m[PHY]   num_cb:0
+ 九  22 13:18:12 [0m[PHY]   ul_cqi:230
+ 九  22 13:18:12 [0m[PHY]   timing_advance:31
+ 九  22 13:18:12 [0m[PHY]   rssi:860
+ 九  22 13:18:12 [0m[PHY]   PACK CRC Finish
+ 九  22 13:18:12 [0m[PHY]   Finish UL_info->UL_info->crc_ind.number_crcs:1 CRC_IND:SFN/Slot:184.19
+ 九  22 13:18:12 [0m[PHY]   UL_info->rx_ind.number_of_pdus:1 RX_IND:SFN/Slot:184.19 
+ 九  22 13:18:12 [0m[PHY]   handle: 0
+ 九  22 13:18:12 [0m[PHY]   rnti: 100
+ 九  22 13:18:12 [0m[PHY]   harq_id: 0
+ 九  22 13:18:12 [0m[PHY]   pdu_length: 28
+ 九  22 13:18:12 [0m[PHY]   ul_cqi: 230
+ 九  22 13:18:12 [0m[PHY]   timing_advance: 31
+ 九  22 13:18:12 [0m[PHY]   rssi: 860
+ 九  22 13:18:12 [0m[PHY]   PACK RX_DATA Finish
+ 九  22 13:18:12 [0m[PHY]   Finish UL_info->rx_ind.number_of_pdus:1 RX_IND:SFN/Slot:184.19 
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:145
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->SFN: 185
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->Slot: 19
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_pdus: 2
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->rach_present: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulcch: 0
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_ulsch: 1
+ 九  22 13:18:12 [0m[PHY]   pNfapiMsg->n_group: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   PUCCH:
+ 九  22 13:18:12 [0m[NFAPI_PNF]   rnti: 100
+ 九  22 13:18:12 [0m[NFAPI_PNF]   handle: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   bwp_size: 106
+ 九  22 13:18:12 [0m[NFAPI_PNF]   bwp_start: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   subcarrier_spacing: 1
+ 九  22 13:18:12 [0m[NFAPI_PNF]   cyclic_prefix: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   format_type: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   multi_slot_tx_indicator: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   pi_2bpsk: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   prb_start: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   prb_size: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   start_symbol_index: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   nr_of_symbols: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   freq_hop_flag: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   second_hop_prb: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   group_hop_flag: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   sequence_hop_flag: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   hopping_id: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   initial_cyclic_shift: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   data_scrambling_id: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   time_domain_occ_idx: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   pre_dft_occ_idx: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   pre_dft_occ_len: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   add_dmrs_flag: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   dmrs_scrambling_id: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   dmrs_cyclic_shift: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   sr_flag: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   bit_len_harq: 1
+ 九  22 13:18:12 [0m[NFAPI_PNF]   bit_len_csi_part1: 0
+ 九  22 13:18:12 [0m[NFAPI_PNF]   bit_len_csi_part2: 0
+ 九  22 13:18:12 [0m[PHY]   TX_DATA
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->  pNfapiMsg->PDU_length:129
+ 九  22 13:18:12 [0m[PHY]   DEBUG  -->   pNfapiMsg->TLVs[i].value.direct:138664046082416
+ 九  22 13:18:12 [0m
