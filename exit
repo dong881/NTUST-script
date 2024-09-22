@@ -1,9 +1,9 @@
 #!/bin/bash
 source ./VARIABLE.sh
 
-pids=$(ps aux | grep "nr-uesoftmodem\|nr-softmodem\|tcpdump\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}')
+pids=$(ps aux | grep "odu\|ric_stub\|nr-uesoftmodem\|nr-softmodem\|tcpdump\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}')
 for pid in $pids; do
-    sudo kill -15 "$pid" > /dev/null 2>&1 &  # SIGTERM
+    sudo kill -9 "$pid" > /dev/null 2>&1 &  # SIGTERM
     # echo "kill $pid"
 done
 
