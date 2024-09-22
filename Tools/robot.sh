@@ -49,21 +49,21 @@ should_continue() {
 check_logs_for_string
 case $? in
     1)
-        echo "Search string found in logs. Stopping script."
+        echo -e "Search string found in logs. Stopping script.\n\r"
         if [ -e "$CONTROL_FILE" ]; then
             rm "$CONTROL_FILE"
         fi
         exit 0
         ;;
     2)
-        echo "Error detected in logs. Restarting..."
+        echo -e "Error detected in logs. Restarting...\n\r"
         cd $Target_PATH
         bash "$Target_PATH/0"
         ;;
 esac
 should_continue
 if [ $? -eq 1 ]; then
-    echo "Control file indicates to stop the script."
+    echo -e "Control file indicates to stop the script.\n\r"
     if [ -e "$CONTROL_FILE" ]; then
         rm "$CONTROL_FILE"
     fi
