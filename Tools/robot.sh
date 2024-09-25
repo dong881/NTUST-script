@@ -2,7 +2,7 @@
 source ../VARIABLE.sh
 
 SEARCH_STRING="RA-Msg3 transmitted"
-ERROR_STRING="asdfghjkl;"
+ERROR_STRING="stdbuf: failed to run command"
 
 ################################################
 
@@ -29,7 +29,7 @@ check_logs_for_string() {
         if grep -q "$SEARCH_STRING" "$LOG_FILE"; then
             return 1
         fi
-        if grep -q "$ERROR_STRING" "$LOG_FILE"; then
+        if grep -q "$ERROR_STRING" "$ODU_LOG_FILE"; then
             return 2
         fi
     done
@@ -58,7 +58,11 @@ case $? in
     2)
         echo -e "Error detected in logs. Restarting...\n\r"
         cd $Target_PATH
-        bash "$Target_PATH/0"
+        bash "$Target_PATH/00"
+        # if [ -e "$CONTROL_FILE" ]; then
+        #     rm "$CONTROL_FILE"
+        # fi
+        # exit 0
         ;;
 esac
 should_continue
