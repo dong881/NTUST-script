@@ -82,7 +82,7 @@ else
 
     # echo "RUN OSC DU"
     sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
-    sleep 2
+    sleep 1
     ODU_PID=$(pgrep -o odu)
     # echo $ODU_PID
     echo -n $ODU_PID >> $PID_FILE
@@ -91,7 +91,7 @@ else
     # echo "RUN OAI PNF"
     pnf_cmd="$OAI_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
     sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
-    sleep 3
+    sleep 1
     # echo "RUN OAI UE"
     ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
     sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
@@ -101,8 +101,8 @@ else
     timeout=$wait_sec
     end_time=$((start_time + timeout))
     while [ $(date +%s) -lt $end_time ]; do
-        keywords=("Assertion (index_4msb < 9) failed!" "pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111")
-        log_files=("$UE_LOG_FILE" "$PNF_LOG_FILE")
+        keywords=("ERROR  --> CM: cmDynAlloc(): nextBktPtr is null" "Assertion (index_4msb < 9) failed!" "pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111")
+        log_files=("$ODU_LOG_FILE" "$UE_LOG_FILE" "$PNF_LOG_FILE")
         for log_file in "${log_files[@]}"; do
             for keyword in "${keywords[@]}"; do
                 if grep -q "$keyword" "$log_file"; then
@@ -114,7 +114,7 @@ else
         count=$(grep -c "Harq round stats for Downlink: 0/0/0" "$UE_LOG_FILE")
         
         if [ "$count" -ge 3 ]; then
-            echo -e "Harq round stats for Downlink: 0/0/0 repeated twice in $log_file. Terminating script.\n\r"
+            echo -e "Harq round stats for Downlink: 0/0/0 repeated twice in $UE_LOG_FILE. Terminating script.\n\r"
             break
         fi
         sleep 0.5
