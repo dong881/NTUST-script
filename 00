@@ -9,6 +9,7 @@ LOCKFILE="$Target_PATH/tmp-build_run.lock"
 mkdir -p "$LOG_PATH"
 
 # LOG File name
+OSC_BUILD_LOG_FILE="$LOG_PATH/0-OSC_BUILD.log"
 OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
 RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
 ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
@@ -62,8 +63,10 @@ else
     # clean & compile OSC DU
     cd $OSC_root_PATH
     make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
-    make odu MACHINE=BIT64 MODE=TDD NFAPI=YES
-
+    make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+        echo -e "\r\n***** BUILD COMPLETE *****\n\r"
+    fi
     # clean & build OAI all
     cd $OAI_build_PATH
     sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
