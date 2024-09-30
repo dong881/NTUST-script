@@ -1,6 +1,5 @@
 #!/bin/bash
 source ../VARIABLE.sh
-
 cd $PATH_TO_L1_UE/cmake_targets/ran_build/build
 
 #compile

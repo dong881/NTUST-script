@@ -1,6 +1,5 @@
 #!/bin/bash
 source ./VARIABLE.sh
-wait_sec=25
 
 Target_PATH=$PATH_TO_SCRIPT
 L2_PATH=$PATH_TO_O_DU_L2
@@ -16,6 +15,7 @@ ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
 PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
 UE_LOG_FILE="$LOG_PATH/5-OAI_UE.log"
 TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
+
 ## CU & CU stub
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
 OAI_CU_PATH="$PATH_TO_CU/cmake_targets/ran_build/build/nr-softmodem"
@@ -61,12 +61,12 @@ else
     # sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
 
     # clean & compile OSC DU
-    cd $OSC_root_PATH
-    make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
-    make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
-    if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
-        echo -e "\r\n***** BUILD COMPLETE *****\n\r"
-    fi
+    # cd $OSC_root_PATH
+    # make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+    # make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    # if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+    #     echo -e "\r\n***** BUILD COMPLETE *****\n\r"
+    # fi
     # clean & build OAI all
     cd $OAI_build_PATH
     sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
@@ -83,14 +83,6 @@ else
     echo -n $RIC_PID >> $PID_FILE
     echo -n " " >> $PID_FILE
 
-    # echo "RUN OSC DU"
-    sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
-    sleep 1
-    ODU_PID=$(pgrep -o odu)
-    # echo $ODU_PID
-    echo -n $ODU_PID >> $PID_FILE
-    echo -n " " >> $PID_FILE
-
     # echo "RUN OAI PNF"
     pnf_cmd="$OAI_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
     sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
@@ -98,33 +90,4 @@ else
     # echo "RUN OAI UE"
     ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
     sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
-
-    echo -e "The script automatically closes after $wait_sec seconds...\n\r"
-    start_time=$(date +%s)
-    timeout=$wait_sec
-    end_time=$((start_time + timeout))
-    while [ $(date +%s) -lt $end_time ]; do
-        keywords=("ERROR  --> CM: cmDynAlloc(): nextBktPtr is null" "Assertion (index_4msb < 9) failed!" "pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111")
-        log_files=("$ODU_LOG_FILE" "$UE_LOG_FILE" "$PNF_LOG_FILE")
-        for log_file in "${log_files[@]}"; do
-            for keyword in "${keywords[@]}"; do
-                if grep -q "$keyword" "$log_file"; then
-                    echo -e "$keyword found in $log_file. Terminating script.\n\r"
-                    break 3
-                fi
-            done
-        done
-        count=$(grep -c "Harq round stats for Downlink: 0/0/0" "$UE_LOG_FILE")
-        
-        if [ "$count" -ge 3 ]; then
-            echo -e "Harq round stats for Downlink: 0/0/0 repeated twice in $UE_LOG_FILE. Terminating script.\n\r"
-            break
-        fi
-        sleep 0.5
-    done
-    cd $Target_PATH
-    bash "$Target_PATH/exit"
-    echo -e "\rAuto execute robot.sh script...\r"
-    cd "$Target_PATH/Tools"
-    bash "$Target_PATH/Tools/robot.sh"
 fi

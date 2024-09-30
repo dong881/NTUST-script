@@ -18,8 +18,9 @@ TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
 
 ## CU & CU stub
 CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
-OAI_CU_PATH="$PATH_TO_CU/oai_cu/cmake_targets/ran_build/build/nr-softmodem"
-CU_CONF="$PATH_TO_CU/oai_cu/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
+OAI_CU_PATH="$PATH_TO_CU/cmake_targets/ran_build/build/nr-softmodem"
+# CU_CONF="$PATH_TO_CU/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
+CU_CONF="$PATH_TO_CU/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf"
 
 # OSC root
 OSC_root_PATH="$L2_PATH/build/odu"

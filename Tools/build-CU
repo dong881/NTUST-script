@@ -2,16 +2,20 @@
 source ../VARIABLE.sh
 
 sudo echo "Build OAI CU"
-cd $PATH_TO_CU/oai_cu/cmake_targets
-sudo echo "Build OAI CU - step1"
-# compile all of the code
-./build_oai --gNB --nrUE -w SIMU
 
-sudo echo "Build OAI CU- step2"
-# sync up the format of F1AP
-./f1ap_codec_mod.sh
+# cd $PATH_TO_CU/cmake_targets
+# sudo echo "Build OAI CU - step1"
+# # compile all of the code
+# ./build_oai --gNB --nrUE -w SIMU
+# sudo echo "Build OAI CU- step2"
+# # sync up the format of F1AP
+# ./f1ap_codec_mod.sh
+# sudo echo "Build OAI CU - step3"
+# # compile the part of RAN
+# ./build_oai --gNB
 
-sudo echo "Build OAI CU - step3"
-# compile the part of RAN
-cd $PATH_TO_CU/oai_cu/cmake_targets
-./build_oai --gNB
+# cd $PATH_TO_CU/cmake_targets
+# sudo ./build_oai -c --ninja --nrUE --gNB
+
+cd $PATH_TO_CU/cmake_targets/ran_build/build
+sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
