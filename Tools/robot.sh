@@ -58,11 +58,11 @@ case $? in
     2)
         echo -e "Error detected in logs. Restarting...\n\r"
         cd $Target_PATH
-        bash "$Target_PATH/00"
-        # if [ -e "$CONTROL_FILE" ]; then
-        #     rm "$CONTROL_FILE"
-        # fi
-        # exit 0
+        # bash "$Target_PATH/00"
+        if [ -e "$CONTROL_FILE" ]; then
+            rm "$CONTROL_FILE"
+        fi
+        exit 0
         ;;
 esac
 should_continue
