@@ -1,273 +1,671 @@
- 十  12 09:39:16 Calling sched_setscheduler(79)
- 十  12 09:39:16 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
- 十  12 09:39:16 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
- 十  12 09:39:16 [CONFIG] log_config: 2/3 parameters successfully set 
- 十  12 09:39:16 [CONFIG] log_config: 50/50 parameters successfully set 
- 十  12 09:39:16 [CONFIG] log_config: 50/50 parameters successfully set 
- 十  12 09:39:16 [CONFIG] log_config: 16/16 parameters successfully set 
- 十  12 09:39:16 [CONFIG] log_config: 16/16 parameters successfully set 
- 十  12 09:39:16 log init done
- 十  12 09:39:16 [CONFIG] (root): 28/31 parameters successfully set 
- 十  12 09:39:16 [CONFIG] (root): 39/42 parameters successfully set 
- 十  12 09:39:16 [CONFIG] (root): 5/6 parameters successfully set 
- 十  12 09:39:16 [ENB_APP]   nfapi (0) running mode: MONOLITHIC
- 十  12 09:39:16 [0m[CONFIG] TTracer: 3/3 parameters successfully set 
- 十  12 09:39:16 create a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 十  12 09:39:16 [0mcreate a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 十  12 09:39:16 [0mcreate a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 十  12 09:39:16 [0mcreate a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 十  12 09:39:16 [0mcreate a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 十  12 09:39:16 [0mcreate a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 十  12 09:39:16 [0mcreate a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 十  12 09:39:16 [0mcreate a thread for core -1
- 十  12 09:39:16 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 十  12 09:39:16 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 十  12 09:39:17 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 十  12 09:39:17 [0m[CONFIG] opt: 3/3 parameters successfully set 
- 十  12 09:39:17 [OPT]   OPT disabled
- 十  12 09:39:17 [0m[CONFIG] loader: 2/2 parameters successfully set 
- 十  12 09:39:17 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
- 十  12 09:39:17 shlib_path libldpc.so
- 十  12 09:39:17 [LOADER] library libldpc.so successfully loaded
- 十  12 09:39:17 [HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 7a7a9f7aa6 Date: Thu Sep 5 00:50:53 2024 +0800
- 十  12 09:39:17 [0m[PDCP]   pdcp init,usegtp usenetlink
- 十  12 09:39:17 [0m[CONFIG] nas.noS1: 3/3 parameters successfully set 
- 十  12 09:39:17 [PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
- 十  12 09:39:17 [0m[PDCP]   UE pdcp will use tun interface
- 十  12 09:39:17 [0m[NR_MAC]   [UE0] Initializing MAC
- 十  12 09:39:17 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
- 十  12 09:39:17 [0m[RLC]   Activated srb0 for UE 0
- 十  12 09:39:17 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
- 十  12 09:39:17 , chest-freq 0, chest-time 0
- 十  12 09:39:17 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
- 十  12 09:39:17 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
- 十  12 09:39:17 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
- 十  12 09:39:17 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 十  12 09:39:17 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 十  12 09:39:17 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
- 十  12 09:39:17 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
- 十  12 09:39:17 [0m[CONFIG] loader.dfts: 1/2 parameters successfully set 
- 十  12 09:39:17 shlib_path libdfts.so
- 十  12 09:39:17 [LOADER] library libdfts.so successfully loaded
- 十  12 09:39:17 [PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
- 十  12 09:39:17 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:17 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 十  12 09:39:17 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
- 十  12 09:39:17 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
- 十  12 09:39:17 [1;31m[HW]   Can't set cpu frequency
- 十  12 09:39:17 [0m[PHY]   Intializing UE Threads for instance 0 (0x63534783d770,0x7f339c400010)...
- 十  12 09:39:17 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
- 十  12 09:39:17 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
- 十  12 09:39:17 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
- 十  12 09:39:17 [0m[CONFIG] device.recplay: 8/8 parameters successfully set 
- 十  12 09:39:17 [CONFIG] device: 1/1 parameters successfully set 
- 十  12 09:39:17 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
- 十  12 09:39:17 shlib_path librfsimulator.so
- 十  12 09:39:17 [LOADER] library librfsimulator.so successfully loaded
- 十  12 09:39:17 [CONFIG] rfsimulator: 8/9 parameters successfully set 
- 十  12 09:39:17 [93m[HW]   sample_rate 61440000.000000
- 十  12 09:39:17 [0m[HW]   Running as client: will connect to a rfsimulator server side
- 十  12 09:39:17 [0mInitializing random number generator, seed 12025877685013788976
- 十  12 09:39:17 [HW]   [RRU] has loaded RFSIMULATOR device.
- 十  12 09:39:17 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 十  12 09:39:17 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 十  12 09:39:17 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
- 十  12 09:39:17 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 十  12 09:39:17 [0mUE threads created by 1730085
- 十  12 09:39:17 TYPE <CTRL-C> TO TERMINATE
- 十  12 09:39:17 [NR_RRC]   create TASK_RRC_NRUE 
- 十  12 09:39:17 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
- 十  12 09:39:17 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 十  12 09:39:17 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
- 十  12 09:39:17 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 十  12 09:39:17 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 十  12 09:39:17 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
- 十  12 09:39:17 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
- 十  12 09:39:17 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
- 十  12 09:39:17 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
- 十  12 09:39:17 [0m[CONFIG] uicc0: 10/10 parameters successfully set 
- 十  12 09:39:17 [SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
- 十  12 09:39:18 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 十  12 09:39:18 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 十  12 09:39:19 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 十  12 09:39:19 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 十  12 09:39:19 [0mEntering ITTI signals handler
- 十  12 09:39:19 TYPE <CTRL-C> TO TERMINATE
- 十  12 09:39:20 [HW]   Trying to connect to 127.0.0.1:4043
- 十  12 09:39:20 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 十  12 09:39:21 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 十  12 09:39:21 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 十  12 09:39:22 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 十  12 09:39:22 [0m[HW]   Connection to 127.0.0.1:4043 established
- 十  12 09:39:22 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 十  12 09:39:23 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
- 十  12 09:39:23 [0m[93m[NR_PHY]   Starting sync detection
- 十  12 09:39:23 [0m[PHY]   [UE thread Synch] Running Initial Synch 
- 十  12 09:39:23 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 0, Peak found at pos 0, val = 0 (0 dB power over signal avg 0 dB), ffo 0.000000
- 十  12 09:39:23 [0m[PHY]   PSS execution duration 81854 microseconds 
- 十  12 09:39:23 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 1, Peak found at pos 465360, val = 8722402065 (99 dB power over signal avg 58 dB), ffo 0.000000
- 十  12 09:39:23 [0m[PHY]   PSS execution duration 80380 microseconds 
- 十  12 09:39:23 [0m[93m[NR_PHY]   SSS detected, PCI: 1, ffo_pss 0.000000 (0 Hz), ffo_sss 0.000541 (16 Hz),  ffo_pss+ffo_sss 0.000541 (16 Hz), nid1: 0, nid2: 1
- 十  12 09:39:23 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
- 十  12 09:39:23 [0m[93m[MAC]   Cell is barred. Going back to sync mode.
- 十  12 09:39:23 [0m[PHY]   [UE0] In synch, rx_offset 460800 samples
- 十  12 09:39:23 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 0 Hz
- 十  12 09:39:23 [0m[32m[PHY]   Initial sync successful
- 十  12 09:39:23 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 十  12 09:39:23 [0m[PHY]   Got synch: hw_slot_offset 30, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
- 十  12 09:39:23 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=0 UE->init_sync_frame=0 trashed_frames=12
- 十  12 09:39:23 [0m[PHY]   Resynchronizing RX by 460800 samples
- 十  12 09:39:24 [0m[NR_PHY]   ============================================
- 十  12 09:39:24 [0m[NR_PHY]   Harq round stats for Downlink: 0/0/0
- 十  12 09:39:24 [0m[NR_PHY]   ============================================
- 十  12 09:39:25 [0m[NR_PHY]   ============================================
- 十  12 09:39:25 [0m[NR_PHY]   Harq round stats for Downlink: 0/0/0
- 十  12 09:39:25 [0m[NR_PHY]   ============================================
- 十  12 09:39:26 [0m[NR_PHY]   ============================================
- 十  12 09:39:26 [0m[NR_PHY]   Harq round stats for Downlink: 0/0/0
- 十  12 09:39:26 [0m[NR_PHY]   ============================================
+ 十  13 15:09:59 Calling sched_setscheduler(79)
+ 十  13 15:09:59 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
+ 十  13 15:09:59 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
+ 十  13 15:09:59 [CONFIG] log_config: 2/3 parameters successfully set 
+ 十  13 15:09:59 [CONFIG] log_config: 50/50 parameters successfully set 
+ 十  13 15:09:59 [CONFIG] log_config: 50/50 parameters successfully set 
+ 十  13 15:09:59 [CONFIG] log_config: 16/16 parameters successfully set 
+ 十  13 15:09:59 [CONFIG] log_config: 16/16 parameters successfully set 
+ 十  13 15:09:59 log init done
+ 十  13 15:09:59 [CONFIG] (root): 28/31 parameters successfully set 
+ 十  13 15:09:59 [CONFIG] (root): 39/42 parameters successfully set 
+ 十  13 15:09:59 [CONFIG] (root): 5/6 parameters successfully set 
+ 十  13 15:09:59 [ENB_APP]   nfapi (0) running mode: MONOLITHIC
+ 十  13 15:09:59 [0m[CONFIG] TTracer: 3/3 parameters successfully set 
+ 十  13 15:09:59 create a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 十  13 15:09:59 [0mcreate a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 十  13 15:09:59 [0mcreate a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+ 十  13 15:09:59 [0mcreate a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+ 十  13 15:09:59 [0mcreate a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+ 十  13 15:09:59 [0mcreate a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+ 十  13 15:09:59 [0mcreate a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+ 十  13 15:09:59 [0mcreate a thread for core -1
+ 十  13 15:09:59 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+ 十  13 15:09:59 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 十  13 15:10:00 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 十  13 15:10:00 [0m[CONFIG] opt: 3/3 parameters successfully set 
+ 十  13 15:10:00 [OPT]   OPT disabled
+ 十  13 15:10:00 [0m[CONFIG] loader: 2/2 parameters successfully set 
+ 十  13 15:10:00 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
+ 十  13 15:10:00 shlib_path libldpc.so
+ 十  13 15:10:00 [LOADER] library libldpc.so successfully loaded
+ 十  13 15:10:00 [HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 7a7a9f7aa6 Date: Thu Sep 5 00:50:53 2024 +0800
+ 十  13 15:10:00 [0m[PDCP]   pdcp init,usegtp usenetlink
+ 十  13 15:10:00 [0m[CONFIG] nas.noS1: 3/3 parameters successfully set 
+ 十  13 15:10:00 [PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+ 十  13 15:10:00 [0m[PDCP]   UE pdcp will use tun interface
+ 十  13 15:10:00 [0m[NR_MAC]   [UE0] Initializing MAC
+ 十  13 15:10:00 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+ 十  13 15:10:00 [0m[RLC]   Activated srb0 for UE 0
+ 十  13 15:10:00 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+ 十  13 15:10:00 , chest-freq 0, chest-time 0
+ 十  13 15:10:00 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+ 十  13 15:10:00 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+ 十  13 15:10:00 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+ 十  13 15:10:00 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 十  13 15:10:00 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 十  13 15:10:00 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+ 十  13 15:10:00 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+ 十  13 15:10:00 [0m[CONFIG] loader.dfts: 1/2 parameters successfully set 
+ 十  13 15:10:00 shlib_path libdfts.so
+ 十  13 15:10:00 [LOADER] library libdfts.so successfully loaded
+ 十  13 15:10:00 [PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+ 十  13 15:10:00 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:00 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 十  13 15:10:00 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
+ 十  13 15:10:00 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+ 十  13 15:10:00 [1;31m[HW]   Can't set cpu frequency
+ 十  13 15:10:00 [0m[PHY]   Intializing UE Threads for instance 0 (0x58d737ac8770,0x7f347d000010)...
+ 十  13 15:10:00 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
+ 十  13 15:10:00 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
+ 十  13 15:10:00 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
+ 十  13 15:10:00 [0m[CONFIG] device.recplay: 8/8 parameters successfully set 
+ 十  13 15:10:00 [CONFIG] device: 1/1 parameters successfully set 
+ 十  13 15:10:00 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
+ 十  13 15:10:00 shlib_path librfsimulator.so
+ 十  13 15:10:00 [LOADER] library librfsimulator.so successfully loaded
+ 十  13 15:10:00 [CONFIG] rfsimulator: 8/9 parameters successfully set 
+ 十  13 15:10:00 [93m[HW]   sample_rate 61440000.000000
+ 十  13 15:10:00 [0m[HW]   Running as client: will connect to a rfsimulator server side
+ 十  13 15:10:00 [0mInitializing random number generator, seed 15801618638975131412
+ 十  13 15:10:00 [HW]   [RRU] has loaded RFSIMULATOR device.
+ 十  13 15:10:00 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+ 十  13 15:10:00 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+ 十  13 15:10:00 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+ 十  13 15:10:00 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+ 十  13 15:10:00 [0mUE threads created by 3341759
+ 十  13 15:10:00 TYPE <CTRL-C> TO TERMINATE
+ 十  13 15:10:00 [NR_RRC]   create TASK_RRC_NRUE 
+ 十  13 15:10:00 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+ 十  13 15:10:00 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+ 十  13 15:10:00 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+ 十  13 15:10:00 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 十  13 15:10:00 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 十  13 15:10:00 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
+ 十  13 15:10:00 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+ 十  13 15:10:00 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+ 十  13 15:10:00 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
+ 十  13 15:10:00 [0m[CONFIG] uicc0: 10/10 parameters successfully set 
+ 十  13 15:10:00 [SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+ 十  13 15:10:01 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 十  13 15:10:01 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 十  13 15:10:02 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 十  13 15:10:02 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 十  13 15:10:02 [0mEntering ITTI signals handler
+ 十  13 15:10:02 TYPE <CTRL-C> TO TERMINATE
+ 十  13 15:10:03 [HW]   Trying to connect to 127.0.0.1:4043
+ 十  13 15:10:03 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 十  13 15:10:04 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 十  13 15:10:04 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 十  13 15:10:05 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 十  13 15:10:05 [0m[HW]   Connection to 127.0.0.1:4043 established
+ 十  13 15:10:05 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 十  13 15:10:06 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+ 十  13 15:10:06 [0m[93m[NR_PHY]   Starting sync detection
+ 十  13 15:10:06 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+ 十  13 15:10:06 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 0, Peak found at pos 0, val = 0 (0 dB power over signal avg 0 dB), ffo 0.000000
+ 十  13 15:10:06 [0m[PHY]   PSS execution duration 81913 microseconds 
+ 十  13 15:10:06 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 1, Peak found at pos 281040, val = 8722402065 (99 dB power over signal avg 58 dB), ffo 0.000000
+ 十  13 15:10:06 [0m[PHY]   PSS execution duration 82768 microseconds 
+ 十  13 15:10:06 [0m[93m[NR_PHY]   SSS detected, PCI: 1, ffo_pss 0.000000 (0 Hz), ffo_sss 0.000518 (15 Hz),  ffo_pss+ffo_sss 0.000518 (15 Hz), nid1: 0, nid2: 1
+ 十  13 15:10:06 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+ 十  13 15:10:06 [0m[PHY]   [UE0] In synch, rx_offset 276480 samples
+ 十  13 15:10:06 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 0 Hz
+ 十  13 15:10:06 [0m[32m[PHY]   Initial sync successful
+ 十  13 15:10:06 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 十  13 15:10:06 [0m[PHY]   Got synch: hw_slot_offset 18, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+ 十  13 15:10:06 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=30 UE->init_sync_frame=0 trashed_frames=12
+ 十  13 15:10:06 [0m[PHY]   Resynchronizing RX by 276480 samples
+ 十  13 15:10:06 [0m[MAC]   DLSCH riv = 480
+ 十  13 15:10:06 [0m[MAC]   DLSCH n_RB_DLBWP = 48
+ 十  13 15:10:06 [0m[MAC]   DLSCH number_rbs = 11
+ 十  13 15:10:06 [0m[MAC]   DLSCH start_rb = 0
+ 十  13 15:10:06 [0m[MAC]   dlsch_pdu->mcs: 5, dlsch_pdu->mcs_table: 0
+ 十  13 15:10:06 [0m[MAC]   qamModOrder: 2, R: 3790, number_rbs: 11, number_symbols: 10, nb_re_dmrs: 12, dlsch_pdu->dlDmrsSymbPos: 580, get_num_dmrs(): 3, nb_rb_oh: 0
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 683 nbp_re 84 nb_re 924 Qm 2, R 3790
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 373 nbp_re 84 nb_re 504 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 368 for RB 6
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 435 nbp_re 84 nb_re 588 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 432 for RB 7
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 497 nbp_re 84 nb_re 672 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 504 for RB 8
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 559 nbp_re 84 nb_re 756 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 552 for RB 9
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 621 nbp_re 84 nb_re 840 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 640 for RB 10
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 683 nbp_re 84 nb_re 924 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 704 for RB 11
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 746 nbp_re 84 nb_re 1008 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 768 for RB 12
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 808 nbp_re 84 nb_re 1092 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 808 for RB 13
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 870 nbp_re 84 nb_re 1176 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 888 for RB 14
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 932 nbp_re 84 nb_re 1260 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 928 for RB 15
+ 十  13 15:10:06 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 994 nbp_re 84 nb_re 1344 Qm 2, R 3790
+ 十  13 15:10:06 [0m[MAC]   TBS 704, test_tbs 1032 for RB 16
+ 十  13 15:10:06 [0m[MAC]   TBS 704, TBSLBRM 57376
+ 十  13 15:10:06 [0m[PHY]   Copying SI DLSCH PDU to UE PHY
+ 十  13 15:10:06 [0m[PHY]   current_harq_pid = 0
+ 十  13 15:10:06 [0m[PHY]   AbsSubframe 44.0 Start LDPC Decoder for CW0 [harq_pid 0] ? 1 
+ 十  13 15:10:06 [0m[PHY]   AbsSubframe 44.0 Start LDPC Decoder for CW1 [harq_pid 0] ? 0 
+ 十  13 15:10:06 [0m[PHY]   num_rb 11
+ 十  13 15:10:06 [0m[PHY]   Round 0 RV idx 0
+ 十  13 15:10:06 [0m[PHY]   dmrs_length 3, dlDmrsSymbPos 580
+ 十  13 15:10:06 [0m[PHY]   44.0 DLSCH Decoding, harq_pid 0 TBS 704 (88) G 1848 nb_re_dmrs 12 length dmrs 3 mcs 5 Nl 1 nb_symb_sch 10 nb_rb 11 Qm 2 Coderate 0.370117
+ 十  13 15:10:06 [0m[PHY]   dlsch decoding, ret = 3
+ 十  13 15:10:06 [0m[PHY]   DL PDU length in bits: 704, in bytes: 88 
+ 十  13 15:10:06 [0m[PHY]    --> Unscrambling for CW0 1.801
+ 十  13 15:10:06 [0m[PHY]   AbsSubframe 44.0 --> LDPC Decoding for CW0 197.304
+ 十  13 15:10:06 [0m[NR_RRC]      Received bytes:
+ 十  13 15:10:06 64 80 0a 02 08 00 80 40 00 00 40 00 00 00 06 90 84 d0 56 00 00 26 96 70 cb 35 de 01 b8 20 10 00 00 40 40 00 20 d2 14 0d 87 21 d3 30 00 08 00 00 9a 72 73 86 59 95 18 80 06 b5 33 5f 72 70 12 4e 71 2a 63 5b c6 a9 8d 52 5c 2e 00 50 e1 d0 08 2c 07 60 12 23 37 b1 0c 00 [0m
+ 十  13 15:10:06 [NR_RRC]   Sdu:139862590103100 , sdu_len:88 
+ 十  13 15:10:06 
+ 十  13 15:10:06 
+ 十  13 15:10:06 
+ 十  13 15:10:06 [0m<BCCH-DL-SCH-Message>
+ 十  13 15:10:06     <message>
+ 十  13 15:10:06         <c1>
+ 十  13 15:10:06             <systemInformationBlockType1>
+ 十  13 15:10:06                 <cellSelectionInfo>
+ 十  13 15:10:06                     <q-RxLevMin>-65</q-RxLevMin>
+ 十  13 15:10:06                 </cellSelectionInfo>
+ 十  13 15:10:06                 <cellAccessRelatedInfo>
+ 十  13 15:10:06                     <plmn-IdentityInfoList>
+ 十  13 15:10:06                         <PLMN-IdentityInfo>
+ 十  13 15:10:06                             <plmn-IdentityList>
+ 十  13 15:10:06                                 <PLMN-Identity>
+ 十  13 15:10:06                                     <mcc>
+ 十  13 15:10:06                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
+ 十  13 15:10:06                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
+ 十  13 15:10:06                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
+ 十  13 15:10:06                                     </mcc>
+ 十  13 15:10:06                                     <mnc>
+ 十  13 15:10:06                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
+ 十  13 15:10:06                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
+ 十  13 15:10:06                                     </mnc>
+ 十  13 15:10:06                                 </PLMN-Identity>
+ 十  13 15:10:06                             </plmn-IdentityList>
+ 十  13 15:10:06                             <trackingAreaCode>
+ 十  13 15:10:06                                 000000000000000000000001
+ 十  13 15:10:06                             </trackingAreaCode>
+ 十  13 15:10:06                             <cellIdentity>
+ 十  13 15:10:06                                 000000000000000000000000000000000001
+ 十  13 15:10:06                             </cellIdentity>
+ 十  13 15:10:06                             <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+ 十  13 15:10:06                         </PLMN-IdentityInfo>
+ 十  13 15:10:06                     </plmn-IdentityInfoList>
+ 十  13 15:10:06                 </cellAccessRelatedInfo>
+ 十  13 15:10:06                 <servingCellConfigCommon>
+ 十  13 15:10:06                     <downlinkConfigCommon>
+ 十  13 15:10:06                         <frequencyInfoDL>
+ 十  13 15:10:06                             <frequencyBandList>
+ 十  13 15:10:06                                 <NR-MultiBandInfo>
+ 十  13 15:10:06                                     <freqBandIndicatorNR>78</freqBandIndicatorNR>
+ 十  13 15:10:06                                 </NR-MultiBandInfo>
+ 十  13 15:10:06                             </frequencyBandList>
+ 十  13 15:10:06                             <offsetToPointA>86</offsetToPointA>
+ 十  13 15:10:06                             <scs-SpecificCarrierList>
+ 十  13 15:10:06                                 <SCS-SpecificCarrier>
+ 十  13 15:10:06                                     <offsetToCarrier>0</offsetToCarrier>
+ 十  13 15:10:06                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 十  13 15:10:06                                     <carrierBandwidth>106</carrierBandwidth>
+ 十  13 15:10:06                                 </SCS-SpecificCarrier>
+ 十  13 15:10:06                             </scs-SpecificCarrierList>
+ 十  13 15:10:06                         </frequencyInfoDL>
+ 十  13 15:10:06                         <initialDownlinkBWP>
+ 十  13 15:10:06                             <genericParameters>
+ 十  13 15:10:06                                 <locationAndBandwidth>28875</locationAndBandwidth>
+ 十  13 15:10:06                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 十  13 15:10:06                             </genericParameters>
+ 十  13 15:10:06                             <pdcch-ConfigCommon>
+ 十  13 15:10:06                                 <setup>
+ 十  13 15:10:06                                     <controlResourceSetZero>12</controlResourceSetZero>
+ 十  13 15:10:06                                     <searchSpaceZero>0</searchSpaceZero>
+ 十  13 15:10:06                                     <commonSearchSpaceList>
+ 十  13 15:10:06                                         <SearchSpace>
+ 十  13 15:10:06                                             <searchSpaceId>1</searchSpaceId>
+ 十  13 15:10:06                                             <controlResourceSetId>0</controlResourceSetId>
+ 十  13 15:10:06                                             <monitoringSlotPeriodicityAndOffset>
+ 十  13 15:10:06                                                 <sl1></sl1>
+ 十  13 15:10:06                                             </monitoringSlotPeriodicityAndOffset>
+ 十  13 15:10:06                                             <monitoringSymbolsWithinSlot>
+ 十  13 15:10:06                                                 10000000000000
+ 十  13 15:10:06                                             </monitoringSymbolsWithinSlot>
+ 十  13 15:10:06                                             <nrofCandidates>
+ 十  13 15:10:06                                                 <aggregationLevel1><n0/></aggregationLevel1>
+ 十  13 15:10:06                                                 <aggregationLevel2><n0/></aggregationLevel2>
+ 十  13 15:10:06                                                 <aggregationLevel4><n1/></aggregationLevel4>
+ 十  13 15:10:06                                                 <aggregationLevel8><n0/></aggregationLevel8>
+ 十  13 15:10:06                                                 <aggregationLevel16><n0/></aggregationLevel16>
+ 十  13 15:10:06                                             </nrofCandidates>
+ 十  13 15:10:06                                             <searchSpaceType>
+ 十  13 15:10:06                                                 <common>
+ 十  13 15:10:06                                                     <dci-Format0-0-AndFormat1-0>
+ 十  13 15:10:06                                                     </dci-Format0-0-AndFormat1-0>
+ 十  13 15:10:06                                                 </common>
+ 十  13 15:10:06                                             </searchSpaceType>
+ 十  13 15:10:06                                         </SearchSpace>
+ 十  13 15:10:06                                     </commonSearchSpaceList>
+ 十  13 15:10:06                                     <searchSpaceSIB1>0</searchSpaceSIB1>
+ 十  13 15:10:06                                     <pagingSearchSpace>1</pagingSearchSpace>
+ 十  13 15:10:06                                     <ra-SearchSpace>1</ra-SearchSpace>
+ 十  13 15:10:06                                 </setup>
+ 十  13 15:10:06                             </pdcch-ConfigCommon>
+ 十  13 15:10:06                             <pdsch-ConfigCommon>
+ 十  13 15:10:06                                 <setup>
+ 十  13 15:10:06                                     <pdsch-TimeDomainAllocationList>
+ 十  13 15:10:06                                         <PDSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                             <mappingType><typeA/></mappingType>
+ 十  13 15:10:06                                             <startSymbolAndLength>40</startSymbolAndLength>
+ 十  13 15:10:06                                         </PDSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                         <PDSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                             <mappingType><typeA/></mappingType>
+ 十  13 15:10:06                                             <startSymbolAndLength>54</startSymbolAndLength>
+ 十  13 15:10:06                                         </PDSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                         <PDSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                             <mappingType><typeA/></mappingType>
+ 十  13 15:10:06                                             <startSymbolAndLength>57</startSymbolAndLength>
+ 十  13 15:10:06                                         </PDSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                     </pdsch-TimeDomainAllocationList>
+ 十  13 15:10:06                                 </setup>
+ 十  13 15:10:06                             </pdsch-ConfigCommon>
+ 十  13 15:10:06                         </initialDownlinkBWP>
+ 十  13 15:10:06                         <bcch-Config>
+ 十  13 15:10:06                             <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
+ 十  13 15:10:06                         </bcch-Config>
+ 十  13 15:10:06                         <pcch-Config>
+ 十  13 15:10:06                             <defaultPagingCycle><rf256/></defaultPagingCycle>
+ 十  13 15:10:06                             <nAndPagingFrameOffset>
+ 十  13 15:10:06                                 <quarterT>1</quarterT>
+ 十  13 15:10:06                             </nAndPagingFrameOffset>
+ 十  13 15:10:06                             <ns><one/></ns>
+ 十  13 15:10:06                             <firstPDCCH-MonitoringOccasionOfPO>
+ 十  13 15:10:06                                 <sCS120KHZoneT-SCS60KHZhalfT-SCS30KHZquarterT-SCS15KHZoneEighthT>
+ 十  13 15:10:06                                     <INTEGER>0</INTEGER>
+ 十  13 15:10:06                                 </sCS120KHZoneT-SCS60KHZhalfT-SCS30KHZquarterT-SCS15KHZoneEighthT>
+ 十  13 15:10:06                             </firstPDCCH-MonitoringOccasionOfPO>
+ 十  13 15:10:06                         </pcch-Config>
+ 十  13 15:10:06                     </downlinkConfigCommon>
+ 十  13 15:10:06                     <uplinkConfigCommon>
+ 十  13 15:10:06                         <frequencyInfoUL>
+ 十  13 15:10:06                             <scs-SpecificCarrierList>
+ 十  13 15:10:06                                 <SCS-SpecificCarrier>
+ 十  13 15:10:06                                     <offsetToCarrier>0</offsetToCarrier>
+ 十  13 15:10:06                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 十  13 15:10:06                                     <carrierBandwidth>106</carrierBandwidth>
+ 十  13 15:10:06                                 </SCS-SpecificCarrier>
+ 十  13 15:10:06                             </scs-SpecificCarrierList>
+ 十  13 15:10:06                             <p-Max>20</p-Max>
+ 十  13 15:10:06                         </frequencyInfoUL>
+ 十  13 15:10:06                         <initialUplinkBWP>
+ 十  13 15:10:06                             <genericParameters>
+ 十  13 15:10:06                                 <locationAndBandwidth>28875</locationAndBandwidth>
+ 十  13 15:10:06                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
+ 十  13 15:10:06                             </genericParameters>
+ 十  13 15:10:06                             <rach-ConfigCommon>
+ 十  13 15:10:06                                 <setup>
+ 十  13 15:10:06                                     <rach-ConfigGeneric>
+ 十  13 15:10:06                                         <prach-ConfigurationIndex>98</prach-ConfigurationIndex>
+ 十  13 15:10:06                                         <msg1-FDM><one/></msg1-FDM>
+ 十  13 15:10:06                                         <msg1-FrequencyStart>0</msg1-FrequencyStart>
+ 十  13 15:10:06                                         <zeroCorrelationZoneConfig>13</zeroCorrelationZoneConfig>
+ 十  13 15:10:06                                         <preambleReceivedTargetPower>-96</preambleReceivedTargetPower>
+ 十  13 15:10:06                                         <preambleTransMax><n10/></preambleTransMax>
+ 十  13 15:10:06                                         <powerRampingStep><dB2/></powerRampingStep>
+ 十  13 15:10:06                                         <ra-ResponseWindow><sl20/></ra-ResponseWindow>
+ 十  13 15:10:06                                     </rach-ConfigGeneric>
+ 十  13 15:10:06                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 十  13 15:10:06                                         <one><n60/></one>
+ 十  13 15:10:06                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+ 十  13 15:10:06                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+ 十  13 15:10:06                                     <rsrp-ThresholdSSB>19</rsrp-ThresholdSSB>
+ 十  13 15:10:06                                     <prach-RootSequenceIndex>
+ 十  13 15:10:06                                         <l139>1</l139>
+ 十  13 15:10:06                                     </prach-RootSequenceIndex>
+ 十  13 15:10:06                                     <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
+ 十  13 15:10:06                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+ 十  13 15:10:06                                 </setup>
+ 十  13 15:10:06                             </rach-ConfigCommon>
+ 十  13 15:10:06                             <pusch-ConfigCommon>
+ 十  13 15:10:06                                 <setup>
+ 十  13 15:10:06                                     <pusch-TimeDomainAllocationList>
+ 十  13 15:10:06                                         <PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                             <k2>4</k2>
+ 十  13 15:10:06                                             <mappingType><typeB/></mappingType>
+ 十  13 15:10:06                                             <startSymbolAndLength>41</startSymbolAndLength>
+ 十  13 15:10:06                                         </PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                         <PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                             <k2>6</k2>
+ 十  13 15:10:06                                             <mappingType><typeB/></mappingType>
+ 十  13 15:10:06                                             <startSymbolAndLength>55</startSymbolAndLength>
+ 十  13 15:10:06                                         </PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                         <PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                             <k2>6</k2>
+ 十  13 15:10:06                                             <mappingType><typeB/></mappingType>
+ 十  13 15:10:06                                             <startSymbolAndLength>41</startSymbolAndLength>
+ 十  13 15:10:06                                         </PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                         <PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                             <k2>6</k2>
+ 十  13 15:10:06                                             <mappingType><typeB/></mappingType>
+ 十  13 15:10:06                                             <startSymbolAndLength>41</startSymbolAndLength>
+ 十  13 15:10:06                                         </PUSCH-TimeDomainResourceAllocation>
+ 十  13 15:10:06                                     </pusch-TimeDomainAllocationList>
+ 十  13 15:10:06                                     <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
+ 十  13 15:10:06                                     <p0-NominalWithGrant>-90</p0-NominalWithGrant>
+ 十  13 15:10:06                                 </setup>
+ 十  13 15:10:06                             </pusch-ConfigCommon>
+ 十  13 15:10:06                             <pucch-ConfigCommon>
+ 十  13 15:10:06                                 <setup>
+ 十  13 15:10:06                                     <pucch-ResourceCommon>0</pucch-ResourceCommon>
+ 十  13 15:10:06                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
+ 十  13 15:10:06                                     <hoppingId>40</hoppingId>
+ 十  13 15:10:06                                     <p0-nominal>-90</p0-nominal>
+ 十  13 15:10:06                                 </setup>
+ 十  13 15:10:06                             </pucch-ConfigCommon>
+ 十  13 15:10:06                         </initialUplinkBWP>
+ 十  13 15:10:06                         <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+ 十  13 15:10:06                     </uplinkConfigCommon>
+ 十  13 15:10:06                     <ssb-PositionsInBurst>
+ 十  13 15:10:06                         <inOneGroup>
+ 十  13 15:10:06                             10000000
+ 十  13 15:10:06                         </inOneGroup>
+ 十  13 15:10:06                     </ssb-PositionsInBurst>
+ 十  13 15:10:06                     <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
+ 十  13 15:10:06                     <tdd-UL-DL-ConfigurationCommon>
+ 十  13 15:10:06                         <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
+ 十  13 15:10:06                         <pattern1>
+ 十  13 15:10:06                             <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
+ 十  13 15:10:06                             <nrofDownlinkSlots>7</nrofDownlinkSlots>
+ 十  13 15:10:06                             <nrofDownlinkSymbols>6</nrofDownlinkSymbols>
+ 十  13 15:10:06                             <nrofUplinkSlots>2</nrofUplinkSlots>
+ 十  13 15:10:06                             <nrofUplinkSymbols>4</nrofUplinkSymbols>
+ 十  13 15:10:06                         </pattern1>
+ 十  13 15:10:06                     </tdd-UL-DL-ConfigurationCommon>
+ 十  13 15:10:06                     <ss-PBCH-BlockPower>-25</ss-PBCH-BlockPower>
+ 十  13 15:10:06                 </servingCellConfigCommon>
+ 十  13 15:10:06                 <ue-TimersAndConstants>
+ 十  13 15:10:06                     <t300><ms400/></t300>
+ 十  13 15:10:06                     <t301><ms400/></t301>
+ 十  13 15:10:06                     <t310><ms2000/></t310>
+ 十  13 15:10:06                     <n310><n10/></n310>
+ 十  13 15:10:06                     <t311><ms3000/></t311>
+ 十  13 15:10:06                     <n311><n1/></n311>
+ 十  13 15:10:06                     <t319><ms400/></t319>
+ 十  13 15:10:06                 </ue-TimersAndConstants>
+ 十  13 15:10:06             </systemInformationBlockType1>
+ 十  13 15:10:06         </c1>
+ 十  13 15:10:06     </message>
+ 十  13 15:10:06 </BCCH-DL-SCH-Message>
+ 十  13 15:10:06 [32m[NR_RRC]   SIB1 decoded
+ 十  13 15:10:06 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+ 十  13 15:10:06 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 十  13 15:10:07 [0m[NR_PHY]   ============================================
+ 十  13 15:10:07 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+ 十  13 15:10:07 [0m[NR_PHY]   ============================================
+ 十  13 15:10:08 [0m[NR_PHY]   ============================================
+ 十  13 15:10:08 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+ 十  13 15:10:08 [0m[NR_PHY]   ============================================
+ 十  13 15:10:08 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+ 十  13 15:10:08 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 十  13 15:10:08 [0m[NR_MAC]   Initialization of 4-step contention-based random access procedure
+ 十  13 15:10:08 [0m[NR_MAC]   ul config in slot 19
+ 十  13 15:10:08 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 167, Slot 19, Symbol 0, Fdm 0
+ 十  13 15:10:08 [0m[PHY]   PRACH [UE 0] in frame.slot 167.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 十  13 15:10:08 [0m[MAC]   DLSCH riv = 144
+ 十  13 15:10:08 [0m[MAC]   DLSCH n_RB_DLBWP = 48
+ 十  13 15:10:08 [0m[MAC]   DLSCH number_rbs = 4
+ 十  13 15:10:08 [0m[MAC]   DLSCH start_rb = 0
+ 十  13 15:10:08 [0m[MAC]   dlsch_pdu->mcs: 0, dlsch_pdu->mcs_table: 0
+ 十  13 15:10:08 [0m[MAC]   qamModOrder: 2, R: 1200, number_rbs: 4, number_symbols: 13, nb_re_dmrs: 12, dlsch_pdu->dlDmrsSymbPos: 2180, get_num_dmrs(): 3, nb_rb_oh: 0
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 112 nbp_re 120 nb_re 480 Qm 2, R 1200
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 1843171 nbp_re 120 nb_re 7864200 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 1835472 for RB -1
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 0 nbp_re 120 nb_re 0 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 24 for RB 0
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 28 nbp_re 120 nb_re 120 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 24 for RB 1
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 56 nbp_re 120 nb_re 240 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 56 for RB 2
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 84 nbp_re 120 nb_re 360 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 80 for RB 3
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 112 nbp_re 120 nb_re 480 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 112 for RB 4
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 140 nbp_re 120 nb_re 600 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 136 for RB 5
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 168 nbp_re 120 nb_re 720 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 168 for RB 6
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 196 nbp_re 120 nb_re 840 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 192 for RB 7
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 225 nbp_re 120 nb_re 960 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 224 for RB 8
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 253 nbp_re 120 nb_re 1080 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 112, test_tbs 256 for RB 9
+ 十  13 15:10:08 [0m[MAC]   TBS 112, TBSLBRM 92200
+ 十  13 15:10:08 [0m[PHY]   current_harq_pid = 0
+ 十  13 15:10:08 [0m[PHY]   AbsSubframe 168.12 Start LDPC Decoder for CW0 [harq_pid 0] ? 1 
+ 十  13 15:10:08 [0m[PHY]   AbsSubframe 168.12 Start LDPC Decoder for CW1 [harq_pid 0] ? 0 
+ 十  13 15:10:08 [0m[PHY]   num_rb 4
+ 十  13 15:10:08 [0m[PHY]   Round 0 RV idx 0
+ 十  13 15:10:08 [0m[PHY]   dmrs_length 3, dlDmrsSymbPos 2180
+ 十  13 15:10:08 [0m[PHY]   168.12 DLSCH Decoding, harq_pid 0 TBS 112 (14) G 960 nb_re_dmrs 12 length dmrs 3 mcs 0 Nl 1 nb_symb_sch 13 nb_rb 4 Qm 2 Coderate 0.117188
+ 十  13 15:10:08 [0m[PHY]   dlsch decoding, ret = 3
+ 十  13 15:10:08 [0m[PHY]   DL PDU length in bits: 112, in bytes: 14 
+ 十  13 15:10:08 [0m[PHY]    --> Unscrambling for CW0 1.192
+ 十  13 15:10:08 [0m[PHY]   AbsSubframe 168.12 --> LDPC Decoding for CW0 167.309
+ 十  13 15:10:08 [0m[1;31m[NR_MAC]   Trying to process acknack for an inactive harq process (0)
+ 十  13 15:10:08 [0m[MAC]   In [168.12] Handling DLSCH PDU type 5
+ 十  13 15:10:08 [0m[NR_MAC]   [168.12]: [UE 0][RAPROC] invoking MAC for received RAR (current preamble 12)
+ 十  13 15:10:08 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
+ 十  13 15:10:08 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
+ 十  13 15:10:08 [0m[32m[NR_MAC]   [UE 0][RAPROC][168.12] Found RAR with the intended RAPID 12
+ 十  13 15:10:08 [0m[93m[MAC]   received TA command 31
+ 十  13 15:10:08 [0m[NR_MAC]   ul config in slot 19
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 225 nbp_re 120 nb_re 960 Qm 2, R 1200
+ 十  13 15:10:08 [0m[PHY]   RAR-Msg2 decoded
+ 十  13 15:10:08 [0m[32m[NR_MAC]   [RAPROC][168.19] RA-Msg3 transmitted
+ 十  13 15:10:08 [0m[MAC]   DLSCH riv = 815
+ 十  13 15:10:08 [0m[MAC]   DLSCH n_RB_DLBWP = 48
+ 十  13 15:10:08 [0m[MAC]   DLSCH number_rbs = 33
+ 十  13 15:10:08 [0m[MAC]   DLSCH start_rb = 0
+ 十  13 15:10:08 [0m[MAC]   dlsch_pdu->mcs: 0, dlsch_pdu->mcs_table: 0
+ 十  13 15:10:08 [0m[MAC]   qamModOrder: 2, R: 1200, number_rbs: 33, number_symbols: 13, nb_re_dmrs: 12, dlsch_pdu->dlDmrsSymbPos: 2180, get_num_dmrs(): 3, nb_rb_oh: 0
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 928 nbp_re 120 nb_re 3960 Qm 2, R 1200
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 787 nbp_re 120 nb_re 3360 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 808 for RB 28
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 815 nbp_re 120 nb_re 3480 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 808 for RB 29
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 843 nbp_re 120 nb_re 3600 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 848 for RB 30
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 871 nbp_re 120 nb_re 3720 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 888 for RB 31
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 900 nbp_re 120 nb_re 3840 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 928 for RB 32
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 928 nbp_re 120 nb_re 3960 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 928 for RB 33
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 956 nbp_re 120 nb_re 4080 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 984 for RB 34
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 984 nbp_re 120 nb_re 4200 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 984 for RB 35
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 1012 nbp_re 120 nb_re 4320 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 1032 for RB 36
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 1040 nbp_re 120 nb_re 4440 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 1064 for RB 37
+ 十  13 15:10:08 [0m[NR_MAC]   In nr_compute_tbs: Ninfo 1068 nbp_re 120 nb_re 4560 Qm 2, R 1200
+ 十  13 15:10:08 [0m[MAC]   TBS 928, test_tbs 1064 for RB 38
+ 十  13 15:10:08 [0m[MAC]   TBS 928, TBSLBRM 92200
+ 十  13 15:10:08 [0m[PHY]   Copying DLSCH PDU to UE PHY
+ 十  13 15:10:08 [0m[PHY]   current_harq_pid = 0
+ 十  13 15:10:08 [0m[PHY]   AbsSubframe 169.15 Start LDPC Decoder for CW0 [harq_pid 0] ? 1 
+ 十  13 15:10:08 [0m[PHY]   AbsSubframe 169.15 Start LDPC Decoder for CW1 [harq_pid 0] ? 0 
+ 十  13 15:10:08 [0m[PHY]   num_rb 33
+ 十  13 15:10:08 [0m[PHY]   Round 0 RV idx 0
+ 十  13 15:10:08 [0m[PHY]   dmrs_length 3, dlDmrsSymbPos 2180
+ 十  13 15:10:08 [0m[PHY]   169.15 DLSCH Decoding, harq_pid 0 TBS 928 (116) G 7920 nb_re_dmrs 12 length dmrs 3 mcs 0 Nl 1 nb_symb_sch 13 nb_rb 33 Qm 2 Coderate 0.117188
+ 十  13 15:10:08 [0m[PHY]   dlsch decoding, ret = 3
+ 十  13 15:10:08 [0m[PHY]   DL PDU length in bits: 928, in bytes: 116 
+ 十  13 15:10:08 [0m[PHY]    --> Unscrambling for CW0 2.834
+ 十  13 15:10:08 [0m[PHY]   AbsSubframe 169.15 --> LDPC Decoding for CW0 198.444
+ 十  13 15:10:08 [0m[PHY]   Updating harq_status for harq_id 0, ack/nak 1
+ 十  13 15:10:08 [0m[NR_MAC]   ul config in slot 18
+ 十  13 15:10:08 [0m[MAC]   In [169.15] Handling DLSCH PDU type 3
+ 十  13 15:10:08 [0m[MAC]   pduP: 0x7f34805dd760, pdu_len: 116
+ 十  13 15:10:08 [0m[MAC]   [169.15]: processing PDU 0 (with length 116) of 1 total number of PDUs...
+ 十  13 15:10:08 [0m[MAC]   [UE] LCID 62, PDU length 116
+ 十  13 15:10:08 [0m[MAC]   [UE 0]Frame 169 Contention resolution identity: 0x1c50b01e0526 Terminating RA procedure
+ 十  13 15:10:08 [0m[32m[MAC]   [UE 0][169.15][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
+ 十  13 15:10:08 [0m[MAC]   [UE] LCID 0, PDU length 109
+ 十  13 15:10:08 [0m[MAC]   [UE] LCID 63, PDU length 4
+ 十  13 15:10:08 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+ 十  13 15:10:08 [0m[PHY]   Copying pucch pdu to UE PHY
+ 十  13 15:10:08 [0m[RLC]   Added srb 1 to UE 0
+ 十  13 15:10:08 [0m[MAC]   Applying CellGroupConfig from gNodeB
+ 十  13 15:10:08 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+ 十  13 15:10:08 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
+ 十  13 15:10:08 [0m
