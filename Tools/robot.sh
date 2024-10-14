@@ -1,7 +1,7 @@
 #!/bin/bash
 source ../VARIABLE.sh
 
-SEARCH_STRING="UE Id : 1   DL Tpt : 0.00"
+SEARCH_STRING="State = NR_RRC_CONNECTED" #"SIB1 decoded" #"UE Id : 1   DL Tpt : 0.00" ", ack/nak "
 ERROR_STRING="stdbuf: failed to run command"
 
 ################################################
@@ -25,7 +25,7 @@ if [ ! -e "$CONTROL_FILE" ]; then
 fi
 
 check_logs_for_string() {
-    for LOG_FILE in "$ODU_LOG_FILE"; do
+    for LOG_FILE in "$UE_LOG_FILE"; do
         if grep -q "$SEARCH_STRING" "$LOG_FILE"; then
             return 1
         fi
