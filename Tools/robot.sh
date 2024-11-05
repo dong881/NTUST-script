@@ -1,7 +1,7 @@
 #!/bin/bash
 source ../VARIABLE.sh
 
-SEARCH_STRING="State = NR_RRC_CONNECTED" #"SIB1 decoded" #"UE Id : 1   DL Tpt : 0.00" ", ack/nak "
+SEARCH_STRING="State = NR_RRC_CONNECTED" # "State = NR_RRC_CONNECTED" "SIB1 decoded" #"UE Id : 1   DL Tpt : 0.00" ", ack/nak "
 ERROR_STRING="stdbuf: failed to run command"
 
 ################################################
