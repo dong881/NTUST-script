@@ -1,0 +1,80 @@
+diff --git a/openair2/F1AP/f1ap_cu_interface_management.c b/openair2/F1AP/f1ap_cu_interface_management.c
+index 2e73172e2b..95e85fc8d4 100644
+--- a/openair2/F1AP/f1ap_cu_interface_management.c
++++ b/openair2/F1AP/f1ap_cu_interface_management.c
+@@ -216,7 +216,7 @@ int CU_handle_F1_SETUP_REQUEST(instance_t instance, sctp_assoc_t assoc_id, uint3
+         struct F1AP_FreqBandNrItem * FreqItem=tDD_Info->nRFreqInfo.freqBandListNr.list.array[f];
+         TDDs->freqinfo.band = FreqItem->freqBandIndicatorNr;
+         int num_available_supported_SULBands = FreqItem->supportedSULBandList.list.count;
+-        AssertFatal(num_available_supported_SULBands == 0, "cannot hanlde SUL bands!\n");
++        //AssertFatal(num_available_supported_SULBands == 0, "cannot hanlde SUL bands!\n"); //Sheryl
+       }
+       TDDs->tbw.scs = tDD_Info->transmission_Bandwidth.nRSCS;
+       TDDs->tbw.nrb = nrb_lut[tDD_Info->transmission_Bandwidth.nRNRB];
+@@ -693,7 +693,7 @@ int CU_handle_gNB_DU_CONFIGURATION_UPDATE(instance_t instance, sctp_assoc_t asso
+           struct F1AP_FreqBandNrItem *FreqItem = tDD_Info->nRFreqInfo.freqBandListNr.list.array[f];
+           TDDs->freqinfo.band = FreqItem->freqBandIndicatorNr;
+           int num_available_supported_SULBands = FreqItem->supportedSULBandList.list.count;
+-          AssertFatal(num_available_supported_SULBands == 0, "cannot hanlde SUL bands!\n");
++          //AssertFatal(num_available_supported_SULBands == 0, "cannot hanlde SUL bands!\n"); //Sheryl
+         }
+         TDDs->tbw.scs = tDD_Info->transmission_Bandwidth.nRSCS;
+         TDDs->tbw.nrb = nrb_lut[tDD_Info->transmission_Bandwidth.nRNRB];
+@@ -776,7 +776,7 @@ int CU_handle_gNB_DU_CONFIGURATION_UPDATE(instance_t instance, sctp_assoc_t asso
+   /* 3GPP TS 38.473 gNB-DU ID */
+   F1AP_FIND_PROTOCOLIE_BY_ID(F1AP_GNBDUConfigurationUpdateIEs_t, ie, container, F1AP_ProtocolIE_ID_id_gNB_DU_ID, false);
+   if (ie != NULL)
+-    asn_INTEGER2ulong(&ie->value.choice.GNB_DU_ID, req->gNB_DU_ID);
++    asn_INTEGER2ulong(&ie->value.choice.GNB_DU_ID, &req->gNB_DU_ID);
+ 
+   /* 3GPP TS 38.473 gNB-DU TNL Association To Remove List */
+   F1AP_FIND_PROTOCOLIE_BY_ID(F1AP_GNBDUConfigurationUpdateIEs_t,
+diff --git a/openair2/RRC/NR/rrc_gNB_du.c b/openair2/RRC/NR/rrc_gNB_du.c
+index b24e6f594c..3e6884ab0d 100644
+--- a/openair2/RRC/NR/rrc_gNB_du.c
++++ b/openair2/RRC/NR/rrc_gNB_du.c
+@@ -82,7 +82,7 @@ static bool extract_sys_info(const f1ap_gnb_du_system_info_t *sys_info, NR_MIB_t
+   }
+ 
+   if (sys_info->sib1) {
+-    dec_rval = uper_decode_complete(NULL, &asn_DEF_NR_SIB1, (void **)sib1, sys_info->sib1, sys_info->sib1_length);
++    dec_rval = uper_decode_complete(NULL, &asn_DEF_NR_BCCH_BCH_Message, (void **)sib1, sys_info->sib1, sys_info->sib1_length);
+     if (dec_rval.code != RC_OK) {
+       ASN_STRUCT_FREE(asn_DEF_NR_MIB, *mib);
+       ASN_STRUCT_FREE(asn_DEF_NR_SIB1, *sib1);
+diff --git a/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf b/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf
+index 6730f22b41..a2ae308899 100644
+--- a/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf
++++ b/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf
+@@ -15,17 +15,18 @@ gNBs =
+ 
+     // Tracking area code, 0x0000 and 0xfffe are reserved values
+     tracking_area_code  =  1;
+-    plmn_list = ({ mcc = 208; mnc = 99; mnc_length = 2; snssaiList = ({ sst = 1 }) });
++    plmn_list = ({ mcc = 001; mnc = 01; mnc_length = 2; snssaiList = ({ sst = 1 }) });
+ 
+     nr_cellid = 12345678L;
+ 
+     tr_s_preference = "f1";
+ 
+-    local_s_address = "127.0.0.4";
+-    remote_s_address = "127.0.0.3";
+-    local_s_portc   = 501;
++    local_s_if_name = "enp0s31f6:CU";//"lo"
++    local_s_address = "192.168.130.83";
++    remote_s_address = "192.168.130.81";
++    local_s_portc   = 38472;
+     local_s_portd   = 2152;
+-    remote_s_portc  = 500;
++    remote_s_portc  = 38472;
+     remote_s_portd  = 2152;
+ 
+     # ------- SCTP definitions
+@@ -77,5 +78,4 @@ security = {
+        rrc_log_level                         ="info";
+        f1ap_log_level                         ="debug";
+        ngap_log_level                         ="debug";
+-    };
+-
++    };
+\ No newline at end of file
