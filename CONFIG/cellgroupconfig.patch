@@ -1,0 +1,22 @@
+diff --git openair2/RRC/NR_UE/rrc_UE.c openair2/RRC/NR_UE/rrc_UE.c
+index 89d73f1abc..1ddfb243d8 100644
+--- openair2/RRC/NR_UE/rrc_UE.c
++++ openair2/RRC/NR_UE/rrc_UE.c
+@@ -218,7 +218,7 @@ static void nr_rrc_ue_process_rrcReconfiguration(NR_UE_RRC_INST_t *rrc,
+           SEQUENCE_free(&asn_DEF_NR_CellGroupConfig, (void *)cellGroupConfig, 1);
+         }
+ 
+-        if (LOG_DEBUGFLAG(DEBUG_ASN1))
++        if (true)
+           xer_fprint(stdout, &asn_DEF_NR_CellGroupConfig, (const void *) cellGroupConfig);
+ 
+         nr_rrc_cellgroup_configuration(rrc, cellGroupConfig);
+@@ -977,7 +977,7 @@ static void nr_rrc_ue_process_masterCellGroup(NR_UE_RRC_INST_t *rrc,
+               (uint8_t *)masterCellGroup->buf,
+               masterCellGroup->size, 0, 0);
+ 
+-  if (LOG_DEBUGFLAG(DEBUG_ASN1)) {
++  if (true) {
+     xer_fprint(stdout, &asn_DEF_NR_CellGroupConfig, (const void *) cellGroupConfig);
+   }
+ 
