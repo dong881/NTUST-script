@@ -121,19 +121,19 @@ E2AP-PDU ::= CHOICE {
 
 InitiatingMessageE2 ::= SEQUENCE {
 	procedureCode	E2AP-ELEMENTARY-PROCEDURE.&procedureCode		({E2AP-ELEMENTARY-PROCEDURES}),
-	criticalityE2		E2AP-ELEMENTARY-PROCEDURE.&criticalityE2			({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode}),
+	criticality		E2AP-ELEMENTARY-PROCEDURE.&criticalityE2			({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode}),
 	value			E2AP-ELEMENTARY-PROCEDURE.&InitiatingMessageE2	({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode})
 }
 
 SuccessfulOutcomeE2 ::= SEQUENCE {
 	procedureCode	E2AP-ELEMENTARY-PROCEDURE.&procedureCode		({E2AP-ELEMENTARY-PROCEDURES}),
-	criticalityE2		E2AP-ELEMENTARY-PROCEDURE.&criticalityE2			({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode}),
+	criticality		E2AP-ELEMENTARY-PROCEDURE.&criticalityE2			({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode}),
 	value			E2AP-ELEMENTARY-PROCEDURE.&SuccessfulOutcomeE2	({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode})
 }
 
 UnsuccessfulOutcomeE2 ::= SEQUENCE {
 	procedureCode	E2AP-ELEMENTARY-PROCEDURE.&procedureCode		({E2AP-ELEMENTARY-PROCEDURES}),
-	criticalityE2		E2AP-ELEMENTARY-PROCEDURE.&criticalityE2			({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode}),
+	criticality		E2AP-ELEMENTARY-PROCEDURE.&criticalityE2			({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode}),
 	value			E2AP-ELEMENTARY-PROCEDURE.&UnsuccessfulOutcomeE2	({E2AP-ELEMENTARY-PROCEDURES}{@procedureCode})
 }
 
@@ -2527,14 +2527,14 @@ WITH SYNTAX {
 
 ProtocolIE-ContainerE2 {E2AP-PROTOCOL-IES : IEsSetParam} ::= 
 	SEQUENCE (SIZE (0..maxProtocolIEs)) OF
-	ProtocolIE-Field {{IEsSetParam}}
+	ProtocolIE-FieldE2 {{IEsSetParam}}
 
 ProtocolIE-SingleContainerE2 {E2AP-PROTOCOL-IES : IEsSetParam} ::= 
-	ProtocolIE-Field {{IEsSetParam}}
+	ProtocolIE-FieldE2 {{IEsSetParam}}
 
-ProtocolIE-Field {E2AP-PROTOCOL-IES : IEsSetParam} ::= SEQUENCE {
+ProtocolIE-FieldE2 {E2AP-PROTOCOL-IES : IEsSetParam} ::= SEQUENCE {
 	id				E2AP-PROTOCOL-IES.&id				({IEsSetParam}),
-	criticalityE2		E2AP-PROTOCOL-IES.&criticalityE2		({IEsSetParam}{@id}),
+	criticality		E2AP-PROTOCOL-IES.&criticalityE2		({IEsSetParam}{@id}),
 	value			E2AP-PROTOCOL-IES.&Value			({IEsSetParam}{@id})
 }
 
