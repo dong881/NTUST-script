@@ -1,0 +1,376 @@
+14c14
+<                         <pollPDU><infinity/></pollPDU>
+---
+>                         <pollPDU><p4/></pollPDU>
+20,21c20,21
+<                         <t-Reassembly><ms35/></t-Reassembly>
+<                         <t-StatusProhibit><ms0/></t-StatusProhibit>
+---
+>                         <t-Reassembly><ms40/></t-Reassembly>
+>                         <t-StatusProhibit><ms35/></t-StatusProhibit>
+29c29
+<                     <bucketSizeDuration><ms1000/></bucketSizeDuration>
+---
+>                     <bucketSizeDuration><ms150/></bucketSizeDuration>
+43c43,44
+<                     <sr-TransMax><n64/></sr-TransMax>
+---
+>                     <sr-ProhibitTimer><ms32/></sr-ProhibitTimer>
+>                     <sr-TransMax><n16/></sr-TransMax>
+49c50
+<             <retxBSR-Timer><sf80/></retxBSR-Timer>
+---
+>             <retxBSR-Timer><sf320/></retxBSR-Timer>
+61,63c62,64
+<                 <phr-PeriodicTimer><sf10/></phr-PeriodicTimer>
+<                 <phr-ProhibitTimer><sf10/></phr-ProhibitTimer>
+<                 <phr-Tx-PowerFactorChange><dB1/></phr-Tx-PowerFactorChange>
+---
+>                 <phr-PeriodicTimer><infinity/></phr-PeriodicTimer>
+>                 <phr-ProhibitTimer><sf0/></phr-ProhibitTimer>
+>                 <phr-Tx-PowerFactorChange><infinity/></phr-Tx-PowerFactorChange>
+72a74
+>         <p-NR-FR1>0</p-NR-FR1>
+75a78,79
+>         <servCellIndex>0</servCellIndex>
+>         <rlmInSyncOutOfSyncThreshold><n1/></rlmInSyncOutOfSyncThreshold>
+84c88
+<                                     111111111111111100000000000000000000000000000
+---
+>                                     000000000111100000000000000000000000000000000
+86c90
+<                                 <duration>1</duration>
+---
+>                                 <duration>2</duration>
+90,93c94,95
+<                                 <precoderGranularity><sameAsREG-bundle/></precoderGranularity>
+<                                 <tci-StatesPDCCH-ToAddList>
+<                                     <TCI-StateId>0</TCI-StateId>
+<                                 </tci-StatesPDCCH-ToAddList>
+---
+>                                 <precoderGranularity><allContiguousRBs/></precoderGranularity>
+>                                 <pdcch-DMRS-ScramblingID>1</pdcch-DMRS-ScramblingID>
+98c100
+<                                 <searchSpaceId>5</searchSpaceId>
+---
+>                                 <searchSpaceId>2</searchSpaceId>
+107,111c109,113
+<                                     <aggregationLevel1><n0/></aggregationLevel1>
+<                                     <aggregationLevel2><n2/></aggregationLevel2>
+<                                     <aggregationLevel4><n0/></aggregationLevel4>
+<                                     <aggregationLevel8><n0/></aggregationLevel8>
+<                                     <aggregationLevel16><n0/></aggregationLevel16>
+---
+>                                     <aggregationLevel1><n8/></aggregationLevel1>
+>                                     <aggregationLevel2><n8/></aggregationLevel2>
+>                                     <aggregationLevel4><n4/></aggregationLevel4>
+>                                     <aggregationLevel8><n2/></aggregationLevel8>
+>                                     <aggregationLevel16><n1/></aggregationLevel16>
+115c117
+<                                         <dci-Formats><formats0-1-And-1-1/></dci-Formats>
+---
+>                                         <dci-Formats><formats0-0-And-1-0/></dci-Formats>
+126c128
+<                                 <dmrs-AdditionalPosition><pos1/></dmrs-AdditionalPosition>
+---
+>                                 <dmrs-AdditionalPosition><pos0/></dmrs-AdditionalPosition>
+129,140d130
+<                         <tci-StatesToAddModList>
+<                             <TCI-State>
+<                                 <tci-StateId>0</tci-StateId>
+<                                 <qcl-Type1>
+<                                     <bwp-Id>0</bwp-Id>
+<                                     <referenceSignal>
+<                                         <ssb>0</ssb>
+<                                     </referenceSignal>
+<                                     <qcl-Type><typeC/></qcl-Type>
+<                                 </qcl-Type1>
+<                             </TCI-State>
+<                         </tci-StatesToAddModList>
+141a132,145
+>                         <pdsch-TimeDomainAllocationList>
+>                             <setup>
+>                                 <PDSCH-TimeDomainResourceAllocation>
+>                                     <k0>0</k0>
+>                                     <mappingType><typeA/></mappingType>
+>                                     <startSymbolAndLength>40</startSymbolAndLength>
+>                                 </PDSCH-TimeDomainResourceAllocation>
+>                                 <PDSCH-TimeDomainResourceAllocation>
+>                                     <k0>1</k0>
+>                                     <mappingType><typeA/></mappingType>
+>                                     <startSymbolAndLength>40</startSymbolAndLength>
+>                                 </PDSCH-TimeDomainResourceAllocation>
+>                             </setup>
+>                         </pdsch-TimeDomainAllocationList>
+142a147,149
+>                         <maxNrofCodeWordsScheduledByDCI>
+>                         <n1/>
+>                     </maxNrofCodeWordsScheduledByDCI>
+145d151
+<                                 <bundleSize><wideband/></bundleSize>
+149c155
+<                 </pdsch-Config>
+---
+>                 </pdsch-Config> 
+159,164d164
+<                                     <pucch-ResourceSetId>0</pucch-ResourceSetId>
+<                                     <resourceList>
+<                                         <PUCCH-ResourceId>0</PUCCH-ResourceId>
+<                                     </resourceList>
+<                                 </PUCCH-ResourceSet>
+<                                 <PUCCH-ResourceSet>
+167c167
+<                                         <PUCCH-ResourceId>2</PUCCH-ResourceId>
+---
+>                                         <PUCCH-ResourceId>1</PUCCH-ResourceId>
+173,184c173
+<                                     <pucch-ResourceId>0</pucch-ResourceId>
+<                                     <startingPRB>8</startingPRB>
+<                                     <format>
+<                                         <format0>
+<                                             <initialCyclicShift>0</initialCyclicShift>
+<                                             <nrofSymbols>1</nrofSymbols>
+<                                             <startingSymbolIndex>13</startingSymbolIndex>
+<                                         </format0>
+<                                     </format>
+<                                 </PUCCH-Resource>
+<                                 <PUCCH-Resource>
+<                                     <pucch-ResourceId>2</pucch-ResourceId>
+---
+>                                     <pucch-ResourceId>1</pucch-ResourceId>
+187,191c176,181
+<                                         <format2>
+<                                             <nrofPRBs>8</nrofPRBs>
+<                                             <nrofSymbols>1</nrofSymbols>
+<                                             <startingSymbolIndex>13</startingSymbolIndex>
+<                                         </format2>
+---
+>                                         <format1>
+>                                             <initialCyclicShift>0</initialCyclicShift>
+>                                             <nrofSymbols>4</nrofSymbols>
+>                                             <startingSymbolIndex>0</startingSymbolIndex>
+>                                             <timeDomainOCC>0</timeDomainOCC>
+>                                         </format1>
+195c185
+<                             <format2>
+---
+>                             <format1>
+197,198c187
+<                                     <maxCodeRate><zeroDot15/></maxCodeRate>
+<                                     <simultaneousHARQ-ACK-CSI><true/></simultaneousHARQ-ACK-CSI>
+---
+>                                     <nrofSlots><n4/></nrofSlots>
+200,210c189
+<                             </format2>
+<                             <schedulingRequestResourceToAddModList>
+<                                 <SchedulingRequestResourceConfig>
+<                                     <schedulingRequestResourceId>1</schedulingRequestResourceId>
+<                                     <schedulingRequestID>0</schedulingRequestID>
+<                                     <periodicityAndOffset>
+<                                         <sl10>7</sl10>
+<                                     </periodicityAndOffset>
+<                                     <resource>0</resource>
+<                                 </SchedulingRequestResourceConfig>
+<                             </schedulingRequestResourceToAddModList>
+---
+>                             </format1>
+212,219c191,192
+<                                 <INTEGER>6</INTEGER>
+<                                 <INTEGER>7</INTEGER>
+<                                 <INTEGER>8</INTEGER>
+<                                 <INTEGER>9</INTEGER>
+<                                 <INTEGER>10</INTEGER>
+<                                 <INTEGER>11</INTEGER>
+<                                 <INTEGER>12</INTEGER>
+<                                 <INTEGER>13</INTEGER>
+---
+>                                 <INTEGER>1</INTEGER>
+>                                 <INTEGER>2</INTEGER>
+221,249d193
+<                             <spatialRelationInfoToAddModList>
+<                                 <PUCCH-SpatialRelationInfo>
+<                                     <pucch-SpatialRelationInfoId>1</pucch-SpatialRelationInfoId>
+<                                     <referenceSignal>
+<                                         <ssb-Index>0</ssb-Index>
+<                                     </referenceSignal>
+<                                     <pucch-PathlossReferenceRS-Id>0</pucch-PathlossReferenceRS-Id>
+<                                     <p0-PUCCH-Id>1</p0-PUCCH-Id>
+<                                     <closedLoopIndex><i0/></closedLoopIndex>
+<                                 </PUCCH-SpatialRelationInfo>
+<                             </spatialRelationInfoToAddModList>
+<                             <pucch-PowerControl>
+<                                 <deltaF-PUCCH-f0>0</deltaF-PUCCH-f0>
+<                                 <deltaF-PUCCH-f2>0</deltaF-PUCCH-f2>
+<                                 <p0-Set>
+<                                     <P0-PUCCH>
+<                                         <p0-PUCCH-Id>1</p0-PUCCH-Id>
+<                                         <p0-PUCCH-Value>0</p0-PUCCH-Value>
+<                                     </P0-PUCCH>
+<                                 </p0-Set>
+<                                 <pathlossReferenceRSs>
+<                                     <PUCCH-PathlossReferenceRS>
+<                                         <pucch-PathlossReferenceRS-Id>0</pucch-PathlossReferenceRS-Id>
+<                                         <referenceSignal>
+<                                             <ssb-Index>0</ssb-Index>
+<                                         </referenceSignal>
+<                                     </PUCCH-PathlossReferenceRS>
+<                                 </pathlossReferenceRSs>
+<                             </pucch-PowerControl>
+254,255c198,199
+<                             <txConfig><codebook/></txConfig>
+<                             <dmrs-UplinkForPUSCH-MappingTypeB>
+---
+>                             <dataScramblingIdentityPUSCH>1</dataScramblingIdentityPUSCH>
+>                             <dmrs-UplinkForPUSCH-MappingTypeA>
+256a201
+>                                     <dmrs-AdditionalPosition><pos0/></dmrs-AdditionalPosition>
+257a203
+>                                         <scramblingID0>1</scramblingID0>
+259,260d204
+<                                     <transformPrecodingEnabled>
+<                                     </transformPrecodingEnabled>
+262,280c206
+<                             </dmrs-UplinkForPUSCH-MappingTypeB>
+<                             <pusch-PowerControl>
+<                                 <msg3-Alpha><alpha1/></msg3-Alpha>
+<                                 <p0-AlphaSets>
+<                                     <P0-PUSCH-AlphaSet>
+<                                         <p0-PUSCH-AlphaSetId>0</p0-PUSCH-AlphaSetId>
+<                                         <p0>0</p0>
+<                                         <alpha><alpha1/></alpha>
+<                                     </P0-PUSCH-AlphaSet>
+<                                 </p0-AlphaSets>
+<                                 <pathlossReferenceRSToAddModList>
+<                                     <PUSCH-PathlossReferenceRS>
+<                                         <pusch-PathlossReferenceRS-Id>0</pusch-PathlossReferenceRS-Id>
+<                                         <referenceSignal>
+<                                             <ssb-Index>0</ssb-Index>
+<                                         </referenceSignal>
+<                                     </PUSCH-PathlossReferenceRS>
+<                                 </pathlossReferenceRSToAddModList>
+<                             </pusch-PowerControl>
+---
+>                             </dmrs-UplinkForPUSCH-MappingTypeA>
+282,283c208,222
+<                             <codebookSubset><nonCoherent/></codebookSubset>
+<                             <maxRank>1</maxRank>
+---
+>                             <pusch-TimeDomainAllocationList>
+>                                 <setup>
+>                                     <PUSCH-TimeDomainResourceAllocation>
+>                                         <k2>4</k2>
+>                                         <mappingType><typeA/></mappingType>
+>                                         <startSymbolAndLength>41</startSymbolAndLength>
+>                                     </PUSCH-TimeDomainResourceAllocation>
+>                                     <PUSCH-TimeDomainResourceAllocation>
+>                                         <k2>6</k2>
+>                                         <mappingType><typeA/></mappingType>
+>                                         <startSymbolAndLength>41</startSymbolAndLength>
+>                                     </PUSCH-TimeDomainResourceAllocation>
+>                                 </setup>
+>                             </pusch-TimeDomainAllocationList>
+>                             <transformPrecoder><disabled/></transformPrecoder>
+290c229
+<                                     <srs-ResourceSetId>0</srs-ResourceSetId>
+---
+>                                     <srs-ResourceSetId>1</srs-ResourceSetId>
+292c231
+<                                         <SRS-ResourceId>0</SRS-ResourceId>
+---
+>                                         <SRS-ResourceId>1</SRS-ResourceId>
+297d235
+<                                             <slotOffset>6</slotOffset>
+301,302d238
+<                                     <alpha><alpha1/></alpha>
+<                                     <p0>-80</p0>
+307c243
+<                                     <srs-ResourceId>0</srs-ResourceId>
+---
+>                                     <srs-ResourceId>1</srs-ResourceId>
+316c252
+<                                         <startPosition>1</startPosition>
+---
+>                                         <startPosition>0</startPosition>
+323c259
+<                                         <c-SRS>25</c-SRS>
+---
+>                                         <c-SRS>0</c-SRS>
+332,337c268
+<                                     <sequenceId>40</sequenceId>
+<                                     <spatialRelationInfo>
+<                                         <referenceSignal>
+<                                             <ssb-Index>0</ssb-Index>
+<                                         </referenceSignal>
+<                                     </spatialRelationInfo>
+---
+>                                     <sequenceId>0</sequenceId>
+343a275,282
+>                 <pusch-ServingCellConfig>
+>                     <setup>
+>                         <ext1>
+>                             <maxMIMO-Layers>1</maxMIMO-Layers>
+>                             <processingType2Enabled><false/></processingType2Enabled>
+>                         </ext1>
+>                     </setup>
+>                 </pusch-ServingCellConfig>
+348,350d286
+<                     <ext1>
+<                         <maxMIMO-Layers>2</maxMIMO-Layers>
+<                     </ext1>
+353,408d288
+<             <csi-MeasConfig>
+<                 <setup>
+<                     <csi-SSB-ResourceSetToAddModList>
+<                         <CSI-SSB-ResourceSet>
+<                             <csi-SSB-ResourceSetId>0</csi-SSB-ResourceSetId>
+<                             <csi-SSB-ResourceList>
+<                                 <SSB-Index>0</SSB-Index>
+<                             </csi-SSB-ResourceList>
+<                         </CSI-SSB-ResourceSet>
+<                     </csi-SSB-ResourceSetToAddModList>
+<                     <csi-ResourceConfigToAddModList>
+<                         <CSI-ResourceConfig>
+<                             <csi-ResourceConfigId>20</csi-ResourceConfigId>
+<                             <csi-RS-ResourceSetList>
+<                                 <nzp-CSI-RS-SSB>
+<                                     <csi-SSB-ResourceSetList>
+<                                         <CSI-SSB-ResourceSetId>0</CSI-SSB-ResourceSetId>
+<                                     </csi-SSB-ResourceSetList>
+<                                 </nzp-CSI-RS-SSB>
+<                             </csi-RS-ResourceSetList>
+<                             <bwp-Id>0</bwp-Id>
+<                             <resourceType><periodic/></resourceType>
+<                         </CSI-ResourceConfig>
+<                     </csi-ResourceConfigToAddModList>
+<                     <csi-ReportConfigToAddModList>
+<                         <CSI-ReportConfig>
+<                             <reportConfigId>10</reportConfigId>
+<                             <resourcesForChannelMeasurement>20</resourcesForChannelMeasurement>
+<                             <reportConfigType>
+<                                 <periodic>
+<                                     <reportSlotConfig>
+<                                         <slots160>8</slots160>
+<                                     </reportSlotConfig>
+<                                     <pucch-CSI-ResourceList>
+<                                         <PUCCH-CSI-Resource>
+<                                             <uplinkBandwidthPartId>0</uplinkBandwidthPartId>
+<                                             <pucch-Resource>2</pucch-Resource>
+<                                         </PUCCH-CSI-Resource>
+<                                     </pucch-CSI-ResourceList>
+<                                 </periodic>
+<                             </reportConfigType>
+<                             <reportQuantity>
+<                                 <ssb-Index-RSRP></ssb-Index-RSRP>
+<                             </reportQuantity>
+<                             <timeRestrictionForChannelMeasurements><configured/></timeRestrictionForChannelMeasurements>
+<                             <timeRestrictionForInterferenceMeasurements><configured/></timeRestrictionForInterferenceMeasurements>
+<                             <groupBasedBeamReporting>
+<                                 <disabled>
+<                                     <nrofReportedRS><n1/></nrofReportedRS>
+<                                 </disabled>
+<                             </groupBasedBeamReporting>
+<                             <subbandSize><value1/></subbandSize>
+<                         </CSI-ReportConfig>
+<                     </csi-ReportConfigToAddModList>
+<                 </setup>
+<             </csi-MeasConfig>
