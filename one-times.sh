@@ -1,0 +1,110 @@
+#!/bin/bash
+source ./VARIABLE.sh
+wait_sec=25
+
+Target_PATH=$PATH_TO_SCRIPT
+L2_PATH=$PATH_TO_O_DU_L2
+LOG_PATH="$Target_PATH/LOG"
+LOCKFILE="$Target_PATH/tmp-build_run.lock"
+sudo mkdir -p "$LOG_PATH"
+
+# LOG File name
+OSC_BUILD_LOG_FILE="$LOG_PATH/0-OSC_BUILD.log"
+OAI_CU_LOG_FILE="$LOG_PATH/1-OAI_CU.log"
+RIC_LOG_FILE="$LOG_PATH/2-RIC_STUB.log"
+ODU_LOG_FILE="$LOG_PATH/3-OSC_DU.log"
+PNF_LOG_FILE="$LOG_PATH/4-OAI_PNF.log"
+UE_LOG_FILE="$LOG_PATH/5-OAI_UE.log"
+TCP_LOG_FILE="$LOG_PATH/TCPdump.pcap"
+DU_TCP_LOG_FILE="$LOG_PATH/duTCPdump.pcap"
+CU_TCP_LOG_FILE="$LOG_PATH/cuTCPdump.pcap"
+## CU & CU stub
+CU_STUB_PATH="$L2_PATH/bin/cu_stub/cu_stub"
+OAI_CU_PATH="$PATH_TO_CU/cmake_targets/ran_build/build/nr-softmodem"
+# CU_CONF="$PATH_TO_CU/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_fdd_gnb.sa.band66.fr1.106PRB.usrpb210.conf"
+CU_CONF="$PATH_TO_CU/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf"
+
+# OSC root
+OSC_root_PATH="$L2_PATH/build/odu"
+# OAI root
+OAI_build_PATH="$PATH_TO_L1_UE/cmake_targets/ran_build/build"
+# RIC stub
+RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
+# OSC DU
+ODU_PATH="$L2_PATH/bin/odu/odu"
+# OAI gNB (OAI PNF)
+PNF_CONF="$Target_PATH/CONFIG/oaiL1.nfapi.usrpb210.conf"
+
+# FID
+PID_FILE="$PATH_TO_SCRIPT/PID_FILE_NAME"
+
+# Check if the lock file exists
+if [ -e $LOCKFILE ]; then
+    echo "Another user is currently building and running the code. Please wait."
+    exit 1
+else
+    cd $Target_PATH
+    bash "$Target_PATH/exit"
+    # Create the lock file
+    touch $LOCKFILE
+    touch $PID_FILE
+
+    sudo ifconfig lo:RIC_STUB down 2>/dev/null
+    sudo ifconfig lo:CU_STUB  down 2>/dev/null
+    sudo ifconfig lo:ODU  down 2>/dev/null
+    sudo ifconfig lo:OAI_CU down 2>/dev/null
+    sudo ifconfig lo:RIC_STUB "192.168.130.80" 2>/dev/null
+    sudo ifconfig lo:ODU  "192.168.130.81" 2>/dev/null
+    sudo ifconfig lo:OAI_CU "192.168.130.83" 2>/dev/null
+    
+    # TCPdump
+    sudo echo "Start TCPdump..."
+    # sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE &
+    sudo tcpdump -i any -nn -w $TCP_LOG_FILE &
+    sudo tcpdump -i lo:ODU -nn -w $DU_TCP_LOG_FILE &
+    sudo tcpdump -i lo:OAI_CU -nn -w $CU_TCP_LOG_FILE &
+
+    # clean & compile OSC DU
+    cd $OSC_root_PATH
+    make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+    make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+        echo -e "\r\n***** BUILD COMPLETE *****\n\r"
+    fi
+    # clean & build OAI all
+    cd $OAI_build_PATH
+    sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
+    echo -e  "\r"
+    cd ~
+
+    # echo "RUN OAI CU"
+    sudo stdbuf -oL $OAI_CU_PATH -O $CU_CONF --sa 2>&1 | ts &>$OAI_CU_LOG_FILE &
+    # echo "RUN OSC RIC_STUB"
+    sudo stdbuf -oL $RIC_STUB_PATH 2>&1 | ts &>$RIC_LOG_FILE &
+    sleep 1
+    RIC_PID=$(pgrep -o ric_stub)
+    # echo $RIC_PID
+    echo -n $RIC_PID >> $PID_FILE
+    echo -n " " >> $PID_FILE
+
+    # echo "RUN OSC DU"
+    sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
+    sleep 1
+    ODU_PID=$(pgrep -o odu)
+    # echo $ODU_PID
+    echo -n $ODU_PID >> $PID_FILE
+    echo -n " " >> $PID_FILE
+
+    # echo "RUN OAI PNF"
+    pnf_cmd="$OAI_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+    sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
+    sleep 1
+    # echo "RUN OAI UE"
+    ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
+    sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
+
+    echo -e "The script automatically closes after $wait_sec seconds...\n\r"
+    sleep $wait_sec
+    cd $Target_PATH
+    bash "$Target_PATH/exit"
+fi
