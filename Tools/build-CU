@@ -19,3 +19,6 @@ sudo echo "Build OAI CU"
 
 cd $PATH_TO_CU/cmake_targets/ran_build/build
 sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
+
+cd /home/hpe/NTUST-script
+screen -S nfapi /home/hpe/NTUST-script/0

@@ -62,7 +62,10 @@ else
 
     # clean & compile OSC DU
     cd $OSC_root_PATH
-    make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES
+    make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    if grep -q "***** ODU CLEAN COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+        echo -e "\r\n***** ODU CLEAN COMPLETE *****\n\r"
+    fi
     make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
     if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
         echo -e "\r\n***** BUILD COMPLETE *****\n\r"
