@@ -1,825 +1,130 @@
- 一  18 01:22:11 Calling sched_setscheduler(79)
- 一  18 01:22:11 CMDLINE: "/home/hpe/openairinterface5g/cmake_targets/ran_build/build/nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
- 一  18 01:22:11 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
- 一  18 01:22:11 [CONFIG] log_config: 2/3 parameters successfully set 
- 一  18 01:22:11 [CONFIG] log_config: 50/50 parameters successfully set 
- 一  18 01:22:11 [CONFIG] log_config: 50/50 parameters successfully set 
- 一  18 01:22:11 [CONFIG] log_config: 16/16 parameters successfully set 
- 一  18 01:22:11 [CONFIG] log_config: 16/16 parameters successfully set 
- 一  18 01:22:11 log init done
- 一  18 01:22:11 [CONFIG] (root): 28/31 parameters successfully set 
- 一  18 01:22:11 [CONFIG] (root): 39/42 parameters successfully set 
- 一  18 01:22:11 [CONFIG] (root): 5/6 parameters successfully set 
- 一  18 01:22:11 [ENB_APP]   nfapi (0) running mode: MONOLITHIC
- 一  18 01:22:11 [0m[CONFIG] TTracer: 3/3 parameters successfully set 
- 一  18 01:22:11 create a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 一  18 01:22:11 [0mcreate a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 一  18 01:22:11 [0mcreate a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 一  18 01:22:11 [0mcreate a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 一  18 01:22:11 [0mcreate a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 一  18 01:22:11 [0mcreate a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 一  18 01:22:11 [0mcreate a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 一  18 01:22:11 [0mcreate a thread for core -1
- 一  18 01:22:11 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 一  18 01:22:11 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 一  18 01:22:12 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 一  18 01:22:12 [0m[CONFIG] opt: 3/3 parameters successfully set 
- 一  18 01:22:12 [OPT]   OPT disabled
- 一  18 01:22:12 [0m[CONFIG] loader: 2/2 parameters successfully set 
- 一  18 01:22:12 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
- 一  18 01:22:12 shlib_path libldpc.so
- 一  18 01:22:12 [LOADER] library libldpc.so successfully loaded
- 一  18 01:22:12 [HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 0709550b76 Date: Sun Oct 13 19:23:06 2024 +0800
- 一  18 01:22:12 [0m[PDCP]   pdcp init,usegtp usenetlink
- 一  18 01:22:12 [0m[CONFIG] nas.noS1: 3/3 parameters successfully set 
- 一  18 01:22:12 [PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
- 一  18 01:22:12 [0m[PDCP]   UE pdcp will use tun interface
- 一  18 01:22:12 [0m[NR_MAC]   [UE0] Initializing MAC
- 一  18 01:22:12 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
- 一  18 01:22:12 [0m[RLC]   Activated srb0 for UE 0
- 一  18 01:22:12 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
- 一  18 01:22:12 , chest-freq 0, chest-time 0
- 一  18 01:22:12 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
- 一  18 01:22:12 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
- 一  18 01:22:12 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
- 一  18 01:22:12 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 一  18 01:22:12 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 一  18 01:22:12 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
- 一  18 01:22:12 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
- 一  18 01:22:12 [0m[CONFIG] loader.dfts: 1/2 parameters successfully set 
- 一  18 01:22:12 shlib_path libdfts.so
- 一  18 01:22:12 [LOADER] library libdfts.so successfully loaded
- 一  18 01:22:13 [PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
- 一  18 01:22:13 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:13 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 一  18 01:22:13 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
- 一  18 01:22:13 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
- 一  18 01:22:13 [1;31m[HW]   Can't set cpu frequency
- 一  18 01:22:13 [0m[PHY]   Intializing UE Threads for instance 0 (0x64be392bc770,0x771dce200010)...
- 一  18 01:22:13 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
- 一  18 01:22:13 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
- 一  18 01:22:13 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
- 一  18 01:22:13 [0m[CONFIG] device.recplay: 8/8 parameters successfully set 
- 一  18 01:22:13 [CONFIG] device: 1/1 parameters successfully set 
- 一  18 01:22:13 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
- 一  18 01:22:13 shlib_path librfsimulator.so
- 一  18 01:22:13 [LOADER] library librfsimulator.so successfully loaded
- 一  18 01:22:13 [CONFIG] rfsimulator: 8/9 parameters successfully set 
- 一  18 01:22:13 [93m[HW]   sample_rate 61440000.000000
- 一  18 01:22:13 [0m[HW]   Running as client: will connect to a rfsimulator server side
- 一  18 01:22:13 [0mInitializing random number generator, seed 18266609250498833035
- 一  18 01:22:13 [HW]   [RRU] has loaded RFSIMULATOR device.
- 一  18 01:22:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 一  18 01:22:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 一  18 01:22:13 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
- 一  18 01:22:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 一  18 01:22:13 [0mUE threads created by 2141258
- 一  18 01:22:13 TYPE <CTRL-C> TO TERMINATE
- 一  18 01:22:13 [NR_RRC]   create TASK_RRC_NRUE 
- 一  18 01:22:13 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
- 一  18 01:22:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 一  18 01:22:13 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
- 一  18 01:22:13 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 一  18 01:22:13 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 一  18 01:22:13 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
- 一  18 01:22:13 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
- 一  18 01:22:13 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
- 一  18 01:22:13 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
- 一  18 01:22:13 [0m[CONFIG] uicc0: 10/10 parameters successfully set 
- 一  18 01:22:13 [SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
- 一  18 01:22:14 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 一  18 01:22:14 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 一  18 01:22:15 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 一  18 01:22:15 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 一  18 01:22:15 [0mEntering ITTI signals handler
- 一  18 01:22:15 TYPE <CTRL-C> TO TERMINATE
- 一  18 01:22:16 [HW]   Trying to connect to 127.0.0.1:4043
- 一  18 01:22:16 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 一  18 01:22:17 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 一  18 01:22:17 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 一  18 01:22:18 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 一  18 01:22:18 [0m[HW]   Connection to 127.0.0.1:4043 established
- 一  18 01:22:18 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 一  18 01:22:19 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
- 一  18 01:22:19 [0m[93m[NR_PHY]   Starting sync detection
- 一  18 01:22:19 [0m[PHY]   [UE thread Synch] Running Initial Synch 
- 一  18 01:22:19 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 0, Peak found at pos 0, val = 0 (0 dB power over signal avg 0 dB), ffo 0.000000
- 一  18 01:22:19 [0m[PHY]   PSS execution duration 83862 microseconds 
- 一  18 01:22:19 [0m[PHY]   [UE] nr_synchro_time: Sync source (nid2) = 1, Peak found at pos 421456, val = 8722402065 (99 dB power over signal avg 58 dB), ffo 0.000000
- 一  18 01:22:19 [0m[PHY]   PSS execution duration 84533 microseconds 
- 一  18 01:22:19 [0m[93m[NR_PHY]   SSS detected, PCI: 1, ffo_pss 0.000000 (0 Hz), ffo_sss 0.000510 (15 Hz),  ffo_pss+ffo_sss 0.000510 (15 Hz), nid1: 0, nid2: 1
- 一  18 01:22:19 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
- 一  18 01:22:19 [0m[PHY]   [UE0] In synch, rx_offset 416896 samples
- 一  18 01:22:19 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 0 Hz
- 一  18 01:22:19 [0m[32m[PHY]   Initial sync successful
- 一  18 01:22:19 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 一  18 01:22:19 [0m[PHY]   Got synch: hw_slot_offset 27, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
- 一  18 01:22:19 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=32 UE->init_sync_frame=0 trashed_frames=12
- 一  18 01:22:19 [0m[PHY]   Resynchronizing RX by 416896 samples
- 一  18 01:22:19 [0m<BCCH-DL-SCH-Message>
- 一  18 01:22:19     <message>
- 一  18 01:22:19         <c1>
- 一  18 01:22:19             <systemInformationBlockType1>
- 一  18 01:22:19                 <cellSelectionInfo>
- 一  18 01:22:19                     <q-RxLevMin>-65</q-RxLevMin>
- 一  18 01:22:19                 </cellSelectionInfo>
- 一  18 01:22:19                 <cellAccessRelatedInfo>
- 一  18 01:22:19                     <plmn-IdentityInfoList>
- 一  18 01:22:19                         <PLMN-IdentityInfo>
- 一  18 01:22:19                             <plmn-IdentityList>
- 一  18 01:22:19                                 <PLMN-Identity>
- 一  18 01:22:19                                     <mcc>
- 一  18 01:22:19                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 一  18 01:22:19                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 一  18 01:22:19                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
- 一  18 01:22:19                                     </mcc>
- 一  18 01:22:19                                     <mnc>
- 一  18 01:22:19                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 一  18 01:22:19                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
- 一  18 01:22:19                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
- 一  18 01:22:19                                     </mnc>
- 一  18 01:22:19                                 </PLMN-Identity>
- 一  18 01:22:19                             </plmn-IdentityList>
- 一  18 01:22:19                             <trackingAreaCode>
- 一  18 01:22:19                                 000000000000000000000001
- 一  18 01:22:19                             </trackingAreaCode>
- 一  18 01:22:19                             <cellIdentity>
- 一  18 01:22:19                                 000000000000000000000000000000000001
- 一  18 01:22:19                             </cellIdentity>
- 一  18 01:22:19                             <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
- 一  18 01:22:19                         </PLMN-IdentityInfo>
- 一  18 01:22:19                     </plmn-IdentityInfoList>
- 一  18 01:22:19                 </cellAccessRelatedInfo>
- 一  18 01:22:19                 <servingCellConfigCommon>
- 一  18 01:22:19                     <downlinkConfigCommon>
- 一  18 01:22:19                         <frequencyInfoDL>
- 一  18 01:22:19                             <frequencyBandList>
- 一  18 01:22:19                                 <NR-MultiBandInfo>
- 一  18 01:22:19                                     <freqBandIndicatorNR>78</freqBandIndicatorNR>
- 一  18 01:22:19                                 </NR-MultiBandInfo>
- 一  18 01:22:19                             </frequencyBandList>
- 一  18 01:22:19                             <offsetToPointA>86</offsetToPointA>
- 一  18 01:22:19                             <scs-SpecificCarrierList>
- 一  18 01:22:19                                 <SCS-SpecificCarrier>
- 一  18 01:22:19                                     <offsetToCarrier>0</offsetToCarrier>
- 一  18 01:22:19                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  18 01:22:19                                     <carrierBandwidth>106</carrierBandwidth>
- 一  18 01:22:19                                 </SCS-SpecificCarrier>
- 一  18 01:22:19                             </scs-SpecificCarrierList>
- 一  18 01:22:19                         </frequencyInfoDL>
- 一  18 01:22:19                         <initialDownlinkBWP>
- 一  18 01:22:19                             <genericParameters>
- 一  18 01:22:19                                 <locationAndBandwidth>28875</locationAndBandwidth>
- 一  18 01:22:19                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  18 01:22:19                             </genericParameters>
- 一  18 01:22:19                             <pdcch-ConfigCommon>
- 一  18 01:22:19                                 <setup>
- 一  18 01:22:19                                     <controlResourceSetZero>12</controlResourceSetZero>
- 一  18 01:22:19                                     <searchSpaceZero>0</searchSpaceZero>
- 一  18 01:22:19                                     <commonSearchSpaceList>
- 一  18 01:22:19                                         <SearchSpace>
- 一  18 01:22:19                                             <searchSpaceId>1</searchSpaceId>
- 一  18 01:22:19                                             <controlResourceSetId>0</controlResourceSetId>
- 一  18 01:22:19                                             <monitoringSlotPeriodicityAndOffset>
- 一  18 01:22:19                                                 <sl1></sl1>
- 一  18 01:22:19                                             </monitoringSlotPeriodicityAndOffset>
- 一  18 01:22:19                                             <monitoringSymbolsWithinSlot>
- 一  18 01:22:19                                                 10000000000000
- 一  18 01:22:19                                             </monitoringSymbolsWithinSlot>
- 一  18 01:22:19                                             <nrofCandidates>
- 一  18 01:22:19                                                 <aggregationLevel1><n0/></aggregationLevel1>
- 一  18 01:22:19                                                 <aggregationLevel2><n0/></aggregationLevel2>
- 一  18 01:22:19                                                 <aggregationLevel4><n1/></aggregationLevel4>
- 一  18 01:22:19                                                 <aggregationLevel8><n0/></aggregationLevel8>
- 一  18 01:22:19                                                 <aggregationLevel16><n0/></aggregationLevel16>
- 一  18 01:22:19                                             </nrofCandidates>
- 一  18 01:22:19                                             <searchSpaceType>
- 一  18 01:22:19                                                 <common>
- 一  18 01:22:19                                                     <dci-Format0-0-AndFormat1-0>
- 一  18 01:22:19                                                     </dci-Format0-0-AndFormat1-0>
- 一  18 01:22:19                                                 </common>
- 一  18 01:22:19                                             </searchSpaceType>
- 一  18 01:22:19                                         </SearchSpace>
- 一  18 01:22:19                                     </commonSearchSpaceList>
- 一  18 01:22:19                                     <searchSpaceSIB1>0</searchSpaceSIB1>
- 一  18 01:22:19                                     <pagingSearchSpace>1</pagingSearchSpace>
- 一  18 01:22:19                                     <ra-SearchSpace>1</ra-SearchSpace>
- 一  18 01:22:19                                 </setup>
- 一  18 01:22:19                             </pdcch-ConfigCommon>
- 一  18 01:22:19                             <pdsch-ConfigCommon>
- 一  18 01:22:19                                 <setup>
- 一  18 01:22:19                                     <pdsch-TimeDomainAllocationList>
- 一  18 01:22:19                                         <PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                             <mappingType><typeA/></mappingType>
- 一  18 01:22:19                                             <startSymbolAndLength>40</startSymbolAndLength>
- 一  18 01:22:19                                         </PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                         <PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                             <mappingType><typeA/></mappingType>
- 一  18 01:22:19                                             <startSymbolAndLength>54</startSymbolAndLength>
- 一  18 01:22:19                                         </PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                         <PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                             <mappingType><typeA/></mappingType>
- 一  18 01:22:19                                             <startSymbolAndLength>57</startSymbolAndLength>
- 一  18 01:22:19                                         </PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                     </pdsch-TimeDomainAllocationList>
- 一  18 01:22:19                                 </setup>
- 一  18 01:22:19                             </pdsch-ConfigCommon>
- 一  18 01:22:19                         </initialDownlinkBWP>
- 一  18 01:22:19                         <bcch-Config>
- 一  18 01:22:19                             <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
- 一  18 01:22:19                         </bcch-Config>
- 一  18 01:22:19                         <pcch-Config>
- 一  18 01:22:19                             <defaultPagingCycle><rf256/></defaultPagingCycle>
- 一  18 01:22:19                             <nAndPagingFrameOffset>
- 一  18 01:22:19                                 <quarterT>1</quarterT>
- 一  18 01:22:19                             </nAndPagingFrameOffset>
- 一  18 01:22:19                             <ns><one/></ns>
- 一  18 01:22:19                             <firstPDCCH-MonitoringOccasionOfPO>
- 一  18 01:22:19                                 <sCS120KHZoneT-SCS60KHZhalfT-SCS30KHZquarterT-SCS15KHZoneEighthT>
- 一  18 01:22:19                                     <INTEGER>0</INTEGER>
- 一  18 01:22:19                                 </sCS120KHZoneT-SCS60KHZhalfT-SCS30KHZquarterT-SCS15KHZoneEighthT>
- 一  18 01:22:19                             </firstPDCCH-MonitoringOccasionOfPO>
- 一  18 01:22:19                         </pcch-Config>
- 一  18 01:22:19                     </downlinkConfigCommon>
- 一  18 01:22:19                     <uplinkConfigCommon>
- 一  18 01:22:19                         <frequencyInfoUL>
- 一  18 01:22:19                             <scs-SpecificCarrierList>
- 一  18 01:22:19                                 <SCS-SpecificCarrier>
- 一  18 01:22:19                                     <offsetToCarrier>0</offsetToCarrier>
- 一  18 01:22:19                                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  18 01:22:19                                     <carrierBandwidth>106</carrierBandwidth>
- 一  18 01:22:19                                 </SCS-SpecificCarrier>
- 一  18 01:22:19                             </scs-SpecificCarrierList>
- 一  18 01:22:19                             <p-Max>20</p-Max>
- 一  18 01:22:19                         </frequencyInfoUL>
- 一  18 01:22:19                         <initialUplinkBWP>
- 一  18 01:22:19                             <genericParameters>
- 一  18 01:22:19                                 <locationAndBandwidth>28875</locationAndBandwidth>
- 一  18 01:22:19                                 <subcarrierSpacing><kHz30/></subcarrierSpacing>
- 一  18 01:22:19                             </genericParameters>
- 一  18 01:22:19                             <rach-ConfigCommon>
- 一  18 01:22:19                                 <setup>
- 一  18 01:22:19                                     <rach-ConfigGeneric>
- 一  18 01:22:19                                         <prach-ConfigurationIndex>98</prach-ConfigurationIndex>
- 一  18 01:22:19                                         <msg1-FDM><one/></msg1-FDM>
- 一  18 01:22:19                                         <msg1-FrequencyStart>0</msg1-FrequencyStart>
- 一  18 01:22:19                                         <zeroCorrelationZoneConfig>13</zeroCorrelationZoneConfig>
- 一  18 01:22:19                                         <preambleReceivedTargetPower>-96</preambleReceivedTargetPower>
- 一  18 01:22:19                                         <preambleTransMax><n10/></preambleTransMax>
- 一  18 01:22:19                                         <powerRampingStep><dB2/></powerRampingStep>
- 一  18 01:22:19                                         <ra-ResponseWindow><sl20/></ra-ResponseWindow>
- 一  18 01:22:19                                     </rach-ConfigGeneric>
- 一  18 01:22:19                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
- 一  18 01:22:19                                         <one><n60/></one>
- 一  18 01:22:19                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
- 一  18 01:22:19                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
- 一  18 01:22:19                                     <rsrp-ThresholdSSB>19</rsrp-ThresholdSSB>
- 一  18 01:22:19                                     <prach-RootSequenceIndex>
- 一  18 01:22:19                                         <l139>1</l139>
- 一  18 01:22:19                                     </prach-RootSequenceIndex>
- 一  18 01:22:19                                     <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
- 一  18 01:22:19                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
- 一  18 01:22:19                                 </setup>
- 一  18 01:22:19                             </rach-ConfigCommon>
- 一  18 01:22:19                             <pusch-ConfigCommon>
- 一  18 01:22:19                                 <setup>
- 一  18 01:22:19                                     <pusch-TimeDomainAllocationList>
- 一  18 01:22:19                                         <PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                             <k2>4</k2>
- 一  18 01:22:19                                             <mappingType><typeB/></mappingType>
- 一  18 01:22:19                                             <startSymbolAndLength>41</startSymbolAndLength>
- 一  18 01:22:19                                         </PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                         <PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                             <k2>6</k2>
- 一  18 01:22:19                                             <mappingType><typeB/></mappingType>
- 一  18 01:22:19                                             <startSymbolAndLength>55</startSymbolAndLength>
- 一  18 01:22:19                                         </PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                         <PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                             <k2>6</k2>
- 一  18 01:22:19                                             <mappingType><typeB/></mappingType>
- 一  18 01:22:19                                             <startSymbolAndLength>41</startSymbolAndLength>
- 一  18 01:22:19                                         </PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                         <PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                             <k2>6</k2>
- 一  18 01:22:19                                             <mappingType><typeB/></mappingType>
- 一  18 01:22:19                                             <startSymbolAndLength>41</startSymbolAndLength>
- 一  18 01:22:19                                         </PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:19                                     </pusch-TimeDomainAllocationList>
- 一  18 01:22:19                                     <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
- 一  18 01:22:19                                     <p0-NominalWithGrant>-90</p0-NominalWithGrant>
- 一  18 01:22:19                                 </setup>
- 一  18 01:22:19                             </pusch-ConfigCommon>
- 一  18 01:22:19                             <pucch-ConfigCommon>
- 一  18 01:22:19                                 <setup>
- 一  18 01:22:19                                     <pucch-ResourceCommon>0</pucch-ResourceCommon>
- 一  18 01:22:19                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
- 一  18 01:22:19                                     <hoppingId>40</hoppingId>
- 一  18 01:22:19                                     <p0-nominal>-90</p0-nominal>
- 一  18 01:22:19                                 </setup>
- 一  18 01:22:19                             </pucch-ConfigCommon>
- 一  18 01:22:19                         </initialUplinkBWP>
- 一  18 01:22:19                         <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
- 一  18 01:22:19                     </uplinkConfigCommon>
- 一  18 01:22:19                     <ssb-PositionsInBurst>
- 一  18 01:22:19                         <inOneGroup>
- 一  18 01:22:19                             10000000
- 一  18 01:22:19                         </inOneGroup>
- 一  18 01:22:19                     </ssb-PositionsInBurst>
- 一  18 01:22:19                     <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
- 一  18 01:22:19                     <tdd-UL-DL-ConfigurationCommon>
- 一  18 01:22:19                         <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
- 一  18 01:22:19                         <pattern1>
- 一  18 01:22:19                             <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
- 一  18 01:22:19                             <nrofDownlinkSlots>7</nrofDownlinkSlots>
- 一  18 01:22:19                             <nrofDownlinkSymbols>6</nrofDownlinkSymbols>
- 一  18 01:22:19                             <nrofUplinkSlots>2</nrofUplinkSlots>
- 一  18 01:22:19                             <nrofUplinkSymbols>4</nrofUplinkSymbols>
- 一  18 01:22:19                         </pattern1>
- 一  18 01:22:19                     </tdd-UL-DL-ConfigurationCommon>
- 一  18 01:22:19                     <ss-PBCH-BlockPower>-25</ss-PBCH-BlockPower>
- 一  18 01:22:19                 </servingCellConfigCommon>
- 一  18 01:22:19                 <ue-TimersAndConstants>
- 一  18 01:22:19                     <t300><ms400/></t300>
- 一  18 01:22:19                     <t301><ms400/></t301>
- 一  18 01:22:19                     <t310><ms2000/></t310>
- 一  18 01:22:19                     <n310><n10/></n310>
- 一  18 01:22:19                     <t311><ms3000/></t311>
- 一  18 01:22:19                     <n311><n1/></n311>
- 一  18 01:22:19                     <t319><ms400/></t319>
- 一  18 01:22:19                 </ue-TimersAndConstants>
- 一  18 01:22:19             </systemInformationBlockType1>
- 一  18 01:22:19         </c1>
- 一  18 01:22:19     </message>
- 一  18 01:22:19 </BCCH-DL-SCH-Message>
- 一  18 01:22:19 [32m[NR_RRC]   SIB1 decoded
- 一  18 01:22:19 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
- 一  18 01:22:19 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 一  18 01:22:19 [0m[NR_PHY]   ============================================
- 一  18 01:22:19 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 一  18 01:22:19 [0m[NR_PHY]   ============================================
- 一  18 01:22:20 [0m[NR_PHY]   ============================================
- 一  18 01:22:20 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 一  18 01:22:20 [0m[NR_PHY]   ============================================
- 一  18 01:22:21 [0m[1;31m[PHY]   [UE 0] frame 160, nr_slot_rx 0, Error decoding PBCH!
- 一  18 01:22:21 [0m[1;31m[PHY]   [UE 0] frame 162, nr_slot_rx 0, Error decoding PBCH!
- 一  18 01:22:21 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
- 一  18 01:22:21 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 一  18 01:22:21 [0m[NR_MAC]   Initialization of 4-step contention-based random access procedure
- 一  18 01:22:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
- 一  18 01:22:21 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
- 一  18 01:22:21 [0m[1;31m[NR_MAC]   Trying to process acknack for an inactive harq process (0)
- 一  18 01:22:21 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
- 一  18 01:22:21 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
- 一  18 01:22:21 [0m[32m[NR_MAC]   [UE 0][RAPROC][184.12] Found RAR with the intended RAPID 13
- 一  18 01:22:21 [0m[93m[MAC]   received TA command 31
- 一  18 01:22:21 [0m[PHY]   RAR-Msg2 decoded
- 一  18 01:22:21 [0m[32m[NR_MAC]   [RAPROC][184.19] RA-Msg3 transmitted
- 一  18 01:22:21 [0m[MAC]   [UE 0]Frame 185 Contention resolution identity: 0x13eb996c5606 Terminating RA procedure
- 一  18 01:22:21 [0m[32m[MAC]   [UE 0][185.15][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
- 一  18 01:22:21 [0m[NR_MAC]   Updating SR
- 一  18 01:22:21 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
- 一  18 01:22:21 [0m<CellGroupConfig>
- 一  18 01:22:21     <cellGroupId>0</cellGroupId>
- 一  18 01:22:21     <rlc-BearerToAddModList>
- 一  18 01:22:21         <RLC-BearerConfig>
- 一  18 01:22:21             <logicalChannelIdentity>1</logicalChannelIdentity>
- 一  18 01:22:21             <servedRadioBearer>
- 一  18 01:22:21                 <srb-Identity>1</srb-Identity>
- 一  18 01:22:21             </servedRadioBearer>
- 一  18 01:22:21             <rlc-Config>
- 一  18 01:22:21                 <am>
- 一  18 01:22:21                     <ul-AM-RLC>
- 一  18 01:22:21                         <sn-FieldLength><size12/></sn-FieldLength>
- 一  18 01:22:21                         <t-PollRetransmit><ms45/></t-PollRetransmit>
- 一  18 01:22:21                         <pollPDU><p4/></pollPDU>
- 一  18 01:22:21                         <pollByte><infinity/></pollByte>
- 一  18 01:22:21                         <maxRetxThreshold><t8/></maxRetxThreshold>
- 一  18 01:22:21                     </ul-AM-RLC>
- 一  18 01:22:21                     <dl-AM-RLC>
- 一  18 01:22:21                         <sn-FieldLength><size12/></sn-FieldLength>
- 一  18 01:22:21                         <t-Reassembly><ms40/></t-Reassembly>
- 一  18 01:22:21                         <t-StatusProhibit><ms35/></t-StatusProhibit>
- 一  18 01:22:21                     </dl-AM-RLC>
- 一  18 01:22:21                 </am>
- 一  18 01:22:21             </rlc-Config>
- 一  18 01:22:21             <mac-LogicalChannelConfig>
- 一  18 01:22:21                 <ul-SpecificParameters>
- 一  18 01:22:21                     <priority>1</priority>
- 一  18 01:22:21                     <prioritisedBitRate><infinity/></prioritisedBitRate>
- 一  18 01:22:21                     <bucketSizeDuration><ms150/></bucketSizeDuration>
- 一  18 01:22:21                     <logicalChannelGroup>0</logicalChannelGroup>
- 一  18 01:22:21                     <schedulingRequestID>0</schedulingRequestID>
- 一  18 01:22:21                     <logicalChannelSR-Mask><false/></logicalChannelSR-Mask>
- 一  18 01:22:21                     <logicalChannelSR-DelayTimerApplied><false/></logicalChannelSR-DelayTimerApplied>
- 一  18 01:22:21                 </ul-SpecificParameters>
- 一  18 01:22:21             </mac-LogicalChannelConfig>
- 一  18 01:22:21         </RLC-BearerConfig>
- 一  18 01:22:21     </rlc-BearerToAddModList>
- 一  18 01:22:21     <mac-CellGroupConfig>
- 一  18 01:22:21         <schedulingRequestConfig>
- 一  18 01:22:21             <schedulingRequestToAddModList>
- 一  18 01:22:21                 <SchedulingRequestToAddMod>
- 一  18 01:22:21                     <schedulingRequestId>0</schedulingRequestId>
- 一  18 01:22:21                     <sr-ProhibitTimer><ms32/></sr-ProhibitTimer>
- 一  18 01:22:21                     <sr-TransMax><n16/></sr-TransMax>
- 一  18 01:22:21                 </SchedulingRequestToAddMod>
- 一  18 01:22:21             </schedulingRequestToAddModList>
- 一  18 01:22:21         </schedulingRequestConfig>
- 一  18 01:22:21         <bsr-Config>
- 一  18 01:22:21             <periodicBSR-Timer><sf10/></periodicBSR-Timer>
- 一  18 01:22:21             <retxBSR-Timer><sf320/></retxBSR-Timer>
- 一  18 01:22:21         </bsr-Config>
- 一  18 01:22:21         <tag-Config>
- 一  18 01:22:21             <tag-ToAddModList>
- 一  18 01:22:21                 <TAG>
- 一  18 01:22:21                     <tag-Id>0</tag-Id>
- 一  18 01:22:21                     <timeAlignmentTimer><infinity/></timeAlignmentTimer>
- 一  18 01:22:21                 </TAG>
- 一  18 01:22:21             </tag-ToAddModList>
- 一  18 01:22:21         </tag-Config>
- 一  18 01:22:21         <phr-Config>
- 一  18 01:22:21             <setup>
- 一  18 01:22:21                 <phr-PeriodicTimer><infinity/></phr-PeriodicTimer>
- 一  18 01:22:21                 <phr-ProhibitTimer><sf0/></phr-ProhibitTimer>
- 一  18 01:22:21                 <phr-Tx-PowerFactorChange><infinity/></phr-Tx-PowerFactorChange>
- 一  18 01:22:21                 <multiplePHR><false/></multiplePHR>
- 一  18 01:22:21                 <dummy><false/></dummy>
- 一  18 01:22:21                 <phr-Type2OtherCell><false/></phr-Type2OtherCell>
- 一  18 01:22:21                 <phr-ModeOtherCG><real/></phr-ModeOtherCG>
- 一  18 01:22:21             </setup>
- 一  18 01:22:21         </phr-Config>
- 一  18 01:22:21         <skipUplinkTxDynamic><false/></skipUplinkTxDynamic>
- 一  18 01:22:21     </mac-CellGroupConfig>
- 一  18 01:22:21     <physicalCellGroupConfig>
- 一  18 01:22:21         <p-NR-FR1>0</p-NR-FR1>
- 一  18 01:22:21         <pdsch-HARQ-ACK-Codebook><dynamic/></pdsch-HARQ-ACK-Codebook>
- 一  18 01:22:21     </physicalCellGroupConfig>
- 一  18 01:22:21     <spCellConfig>
- 一  18 01:22:21         <servCellIndex>0</servCellIndex>
- 一  18 01:22:21         <rlmInSyncOutOfSyncThreshold><n1/></rlmInSyncOutOfSyncThreshold>
- 一  18 01:22:21         <spCellConfigDedicated>
- 一  18 01:22:21             <initialDownlinkBWP>
- 一  18 01:22:21                 <pdcch-Config>
- 一  18 01:22:21                     <setup>
- 一  18 01:22:21                         <controlResourceSetToAddModList>
- 一  18 01:22:21                             <ControlResourceSet>
- 一  18 01:22:21                                 <controlResourceSetId>1</controlResourceSetId>
- 一  18 01:22:21                                 <frequencyDomainResources>
- 一  18 01:22:21                                     000000000111100000000000000000000000000000000
- 一  18 01:22:21                                 </frequencyDomainResources>
- 一  18 01:22:21                                 <duration>1</duration>
- 一  18 01:22:21                                 <cce-REG-MappingType>
- 一  18 01:22:21                                     <nonInterleaved></nonInterleaved>
- 一  18 01:22:21                                 </cce-REG-MappingType>
- 一  18 01:22:21                                 <precoderGranularity><allContiguousRBs/></precoderGranularity>
- 一  18 01:22:21                                 <pdcch-DMRS-ScramblingID>1</pdcch-DMRS-ScramblingID>
- 一  18 01:22:21                             </ControlResourceSet>
- 一  18 01:22:21                         </controlResourceSetToAddModList>
- 一  18 01:22:21                         <searchSpacesToAddModList>
- 一  18 01:22:21                             <SearchSpace>
- 一  18 01:22:21                                 <searchSpaceId>5</searchSpaceId>
- 一  18 01:22:21                                 <controlResourceSetId>1</controlResourceSetId>
- 一  18 01:22:21                                 <monitoringSlotPeriodicityAndOffset>
- 一  18 01:22:21                                     <sl1></sl1>
- 一  18 01:22:21                                 </monitoringSlotPeriodicityAndOffset>
- 一  18 01:22:21                                 <monitoringSymbolsWithinSlot>
- 一  18 01:22:21                                     10000000000000
- 一  18 01:22:21                                 </monitoringSymbolsWithinSlot>
- 一  18 01:22:21                                 <nrofCandidates>
- 一  18 01:22:21                                     <aggregationLevel1><n0/></aggregationLevel1>
- 一  18 01:22:21                                     <aggregationLevel2><n2/></aggregationLevel2>
- 一  18 01:22:21                                     <aggregationLevel4><n0/></aggregationLevel4>
- 一  18 01:22:21                                     <aggregationLevel8><n0/></aggregationLevel8>
- 一  18 01:22:21                                     <aggregationLevel16><n0/></aggregationLevel16>
- 一  18 01:22:21                                 </nrofCandidates>
- 一  18 01:22:21                                 <searchSpaceType>
- 一  18 01:22:21                                     <ue-Specific>
- 一  18 01:22:21                                         <dci-Formats><formats0-1-And-1-1/></dci-Formats>
- 一  18 01:22:21                                     </ue-Specific>
- 一  18 01:22:21                                 </searchSpaceType>
- 一  18 01:22:21                             </SearchSpace>
- 一  18 01:22:21                         </searchSpacesToAddModList>
- 一  18 01:22:21                     </setup>
- 一  18 01:22:21                 </pdcch-Config>
- 一  18 01:22:21                 <pdsch-Config>
- 一  18 01:22:21                     <setup>
- 一  18 01:22:21                         <dmrs-DownlinkForPDSCH-MappingTypeA>
- 一  18 01:22:21                             <setup>
- 一  18 01:22:21                                 <dmrs-AdditionalPosition><pos0/></dmrs-AdditionalPosition>
- 一  18 01:22:21                             </setup>
- 一  18 01:22:21                         </dmrs-DownlinkForPDSCH-MappingTypeA>
- 一  18 01:22:21                         <resourceAllocation><resourceAllocationType1/></resourceAllocation>
- 一  18 01:22:21                         <pdsch-TimeDomainAllocationList>
- 一  18 01:22:21                             <setup>
- 一  18 01:22:21                                 <PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                                     <k0>0</k0>
- 一  18 01:22:21                                     <mappingType><typeA/></mappingType>
- 一  18 01:22:21                                     <startSymbolAndLength>40</startSymbolAndLength>
- 一  18 01:22:21                                 </PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                                 <PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                                     <k0>1</k0>
- 一  18 01:22:21                                     <mappingType><typeA/></mappingType>
- 一  18 01:22:21                                     <startSymbolAndLength>40</startSymbolAndLength>
- 一  18 01:22:21                                 </PDSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                             </setup>
- 一  18 01:22:21                         </pdsch-TimeDomainAllocationList>
- 一  18 01:22:21                         <rbg-Size><config1/></rbg-Size>
- 一  18 01:22:21                         <maxNrofCodeWordsScheduledByDCI><n1/></maxNrofCodeWordsScheduledByDCI>
- 一  18 01:22:21                         <prb-BundlingType>
- 一  18 01:22:21                             <staticBundling>
- 一  18 01:22:21                             </staticBundling>
- 一  18 01:22:21                         </prb-BundlingType>
- 一  18 01:22:21                     </setup>
- 一  18 01:22:21                 </pdsch-Config>
- 一  18 01:22:21             </initialDownlinkBWP>
- 一  18 01:22:21             <firstActiveDownlinkBWP-Id>0</firstActiveDownlinkBWP-Id>
- 一  18 01:22:21             <defaultDownlinkBWP-Id>0</defaultDownlinkBWP-Id>
- 一  18 01:22:21             <uplinkConfig>
- 一  18 01:22:21                 <initialUplinkBWP>
- 一  18 01:22:21                     <pucch-Config>
- 一  18 01:22:21                         <setup>
- 一  18 01:22:21                             <resourceSetToAddModList>
- 一  18 01:22:21                                 <PUCCH-ResourceSet>
- 一  18 01:22:21                                     <pucch-ResourceSetId>1</pucch-ResourceSetId>
- 一  18 01:22:21                                     <resourceList>
- 一  18 01:22:21                                         <PUCCH-ResourceId>1</PUCCH-ResourceId>
- 一  18 01:22:21                                     </resourceList>
- 一  18 01:22:21                                 </PUCCH-ResourceSet>
- 一  18 01:22:21                             </resourceSetToAddModList>
- 一  18 01:22:21                             <resourceToAddModList>
- 一  18 01:22:21                                 <PUCCH-Resource>
- 一  18 01:22:21                                     <pucch-ResourceId>1</pucch-ResourceId>
- 一  18 01:22:21                                     <startingPRB>0</startingPRB>
- 一  18 01:22:21                                     <format>
- 一  18 01:22:21                                         <format1>
- 一  18 01:22:21                                             <initialCyclicShift>0</initialCyclicShift>
- 一  18 01:22:21                                             <nrofSymbols>4</nrofSymbols>
- 一  18 01:22:21                                             <startingSymbolIndex>0</startingSymbolIndex>
- 一  18 01:22:21                                             <timeDomainOCC>0</timeDomainOCC>
- 一  18 01:22:21                                         </format1>
- 一  18 01:22:21                                     </format>
- 一  18 01:22:21                                 </PUCCH-Resource>
- 一  18 01:22:21                             </resourceToAddModList>
- 一  18 01:22:21                             <format1>
- 一  18 01:22:21                                 <setup>
- 一  18 01:22:21                                     <nrofSlots><n4/></nrofSlots>
- 一  18 01:22:21                                 </setup>
- 一  18 01:22:21                             </format1>
- 一  18 01:22:21                             <dl-DataToUL-ACK>
- 一  18 01:22:21                                 <INTEGER>1</INTEGER>
- 一  18 01:22:21                                 <INTEGER>2</INTEGER>
- 一  18 01:22:21                             </dl-DataToUL-ACK>
- 一  18 01:22:21                         </setup>
- 一  18 01:22:21                     </pucch-Config>
- 一  18 01:22:21                     <pusch-Config>
- 一  18 01:22:21                         <setup>
- 一  18 01:22:21                             <dataScramblingIdentityPUSCH>1</dataScramblingIdentityPUSCH>
- 一  18 01:22:21                             <dmrs-UplinkForPUSCH-MappingTypeA>
- 一  18 01:22:21                                 <setup>
- 一  18 01:22:21                                     <dmrs-AdditionalPosition><pos0/></dmrs-AdditionalPosition>
- 一  18 01:22:21                                     <transformPrecodingDisabled>
- 一  18 01:22:21                                         <scramblingID0>1</scramblingID0>
- 一  18 01:22:21                                     </transformPrecodingDisabled>
- 一  18 01:22:21                                 </setup>
- 一  18 01:22:21                             </dmrs-UplinkForPUSCH-MappingTypeA>
- 一  18 01:22:21                             <resourceAllocation><resourceAllocationType1/></resourceAllocation>
- 一  18 01:22:21                             <pusch-TimeDomainAllocationList>
- 一  18 01:22:21                                 <setup>
- 一  18 01:22:21                                     <PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                                         <k2>4</k2>
- 一  18 01:22:21                                         <mappingType><typeA/></mappingType>
- 一  18 01:22:21                                         <startSymbolAndLength>41</startSymbolAndLength>
- 一  18 01:22:21                                     </PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                                     <PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                                         <k2>6</k2>
- 一  18 01:22:21                                         <mappingType><typeA/></mappingType>
- 一  18 01:22:21                                         <startSymbolAndLength>41</startSymbolAndLength>
- 一  18 01:22:21                                     </PUSCH-TimeDomainResourceAllocation>
- 一  18 01:22:21                                 </setup>
- 一  18 01:22:21                             </pusch-TimeDomainAllocationList>
- 一  18 01:22:21                             <transformPrecoder><disabled/></transformPrecoder>
- 一  18 01:22:21                         </setup>
- 一  18 01:22:21                     </pusch-Config>
- 一  18 01:22:21                     <srs-Config>
- 一  18 01:22:21                         <setup>
- 一  18 01:22:21                             <srs-ResourceSetToAddModList>
- 一  18 01:22:21                                 <SRS-ResourceSet>
- 一  18 01:22:21                                     <srs-ResourceSetId>1</srs-ResourceSetId>
- 一  18 01:22:21                                     <srs-ResourceIdList>
- 一  18 01:22:21                                         <SRS-ResourceId>1</SRS-ResourceId>
- 一  18 01:22:21                                     </srs-ResourceIdList>
- 一  18 01:22:21                                     <resourceType>
- 一  18 01:22:21                                         <aperiodic>
- 一  18 01:22:21                                             <aperiodicSRS-ResourceTrigger>1</aperiodicSRS-ResourceTrigger>
- 一  18 01:22:21                                         </aperiodic>
- 一  18 01:22:21                                     </resourceType>
- 一  18 01:22:21                                     <usage><codebook/></usage>
- 一  18 01:22:21                                 </SRS-ResourceSet>
- 一  18 01:22:21                             </srs-ResourceSetToAddModList>
- 一  18 01:22:21                             <srs-ResourceToAddModList>
- 一  18 01:22:21                                 <SRS-Resource>
- 一  18 01:22:21                                     <srs-ResourceId>1</srs-ResourceId>
- 一  18 01:22:21                                     <nrofSRS-Ports><port1/></nrofSRS-Ports>
- 一  18 01:22:21                                     <transmissionComb>
- 一  18 01:22:21                                         <n2>
- 一  18 01:22:21                                             <combOffset-n2>0</combOffset-n2>
- 一  18 01:22:21                                             <cyclicShift-n2>0</cyclicShift-n2>
- 一  18 01:22:21                                         </n2>
- 一  18 01:22:21                                     </transmissionComb>
- 一  18 01:22:21                                     <resourceMapping>
- 一  18 01:22:21                                         <startPosition>0</startPosition>
- 一  18 01:22:21                                         <nrofSymbols><n1/></nrofSymbols>
- 一  18 01:22:21                                         <repetitionFactor><n1/></repetitionFactor>
- 一  18 01:22:21                                     </resourceMapping>
- 一  18 01:22:21                                     <freqDomainPosition>0</freqDomainPosition>
- 一  18 01:22:21                                     <freqDomainShift>0</freqDomainShift>
- 一  18 01:22:21                                     <freqHopping>
- 一  18 01:22:21                                         <c-SRS>0</c-SRS>
- 一  18 01:22:21                                         <b-SRS>0</b-SRS>
- 一  18 01:22:21                                         <b-hop>0</b-hop>
- 一  18 01:22:21                                     </freqHopping>
- 一  18 01:22:21                                     <groupOrSequenceHopping><neither/></groupOrSequenceHopping>
- 一  18 01:22:21                                     <resourceType>
- 一  18 01:22:21                                         <aperiodic>
- 一  18 01:22:21                                         </aperiodic>
- 一  18 01:22:21                                     </resourceType>
- 一  18 01:22:21                                     <sequenceId>0</sequenceId>
- 一  18 01:22:21                                 </SRS-Resource>
- 一  18 01:22:21                             </srs-ResourceToAddModList>
- 一  18 01:22:21                         </setup>
- 一  18 01:22:21                     </srs-Config>
- 一  18 01:22:21                 </initialUplinkBWP>
- 一  18 01:22:21                 <firstActiveUplinkBWP-Id>0</firstActiveUplinkBWP-Id>
- 一  18 01:22:21                 <pusch-ServingCellConfig>
- 一  18 01:22:21                     <setup>
- 一  18 01:22:21                         <ext1>
- 一  18 01:22:21                             <maxMIMO-Layers>1</maxMIMO-Layers>
- 一  18 01:22:21                             <processingType2Enabled><false/></processingType2Enabled>
- 一  18 01:22:21                         </ext1>
- 一  18 01:22:21                     </setup>
- 一  18 01:22:21                 </pusch-ServingCellConfig>
- 一  18 01:22:21             </uplinkConfig>
- 一  18 01:22:21             <pdsch-ServingCellConfig>
- 一  18 01:22:21                 <setup>
- 一  18 01:22:21                     <nrofHARQ-ProcessesForPDSCH><n16/></nrofHARQ-ProcessesForPDSCH>
- 一  18 01:22:21                 </setup>
- 一  18 01:22:21             </pdsch-ServingCellConfig>
- 一  18 01:22:21             <tag-Id>0</tag-Id>
- 一  18 01:22:21         </spCellConfigDedicated>
- 一  18 01:22:21     </spCellConfig>
- 一  18 01:22:21 </CellGroupConfig>
- 一  18 01:22:21 [RLC]   Added srb 1 to UE 0
- 一  18 01:22:21 [0m[MAC]   Applying CellGroupConfig from gNodeB
- 一  18 01:22:21 [0m[NR_RRC]   State = NR_RRC_CONNECTED
- 一  18 01:22:21 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
- 一  18 01:22:21 [0m[NR_RRC]   [RRC_UE 0] PDCP_DATA_REQ/33 Bytes RRCSetupComplete ---> 1
- 一  18 01:22:21 [0m[PDCP]   nr_pdcp_data_req_srb() called, size 33
- 一  18 01:22:21 [0m[NR_MAC]   Updating SR
- 一  18 01:22:21 [0m[NR_MAC]   SR ID 0
- 一  18 01:22:21 [0m[NR_MAC]   Checking PUCCH resources for SR ID 0
- 一  18 01:22:21 [0m
+ 二  25 16:37:47 CMDLINE: "/home/hpe/OnlyOAI/openairinterface5g/cmake_targets/ran_build/build/nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--uicc0.imsi" "001010000000001" "--rfsim" 
+ 二  25 16:37:47 [UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool2_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool3_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool4_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool5_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool6_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:47 [0m[UTIL]   threadCreate() for Tpool7_-1: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[OPT]   OPT disabled
+ 二  25 16:37:48 [0m[HW]   Version: Branch: HEAD Abrev. Hash: 6d9c2c35b8 Date: Tue Feb 18 11:37:07 2025 +0000
+ 二  25 16:37:48 [0m[UTIL]   Opened socket oaitun_ue1 with fd nas_sock_fd[0]=93
+ 二  25 16:37:48 [0m[PDCP]   UE pdcp will use tun interface
+ 二  25 16:37:48 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+ 二  25 16:37:48 [0m[NR_MAC]   [UE0] Initializing MAC
+ 二  25 16:37:48 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+ 二  25 16:37:48 [0m[RLC]   Activated srb0 for UE 0
+ 二  25 16:37:48 [0m[93m[RLC]   SRB0 already exists for UE 0, do nothing
+ 二  25 16:37:48 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+ 二  25 16:37:48 , chest-freq 0, chest-time 0
+ 二  25 16:37:48 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+ 二  25 16:37:48 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+ 二  25 16:37:48 [0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 二  25 16:37:48 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for SYNC__actor: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for UL__actor: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+ 二  25 16:37:48 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+ 二  25 16:37:48 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (UL Freq 3619200000, N_RB 106, mu 1)
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 二  25 16:37:48 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 二  25 16:37:48 [0m[PHY]   Intializing UE Threads for instance 0 ...
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
+ 二  25 16:37:48 [0mUE threads created by 90457
+ 二  25 16:37:48 TYPE <CTRL-C> TO TERMINATE
+ 二  25 16:37:48 [NR_RRC]   create TASK_RRC_NRUE 
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
+ 二  25 16:37:48 [0m[HW]   Running as client: will connect to a rfsimulator server side
+ 二  25 16:37:48 [0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
+ 二  25 16:37:48 [0mInitializing random number generator, seed 10223266630049273003
+ 二  25 16:37:48 [HW]   [RRU] has loaded RFSIMULATOR device.
+ 二  25 16:37:48 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 二  25 16:37:48 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 二  25 16:37:49 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 二  25 16:37:49 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 二  25 16:37:50 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 二  25 16:37:50 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 二  25 16:37:50 [0mEntering ITTI signals handler
+ 二  25 16:37:50 TYPE <CTRL-C> TO TERMINATE
+ 二  25 16:37:51 [HW]   Trying to connect to 127.0.0.1:4043
+ 二  25 16:37:51 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 二  25 16:37:52 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 二  25 16:37:52 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 二  25 16:37:53 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 二  25 16:37:53 [0m[HW]   Connection to 127.0.0.1:4043 established
+ 二  25 16:37:55 [0m[93m[PHY]   SSB position provided
+ 二  25 16:37:55 [0m[93m[NR_PHY]   Starting sync detection
+ 二  25 16:37:55 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+ 二  25 16:37:55 [0m[NR_PHY]   Starting cell search with center freq: 3619200000, bandwidth: 106. Scanning for 1 number of GSCN.
+ 二  25 16:37:55 [0m[NR_PHY]   Scanning GSCN: 0, with SSB offset: 516, SSB Freq: 0.000000
+ 二  25 16:37:55 [0m[PHY]   Initial sync: pbch decoded sucessfully, ssb index 0
+ 二  25 16:37:55 [0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
+ 二  25 16:37:55 [0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 99 dB, PSS Corr Average: 61
+ 二  25 16:37:55 [0m[PHY]   [UE0] In synch, rx_offset 460800 samples
+ 二  25 16:37:55 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 6 Hz
+ 二  25 16:37:55 [0m[32m[PHY]   Initial sync successful, PCI: 1
+ 二  25 16:37:55 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200006 Hz, rx_freq 3619200006 Hz, tune_offset 0
+ 二  25 16:37:55 [0m[PHY]   Got synch: hw_slot_offset 30, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
+ 二  25 16:37:55 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=0 trashed_frames=22
+ 二  25 16:37:55 [0m[PHY]   Resynchronizing RX by 460800 samples
+ 二  25 16:37:55 [0m[HW]   received write reorder clear context
+ 二  25 16:37:55 [0m[32m[NR_RRC]   SIB1 decoded
+ 二  25 16:37:55 [0m[NR_MAC]   TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
+ 二  25 16:37:55 [0m[NR_MAC]   Set TDD configuration period to: 8 DL slots, 3 UL slots, 10 slots per period (NR_TDD_UL_DL_Pattern is 7 DL slots, 2 UL slots, 6 DL symbols, 4 UL symbols)
+ 二  25 16:37:55 [0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
+ 二  25 16:37:57 [0m[MAC]   Initialization of 4-Step CBRA procedure
+ 二  25 16:37:57 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
+ 二  25 16:37:57 [0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0, preambleIndex = 28
+ 二  25 16:37:57 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
+ 二  25 16:37:57 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
+ 二  25 16:37:57 [0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 28
+ 二  25 16:37:57 [0m[93m[MAC]   received TA command 31
+ 二  25 16:37:57 [0m[PHY]   RAR-Msg2 decoded
+ 二  25 16:37:57 [0m[32m[NR_MAC]   [RAPROC][280.19] RA-Msg3 transmitted
+ 二  25 16:37:57 [0m[MAC]   [UE 0]Frame 281 Contention resolution identity: 0x13d2387d59c6 Terminating RA procedure
+ 二  25 16:37:57 [0m[32m[MAC]   [UE 0][281.15][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
+ 二  25 16:37:57 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+ 二  25 16:37:57 [0m[RLC]   Added srb 1 to UE 0
+ 二  25 16:37:57 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+ 二  25 16:37:57 [0m[NAS]   Generate Initial NAS Message: Registration Request
+ 二  25 16:37:57 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
+ 二  25 16:37:57 [0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
+ 二  25 16:37:58 [0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+ 二  25 16:37:58     DL harq: 1/0
+ 二  25 16:37:58     Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+ 二  25 16:38:00 [0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+ 二  25 16:38:00     DL harq: 1/0
+ 二  25 16:38:00     Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+ 二  25 16:38:02 [0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+ 二  25 16:38:02     DL harq: 1/0
+ 二  25 16:38:02     Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+ 二  25 16:38:02 [0m

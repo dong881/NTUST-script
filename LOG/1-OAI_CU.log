@@ -1,305 +1,140 @@
- 一  18 01:22:08 CMDLINE: "/home/hpe/oaicu_develope/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/oaicu_develope/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf" "--sa" 
- 一  18 01:22:08 [LIBCONFIG] Path for include directive set to: /home/hpe/oaicu_develope/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF
- 一  18 01:22:08 [CONFIG] function config_libconfig_init returned 0
- 一  18 01:22:08 [CONFIG] config module libconfig loaded
- 一  18 01:22:08 [CONFIG] debug flags: 0x00000000
- 一  18 01:22:08 log init done
- 一  18 01:22:08 Reading in command-line options
- 一  18 01:22:08 [ENB_APP]   nfapi (0) running mode: MONOLITHIC
- 一  18 01:22:08 [0m[GNB_APP]   Getting GNBSParams
- 一  18 01:22:08 [0m[CONFIG] parallel_conf is set to 2
- 一  18 01:22:08 [CONFIG] worker_conf is set to 1
- 一  18 01:22:08 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
- 一  18 01:22:08 configuring for RAU/RRU
- 一  18 01:22:09 [OPT]   OPT disabled
- 一  18 01:22:09 [0m[HW]   Version: Branch: HEAD Abrev. Hash: bd721c3bdb Date: Tue Jul 30 16:24:27 2024 +0000
- 一  18 01:22:09 [0m[PHY]   create_gNB_tasks() Task ready initialize structures
- 一  18 01:22:09 [0m[NR_PHY]   RC.gNB = 0x5e44170864d0
- 一  18 01:22:09 [0m[PHY]   No prs_config configuration found..!!
- 一  18 01:22:09 [0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
- 一  18 01:22:09 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
- 一  18 01:22:09 [0mNRRRC 0: Southbound Transport f1
- 一  18 01:22:09 [GNB_APP]   F1AP: gNB_CU_id[0] 3584
- 一  18 01:22:09 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
- 一  18 01:22:09 [0m[GNB_APP]   SDAP layer is disabled
- 一  18 01:22:09 [0m[GNB_APP]   Data Radio Bearer count 1
- 一  18 01:22:09 [0m[NR_RRC]   do_SIB23_NR, size 9 
- 一  18 01:22:09  [0m[PDCP]   pdcp init,usegtp 
- 一  18 01:22:09 [0m[GNB_APP]   default drx 0
- 一  18 01:22:09 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
- 一  18 01:22:09 [0m[UTIL]   threadCreate() for TASK_SCTP: creating thread with affinity ffffffff, priority 50
- 一  18 01:22:09 [0m[ITTI]   Created Posix thread TASK_SCTP
- 一  18 01:22:09 [0m[X2AP]   X2AP is disabled.
- 一  18 01:22:09 [0m[UTIL]   threadCreate() for TASK_NGAP: creating thread with affinity ffffffff, priority 50
- 一  18 01:22:09 [0m[ITTI]   Created Posix thread TASK_NGAP
- 一  18 01:22:09 [0m[UTIL]   threadCreate() for TASK_GNB_APP: creating thread with affinity ffffffff, priority 50
- 一  18 01:22:09 [0m[34m[NGAP]   Starting NGAP layer
- 一  18 01:22:09 [0m[ITTI]   Created Posix thread TASK_GNB_APP
- 一  18 01:22:09 [0m[UTIL]   threadCreate() for TASK_RRC_GNB: creating thread with affinity ffffffff, priority 50
- 一  18 01:22:09 [0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
- 一  18 01:22:09 [0m[NGAP]   [gNB 0] check the amf registration state
- 一  18 01:22:09 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
- 一  18 01:22:09 [0m[GTPU]   Configuring GTPu
- 一  18 01:22:09 [0m[GTPU]   SA mode 
- 一  18 01:22:09 [0m[UTIL]   threadCreate() for TASK_CU_F1: creating thread with affinity ffffffff, priority 50
- 一  18 01:22:09 [0m[GTPU]   Configuring GTPu address : 192.168.18.207, port : 2152
- 一  18 01:22:09 [0m[GTPU]   Initializing UDP for local address 192.168.18.207 with port 2152
- 一  18 01:22:09 [0m[93m[GTPU]   bind: Cannot assign requested address
- 一  18 01:22:09 [0m[1;31m[GTPU]   failed to bind socket: 192.168.18.207 2152 
- 一  18 01:22:09 [0m[1;31m[GTPU]   can't create GTP-U instance
- 一  18 01:22:09 [0m[93m[SCTP]   sctp_bindx() SCTP_BINDX_ADD_ADDR failed: errno 99 Cannot assign requested address
- 一  18 01:22:09 [0m[GTPU]   Created gtpu instance id: -1
- 一  18 01:22:09 [0m[1;31m[E1AP]   Failed to create CUUP N3 UDP listener[0m[1;31m[SCTP]   could not open socket, no SCTP connection established
- 一  18 01:22:09 [0m[F1AP]   Starting F1AP at CU
- 一  18 01:22:09 [0m[ITTI]   Created Posix thread TASK_CU_F1
- 一  18 01:22:09 [0m[NR_RRC]   Entering main loop of NR_RRC message task
- 一  18 01:22:09 [0m[UTIL]   threadCreate() for TASK_GTPV1_U: creating thread with affinity ffffffff, priority 50
- 一  18 01:22:09 [0m[NR_RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-CU (assoc_id -1)
- 一  18 01:22:09 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket) for 192.168.130.83 len 15
- 一  18 01:22:09 [0m[GTPU]   Initializing UDP for local address 192.168.130.83 with port 2152
- 一  18 01:22:09 [0m[GTPU]   Created gtpu instance id: 97
- 一  18 01:22:09 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
- 一  18 01:22:09 [0mSTART MAIN THREADS
- 一  18 01:22:09 RC.nb_nr_L1_inst:0
- 一  18 01:22:09 wait_gNBs()
- 一  18 01:22:09 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
- 一  18 01:22:09 gNB L1 are configured
- 一  18 01:22:09 About to Init RU threads RC.nb_RU:0
- 一  18 01:22:09 Entering ITTI signals handler
- 一  18 01:22:09 TYPE <CTRL-C> TO TERMINATE
- 一  18 01:22:10 [34m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_IND for instance 0: sending SCTP message via assoc_id 0
- 一  18 01:22:10 [0m[34m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0: sending SCTP message via assoc_id 0
- 一  18 01:22:10 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
- 一  18 01:22:10 [0m[34m[F1AP]   CU Task Received SCTP_DATA_IND for instance 0: sending SCTP message via assoc_id 0
- 一  18 01:22:10 [0m[34m[F1AP]   Calling handler with instance 0
- 一  18 01:22:10 [0m[34m[F1AP]   CU_handle_F1_SETUP_REQUEST
- 一  18 01:22:10 [0m[34m[F1AP]   req->transaction_id 1 
- 一  18 01:22:10 [0m[34m[F1AP]   req->gNB_DU_id 1 
- 一  18 01:22:10 [0m[34m[F1AP]   req->gNB_DU_name ORAN OAM DU 
- 一  18 01:22:10 [0m[34m[F1AP]   req->num_cells_available 1 
- 一  18 01:22:10 [0m[34m[F1AP]   req->tac[0] 1 
- 一  18 01:22:10 [0m[34m[F1AP]   [SCTP 229] Received nRCGI: MCC 1, MNC 1, CELL_ID 1
- 一  18 01:22:10 [0m[34m[F1AP]   req->nr_pci[0] 1 
- 一  18 01:22:10 [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 1 (ORAN OAM DU) on assoc_id 229
- 一  18 01:22:10 [0m[RRC]   Accepting DU 1 (ORAN OAM DU), sending F1 Setup Response
- 一  18 01:22:10 [0m[RRC]   DU uses RRC version 15.5.0
- 一  18 01:22:10 [0m[34m[F1AP]   CU Task Received F1AP_SETUP_RESP for instance 0: sending SCTP message via assoc_id 229
- 一  18 01:22:10 [0m[34m[F1AP]   num_cells_to_activate = 1 
- 一  18 01:22:10 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
- 一  18 01:22:10 [0m<F1AP-PDU>
- 一  18 01:22:10     <successfulOutcome>
- 一  18 01:22:10         <procedureCode>1</procedureCode>
- 一  18 01:22:10         <criticality><reject/></criticality>
- 一  18 01:22:10         <value>
- 一  18 01:22:10             <F1SetupResponse>
- 一  18 01:22:10                 <protocolIEs>
- 一  18 01:22:10                     <F1SetupResponseIEs>
- 一  18 01:22:10                         <id>78</id>
- 一  18 01:22:10                         <criticality><reject/></criticality>
- 一  18 01:22:10                         <value>
- 一  18 01:22:10                             <TransactionID>1</TransactionID>
- 一  18 01:22:10                         </value>
- 一  18 01:22:10                     </F1SetupResponseIEs>
- 一  18 01:22:10                     <F1SetupResponseIEs>
- 一  18 01:22:10                         <id>82</id>
- 一  18 01:22:10                         <criticality><ignore/></criticality>
- 一  18 01:22:10                         <value>
- 一  18 01:22:10                             <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
- 一  18 01:22:10                         </value>
- 一  18 01:22:10                     </F1SetupResponseIEs>
- 一  18 01:22:10                     <F1SetupResponseIEs>
- 一  18 01:22:10                         <id>3</id>
- 一  18 01:22:10                         <criticality><reject/></criticality>
- 一  18 01:22:10                         <value>
- 一  18 01:22:10                             <Cells-to-be-Activated-List>
- 一  18 01:22:10                                 <ProtocolIE-SingleContainer>
- 一  18 01:22:10                                     <id>4</id>
- 一  18 01:22:10                                     <criticality><reject/></criticality>
- 一  18 01:22:10                                     <value>
- 一  18 01:22:10                                         <Cells-to-be-Activated-List-Item>
- 一  18 01:22:10                                             <nRCGI>
- 一  18 01:22:10                                                 <pLMN-Identity>00 F1 10</pLMN-Identity>
- 一  18 01:22:10                                                 <nRCellIdentity>
- 一  18 01:22:10                                                     000000000000000000000000000000000001
- 一  18 01:22:10                                                 </nRCellIdentity>
- 一  18 01:22:10                                             </nRCGI>
- 一  18 01:22:10                                             <nRPCI>1</nRPCI>
- 一  18 01:22:10                                         </Cells-to-be-Activated-List-Item>
- 一  18 01:22:10                                     </value>
- 一  18 01:22:10                                 </ProtocolIE-SingleContainer>
- 一  18 01:22:10                             </Cells-to-be-Activated-List>
- 一  18 01:22:10                         </value>
- 一  18 01:22:10                     </F1SetupResponseIEs>
- 一  18 01:22:10                     <F1SetupResponseIEs>
- 一  18 01:22:10                         <id>170</id>
- 一  18 01:22:10                         <criticality><reject/></criticality>
- 一  18 01:22:10                         <value>
- 一  18 01:22:10                             <RRC-Version>
- 一  18 01:22:10                                 <latest-RRC-Version>
- 一  18 01:22:10                                     000
- 一  18 01:22:10                                 </latest-RRC-Version>
- 一  18 01:22:10                                 <iE-Extensions>
- 一  18 01:22:10                                     <RRC-Version-ExtIEs>
- 一  18 01:22:10                                         <id>199</id>
- 一  18 01:22:10                                         <criticality><ignore/></criticality>
- 一  18 01:22:10                                         <extensionValue>
- 一  18 01:22:10                                             <OCTET STRING (SIZE(3))>11 03 00</OCTET STRING (SIZE(3))>
- 一  18 01:22:10                                         </extensionValue>
- 一  18 01:22:10                                     </RRC-Version-ExtIEs>
- 一  18 01:22:10                                 </iE-Extensions>
- 一  18 01:22:10                             </RRC-Version>
- 一  18 01:22:10                         </value>
- 一  18 01:22:10                     </F1SetupResponseIEs>
- 一  18 01:22:10                 </protocolIEs>
- 一  18 01:22:10             </F1SetupResponse>
- 一  18 01:22:10         </value>
- 一  18 01:22:10     </successfulOutcome>
- 一  18 01:22:10 </F1AP-PDU>
- 一  18 01:22:10 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
- 一  18 01:22:11 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
- 一  18 01:22:11 [0m[34m[F1AP]   CU Task Received SCTP_DATA_IND for instance 0: sending SCTP message via assoc_id 0
- 一  18 01:22:11 [0m[34m[F1AP]   Calling handler with instance 0
- 一  18 01:22:11 [0m[34m[F1AP]   CU_handle_gNB_DU_CONFIGURATION_UPDATE
- 一  18 01:22:11 [0m[34m[F1AP]   req->transaction_id 1 
- 一  18 01:22:11 [0m[34m[F1AP]   req->num_cells_to_modify 1 
- 一  18 01:22:11 [0m[34m[F1AP]   [SCTP 229] Received nRCGI: MCC 1, MNC 1, CELL_ID 1
- 一  18 01:22:11 [0m[34m[F1AP]   req->nr_pci[0] 1 
- 一  18 01:22:11 [0m[34m[F1AP]   Sending F1AP_GNB_DU_CONFIGURATION_UPDATE ITTI message 
- 一  18 01:22:11 [0m[34m[F1AP]   CU Task Received F1AP_GNB_DU_CONFIGURATION_UPDATE_ACKNOWLEDGE for instance 0: sending SCTP message via assoc_id 229
- 一  18 01:22:11 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
- 一  18 01:22:11 [0m<F1AP-PDU>
- 一  18 01:22:11     <successfulOutcome>
- 一  18 01:22:11         <procedureCode>3</procedureCode>
- 一  18 01:22:11         <criticality><reject/></criticality>
- 一  18 01:22:11         <value>
- 一  18 01:22:11             <GNBDUConfigurationUpdateAcknowledge>
- 一  18 01:22:11                 <protocolIEs>
- 一  18 01:22:11                     <GNBDUConfigurationUpdateAcknowledgeIEs>
- 一  18 01:22:11                         <id>78</id>
- 一  18 01:22:11                         <criticality><reject/></criticality>
- 一  18 01:22:11                         <value>
- 一  18 01:22:11                             <TransactionID>1</TransactionID>
- 一  18 01:22:11                         </value>
- 一  18 01:22:11                     </GNBDUConfigurationUpdateAcknowledgeIEs>
- 一  18 01:22:11                 </protocolIEs>
- 一  18 01:22:11             </GNBDUConfigurationUpdateAcknowledge>
- 一  18 01:22:11         </value>
- 一  18 01:22:11     </successfulOutcome>
- 一  18 01:22:11 </F1AP-PDU>
- 一  18 01:22:11 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
- 一  18 01:22:21 [0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
- 一  18 01:22:21 [0m[34m[F1AP]   CU Task Received SCTP_DATA_IND for instance 0: sending SCTP message via assoc_id 0
- 一  18 01:22:21 [0m[34m[F1AP]   Calling handler with instance 0
- 一  18 01:22:21 [0m[34m[F1AP]   CU_handle_INITIAL_UL_RRC_MESSAGE_TRANSFER
- 一  18 01:22:21 [0m[NR_RRC]   Decoding CCCH: RNTI 0064, payload_size 6
- 一  18 01:22:21 [0m<UL-CCCH-Message>
- 一  18 01:22:21     <message>
- 一  18 01:22:21         <c1>
- 一  18 01:22:21             <rrcSetupRequest>
- 一  18 01:22:21                 <rrcSetupRequest>
- 一  18 01:22:21                     <ue-Identity>
- 一  18 01:22:21                         <randomValue>
- 一  18 01:22:21                             001111101011100110010110110001010110000
- 一  18 01:22:21                         </randomValue>
- 一  18 01:22:21                     </ue-Identity>
- 一  18 01:22:21                     <establishmentCause><mo-Signalling/></establishmentCause>
- 一  18 01:22:21                     <spare>
- 一  18 01:22:21                         0
- 一  18 01:22:21                     </spare>
- 一  18 01:22:21                 </rrcSetupRequest>
- 一  18 01:22:21             </rrcSetupRequest>
- 一  18 01:22:21         </c1>
- 一  18 01:22:21     </message>
- 一  18 01:22:21 </UL-CCCH-Message>
- 一  18 01:22:21 [NR_RRC]   Received RRCSetupRequest on UL-CCCH-Message (UE rnti 0064)
- 一  18 01:22:21 [0m[NR_RRC]   Received UE random value 6973145320406384640
- 一  18 01:22:21 [0m[NR_RRC]   Created new UE context: CU UE ID 1 DU UE ID 1 (rnti: 0064, random ue id 60c596b93e000000)
- 一  18 01:22:21 [0m[RRC]   activate SRB 1 of UE 1
- 一  18 01:22:21 [0m[NR_RRC]   rrc_gNB_generate_RRCSetup for RNTI 0064
- 一  18 01:22:21 [0m[NR_RRC]   
- 一  18 01:22:21 asn_DEF_NR_CellGroupConfig
- 一  18 01:22:21 [0m[NR_RRC]   
- 一  18 01:22:21 asn_DEF_NR_DL_CCCH_Message
- 一  18 01:22:21 [0m<DL-CCCH-Message>
- 一  18 01:22:21     <message>
- 一  18 01:22:21         <c1>
- 一  18 01:22:21             <rrcSetup>
- 一  18 01:22:21                 <rrc-TransactionIdentifier>1</rrc-TransactionIdentifier>
- 一  18 01:22:21                 <criticalExtensions>
- 一  18 01:22:21                     <rrcSetup>
- 一  18 01:22:21                         <radioBearerConfig>
- 一  18 01:22:21                             <srb-ToAddModList>
- 一  18 01:22:21                                 <SRB-ToAddMod>
- 一  18 01:22:21                                     <srb-Identity>1</srb-Identity>
- 一  18 01:22:21                                 </SRB-ToAddMod>
- 一  18 01:22:21                             </srb-ToAddModList>
- 一  18 01:22:21                         </radioBearerConfig>
- 一  18 01:22:21                         <masterCellGroup>
- 一  18 01:22:21                             5C 00 B0 01 10 0A EC 81 D0 61 EA 00 7C 22 A0 95 
- 一  18 01:22:21                             07 B8 C0 20 7A 98 09 64 06 54 00 44 01 E0 00 00 
- 一  18 01:22:21                             00 06 00 02 1B 8A 21 00 00 40 0B 21 02 02 40 63 
- 一  18 01:22:21                             00 A2 09 40 00 99 AA A0 40 40 04 00 04 00 40 00 
- 一  18 01:22:21                             44 48 95 42 20 00 64 84 00 02 C6 21 4C 62 9C A0 
- 一  18 01:22:21                             40 40 10 08 00 10 00 00 00 00 00 00 03 00 20 38 
- 一  18 01:22:21                             11 50
- 一  18 01:22:21                         </masterCellGroup>
- 一  18 01:22:21                     </rrcSetup>
- 一  18 01:22:21                 </criticalExtensions>
- 一  18 01:22:21             </rrcSetup>
- 一  18 01:22:21         </c1>
- 一  18 01:22:21     </message>
- 一  18 01:22:21 </DL-CCCH-Message>
- 一  18 01:22:21 [NR_RRC]   RRCSetup Encoded 813 bits (102 bytes)
- 一  18 01:22:21 [0m[34m[F1AP]   CU Task Received F1AP_DL_RRC_MESSAGE for instance 0: sending SCTP message via assoc_id 229
- 一  18 01:22:21 [0m[34m[F1AP]   CU send DL_RRC_MESSAGE_TRANSFER 
- 一  18 01:22:21 [0m[1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT START ----------------- 
- 一  18 01:22:21 [0m<F1AP-PDU>
- 一  18 01:22:21     <initiatingMessage>
- 一  18 01:22:21         <procedureCode>12</procedureCode>
- 一  18 01:22:21         <criticality><ignore/></criticality>
- 一  18 01:22:21         <value>
- 一  18 01:22:21             <DLRRCMessageTransfer>
- 一  18 01:22:21                 <protocolIEs>
- 一  18 01:22:21                     <DLRRCMessageTransferIEs>
- 一  18 01:22:21                         <id>40</id>
- 一  18 01:22:21                         <criticality><reject/></criticality>
- 一  18 01:22:21                         <value>
- 一  18 01:22:21                             <GNB-CU-UE-F1AP-ID>1</GNB-CU-UE-F1AP-ID>
- 一  18 01:22:21                         </value>
- 一  18 01:22:21                     </DLRRCMessageTransferIEs>
- 一  18 01:22:21                     <DLRRCMessageTransferIEs>
- 一  18 01:22:21                         <id>41</id>
- 一  18 01:22:21                         <criticality><reject/></criticality>
- 一  18 01:22:21                         <value>
- 一  18 01:22:21                             <GNB-DU-UE-F1AP-ID>1</GNB-DU-UE-F1AP-ID>
- 一  18 01:22:21                         </value>
- 一  18 01:22:21                     </DLRRCMessageTransferIEs>
- 一  18 01:22:21                     <DLRRCMessageTransferIEs>
- 一  18 01:22:21                         <id>64</id>
- 一  18 01:22:21                         <criticality><reject/></criticality>
- 一  18 01:22:21                         <value>
- 一  18 01:22:21                             <SRBID>0</SRBID>
- 一  18 01:22:21                         </value>
- 一  18 01:22:21                     </DLRRCMessageTransferIEs>
- 一  18 01:22:21                     <DLRRCMessageTransferIEs>
- 一  18 01:22:21                         <id>50</id>
- 一  18 01:22:21                         <criticality><reject/></criticality>
- 一  18 01:22:21                         <value>
- 一  18 01:22:21                             <RRCContainer>
- 一  18 01:22:21                                 28 40 03 12 E0 05 80 08 80 57 64 0E 83 0F 50 03 
- 一  18 01:22:21                                 E1 15 04 A8 3D C6 01 03 D4 C0 4B 20 32 A0 02 20 
- 一  18 01:22:21                                 0F 00 00 00 00 30 00 10 DC 51 08 00 02 00 59 08 
- 一  18 01:22:21                                 10 12 03 18 05 10 4A 00 04 CD 55 02 02 00 20 00 
- 一  18 01:22:21                                 20 02 00 02 22 44 AA 11 00 03 24 20 00 16 31 0A 
- 一  18 01:22:21                                 63 14 E5 02 02 00 80 40 00 80 00 00 00 00 00 00 
- 一  18 01:22:21                                 18 01 01 C0 8A 80
- 一  18 01:22:21                             </RRCContainer>
- 一  18 01:22:21                         </value>
- 一  18 01:22:21                     </DLRRCMessageTransferIEs>
- 一  18 01:22:21                 </protocolIEs>
- 一  18 01:22:21             </DLRRCMessageTransfer>
- 一  18 01:22:21         </value>
- 一  18 01:22:21     </initiatingMessage>
- 一  18 01:22:21 </F1AP-PDU>
- 一  18 01:22:21 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
- 一  18 01:22:36 [0m
+CMDLINE: "/home/hpe/oaicu_develope/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/hpe/oaicu_develope/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf" "--sa" 
+[LIBCONFIG] Path for include directive set to: /home/hpe/oaicu_develope/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[CONFIG] debug flags: 0x00000000
+log init done
+Reading in command-line options
+[ENB_APP]   nfapi (0) running mode: MONOLITHIC
+[0m[GNB_APP]   Getting GNBSParams
+[0m[CONFIG] parallel_conf is set to 2
+[CONFIG] worker_conf is set to 1
+Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+configuring for RAU/RRU
+[OPT]   OPT disabled
+[0m[HW]   Version: Branch: HEAD Abrev. Hash: bd721c3bdb Date: Tue Jul 30 16:24:27 2024 +0000
+[0m[PHY]   create_gNB_tasks() Task ready initialize structures
+[0m[NR_PHY]   RC.gNB = 0x620ac82954d0
+[0m[PHY]   No prs_config configuration found..!!
+[0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
+[0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+[0mNRRRC 0: Southbound Transport f1
+[GNB_APP]   F1AP: gNB_CU_id[0] 3584
+[0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
+[0m[GNB_APP]   SDAP layer is disabled
+[0m[GNB_APP]   Data Radio Bearer count 1
+[0m[NR_RRC]   do_SIB23_NR, size 9 
+ [0m[PDCP]   pdcp init,usegtp 
+[0m[GNB_APP]   default drx 0
+[0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+[0m[UTIL]   threadCreate() for TASK_SCTP: creating thread with affinity ffffffff, priority 50
+[0m[ITTI]   Created Posix thread TASK_SCTP
+[0m[X2AP]   X2AP is disabled.
+[0m[UTIL]   threadCreate() for TASK_NGAP: creating thread with affinity ffffffff, priority 50
+[0m[34m[NGAP]   Starting NGAP layer
+[0m[ITTI]   Created Posix thread TASK_NGAP
+[0m[UTIL]   threadCreate() for TASK_GNB_APP: creating thread with affinity ffffffff, priority 50
+[0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
+[0m[NGAP]   [gNB 0] check the amf registration state
+[0m[ITTI]   Created Posix thread TASK_GNB_APP
+[0m[UTIL]   threadCreate() for TASK_RRC_GNB: creating thread with affinity ffffffff, priority 50
+[0m[UTIL]   threadCreate() for TASK_CU_F1: creating thread with affinity ffffffff, priority 50
+[0m[ITTI]   Created Posix thread TASK_RRC_GNB
+[0m[GTPU]   Configuring GTPu
+[0m[GTPU]   SA mode 
+[0m[GTPU]   Configuring GTPu address : 192.168.18.207, port : 2152
+[0m[GTPU]   Initializing UDP for local address 192.168.18.207 with port 2152
+[0m[93m[GTPU]   bind: Cannot assign requested address
+[0m[1;31m[GTPU]   failed to bind socket: 192.168.18.207 2152 
+[0m[1;31m[GTPU]   can't create GTP-U instance
+[0m[GTPU]   Created gtpu instance id: -1
+[0m[1;31m[E1AP]   Failed to create CUUP N3 UDP listener[0m[F1AP]   Starting F1AP at CU
+[0m[ITTI]   Created Posix thread TASK_CU_F1
+[0m[93m[SCTP]   sctp_bindx() SCTP_BINDX_ADD_ADDR failed: errno 99 Cannot assign requested address
+[0m[NR_RRC]   Entering main loop of NR_RRC message task
+[0m[1;31m[SCTP]   could not open socket, no SCTP connection established
+[0m[NR_RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-CU (assoc_id -1)
+[0m[UTIL]   threadCreate() for TASK_GTPV1_U: creating thread with affinity ffffffff, priority 50
+[0m[F1AP]   F1AP_CU_SCTP_REQ(create socket) for 192.168.130.83 len 15
+[0m[GTPU]   Initializing UDP for local address 192.168.130.83 with port 2152
+[0m[GTPU]   Created gtpu instance id: 97
+[0m[ITTI]   Created Posix thread TASK_GTPV1_U
+[0mSTART MAIN THREADS
+RC.nb_nr_L1_inst:0
+wait_gNBs()
+Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+gNB L1 are configured
+About to Init RU threads RC.nb_RU:0
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+[34m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_IND for instance 0: sending SCTP message via assoc_id 0
+[0m[34m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0: sending SCTP message via assoc_id 0
+[0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+[0m[34m[F1AP]   CU Task Received SCTP_DATA_IND for instance 0: sending SCTP message via assoc_id 0
+[0m[34m[F1AP]   Calling handler with instance 0
+[0m[34m[F1AP]   CU_handle_F1_SETUP_REQUEST
+[0m[34m[F1AP]   req->transaction_id 1 
+[0m[34m[F1AP]   req->gNB_DU_id 1 
+[0m[34m[F1AP]   req->gNB_DU_name ORAN OAM DU 
+[0m[34m[F1AP]   req->num_cells_available 1 
+[0m[34m[F1AP]   req->tac[0] 1 
+[0m[34m[F1AP]   [SCTP 26] Received nRCGI: MCC 1, MNC 1, CELL_ID 1
+[0m[34m[F1AP]   req->nr_pci[0] 1 
+[0m[NR_RRC]   Received F1 Setup Request from gNB_DU 1 (ORAN OAM DU) on assoc_id 26
+[0m[RRC]   Accepting DU 1 (ORAN OAM DU), sending F1 Setup Response
+[0m[RRC]   DU uses RRC version 15.5.0
+[0m[34m[F1AP]   CU Task Received F1AP_SETUP_RESP for instance 0: sending SCTP message via assoc_id 26
+[0m[34m[F1AP]   num_cells_to_activate = 1 
+[0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+[0m[34m[F1AP]   CU Task Received SCTP_DATA_IND for instance 0: sending SCTP message via assoc_id 0
+[0m[34m[F1AP]   Calling handler with instance 0
+[0m[34m[F1AP]   CU_handle_gNB_DU_CONFIGURATION_UPDATE
+[0m[34m[F1AP]   req->transaction_id 1 
+[0m[34m[F1AP]   req->num_cells_to_modify 1 
+[0m[34m[F1AP]   [SCTP 26] Received nRCGI: MCC 1, MNC 1, CELL_ID 1
+[0m[34m[F1AP]   req->nr_pci[0] 1 
+[0m[34m[F1AP]   Sending F1AP_GNB_DU_CONFIGURATION_UPDATE ITTI message 
+[0m[34m[F1AP]   CU Task Received F1AP_GNB_DU_CONFIGURATION_UPDATE_ACKNOWLEDGE for instance 0: sending SCTP message via assoc_id 26
+[0m[1;31m[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+[0m[34m[F1AP]   CU Task Received SCTP_DATA_IND for instance 0: sending SCTP message via assoc_id 0
+[0m[34m[F1AP]   Calling handler with instance 0
+[0m[34m[F1AP]   CU_handle_INITIAL_UL_RRC_MESSAGE_TRANSFER
+[0m[NR_RRC]   Decoding CCCH: RNTI 0064, payload_size 6
+[0m[NR_RRC]   Created new UE context: CU UE ID 1 DU UE ID 1 (rnti: 0064, random ue id 9cd587233d000000)
+[0m[RRC]   activate SRB 1 of UE 1
+[0m[NR_RRC]   UE 0064: Received NR_RRCSetupRequest from UE
+[0m[NR_RRC]   rrc_gNB_generate_RRCSetup for RNTI 0064
+[0m[NR_RRC]   asn_DEF_NR_CellGroupConfig: size 98
+[0m[NR_RRC]   asn_DEF_NR_DL_CCCH_Message: 
+[0m<DL-CCCH-Message>
+    <message>
+        <c1>
+            <rrcSetup>
+                <rrc-TransactionIdentifier>1</rrc-TransactionIdentifier>
+                <criticalExtensions>
+                    <rrcSetup>
+                        <radioBearerConfig>
+                            <srb-ToAddModList>
+                                <SRB-ToAddMod>
+                                    <srb-Identity>1</srb-Identity>
+                                </SRB-ToAddMod>
+                            </srb-ToAddModList>
+                        </radioBearerConfig>
+                        <masterCellGroup>
+                            5C 00 B0 01 10 0A EC 81 D0 61 EA 00 7C 22 A0 95 
+                            07 B8 C0 20 7A 98 09 64 06 54 00 44 01 E0 00 00 
+                            00 06 00 02 1B 8A 21 00 00 40 0B 21 02 02 40 63 
+                            00 A2 09 40 00 99 AA A0 40 40 04 00 04 00 40 00 
+                            44 48 95 42 20 00 64 84 00 02 C6 21 4C 62 9C A0 
+                            40 40 10 08 00 10 00 00 00 00 00 00 03 00 20 38 
+                            11 50
+                        </masterCellGroup>
+                    </rrcSetup>
+                </criticalExtensions>
+            </rrcSetup>
+        </c1>
+    </message>
+</DL-CCCH-Message>
+[34m[F1AP]   CU Task Received F1AP_DL_RRC_MESSAGE for instance 0: sending SCTP message via assoc_id 26
+[0m[F1AP]   CU send DL_RRC_MESSAGE_TRANSFER 
+[0m

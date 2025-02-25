@@ -1,6 +1,6 @@
 #!/bin/bash
 source ./VARIABLE.sh
-wait_sec=25
+wait_sec=15
 
 Target_PATH=$PATH_TO_SCRIPT
 L2_PATH=$PATH_TO_O_DU_L2
@@ -26,12 +26,16 @@ CU_CONF="$PATH_TO_CU/targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf"
 OSC_root_PATH="$L2_PATH/build/odu"
 # OAI root
 OAI_build_PATH="$PATH_TO_L1_UE/cmake_targets/ran_build/build"
+L1_build_PATH="$PATH_TO_L1/cmake_targets/ran_build/build"
+UE_build_PATH="$PATH_TO_UE/cmake_targets/ran_build/build"
+
 # RIC stub
 RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
 # OSC DU
 ODU_PATH="$L2_PATH/bin/odu/odu"
 # OAI gNB (OAI PNF)
-PNF_CONF="$Target_PATH/CONFIG/oaiL1.nfapi.usrpb210.conf"
+# PNF_CONF="$Target_PATH/CONFIG/oaiL1.nfapi.usrpb210.conf"
+PNF_CONF="/home/hpe/OnlyOAI/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-pnf.band78.rfsim.conf"
 
 # FID
 PID_FILE="$PATH_TO_SCRIPT/PID_FILE_NAME"
@@ -90,11 +94,13 @@ else
     echo -n " " >> $PID_FILE
 
     # echo "RUN OAI PNF"
-    pnf_cmd="$OAI_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+    pnf_cmd="$L1_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim --rfsimulator.serveraddr server --sa"
+    # pnf_cmd="$OAI_build_PATH/nr-softmodem -O $PNF_CONF --nfapi PNF --rfsim "
     sudo stdbuf -oL $pnf_cmd 2>&1 | ts &>$PNF_LOG_FILE &
     sleep 1
     # echo "RUN OAI UE"
-    ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
+    # ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim"
+    ue_cmd="$OAI_build_PATH/nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --uicc0.imsi 001010000000001 --rfsim "
     sudo stdbuf -oL $ue_cmd 2>&1 | ts &>$UE_LOG_FILE &
 
     echo -e "The script automatically closes after $wait_sec seconds...\n\r"
@@ -123,6 +129,6 @@ else
     cd $Target_PATH
     bash "$Target_PATH/exit"
     echo -e "\rAuto execute robot.sh script...\r"
-    cd "$Target_PATH/Tools"
-    bash "$Target_PATH/Tools/robot.sh"
+    # cd "$Target_PATH/Tools"
+    # bash "$Target_PATH/Tools/robot.sh"
 fi
