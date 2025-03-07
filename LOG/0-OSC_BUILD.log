@@ -92,16 +92,12 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 /home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf_interface.c:86:30: note: shadowed declaration is here
    86 |  struct sctp_event_subscribe events;
       |                              ^~~~~~
-/home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf.c: In function ‘vnf_send_p5_msg’:
 /home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf_interface.c:265:28: warning: declaration of ‘pnf’ shadows a previous local [-Wshadow]
   265 |      nfapi_vnf_pnf_info_t* pnf = (nfapi_vnf_pnf_info_t*)malloc(sizeof(nfapi_vnf_pnf_info_t));
       |                            ^~~
 /home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf_interface.c:225:25: note: shadowed declaration is here
   225 |   nfapi_vnf_pnf_info_t* pnf = config->pnf_list;
       |                         ^~~
-/home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf.c:1525:20: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
- 1525 |  printf(" %02x ", *(uint8_t *)(msg + i));
-      |                    ^
 /home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf_interface.c:311:27: warning: declaration of ‘pnf’ shadows a previous local [-Wshadow]
   311 |     nfapi_vnf_pnf_info_t* pnf = config->pnf_list;
       |                           ^~~
@@ -114,6 +110,10 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 /home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf_interface.c:311:27: note: shadowed declaration is here
   311 |     nfapi_vnf_pnf_info_t* pnf = config->pnf_list;
       |                           ^~~
+/home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf.c: In function ‘vnf_send_p5_msg’:
+/home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf.c:1525:20: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+ 1525 |  printf(" %02x ", *(uint8_t *)(msg + i));
+      |                    ^
 /home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf_interface.c: In function ‘nfapi_vnf_start’:
 /home/hpe/o-du-l2/src/nfapi/open-nFAPI/vnf/src/vnf_interface.c:560:31: warning: declaration of ‘events’ shadows a previous local [-Wshadow]
   560 |   struct sctp_event_subscribe events;
@@ -262,9 +262,9 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/constr_SET_OF_print.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/constr_SET_OF_rfill.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/constr_SET_OF_uper.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/constr_SET_OF_xer.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/constr_TYPE.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/ENUMERATED_aper.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/constr_SET_OF_xer.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/ENUMERATED.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/ENUMERATED_uper.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/GraphicString.c [m
@@ -315,19 +315,6 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/per_decoder.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/per_encoder.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/per_opentype.c [m
-In file included from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal.c:14:
-/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
-   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
-      | 
-In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
-                 from /usr/include/stdio.h:27,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal.c:12:
-/usr/include/features.h:204: note: this is the location of the previous definition
-  204 | # define _ISOC99_SOURCE 1
-      | 
 In file included from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal_aper.c:8:
 /home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
    11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
@@ -342,7 +329,12 @@ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
   204 | # define _ISOC99_SOURCE 1
       | 
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/per_support.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/PrintableString.c [m
 In file included from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal_print.c:8:
+/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
+   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
+      | 
+In file included from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal.c:14:
 /home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
    11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
       | 
@@ -355,6 +347,32 @@ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
 /usr/include/features.h:204: note: this is the location of the previous definition
   204 | # define _ISOC99_SOURCE 1
       | 
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:27,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal.c:12:
+/usr/include/features.h:204: note: this is the location of the previous definition
+  204 | # define _ISOC99_SOURCE 1
+      | 
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_aper.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_print.c [m
+In file included from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal_xer.c:8:
+/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
+   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
+      | 
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:27,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal_xer.c:6:
+/usr/include/features.h:204: note: this is the location of the previous definition
+  204 | # define _ISOC99_SOURCE 1
+      | 
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_rfill.c [m
 In file included from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal_uper.c:8:
 /home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
    11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
@@ -368,24 +386,6 @@ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
 /usr/include/features.h:204: note: this is the location of the previous definition
   204 | # define _ISOC99_SOURCE 1
       | 
-In file included from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal_xer.c:8:
-/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
-   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
-      | 
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/PrintableString.c [m
-In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
-                 from /usr/include/stdio.h:27,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/NativeReal_xer.c:6:
-/usr/include/features.h:204: note: this is the location of the previous definition
-  204 | # define _ISOC99_SOURCE 1
-      | 
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_aper.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_print.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_rfill.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_uper.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/REAL_xer.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/common/uper_decoder.c [m
@@ -408,9 +408,48 @@ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
 /usr/include/features.h:204: note: this is the location of the previous definition
   204 | # define _ISOC99_SOURCE 1
       | 
+In file included from /home/hpe/o-du-l2/src/codec_utils/common/REAL.c:8:
+/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
+   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
+      | 
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:27,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/REAL.c:5:
+/usr/include/features.h:204: note: this is the location of the previous definition
+  204 | # define _ISOC99_SOURCE 1
+      | 
+In file included from /home/hpe/o-du-l2/src/codec_utils/common/REAL_rfill.c:7:
+/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
+   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
+      | 
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:27,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/REAL_rfill.c:6:
+/usr/include/features.h:204: note: this is the location of the previous definition
+  204 | # define _ISOC99_SOURCE 1
+      | 
 In file included from /home/hpe/o-du-l2/src/codec_utils/common/REAL_uper.c:7:
 /home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
    11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
+      | 
+In file included from /home/hpe/o-du-l2/src/codec_utils/common/REAL_print.c:7:
+/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
+   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
+      | 
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:27,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
+                 from /home/hpe/o-du-l2/src/codec_utils/common/REAL_print.c:6:
+/usr/include/features.h:204: note: this is the location of the previous definition
+  204 | # define _ISOC99_SOURCE 1
       | 
 In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
                  from /usr/include/stdio.h:27,
@@ -431,45 +470,6 @@ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
                  from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
                  from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
                  from /home/hpe/o-du-l2/src/codec_utils/common/REAL_xer.c:6:
-/usr/include/features.h:204: note: this is the location of the previous definition
-  204 | # define _ISOC99_SOURCE 1
-      | 
-In file included from /home/hpe/o-du-l2/src/codec_utils/common/REAL_rfill.c:7:
-/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
-   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
-      | 
-In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
-                 from /usr/include/stdio.h:27,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/REAL_rfill.c:6:
-/usr/include/features.h:204: note: this is the location of the previous definition
-  204 | # define _ISOC99_SOURCE 1
-      | 
-In file included from /home/hpe/o-du-l2/src/codec_utils/common/REAL_print.c:7:
-/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
-   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
-      | 
-In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
-                 from /usr/include/stdio.h:27,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/REAL_print.c:6:
-/usr/include/features.h:204: note: this is the location of the previous definition
-  204 | # define _ISOC99_SOURCE 1
-      | 
-In file included from /home/hpe/o-du-l2/src/codec_utils/common/REAL.c:8:
-/home/hpe/o-du-l2/src/codec_utils/common/REAL.h:11: warning: "_ISOC99_SOURCE" redefined
-   11 | #define _ISOC99_SOURCE  /* For ilogb() and quiet NAN */
-      | 
-In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
-                 from /usr/include/stdio.h:27,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_system.h:23,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_application.h:11,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/asn_internal.h:14,
-                 from /home/hpe/o-du-l2/src/codec_utils/common/REAL.c:5:
 /usr/include/features.h:204: note: this is the location of the previous definition
   204 | # define _ISOC99_SOURCE 1
       | 
@@ -600,8 +600,8 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/ExtendedServedPLMNs-Item.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/ExtendedServedPLMNs-List.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/EXTERNAL.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/F1AP-PDU.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/F1SetupFailure.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/F1AP-PDU.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/F1SetupRequest.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/F1SetupResponse.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/F1AP/FDD-Info.c [m
@@ -938,8 +938,8 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/MMEname.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/NGENB-DU-ID.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/ProcedureCodeE2.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/ProtocolIE-ContainerE2.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/ProtocolIE-ContainerListE2.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/ProtocolIE-ContainerE2.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/ProtocolIE-ContainerPairList.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/ProtocolIE-FieldE2.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/E2AP/ProtocolIE-IDE2.c [m
@@ -1275,8 +1275,8 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CounterCheckResponse.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CounterCheckResponse-IEs.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CrossCarrierSchedulingConfig.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-AperiodicTriggerStateList.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-AperiodicTriggerState.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-AperiodicTriggerStateList.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-AssociatedReportConfigInfo.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-FrequencyOccupation.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-IM-Resource.c [m
@@ -1297,8 +1297,8 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-RS-Index.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-RS-ResourceConfigMobility.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-RS-ResourceMapping.c [m
--e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-SemiPersistentOnPUSCH-TriggerState.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-RS-Resource-Mobility.c [m
+-e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-SemiPersistentOnPUSCH-TriggerState.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-SemiPersistentOnPUSCH-TriggerStateList.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-SSB-ResourceSet.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/codec_utils/RRC/CSI-SSB-ResourceSetId.c [m
@@ -1881,15 +1881,7 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/du_app//du_tmr.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/du_app//du_ue_mgr.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/du_app//du_utils.c [m
-/home/hpe/o-du-l2/src/du_app//du_mgr_main.c: In function ‘commonInit’:
-/home/hpe/o-du-l2/src/du_app//du_mgr_main.c:576:87: warning: unused variable ‘lwr_mac_stsk’ [-Wunused-variable]
-  576 |    SSTskId du_app_stsk, egtp_stsk, sctp_stsk, rlc_ul_stsk, rlc_mac_cl_stsk, sch_stsk, lwr_mac_stsk, phy_stub_slot_ind_stsk;
-      |                                                                                       ^~~~~~~~~~~~
-In file included from /home/hpe/o-du-l2/src/du_app//du_msg_hdl.c:42:
-/home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
-   95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
-      |                                                               
-In file included from /home/hpe/o-du-l2/src/du_app//du_mgr_msg_router.c:43:
+In file included from /home/hpe/o-du-l2/src/du_app//du_cfg.c:31:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
@@ -1897,19 +1889,35 @@ In file included from /home/hpe/o-du-l2/src/du_app//du_egtp.c:34:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
-In file included from /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:31:
+In file included from /home/hpe/o-du-l2/src/du_app//du_sctp.c:35:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
-In file included from /home/hpe/o-du-l2/src/du_app//du_cfg.c:31:
+/home/hpe/o-du-l2/src/du_app//du_mgr_main.c: In function ‘commonInit’:
+/home/hpe/o-du-l2/src/du_app//du_mgr_main.c:576:87: warning: unused variable ‘lwr_mac_stsk’ [-Wunused-variable]
+  576 |    SSTskId du_app_stsk, egtp_stsk, sctp_stsk, rlc_ul_stsk, rlc_mac_cl_stsk, sch_stsk, lwr_mac_stsk, phy_stub_slot_ind_stsk;
+      |                                                                                       ^~~~~~~~~~~~
+In file included from /home/hpe/o-du-l2/src/du_app//du_cell_mgr.c:33:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
-In file included from /home/hpe/o-du-l2/src/du_app//du_e2ap_mgr.c:34:
+In file included from /home/hpe/o-du-l2/src/du_app//du_mgr_msg_router.c:43:
+/home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
+   95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
+      |                                                               
+In file included from /home/hpe/o-du-l2/src/du_app//du_msg_hdl.c:42:
+/home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
+   95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
+      |                                                               
+In file included from /home/hpe/o-du-l2/src/du_app//du_f1ap_msg_hdl.c:41:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
 In file included from /home/hpe/o-du-l2/src/du_app//du_e2ap_msg_hdl.c:31:
+/home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
+   95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
+      |                                                               
+In file included from /home/hpe/o-du-l2/src/du_app//du_e2ap_mgr.c:34:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
@@ -1921,7 +1929,11 @@ In file included from /home/hpe/o-du-l2/src/du_app//du_ue_mgr.c:35:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
-In file included from /home/hpe/o-du-l2/src/du_app//du_cell_mgr.c:33:
+/home/hpe/o-du-l2/src/du_app//du_ue_mgr.c: In function ‘fillDefaultInitDlBwp’:
+/home/hpe/o-du-l2/src/du_app//du_ue_mgr.c:719:10: warning: ‘memset’ used with length equal to number of elements without multiplication by element size [-Wmemset-elt-size]
+  719 |          memset(initDlBwp->pdcchCfg.cRSetToAddModList, 0, MAX_NUM_CRSET);
+      |          ^~~~~~
+In file included from /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:31:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
@@ -1929,22 +1941,10 @@ In file included from /home/hpe/o-du-l2/src/du_app//du_utils.c:29:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
    95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
       |                                                               
-In file included from /home/hpe/o-du-l2/src/du_app//du_sctp.c:35:
-/home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
-   95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
-      |                                                               
-/home/hpe/o-du-l2/src/du_app//du_ue_mgr.c: In function ‘fillDefaultInitDlBwp’:
-/home/hpe/o-du-l2/src/du_app//du_ue_mgr.c:719:10: warning: ‘memset’ used with length equal to number of elements without multiplication by element size [-Wmemset-elt-size]
-  719 |          memset(initDlBwp->pdcchCfg.cRSetToAddModList, 0, MAX_NUM_CRSET);
-      |          ^~~~~~
 /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c: In function ‘BuildPlmnList’:
 /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:446:25: warning: unused variable ‘ranac’ [-Wunused-variable]
   446 |    RAN_AreaCode_t     **ranac;
       |                         ^~~~~
-In file included from /home/hpe/o-du-l2/src/du_app//du_f1ap_msg_hdl.c:41:
-/home/hpe/o-du-l2/src/du_app//du_utils.h:95:62: warning: backslash and newline separated by space
-   95 |       DU_LOG("\n[DU UTILS] --> Gen Buffer");                 \
-      |                                                               
 In file included from /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:31:
 /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c: In function ‘BuildSib1Msg’:
 /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:2634:54: warning: argument to ‘sizeof’ in ‘memset’ call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
@@ -1953,10 +1953,6 @@ In file included from /home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:31:
 /home/hpe/o-du-l2/src/du_app//du_utils.h:71:26: note: in definition of macro ‘DU_ALLOC’
    71 |       memset(_datPtr, 0, _size);                         \
       |                          ^~~~~
-At top level:
-/home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:2475:12: warning: ‘encode_to_buffer_cb’ defined but not used [-Wunused-function]
- 2475 | static int encode_to_buffer_cb(const void *buffer, size_t size, void *key) {
-      |            ^~~~~~~~~~~~~~~~~~~
 /home/hpe/o-du-l2/src/du_app//du_f1ap_msg_hdl.c: In function ‘BuildServedPlmn’:
 /home/hpe/o-du-l2/src/du_app//du_f1ap_msg_hdl.c:831:41: warning: passing argument 1 of ‘BuildExtensions’ from incompatible pointer type [-Wincompatible-pointer-types]
   831 |    BuildExtensionsret = BuildExtensions(&srvplmn->list.array[0]->iE_Extensions);
@@ -1973,6 +1969,10 @@ At top level:
 /home/hpe/o-du-l2/src/du_app//du_f1ap_msg_hdl.c:1415:12: warning: unused variable ‘plmnCnt’ [-Wunused-variable]
  1415 |    uint8_t plmnCnt = 1;
       |            ^~~~~~~
+At top level:
+/home/hpe/o-du-l2/src/du_app//du_sys_info_hdl.c:2475:12: warning: ‘encode_to_buffer_cb’ defined but not used [-Wunused-function]
+ 2475 | static int encode_to_buffer_cb(const void *buffer, size_t size, void *key) {
+      |            ^~~~~~~~~~~~~~~~~~~
 /home/hpe/o-du-l2/src/du_app//du_f1ap_msg_hdl.c: In function ‘BuildBWPUlDedPucchCfg’:
 /home/hpe/o-du-l2/src/du_app//du_f1ap_msg_hdl.c:5518:69: warning: format ‘%p’ expects argument of type ‘void *’, but argument 2 has type ‘int’ [-Wformat=]
  5518 |       printf("\n[du_app] rsrcSetCfgDb->resrcSetToAddModListCount = %p\n", rsrcSetCfgDb->resrcSetToAddModListCount);
@@ -2099,30 +2099,6 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/5gnrmac/rg_ptui.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/5gnrmac/rg_uim.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/5gnrmac/rg_utl.c [m
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_util.c: In function ‘fillDlDciPayload’:
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_util.c:109:12: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
-  109 |    uint8_t temp;
-      |            ^~~~
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procSlotInd’:
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:133:38: warning: declaration of ‘UL_INFO’ shadows a global declaration [-Wshadow]
-  133 | uint8_t SCF_procSlotInd(NR_UL_IND_t *UL_INFO)
-      |                         ~~~~~~~~~~~~~^~~~~~~
-In file included from /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:20:
-/home/hpe/o-du-l2/src/cm/common_def.h:397:13: note: shadowed declaration is here
-  397 | NR_UL_IND_t UL_INFO;
-      |             ^~~~~~~
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procRxDataInd’:
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:185:18: warning: unused variable ‘ret’ [-Wunused-variable]
-  185 |    uint8_t       ret;
-      |                  ^~~
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procCrcInd’:
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:244:29: warning: unused variable ‘ret’ [-Wunused-variable]
-  244 |    uint8_t      crcInfoIdx, ret;
-      |                             ^~~
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procRachInd’:
-/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:431:17: warning: unused variable ‘ret’ [-Wunused-variable]
-  431 |    uint8_t      ret = ROK;
-      |                 ^~~
 /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_fsm.c: In function ‘fillCCEmaping’:
 /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_fsm.c:507:56: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
   507 |    else if((value & FAPI_CCE_MAPPING_INTERLEAVED_MASK) == FAPI_CCE_MAPPING_NONINTERLVD_MASK)
@@ -2142,6 +2118,10 @@ In file included from /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:20:
  3877 |          OAI_OSC_fillSib1DlDciPdu(dlTtiReqPdu->pdcch_pdu.pdcch_pdu_rel15.dci_pdu, pdcchInfo);
       |          ^~~~~~~~~~~~~~~~~~~~~~~~
       |          OAI_OSC_fillPdcchPdu
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_util.c: In function ‘fillDlDciPayload’:
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_util.c:109:12: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
+  109 |    uint8_t temp;
+      |            ^~~~
 /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_fsm.c:3883:10: warning: implicit declaration of function ‘OAI_OSC_fillRarDlDciPdu’; did you mean ‘OAI_OSC_fillPdcchPdu’? [-Wimplicit-function-declaration]
  3883 |          OAI_OSC_fillRarDlDciPdu(dlTtiReqPdu->pdcch_pdu.pdcch_pdu_rel15.dci_pdu, pdcchInfo);
       |          ^~~~~~~~~~~~~~~~~~~~~~~
@@ -2207,7 +2187,19 @@ In file included from /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:20:
 /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_fsm.c:6701:14: warning: unused variable ‘retval’ [-Wunused-variable]
  6701 |          int retval = nfapi_vnf_p7_tx_data_req(p7_config, txDataReq);
       |              ^~~~~~
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procSlotInd’:
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:133:38: warning: declaration of ‘UL_INFO’ shadows a global declaration [-Wshadow]
+  133 | uint8_t SCF_procSlotInd(NR_UL_IND_t *UL_INFO)
+      |                         ~~~~~~~~~~~~~^~~~~~~
+In file included from /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:20:
+/home/hpe/o-du-l2/src/cm/common_def.h:397:13: note: shadowed declaration is here
+  397 | NR_UL_IND_t UL_INFO;
+      |             ^~~~~~~
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procRxDataInd’:
 /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_fsm.c: In function ‘intgr_lwr_mac_procVnfCfgStartEvt’:
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:185:18: warning: unused variable ‘ret’ [-Wunused-variable]
+  185 |    uint8_t       ret;
+      |                  ^~~
 /home/hpe/o-du-l2/src/5gnrmac/lwr_mac_fsm.c:7056:44: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [-Wincompatible-pointer-types]
  7056 |    pthread_create(&vnf_start_thread, NULL, &nfapi_nr_vnf_start, glb_config);
       |                                            ^~~~~~~~~~~~~~~~~~~
@@ -2220,6 +2212,14 @@ In file included from /home/hpe/o-du-l2/src/mt/ss_dep.h:58,
 /usr/include/pthread.h:204:15: note: expected ‘void * (*)(void *)’ but argument is of type ‘int (*)(nfapi_vnf_config_t *)’ {aka ‘int (*)(struct nfapi_vnf_config *)’}
   204 |       void *(*__start_routine) (void *),
       |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procCrcInd’:
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:244:29: warning: unused variable ‘ret’ [-Wunused-variable]
+  244 |    uint8_t      crcInfoIdx, ret;
+      |                             ^~~
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c: In function ‘SCF_procRachInd’:
+/home/hpe/o-du-l2/src/5gnrmac/lwr_mac_handle_phy.c:431:17: warning: unused variable ‘ret’ [-Wunused-variable]
+  431 |    uint8_t      ret = ROK;
+      |                 ^~~
 -e Creating Archive [32m[1m /home/hpe/o-du-l2/build/odu/lib/odu/librg.a [m
 make[1]: Leaving directory '/home/hpe/o-du-l2/build/odu'
 make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
@@ -2237,10 +2237,6 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/5gnrsch/sch_tmr.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/5gnrsch/sch_ue_mgr.c [m
 -e Compiling [31m[1m /home/hpe/o-du-l2/src/5gnrsch/sch_utils.c [m
-/home/hpe/o-du-l2/src/5gnrsch/sch_common.c: In function ‘schDlRsrcAllocMsg4’:
-/home/hpe/o-du-l2/src/5gnrsch/sch_common.c:596:12: warning: unused variable ‘dmrsStartSymbol’ [-Wunused-variable]
-  596 |    uint8_t dmrsStartSymbol = 0, startSymbol = 0, numSymbol = 0;
-      |            ^~~~~~~~~~~~~~~
 /home/hpe/o-du-l2/src/5gnrsch/sch.c: In function ‘fillSchSib1Cfg’:
 /home/hpe/o-du-l2/src/5gnrsch/sch.c:599:13: warning: unused variable ‘tbSize’ [-Wunused-variable]
   599 |    uint16_t tbSize = 0;
@@ -2248,14 +2244,18 @@ make[1]: Entering directory '/home/hpe/o-du-l2/build/odu'
 /home/hpe/o-du-l2/src/5gnrsch/sch.c:592:12: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
   592 |    uint8_t offset = 0;
       |            ^~~~~~
-/home/hpe/o-du-l2/src/5gnrsch/sch.c: In function ‘SchProcCellCfgReq’:
-/home/hpe/o-du-l2/src/5gnrsch/sch.c:813:12: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
-  813 |    uint8_t offset = 0;
-      |            ^~~~~~
 /home/hpe/o-du-l2/src/5gnrsch/sch_utils.c: In function ‘schCalcNumPrb_withDmrs’:
 /home/hpe/o-du-l2/src/5gnrsch/sch_utils.c:1084:13: warning: unused variable ‘nre’ [-Wunused-variable]
  1084 |    uint16_t nre = 0;
       |             ^~~
+/home/hpe/o-du-l2/src/5gnrsch/sch.c: In function ‘SchProcCellCfgReq’:
+/home/hpe/o-du-l2/src/5gnrsch/sch.c:813:12: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
+  813 |    uint8_t offset = 0;
+      |            ^~~~~~
+/home/hpe/o-du-l2/src/5gnrsch/sch_common.c: In function ‘schDlRsrcAllocMsg4’:
+/home/hpe/o-du-l2/src/5gnrsch/sch_common.c:596:12: warning: unused variable ‘dmrsStartSymbol’ [-Wunused-variable]
+  596 |    uint8_t dmrsStartSymbol = 0, startSymbol = 0, numSymbol = 0;
+      |            ^~~~~~~~~~~~~~~
 /home/hpe/o-du-l2/src/5gnrsch/sch_rach.c: In function ‘schFillRar’:
 /home/hpe/o-du-l2/src/5gnrsch/sch_rach.c:901:13: warning: unused variable ‘tbSize’ [-Wunused-variable]
   901 |    uint16_t tbSize = 0;

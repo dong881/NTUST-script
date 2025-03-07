@@ -48,15 +48,15 @@ else
     # sudo echo "Start TCPdump..."
     sudo tcpdump -i any -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE 2>/dev/null & 
     # clean & compile OSC DU
-    cd $OSC_build_PATH
-    make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
-    if grep -q "***** ODU CLEAN COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
-        echo -e "\r\n***** ODU CLEAN COMPLETE *****\n\r"
-    fi
-    make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
-    if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
-        echo -e "\r\n***** BUILD COMPLETE *****\n\r"
-    fi
+    # cd $OSC_build_PATH
+    # make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    # if grep -q "***** ODU CLEAN COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+    #     echo -e "\r\n***** ODU CLEAN COMPLETE *****\n\r"
+    # fi
+    # make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    # if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+    #     echo -e "\r\n***** BUILD COMPLETE *****\n\r"
+    # fi
 
     # clean & build OAI all
     declare -A build_paths
@@ -84,7 +84,7 @@ else
 
     # echo "RUN OSC DU"
     echo -e "VNF-DU: $ODU_LOG_FILE\r"
-    sudo $ODU_PATH &>$ODU_LOG_FILE &
+    sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
     sleep 1
     ODU_PID=$(pgrep -o odu)
     # echo $ODU_PID
