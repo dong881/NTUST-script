@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo ifconfig lo:RIC_STUB "192.168.130.80" up
+sudo ifconfig lo:ODU  "192.168.130.81" up
+sudo ifconfig lo:OAI_CU "192.168.130.83" up
+# sudo ip route add 192.168.70.128/26 via 192.168.8.90 dev ens1f3

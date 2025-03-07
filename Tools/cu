@@ -2,4 +2,5 @@
 source ../VARIABLE.sh
 
 cd $PATH_TO_CU/cmake_targets/ran_build/build
-sudo ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf --sacd
+# sudo ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/cu_gnb.conf --sacd
+sudo ./nr-softmodem -O /home/hpe/NTUST-script/CONFIG/gnb-cu.sa.band78.106prb.conf --sa

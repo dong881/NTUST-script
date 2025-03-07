@@ -58,7 +58,7 @@ else
     sudo ifconfig lo:RIC_STUB "192.168.130.80" 2>/dev/null
     sudo ifconfig lo:ODU  "192.168.130.81" 2>/dev/null
     sudo ifconfig lo:OAI_CU "192.168.130.83" 2>/dev/null
-    
+    # bash "$Target_PATH/Tools/set-ifconfig"
     # TCPdump
     # sudo echo "Start TCPdump..."
     sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE &
