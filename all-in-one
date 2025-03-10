@@ -1,10 +1,8 @@
 #!/bin/bash
 source ./VARIABLE.sh
 
-Target_PATH=$PATH_TO_SCRIPT
-L2_PATH=$PATH_TO_O_DU_L2
-LOG_PATH="$Target_PATH/LOG"
-LOCKFILE="$Target_PATH/tmp-build_run.lock"
+LOG_PATH="$PATH_TO_SCRIPT/LOG"
+LOCKFILE="$PATH_TO_SCRIPT/tmp-build_run.lock"
 sudo mkdir -p "$LOG_PATH"
 
 # LOG File name
@@ -25,10 +23,10 @@ CU_build_PATH="$PATH_TO_CU/cmake_targets/ran_build/build"
 L1_build_PATH="$PATH_TO_L1/cmake_targets/ran_build/build"
 UE_build_PATH="$PATH_TO_UE/cmake_targets/ran_build/build"
 # OSC DU
-OSC_build_PATH="$L2_PATH/build/odu"
-ODU_PATH="$L2_PATH/bin/odu/odu"
+OSC_build_PATH="$PATH_TO_O_DU_L2/build/odu"
+ODU_PATH="$PATH_TO_O_DU_L2/bin/odu/odu"
 # RIC stub
-RIC_STUB_PATH="$L2_PATH/bin/ric_stub/ric_stub"
+RIC_STUB_PATH="$PATH_TO_O_DU_L2/bin/ric_stub/ric_stub"
 # FID
 PID_FILE="$PATH_TO_SCRIPT/PID_FILE_NAME"
 
@@ -37,27 +35,35 @@ if [ -e $LOCKFILE ]; then
     echo "Another user is currently building and running the code. Please wait."
     exit 1
 else
-    cd $Target_PATH
-    bash "$Target_PATH/exit"
+    cd $PATH_TO_SCRIPT
+    bash "$PATH_TO_SCRIPT/exit"
     # Create the lock file
     touch $LOCKFILE
     touch $PID_FILE
-    bash "$Target_PATH/Tools/set-ifconfig"
+    bash "$PATH_TO_SCRIPT/Tools/set-ifconfig"
     
     # TCPdump
     # sudo echo "Start TCPdump..."
     sudo tcpdump -i any -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE 2>/dev/null & 
     # clean & compile OSC DU
-    cd $OSC_build_PATH
-    make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
-    if grep -q "***** ODU CLEAN COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
-        echo -e "\r\n***** ODU CLEAN COMPLETE *****\n\r"
+    cd $PATH_TO_O_DU_L2
+    # Check for changes compared to last build
+    diff_file="$PATH_TO_SCRIPT/last_changes.diff"
+    current_diff=$(git diff)
+    # Build only if changes are different from last build
+    if [ ! -f "$diff_file" ] || [ "$current_diff" != "$(cat $diff_file)" ]; then
+        cd $OSC_build_PATH
+        make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+        if grep -q "***** ODU CLEAN COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+            echo -e "\r\n***** ODU CLEAN COMPLETE *****\n\r"
+        fi
+        make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+        if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+            echo -e "\r\n***** BUILD COMPLETE *****\n\r"
+        fi
+        echo "$current_diff" > $diff_file
     fi
-    make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
-    if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
-        echo -e "\r\n***** BUILD COMPLETE *****\n\r"
-    fi
-
+    
     # clean & build OAI all
     declare -A build_paths
     build_paths["$PATH_TO_CU"]=1
