@@ -1,6 +1,6 @@
 #!/bin/bash
 source ./VARIABLE.sh
-
+sudo echo ""
 pids=$(ps aux | grep "odu\|ric_stub\|nr-uesoftmodem\|nr-softmodem\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}')
 # sudo pkill -INT tcpdump
 for pid in $pids; do
