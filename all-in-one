@@ -1,6 +1,7 @@
 #!/bin/bash
 source ./VARIABLE.sh
 
+NO_DU=0
 LOG_PATH="$PATH_TO_SCRIPT/LOG"
 LOCKFILE="$PATH_TO_SCRIPT/tmp-build_run.lock"
 sudo mkdir -p "$LOG_PATH"
@@ -36,7 +37,9 @@ if [ -e $LOCKFILE ]; then
     exit 1
 else
     cd $PATH_TO_SCRIPT
-    bash "$PATH_TO_SCRIPT/exit"
+    if [ $NO_DU -ne 1 ]; then
+        bash "$PATH_TO_SCRIPT/exit"
+    fi
     # Create the lock file
     touch $LOCKFILE
     touch $PID_FILE
@@ -88,14 +91,15 @@ else
     echo -n $RIC_PID >> $PID_FILE
     echo -n " " >> $PID_FILE
 
-    # echo "RUN OSC DU"
-    echo -e "VNF-DU: $ODU_LOG_FILE\r"
-    sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
-    sleep 1
-    ODU_PID=$(pgrep -o odu)
-    # echo $ODU_PID
-    echo -n $ODU_PID >> $PID_FILE
-    echo -n " " >> $PID_FILE
+    if [ $NO_DU -ne 1 ]; then
+        # echo "RUN OSC DU"
+        echo -e "VNF-DU: $ODU_LOG_FILE\r"
+        sudo stdbuf -oL $ODU_PATH 2>&1 | ts &>$ODU_LOG_FILE &
+        sleep 1
+        ODU_PID=$(pgrep -o odu)
+        echo -n $ODU_PID >> $PID_FILE
+        echo -n " " >> $PID_FILE
+    fi
 
     # echo "RUN OAI PNF"
     echo -e "PNF: $PNF_LOG_FILE\r"
