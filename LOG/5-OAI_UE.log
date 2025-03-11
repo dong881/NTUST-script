@@ -59,16 +59,16 @@ CMDLINE: "/home/hpe/OnlyOAI/openairinterface5g/cmake_targets/ran_build/build/nr-
 [0m[PHY]   Intializing UE Threads for instance 0 ...
 [0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
 [0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
-[0m[HW]   Running as client: will connect to a rfsimulator server side
-[0mUE threads created by 3176592
+[0mUE threads created by 3041339
 TYPE <CTRL-C> TO TERMINATE
 [NR_RRC]   create TASK_RRC_NRUE 
 [0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
-[0mInitializing random number generator, seed 886852300706763062
+[0m[HW]   Running as client: will connect to a rfsimulator server side
+[0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
+[0mInitializing random number generator, seed 100074087086915156
 [HW]   [RRU] has loaded RFSIMULATOR device.
 [0m[HW]   Trying to connect to 127.0.0.1:4043
 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-[0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
 [0m[HW]   Trying to connect to 127.0.0.1:4043
 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
 [0m[HW]   Trying to connect to 127.0.0.1:4043
@@ -90,11 +90,11 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
 [0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 99 dB, PSS Corr Average: 61
 [0m[PHY]   [UE0] In synch, rx_offset 109696 samples
-[0m[PHY]   [UE 0] Measured Carrier Frequency offset 7 Hz
+[0m[PHY]   [UE 0] Measured Carrier Frequency offset 6 Hz
 [0m[32m[PHY]   Initial sync successful, PCI: 1
-[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200007 Hz, rx_freq 3619200007 Hz, tune_offset 0
-[0m[PHY]   Got synch: hw_slot_offset 7, carrier off 7 Hz, rxgain 0.000000 (DL 3619200007.000000 Hz, UL 3619200007.000000 Hz)
-[0m[32m[PHY]   UE synchronized! decoded_frame_rx=134 UE->init_sync_frame=1 trashed_frames=12
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200006 Hz, rx_freq 3619200006 Hz, tune_offset 0
+[0m[PHY]   Got synch: hw_slot_offset 7, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
+[0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=0 trashed_frames=26
 [0m[PHY]   Resynchronizing RX by 109696 samples
 [0m[HW]   received write reorder clear context
 [0m<SIB1>
@@ -332,29 +332,135 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
 [0m[MAC]   Initialization of 4-Step CBRA procedure
 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
-[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0, preambleIndex = 51
+[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0, preambleIndex = 47
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
-[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 51
+[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 47
 [0m[93m[MAC]   received TA command 31
 [0m[PHY]   RAR-Msg2 decoded
 [0m[32m[NR_MAC]   [RAPROC][280.19] RA-Msg3 transmitted
-[0m[MAC]   [UE 0]Frame 281 Contention resolution identity: 0x1f56b2dd3646 Terminating RA procedure
-[0m[32m[MAC]   [UE 0][281.16][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
+[0m[MAC]   [UE 0]Frame 281 Contention resolution identity: 0x10a439ddeaa6 Terminating RA procedure
+[0m[32m[MAC]   [UE 0][281.15][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
 [0m[RLC]   Added srb 1 to UE 0
 [0m[NR_RRC]   State = NR_RRC_CONNECTED
 [0m[NAS]   Generate Initial NAS Message: Registration Request
 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
 [0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
+[0m[1;31m[PHY]   [UE 0] frame 284, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 286, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 288, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 290, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 292, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 294, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 296, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 298, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 300, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 302, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 304, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 306, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 308, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 310, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 312, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 314, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 316, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 318, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 320, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 322, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 324, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 326, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 328, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 330, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 332, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 334, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 336, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 338, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 340, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 342, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 344, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 346, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 348, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 350, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 352, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 354, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 356, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 358, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 360, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 362, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 364, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 366, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 368, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 370, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 372, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 374, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 376, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 378, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 380, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 382, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 384, nr_slot_rx 0, Error decoding PBCH!
 [0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
     DL harq: 1/0
     Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
-    DL harq: 1/0
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
-    DL harq: 1/0
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[93m[HW]   Lost socket
+[0m[1;31m[PHY]   [UE 0] frame 386, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 388, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 390, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 392, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 394, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 396, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 398, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 400, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 402, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 404, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 406, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 408, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 410, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 412, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 414, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 416, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 418, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 420, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 422, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 424, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 426, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 428, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 430, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 432, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 434, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 436, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 438, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 440, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 442, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 444, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 446, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 448, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 450, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 452, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 454, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 456, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 458, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 460, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 462, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 464, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 466, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 468, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 470, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 472, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 474, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 476, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 478, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 480, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 482, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 484, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 486, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 488, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 490, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 492, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 494, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 496, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 498, nr_slot_rx 0, Error decoding PBCH!
+[0m[1;31m[PHY]   [UE 0] frame 500, nr_slot_rx 0, Error decoding PBCH!
+[0m[93m[NR_RRC]   Timer T310 expired
+[0m[NR_RRC]   RRC moved into IDLE state
+[0m[NAS]   [UE 0] Received NR_NAS_CONN_RELEASE_IND: cause 2
+[0m[NR_MAC]   [UE0] Initializing MAC
 [0m
