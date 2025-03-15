@@ -16,6 +16,6 @@ while :; do
         done
         [ $flag -eq 1 ] && break
         grep -q "cumulated bad DCI" "$l" && { echo -e "cumulated bad DCI detected. Exiting loop.\r"; exit 0; }
-        sleep 1
+        sleep 10
     done
 done
