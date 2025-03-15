@@ -59,16 +59,16 @@ CMDLINE: "/home/hpe/OnlyOAI/openairinterface5g/cmake_targets/ran_build/build/nr-
 [0m[PHY]   Intializing UE Threads for instance 0 ...
 [0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
 [0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
-[0mUE threads created by 3041339
+[0m[HW]   Running as client: will connect to a rfsimulator server side
+[0mUE threads created by 2245816
 TYPE <CTRL-C> TO TERMINATE
 [NR_RRC]   create TASK_RRC_NRUE 
 [0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
-[0m[HW]   Running as client: will connect to a rfsimulator server side
-[0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
-[0mInitializing random number generator, seed 100074087086915156
+[0mInitializing random number generator, seed 9491153425144511930
 [HW]   [RRU] has loaded RFSIMULATOR device.
 [0m[HW]   Trying to connect to 127.0.0.1:4043
 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
 [0m[HW]   Trying to connect to 127.0.0.1:4043
 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
 [0m[HW]   Trying to connect to 127.0.0.1:4043
@@ -89,13 +89,13 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[PHY]   Initial sync: pbch decoded sucessfully, ssb index 0
 [0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
 [0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 99 dB, PSS Corr Average: 61
-[0m[PHY]   [UE0] In synch, rx_offset 109696 samples
+[0m[PHY]   [UE0] In synch, rx_offset 416896 samples
 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 6 Hz
 [0m[32m[PHY]   Initial sync successful, PCI: 1
 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200006 Hz, rx_freq 3619200006 Hz, tune_offset 0
-[0m[PHY]   Got synch: hw_slot_offset 7, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
-[0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=0 trashed_frames=26
-[0m[PHY]   Resynchronizing RX by 109696 samples
+[0m[PHY]   Got synch: hw_slot_offset 27, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
+[0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=1 trashed_frames=12
+[0m[PHY]   Resynchronizing RX by 416896 samples
 [0m[HW]   received write reorder clear context
 [0m<SIB1>
     <cellSelectionInfo>
@@ -332,135 +332,711 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
 [0m[MAC]   Initialization of 4-Step CBRA procedure
 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
-[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0, preambleIndex = 47
+[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0, preambleIndex = 39
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
-[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 47
+[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 39
 [0m[93m[MAC]   received TA command 31
 [0m[PHY]   RAR-Msg2 decoded
 [0m[32m[NR_MAC]   [RAPROC][280.19] RA-Msg3 transmitted
-[0m[MAC]   [UE 0]Frame 281 Contention resolution identity: 0x10a439ddeaa6 Terminating RA procedure
-[0m[32m[MAC]   [UE 0][281.15][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
+[0m[1;31m[PHY]   received all 0 pdu, consider it false reception, even if the TS 38.212 7.2.1 says only we should attach the corresponding CRC, and nothing prevents to have a all 0 packet
+[0m[MAC]   [UE 0]Frame 283 Contention resolution identity: 0x10a2237373c6 Terminating RA procedure
+[0m[32m[MAC]   [UE 0][283.1][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
-[0m[RLC]   Added srb 1 to UE 0
-[0m[NR_RRC]   State = NR_RRC_CONNECTED
+[0m<CellGroupConfig>
+    <cellGroupId>0</cellGroupId>
+    <rlc-BearerToAddModList>
+        <RLC-BearerConfig>
+            <logicalChannelIdentity>1</logicalChannelIdentity>
+            <servedRadioBearer>
+                <srb-Identity>1</srb-Identity>
+            </servedRadioBearer>
+            <rlc-Config>
+                <am>
+                    <ul-AM-RLC>
+                        <sn-FieldLength><size12/></sn-FieldLength>
+                        <t-PollRetransmit><ms45/></t-PollRetransmit>
+                        <pollPDU><p4/></pollPDU>
+                        <pollByte><infinity/></pollByte>
+                        <maxRetxThreshold><t8/></maxRetxThreshold>
+                    </ul-AM-RLC>
+                    <dl-AM-RLC>
+                        <sn-FieldLength><size12/></sn-FieldLength>
+                        <t-Reassembly><ms40/></t-Reassembly>
+                        <t-StatusProhibit><ms35/></t-StatusProhibit>
+                    </dl-AM-RLC>
+                </am>
+            </rlc-Config>
+            <mac-LogicalChannelConfig>
+                <ul-SpecificParameters>
+                    <priority>1</priority>
+                    <prioritisedBitRate><infinity/></prioritisedBitRate>
+                    <bucketSizeDuration><ms150/></bucketSizeDuration>
+                    <logicalChannelGroup>0</logicalChannelGroup>
+                    <schedulingRequestID>0</schedulingRequestID>
+                    <logicalChannelSR-Mask><false/></logicalChannelSR-Mask>
+                    <logicalChannelSR-DelayTimerApplied><false/></logicalChannelSR-DelayTimerApplied>
+                </ul-SpecificParameters>
+            </mac-LogicalChannelConfig>
+        </RLC-BearerConfig>
+    </rlc-BearerToAddModList>
+    <mac-CellGroupConfig>
+        <schedulingRequestConfig>
+            <schedulingRequestToAddModList>
+                <SchedulingRequestToAddMod>
+                    <schedulingRequestId>0</schedulingRequestId>
+                    <sr-ProhibitTimer><ms32/></sr-ProhibitTimer>
+                    <sr-TransMax><n16/></sr-TransMax>
+                </SchedulingRequestToAddMod>
+            </schedulingRequestToAddModList>
+        </schedulingRequestConfig>
+        <bsr-Config>
+            <periodicBSR-Timer><sf10/></periodicBSR-Timer>
+            <retxBSR-Timer><sf320/></retxBSR-Timer>
+        </bsr-Config>
+        <tag-Config>
+            <tag-ToAddModList>
+                <TAG>
+                    <tag-Id>0</tag-Id>
+                    <timeAlignmentTimer><infinity/></timeAlignmentTimer>
+                </TAG>
+            </tag-ToAddModList>
+        </tag-Config>
+        <phr-Config>
+            <setup>
+                <phr-PeriodicTimer><infinity/></phr-PeriodicTimer>
+                <phr-ProhibitTimer><sf0/></phr-ProhibitTimer>
+                <phr-Tx-PowerFactorChange><infinity/></phr-Tx-PowerFactorChange>
+                <multiplePHR><false/></multiplePHR>
+                <dummy><false/></dummy>
+                <phr-Type2OtherCell><false/></phr-Type2OtherCell>
+                <phr-ModeOtherCG><real/></phr-ModeOtherCG>
+            </setup>
+        </phr-Config>
+        <skipUplinkTxDynamic><false/></skipUplinkTxDynamic>
+    </mac-CellGroupConfig>
+    <physicalCellGroupConfig>
+        <p-NR-FR1>0</p-NR-FR1>
+        <pdsch-HARQ-ACK-Codebook><dynamic/></pdsch-HARQ-ACK-Codebook>
+    </physicalCellGroupConfig>
+    <spCellConfig>
+        <servCellIndex>0</servCellIndex>
+        <rlmInSyncOutOfSyncThreshold><n1/></rlmInSyncOutOfSyncThreshold>
+        <spCellConfigDedicated>
+            <initialDownlinkBWP>
+                <pdcch-Config>
+                    <setup>
+                        <controlResourceSetToAddModList>
+                            <ControlResourceSet>
+                                <controlResourceSetId>1</controlResourceSetId>
+                                <frequencyDomainResources>
+                                    000000000111100000000000000000000000000000000
+                                </frequencyDomainResources>
+                                <duration>1</duration>
+                                <cce-REG-MappingType>
+                                    <nonInterleaved></nonInterleaved>
+                                </cce-REG-MappingType>
+                                <precoderGranularity><allContiguousRBs/></precoderGranularity>
+                                <pdcch-DMRS-ScramblingID>1</pdcch-DMRS-ScramblingID>
+                            </ControlResourceSet>
+                        </controlResourceSetToAddModList>
+                        <searchSpacesToAddModList>
+                            <SearchSpace>
+                                <searchSpaceId>5</searchSpaceId>
+                                <controlResourceSetId>1</controlResourceSetId>
+                                <monitoringSlotPeriodicityAndOffset>
+                                    <sl1></sl1>
+                                </monitoringSlotPeriodicityAndOffset>
+                                <monitoringSymbolsWithinSlot>
+                                    10000000000000
+                                </monitoringSymbolsWithinSlot>
+                                <nrofCandidates>
+                                    <aggregationLevel1><n0/></aggregationLevel1>
+                                    <aggregationLevel2><n2/></aggregationLevel2>
+                                    <aggregationLevel4><n0/></aggregationLevel4>
+                                    <aggregationLevel8><n0/></aggregationLevel8>
+                                    <aggregationLevel16><n0/></aggregationLevel16>
+                                </nrofCandidates>
+                                <searchSpaceType>
+                                    <ue-Specific>
+                                        <dci-Formats><formats0-1-And-1-1/></dci-Formats>
+                                    </ue-Specific>
+                                </searchSpaceType>
+                            </SearchSpace>
+                        </searchSpacesToAddModList>
+                    </setup>
+                </pdcch-Config>
+                <pdsch-Config>
+                    <setup>
+                        <dmrs-DownlinkForPDSCH-MappingTypeA>
+                            <setup>
+                                <dmrs-AdditionalPosition><pos0/></dmrs-AdditionalPosition>
+                            </setup>
+                        </dmrs-DownlinkForPDSCH-MappingTypeA>
+                        <resourceAllocation><resourceAllocationType1/></resourceAllocation>
+                        <pdsch-TimeDomainAllocationList>
+                            <setup>
+                                <PDSCH-TimeDomainResourceAllocation>
+                                    <k0>0</k0>
+                                    <mappingType><typeA/></mappingType>
+                                    <startSymbolAndLength>40</startSymbolAndLength>
+                                </PDSCH-TimeDomainResourceAllocation>
+                                <PDSCH-TimeDomainResourceAllocation>
+                                    <k0>1</k0>
+                                    <mappingType><typeA/></mappingType>
+                                    <startSymbolAndLength>40</startSymbolAndLength>
+                                </PDSCH-TimeDomainResourceAllocation>
+                            </setup>
+                        </pdsch-TimeDomainAllocationList>
+                        <rbg-Size><config1/></rbg-Size>
+                        <maxNrofCodeWordsScheduledByDCI><n1/></maxNrofCodeWordsScheduledByDCI>
+                        <prb-BundlingType>
+                            <staticBundling>
+                            </staticBundling>
+                        </prb-BundlingType>
+                    </setup>
+                </pdsch-Config>
+            </initialDownlinkBWP>
+            <firstActiveDownlinkBWP-Id>0</firstActiveDownlinkBWP-Id>
+            <defaultDownlinkBWP-Id>0</defaultDownlinkBWP-Id>
+            <uplinkConfig>
+                <initialUplinkBWP>
+                    <pucch-Config>
+                        <setup>
+                            <resourceSetToAddModList>
+                                <PUCCH-ResourceSet>
+                                    <pucch-ResourceSetId>1</pucch-ResourceSetId>
+                                    <resourceList>
+                                        <PUCCH-ResourceId>1</PUCCH-ResourceId>
+                                    </resourceList>
+                                </PUCCH-ResourceSet>
+                            </resourceSetToAddModList>
+                            <resourceToAddModList>
+                                <PUCCH-Resource>
+                                    <pucch-ResourceId>1</pucch-ResourceId>
+                                    <startingPRB>0</startingPRB>
+                                    <format>
+                                        <format1>
+                                            <initialCyclicShift>0</initialCyclicShift>
+                                            <nrofSymbols>4</nrofSymbols>
+                                            <startingSymbolIndex>0</startingSymbolIndex>
+                                            <timeDomainOCC>0</timeDomainOCC>
+                                        </format1>
+                                    </format>
+                                </PUCCH-Resource>
+                            </resourceToAddModList>
+                            <format1>
+                                <setup>
+                                    <nrofSlots><n4/></nrofSlots>
+                                </setup>
+                            </format1>
+                            <schedulingRequestResourceToAddModList>
+                                <SchedulingRequestResourceConfig>
+                                    <schedulingRequestResourceId>1</schedulingRequestResourceId>
+                                    <schedulingRequestID>0</schedulingRequestID>
+                                    <periodicityAndOffset>
+                                        <sl40>4</sl40>
+                                    </periodicityAndOffset>
+                                    <resource>8</resource>
+                                </SchedulingRequestResourceConfig>
+                            </schedulingRequestResourceToAddModList>
+                            <dl-DataToUL-ACK>
+                                <INTEGER>1</INTEGER>
+                                <INTEGER>2</INTEGER>
+                                <INTEGER>3</INTEGER>
+                                <INTEGER>4</INTEGER>
+                                <INTEGER>5</INTEGER>
+                                <INTEGER>6</INTEGER>
+                                <INTEGER>7</INTEGER>
+                                <INTEGER>8</INTEGER>
+                            </dl-DataToUL-ACK>
+                        </setup>
+                    </pucch-Config>
+                    <pusch-Config>
+                        <setup>
+                            <dataScramblingIdentityPUSCH>1</dataScramblingIdentityPUSCH>
+                            <dmrs-UplinkForPUSCH-MappingTypeA>
+                                <setup>
+                                    <dmrs-AdditionalPosition><pos0/></dmrs-AdditionalPosition>
+                                    <transformPrecodingDisabled>
+                                        <scramblingID0>1</scramblingID0>
+                                    </transformPrecodingDisabled>
+                                </setup>
+                            </dmrs-UplinkForPUSCH-MappingTypeA>
+                            <resourceAllocation><resourceAllocationType1/></resourceAllocation>
+                            <pusch-TimeDomainAllocationList>
+                                <setup>
+                                    <PUSCH-TimeDomainResourceAllocation>
+                                        <k2>4</k2>
+                                        <mappingType><typeA/></mappingType>
+                                        <startSymbolAndLength>41</startSymbolAndLength>
+                                    </PUSCH-TimeDomainResourceAllocation>
+                                    <PUSCH-TimeDomainResourceAllocation>
+                                        <k2>6</k2>
+                                        <mappingType><typeA/></mappingType>
+                                        <startSymbolAndLength>41</startSymbolAndLength>
+                                    </PUSCH-TimeDomainResourceAllocation>
+                                </setup>
+                            </pusch-TimeDomainAllocationList>
+                            <transformPrecoder><disabled/></transformPrecoder>
+                        </setup>
+                    </pusch-Config>
+                    <srs-Config>
+                        <setup>
+                            <srs-ResourceSetToAddModList>
+                                <SRS-ResourceSet>
+                                    <srs-ResourceSetId>1</srs-ResourceSetId>
+                                    <srs-ResourceIdList>
+                                        <SRS-ResourceId>1</SRS-ResourceId>
+                                    </srs-ResourceIdList>
+                                    <resourceType>
+                                        <aperiodic>
+                                            <aperiodicSRS-ResourceTrigger>1</aperiodicSRS-ResourceTrigger>
+                                        </aperiodic>
+                                    </resourceType>
+                                    <usage><codebook/></usage>
+                                </SRS-ResourceSet>
+                            </srs-ResourceSetToAddModList>
+                            <srs-ResourceToAddModList>
+                                <SRS-Resource>
+                                    <srs-ResourceId>1</srs-ResourceId>
+                                    <nrofSRS-Ports><port1/></nrofSRS-Ports>
+                                    <transmissionComb>
+                                        <n2>
+                                            <combOffset-n2>0</combOffset-n2>
+                                            <cyclicShift-n2>0</cyclicShift-n2>
+                                        </n2>
+                                    </transmissionComb>
+                                    <resourceMapping>
+                                        <startPosition>0</startPosition>
+                                        <nrofSymbols><n1/></nrofSymbols>
+                                        <repetitionFactor><n1/></repetitionFactor>
+                                    </resourceMapping>
+                                    <freqDomainPosition>0</freqDomainPosition>
+                                    <freqDomainShift>0</freqDomainShift>
+                                    <freqHopping>
+                                        <c-SRS>0</c-SRS>
+                                        <b-SRS>0</b-SRS>
+                                        <b-hop>0</b-hop>
+                                    </freqHopping>
+                                    <groupOrSequenceHopping><neither/></groupOrSequenceHopping>
+                                    <resourceType>
+                                        <aperiodic>
+                                        </aperiodic>
+                                    </resourceType>
+                                    <sequenceId>0</sequenceId>
+                                </SRS-Resource>
+                            </srs-ResourceToAddModList>
+                        </setup>
+                    </srs-Config>
+                </initialUplinkBWP>
+                <firstActiveUplinkBWP-Id>0</firstActiveUplinkBWP-Id>
+                <pusch-ServingCellConfig>
+                    <setup>
+                        <ext1>
+                            <maxMIMO-Layers>1</maxMIMO-Layers>
+                            <processingType2Enabled><false/></processingType2Enabled>
+                        </ext1>
+                    </setup>
+                </pusch-ServingCellConfig>
+            </uplinkConfig>
+            <pdsch-ServingCellConfig>
+                <setup>
+                    <nrofHARQ-ProcessesForPDSCH><n16/></nrofHARQ-ProcessesForPDSCH>
+                </setup>
+            </pdsch-ServingCellConfig>
+            <tag-Id>0</tag-Id>
+        </spCellConfigDedicated>
+    </spCellConfig>
+</CellGroupConfig>
+[RLC]   Added srb 1 to UE 0
+[0m<RadioBearerConfig>
+    <srb-ToAddModList>
+        <SRB-ToAddMod>
+            <srb-Identity>1</srb-Identity>
+        </SRB-ToAddMod>
+    </srb-ToAddModList>
+</RadioBearerConfig>
+[NR_RRC]   State = NR_RRC_CONNECTED
 [0m[NAS]   Generate Initial NAS Message: Registration Request
-[0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
+[0m<UL-DCCH-Message>
+    <message>
+        <c1>
+            <rrcSetupComplete>
+                <rrc-TransactionIdentifier>1</rrc-TransactionIdentifier>
+                <criticalExtensions>
+                    <rrcSetupComplete>
+                        <selectedPLMN-Identity>1</selectedPLMN-Identity>
+                        <dedicatedNAS-Message>
+                            7E 00 41 09 00 0D 01 00 F1 10 00 00 00 00 00 00 
+                            00 00 10 2E 08 E0 60 00 00 00 00 00 00
+                        </dedicatedNAS-Message>
+                    </rrcSetupComplete>
+                </criticalExtensions>
+            </rrcSetupComplete>
+        </c1>
+    </message>
+</UL-DCCH-Message>
+[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
 [0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
-[0m[1;31m[PHY]   [UE 0] frame 284, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 286, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 288, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 290, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 292, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 294, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 296, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 298, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 300, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 302, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 304, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 306, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 308, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 310, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 312, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 314, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 316, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 318, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 320, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 322, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 324, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 326, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 328, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 330, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 332, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 334, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 336, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 338, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 340, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 342, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 344, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 346, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 348, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 350, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 352, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 354, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 356, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 358, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 360, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 362, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 364, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 366, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 368, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 370, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 372, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 374, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 376, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 378, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 380, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 382, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 384, nr_slot_rx 0, Error decoding PBCH!
 [0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
-    DL harq: 1/0
+    DL harq: 1/1
     Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[1;31m[PHY]   [UE 0] frame 386, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 388, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 390, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 392, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 394, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 396, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 398, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 400, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 402, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 404, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 406, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 408, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 410, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 412, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 414, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 416, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 418, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 420, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 422, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 424, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 426, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 428, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 430, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 432, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 434, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 436, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 438, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 440, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 442, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 444, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 446, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 448, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 450, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 452, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 454, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 456, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 458, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 460, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 462, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 464, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 466, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 468, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 470, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 472, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 474, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 476, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 478, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 480, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 482, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 484, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 486, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 488, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 490, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 492, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 494, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 496, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 498, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 500, nr_slot_rx 0, Error decoding PBCH!
-[0m[93m[NR_RRC]   Timer T310 expired
-[0m[NR_RRC]   RRC moved into IDLE state
-[0m[NAS]   [UE 0] Received NR_NAS_CONN_RELEASE_IND: cause 2
-[0m[NR_MAC]   [UE0] Initializing MAC
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 1/1
+    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
 [0m
