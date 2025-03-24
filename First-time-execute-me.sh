@@ -6,12 +6,16 @@ if [ ! -d "../O-CU" ]; then
     git clone -b OAI-CU-for-OSC https://github.com/dong881/openairinterface5g-NTUST.git ../O-CU
 fi
 
-if [ ! -d "../OAI_L1_UE" ]; then
-    git clone -b OSC-use-nfapi https://github.com/dong881/openairinterface5g-NTUST.git ../OAI_L1_UE
+if [ ! -d "../OAI_L1" ]; then
+    git clone -b OSC-use-nfapi https://github.com/dong881/openairinterface5g-NTUST.git ../OAI_L1
 fi
 
-if [ ! -d "../O-DU" ]; then
-    git clone -b FixRAR https://github.com/dong881/NTUST-OSC-DU-nFAPI.git ../O-DU
+if [ ! -d "../OAI_UE" ]; then
+    git clone -b develop https://gitlab.eurecom.fr/oai/openairinterface5g.git ../OAI_UE
+fi
+
+if [ ! -d "../OSC-DU-High" ]; then
+    git clone -b FixRAR https://github.com/dong881/NTUST-OSC-DU-nFAPI.git ../OSC-DU-High
 fi
 
 sudo apt-get install moreutils -y
