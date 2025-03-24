@@ -1,0 +1,225 @@
+diff --git a/src/du_app/du_f1ap_msg_hdl.c b/src/du_app/du_f1ap_msg_hdl.c
+index e8f1e52e..1520e274 100644
+--- a/src/du_app/du_f1ap_msg_hdl.c
++++ b/src/du_app/du_f1ap_msg_hdl.c
+@@ -5316,7 +5316,14 @@ uint8_t BuildPucchSchReqAddModList(PucchSchedReqCfg *schReqDb, \
+    uint8_t elementCnt = 0, schReqIdx = 0;
+    SchedulingRequestResourceConfig_t *schReqRsrc;
+ 
+-   elementCnt = schReqDb->schedAddModListCount;
++   if(schReqDb)
++   {
++       elementCnt = schReqDb->schedAddModListCount;
++   }
++   else
++   {
++       elementCnt = 1;
++   }
+    schReqRsrcToAddModList->list.count = elementCnt;
+    schReqRsrcToAddModList->list.size = elementCnt *sizeof(struct SchedulingRequestResourceConfig *);
+ 
+@@ -5341,83 +5348,109 @@ uint8_t BuildPucchSchReqAddModList(PucchSchedReqCfg *schReqDb, \
+    for(schReqIdx = 0; schReqIdx < schReqRsrcToAddModList->list.count; schReqIdx++)
+    {
+       schReqRsrc = schReqRsrcToAddModList->list.array[schReqIdx];
+-      schReqRsrc->schedulingRequestResourceId = schReqDb->schedAddModList[schReqIdx].resrcId;
+-      schReqRsrc->schedulingRequestID = schReqDb->schedAddModList[schReqIdx].requestId;
+-
+-      if(schReqDb->schedAddModList[schReqIdx].periodicity)
++      if(schReqDb)
+       {
+-         schReqRsrc->periodicityAndOffset = NULLP;
+-         DU_ALLOC(schReqRsrc->periodicityAndOffset, sizeof(struct SchedulingRequestResourceConfig__periodicityAndOffset));
+-         if(schReqRsrc->periodicityAndOffset == NULLP)
+-         {
+-            DU_LOG("\nERROR  --> DU APP: Memory allocation failed in BuildPucchSchReqAddModList");
+-            return RFAILED;
+-         }
++          schReqRsrc->schedulingRequestResourceId = schReqDb->schedAddModList[schReqIdx].resrcId;
++          schReqRsrc->schedulingRequestID = schReqDb->schedAddModList[schReqIdx].requestId;
+ 
+-         schReqRsrc->periodicityAndOffset->present = schReqDb->schedAddModList[schReqIdx].periodicity;
+-         switch(schReqRsrc->periodicityAndOffset->present)
+-         {
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_NOTHING:
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sym2:
+-               schReqRsrc->periodicityAndOffset->choice.sym2 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sym6or7:
+-               schReqRsrc->periodicityAndOffset->choice.sym6or7 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl1:
+-               schReqRsrc->periodicityAndOffset->choice.sl1 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl2:
+-               schReqRsrc->periodicityAndOffset->choice.sl2 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl4:
+-               schReqRsrc->periodicityAndOffset->choice.sl4 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl5:
+-               schReqRsrc->periodicityAndOffset->choice.sl5 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl8:
+-               schReqRsrc->periodicityAndOffset->choice.sl8 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl10:
+-               schReqRsrc->periodicityAndOffset->choice.sl10 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl16:
+-               schReqRsrc->periodicityAndOffset->choice.sl16 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl20:
+-               schReqRsrc->periodicityAndOffset->choice.sl20 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl40:
+-               schReqRsrc->periodicityAndOffset->choice.sl40 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl80:
+-               schReqRsrc->periodicityAndOffset->choice.sl80 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl160:
+-               schReqRsrc->periodicityAndOffset->choice.sl160 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl320:
+-               schReqRsrc->periodicityAndOffset->choice.sl320 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-            case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl640:
+-               schReqRsrc->periodicityAndOffset->choice.sl640 = schReqDb->schedAddModList[schReqIdx].offset;
+-               break;
+-         }
+-      }
++          if(schReqDb->schedAddModList[schReqIdx].periodicity)
++          {
++             schReqRsrc->periodicityAndOffset = NULLP;
++             DU_ALLOC(schReqRsrc->periodicityAndOffset, sizeof(struct SchedulingRequestResourceConfig__periodicityAndOffset));
++             if(schReqRsrc->periodicityAndOffset == NULLP)
++             {
++                DU_LOG("\nERROR  --> DU APP: Memory allocation failed in BuildPucchSchReqAddModList");
++                return RFAILED;
++             }
+ 
+-      if(schReqDb->schedAddModList[schReqIdx].resrc)
++             schReqRsrc->periodicityAndOffset->present = schReqDb->schedAddModList[schReqIdx].periodicity;
++             switch(schReqRsrc->periodicityAndOffset->present)
++             {
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_NOTHING:
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sym2:
++                   schReqRsrc->periodicityAndOffset->choice.sym2 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sym6or7:
++                   schReqRsrc->periodicityAndOffset->choice.sym6or7 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl1:
++                   schReqRsrc->periodicityAndOffset->choice.sl1 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl2:
++                   schReqRsrc->periodicityAndOffset->choice.sl2 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl4:
++                   schReqRsrc->periodicityAndOffset->choice.sl4 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl5:
++                   schReqRsrc->periodicityAndOffset->choice.sl5 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl8:
++                   schReqRsrc->periodicityAndOffset->choice.sl8 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl10:
++                   schReqRsrc->periodicityAndOffset->choice.sl10 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl16:
++                   schReqRsrc->periodicityAndOffset->choice.sl16 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl20:
++                   schReqRsrc->periodicityAndOffset->choice.sl20 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl40:
++                   schReqRsrc->periodicityAndOffset->choice.sl40 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl80:
++                   schReqRsrc->periodicityAndOffset->choice.sl80 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl160:
++                   schReqRsrc->periodicityAndOffset->choice.sl160 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl320:
++                   schReqRsrc->periodicityAndOffset->choice.sl320 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++                case SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl640:
++                   schReqRsrc->periodicityAndOffset->choice.sl640 = schReqDb->schedAddModList[schReqIdx].offset;
++                   break;
++             }
++          }
++          
++          if(schReqDb->schedAddModList[schReqIdx].resrc)
++          {
++              schReqRsrc->resource = NULLP;
++              DU_ALLOC(schReqRsrc->resource, sizeof(PUCCH_ResourceId_t));
++              if(schReqRsrc->resource == NULLP)
++              {
++                  DU_LOG("\nERROR  --> DU APP: Memory allocation failed in BuildPucchSchReqAddModList");
++                  return RFAILED;
++              }
++              *(schReqRsrc->resource) = schReqDb->schedAddModList[schReqIdx].resrc;
++              
++          }
++      }
++      else
+       {
+-         schReqRsrc->resource = NULLP;
+-         DU_ALLOC(schReqRsrc->resource, sizeof(PUCCH_ResourceId_t));
+-         if(schReqRsrc->resource == NULLP)
+-         {
+-            DU_LOG("\nERROR  --> DU APP: Memory allocation failed in BuildPucchSchReqAddModList");
+-            return RFAILED;
+-         }
+-         *(schReqRsrc->resource) = schReqDb->schedAddModList[schReqIdx].resrc;
++          schReqRsrc->schedulingRequestResourceId = 1;
++          schReqRsrc->schedulingRequestID = 0;
++          schReqRsrc->periodicityAndOffset = NULLP;
++          DU_ALLOC(schReqRsrc->periodicityAndOffset, sizeof(struct SchedulingRequestResourceConfig__periodicityAndOffset));
++          if(schReqRsrc->periodicityAndOffset == NULLP)
++          {
++              DU_LOG("\nERROR  --> DU APP: Memory allocation failed in BuildPucchSchReqAddModList");
++              return RFAILED;
++          }
+ 
++          schReqRsrc->periodicityAndOffset->present = SchedulingRequestResourceConfig__periodicityAndOffset_PR_sl40;
++          schReqRsrc->periodicityAndOffset->choice.sl40 = 4;//schReqDb->schedAddModList[schReqIdx].offset;
++          schReqRsrc->resource = NULLP;
++          DU_ALLOC(schReqRsrc->resource, sizeof(PUCCH_ResourceId_t));
++          if(schReqRsrc->resource == NULLP)
++          {
++              DU_LOG("\nERROR  --> DU APP: Memory allocation failed in BuildPucchSchReqAddModList");
++              return RFAILED;
++          }
++          *(schReqRsrc->resource) = 8;
+       }
+    }
+    return ROK;
+@@ -5718,6 +5751,22 @@ uint8_t BuildBWPUlDedPucchCfg(PucchCfg *pucchCfgDb, PUCCH_Config_t *pucchCfg)
+          return RFAILED;
+       }
+    }
++   else
++   {
++       pucchCfg->schedulingRequestResourceToAddModList = NULLP;
++       DU_ALLOC(pucchCfg->schedulingRequestResourceToAddModList, sizeof(struct PUCCH_Config__schedulingRequestResourceToAddModList));
++       if(pucchCfg->schedulingRequestResourceToAddModList == NULLP)
++       {
++           DU_LOG("\nERROR  -->  F1AP : Memory allocation failed in BuildBWPUlDedPucchCfg");
++           return RFAILED;
++       }
++
++       if(BuildPucchSchReqAddModList(schReqDb, pucchCfg->schedulingRequestResourceToAddModList) != ROK)
++       {
++           DU_LOG("\nERROR  -->  F1AP : Memory allocation failed in BuildBWPUlDedPucchCfg");
++           return RFAILED;
++       }
++   }
+ 
+    /* Multi CSI */
+    if(multiCsiDb && (multiCsiDb->multiCsiResrcListCount != 0))
