@@ -47,7 +47,7 @@ else
     
     # TCPdump
     # sudo echo "Start TCPdump..."
-    sudo tcpdump -i any -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE 2>/dev/null & 
+    # sudo tcpdump -i any -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE 2>/dev/null & 
     # clean & compile OSC DU
     cd $PATH_TO_O_DU_L2
     # Check for changes compared to last build
@@ -87,7 +87,6 @@ else
     sudo stdbuf -oL $RIC_STUB_PATH &>$RIC_LOG_FILE & # 2>&1 | ts
     sleep 1
     RIC_PID=$(pgrep -o ric_stub)
-    # echo $RIC_PID
     echo -n $RIC_PID >> $PID_FILE
     echo -n " " >> $PID_FILE
 
