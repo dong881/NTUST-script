@@ -139,7 +139,7 @@ configuring for RAU/RRU
 [OPT]   OPT disabled
 [0m[HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 0709550b76 Date: Sun Oct 13 19:23:06 2024 +0800
 [0m[LIBCONFIG] list gNBs not found in config file /home/hpe/NTUST-script/CONFIG/gnb-pnf.band78.rfsim.conf 
-[NR_PHY]   RC.gNB = 0x5af308532f80
+[NR_PHY]   RC.gNB = 0x63bab7510f80
 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
 [PHY]   L1_RX_THREAD_CORE -1 (15)
 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
@@ -157,7 +157,7 @@ configuring for RAU/RRU
 Initializing northbound interface for L1
 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5af30853c120
+[0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x63bab751a120
 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
 [0m[PNF] pnf param request
 [PNF] pnf config request
@@ -247,7 +247,7 @@ Timing window tag: 286
 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
 timing info mode:3
 timing info period provided value:10
-170000430509 [E] 3120563776: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
+1641066469065 [E] 2887779904: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
 [PNF] CONFIG_REQUEST[num_tlv:184] TLVs processed:6
 [PNF] Simulating PHY CONFIG
 DL frequency 3619200000: band 48, UL frequency 3619200000
@@ -279,9 +279,9 @@ RC.nb_nr_L1_inst:1
 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
 [PHY]   Initializing gNB 0 single_thread_flag:1
 [0m[PHY]   Initializing gNB 0
-[0m[PHY]   Registering with MAC interface module (before 0x5af30853c120)
+[0m[PHY]   Registering with MAC interface module (before 0x63bab751a120)
 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[PHY]   Registering with MAC interface module (after 0x5af30853c120)
+[0m[PHY]   Registering with MAC interface module (after 0x63bab751a120)
 [0m[PHY]   Setting indication lists
 [0m[PHY]   [nr-gnb.c] gNB structure allocated
 [0mwait_gNBs()
@@ -289,18 +289,18 @@ Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_
 [PNF] P7 remote:127.0.0.1:50011 local:127.0.0.1:50010
 subframe_buffer_size configured using phy_info->timing_window:30
 [PNF] Sending PNF_START_RESP
-Sending NFAPI_START_RESPONSE config:0x5af308533ea0 phy_id:1
-[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
-[0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0mCalling sched_setscheduler(79)
-[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-[0mgNB L1 are configured
+Sending NFAPI_START_RESPONSE config:0x63bab7511ea0 phy_id:1
+gNB L1 are configured
 About to Init RU threads RC.nb_RU:1
 Initializing RU threads
 configuring RU from file
 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (35 to default value)
 Set RU mask to 1
-Creating RC.ru[0]:0x5af30853ed30
+[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[0mCalling sched_setscheduler(79)
+[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[0mCreating RC.ru[0]:0x63bab751cd30
 [PHY]   RU GPIO control set as 'generic'
 [0m[PHY]   Setting clock source to internal
 [0m[PHY]   Setting time source to internal
@@ -309,7 +309,7 @@ Creating RC.ru[0]:0x5af30853ed30
 [RU 0] Setting half-slot parallelization to 1
 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
-[0mconfiguring ru_id 0 (start_rf 0x5af2c5bbd5b0)
+[0mconfiguring ru_id 0 (start_rf 0x63baa0a0e5b0)
 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
 [0m[PHY]   RU Thread pool size 2
 [0m[PHY]   RU thread-pool core string -1,-1
@@ -321,7 +321,7 @@ Creating RC.ru[0]:0x5af30853ed30
 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
-[0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 4
+[0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 17
 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
@@ -340,13 +340,13 @@ Creating RC.ru[0]:0x5af30853ed30
 [0m[PHY]   fp->first_carrier_offset=1412
 [0m[PHY]   fp->ssb_start_subcarrier=0
 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
-[0m[PHY]   [INIT] common.txdata[0] = 0x74a5a9400040 (2458880 bytes,sf_extension 320)
-[0m[PHY]   [INIT] common.txdata[0] = 0x74a5a9400540 
+[0m[PHY]   [INIT] common.txdata[0] = 0x7d9ea8e00040 (2458880 bytes,sf_extension 320)
+[0m[PHY]   [INIT] common.txdata[0] = 0x7d9ea8e00540 
 [0m[PHY]   nb_tx 1
-[0m[PHY]   rxdata_7_5kHz[0] 0x74a5ba90f040 for RU 0
-[0m[PHY]   [INIT] common.txdata_BF= 0x74a5a4000ac0 (8 bytes)
-[0m[PHY]   txdataF_BF[0] 0x74a5bb2c7040 for RU 0
-[0m[PHY]   rxdataF[0] 0x74a5bb256040 for RU 0
+[0m[PHY]   rxdata_7_5kHz[0] 0x7d9eacb0f040 for RU 0
+[0m[PHY]   [INIT] common.txdata_BF= 0x7d9e94000ac0 (8 bytes)
+[0m[PHY]   txdataF_BF[0] 0x7d9eace76040 for RU 0
+[0m[PHY]   rxdataF[0] 0x7d9eaca9e040 for RU 0
 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
@@ -361,17 +361,17 @@ shlib_path librfsimulator.so
 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (5 to default value)
 [93m[HW]   sample_rate 61440000.000000
 [0m[HW]   Running as server waiting opposite rfsimulators to connect
-[0mInitializing random number generator, seed 13821461824319787988
+[0mInitializing random number generator, seed 1865481875859409026
 [HW]   [RAU] has loaded RFSIMULATOR device.
-[0msetup_RU_buffers: frame_parms = 0x74a5bacaf010
+[0msetup_RU_buffers: frame_parms = 0x7d9eaceaf010
 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
-[0mwaiting for sync (ru_thread,-1/0x5af2c67ab0ac,0x5af2c80d00a0,0x5af2c80cf3a0)
+[0mwaiting for sync (ru_thread,-1/0x63baa15fc0ac,0x63baa2f210a0,0x63baa2f203a0)
 [PNF] waiting for OAI to be configured (eNB/RU)
 [PNF] OAI eNB/RU configured
 [PNF] About to call init_eNB_afterRU()
 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:0
-[0m[PHY]   RC.nb_nr_CC[inst:0]:0x74a5ba200010
+[0m[PHY]   RC.nb_nr_CC[inst:0]:0x7d9eac400010
 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
 shlib_path libdfts.so
@@ -413,9 +413,9 @@ shlib_path libldpc.so
 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
-[0mwaiting for sync (L1_stats_thread,-1/0x5af2c67ab0ac,0x5af2c80d00a0,0x5af2c80cf3a0)
+[0mwaiting for sync (L1_stats_thread,-1/0x63baa15fc0ac,0x63baa2f210a0,0x63baa2f203a0)
 [PNF] Sending PNF_START_RESP
-Sending NFAPI_START_RESPONSE config:0x5af308533ea0 phy_id:1
+Sending NFAPI_START_RESPONSE config:0x63bab7511ea0 phy_id:1
 NFAPI: got sync (main?)
 wait RUs
 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
@@ -441,430 +441,31 @@ got sync (ru_thread)
 [0m[93m[HW]   No connected device, generating void samples...
 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
 [0m[HW]   A client connects, sending the current time
-[0m[NR_PHY]   [RAPROC] 279.19 Initiating RA procedure with preamble 39, energy 55.7 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 282, slot 7: PUCCH signal energy 261494
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 282.7 HARQ NACK with confidence level good xrt_mag 470 xrt_mag_next 340 pucch_power_dBtimes10 480 n0 0 (0,0) pucch0_thres 100, cqi 224, SNRtimes10 480, energy 54.174617
-[0m[PHY]   frame 283, slot 7: PUCCH signal energy 262401
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ ACK with confidence level good xrt_mag 470 xrt_mag_next 340 pucch_power_dBtimes10 510 n0 0 (0,0) pucch0_thres 100, cqi 230, SNRtimes10 510, energy 54.189655
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
+[0m[NR_PHY]   [RAPROC] 279.19 Initiating RA procedure with preamble 55, energy 55.7 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
+[0m[PHY]   frame 282, slot 7: PUCCH signal energy 0
+[0m[PHY]   [DLSCH/PDSCH/PUCCH] 282.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
+[0m[PHY]   frame 283, slot 8: PUCCH signal energy 0
+[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.8 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
+[0m1641076754639 [W] 2887779904: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+1641076754659 [W] 2887779904: pnf_nr_read_dispatch_message: Disconnected socket
+1641077754781 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641079754925 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+[93m[HW]   Lost socket
+[0m1641081755075 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641083755237 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641085755385 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641087755541 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641089755686 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641091755819 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641093755959 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641095756129 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+[PHY]   frame 282, slot 7: PUCCH signal energy 0
+[0m[PHY]   [DLSCH/PDSCH/PUCCH] 282.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
+[0m[PHY]   frame 283, slot 8: PUCCH signal energy 0
+[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.8 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
+[0m1641097756287 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641099756448 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641101756614 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641103756773 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641105756934 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+1641107757106 [E] 2887779904: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
