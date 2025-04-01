@@ -1,6 +1,6 @@
 #!/bin/bash
 l="/home/hpe/NTUST-script/LOG/5-OAI_UE.log"
-ec=("synch Failed" "RAR reception failed" "Lost socket")
+ec=("synch Failed" "RAR reception failed") # "Lost socket"
 bash ./exit
 while :; do
     bash ./all-in-one

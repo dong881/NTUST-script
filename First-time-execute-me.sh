@@ -20,6 +20,7 @@ fi
 
 sudo apt-get install moreutils -y
 cd ./Tools
+bash ./Install-OAI-CN.sh
 bash ./build-OAI-first
 bash ./build-CU
 bash ./build-OSC-all
