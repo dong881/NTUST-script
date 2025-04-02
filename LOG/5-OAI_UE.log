@@ -60,11 +60,11 @@ CMDLINE: "/home/hpe/OnlyOAI/openairinterface5g/cmake_targets/ran_build/build/nr-
 [0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
 [0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
 [0m[HW]   Running as client: will connect to a rfsimulator server side
-[0mUE threads created by 1826953
+[0mUE threads created by 428874
 TYPE <CTRL-C> TO TERMINATE
 [NR_RRC]   create TASK_RRC_NRUE 
 [0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
-[0mInitializing random number generator, seed 8801687286583693456
+[0mInitializing random number generator, seed 2814427545946597258
 [HW]   [RRU] has loaded RFSIMULATOR device.
 [0m[HW]   Trying to connect to 127.0.0.1:4043
 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
@@ -89,28 +89,44 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[PHY]   Initial sync: pbch decoded sucessfully, ssb index 0
 [0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
 [0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 99 dB, PSS Corr Average: 61
-[0m[PHY]   [UE0] In synch, rx_offset 430080 samples
+[0m[PHY]   [UE0] In synch, rx_offset 153600 samples
 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 6 Hz
 [0m[32m[PHY]   Initial sync successful, PCI: 1
 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200006 Hz, rx_freq 3619200006 Hz, tune_offset 0
-[0m[PHY]   Got synch: hw_slot_offset 28, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
+[0m[PHY]   Got synch: hw_slot_offset 10, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=1 trashed_frames=12
-[0m[PHY]   Resynchronizing RX by 430080 samples
+[0m[PHY]   Resynchronizing RX by 153600 samples
 [0m[HW]   received write reorder clear context
+[0m[MAC]   DLSCH riv = 480
+[0m[MAC]   DLSCH n_RB_DLBWP = 48
+[0m[MAC]   DLSCH number_rbs = 11
+[0m[MAC]   DLSCH start_rb = 0
+[0m[NR_MAC]   [150.0] HARQ process 0, TBS 704, R 3790, NDI 1
 [0m[32m[NR_RRC]   SIB1 decoded
 [0m[NR_MAC]   TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
 [0m[NR_MAC]   Set TDD configuration period to: 8 DL slots, 3 UL slots, 10 slots per period (NR_TDD_UL_DL_Pattern is 7 DL slots, 2 UL slots, 6 DL symbols, 4 UL symbols)
 [0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
 [0m[MAC]   Initialization of 4-Step CBRA procedure
 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
-[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0, preambleIndex = 55
+[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0, preambleIndex = 19
+[0m[MAC]   DLSCH riv = 144
+[0m[MAC]   DLSCH n_RB_DLBWP = 48
+[0m[MAC]   DLSCH number_rbs = 4
+[0m[MAC]   DLSCH start_rb = 0
+[0m[NR_MAC]   [280.12] HARQ process 0, TBS 112, R 1200, NDI 1
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
-[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 55
+[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 19
 [0m[93m[MAC]   received TA command 31
 [0m[PHY]   RAR-Msg2 decoded
 [0m[32m[NR_MAC]   [RAPROC][280.19] RA-Msg3 transmitted
-[0m[MAC]   [UE 0]Frame 281 Contention resolution identity: 0x10596c443826 Terminating RA procedure
+[0m[MAC]   DLSCH riv = 767
+[0m[MAC]   DLSCH n_RB_DLBWP = 48
+[0m[MAC]   DLSCH number_rbs = 34
+[0m[MAC]   DLSCH start_rb = 0
+[0m[NR_MAC]   [281.15] HARQ process 0, TBS 984, R 1200, NDI 1
+[0m[1;31m[NR_MAC]   Lock of UL config for PDU type 2 called for slot 0 which is not UL
+[0m[MAC]   [UE 0]Frame 281 Contention resolution identity: 0x176c37d881e6 Terminating RA procedure
 [0m[32m[MAC]   [UE 0][281.15][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
 [0m[RLC]   Added srb 1 to UE 0
@@ -118,6 +134,7 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[NAS]   Generate Initial NAS Message: Registration Request
 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
 [0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
+[0m[1;31m[PHY]   [UE 0] frame 284, nr_slot_rx 0, Error decoding PBCH!
 [0m[1;31m[PHY]   [UE 0] frame 286, nr_slot_rx 0, Error decoding PBCH!
 [0m[1;31m[PHY]   [UE 0] frame 288, nr_slot_rx 0, Error decoding PBCH!
 [0m[1;31m[PHY]   [UE 0] frame 290, nr_slot_rx 0, Error decoding PBCH!
@@ -229,7 +246,6 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[1;31m[PHY]   [UE 0] frame 496, nr_slot_rx 0, Error decoding PBCH!
 [0m[1;31m[PHY]   [UE 0] frame 498, nr_slot_rx 0, Error decoding PBCH!
 [0m[1;31m[PHY]   [UE 0] frame 500, nr_slot_rx 0, Error decoding PBCH!
-[0m[1;31m[PHY]   [UE 0] frame 502, nr_slot_rx 0, Error decoding PBCH!
 [0m[93m[NR_RRC]   Timer T310 expired
 [0m[NR_RRC]   RRC moved into IDLE state
 [0m[NAS]   [UE 0] Received NR_NAS_CONN_RELEASE_IND: cause 2
