@@ -137,9 +137,9 @@ configuring for RAU/RRU
 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
 [OPT]   OPT disabled
-[0m[HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 0709550b76 Date: Sun Oct 13 19:23:06 2024 +0800
+[0m[HW]   Version: Branch: OSC-use-nfapi Abrev. Hash: 2f1cc23b52 Date: Sun Feb 23 01:27:57 2025 +0800
 [0m[LIBCONFIG] list gNBs not found in config file /home/hpe/NTUST-script/CONFIG/gnb-pnf.band78.rfsim.conf 
-[NR_PHY]   RC.gNB = 0x61de27d96f80
+[NR_PHY]   RC.gNB = 0x615cfb057f80
 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (11 to default value)
 [PHY]   L1_RX_THREAD_CORE -1 (15)
 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
@@ -157,7 +157,7 @@ configuring for RAU/RRU
 Initializing northbound interface for L1
 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x61de27da0120
+[0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x615cfb061120
 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
 [0m[PNF] pnf param request
 [PNF] pnf config request
@@ -247,7 +247,7 @@ Timing window tag: 286
 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
 timing info mode:3
 timing info period provided value:10
-1730233270276 [E]   31458880: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
+261646965608 [E]    8390208: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:100
 [PNF] CONFIG_REQUEST[num_tlv:184] TLVs processed:6
 [PNF] Simulating PHY CONFIG
 DL frequency 3619200000: band 48, UL frequency 3619200000
@@ -279,9 +279,9 @@ RC.nb_nr_L1_inst:1
 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
 [PHY]   Initializing gNB 0 single_thread_flag:1
 [0m[PHY]   Initializing gNB 0
-[0m[PHY]   Registering with MAC interface module (before 0x61de27da0120)
+[0m[PHY]   Registering with MAC interface module (before 0x615cfb061120)
 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[PHY]   Registering with MAC interface module (after 0x61de27da0120)
+[0m[PHY]   Registering with MAC interface module (after 0x615cfb061120)
 [0m[PHY]   Setting indication lists
 [0m[PHY]   [nr-gnb.c] gNB structure allocated
 [0mwait_gNBs()
@@ -289,7 +289,7 @@ Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_
 [PNF] P7 remote:127.0.0.1:50011 local:127.0.0.1:50010
 subframe_buffer_size configured using phy_info->timing_window:30
 [PNF] Sending PNF_START_RESP
-Sending NFAPI_START_RESPONSE config:0x61de27d97ea0 phy_id:1
+Sending NFAPI_START_RESPONSE config:0x615cfb058ea0 phy_id:1
 gNB L1 are configured
 About to Init RU threads RC.nb_RU:1
 Initializing RU threads
@@ -298,9 +298,9 @@ configuring RU from file
 Set RU mask to 1
 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
 [0mCalling sched_setscheduler(79)
-[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-[0mCreating RC.ru[0]:0x61de27da2d30
+Creating RC.ru[0]:0x615cfb063d30
 [PHY]   RU GPIO control set as 'generic'
 [0m[PHY]   Setting clock source to internal
 [0m[PHY]   Setting time source to internal
@@ -309,7 +309,7 @@ Set RU mask to 1
 [RU 0] Setting half-slot parallelization to 1
 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
 [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
-[0mconfiguring ru_id 0 (start_rf 0x61ddfd56b5b0)
+[0mconfiguring ru_id 0 (start_rf 0x615cbe4aa5b0)
 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
 [0m[PHY]   RU Thread pool size 2
 [0m[PHY]   RU thread-pool core string -1,-1
@@ -321,7 +321,7 @@ Set RU mask to 1
 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
 [0m[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
 [0m[UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
-[0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 10
+[0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 5
 [0mwaiting for NFAPI PNF connection and population of global structure (main?)
 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
@@ -340,13 +340,13 @@ Set RU mask to 1
 [0m[PHY]   fp->first_carrier_offset=1412
 [0m[PHY]   fp->ssb_start_subcarrier=0
 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
-[0m[PHY]   [INIT] common.txdata[0] = 0x7100f1400040 (2458880 bytes,sf_extension 320)
-[0m[PHY]   [INIT] common.txdata[0] = 0x7100f1400540 
+[0m[PHY]   [INIT] common.txdata[0] = 0x7d67fd400040 (2458880 bytes,sf_extension 320)
+[0m[PHY]   [INIT] common.txdata[0] = 0x7d67fd400540 
 [0m[PHY]   nb_tx 1
-[0m[PHY]   rxdata_7_5kHz[0] 0x71010270f040 for RU 0
-[0m[PHY]   [INIT] common.txdata_BF= 0x7100ec000ac0 (8 bytes)
-[0m[PHY]   txdataF_BF[0] 0x710102a76040 for RU 0
-[0m[PHY]   rxdataF[0] 0x71010269e040 for RU 0
+[0m[PHY]   rxdata_7_5kHz[0] 0x7d680110f040 for RU 0
+[0m[PHY]   [INIT] common.txdata_BF= 0x7d67e8000ac0 (8 bytes)
+[0m[PHY]   txdataF_BF[0] 0x7d6801a67040 for RU 0
+[0m[PHY]   rxdataF[0] 0x7d680143e040 for RU 0
 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
@@ -361,17 +361,17 @@ shlib_path librfsimulator.so
 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (5 to default value)
 [93m[HW]   sample_rate 61440000.000000
 [0m[HW]   Running as server waiting opposite rfsimulators to connect
-[0mInitializing random number generator, seed 12170110219156166867
+[0mInitializing random number generator, seed 880881407085983635
 [HW]   [RAU] has loaded RFSIMULATOR device.
-[0msetup_RU_buffers: frame_parms = 0x710102aaf010
+[0msetup_RU_buffers: frame_parms = 0x7d68014af010
 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
-[0mwaiting for sync (ru_thread,-1/0x61ddfe1590ac,0x61ddffa7e0a0,0x61ddffa7d3a0)
+[0mwaiting for sync (ru_thread,-1/0x615cbf0980ac,0x615cc09bd0a0,0x615cc09bc3a0)
 [PNF] waiting for OAI to be configured (eNB/RU)
 [PNF] OAI eNB/RU configured
 [PNF] About to call init_eNB_afterRU()
 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:0
-[0m[PHY]   RC.nb_nr_CC[inst:0]:0x710102000010
+[0m[PHY]   RC.nb_nr_CC[inst:0]:0x7d6800a00010
 [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
 [0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
 shlib_path libdfts.so
@@ -413,13 +413,15 @@ shlib_path libldpc.so
 [0m[UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
 [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
 [0m[UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
-[0mwaiting for sync (L1_stats_thread,-1/0x61ddfe1590ac,0x61ddffa7e0a0,0x61ddffa7d3a0)
+[0mwaiting for sync (L1_stats_thread,-1/0x615cbf0980ac,0x615cc09bd0a0,0x615cc09bc3a0)
 [PNF] Sending PNF_START_RESP
-Sending NFAPI_START_RESPONSE config:0x61de27d97ea0 phy_id:1
+Sending NFAPI_START_RESPONSE config:0x615cfb058ea0 phy_id:1
 NFAPI: got sync (main?)
 wait RUs
+[PNF] Sending first P7 slot indication
 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
-[0m[PHY]   RUs configured
+[0m[PNF] Sent first P7 slot ind
+[PHY]   RUs configured
 [0mALL RUs READY!
 RC.nb_RU:1
 ALL RUs ready - init gNBs
@@ -430,8 +432,6 @@ Entering ITTI signals handler
 TYPE <CTRL-C> TO TERMINATE
 got sync (L1_stats_thread)
 got sync (ru_thread)
-[PNF] Sending first P7 slot indication
-[PNF] Sent first P7 slot ind
 [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
@@ -441,75 +441,5 @@ got sync (ru_thread)
 [0m[93m[HW]   No connected device, generating void samples...
 [0m[32m[PHY]   Command line parameters for the UE: -C 3619200000 -r 106 --numerology 1 --ssb 516
 [0m[HW]   A client connects, sending the current time
-[0m[NR_PHY]   [RAPROC] 279.19 Initiating RA procedure with preamble 58, energy 54.9 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
-[0m
-Assertion (harq->sdu_len > 0) failed!
-In nr_generate_pdsch() /home/hpe/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:108
-no HARQ SDU present
-pucch_pdu->rnti: 100
-pucch_pdu->handle: 0
-pucch_pdu->bwp_size: 106
-pucch_pdu->bwp_start: 0
-pucch_pdu->subcarrier_spacing: 1
-pucch_pdu->cyclic_prefix: 0
-pucch_pdu->format_type: 0
-pucch_pdu->multi_slot_tx_indicator: 0
-pucch_pdu->pi_2bpsk: 0
-pucch_pdu->prb_start: 0
-pucch_pdu->prb_size: 1
-pucch_pdu->start_symbol_index: 12
-pucch_pdu->nr_of_symbols: 2
-pucch_pdu->freq_hop_flag: 0
-pucch_pdu->second_hop_prb: 0
-pucch_pdu->group_hop_flag: 0
-pucch_pdu->sequence_hop_flag: 0
-pucch_pdu->hopping_id: 0
-pucch_pdu->initial_cyclic_shift: 0
-pucch_pdu->data_scrambling_id: 0
-pucch_pdu->time_domain_occ_idx: 0
-pucch_pdu->pre_dft_occ_idx: 0
-pucch_pdu->pre_dft_occ_len: 0
-pucch_pdu->add_dmrs_flag: 0
-pucch_pdu->dmrs_scrambling_id: 0
-pucch_pdu->dmrs_cyclic_shift: 0
-pucch_pdu->sr_flag: 0
-pucch_pdu->bit_len_harq: 1
-pucch_pdu->bit_len_csi_part1: 0
-pucch_pdu->bit_len_csi_part2: 0
-[PHY]   frame 282, slot 7: PUCCH signal energy 261494
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 282.7 HARQ NACK with confidence level good xrt_mag 470 xrt_mag_next 340 pucch_power_dBtimes10 480 n0 0 (0,0) pucch0_thres 100, cqi 224, SNRtimes10 480, energy 54.174617
-[0mpucch_pdu->rnti: 100
-pucch_pdu->handle: 0
-pucch_pdu->bwp_size: 106
-pucch_pdu->bwp_start: 0
-pucch_pdu->subcarrier_spacing: 1
-pucch_pdu->cyclic_prefix: 0
-pucch_pdu->format_type: 0
-pucch_pdu->multi_slot_tx_indicator: 0
-pucch_pdu->pi_2bpsk: 0
-pucch_pdu->prb_start: 0
-pucch_pdu->prb_size: 1
-pucch_pdu->start_symbol_index: 12
-pucch_pdu->nr_of_symbols: 2
-pucch_pdu->freq_hop_flag: 0
-pucch_pdu->second_hop_prb: 0
-pucch_pdu->group_hop_flag: 0
-pucch_pdu->sequence_hop_flag: 0
-pucch_pdu->hopping_id: 0
-pucch_pdu->initial_cyclic_shift: 0
-pucch_pdu->data_scrambling_id: 0
-pucch_pdu->time_domain_occ_idx: 0
-pucch_pdu->pre_dft_occ_idx: 0
-pucch_pdu->pre_dft_occ_len: 0
-pucch_pdu->add_dmrs_flag: 0
-pucch_pdu->dmrs_scrambling_id: 0
-pucch_pdu->dmrs_cyclic_shift: 0
-pucch_pdu->sr_flag: 0
-pucch_pdu->bit_len_harq: 1
-pucch_pdu->bit_len_csi_part1: 0
-pucch_pdu->bit_len_csi_part2: 0
-[PHY]   frame 283, slot 7: PUCCH signal energy 262401
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ ACK with confidence level good xrt_mag 470 xrt_mag_next 340 pucch_power_dBtimes10 510 n0 0 (0,0) pucch0_thres 100, cqi 230, SNRtimes10 510, energy 54.189655
-[0m[PHY]   frame 283, slot 7: PUCCH signal energy 0
-[0m[PHY]   [DLSCH/PDSCH/PUCCH] 283.7 HARQ NACK with confidence level bad xrt_mag 0 xrt_mag_next 0 pucch_power_dBtimes10 0 n0 0 (0,0) pucch0_thres 100, cqi 128, SNRtimes10 0, energy -inf
+[0m[NR_PHY]   [RAPROC] 279.19 Initiating RA procedure with preamble 42, energy 42.9 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
 [0m

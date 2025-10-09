@@ -9,7 +9,7 @@ CMDLINE: "/home/hpe/OnlyOAI/openairinterface5g/cmake_targets/ran_build/build/nr-
 [0m[UTIL]   threadCreate() for Tpool6_-1: creating thread with affinity ffffffff, priority 97
 [0m[UTIL]   threadCreate() for Tpool7_-1: creating thread with affinity ffffffff, priority 97
 [0m[OPT]   OPT disabled
-[0m[HW]   Version: Branch: HEAD Abrev. Hash: 6d9c2c35b8 Date: Tue Feb 18 11:37:07 2025 +0000
+[0m[HW]   Version: Branch: HEAD Abrev. Hash: 60b0c1827d Date: Wed Mar 12 07:41:54 2025 +0000
 [0m[UTIL]   Opened socket oaitun_ue1 with fd nas_sock_fd[0]=93
 [0m[PDCP]   UE pdcp will use tun interface
 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
@@ -60,11 +60,11 @@ CMDLINE: "/home/hpe/OnlyOAI/openairinterface5g/cmake_targets/ran_build/build/nr-
 [0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
 [0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
 [0m[HW]   Running as client: will connect to a rfsimulator server side
-[0mUE threads created by 1365462
+[0mUE threads created by 202315
 TYPE <CTRL-C> TO TERMINATE
 [NR_RRC]   create TASK_RRC_NRUE 
 [0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
-[0mInitializing random number generator, seed 1343111816692407020
+[0mInitializing random number generator, seed 12656488651076197233
 [HW]   [RRU] has loaded RFSIMULATOR device.
 [0m[HW]   Trying to connect to 127.0.0.1:4043
 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
@@ -89,158 +89,35 @@ TYPE <CTRL-C> TO TERMINATE
 [0m[PHY]   Initial sync: pbch decoded sucessfully, ssb index 0
 [0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
 [0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 99 dB, PSS Corr Average: 61
-[0m[PHY]   [UE0] In synch, rx_offset 491520 samples
+[0m[PHY]   [UE0] In synch, rx_offset 109696 samples
 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 6 Hz
 [0m[32m[PHY]   Initial sync successful, PCI: 1
 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200006 Hz, rx_freq 3619200006 Hz, tune_offset 0
-[0m[PHY]   Got synch: hw_slot_offset 32, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
-[0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=1 trashed_frames=12
-[0m[PHY]   Resynchronizing RX by 491520 samples
+[0m[PHY]   Got synch: hw_slot_offset 7, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
+[0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=0 trashed_frames=22
+[0m[PHY]   Resynchronizing RX by 109696 samples
 [0m[HW]   received write reorder clear context
-[0m[NR_MAC]   rnti_type = 4, format = 8
-[0m[MAC]   DLSCH riv = 480
-[0m[MAC]   DLSCH n_RB_DLBWP = 48
-[0m[MAC]   DLSCH number_rbs = 11
-[0m[MAC]   DLSCH start_rb = 0
-[0m[NR_MAC]   [150.0] HARQ process 0, TBS 704, R 3790, NDI 1
-[0m[MAC]   feedback_ti = 1
-[0m[MAC]   (nr_ue_procedures.c) rnti = ffff dl_config->number_pdus = 0
-[0m[MAC]   (nr_ue_procedures.c) frequency_domain_resource_assignment=480 	 number_rbs=11 	 start_rb=0
-[0m[MAC]   (nr_ue_procedures.c) time_domain_resource_assignment=1 	 number_symbols=10 	 start_symbol=2
-[0m[MAC]   (nr_ue_procedures.c) vrb_to_prb_mapping=0 
->>> mcs=5
->>> ndi=1
->>> rv=0
->>> harq_process_nbr=0
->>> dai=0
->>> scaling_factor_S=1.000000
->>> tpc_pucch=0
->>> pucch_res_ind=0
->>> pdsch_to_harq_feedback_time_ind=1
-[0m[MAC]   (nr_ue_procedures.c) pdu_type=4
-
 [0m[32m[NR_RRC]   SIB1 decoded
 [0m[NR_MAC]   TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
 [0m[NR_MAC]   Set TDD configuration period to: 8 DL slots, 3 UL slots, 10 slots per period (NR_TDD_UL_DL_Pattern is 7 DL slots, 2 UL slots, 6 DL symbols, 4 UL symbols)
 [0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
 [0m[MAC]   Initialization of 4-Step CBRA procedure
 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
-[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0, preambleIndex = 58
-[0m[NR_MAC]   rnti_type = 5, format = 8
-[0m[MAC]   DLSCH riv = 144
-[0m[MAC]   DLSCH n_RB_DLBWP = 48
-[0m[MAC]   DLSCH number_rbs = 4
-[0m[MAC]   DLSCH start_rb = 0
-[0m[NR_MAC]   [280.12] HARQ process 0, TBS 112, R 1200, NDI 1
-[0m[MAC]   feedback_ti = 1
-[0m[MAC]   (nr_ue_procedures.c) rnti = 10b dl_config->number_pdus = 0
-[0m[MAC]   (nr_ue_procedures.c) frequency_domain_resource_assignment=144 	 number_rbs=4 	 start_rb=0
-[0m[MAC]   (nr_ue_procedures.c) time_domain_resource_assignment=0 	 number_symbols=13 	 start_symbol=1
-[0m[MAC]   (nr_ue_procedures.c) vrb_to_prb_mapping=0 
->>> mcs=0
->>> ndi=1
->>> rv=0
->>> harq_process_nbr=0
->>> dai=0
->>> scaling_factor_S=1.000000
->>> tpc_pucch=0
->>> pucch_res_ind=0
->>> pdsch_to_harq_feedback_time_ind=1
-[0m[MAC]   (nr_ue_procedures.c) pdu_type=3
-
+[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0, preambleIndex = 42
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
-[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 58
+[0m[32m[NR_MAC]   [UE 0][RAPROC][280.12] Found RAR with the intended RAPID 42
 [0m[93m[MAC]   received TA command 31
 [0m[PHY]   RAR-Msg2 decoded
 [0m[32m[NR_MAC]   [RAPROC][280.19] RA-Msg3 transmitted
-[0m[NR_MAC]   rnti_type = 2, format = 8
-[0m[MAC]   DLSCH riv = 767
-[0m[MAC]   DLSCH n_RB_DLBWP = 48
-[0m[MAC]   DLSCH number_rbs = 34
-[0m[MAC]   DLSCH start_rb = 0
-[0m[NR_MAC]   [282.1] HARQ process 4, TBS 984, R 1200, NDI 1
-[0m[MAC]   feedback_ti = 6
-[0m[NR_MAC]   Setting harq_status for harq_id 4, dl 282.1, sched ul 282.7 fb time 6 total dai 1
-[0m[MAC]   (nr_ue_procedures.c) rnti = 64 dl_config->number_pdus = 0
-[0m[MAC]   (nr_ue_procedures.c) frequency_domain_resource_assignment=767 	 number_rbs=34 	 start_rb=0
-[0m[MAC]   (nr_ue_procedures.c) time_domain_resource_assignment=0 	 number_symbols=13 	 start_symbol=1
-[0m[MAC]   (nr_ue_procedures.c) vrb_to_prb_mapping=0 
->>> mcs=0
->>> ndi=1
->>> rv=0
->>> harq_process_nbr=4
->>> dai=0
->>> scaling_factor_S=1.000000
->>> tpc_pucch=0
->>> pucch_res_ind=0
->>> pdsch_to_harq_feedback_time_ind=6
-[0m[MAC]   (nr_ue_procedures.c) pdu_type=2
-
-[0m[MAC]   UE 0: DL-SCH ACK/NACK slot 7
-[0m[1;31m[PHY]   received all 0 pdu, consider it false reception, even if the TS 38.212 7.2.1 says only we should attach the corresponding CRC, and nothing prevents to have a all 0 packet
-[0m[NR_MAC]   rnti_type = 2, format = 8
-[0m[MAC]   DLSCH riv = 767
-[0m[MAC]   DLSCH n_RB_DLBWP = 48
-[0m[MAC]   DLSCH number_rbs = 34
-[0m[MAC]   DLSCH start_rb = 0
-[0m[NR_MAC]   [283.0] HARQ process 4, TBS 984, R 1200, NDI 0
-[0m[MAC]   feedback_ti = 7
-[0m[NR_MAC]   Setting harq_status for harq_id 4, dl 283.0, sched ul 283.7 fb time 7 total dai 1
-[0m[MAC]   (nr_ue_procedures.c) rnti = 64 dl_config->number_pdus = 0
-[0m[MAC]   (nr_ue_procedures.c) frequency_domain_resource_assignment=767 	 number_rbs=34 	 start_rb=0
-[0m[MAC]   (nr_ue_procedures.c) time_domain_resource_assignment=0 	 number_symbols=13 	 start_symbol=1
-[0m[MAC]   (nr_ue_procedures.c) vrb_to_prb_mapping=0 
->>> mcs=0
->>> ndi=0
->>> rv=1
->>> harq_process_nbr=4
->>> dai=0
->>> scaling_factor_S=1.000000
->>> tpc_pucch=0
->>> pucch_res_ind=0
->>> pdsch_to_harq_feedback_time_ind=7
-[0m[MAC]   (nr_ue_procedures.c) pdu_type=2
-
-[0m[MAC]   UE 0: DL-SCH ACK/NACK slot 7
-[0m[MAC]   [UE 0]Frame 283 Contention resolution identity: 0x139dae444d66 Terminating RA procedure
-[0m[32m[MAC]   [UE 0][283.0][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
+[0m[MAC]   [UE 0]Frame 281 Contention resolution identity: 0x1fe89d9bbbc6 Terminating RA procedure
+[0m[32m[MAC]   [UE 0][281.15][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
 [0m[RLC]   Added srb 1 to UE 0
 [0m[NR_RRC]   State = NR_RRC_CONNECTED
 [0m[NAS]   Generate Initial NAS Message: Registration Request
 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
+[0m[NAS]   [UE 0] Received NR_NAS_CONN_ESTABLISH_IND: asCause 0
 [0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
-[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[1;31m[PHY]   [UE 0] frame 716, nr_slot_rx 0, Error decoding PBCH!
-[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
-[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
-    DL harq: 1/1
-    Ul harq: 1/0 avg code rate 0.1, avg bit/symbol 2.0, avg per TB: (nb RBs 8.0, nb symbols 13.0)
 [0m[93m[HW]   Lost socket
 [0m

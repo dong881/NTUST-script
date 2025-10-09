@@ -49,23 +49,23 @@ else
     # sudo echo "Start TCPdump..."
     # sudo tcpdump -i any -nn '(proto SCTP) or (proto UDP)' -w $TCP_LOG_FILE 2>/dev/null & 
     # clean & compile OSC DU
-    cd $PATH_TO_O_DU_L2
-    # Check for changes compared to last build
-    diff_file="$PATH_TO_SCRIPT/last_changes.diff"
-    current_diff=$(git diff)
-    # Build only if changes are different from last build
-    if [ ! -f "$diff_file" ] || [ "$current_diff" != "$(cat $diff_file)" ]; then
-        cd $OSC_build_PATH
-        make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
-        if grep -q "***** ODU CLEAN COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
-            echo -e "\r\n***** ODU CLEAN COMPLETE *****\n\r"
-        fi
-        make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
-        if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
-            echo -e "\r\n***** BUILD COMPLETE *****\n\r"
-        fi
-        echo "$current_diff" > $diff_file
-    fi
+    # cd $PATH_TO_O_DU_L2
+    # # Check for changes compared to last build
+    # diff_file="$PATH_TO_SCRIPT/last_changes.diff"
+    # current_diff=$(git diff)
+    # # Build only if changes are different from last build
+    # if [ ! -f "$diff_file" ] || [ "$current_diff" != "$(cat $diff_file)" ]; then
+    #     cd $OSC_build_PATH
+    #     make clean_odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    #     if grep -q "***** ODU CLEAN COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+    #         echo -e "\r\n***** ODU CLEAN COMPLETE *****\n\r"
+    #     fi
+    #     make odu MACHINE=BIT64 MODE=TDD NFAPI=YES &>$OSC_BUILD_LOG_FILE
+    #     if grep -q "***** BUILD COMPLETE *****" "$OSC_BUILD_LOG_FILE"; then
+    #         echo -e "\r\n***** BUILD COMPLETE *****\n\r"
+    #     fi
+    #     echo "$current_diff" > $diff_file
+    # fi
     
     # clean & build OAI all
     declare -A build_paths
